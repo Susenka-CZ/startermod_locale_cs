@@ -1,10 +1,7 @@
 {
    "languages": {
-      "en-XA": {
-         "display_name": "[!!Ēņģľĭšħ!!]"
-      },
-      "en-DEV": {
-         "display_name": "English(Dev)"
+      "cs-CZ": {
+         "display_name": "Čeština"
       }
    }
 }

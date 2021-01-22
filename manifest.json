@@ -1,17 +1,21 @@
 {
    "info" : {
-      "name" : "Example mod for adding languages.", 
-      "namespace": "startermod_locale",
+
+      "name": "Čeština",
+      "namespace": "czech",
       "client_only": true,
-      "version" : 3
+      "version": 3,
+      "author": [
+              "SusenkaCZ"
+      ]
    },
+   "default_locale": "en",
+
    "mixintos" : {
       "stonehearth/locales/supported_languages.json" : "file(added_languages.json)"
    },
    "overrides": {
-      "stonehearth/locales/en-XA.json": "file(translations/stonehearth/en-XA.json)",
-      "stonehearth/locales/en-DEV.json": "file(translations/stonehearth/en-DEV.json)",
-      "rayyas_children/locales/en-XA.json": "file(translations/rayyas_children/en-XA.json)",
-      "rayyas_children/locales/en-DEV.json": "file(translations/rayyas_children/en-DEV.json)"
+      "stonehearth/locales/cs-CZ.json": "file(translations/stonehearth/cs-CZ.json)",
+      "rayyas_children/locales/cs-CZ.json": "file(translations/rayyas_children/cs-CZ.json)"
    }
 }
