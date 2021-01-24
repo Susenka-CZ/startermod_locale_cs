@@ -33,9 +33,19 @@ You cannot undo this action - Tato akce je nevratná!
 claim - Přisvojit si? (Uplatnit Nárok)
 Click to Invite - Kliknutím Pozvi (Klikni pro pozvání?)
 Emergency Un-stick - Nouzové Vyproštění
+appeal - Přitažlivost (atraktivita?)
+opinion - názor (spokojenost?, nálada?)
+Overall Opinion - Celkový Názor?
+Tastes - (Ne)Zájmy (Vkus?)
+Realease Pet - Vypustit (Vzdát se?, Uvolnit?) mazlíčka
+Befriended by [name(self.stonehearth:pet.owner)] - Spřátelený s [name(self.stonehearth:pet.owner)]
+Enable Client Game Speed Control - Povolit Ovládání Rychlosti Hry Návštěvníky (Hosty?)
+experience - pocítit? (zažívat?)
 
 
 
-
+place - umístit
+host - hostitel
+client - Návštěvník (host?)
 storage - sklad
 location - místo
