@@ -6,8 +6,8 @@
 				"eat_item": "jí [name(data.target)]",
 				"fill_storage": "plní [name(data.target)]",
 				"harvest_crop": "sklízí [name(data.target)]",
-				"harvest_resource": "získává [name(data.target)]",
-				"harvest_resource_node": "harvesting [name(data.target)]",
+				"harvest_resource": "těží [name(data.target)]",
+				"harvest_resource_node": "těží [name(data.target)]",
 				"light_firepit": "zapaluje [name(data.target)]",
 				"place_item_on_structure": "umisťuje [name(data.target)]",
 				"work_at_workshop": "vyrábí [str(data.craftable_name)]",
@@ -34,7 +34,7 @@
 				"cower": "choulí se",
 				"flee": "prchá",
 				"panic": "panikaří",
-				"mine": "těží",
+				"mine": "doluje",
 				"sleep_in_bed": "spí",
 				"sleep_on_ground": "spí na zemi",
 				"check_bait_trap": "kontroluje pasti",
@@ -43,13 +43,13 @@
 				"steal_bait": "krade návnadu",
 				"build_ladder": "staví žebřík",
 				"promote": "je povyšován",
-				"move_item_to_storage": "přenáší věc do skladu",
+				"move_item_to_storage": "přenáší předmět do skladu",
 				"teardown_ladder": "odstraňuje žebřík",
 				"drop_item_near_workshop": "pročišťuje workshop",
 				"fabricate_structure": "staví",
 				"teardown_structure": "tearing down structures",
 				"feed_pasture_animals": "krmí zvířata",
-				"restock": "doplňuje zásoby věcí",
+				"restock": "doplňuje zásoby",
 				"resting_from_injuries": "vyžaduje lékařskou pomoc",
 				"healing": "ošetřuje zranění",
 				"healing_target": "léčí [name(data.target)]",
@@ -188,10 +188,10 @@
 				"send": "Požádat o Obchod"
 			},
 			"promotion_tree": {
-				"title": "Změnit práci -",
+				"title": "Změnit Povolání -",
 				"promotion_title": "Povýšit na [str(job_name)]",
 				"text_1": "Na počest vytrvalého úsilí a houževnatosti, tímto povyšujeme:",
-				"text_current": "Tohle je hearthlingova současná práce.",
+				"text_current": "Tohle je hearthlingovo současné povolání.",
 				"choose": "vyber hearthlinga...",
 				"text_2": "[str(date)]",
 				"approve": "SCHVÁLIT",
@@ -266,7 +266,7 @@
 			},
 			"citizen_character_sheet": {
 				"title": "Info o Postavě",
-				"health": "Zdraví",
+				"health": "životy",
 				"morale": "morálka",
 				"experience": "zkušenosti",
 				"max_level": "Maximální úroveň",
@@ -282,7 +282,7 @@
 				"morale_meter": "Ukazatel Morálky",
 				"attributes": "Vlastnosti",
 				"equipment": "Vybavení",
-				"abilities": "Pracovní Schopnosti",
+				"abilities": "Schopnosti Povolání",
 				"appeal": "Přitažlivost",
 				"unknown_item": "Neobjevená Preference",
 				"morale_title": "Morálka",
@@ -309,9 +309,9 @@
 				},
 				"appeal_headings": {
 					"like": "Má Rád",
-					"like_tooltip": "Prostor je vnímaný jako krásnější za každou věc (až tři) kterou má rád.",
+					"like_tooltip": "Prostor je vnímaný jako krásnější za každý předmět (až tři), který má rád/a.",
 					"love": "Miluje",
-					"love_tooltip": "Když [str(self.stonehearth:unit_info.custom_name)] zahlédne jednu ze svých oblíbených věcí, drasticky se zlepší jeho názor na tuto oblast.",
+					"love_tooltip": "Když [str(self.stonehearth:unit_info.custom_name)] zahlédne jeden ze svých oblíbených předmětů, drasticky se zlepší jeho/její názor na tuto oblast.",
 					"dislike": "Nemá Rád",
 					"dislike_tooltip": "[str(self.stonehearth:unit_info.custom_name)] nemá rád tyto předměty a také je bude shledávat nepřitažlivé, bez ohledu na kvalitu.",
 					"current_and_target_bar": "Celkový Názor",
@@ -338,7 +338,7 @@
 					"camera_pan_2": "Nebo použij klávesnici",
 					"camera_pan_3": "Nebo stiskni kolečko myši a pohybuj s ní",
 					"camera_orbit_title": "Otáčení kamery",
-					"camera_orbit_1": "Stiskni pravé tlačitko a táhni, abys otáčel s kamerou",
+					"camera_orbit_1": "Stiskni pravé tlačitko a táhni myší, abys otáčel kamerou",
 					"camera_orbit_2": "Klávesy fungují taky",
 					"camera_zoom_title": "Přibližování a oddalování",
 					"camera_zoom_1": "Použij kolečko myši",
@@ -499,10 +499,10 @@
 				"worker_details": "Detaily",
 				"workers_list_headers": {
 					"name": "Jméno",
-					"haul": "Přenášení",
+					"haul": "Nošení",
 					"build": "Stavba",
-					"mine": "Těžba",
-					"job": "Práce",
+					"mine": "Dolování",
+					"job": "Povolání",
 					"current_activity": "Činnost",
 					"working_for": "Pracuje Pro",
 					"status": "Stav",
@@ -614,14 +614,14 @@
 				"tooltip_combat_base_damage": "Útok:",
 				"tooltip_combat_base_damage_reduction": "Obr:",
 				"tooltip_num_undeployed": "Odklizeno: [str(num_undeployed)]",
-				"tooltip_deprecated": "Legacy Item: this item is no longer obtainable in the game.",
+				"tooltip_deprecated": "Pozůstalý předmět: Tento předmět už nelze v této verzi hry získat.",
 				"death_notification": "[name(i18n_data.entity)] umřel/a.",
-				"imminent_death_notification": "[name(i18n_data.citizen)] is severely low on health!",
-				"starving_notification": "[name(i18n_data.citizen)] is starving!",
-				"unreachable_ingredient_notification": "[name(i18n_data.citizen)] can't reach some of the ingredients for crafting [str(i18n_data.crafting_order)].",
-				"where_is_food_notification": "[name(i18n_data.citizen)] can't find any food.",
-				"health_status_normal": "Normal",
-				"health": "HP",
+				"imminent_death_notification": "[name(i18n_data.citizen)] je vážně zraněný!",
+				"starving_notification": "[name(i18n_data.citizen)] hladoví!",
+				"unreachable_ingredient_notification": "[name(i18n_data.citizen)] nemůže nalézt některé přísady, aby mohl vyrobit  [str(i18n_data.crafting_order)].",
+				"where_is_food_notification": "[name(i18n_data.citizen)] nemůže nalézt žádné jídlo.",
+				"health_status_normal": "Normální",
+				"health": "Životy",
 				"gender": {
 					"male": "Muž",
 					"female": "Žena"
@@ -629,22 +629,22 @@
 			},
 			"menu": {
 				"town_menu": {
-					"display_name": "Town Info",
-					"description": "General information about your town, how your hearthlings are feeling, and the wealth you've accumulated!"
+					"display_name": "Informace o Městě",
+					"description": "Souhrné informace o tvém městě, jak se cítí tvoji hearthlingové, a bohatstí co jsi nashromáždil/a!"
 				},
 				"citizen_manager": {
-					"display_name": "Citizens",
-					"description": "Manage your hearthlings and promote them to new jobs."
+					"display_name": "Obyvatelé",
+					"description": "Spravuj svoje hearthlingy a povyš je do nového povolání."
 				},
 				"harvest_menu": {
-					"display_name": "Harvest",
-					"description": "Harvest resources or mine into the earth.",
+					"display_name": "Těžba",
+					"description": "Těž zdroje nebo kopej do země.",
 					"items": {
 						"harvest": {
-							"display_name": "Gather",
-							"description": "Gather trees, plants, and stones from the surface of the land",
-							"tip_title": "Click and drag to harvest resources",
-							"tip_description": "Right click to exit this mode"
+							"display_name": "Sběr",
+							"description": "Sbírej stromy, květiny a kameny z povrchu země",
+							"tip_title": "Klikni a táhni myší pro těžbu zdrojů",
+							"tip_description": "Tento mód opustíš kliknutím pravým tlačítkem"
 						},
 						"mine_basic": {
 							"display_name": "Mine Tunnel",

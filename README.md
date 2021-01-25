@@ -47,6 +47,8 @@ Masterwork Quality - Hustodémonskykrutopřísná Kvalita (Mistrovská)
 days - dnů/dny
 undeploy - odklidit (demontovat?)
 deploy - nasadit (smontovat)
+Legacy item - Pozůstalý předmět
+click and drag - klikni a táhni myší
 
 
 
@@ -61,3 +63,10 @@ Morale - morálka
 character sheet - Informace o Postavě
 Move to Location - Přesun na místo
 resume - Pokračovat
+item - předmět
+wealth - Bohatství
+citizens - obyvatelé
+mine - dolovat, kopat?
+haul- nosit
+harvest -těžit
+gather - sbírat
