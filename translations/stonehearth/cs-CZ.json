@@ -217,7 +217,7 @@
 				"display_name": "Menu hry více hráčů",
 				"description": "Ostatní hráči, kteří se připojili do této hry",
 				"host": "hostitel",
-				"client": "klient",
+				"client": "návštěvník",
 				"online": "online",
 				"offline": "offline",
 				"connecting": "připojování",
@@ -260,7 +260,7 @@
 				"title": "Postavit Workshop",
 				"requirements": "Požadavky",
 				"create_stockpile": "Crafterovo Skladiště",
-				"create_stockpile_description": "Do tohoto skladiště bude Crafter ukládat výrobky.<p>Pravděpodobně je dobré, umístit ho blízko pracovního stolu, ale to je tvoje rozhodnutí.",
+				"create_stockpile_description": "Do tohoto skladiště bude crafter ukládat výrobky.<p>Pravděpodobně je dobré, umístit ho blízko pracovního stolu, ale to je tvoje rozhodnutí.",
 				"page1_subtitle2": "Kliknutím na zem umístíš workshop",
 				"page2_subtitle2": "Kliknutím a tahem po zemi vytvoříš skladiště"
 			},
@@ -313,23 +313,23 @@
 					"love": "Miluje",
 					"love_tooltip": "Když [str(self.stonehearth:unit_info.custom_name)] zahlédne jednu ze svých oblíbených věcí, drasticky se zlepší jeho názor na tuto oblast.",
 					"dislike": "Nemá Rád",
-					"dislike_tooltip": "[str(self.stonehearth:unit_info.custom_name)] nemá rás tyhle předměty a také je bude shledávat nepřitažlivé, bez ohledu na kvalitu.",
-					"current_and_target_bar": "Overall Opinion",
-					"current_and_target_bar_tooltip": "[str(self.stonehearth:unit_info.custom_name)]'s opinion of their surroundings and recently visited areas.",
-					"current_arrow_tooltip": "[str(self.stonehearth:unit_info.custom_name)]'s overall opinion of the town's appeal. This affects their mood.",
-					"target_arrow_tooltip": "How [str(self.stonehearth:unit_info.custom_name)] views their immediate surroundings.  This affects their overall opinion of the town with time.",
-					"item_preferences": "[str(self.stonehearth:unit_info.custom_name)]'s Tastes"
+					"dislike_tooltip": "[str(self.stonehearth:unit_info.custom_name)] nemá rád tyto předměty a také je bude shledávat nepřitažlivé, bez ohledu na kvalitu.",
+					"current_and_target_bar": "Celkový Názor",
+					"current_and_target_bar_tooltip": "Co si [str(self.stonehearth:unit_info.custom_name)] myslí o své současné a také právě navštívené oblasti.",
+					"current_arrow_tooltip": "Co si [str(self.stonehearth:unit_info.custom_name)] myslí o celkové přitažlivosti města. Tímto je ovliňena hearthlingova nálada.",
+					"target_arrow_tooltip": "Jak [str(self.stonehearth:unit_info.custom_name)] vnímá své současné okolí. To postupem času ovliňuje hearthlingův celkový pohled na město.",
+					"item_preferences": "[str(self.stonehearth:unit_info.custom_name)] (Ne)Zájmy"
 				}
 			},
 			"pet_character_sheet": {
 				"title": "Info o Mazlíčkovi",
 				"release_pet_confirm_dialog": {
-					"title": "Release Pet",
-					"message": "Are you sure you want to release this pet back into the wild? You won't be able to get it back.",
-					"accept": "I don't want this pet.",
-					"cancel": "Wait!"
+					"title": "Uvolnit Mazlíčka",
+					"message": "Opravdu chceš vypustit tohoto mazlíčka zpátka do divočiny? Už nebude možné ho získat zpět.",
+					"accept": "Nechci tohoto mazlíčka",
+					"cancel": "Počkej!"
 				},
-				"befriended_pet_description": "Befriended by [name(self.stonehearth:pet.owner)]"
+				"befriended_pet_description": "Spřátelený s [name(self.stonehearth:pet.owner)]"
 			},
 			"tutorials": {
 				"camera": {
@@ -357,9 +357,9 @@
 				"save_autosave": "Automaticky průběžně ukládat",
 				"auto_save_prefix": "Automatické ukládání: ",
 				"save_in_progress": "Ukládání...",
-				"opt_title": "Help us make Stonehearth better!",
-				"opt_text": "Will you allow us to collect anonymous performance and gameplay data to help us tune future versions of the game?",
-				"opt_in_button": "Yes, I'll help",
+				"opt_title": "Pomožte nám udělat Stonehearth lepší!",
+				"opt_text": "Dovolíš nám sbírat anonymní data o výkonu a hratelnosti, abychom mohli zlepšit budoucí verze hry?",
+				"opt_in_button": "Ano, pomůžu",
 				"opt_out_button": "Nope",
 				"opt_thanks": "Díky!",
 				"save_delete": "Smazat",
@@ -389,36 +389,36 @@
 				"empty_string": ""
 			},
 			"multiplayer_settings": {
-				"create_new_multiplayer_game": "Create new multiplayer game",
-				"open_game_to_multiplayer": "Open game to multiplayer",
-				"allow_remote_connections": "Enable Multiplayer",
-				"allow_remote_connections_description": "Allow other players to join your game",
-				"game_speed_anarchy": "Enable Client Game Speed Control",
-				"game_speed_anarchy_description": "Allow other players to control the game speed",
-				"start": "Start",
-				"settings": "Multiplayer Settings",
-				"max_players": "Max Players",
-				"max_players_description": "Set the maximum number of players that can join",
-				"max_players_warning": "Warning: Games with more than 3 players may experience reduced performance (less responsive AI, hitching)."
+				"create_new_multiplayer_game": "Vytvořit novou hru více hráčů",
+				"open_game_to_multiplayer": "Otevřít hru pro více hračů",
+				"allow_remote_connections": "Povolit Hru Více Hráčů",
+				"allow_remote_connections_description": "Povolit jiným hráčům připojit se ke hře",
+				"game_speed_anarchy": "Povolit Ovládání Rychlosti Hry Návštěvníky",
+				"game_speed_anarchy_description": "Povolit ostatním hráčům ovládat rychlost hry",
+				"start": "Začít",
+				"settings": "Nastavení Hry Více Hráčů",
+				"max_players": "Max Hráčů ",
+				"max_players_description": "Nastav maximální počet hráčů, kteří se mohou připojit",
+				"max_players_warning": "Upozornění: Hry s více jak 3 hráči mohou pocítit nižší výkon hry (pomaleji reagující AI, škupání, zasekávání)."
 			},
 			"multiplayer_status_text": {
 				"status": {
-					"connected": "connected",
-					"connecting": "is connecting",
-					"disconnected": "disconnected",
-					"removed": "removed from game",
-					"placed_camp": "placed their camp",
-					"changed_town_name": "set their town name to"
+					"connected": "připojen",
+					"connecting": "připojuje se",
+					"disconnected": "odpojen",
+					"removed": "odstraněn ze hry",
+					"placed_camp": "umístil svůj kemp",
+					"changed_town_name": "nastavil jméno svého města na"
 				}
 			},
 			"disconnected": {
-				"disconnected": "You were disconnected",
+				"disconnected": "Byl jsi odpojen",
 				"reasons": {
-					"error": "Something has gone wrong. You've lost connection to the server.",
-					"kick": "You were disconnected by the host.",
-					"shutdown": "The server was shutdown.",
-					"closed": "Server not accepting connections",
-					"full": "Server is full"
+					"error": "Něco se pokazilo. Ztratil si spojení se serverem.",
+					"kick": "Byl jsi odpojen hostitelem. ",
+					"shutdown": "Server byl vypnut.",
+					"closed": "Server nepřijímá připojení",
+					"full": "Server je plný"
 				}
 			},
 			"steam": {
@@ -442,80 +442,80 @@
 				"party_editor_help": "Pro přidání a odebrání Hearthlingů z čety použij toto okno.",
 				"attack_banner_button": "Příkaz k Útoku",
 				"attack_banner_button_help": "Dá příkaz četě zaútočit na místo",
-				"defend_banner_button": "Rally & Defend Order",
+				"defend_banner_button": "Shromáždit & Bránit se",
 				"defend_banner_button_help": "Dá příkaz k schromáždění čety na místě, pokud je aktivován Režim Obrany Města"
 			},
 			"unit_frame": {
 				"show_character_sheet": "Ukázat informace o postavě",
 				"focus_camera": "Zaměřit kameru na tuto jednotku",
 				"attack_target": {
-					"display_name": "Attack Move",
-					"description": "Attack a specific target or location."
+					"display_name": "Útočný Přesun",
+					"description": "Útok na konkrétní cíl nebo místo."
 				},
-				"crafted_by": "Crafted by [str(author_name)]",
-				"crafted_in": "Crafted in [str(author_name)]",
+				"crafted_by": "Vyrobil/a [str(author_name)]",
+				"crafted_in": "Vyrobeno v [str(author_name)]",
 				"defend_location": {
-					"display_name": "Defend Location",
-					"description": "Defend a location from enemies."
+					"display_name": "Bránit Místo",
+					"description": "Bránit místo před nepřáteli."
 				},
 				"move_unit": {
-					"display_name": "Move to Location",
-					"description": "Move to a location without attacking."
+					"display_name": "Přesun na Místo",
+					"description": "Přesun na místo bez útočení."
 				},
 				"manage_party": {
-					"display_name": "Manage Party",
-					"description": "Add and remove combat units from the party."
+					"display_name": "Spravovat Četu",
+					"description": "Přidat nebo odebrat členy čety."
 				},
 				"cancel_order": {
-					"display_name": "Cancel Combat Order",
-					"description": "Cancels active combat orders."
+					"display_name": "Zrušit Bojový Příkaz",
+					"description": "Zruší aktivní bojové příkazy."
 				},
 				"level": "Lv: ",
 				"Lvl": "Lvl",
-				"class_lv_title": "Class and Level Requirements",
-				"no_requirements": "None!",
-				"equipment_description": "Equippable by: [str(class_list)]",
-				"level_description": "of Level [str(level_req)]",
-				"or": " or ",
-				"num_uses": "Uses",
-				"placed": "placed",
+				"class_lv_title": "Požadovaná Třída a Úroveň ",
+				"no_requirements": "Žádná!",
+				"equipment_description": "Vybavení, které může použít: [str(class_list)]",
+				"level_description": "Úrovně [str(level_req)]",
+				"or": " nebo",
+				"num_uses": "Použití",
+				"placed": "umístěn",
 				"placement_tags": {
-					"turret": "Turrets",
-					"trap": "Traps",
-					"golem": "Golems"
+					"turret": "Střelecká Věž",
+					"trap": "Past",
+					"golem": "Golemové"
 				},
 				"quality": {
-					"quality-2": "Fine Quality",
-					"quality-3": "Excellent Quality",
-					"quality-4": "Masterwork Quality!"
+					"quality-2": "Dobrá Kvalita",
+					"quality-3": "Vynikající Kvalita",
+					"quality-4": "Hustodémonskykrutopřísná Kvalita!"
 				},
 				"traveler": {
-					"gifted_by": "Gift from [str(gifter_name)]"
+					"gifted_by": "Dárek od [str(gifter_name)]"
 				}
 			},
 			"citizens": {
-				"title": "Citizens",
-				"work_orders_title": "Citizens",
-				"worker_details": "Details",
+				"title": "Obyvatelé",
+				"work_orders_title": "Obyvatelé",
+				"worker_details": "Detaily",
 				"workers_list_headers": {
-					"name": "Name",
-					"haul": "Haul",
-					"build": "Build",
-					"mine": "Mine",
-					"job": "Job",
-					"current_activity": "Activity",
-					"working_for": "Working For",
-					"status": "Status",
-					"morale": "Morale"
+					"name": "Jméno",
+					"haul": "Přenášení",
+					"build": "Stavba",
+					"mine": "Těžba",
+					"job": "Práce",
+					"current_activity": "Činnost",
+					"working_for": "Pracuje Pro",
+					"status": "Stav",
+					"morale": "Morálka"
 				},
-				"show_character_sheet": "Character Sheet",
-				"button_suspend": "suspend",
-				"button_resume": "resume",
-				"change_all": "Change All",
-				"change_all_title": "Set which town all citizens should work for",
+				"show_character_sheet": "Informace o Postavě",
+				"button_suspend": "přerušit",
+				"button_resume": "pokračovat",
+				"change_all": "Změnit Vše",
+				"change_all_title": "Nastav pro jaké město by měli všichni obyvatelé pracovat",
 				"tab": {
-					"tasks": "Tasks",
-					"groups": "Groups"
+					"tasks": "Úkoly",
+					"groups": "Skupiny"
 				},
 				"enrollment": {
 					"enrolled": "Enrolled",
@@ -524,7 +524,7 @@
 				},
 				"working_for": {
 					"title": "Change Working For",
-					"myself": "Our Town"
+					"myself": "Naše město"
 				}
 			},
 			"create_camp": {
@@ -550,14 +550,14 @@
 					"12": "Northmun"
 				},
 				"month_format": "i18n(stonehearth:ui.game.calendar.months.[str(date.month)])",
-				"date_format_long": "[str(date.day)] i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)]",
-				"date_format_long_ordinal": "[str(ord_day)] Day of i18n(stonehearth:ui.game.calendar.month_format) [str(date.year)]",
-				"date_time_long_format": "Day [str(date.day)] of i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)], [str(date.time)]",
+				"date_format_long": "Den [str(date.day)] Měsíce i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)]",
+				"date_format_long_ordinal": "[str(ord_day)] Den Měsíce i18n(stonehearth:ui.game.calendar.month_format) [str(date.year)]",
+				"date_time_long_format": "Den [str(date.day)] Měsíce i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)], [str(date.time)]",
 				"date_format_short": "i18n(stonehearth:ui.game.calendar.month_format), [str(date.day)]",
 				"weather_prefix_0": "Dnes: ",
 				"weather_prefix_1": "Zítra: ",
 				"weather_prefix_2": "Pozítří: ",
-				"season_reamining_days": "Ends in [str(num)] days.",
+				"season_reamining_days": "Skončí za [str(num)] dnů/dny.",
 				"season_reamining_day": "Končí zitra."
 			},
 			"esc_menu": {
@@ -613,9 +613,9 @@
 				},
 				"tooltip_combat_base_damage": "Útok:",
 				"tooltip_combat_base_damage_reduction": "Obr:",
-				"tooltip_num_undeployed": "Undeployed: [str(num_undeployed)]",
+				"tooltip_num_undeployed": "Odklizeno: [str(num_undeployed)]",
 				"tooltip_deprecated": "Legacy Item: this item is no longer obtainable in the game.",
-				"death_notification": "[name(i18n_data.entity)] has died.",
+				"death_notification": "[name(i18n_data.entity)] umřel/a.",
 				"imminent_death_notification": "[name(i18n_data.citizen)] is severely low on health!",
 				"starving_notification": "[name(i18n_data.citizen)] is starving!",
 				"unreachable_ingredient_notification": "[name(i18n_data.citizen)] can't reach some of the ingredients for crafting [str(i18n_data.crafting_order)].",
@@ -9601,10 +9601,10 @@
 		"hotkeys": {
 			"keys": {
 				"ui_character": {
-					"display_name": "Character Sheet"
+					"display_name": "Informace o Postavě"
 				},
 				"fight_move": {
-					"display_name": "Move to Location"
+					"display_name": "Přesun na místo"
 				},
 				"fight_attack": {
 					"display_name": "Attack Move"
