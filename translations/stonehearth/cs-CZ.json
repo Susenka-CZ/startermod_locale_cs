@@ -34,7 +34,7 @@
 				"cower": "choulí se",
 				"flee": "prchá",
 				"panic": "panikaří",
-				"mine": "doluje",
+				"mine": "kope",
 				"sleep_in_bed": "spí",
 				"sleep_on_ground": "spí na zemi",
 				"check_bait_trap": "kontroluje pasti",
@@ -92,20 +92,20 @@
 					"no": "Ne"
 				},
 				"destroy_building_confirm": {
-					"title": "Zbořit (Zničit) Vybranou Stavbu",
-					"message": "Opravdu cheš zbořit (zničit) tuto stavbu? Tato akce je nevratná!",
+					"title": "Zbořit Vybranou Stavbu",
+					"message": "Opravdu cheš zbořit tuto stavbu? Tato akce je nevratná!",
 					"yes": "Ano!",
 					"no": "Ne"
 				},
 				"save_building_confirm": {
 					"title": "Uložit Vybranou Stavbu",
-					"message": "Chceš uložit vybranou stavbu jako šablonu?",
+					"message": "Opravdu chceš uložit vybranou stavbu jako šablonu?",
 					"yes": "Ano!",
 					"no": "Ne"
 				},
 				"delete_template_confirm": {
 					"title": "Smazat šablonu",
-					"message": "Opravdu chceš smazat tuto šablonu?",
+					"message": "Jsi si jistý, že chceš smazat tuto šablonu?",
 					"yes": "Ano!",
 					"no": "Ne"
 				},
@@ -237,7 +237,7 @@
 					"continue": "Pokračovat",
 					"disconnect_player": {
 						"title": "Odpojit tohoto hráče",
-						"message": "Opravdu chceš odpojit tohoto hráče?"
+						"message": "Jsi si jistý, že chceš odpojit tohoto hráče?"
 					},
 					"erase_player": {
 						"title": "Smazat hráčův majetek",
@@ -325,7 +325,7 @@
 				"title": "Info o Mazlíčkovi",
 				"release_pet_confirm_dialog": {
 					"title": "Uvolnit Mazlíčka",
-					"message": "Opravdu chceš vypustit tohoto mazlíčka zpátka do divočiny? Už nebude možné ho získat zpět.",
+					"message": "Jsi si jistý, že chceš vypustit tohoto mazlíčka zpátka do divočiny? Už nebude možné ho získat zpět.",
 					"accept": "Nechci tohoto mazlíčka",
 					"cancel": "Počkej!"
 				},
@@ -501,7 +501,7 @@
 					"name": "Jméno",
 					"haul": "Nošení",
 					"build": "Stavba",
-					"mine": "Dolování",
+					"mine": "Kopání",
 					"job": "Povolání",
 					"current_activity": "Činnost",
 					"working_for": "Pracuje Pro",
@@ -577,7 +577,7 @@
 				},
 				"return_to_menu_dialog": {
 					"title": "Návrat do Hlavního Menu",
-					"message": "Opravdu chceš odejít a vrátit se do hlavního menu?",
+					"message": "Chceš ukončit tuto hru vrátit se do hlavního menu?",
 					"yes_button": "Ano",
 					"cancel_button": "Zrušit"
 				}
@@ -644,53 +644,53 @@
 							"display_name": "Sběr",
 							"description": "Sbírej stromy, květiny a kameny z povrchu země",
 							"tip_title": "Klikni a táhni myší pro těžbu zdrojů",
-							"tip_description": "Tento mód opustíš kliknutím pravým tlačítkem"
+							"tip_description": "Mód ukončíš stiskem pravého tlačítka."
 						},
 						"mine_basic": {
-							"display_name": "Mine Tunnel",
-							"description": "Mine out 4x4 tunnels and caves",
-							"tip_title": "Click and drag to dig",
-							"tip_description": "Hold Ctrl to subtract regions. Right click to exit."
+							"display_name": "Kopat Tunel",
+							"description": "Vykopávání tunelů a jeskyň o velikosti 4x4",
+							"tip_title": "Klikni a táhni myší pro kopání",
+							"tip_description": "Drž Ctrl pro zmenšování oblastí. Mód ukončíš stiskem pravého tlačítka."
 						},
 						"mine_custom": {
-							"display_name": "Mine Custom Block",
-							"description": "Mine blocks of custom size",
-							"tip_title": "Click and drag to dig",
-							"tip_description": "Resize horizontally with Shift + MouseWheel.<br/>Resize vertically with Alt + MouseWheel.<br/>Hold Ctrl to subtract regions.<br/>Right click to exit."
+							"display_name": "Těžba Vlastních Bloků",
+							"description": "Těž bloky vlastní velikosti",
+							"tip_title": "Klikni a táhni myší pro kopání",
+							"tip_description": "Měň vodorovnou velikost pomocí Shift + Kolečko myši.<br/>Měň svislou velikost pomocí Alt + Kolečko myši .<br/>Drž Ctrl pro zmenšování oblastí.<br/>Mód ukončíš stiskem pravého tlačítka."
 						},
 						"loot_item": {
-							"display_name": "Loot",
-							"description": "Take items from enemies",
-							"tip_title": "Click and drag to loot items from the world",
-							"tip_description": "Right click to exit this mode"
+							"display_name": "Získat Kořist",
+							"description": "Získej kořist z nepřátel",
+							"tip_title": "Klikni a táhni myší pro získání kořisti ze světa",
+							"tip_description": "Mód ukončíš stiskem pravého tlačítka."
 						},
 						"cancel_task": {
-							"display_name": "Cancel Task",
-							"description": "Cancel tasks on this object",
-							"tip_title": "Click and drag to remove various commands",
-							"tip_description": "Right click to exit this mode"
+							"display_name": "Zrušit Úkol",
+							"description": "Zruš úkoly na tomto objektu",
+							"tip_title": "Klikni a táhni myší pro zrušení různých úkolů",
+							"tip_description": "Mód ukončíš stiskem pravého tlačítka."
 						},
 						"clear_item": {
-							"display_name": "Destroy",
-							"description": "Destroy items in the world",
-							"tip_title": "Click and drag to permanently destroy items in the world",
-							"tip_description": "Right click to exit this mode",
-							"confirm_title": "Are you really sure you want to destroy these items?",
-							"confirm_message": "Usable items in the area will be permanently destroyed",
-							"confirm_clear": "Yes, destroy!",
-							"confirm_clear_no": "No! I need that stuff!"
+							"display_name": "Zničit",
+							"description": "Znič předměty na světě",
+							"tip_title": "Klikni a táhni myší pro trvalé zničení přemětů na světě",
+							"tip_description": "Mód ukončíš stiskem pravého tlačítka.",
+							"confirm_title": "Jsi si opravdu jistý, že chceš zničit tyto předměty?",
+							"confirm_message": "Použitelné předměty v oblasti budou tvale odstraněny",
+							"confirm_clear": "Ano, zničit!",
+							"confirm_clear_no": "Ne! Ještě je potřebuji!"
 						}
 					}
 				},
 				"zone_menu": {
-					"display_name": "Designate Zones",
-					"description": "Designate areas of the ground for storage, farming, etc.",
+					"display_name": "Vyznačení Zón",
+					"description": "Vyznač na zemi zóny pro farmaření, skladování, atd.",
 					"items": {
 						"create_stockpile": {
 							"display_name": "Stockpile",
 							"description": "Place a stockpile for storing resources.",
 							"tip_title": "Click and drag to create your stockpile",
-							"tip_description": "Right click to exit this mode"
+							"tip_description": "Mód ukončíš stiskem pravého tlačítka."
 						},
 						"create_farm": {
 							"display_name": "Farm",
