@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'consolasregular';
+    src: url('ConsolasRegular.eot');
+    src: url('ConsolasRegular.eot?#iefix') format('embedded-opentype'),
+        url('ConsolasRegular.woff2') format('woff2'),
+        url('ConsolasRegular.woff') format('woff'),
+        url('ConsolasRegular.ttf') format('truetype'),
+        url('ConsolasRegular.svg#ConsolasRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

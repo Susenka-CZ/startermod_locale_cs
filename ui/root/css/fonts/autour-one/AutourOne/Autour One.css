@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Autour One';
-    src: url('fonts/AutourOne-Regular.eot');
-    src: url('fonts/AutourOne-Regular.eot?#iefix') format('embedded-opentype'),
-         url('fonts/AutourOne-Regular.woff2') format('woff2'),
-         url('fonts/AutourOne-Regular.woff') format('woff'),
-         url('fonts/AutourOne-Regular.ttf')  format('truetype'),
-         url('fonts/AutourOne-Regular.svg#Autour One') format('svg');
-}

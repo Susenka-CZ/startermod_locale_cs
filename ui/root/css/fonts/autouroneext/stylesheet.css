@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'AutourOneRegular';
+    src: url('AutourOneRegular.eot');
+    src: url('AutourOneRegular.eot?#iefix') format('embedded-opentype'),
+        url('AutourOneRegular.woff2') format('woff2'),
+        url('AutourOneRegular.woff') format('woff'),
+        url('AutourOneRegular.ttf') format('truetype'),
+        url('AutourOneRegular.svg#AutourOneRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
