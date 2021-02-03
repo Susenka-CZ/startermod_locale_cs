@@ -14,11 +14,10 @@
  "default_locale": "en",
 
  "ui": {
-		"less": [
-			"file(ui/root/css/variables.less)"
+	 "less": [
+ 	 		"file(ui/root/css/variables.less)"
 		]
 	},
-
 
  "mixintos" : {
 		"stonehearth/locales/supported_languages.json" : "file(added_languages.json)"

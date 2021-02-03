@@ -2,10 +2,8 @@
     font-family: 'BadScriptRegular';
     src: url('BadScriptRegular.eot');
     src: url('BadScriptRegular.eot?#iefix') format('embedded-opentype'),
-        url('BadScriptRegular.woff2') format('woff2'),
         url('BadScriptRegular.woff') format('woff'),
-        url('BadScriptRegular.ttf') format('truetype'),
-        url('BadScriptRegular.svg#BadScriptRegular') format('svg');
+        url('BadScriptRegular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
