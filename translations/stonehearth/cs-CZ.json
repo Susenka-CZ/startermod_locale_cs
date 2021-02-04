@@ -162,7 +162,7 @@
 				"terrain_slice_vision_up_single": "Zvýšení úroveně řezu",
 				"terrain_slice_vision_down_single": "Snížení úrovně řezu",
 				"terrain_slice_vision_down": "Snížení úrovně řezu (skok o 5)",
-				"terrain_xray_vision_icon_name": "rentgen",
+				"terrain_xray_vision_icon_name": "X-Ray",
 				"terrain_xray_vision": "Rentgen terénem",
 				"terrain_xray_vision_description": "Umožňuje vidět skrz terén. Vybírej mezi plným a plochým pohledem pro zobrazení podzemních stěn.",
 				"terrain_xray_vision_flat": "plochý",
@@ -282,7 +282,7 @@
 				"morale_meter": "Ukazatel Morálky",
 				"attributes": "Vlastnosti",
 				"equipment": "Vybavení",
-				"abilities": "Schopnosti Povolání",
+				"abilities": "Povolání",
 				"appeal": "Přitažlivost",
 				"unknown_item": "Neobjevená Preference",
 				"morale_title": "Morálka",
@@ -9465,112 +9465,112 @@
 				"weather": {
 					"values": {
 						"windy_positive": {
-							"display_name": "Enjoying the breeze",
-							"tooltip": "The breeze is caressing my skin."
+							"display_name": "Užívá si vánek",
+							"tooltip": "Vánek mi hladí kůži"
 						},
 						"blizzard_negative": {
-							"display_name": "Hail knocking at my door",
-							"tooltip": "Oh, the weather outside is frightful!"
+							"display_name": "Vítr klepe na dveře",
+							"tooltip": "Venku je hrozné počasí"
 						},
 						"thunderstorm_negative": {
-							"display_name": "Scary thunder and lightning",
-							"tooltip": "That lightning bolt almost hit me!"
+							"display_name": "Děsivé hromy a blesky",
+							"tooltip": "Ten blesk mě málem trefil!"
 						},
 						"sunny_positive": {
-							"display_name": "Sunny weather",
-							"tooltip": "Endless sunshine, warmth, and blue skies."
+							"display_name": "Slunečné počasí",
+							"tooltip": "Nekonečné slunce, teplo a modré nebe."
 						},
 						"cloudy_positive": {
-							"display_name": "Fluffy clouds above my head",
-							"tooltip": "Overcast skies: perfect for lazing around on the porch."
+							"display_name": "Načechrané mraky nad hlavou",
+							"tooltip": "Zataženo: Perfektní pro válení se na verandě"
 						},
 						"sunny_negative": {
-							"display_name": "The sun's too bright",
-							"tooltip": "I have to shield my eyes just to walk outside. And don't get me started on the sunburn!"
+							"display_name": "Slunce je moc světlé",
+							"tooltip": "Musím si bránit oči abych mohl chodit venku. A to nemluvím o spálení!"
 						},
 						"thunderstorm_positive": {
-							"display_name": "Stormy weather",
-							"tooltip": "It's so exciting to hear the thunder rolling in!"
+							"display_name": "Bouřlivé počasí",
+							"tooltip": "Je tak vzrušující slyšet přicházet bouřku!"
 						},
 						"windy_negative": {
-							"display_name": "It's awful windy",
-							"tooltip": "The wind outside is biting at my skin."
+							"display_name": "Je hnusně větrno",
+							"tooltip": "Mám vítr až za nehtama"
 						},
 						"blizzard_positive": {
-							"display_name": "That's what I call weather",
-							"tooltip": "That fierce blizzard outside makes this a day to remember!"
+							"display_name": "Tomu říkám počasí",
+							"tooltip": "Ta divoká vánice dělá tenhle den nezapomenutelným!"
 						},
 						"rain_positive": {
-							"display_name": "It's raining...",
-							"tooltip": "The drip, drip, drip of the raindrops is soothing all my worries!"
+							"display_name": "Prší...",
+							"tooltip": "Kap, kap, kapání deště ukliďnuje všechny mé starosti!"
 						},
 						"cloudy_negative": {
-							"display_name": "Gloomy clouds",
-							"tooltip": "I miss sunshine."
+							"display_name": "Chmurné mraky",
+							"tooltip": "Chybí mi slunce."
 						},
 						"rain_negative": {
-							"display_name": "Pesky drizzle",
-							"tooltip": "I almost stepped in a puddle. Now my feet are cold."
+							"display_name": "Otravné mrholení",
+							"tooltip": "Málem jsem šlápnul do louže. Teď mi mrznou nohy."
 						},
 						"lucky": {
-							"display_name": "Lucky day",
-							"tooltip": "Something good is going to happen today. I just feel it!"
+							"display_name": "Šťastný den",
+							"tooltip": "Dnes se něco stane. Prostě to cítím!"
 						},
 						"snow_negative": {
-							"display_name": "Cold, cold day",
-							"tooltip": "Brrr! I can barely feel my toes."
+							"display_name": "Chladno, chladný den",
+							"tooltip": "Brrr! Skoro necítím prsty"
 						},
 						"sandstorm_negative": {
-							"display_name": "Sandstorm!",
-							"tooltip": "The sands are blowing across the landscape. Hide your poyos! Hide your sheep!"
+							"display_name": "Písečná bouře!",
+							"tooltip": "Písek lítá po krajině. Ukryjte svá poja! Ukryjte své ovce!"
 						},
 						"snow_positive": {
-							"display_name": "It's snowing...",
-							"tooltip": "The world is hushed and white with snow."
+							"display_name": "Sněží...",
+							"tooltip": "Svět je tichý a bílý."
 						},
 						"foggy_negative": {
-							"display_name": "Spooky fog",
-							"tooltip": "Was that a goblin skulking around in the fog?"
+							"display_name": "Strašidelná mlha",
+							"tooltip": "Byl to goblin co se motal v té mlze?"
 						},
 						"foggy_positive": {
-							"display_name": "Mysterious mist",
-							"tooltip": "I wonder what wonders lie beneath that mysterious mist."
+							"display_name": "Tajemná mlha",
+							"tooltip": "Jaká tajemství asi leží za tou tajemnou mlhou?"
 						},
 						"sandstorm_positive": {
-							"display_name": "Sandstorm",
-							"tooltip": "The sands always come to test our fortitude... Mine is unwavering."
+							"display_name": "Písečná bouře",
+							"tooltip": "Bouře přijde vždy otestovat naší kuráž... Má je neústupná."
 						},
 						"titanstorm_negative": {
-							"display_name": "The End Times are Upon Us!",
-							"tooltip": "The Titan's gonna destroy everything! Run for your lives!"
+							"display_name": "Konec se blíží!",
+							"tooltip": "Titan zníčí vše! Utíkejte!"
 						},
 						"titanstorm_positive": {
-							"display_name": "We Can Do This!",
-							"tooltip": "We're stronger than some 'Titan'! The evil monster's big, and it's scary, but I believe in our town!!"
+							"display_name": "To dokážeme!",
+							"tooltip": "Jsme silnější než nějaký \"Titan\"! To zlé monstrum je velké a strašidelné, ale věřím v naše město!!"
 						},
 						"sandy_negative": {
-							"display_name": "So Dusty!",
-							"tooltip": "Oh no... I have sand and dust everywere!  It's in my eyes!"
+							"display_name": "Tak prašno!",
+							"tooltip": "Ale ne.. Mám písek a prach všude! Mam to v očích!"
 						},
 						"snow_sunny_positive": {
-							"display_name": "Winter wonderland!",
-							"tooltip": "The snow is glistening from the winter sun."
+							"display_name": "Čarovná zima!",
+							"tooltip": "Sníh se leskne v záři slunce"
 						},
 						"rain_sunny_positive": {
-							"display_name": "It's raining...",
-							"tooltip": "The sun is shimmering through the rain drops..."
+							"display_name": "Prší...",
+							"tooltip": "Slunce se třpytí skrze kapky deště..."
 						},
 						"snow_sunny_negative": {
-							"display_name": "Too cold and bright!",
-							"tooltip": "I am freezing! And the sunshine reflecting off the snow too is bright!"
+							"display_name": "Přílíš chladno a jasno!",
+							"tooltip": "Mrznu! A odraz od slunce ve sněhu je moc světlý!"
 						},
 						"rain_sunny_negative": {
-							"display_name": "Ruined day.",
-							"tooltip": "This would have been a perfect day, if not for the rain."
+							"display_name": "Zkažený den.",
+							"tooltip": "Tohle by byl perfektní den, kdyby nepršelo."
 						},
 						"sandy_positive": {
-							"display_name": "Dusty",
-							"tooltip": "The dust storms remind us of the cycle of life..."
+							"display_name": "Prašno",
+							"tooltip": "Prašné bouře nám připomínají koloběh života..."
 						}
 					}
 				},
@@ -9587,12 +9587,12 @@
 				"kitties": {
 					"values": {
 						"koda": {
-							"display_name": "Pleasant Haunting",
-							"tooltip": "An adorable little ghost kitten wanted some scritches!"
+							"display_name": "Příjemné Strašení",
+							"tooltip": "Roztomilý malý duch koťátka chtěl podrbat!"
 						},
 						"jacko": {
-							"display_name": "Ferocious Ghost",
-							"tooltip": "I saw a spectral panther!  It protected the town from danger!"
+							"display_name": "Rozzuřený duch",
+							"tooltip": "Viděl jsem přízračného panthera! Ochránil město před nebezpečím!"
 						}
 					}
 				}
@@ -9610,76 +9610,76 @@
 					"display_name": "Attack Move"
 				},
 				"fight_defend": {
-					"display_name": "Defend Location"
+					"display_name": "Bránit Lokaci"
 				},
 				"fight_cancelOrders": {
 					"display_name": "Cancel Combat Order"
 				},
 				"ui_move_place_item": {
-					"display_name": "Move/Place Item"
+					"display_name": "Přesunout/Položit věc"
 				},
 				"build_roof": {
-					"display_name": "Roof Tool"
+					"display_name": "Nástroj Střecha"
 				},
 				"build_slab": {
 					"display_name": "Slab Tool"
 				},
 				"build_erase": {
-					"display_name": "Erase Tool"
+					"display_name": "Nástroj Odstranit"
 				},
 				"build_wall": {
-					"display_name": "Wall Tool"
+					"display_name": "Nástroj Zeď"
 				},
 				"build_floor_grow": {
-					"display_name": "Floor Tool"
+					"display_name": "Nástroj Podlaha"
 				},
 				"build_decoration": {
-					"display_name": "Decorations Tab"
+					"display_name": "Dekorace"
 				},
 				"build_furniture": {
-					"display_name": "Furniture Tab"
+					"display_name": "Nábytek"
 				},
 				"build_stair": {
-					"display_name": "Stair Tool"
+					"display_name": "Nástroj Schody"
 				},
 				"build_window": {
-					"display_name": "Window Tab"
+					"display_name": "Okna"
 				},
 				"build_floor": {
 					"display_name": "Foundation Tool"
 				},
 				"build_road": {
-					"display_name": "Road Tool"
+					"display_name": "Nástroj Cesta"
 				},
 				"build_door": {
-					"display_name": "Door Tab"
+					"display_name": "Dveře"
 				},
 				"build_wall_grow": {
-					"display_name": "Wall Tool"
+					"display_name": "Nástroj zeď"
 				},
 				"ui_notification_popup": {
 					"display_name": "Open Notification Popup"
 				},
 				"ui_multiplayer_chat": {
-					"display_name": "Open Chat"
+					"display_name": "Otevřít Konverzaci"
 				},
 				"ui_undeploy_item": {
 					"display_name": "Undeploy Item"
 				},
 				"ui_building_redo": {
-					"display_name": "Redo"
+					"display_name": "Obnovit"
 				},
 				"ui_building_undo": {
-					"display_name": "Undo"
+					"display_name": "Zpět"
 				},
 				"ui_building_move_support": {
-					"display_name": "Move Supported Structures"
+					"display_name": "Posunout Podporované Struktury"
 				},
 				"ui_toggle_selection": {
-					"display_name": "Add to Selection"
+					"display_name": "Přidat do výběru"
 				},
 				"build_pointer": {
-					"display_name": "Pointer Tool"
+					"display_name": "Ukazovátko"
 				},
 				"build_roofDropWalls": {
 					"display_name": "Roof Drop Walls"
@@ -9694,7 +9694,7 @@
 					"display_name": "Hole Tool"
 				},
 				"build_splitwall": {
-					"display_name": "Split Walls Tool"
+					"display_name": "Rozdělit zdi"
 				},
 				"build_roofBack": {
 					"display_name": "Roof Back"
@@ -9703,7 +9703,7 @@
 					"display_name": "Set Visibility to Roof"
 				},
 				"build_fence": {
-					"display_name": "Fence Tool"
+					"display_name": "Nástroj plot"
 				},
 				"build_roofFront": {
 					"display_name": "Roof Front"
@@ -9715,7 +9715,7 @@
 					"display_name": "Blocks Tool"
 				},
 				"build_stairs": {
-					"display_name": "Stair Tool"
+					"display_name": "Nástroj Schody"
 				},
 				"build_visdown": {
 					"display_name": "Biulding Vis Down"
@@ -9724,10 +9724,10 @@
 					"display_name": "Roof Left"
 				},
 				"build_paint": {
-					"display_name": "Paint Tool"
+					"display_name": "Nástroj Barva"
 				},
 				"build_room": {
-					"display_name": "Room Tool"
+					"display_name": "Nástroj Místnost"
 				},
 				"build_wallRadioCycle": {
 					"display_name": "Cycle Wall Visibility Normal"
@@ -9739,88 +9739,88 @@
 		},
 		"weather": {
 			"windy": {
-				"display_name": "Windy",
-				"description": "Howling winds and roaring gales sweep the lands."
+				"display_name": "Větrno",
+				"description": "Prudký vítr kvílí krajinou."
 			},
 			"thunderstorm": {
-				"display_name": "Thunderstorm",
-				"description": "Thunder rolled... It rolled a six.<ul><li>Plant growth speed is slightly increased.</li><li>Vision radius is reduced.</li><li>Unsheltered hearthlings sometimes get hit by lightning.</li><li>The ground and trees sometimes get hit by lightning.</li></ul>"
+				"display_name": "Bouře",
+				"description": "Bouře hází... Hodila šest.<ul><li>Růst rostlin je mírně zrychlen.</li><li>Viditelnost je snížena.</li><li>Hearthlingové mimo úkryt někdy trefí blesk.</li><li>Zemi a stromy někdy zasáhne blesk.</li></ul>"
 			},
 			"sunny": {
-				"display_name": "Sunny",
-				"description": "Yet another day of endless sunshine and blue skies."
+				"display_name": "Slunečno",
+				"description": "Další den nekonečného svitu a modrého nebe"
 			},
 			"snow": {
-				"display_name": "Snow",
-				"description": "Cold, frost, and sunshine: day of wonder! Why are you, friend, still deep in slumber?<ul><li>Plant growth speed is reduced.</li><li>Vision radius is slightly reduced.</li><li>Unsheltered hearthlings are too cold to work as effectively.</li><li>Unsheltered pasture animals are hurt by the cold.</li></ul>",
+				"display_name": "Zima",
+				"description": "Chlad, mráz a slunce: úžasný den! Tak proč jsi furt zahrabaný pod peřinou?<ul><li>Růst rostlin je mírně zpomalen.</li><li>Viditelnost je snížena.</li><li>Hearthlingům mimo úkryt je moc zima aby pracovali efektivně.</li><li>Zvířata mimo úkryt budou mrznout.</li></ul>",
 				"snow_sunny": {
-					"display_name": "Sunny Snow",
-					"description": "What a beautiful winter wonderland it is today!<ul><li>Plant growth speed is reduced.</li><li>Vision radius is only slightly reduced.</li><li>Unsheltered hearthlings are too cold to work as effectively.</li><li>Unsheltered pasture animals are hurt by the cold.</li></ul>"
+					"display_name": "Třpytivá zima",
+					"description": "Jaká to krásná čarovná zima!<ul><li>Růst rostlin je zpomalen.</li><li>Viditelnost je jenom mírně snížena.</li><li>Hearthlingům mimo úkryt je moc zima aby pracovali efektivně.</li><li>Zvířata mimo úkryt budou mrznout.</li></ul>"
 				}
 			},
 			"sandstorm": {
-				"display_name": "Sandstorm",
-				"description": "Cover your eyes. Cover your ears. In fact, just stay inside.<ul><li>Unsheltered hearthlings are too hot to work as effectively.</li><li>Vision radius is slightly reduced.</li><li>Clouds of sand pass across the landscape, destroying crops and hurting everyone.</li></ul>",
+				"display_name": "Písečná bouře",
+				"description": "Zakryj si oči. Zakryj si uši. No prostě zůstaň vevnitř.<ul><li>Hearthlingům mimo úkryt je moc horko aby pracovali efektivně.</li><li>Viditelnost je mírně snížena.</li><li>Oblaka písku ničí úrodu a ubližují každému, kdo se jim vplete do cesty.</li></ul>",
 				"sandy_day": {
-					"display_name": "Dusty",
-					"description": "There is sand and dust... everywhere!<ul><li>Unsheltered hearthlings are too hot to work as effectively.</li><li>Vision radius is only slightly reduced.</li></ul>"
+					"display_name": "Prašno",
+					"description": "Je tu písek a prach... Všude!<ul><li>Hearthlingům mimo úkryt je moc horko aby pracovali efektivně.</li><li>Viditelnost je jenom mírně snížena.</li></ul>"
 				}
 			},
 			"rain": {
-				"display_name": "Rain",
-				"description": "Water! Water from the skies!<ul><li>Plant growth speed is slightly increased.</li><li>Vision radius is slightly reduced.</li></ul>",
+				"display_name": "Déšť",
+				"description": "Voda! Voda z nebe!<ul><li>Růst rostlin je mírně zrychlen.</li><li>Viditelnost je mírně snížena.</li></ul>",
 				"rain_sunny": {
-					"display_name": "Partial Showers",
-					"description": "Its raining, but the sun is peaking out!<ul><li>Plant growth speed is increased.</li><li>Vision radius is only slightly reduced.</li></ul>"
+					"display_name": "Občasný déšť",
+					"description": "Prší, ale slunce vykukuje!<ul><li>Růst rostlin je zrychlen.</li><li>Viditelnost je jenom mírně snížena.</li></ul>"
 				}
 			},
 			"lucky": {
-				"display_name": "Lucky Day",
-				"description": "Today, everything is just a tiny bit better.<ul><li>Hearthlings find all their ailments healed, as if by magic.</li><li>Hearthlings are slightly luckier in everything they do.</li><li>A mysterious rainbow sometimes appears.</li></ul>",
+				"display_name": "Šťastný den",
+				"description": "Dnes, je všechno malinkato lepší.<ul><li>Všechny nemoci Hearthlingu jsou uzdraveny... Jako nějaké kouzlo.</li><li>Hearthlingové jsou ve všem uspěsnější.</li><li>Zázračná duha se občas objeví.</li></ul>",
 				"pot_of_gold": {
-					"display_name": "Pot of Gold",
-					"description": "Today's your lucky day!"
+					"display_name": "Hrnec zlata",
+					"description": "Dnes je náš šťastný den!"
 				}
 			},
 			"foggy": {
-				"display_name": "Foggy",
-				"description": "A cover of fog crawls across the landscape, hiding untold mysteries.<ul><li>Undead monsters come out of hiding under the cover of the fog.</li><li>Vision radius is greatly reduced.</li></ul>"
+				"display_name": "Mlha",
+				"description": "Mlha prochází po krajině a ukrývá skrytá tajemství.<ul><li>Nemrtvá monstra vychází z úkrytu mlhy.</li><li>Viditelnost je jenom mírně snížena.</li></ul>"
 			},
 			"cloudy": {
-				"display_name": "Cloudy",
-				"description": "Overcast skies, perfect for lazing around on the porch."
+				"display_name": "Zataženo",
+				"description": "Zataženo: Perfektní pro válení se na verandě"
 			},
 			"blizzard": {
-				"display_name": "Blizzard",
-				"description": "Wind, and snow, and hail, oh my!<ul><li>Plant growth speed is greatly reduced.</li><li>Vision radius is greatly reduced.</li><li>Unsheltered hearthlings are too cold to work as effectively.</li><li>Unsheltered pasture animals are hurt by the cold.</li></ul>"
+				"display_name": "Vánice",
+				"description": "Wind, and snow, and hail, oh my!<ul><li>Růst rostlin je velmi zrychlen.</li><li>Viditelnost je velmi snížena.</li><li>Hearthlingům mimo úkryt je moc zima aby pracovali efektivně.</li><li>Zvířata mimo úkryt budou mrznout.</li></ul>"
 			},
 			"titanstorm": {
-				"display_name": "Titan's Shadow",
-				"description": "It's garying outside, everybody! Chop tentacles on sight.",
+				"display_name": "Titanův stín",
+				"description": "Venku to zuří, Všichni! Řezejte chapadla na potkání.",
 				"titan_titles": {
-					"1": "[str(self.stonehearth:unit_info.custom_name)], Destroyer of Cubes",
+					"1": "[str(self.stonehearth:unit_info.custom_name)], Níčitel Kostek",
 					"2": "[str(self.stonehearth:unit_info.custom_name)] the Not-To-Be-Trifled-With",
-					"3": "Rancorous [str(self.stonehearth:unit_info.custom_name)]",
-					"4": "[str(self.stonehearth:unit_info.custom_name)], All-Consumer",
+					"3": "Zahořklý [str(self.stonehearth:unit_info.custom_name)]",
+					"4": "[str(self.stonehearth:unit_info.custom_name)], Požírač",
 					"5": "[str(self.stonehearth:unit_info.custom_name)], Whisperer",
-					"6": "Unknowable [str(self.stonehearth:unit_info.custom_name)]",
-					"7": "[str(self.stonehearth:unit_info.custom_name)], the Annihilator",
+					"6": "Neznámý [str(self.stonehearth:unit_info.custom_name)]",
+					"7": "[str(self.stonehearth:unit_info.custom_name)], Níčitel",
 					"8": "Despoiled [str(self.stonehearth:unit_info.custom_name)]",
-					"9": "[str(self.stonehearth:unit_info.custom_name)] the Abhorrent",
-					"10": "[str(self.stonehearth:unit_info.custom_name)] the Unforgiven",
-					"11": "[str(self.stonehearth:unit_info.custom_name)], Wretched Being",
-					"12": "Sinister [str(self.stonehearth:unit_info.custom_name)]",
-					"13": "Calamity [str(self.stonehearth:unit_info.custom_name)]",
-					"14": "[str(self.stonehearth:unit_info.custom_name)], the Disastrous",
-					"15": "Malevolent [str(self.stonehearth:unit_info.custom_name)]",
-					"16": "[str(self.stonehearth:unit_info.custom_name)], Wickedness",
+					"9": "[str(self.stonehearth:unit_info.custom_name)] Odporný",
+					"10": "[str(self.stonehearth:unit_info.custom_name)] Neodpustitelný",
+					"11": "[str(self.stonehearth:unit_info.custom_name)], Ubohá Bytost",
+					"12": "Zlověstný [str(self.stonehearth:unit_info.custom_name)]",
+					"13": "Kalamita [str(self.stonehearth:unit_info.custom_name)]",
+					"14": "[str(self.stonehearth:unit_info.custom_name)], Katastrofální",
+					"15": "Zlovolný [str(self.stonehearth:unit_info.custom_name)]",
+					"16": "[str(self.stonehearth:unit_info.custom_name)], Zlovolný",
 					"17": "[str(self.stonehearth:unit_info.custom_name)], the Null Reference",
 					"18": "[str(self.stonehearth:unit_info.custom_name)], the Beckoned",
-					"19": "[str(self.stonehearth:unit_info.custom_name)], the Antagonist",
+					"19": "[str(self.stonehearth:unit_info.custom_name)], Antagonista",
 					"20": "[str(self.stonehearth:unit_info.custom_name)] of the Sphere",
 					"21": "[str(self.stonehearth:unit_info.custom_name)] the Terror Horn",
-					"22": "[str(self.stonehearth:unit_info.custom_name)], Scourge of the Lone Tree",
-					"23": "[str(self.stonehearth:unit_info.custom_name)] the Cheeky",
+					"22": "[str(self.stonehearth:unit_info.custom_name)], Pohroma osamělého stromu",
+					"23": "[str(self.stonehearth:unit_info.custom_name)] Drzý",
 					"24": "[str(self.stonehearth:unit_info.custom_name)] the Demented",
 					"25": "[str(self.stonehearth:unit_info.custom_name)] the Desolator",
 					"26": "[str(self.stonehearth:unit_info.custom_name)], Lord of Fracas and Cacophony",
@@ -9829,20 +9829,20 @@
 				}
 			},
 			"test_weather": {
-				"display_name": "Test weather",
-				"description": "A weather that can't affect tests"
+				"display_name": "Test počasí",
+				"description": "Počasí co neovlivní testy"
 			}
 		},
 		"trapping": {
 			"all_trappable_animals": {
 				"trappable_animals": {
 					"bugs": {
-						"name": "Bug",
-						"description": "Bugs produce bug meat, used by the cook, and chitin, used in some armor recipes"
+						"name": "Hmyz",
+						"description": "Hmyz produkuje hmyzí maso, které používá kuchař, a chitin, který se používá v některých receptech brnění"
 					},
 					"critters": {
-						"name": "Small Animal",
-						"description": "Small animals produce jerky and pelts"
+						"name": "Malá Zvířata",
+						"description": "Malá zvířata produkují maso a kožešinu"
 					}
 				}
 			}
@@ -9852,298 +9852,298 @@
 		"armor": {
 			"knights_shield": {
 				"shield_talisman": {
-					"display_name": "Knight's Shield",
-					"description": "Required to promote a hearthling to a knight"
+					"display_name": "Rytířuv Štít",
+					"description": "Potřeba k povýšení na rytíře"
 				},
-				"display_name": "Knight's Shield",
-				"description": "For defending one's allies"
+				"display_name": "Rytířuv Štít",
+				"description": "Na obranu spojenců"
 			},
 			"iron_shield": {
-				"display_name": "Heavy Iron Shield",
-				"description": "Ooof. Heavy.",
+				"display_name": "Těžký Železný Štít",
+				"description": "Ooof. Těžké.",
 				"iron_shield_iconic": {
-					"display_name": "Heavy Iron Shield",
-					"description": "Ooof. Heavy."
+					"display_name": "Těžký Železný Štít",
+					"description": "Ooof. Těžké."
 				}
 			},
 			"bronze_breastplate": {
-				"display_name": "Bronze Breastplate",
-				"description": "Armor",
+				"display_name": "Bronzové Brnění",
+				"description": "Brnění",
 				"bronze_breastplate_iconic": {
-					"display_name": "Bronze Breastplate",
-					"description": "Armor"
+					"display_name": "Bronzové Brnění",
+					"description": "Brnění"
 				}
 			},
 			"cloth_padded_vest": {
-				"display_name": "Padded Vest",
-				"description": "Provides light protection in a fight.",
+				"display_name": "Polstrovaná Vesta",
+				"description": "Poskytuje lehkou obranu v boji.",
 				"cloth_padded_vest_iconic": {
-					"display_name": "Padded Vest",
-					"description": "Provides light protection in a fight. Every little bit helps!"
+					"display_name": "Polstrovaná Vesta",
+					"description": "Poskytuje lehkou obranu v boji. Každý kousek pomáhá!"
 				}
 			},
 			"iron_mail": {
-				"display_name": "Iron Mail",
-				"description": "A full suit of iron armor",
+				"display_name": "Železné Brnění",
+				"description": "Plný oblek ze železného brnění",
 				"iron_mail_iconic": {
-					"display_name": "Iron Mail",
-					"description": "A full suit of iron armor"
+					"display_name": "Železné Brnění",
+					"description": "Plný oblek ze železného brnění"
 				}
 			},
 			"leather_vest": {
-				"display_name": "Thick Leather Vest",
-				"description": "Hardened leather provides sturdy protection.",
+				"display_name": "Tlustá Kožená Vesta",
+				"description": "Tvrdá kůže poskytuje robustní obranu.",
 				"leather_vest_iconic": {
-					"display_name": "Thick Leather Vest",
-					"description": "Hardened leather provides study protection."
+					"display_name": "Tlustá Kožená Vesta",
+					"description": "Tvrdá kůže poskytuje robustní obranu."
 				}
 			},
 			"steel_mail": {
-				"display_name": "Full Platemail",
-				"description": "A full suit of steel armor",
+				"display_name": "Ocelové Brnění",
+				"description": "Plný oblek z ocelového brnění",
 				"steel_mail_iconic": {
-					"display_name": "Full Platemail",
-					"description": "A full suit of steel armor"
+					"display_name": "Ocelové Brnění",
+					"description": "Plný oblek z ocelového brnění"
 				}
 			},
 			"studded_leather_helmet": {
-				"display_name": "Studded Leather Helmet",
-				"description": "Protects your head"
+				"display_name": "Kožená přilba",
+				"description": "Chrání tvou hlavu"
 			},
 			"wooden_shield": {
-				"display_name": "Rough Wooden Buckler",
-				"description": "Crude and basic",
+				"display_name": "Drsný Dřevěný Štít",
+				"description": "Surové a základní",
 				"wooden_shield_iconic": {
-					"display_name": "Rough Wooden Buckler",
-					"description": "Crude and basic"
+					"display_name": "Drsný Dřevěný Štít",
+					"description": "Surové a základní"
 				}
 			},
 			"bronze_circlet": {
-				"display_name": "Bronze Circlet",
-				"description": "Protection for your head",
+				"display_name": "Bronzová Čelenka",
+				"description": "Ochrana pro tvou hlavu",
 				"bronze_circlet_iconic": {
-					"display_name": "Bronze Circlet",
-					"description": "Protection for your head"
+					"display_name": "Bronzová Čelenka",
+					"description": "Ochrana pro tvou hlavu"
 				}
 			},
 			"bronze_shield": {
-				"display_name": "Bronze Shield",
-				"description": "Useful for blocking attacks",
+				"display_name": "Bronzový Štít",
+				"description": "Dobré k blokování útoků",
 				"bronze_shield_iconic": {
-					"display_name": "Bronze Shield",
-					"description": "Useful for blocking attacks"
+					"display_name": "Bronzový Štít",
+					"description": "Dobré k blokování útoků"
 				}
 			},
 			"iron_coif": {
-				"display_name": "Iron Coif",
-				"description": "Protection for your head",
+				"display_name": "Řetězová přilba",
+				"description": "Ochrana pro tvou hlavu",
 				"iron_coif_iconic": {
-					"display_name": "Iron Coif",
-					"description": "Protection for your head"
+					"display_name": "Řetězová přilba",
+					"description": "Ochrana pro tvou hlavu"
 				}
 			},
 			"leather_helmet": {
-				"display_name": "Leather Skull Cap",
-				"description": "Protection for your head",
+				"display_name": "Kožená Čepice",
+				"description": "Ochrana pro tvou hlavu",
 				"leather_helmet_iconic": {
-					"display_name": "Leather Skull Cap",
-					"description": "Protection for your head"
+					"display_name": "Kožená Čepice",
+					"description": "Ochrana pro tvou hlavu"
 				}
 			},
 			"steel_helmet": {
-				"display_name": "Plate Helm",
-				"description": "Protection for your head",
+				"display_name": "Plátěná helma",
+				"description": "Ochrana pro tvou hlavu",
 				"steel_helmet_iconic": {
-					"display_name": "Steel Helmet",
-					"description": "Protection for your head"
+					"display_name": "Plátěná helma",
+					"description": "Ochrana pro tvou hlavu"
 				}
 			},
 			"steel_shield": {
-				"display_name": "Steel Shield",
-				"description": "A sturdy shield made from steel"
+				"display_name": "Ocelový Štít",
+				"description": "Solidní štít z ocele"
 			},
 			"iron_helm": {
-				"display_name": "Iron Helm",
-				"description": "Protection for your head"
+				"display_name": "Železná Helma",
+				"description": "Ochrana pro tvou hlavu"
 			},
 			"iron_circlet": {
-				"display_name": "Iron Circlet",
-				"description": "Medium head protection"
+				"display_name": "Železná Čelenka",
+				"description": "Střední ochrana hlavy"
 			},
 			"steel_circlet": {
-				"display_name": "Steel Circlet",
-				"description": "Light weight and strong protection for one's head"
+				"display_name": "Ocelová Čelenka",
+				"description": "Lehká a silná ochrana hlavy"
 			},
 			"simple_quiver": {
-				"display_name": "Spiky Quiver",
-				"description": "A light quiver of slowing arrows"
+				"display_name": "Špičatý Toulec",
+				"description": "Lehký toulec "
 			},
 			"fire_quiver": {
-				"display_name": "Fire Quiver",
-				"description": "Sets enemies on fire, dealing damage over time"
+				"display_name": "Ohnivý Toulec",
+				"description": "Zapálí nepřátelé, a způsobí poškození v průběhu času"
 			},
 			"cracked_wooden_buckler": {
-				"display_name": "Cracked Wooden Buckler",
-				"description": "Has withstood many battles"
+				"display_name": "Poníčený Dřevěný Štít",
+				"description": "Vydržel mnoho bitev."
 			},
 			"square_cracked_wooden_buckler": {
-				"display_name": "Square wooden buckler",
-				"description": "Watch out for those corners!"
+				"display_name": "Hranatý dřevěný štít",
+				"description": "Pozor na ty hrany!"
 			},
 			"silver_mail": {
-				"display_name": "Silver Mail",
-				"description": "The best armor... for now.",
+				"display_name": "Stříbrné Brnění",
+				"description": "Nejlepší brnění... pro teď.",
 				"silver_mail_iconic": {
-					"display_name": "Silver Mail",
-					"description": "The best armor... for now."
+					"display_name": "Stříbrné Brnění",
+					"description": "Nejlepší brnění... pro teď."
 				}
 			},
 			"silver_helmet": {
-				"display_name": "Silver Helmet",
+				"display_name": "Stříbrná Helma",
 				"description": "Quintessentially heroic",
 				"silver_helmet_iconic": {
-					"display_name": "Silver Helmet",
+					"display_name": "Štříbrná Helma",
 					"description": "Quintessentially heroic"
 				}
 			},
 			"cloth_padded_helmet": {
-				"display_name": "Cloth Padded Helmet",
+				"display_name": "Látkově Polstrovaná Helma",
 				"description": "Extra padding for your noggin",
 				"cloth_padded_helmet_iconic": {
-					"display_name": "Cloth Padded Helmet",
+					"display_name": "Látkově Polstrovaná Helma",
 					"description": "Extra padding for your noggin"
 				}
 			},
 			"bronze_helm": {
-				"display_name": "Bronze Helm",
-				"description": "Pretty and protective"
+				"display_name": "Bronzová Helma",
+				"description": "Pěkná a ochranná"
 			},
 			"shield_valor": {
-				"display_name": "Giant's Shield",
+				"display_name": "Obrův Štít",
 				"description": "Proudest shield in the Ascendancy",
 				"shield_valor_iconic": {
-					"display_name": "Giant's Shield",
+					"display_name": "Obrův Štít",
 					"description": "Proudest shield in the Ascendancy"
 				}
 			},
 			"circlet_valor": {
-				"display_name": "Shining Circlet",
+				"display_name": "Zářící Čelenka",
 				"description": "Squarest circlet in the Ascendancy"
 			}
 		},
 		"boulders": {
 			"large_boulder": {
 				"large_boulder_1": {
-					"display_name": "Huge Boulder",
-					"description": "Harvestable for stone"
+					"display_name": "Obrovský Balvan",
+					"description": "Vytěž pro kámen"
 				},
 				"large_boulder_2": {
-					"display_name": "Huge Boulder",
-					"description": "Harvestable for stone"
+					"display_name": "Obrovský Balvan",
+					"description": "Vytěž pro kámen"
 				},
 				"large_arctic_boulder_1": {
-					"display_name": "Huge Boulder",
-					"description": "Harvestable for stone"
+					"display_name": "Obrovský Balvan",
+					"description": "Vytěž pro kámen"
 				},
 				"large_arctic_boulder_2": {
-					"display_name": "Huge Boulder",
-					"description": "Harvestable for stone"
+					"display_name": "Obrovský Balvan",
+					"description": "Vytěž pro kámen"
 				}
 			},
 			"medium_boulder": {
 				"medium_boulder_1": {
-					"display_name": "Medium Boulder",
-					"description": "Harvestable for stone"
+					"display_name": "Střední Balvan",
+					"description": "Vytěž pro kámen"
 				},
 				"medium_boulder_2": {
-					"display_name": "Medium Boulder",
-					"description": "Harvestable for stone"
+					"display_name": "Střední Balvan",
+					"description": "Vytěž pro kámen"
 				},
 				"medium_boulder_3": {
-					"display_name": "Medium Boulder",
-					"description": "Harvestable for stone"
+					"display_name": "Střední Balvan",
+					"description": "Vytěž pro kámen"
 				},
 				"medium_arctic_boulder_1": {
-					"display_name": "Medium Boulder",
-					"description": "Harvestable for stone"
+					"display_name": "Střední Balvan",
+					"description": "Vytěž pro kámen"
 				},
 				"medium_arctic_boulder_2": {
-					"display_name": "Medium Boulder",
-					"description": "Harvestable for stone"
+					"display_name": "Střední Balvan",
+					"description": "Vytěž pro kámen"
 				},
 				"medium_arctic_boulder_3": {
-					"display_name": "Medium Boulder",
-					"description": "Harvestable for stone"
+					"display_name": "Střední Balvan",
+					"description": "Vytěž pro kámen"
 				}
 			},
 			"small_boulder": {
-				"display_name": "Small Boulder",
-				"description": "Harvestable for stone"
+				"display_name": "Malý Balvan",
+				"description": "Vytěž pro kámen"
 			},
 			"small_arctic_boulder": {
-				"display_name": "Small Boulder",
-				"description": "Harvestable for stone"
+				"display_name": "Malý Balvan",
+				"description": "Vytěž pro kámen"
 			}
 		},
 		"construction": {
 			"clay_bricks": {
-				"display_name": "Clay Bricks",
-				"description": "Used for clay structures."
+				"display_name": "Hliněné Cihly",
+				"description": "Používá se pro hliněné struktury"
 			},
 			"cobblestone_fence": {
 				"cobblestone_fence_ghost": {
-					"display_name": "Cobblestone Fence",
-					"description": "A rustic, sturdy wall segment."
+					"display_name": "Kamenný Plot",
+					"description": "Venkovský bytelný kus zdi"
 				}
 			},
 			"cobblestone_fence_gate": {
 				"cobblestone_fence_gate_ghost": {
-					"display_name": "Cobblestone Fence Gate",
-					"description": "Its thick stone walls grant a sense of security."
+					"display_name": "Kamenná Branka",
+					"description": " Jeho silné kamenné zdi dodávají pocit bezpečí\n "
 				}
 			},
 			"picket_fence": {
 				"picket_fence_ghost": {
-					"display_name": "Picket Fence",
+					"display_name": "Dřevěný Plot",
 					"description": "If it's not white, is our life unfulfilled?"
 				}
 			},
 			"picket_fence_gate": {
 				"picket_fence_gate_ghost": {
-					"display_name": "Picket Fence Gate",
-					"description": "Don't like your neighbors? Don't install."
+					"display_name": "Dřevěná Branka",
+					"description": "Aby hearthlingové nemuseli skákat přes plot."
 				}
 			},
 			"stockpile": {
-				"display_name": "Stockpile",
-				"description": "For storing things"
+				"display_name": "Skladiště",
+				"description": "Pro skladování věcí"
 			},
 			"wooden_diamond_window": {
 				"wooden_diamond_window_ghost": {
-					"display_name": "Diamond Window Frame",
-					"description": "So much for privacy..."
+					"display_name": "Diamantový Okenní Rám",
+					"description": "Tolik pro soukromí..."
 				}
 			},
 			"wooden_door": {
 				"wooden_door_ghost": {
-					"display_name": "Wooden Door",
-					"description": "Privacy at last!"
+					"display_name": "Dřevěné Dveře",
+					"description": "Konečně soukromí!"
 				}
 			},
 			"wooden_door_2": {
 				"wooden_door_2_ghost": {
-					"display_name": "Reinforced Wooden Door",
-					"description": "Sturdier than your average door."
+					"display_name": "Zesílené Dřevěné Dveře",
+					"description": "Silnější než průměrné dveře"
 				}
 			},
 			"wooden_tunnel_door": {
-				"display_name": "Wooden Tunnel Door",
-				"description": "Useful for blocking off tunnels"
+				"display_name": "Dřevěné Tunelové Dveře",
+				"description": "Užitečné k blokování tunelů"
 			},
 			"wooden_double_door": {
 				"wooden_double_door_ghost": {
-					"display_name": "Wooden Double Door",
-					"description": "A larger door. It makes quite an impression."
+					"display_name": "Dřevěné Dvojité Dveře",
+					"description": "Větší dveře. Dělá to docela dojem."
 				}
 			},
 			"amberstone_window": {
@@ -10154,74 +10154,74 @@
 			},
 			"wooden_window_frame": {
 				"wooden_window_frame_ghost": {
-					"display_name": "Wooden Window Frame",
-					"description": "So much for privacy..."
+					"display_name": "Dřevěný Okenní Rám",
+					"description": "Tolik pro soukromí..."
 				}
 			},
 			"wooden_window_frame_tall": {
 				"wooden_window_frame_tall_ghost": {
-					"display_name": "Tall Window Frame",
-					"description": "Extra height adds an air of elegance"
+					"display_name": "Vysoký Okenní Rám",
+					"description": "Extra výška dodává nádech elegance"
 				}
 			},
 			"wooden_window_frame_wide": {
 				"wooden_window_frame_wide_ghost": {
-					"display_name": "Wide Window Frame",
-					"description": "It's a panoramic view!"
+					"display_name": "Široký Okenní Rám",
+					"description": "panoramatický pohled!"
 				}
 			},
 			"golden_clay_doorframe": {
 				"golden_clay_doorframe_ghost": {
-					"display_name": "Golden Clay Doorframe",
-					"description": "Matches a golden clay exterior wall"
+					"display_name": "Zlaté Hliněné Dveře",
+					"description": "Hodí se ke zlaté zdi."
 				}
 			},
 			"red_clay_door": {
 				"red_clay_door_ghost": {
-					"display_name": "Red Clay Door",
-					"description": "Keeps the indoors cool"
+					"display_name": "Červené Hliněné Dveře",
+					"description": "Udržuje interier v chladu"
 				}
 			},
 			"red_clay_window_frame": {
 				"red_clay_window_frame_ghost": {
-					"display_name": "Red Clay Window Frame",
-					"description": "Let's the sun in."
+					"display_name": "Červený Hliněný Rám Okna",
+					"description": "Pustí slunce dovnitř"
 				}
 			},
 			"blue_clay_door": {
 				"blue_clay_door_ghost": {
-					"display_name": "Blue Clay Door",
-					"description": "Blue like a dream of ocean"
+					"display_name": "Modré Hliněné Dveře",
+					"description": "Modré jako oceán"
 				}
 			},
 			"green_clay_door": {
 				"green_clay_door_ghost": {
-					"display_name": "Green Clay Door",
-					"description": "Colored to match the desert"
+					"display_name": "Zelené Hliněné Dveře",
+					"description": "Ladí s pouští"
 				}
 			},
 			"blue_clay_window_frame": {
 				"blue_clay_window_frame_ghost": {
-					"display_name": "Blue Clay Window Frame",
-					"description": "Lets in the desert air."
+					"display_name": "Modrý Hliněný Rám Okna",
+					"description": "Pouští pouštní vánek dovnitř."
 				}
 			},
 			"green_clay_window_frame": {
 				"green_clay_window_frame_ghost": {
-					"display_name": "Green Clay Window Frame",
-					"description": "Lets in the soft desert air."
+					"display_name": "Zelený Hliněný Rám Okna",
+					"description": "Pouští pouštní vánek dovnitř."
 				}
 			},
 			"latticed_clay_window_frame": {
 				"latticed_clay_window_frame_ghost": {
-					"display_name": "Red Latticed Window",
-					"description": "The lattice still lets the good air in."
+					"display_name": "Červené Mřížované Okno",
+					"description": "Mříže stále pouštějí vzduch dovnitř."
 				}
 			},
 			"stone_tunnel_door": {
 				"stone_tunnel_door_ghost": {
-					"display_name": "Stone Tunnel Door",
-					"description": "Useful for sealing off mine tunnels."
+					"display_name": "Kamenné Tunelové Dveře",
+					"description": "Užitečné k blokování tunelů"
 				}
 			},
 			"amberstone_tunnel_door": {
@@ -10232,20 +10232,20 @@
 			},
 			"clay_tunnel_door": {
 				"clay_tunnel_door_ghost": {
-					"display_name": "Clay Tunnel Door",
-					"description": "Useful for sealing off mine tunnels"
+					"display_name": "Hliněné Tunelové Dveře.",
+					"description": "Užitečné k blokování tunelů"
 				}
 			},
 			"iron_door": {
 				"iron_door_ghost": {
-					"display_name": "Ironclad Door",
-					"description": "Studier than wooden or stone doors"
+					"display_name": "Železné Dveře",
+					"description": "Silnější než dřevěné nebo kamenné dveře."
 				}
 			},
 			"bronze_portcullis": {
 				"bronze_portcullis_ghost": {
-					"display_name": "Bronze Portcullis",
-					"description": "Useful for fortifying town entrypoints."
+					"display_name": "Bronzová Padací Mříž",
+					"description": "Užitečné k opevnění vstupu do města."
 				}
 			},
 			"wooden_door_fine": {
@@ -10308,32 +10308,32 @@
 			},
 			"blue_latticed_window": {
 				"blue_latticed_window_ghost": {
-					"display_name": "Blue Latticed Window",
-					"description": "A soothing blue latticed window"
+					"display_name": "Modré Mřížované Okno",
+					"description": "Uklidňující modré mřížové okno"
 				}
 			},
 			"green_latticed_window": {
 				"green_latticed_window_ghost": {
-					"display_name": "Green Latticed Window",
-					"description": "The latticed window you know and love, now in green!"
+					"display_name": "Zelené Mřížované Okno",
+					"description": "Mřížové okno co znáš a miluješ, nyní v zelené!"
 				}
 			},
 			"tan_clay_window_frame": {
 				"tan_clay_window_frame_ghost": {
-					"display_name": "Tan Clay Window Frame",
-					"description": "Lets the sun in"
+					"display_name": "Béžový Hliněný Rám Okna",
+					"description": "Pouští slunce dovnitř"
 				}
 			},
 			"tan_latticed_window": {
 				"tan_latticed_window_ghost": {
-					"display_name": "Tan Latticed Window",
-					"description": "The latticed window you know and love, in tan"
+					"display_name": "Béžové Mřížové Okno",
+					"description": "Mřížové okno co znáš a miluješ, v béžové"
 				}
 			},
 			"tall_clay_window": {
 				"tall_clay_window_ghost": {
-					"display_name": "Tall Clay Window",
-					"description": "Still lets in the soft desert air"
+					"display_name": "Vysoké Hliněné Okno",
+					"description": "Pouští pouštní vánek dovnitř."
 				}
 			},
 			"ornate_picket_fence": {
@@ -10366,50 +10366,50 @@
 			},
 			"cobblestone_fence_single": {
 				"cobblestone_fence_single_ghost": {
-					"display_name": "Small Cobblestone Fence",
-					"description": "A rustic, sturdy wall segment."
+					"display_name": "Malý Kamenný Plot",
+					"description": "Venkovský bytelný kus zdi"
 				}
 			},
 			"cobblestone_fence_end": {
 				"cobblestone_fence_end_ghost": {
-					"display_name": "Cobblestone Fence Post",
-					"description": "A rustic, sturdy wall segment."
+					"display_name": "Kamenný Kůl",
+					"description": "Venkovský bytelný kus zdi"
 				}
 			},
 			"picket_fence_bar_double": {
 				"picket_fence_bar_double_ghost": {
-					"display_name": "Picket Fence Large",
+					"display_name": "Dřevěný Dlouhý Plot",
 					"description": "If it's not white, is our life unfulfilled?"
 				}
 			},
 			"picket_fence_bar_single": {
 				"picket_fence_bar_single_ghost": {
-					"display_name": "Picket Fence Small",
+					"display_name": "Dřevěný Krátký Plot",
 					"description": "If it's not white, is our life unfulfilled?"
 				}
 			},
 			"picket_fence_end": {
 				"picket_fence_end_ghost": {
-					"display_name": "Picket Fence Post",
+					"display_name": "Dřevěný Kůl",
 					"description": "If it's not white, is our life unfulfilled?"
 				}
 			},
 			"clay_fence_end": {
 				"clay_fence_end_ghost": {
-					"display_name": "Clay Fence Post",
-					"description": "More decorative than protective."
+					"display_name": "Hliněný Kůl",
+					"description": "Vypadá hezky ale moc neochrání"
 				}
 			},
 			"clay_fence_bar_single": {
 				"clay_fence_bar_single_ghost": {
-					"display_name": "Clay Fence Small",
-					"description": "More decorative than protective."
+					"display_name": "Hliněný Krátký Plot",
+					"description": "Vypadá hezky ale moc neochrání"
 				}
 			},
 			"clay_fence_bar_double": {
 				"clay_fence_bar_double_ghost": {
-					"display_name": "Clay Fence Large",
-					"description": "More decorative than protective."
+					"display_name": "Hliněný Dlouhý Plot",
+					"description": "Vypadá hezky ale moc neochrání"
 				}
 			},
 			"ornate_picket_fence_end": {
@@ -10432,62 +10432,62 @@
 			},
 			"cobblestone_fence_bar_double": {
 				"cobblestone_fence_bar_double_ghost": {
-					"display_name": "Cobblestone Fence Large",
-					"description": "A rustic, sturdy wall segment."
+					"display_name": "Kamenný Dlouhý Plot",
+					"description": "Venkovský bytelný kus zdi"
 				}
 			},
 			"cobblestone_fence_bar_single": {
 				"cobblestone_fence_bar_single_ghost": {
-					"display_name": "Cobblestone Fence Small",
-					"description": "A rustic, sturdy wall segment."
+					"display_name": "Kamenný Krátký Plot",
+					"description": "Venkovský bytelný kus zdi"
 				}
 			},
 			"stone_door": {
 				"stone_door_ghost": {
-					"display_name": "Stone Door",
-					"description": "Built to Last!"
+					"display_name": "Kamenné Dveře",
+					"description": "Bytelné!"
 				}
 			},
 			"clay_fence_gate": {
 				"clay_fence_gate_ghost": {
-					"display_name": "Clay Fence Gate",
-					"description": "This decorative gate protects your fences from being broken."
+					"display_name": "Hliněná Branka",
+					"description": "Tato dekorativní branka chrání tvůj plot před zníčením"
 				}
 			},
 			"stone_window_frame": {
 				"stone_window_frame_ghost": {
-					"display_name": "Stone Window Frame",
-					"description": "Offers a little protection from the wind."
+					"display_name": "Kamenný Rám Okna",
+					"description": "Chrání trošku před větrem"
 				}
 			},
 			"stone_window_frame_wide": {
 				"stone_window_frame_wide_ghost": {
-					"display_name": "Wide Stone Window Frame",
-					"description": "It's a panoramic view!"
+					"display_name": "Široký Kamenný Rám Okna",
+					"description": "panoramatický pohled!"
 				}
 			},
 			"stone_window_frame_wide_wood": {
 				"stone_window_frame_wide_wood_ghost": {
-					"display_name": "Wide Wood and Stone Window Frame",
-					"description": "Rustic and panoramic!"
+					"display_name": "Široký Dřevěný a Kamenný Rám Okna",
+					"description": "panoramatický pohled!"
 				}
 			},
 			"stone_window_frame_wood": {
 				"stone_window_frame_wood_ghost": {
-					"display_name": "Wood and Stone Window Frame",
-					"description": "Offers a little protection from the wind."
+					"display_name": "Dřevěný a Kamenný Rám Okna",
+					"description": "Chrání trošku před větrem"
 				}
 			},
 			"stone_window_frame_tall": {
 				"stone_window_frame_tall_ghost": {
-					"display_name": "Tall Stone Window Frame",
-					"description": "Extra height adds an air of elegance"
+					"display_name": "Vysoký Kamenný Rám Okna",
+					"description": "Extra výška dodává nádech elegance"
 				}
 			},
 			"stone_window_frame_short": {
 				"stone_window_frame_short_ghost": {
-					"display_name": "Short Stone Window Frame",
-					"description": "Short can be elegant too."
+					"display_name": "Malý Kamenný Rám Okna",
+					"description": "Malé a elegantní."
 				}
 			},
 			"stone_window_frame_crossbeam": {
@@ -10498,14 +10498,14 @@
 			},
 			"stone_door_2": {
 				"stone_door_2_ghost": {
-					"display_name": "Reinforced Stone Door",
-					"description": "Sturdier than your average door."
+					"display_name": "Opevněné Kamenné Dveře",
+					"description": "Silnější než průměrné dveře"
 				}
 			},
 			"stone_double_door": {
 				"stone_double_door_ghost": {
-					"display_name": "Stone Double Door",
-					"description": "A larger door. It makes quite an impression."
+					"display_name": "Kamenné Dvojité Dveře",
+					"description": "Větší dveře. Dělá to docela dojem."
 				}
 			},
 			"picket_fence_combo": {
@@ -10536,85 +10536,85 @@
 		"containers": {
 			"large_crate": {
 				"large_crate_ghost": {
-					"display_name": "Large Crate",
-					"description": "Stores up to 32 items"
+					"display_name": "Velká Bedna",
+					"description": "Skladuje 32 předmětů"
 				}
 			},
 			"large_urn": {
 				"large_urn_ghost": {
-					"display_name": "Large Urn",
-					"description": "Stores up to 32 items"
+					"display_name": "Velká Urna",
+					"description": "Skladuje 32 předmětů"
 				}
 			},
 			"amberstone_chest": {
 				"amberstone_chest_ghost": {
-					"display_name": "Woven Chest",
-					"description": "Stores 64 items - that's 8-by-8, for the best of luck!"
+					"display_name": "Proutěná Truhla",
+					"description": "Skladuje 64 předmětu - to je 8 ku 8, pro štěstí!"
 				}
 			},
 			"leather_bound_chest": {
 				"leather_bound_chest_ghost": {
 					"display_name": "Leather Bound Chest",
-					"description": "Stores up to 64 items"
+					"description": "Skladuje 64 předmětů"
 				}
 			},
 			"small_crate": {
 				"small_crate_ghost": {
-					"display_name": "Small Crate",
-					"description": "Stores up to 8 items"
+					"display_name": "Malá Bedna",
+					"description": "Skladuje 8 předmětů"
 				}
 			},
 			"stone_chest": {
 				"stone_chest_ghost": {
-					"display_name": "Stone Chest",
-					"description": "Stores up to 64 items"
+					"display_name": "Kamenná Truhla",
+					"description": "Skladuje 64 předmětů"
 				}
 			},
 			"barrel": {
 				"barrel_ghost": {
-					"display_name": "Square Barrel",
-					"description": "Storage container"
+					"display_name": "Čtvercový Barel",
+					"description": "Sklad"
 				}
 			},
 			"small_urn": {
 				"small_urn_ghost": {
-					"display_name": "Small Urn",
-					"description": "Stores up to 8 items"
+					"display_name": "Malá Urna",
+					"description": "Skladuje 8 předmětů"
 				}
 			},
 			"vault": {
 				"vault_ghost": {
-					"display_name": "The Vault",
-					"description": "Massive storage for 256 items"
+					"display_name": "Trezor",
+					"description": "Masivní Sklad pro 256 předmětů"
 				}
 			},
 			"log_pile": {
 				"log_pile_ghost": {
-					"display_name": "Log Pile",
-					"description": "Harvest for a large number of logs"
+					"display_name": "Hromada Špalků",
+					"description": "Vytěž pro velké množství dřeva"
 				},
 				"log_pile_iconic": {
-					"description": "Harvestable for wood when placed."
+					"description": "Může být vytěženo pro dřevo."
 				}
 			},
 			"stone_pile": {
 				"stone_pile": {
-					"description": "Harvest for many hunks of stone",
-					"display_name": "Stone Pile"
+					"description": "Vytěž pro velké množství dřeva",
+					"display_name": "Hromada Kamene"
 				},
 				"stone_pile_iconic": {
-					"description": "Harvestable for stone when placed"
+					"description": "Vytěž pro velké množství kamene"
 				}
 			},
 			"clay_pile": {
-				"display_name": "Clay Pile",
-				"description": "Harvest for a large amount of clay",
-				"iconic_description": "Harvestable for clay when placed"
+				"display_name": "Hromada Jílu",
+				"description": "Vytěž pro velké množství jílu",
+				"iconic_description": "Může být vytěženo pro jíl"
 			},
 			"wheat_pile": {
-				"display_name": "Large Wheat Bundle",
-				"description": "Harvest for a large amount of wheat",
-				"iconic_description": "Harvestable for wheat when placed"
+				"display_name": "Velký Balík Pšenice",
+				"description": "Vytěž pro velké množství pšenice",
+				"iconic_description": "Může být vytěženo pro pšenici"
 			},
 			"small_crate_fine": {
 				"small_crate_fine_ghost": {
@@ -10648,19 +10648,19 @@
 			},
 			"output_box_clay": {
 				"output_box_clay_ghost": {
-					"description": "Temporary storage for crafted items.",
-					"display_name": "Clay Finished Work Shelf"
+					"description": "Dočasné uložiště pro vytvořené předměty",
+					"display_name": "Hliněná Pracovní Police"
 				}
 			},
 			"output_box_stone": {
 				"output_box_stone_ghost": {
-					"description": "Temporary storage for crafted items.",
-					"display_name": "Stone Finished Work Shelf"
+					"description": "Dočasné uložiště pro vytvořené předměty",
+					"display_name": "Kamenná Pracovní Police"
 				}
 			},
 			"output_box_amberstone": {
 				"output_box_amberstone_ghost": {
-					"description": "Temporary storage for crafted items.",
+					"description": "Dočasné uložiště pro vytvořené předměty",
 					"display_name": "Rabbit-Style Work Shelf"
 				}
 			},
