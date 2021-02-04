@@ -693,8 +693,8 @@
 							"tip_description": "Mód ukončíš stiskem pravého tlačítka."
 						},
 						"create_farm": {
-							"display_name": "Farm",
-							"description": "Place a farm on the terrain.",
+							"display_name": "Farms",
+							"description": "Umístění farmy do terénu.",
 							"required_job_text": "Requires a farmer",
 							"tip_title": "Click and drag to designate a new field",
 							"tip_description": "Farmers will break ground and plant crops here"
