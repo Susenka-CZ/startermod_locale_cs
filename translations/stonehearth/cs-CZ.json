@@ -162,7 +162,7 @@
 				"terrain_slice_vision_up_single": "Zvýšení úroveně řezu",
 				"terrain_slice_vision_down_single": "Snížení úrovně řezu",
 				"terrain_slice_vision_down": "Snížení úrovně řezu (skok o 5)",
-				"terrain_xray_vision_icon_name": "X-Ray",
+				"terrain_xray_vision_icon_name": "rtg",
 				"terrain_xray_vision": "Rentgen terénem",
 				"terrain_xray_vision_description": "Umožňuje vidět skrz terén. Vybírej mezi plným a plochým pohledem pro zobrazení podzemních stěn.",
 				"terrain_xray_vision_flat": "plochý",
@@ -687,17 +687,17 @@
 					"description": "Vyznač na zemi zóny pro farmaření, skladování, atd.",
 					"items": {
 						"create_stockpile": {
-							"display_name": "Stockpile",
-							"description": "Place a stockpile for storing resources.",
-							"tip_title": "Click and drag to create your stockpile",
+							"display_name": "Skladiště",
+							"description": "Umísti skladiště na uskladnění zdrojů.",
+							"tip_title": "Klikni a táhni myší pro vytvoření svého skladiště",
 							"tip_description": "Mód ukončíš stiskem pravého tlačítka."
 						},
 						"create_farm": {
-							"display_name": "Farms",
+							"display_name": "Farmy",
 							"description": "Umístění farmy do terénu.",
-							"required_job_text": "Requires a farmer",
-							"tip_title": "Click and drag to designate a new field",
-							"tip_description": "Farmers will break ground and plant crops here"
+							"required_job_text": "Vyžaduje farmáře",
+							"tip_title": "Klikni a táhni myší pro vyznačení nového pole",
+							"tip_description": "Farmáři rozorají půdu a zasadí do ní plodiny"
 						},
 						"create_trapping_grounds": {
 							"display_name": "Trapping Ground",
