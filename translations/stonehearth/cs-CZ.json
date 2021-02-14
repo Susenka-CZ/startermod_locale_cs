@@ -282,7 +282,7 @@
 				"morale_meter": "Ukazatel Morálky",
 				"attributes": "Vlastnosti",
 				"equipment": "Vybavení",
-				"abilities": "Povolání",
+				"abilities": "Dovednosti Povolání",
 				"appeal": "Přitažlivost",
 				"unknown_item": "Neobjevená Preference",
 				"morale_title": "Morálka",
@@ -781,29 +781,29 @@
 						},
 						"town_alert": {
 							"display_name": "Režim Ohrožení Města!",
-							"description": "Rally your hearthlings to prepare for intruders!",
-							"activated_title": "Town Alert Mode Activated!",
-							"activated_text": "Your hearthlings are vigilantly watching for intruders. Non-combat hearthlings will run to safety points."
+							"description": "Shromáždi hearthlingy aby se připravili na vetřelce!",
+							"activated_title": "Aktivován Režim Ohrožení Města!",
+							"activated_text": "Tvoji hearthlingové ostražitě sledují zda se objeví vetřelci. Nebojový hearthlingové poběží k bezpečným bodům."
 						},
 						"party_1": {
-							"display_name": "Combat Party 1",
-							"description": "Direct hearthlings with combat jobs into battle! Promoted combat units are automatically added here.",
+							"display_name": "Bojová Četa 1",
+							"description": "Veď hearthlingy s bojovými povoláními do bitvy! Sem jsou automaticky přidány povýšené bojové jednotky.",
 							"tip_title": "The party is selected in the unit frame.",
 							"tip_description": "Use the commands in the unit frame to direct the people in the party."
 						},
 						"party_2": {
-							"display_name": "Combat Party",
+							"display_name": "Bojová Četa",
 							"description": "Direct hearthlings with combat jobs into battle! Use the unit frame controls to manage the party.",
 							"tip_title": "The party is selected in the unit frame.",
 							"tip_description": "Use the commands in the unit frame to direct the people in the party."
 						},
 						"party": {
-							"required_job_text": "Requires a combat job"
+							"required_job_text": "Vyžaduje bojové povolání"
 						}
 					}
 				},
 				"crafter_menu": {
-					"display_name": "Crafters",
+					"display_name": "Řemeslníci",
 					"description": "Build and manage crafting workshops",
 					"items": {
 						"carpenter": {
