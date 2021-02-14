@@ -772,15 +772,15 @@
 					}
 				},
 				"fight_menu": {
-					"display_name": "Fight & Defend",
-					"description": "Manage your combat forces",
+					"display_name": "Boj & Obrana",
+					"description": "Řiď své vojenské jednotky",
 					"items": {
 						"party_manager": {
-							"display_name": "Parties",
-							"description": "Organize your troops into groups"
+							"display_name": "Čety",
+							"description": "Uspořadej svoje jednotky do skupin"
 						},
 						"town_alert": {
-							"display_name": "Town Alert Mode!",
+							"display_name": "Režim Ohrožení Města!",
 							"description": "Rally your hearthlings to prepare for intruders!",
 							"activated_title": "Town Alert Mode Activated!",
 							"activated_text": "Your hearthlings are vigilantly watching for intruders. Non-combat hearthlings will run to safety points."
