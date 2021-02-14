@@ -47,7 +47,7 @@
 				"teardown_ladder": "odstraňuje žebřík",
 				"drop_item_near_workshop": "pročišťuje workshop",
 				"fabricate_structure": "staví",
-				"teardown_structure": "tearing down structures",
+				"teardown_structure": "boří stavby",
 				"feed_pasture_animals": "krmí zvířata",
 				"restock": "doplňuje zásoby",
 				"resting_from_injuries": "vyžaduje lékařskou pomoc",
@@ -334,7 +334,7 @@
 			"tutorials": {
 				"camera": {
 					"camera_pan_title": "Pohyb kamery",
-					"camera_pan_1": "Hold, then move the mouse",
+					"camera_pan_1": "Drž tlačítko, a pak pohybuj myší",
 					"camera_pan_2": "Nebo použij klávesnici",
 					"camera_pan_3": "Nebo stiskni kolečko myši a pohybuj s ní",
 					"camera_orbit_title": "Otáčení kamery",
@@ -523,7 +523,7 @@
 					"cannot_enroll": "Cannot enroll"
 				},
 				"working_for": {
-					"title": "Change Working For",
+					"title": "Změnit pro koho pracuje",
 					"myself": "Naše město"
 				}
 			},
@@ -550,9 +550,9 @@
 					"12": "Northmun"
 				},
 				"month_format": "i18n(stonehearth:ui.game.calendar.months.[str(date.month)])",
-				"date_format_long": "Den [str(date.day)] Měsíce i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)]",
-				"date_format_long_ordinal": "[str(ord_day)] Den Měsíce i18n(stonehearth:ui.game.calendar.month_format) [str(date.year)]",
-				"date_time_long_format": "Den [str(date.day)] Měsíce i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)], [str(date.time)]",
+				"date_format_long": "Den [str(date.day)] měsíce i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)]",
+				"date_format_long_ordinal": "[str(ord_day)] Den měsíce i18n(stonehearth:ui.game.calendar.month_format) [str(date.year)]",
+				"date_time_long_format": "Den [str(date.day)] měsíce i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)], [str(date.time)]",
 				"date_format_short": "i18n(stonehearth:ui.game.calendar.month_format), [str(date.day)]",
 				"weather_prefix_0": "Dnes: ",
 				"weather_prefix_1": "Zítra: ",
@@ -650,13 +650,13 @@
 							"display_name": "Kopat Tunel",
 							"description": "Vykopávání tunelů a jeskyň o velikosti 4x4",
 							"tip_title": "Klikni a táhni myší pro kopání",
-							"tip_description": "Drž Ctrl pro zmenšování oblastí. Mód ukončíš stiskem pravého tlačítka."
+							"tip_description": "Drž Ctrl pro zmenšování oblastí. Skonči stiskem pravého tlačítka."
 						},
 						"mine_custom": {
 							"display_name": "Těžba Vlastních Bloků",
 							"description": "Těž bloky vlastní velikosti",
 							"tip_title": "Klikni a táhni myší pro kopání",
-							"tip_description": "Měň vodorovnou velikost pomocí Shift + Kolečko myši.<br/>Měň svislou velikost pomocí Alt + Kolečko myši .<br/>Drž Ctrl pro zmenšování oblastí.<br/>Mód ukončíš stiskem pravého tlačítka."
+							"tip_description": "Měň vodorovnou velikost pomocí Shift + Kolečko myši.<br/>Měň svislou velikost pomocí Alt + Kolečko myši .<br/>Drž Ctrl pro zmenšování oblastí.<br/>Skonči stiskem pravého tlačítka."
 						},
 						"loot_item": {
 							"display_name": "Získat Kořist",
@@ -694,80 +694,80 @@
 						},
 						"create_farm": {
 							"display_name": "Farmy",
-							"description": "Umístění farmy do terénu.",
+							"description": "Umísti farmu do terénu.",
 							"required_job_text": "Vyžaduje farmáře",
 							"tip_title": "Klikni a táhni myší pro vyznačení nového pole",
 							"tip_description": "Farmáři rozorají půdu a zasadí do ní plodiny"
 						},
 						"create_trapping_grounds": {
-							"display_name": "Trapping Ground",
-							"description": "Place traps to capture small critters.",
-							"required_job_text": "Requires a trapper",
-							"tip_title": "Click and drag to create trapping grounds",
-							"tip_description": "Trappers catch critters for food and resources in this zone"
+							"display_name": "Lovecké Pasti",
+							"description": "Umísti pasti na chytání malých tvorů.",
+							"required_job_text": "Vyžaduje trapera",
+							"tip_title": "Klikni a táhni myší pro vytvoření oblasti loveckých pastí.",
+							"tip_description": "Traperové v této oblasti chytají zvířata na jídlo a jiné zdroje"
 						},
 						"create_pasture": {
-							"display_name": "Animal Pasture",
-							"description": "The shepherd will bring animals here to graze.",
-							"required_job_text": "Requires a shepherd",
-							"tip_title": "Click and drag to create an animal pasture",
-							"tip_description": "Shepherds bring animals to this region and tend to their needs here."
+							"display_name": "Zvířecí Pastvina",
+							"description": "Pastýř sem přivede zvířata na pastvu.",
+							"required_job_text": "Vyžaduje pastýře.",
+							"tip_title": "Klikni a táhni myší pro vytvoření pastviny",
+							"tip_description": "Pastýři sem přivedou zvířata a budou se tu starat o jejich potřeby."
 						}
 					}
 				},
 				"build_menu": {
-					"display_name": "Build & Design",
-					"description": "Build structures like houses and city walls.",
+					"display_name": "Stavba & Návrh",
+					"description": "Výstavba staveb jako jsou domy nebo zdi města.",
 					"items": {
 						"building_templates": {
-							"display_name": "Place Building",
-							"description": "Choose to construct a building from a pre-designed template"
+							"display_name": "Umístit Stavbu",
+							"description": "Vyber stavbu pro zkonstruování podle šablony"
 						},
 						"custom_building": {
-							"display_name": "Design Building",
-							"description": "Design your own one-of-a-kind building"
+							"display_name": "Návrh Stavby",
+							"description": "Navrhni vlastní jedinečnou stavbu"
 						},
 						"broken_building": {
-							"display_name": "Old 'n Busted",
+							"display_name": "Staré & Rozbité",
 							"description": "Tempt fate with the old building editor!"
 						},
 						"place_item": {
-							"display_name": "Place Item",
-							"description": "Place items like furniture and decoration",
-							"tip_title": "Click to place this item",
-							"tip_description": "Rotate with [str(left_binding)] and [str(right_binding)] keys"
+							"display_name": "Umístit Předmět",
+							"description": "Umísti předměty jako nábytek nebo dekorace",
+							"tip_title": "Klikni pro umístení předmětu.",
+							"tip_description": "Otáčej pomocí kláves [str(left_binding)] a [str(right_binding)]"
 						},
 						"cannot_place_item": {
-							"tip_title": "Cannot place this item",
-							"tip_description": "Reached [str(tag)] placement limit of [str(num)] / [str(max)]"
+							"tip_title": "Předmět nelze umístit",
+							"tip_description": "Dosažen [str(tag)] limit umístění [str(num)] / [str(max)]"
 						},
 						"build_ladder": {
-							"display_name": "Construct Ladder",
-							"description": "Build a ladder to access hard to reach places",
-							"tip_title": "Click on a wall to build ladders",
-							"tip_description": "Click to manually place a ladder to access hard to reach areas.<br><br>Right click to exit"
+							"display_name": "Konstrukce Žebříku",
+							"description": "Postav žebřík, aby ses dostal na těžko dostupná místa",
+							"tip_title": "Kliknutím na zeď postavíš žebříky",
+							"tip_description": "Klikni pro ruční umístění žebříku, aby ses dostal do těžko dostupných oblastí.<br><br>Skonči stiskem pravého tlačítka "
 						}
 					}
 				},
 				"place_menu": {
-					"display_name": "Place",
-					"description": "Place objects like furniture and ladders.",
+					"display_name": "Umístit",
+					"description": "Umísti objekty jako nábytek a žebříky.",
 					"items": {
 						"place_item": {
-							"display_name": "Place Item",
-							"description": "Place items like furniture and decoration",
-							"tip_title": "Click to place this item",
-							"tip_description": "Rotate with [str(left_binding)] and [str(right_binding)] keys"
+							"display_name": "Umístit Předmět",
+							"description": "Umísti předměty jako nábytek nebo dekorace",
+							"tip_title": "Klikni pro umístení předmětu.",
+							"tip_description": "Otáčej pomocí kláves [str(left_binding)] a [str(right_binding)]"
 						},
 						"cannot_place_item": {
-							"tip_title": "Cannot place this item",
-							"tip_description": "Reached [str(tag)] item placement limit of [str(num)] / [str(max)]"
+							"tip_title": "Předmět nelze umístit",
+							"tip_description": "Dosažen [str(tag)] limit umístění [str(num)] / [str(max)]"
 						},
 						"build_ladder": {
-							"display_name": "Construct Ladder",
-							"description": "Build a ladder to access hard to reach places",
-							"tip_title": "Click on a wall to build ladders",
-							"tip_description": "Click to manually place a ladder to access hard to reach areas.<br><br>Right click to exit"
+							"display_name": "Konstrukce Žebříku",
+							"description": "Postav žebřík, aby ses dostal na těžko dostupná místa",
+							"tip_title": "Kliknutím na zeď postavíš žebříky",
+							"tip_description": "Klikni pro ruční umístění žebříku, aby ses dostal do těžko dostupných oblastí.<br><br>Skonči stiskem pravého tlačítka "
 						}
 					}
 				},
