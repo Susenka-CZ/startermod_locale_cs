@@ -993,65 +993,65 @@
 				},
 				"inventory_full": {
 					"title": "Inventář Města Plný",
-					"message": "Dosáhl jsi maximálního počtu předmětů! Každý hearthling zvyšuje celkové množství předmětů, které můžeš mít. Hertlingové nebudou získávat zdroje, pokud jejich město vlastní příliš předmětů. Skladovací nádoby se počítají jako předměty a NEzvyšují limit počtu předmětů. Prodej přebytečné předměty nebo je znič pomocí nástroje odstranění."
+					"message": "Dosáhl jsi maximálního počtu předmětů! Každý hearthling zvyšuje celkové množství předmětů, které můžeš mít. Hertlingové nebudou získávat zdroje, pokud jejich město vlastní příliš předmětů. Skladovací nádoby se počítají jako předměty a NEzvyšují limit počtu předmětů. Prodej přebytečné předměty nebo je znič pomocí nástroje mazání."
 				},
 				"max_citizens_cap": {
 					"early_warning": {
-						"title": "You've reached [str(i18n_data.num_citizens)] citizens!",
-						"message": "Congratulations! Your town has become a solid community.<br><br>A performance-related warning: More citizens mean more AI processing. Lower-spec computers may experience increased hitching, lag, and idling citizens.<br><br>If you encounter these issues, try reducing your town's maximum citizen limit in the Gameplay tab of the Settings Menu. This will prevent new settlers from joining as long as you're over that cap."
+						"title": "Dosáhl si počtu [str(i18n_data.num_citizens)] obyvatel!",
+						"message": "Blahopřejeme! Tvoje město se stalo solidní komunitou.<br><br>Upozornění ohledně výkonu: Více obyvatel znamená více práce pro AI. Méně výkonné počítače mohou pocítit vetší škubání,  lagy a nečinnost obyvatel.<br><br>Jestli narazíš na tyto problémy, zkus snížit limit maximálního počtu obyvatel města v záložce Hra v Nastavení. Tím zabráníš příchodu nových osadníků, tak dlouho dokud budeš přes limit."
 					},
 					"full_warning": {
-						"message": "You've just reached [str(i18n_data.num_citizens)] citizens, the maximum number of that can live in your town.<br><br>New citizens will no longer join your town at this point, unless you drop back below this number. <br><br><strong>Note:</strong> You can change this limit in the Gameplay tab of the Settings Menu. A small warning - having too many citizens may cause increased hitching, lag, and idling citizens.",
-						"title": "Max citizens reached!"
+						"message": "Právě jsi dosáhl [str(i18n_data.num_citizens)] obyvatel, tedy maximálního počtu, který může žít ve tvém městě.<br><br>Nový obyvatelé se nadále nebudou připojovat do dvého města, dokud se znovu nedostaneš pod tento počet. <br><br><strong>Poznámka:</strong> Tento limit můžeš změnit v záložce Hra v Nastavení. Malé varování - velké množství obyvatel může způsobit vetší škubání, lagy a nečinnost obyvatel.",
+						"title": "Dosaženo Maxima obyvatel!"
 					}
 				},
 				"quest_bulletin_dialog": {
-					"description": "Description",
-					"rewards": "Rewards"
+					"description": "Popis",
+					"rewards": "Odměny"
 				},
 				"traveler": {
 					"first": {
-						"title": "Your First Traveller!",
-						"message": "[str(i18n_data.traveler_name)] came to visit!<br><br>Travellers will stop by as long as there are beds reserved for them. They'll admire your town, chat with your citizens, shop at your markets, and even leave gifts for you if they had a pleasant visit.<br><br>Happy travellers will spread word of your town, and it will become a more popular destination over time!"
+						"title": "Tvůj První Cestovatel!",
+						"message": "[str(i18n_data.traveler_name)] přišel na návštěvu!<br><br>Cestovatelé budou přicházet tak dlouho dokud pro ně bude zarezervovaná postel. Budou se kochat tvým městem, povídat si s obyvately, nakupovat v obchodech, a když se jim bude návštěva líbit, nechají ti dárky.<br><br>Šťastní cestovatelé rozšíří zprávu o tvém městě, a to se pak časem stane populárnější destinací!"
 					},
 					"summary": {
-						"title": "Traveller Summary",
-						"text": "The travellers loved your town today! They left these gifts for you:",
-						"gifted_by": "Gift from [str(gifter)]"
+						"title": "Souhrn Pobytu Cestovatelů",
+						"text": "Cestovatelům se dnes tvoje město opravdu líbilo! Nechali tu pro tebe tyto dárky:",
+						"gifted_by": "Dárek od [str(gifter)]"
 					}
 				}
 			},
 			"build_mode2": {
 				"tooltips": {
-					"pointer_tool": "Pointer",
-					"room_tool": "Rooms",
-					"wall_tool": "Walls",
-					"split_wall_tool": "Split Walls",
-					"roof_tool": "Roofs",
-					"blocks_tool": "Blocks",
-					"paint_tool": "Paint",
-					"hole_tool": "Holes",
-					"stairs_tool": "Stairs",
-					"road_tool": "Roads",
-					"fence_tool": "Fences",
-					"terrain_tool": "Terrain",
-					"windows": "Windows",
-					"furniture": "Furniture",
-					"doors": "Doors",
-					"decorations": "Decorations",
-					"erase_tool": "Erase",
-					"undo_tool": "Undo",
-					"redo_tool": "Redo",
-					"new_building": "New Building",
-					"save_building": "Save Building",
-					"template_list": "Templates",
-					"destroy": "Destroy Building",
-					"wood_resource": "Wood",
-					"clay_resource": "Clay",
-					"stone_resource": "Stone",
+					"pointer_tool": "Ukazovátko",
+					"room_tool": "Pokoje",
+					"wall_tool": "Zdi",
+					"split_wall_tool": "Rozdělit Zdi",
+					"roof_tool": "Střechy",
+					"blocks_tool": "Bloky",
+					"paint_tool": "Malovat",
+					"hole_tool": "Díry",
+					"stairs_tool": "Schody",
+					"road_tool": "Cesty",
+					"fence_tool": "Ploty",
+					"terrain_tool": "Terén",
+					"windows": "Okna",
+					"furniture": "Nábytek",
+					"doors": "Dveře",
+					"decorations": "Dekorace",
+					"erase_tool": "Smazat",
+					"undo_tool": "Vrátit Zpět",
+					"redo_tool": "Obnovit",
+					"new_building": "Nová Stavba",
+					"save_building": "Uložit Stavbu",
+					"template_list": "Šablony",
+					"destroy": "Zničit Stavbu",
+					"wood_resource": "Dřevo",
+					"clay_resource": "Jíl",
+					"stone_resource": "Kámen",
 					"disabled": {
-						"destroy": "Can't destroy buildings you don't own.",
-						"build": "Can't build, pause, or resume buildings you don't own."
+						"destroy": "Nemůžeš zničit stavby, které nejsou tvoje.",
+						"build": "Nemůžeš stavět, pozastavit nebo pokračovat ve stavbě, kterou nevlastníš."
 					}
 				},
 				"build_mode_title": "Build & Design",
