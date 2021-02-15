@@ -943,57 +943,57 @@
 					"happiness_requirement_all": "[str(value)] (všichni)",
 					"gold_label": {
 						"give": "Jmění",
-						"have": "Gold on hand",
-						"spent": "Gold spent via trade",
-						"earned": "Gold earned via trade"
+						"have": "Požitelné jmění",
+						"spent": "Jmění utracené obchodováním",
+						"earned": "Jmění vydělané obchodováním"
 					},
-					"net_worth_label": "Net worth",
+					"net_worth_label": "Čisté jmění",
 					"placed_item_label": "[str(itemName)] placed",
 					"quality_label": {
-						"quality_2": "Fine quality items owned",
-						"quality_3": "Excellent quality items owned",
-						"quality_4": "Masterwork quality items owned"
+						"quality_2": "Vlastněné předměty dobré kvality",
+						"quality_3": "Vlastněné předměty vynikající kvality",
+						"quality_4": "Vlastněné předměty hustodémonskykrutopřísné kvality"
 					}
 				},
 				"dispatch_quest": {
-					"abandon": "Abandon",
-					"dispatch": "Dispatch",
-					"selected": "Selected",
-					"select": "Select",
-					"deselect": "Deselect"
+					"abandon": "Opustit",
+					"dispatch": "Odeslat",
+					"selected": "Vybráno",
+					"select": "Vybrat",
+					"deselect": "Zrušit vyběr"
 				},
 				"reembarkation": {
-					"title": "A new adventure awaits!",
-					"dismiss": "Maybe Later",
-					"reject": "Maybe Next Month",
-					"confirm": "Depart",
-					"prompt": "Select a crew to depart on a new adventure, and choose items for them to take along!"
+					"title": "Nové dobrodrušství čeká!",
+					"dismiss": "Možná Později",
+					"reject": "Možná Příští Měsíc",
+					"confirm": "Odcestovat",
+					"prompt": "Vyber skupinu, která odcestuje za novým dobrodružstvím, a vyber jim předměty na cestu!"
 				},
 				"town_upgrade_choice": {
-					"title": "Official Settlement Declaration",
-					"name_header": "Choose a name for your settlement!",
-					"name_prompt": "Name:",
-					"banner_prompt": "Choose settlement path:",
-					"complete": "Issue Declaration!"
+					"title": "Officiální Prohlášení Osady",
+					"name_header": "Zvol jméno své osady!",
+					"name_prompt": "Jméno:",
+					"banner_prompt": "Vyber cestu osady:",
+					"complete": "Vydat Prohlášení!"
 				},
 				"immigration_report": {
-					"title": "Daily Update",
-					"immigration_report_title": "Immigration Report",
-					"population_label": "[str(town_name)] population",
-					"next_requirements_label": "Next hearthling requirements...",
+					"title": "Denní Aktualizace",
+					"immigration_report_title": "Hlášení o Imigraci",
+					"population_label": "[str(town_name)] populace",
+					"next_requirements_label": "Požadavky na dalšího hearthlinga...",
 					"tooltips": {
-						"food": "Higher quality food provides higher food scores.",
-						"morale": "Keep your hearthlings safe, well-fed, and comfortable to improve morale.",
-						"net_worth": "Estimated value of your town. Collect items, accumulate gold and build buildings to increase your net worth."
+						"food": "Jídlo vyšší kvality dává vyšší jídlení skóre.",
+						"morale": "Morálku zlepšíš, když se tvoji heratlingové budou cícit pohodlně, bezpečně a budou dobře živení.",
+						"net_worth": "Odhadovaná hodnota tvého města. Sbírej předměty, shromažďuj zlato a stav budovy, abys si zvýšil čisté jmění."
 					}
 				},
 				"collection_quest": {
-					"pay": "Here you go!",
-					"cancel": "I've changed my mind"
+					"pay": "Tady to máš!",
+					"cancel": "Rozmyslel jsem si to"
 				},
 				"inventory_full": {
-					"title": "Town Items Full",
-					"message": "You've reached the maximum number of items! Each hearthling increases the total number of items your town can have. Hearthlings will not harvest resources if their town owns too many items. Storage containers count as items and do NOT increase your item limit. Sell off the extra items or destroy them using the clear item tool."
+					"title": "Inventář Města Plný",
+					"message": "Dosáhl jsi maximálního počtu předmětů! Každý hearthling zvyšuje celkové množství předmětů, které můžeš mít. Hertlingové nebudou získávat zdroje, pokud jejich město vlastní příliš předmětů. Skladovací nádoby se počítají jako předměty a NEzvyšují limit počtu předmětů. Prodej přebytečné předměty nebo je znič pomocí nástroje odstranění."
 				},
 				"max_citizens_cap": {
 					"early_warning": {
