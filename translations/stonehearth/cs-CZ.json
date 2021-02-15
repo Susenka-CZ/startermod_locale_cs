@@ -146,7 +146,7 @@
 				"pause_description": "Pozastavit hru",
 				"play_title": "Pustit",
 				"play_description": "Pustit hru s normální rychlostí",
-				"ff_title": "Fast Forward",
+				"ff_title": "Větší Rychlost",
 				"ff_description": "Pustit hru s dvojitou rychlostí",
 				"speedThree_title": "Super Rychlost",
 				"speedThree_description": "Pustit hru s vysokou rychlostí",
@@ -295,7 +295,7 @@
 				"backpack_tab_name": "Batoh",
 				"journal_no_entries": "žádné záznamy",
 				"retired": "Odstoupil na:",
-				"traits": "Traits",
+				"traits": "Rysy",
 				"above": "nad",
 				"below": "pod",
 				"currently": "V Současnosti:",
@@ -804,145 +804,145 @@
 				},
 				"crafter_menu": {
 					"display_name": "Řemeslníci",
-					"description": "Build and manage crafting workshops",
+					"description": "Postav a spravuj řemeslnické dílny",
 					"items": {
 						"carpenter": {
-							"display_name": "Carpenter Craft Menu",
-							"description": "Build wooden furniture and decor.",
-							"required_job_text": "Requires a carpenter"
+							"display_name": "Výrobní Menu Tesaře",
+							"description": "Vyrábí dřevěné vybavení a dekorace",
+							"required_job_text": "Vyžaduje tesaře"
 						},
 						"weaver": {
-							"display_name": "Weaver Craft Menu",
-							"description": "Create clothes, fabrics, and decor.",
-							"required_job_text": "Requires a weaver"
+							"display_name": "Výrobní Menu Tkalce",
+							"description": "Vytváří oblečení, látky a dekorace.",
+							"required_job_text": "Vyžaduje tkalce"
 						},
 						"mason": {
-							"display_name": "Mason Craft Menu",
-							"description": "Chisel stone weapons and furniture.",
-							"required_job_text": "Requires a mason"
+							"display_name": "Výrobní Menu Kameníka",
+							"description": "Vytesá kamenné zbraně a vybavení. ",
+							"required_job_text": "Vyžaduje kameníka"
 						},
 						"blacksmith": {
-							"display_name": "Blacksmith Craft Menu",
-							"description": "Smelt ore for weapons and armor.",
-							"required_job_text": "Requires a blacksmith"
+							"display_name": "Výrobní menu Kováře",
+							"description": "Přetavuje rudy na zbraně a brnění.",
+							"required_job_text": "Vyžaduje kováře"
 						},
 						"cook": {
-							"display_name": "Cook Craft Menu",
-							"description": "Makes food taste better and last longer.",
-							"required_job_text": "Requires a cook"
+							"display_name": "Výrobní Menu Kuchaře",
+							"description": "Dělá jídlo chutnější a trvanlivější.",
+							"required_job_text": "Vyžaduje kuchaře"
 						},
 						"potter": {
-							"display_name": "Potter Craft Menu",
-							"description": "Makes bricks and goods from clay.",
-							"required_job_text": "Requires a potter"
+							"display_name": "Výrobní Menu Hrnčíře",
+							"description": "Vyrábí cihly a věci z jílu.",
+							"required_job_text": "Vyžduje hrnčíře"
 						},
 						"herbalist": {
-							"display_name": "Herbalist Craft Menu",
-							"description": "Makes healing items from herbs.",
-							"required_job_text": "Requires an herbalist"
+							"display_name": "Výrobní Menu Bylinkáře",
+							"description": "Připravuje léčivé předměty z bylinek.",
+							"required_job_text": "Vyžaduje bylinkáře."
 						},
 						"engineer": {
-							"display_name": "Engineer Craft Menu",
-							"description": "Make contraptions and defensive weaponry",
-							"required_job_text": "Requires an engineer"
+							"display_name": "Výrobní Menu Technika",
+							"description": "Vyrábí zlepšováky a obrannou techniku.",
+							"required_job_text": "Vyžaduje technika"
 						},
 						"geomancer": {
-							"display_name": "Geomancer Craft Menu",
-							"description": "Imbue summoning stones and golems",
-							"required_job_text": "Requires a geomancer"
+							"display_name": "Výrobní Menu Geomancera",
+							"description": "Vyvolává kameny a vytváří golemy.",
+							"required_job_text": "Vyžaduje geomancera"
 						}
 					}
 				},
 				"bulletin_manager": {
-					"display_name": "Bulletins",
-					"description": "Important notifications about the world and your town"
+					"display_name": "Zpravodaje",
+					"description": "Důležité informace o světě a tvém městě."
 				},
 				"tasks_manager": {
-					"display_name": "Manage Tasks",
-					"description": "Do task stuff.",
-					"remove_stockpile": "Remove Stockpile",
-					"pause_stockpile": "Pause",
-					"resume_stockpile": "Resume",
+					"display_name": "Řízení Úkolů",
+					"description": "Dělá věci k úkolům.",
+					"remove_stockpile": "Odstranit Skladiště",
+					"pause_stockpile": "Pozastavit",
+					"resume_stockpile": "Znovu Spustit",
 					"group": {
-						"stockpiles": "Stockpiles",
-						"building": "Building",
-						"placement": "Placed Items",
-						"maintenance": "General Maintenance",
-						"farming": "Farming",
-						"harvesting": "Harvesting",
-						"mining": "Mining",
-						"trapping": "Trapping"
+						"stockpiles": "Skladiště",
+						"building": "Stavby",
+						"placement": "Umístěné Předměty",
+						"maintenance": "Obecná Údržba",
+						"farming": "Farmaření",
+						"harvesting": "Sklizeň/Těžba",
+						"mining": "Kopání",
+						"trapping": "Chytání do Pastí"
 					},
-					"percent_full": "[str(percent)] Percent Full",
-					"active": "active",
-					"paused": "paused"
+					"percent_full": "Zaplněno [str(percent)] Procent",
+					"active": "aktivní",
+					"paused": "pozastavené"
 				},
 				"warnings": {
-					"town_inventory_full": "Town Items Full"
+					"town_inventory_full": "Inventář Města Plný"
 				}
 			},
 			"bulletin": {
-				"bulletin_list_title": "Notifications",
+				"bulletin_list_title": "Oznámení",
 				"shop": {
-					"buy_1": "Buy 1",
-					"buy_10": "Buy 10",
-					"buy_all": "Buy All",
-					"sell_1": "Sell 1",
-					"sell_10": "Sell 10",
-					"sell_all": "Sell All",
-					"buy_tab": "Buy",
-					"sell_tab": "Sell",
-					"shop_gold_label": "Gold",
-					"shopkeeper_gold_label": "Merchant gold",
-					"not_enough_gold_tooltip": "Not enough gold",
-					"shopkeeper_not_enough_gold_tooltip": "Shopkeeper does not have enough gold"
+					"buy_1": "Koupit 1",
+					"buy_10": "Koupit 10",
+					"buy_all": "Koupit Vše",
+					"sell_1": "Prodat 1",
+					"sell_10": "Prodat 10",
+					"sell_all": "Prodat Vše",
+					"buy_tab": "Nákup",
+					"sell_tab": "Prodej",
+					"shop_gold_label": "Jmění",
+					"shopkeeper_gold_label": "Ochodníkovo jmění",
+					"not_enough_gold_tooltip": "Nedostatečné jmění",
+					"shopkeeper_not_enough_gold_tooltip": "Prodavač nemá dostatečné jmění"
 				},
 				"trade": {
-					"target_title": "Trade Offer from [str(i18n_data.town_name)]",
-					"source_title": "Trade Offer for [str(i18n_data.town_name)]",
-					"title_without_name": "Trade Offer",
-					"offering": "Offering:",
-					"exchange": "In exchange for:",
-					"request": "Requesting:",
-					"cancelled": "[str(i18n_data.town_name)] Cancelled a Trade",
-					"cancelled_no_name": "Trade Cancelled",
-					"accepted": "[str(i18n_data.town_name)] Accepted a Trade",
-					"accepted_no_name": "Trade Accepted",
-					"declined": "[str(i18n_data.town_name)] Declined a Trade",
-					"declined_no_name": "Trade Declined",
+					"target_title": "Obchodní Nabídka od [str(i18n_data.town_name)]",
+					"source_title": "Obchodní Nabídka pro [str(i18n_data.town_name)]",
+					"title_without_name": "Obchodní Nabídka",
+					"offering": "Nabízí:",
+					"exchange": "Výměnou za:",
+					"request": "Žádá:",
+					"cancelled": "Město [str(i18n_data.town_name)] Zrušilo Obchod",
+					"cancelled_no_name": "Obchod Zrušen",
+					"accepted": "Město [str(i18n_data.town_name)] Přijalo Obchod",
+					"accepted_no_name": "Obchod Přijat",
+					"declined": "Město [str(i18n_data.town_name)] Odmítlo Obchod",
+					"declined_no_name": "Obchod Odmítnut",
 					"fail": {
-						"title": "Trade Couldn't Be Completed",
-						"source": "The other town no longer has enough of the offered resources to complete this trade.",
-						"target": "You don't have enough resources to complete this trade.",
-						"source_gold": "The other town no longer has enough gold to complete this trade.",
-						"target_gold": "You don't have enough gold to complete this trade."
+						"title": "Obchod Nemohl Být Dokončen",
+						"source": "Druhé město nemá dostatek nabízených zdrojů na dokončení obchodu.",
+						"target": "Nemáš dostatek zdrojů pro dokončení obchodu.",
+						"source_gold": "Druhé město nemá dostatečné jmění na dokončení obchodu.",
+						"target_gold": "Nemáš dostatečné jmění na dokončení obchodu."
 					}
 				},
 				"city_dialog": {
-					"proclamation": "PROCLAMATION OF"
+					"proclamation": "PROHLÁŠENÍ"
 				},
 				"city_tier_dialog": {
-					"build_and_place": "Build & Place",
-					"attain_net_worth": "Attain Net Worth:",
-					"check_requirements": "Check Requirements",
-					"summon_herald": "Summon Herald!"
+					"build_and_place": "Postav & Umísti",
+					"attain_net_worth": "Získej Čisté Jmění:",
+					"check_requirements": "Zkontroluj Požadavky",
+					"summon_herald": "Předvolej Posla!"
 				},
 				"level_up_bulletin": {
-					"title": "[name(i18n_data.entity)] has Leveled Up!",
-					"show_char_sheet": "Character Sheet"
+					"title": "[name(i18n_data.entity)] postoupil na Další Úroveň!",
+					"show_char_sheet": "Informace o Postavě "
 				},
 				"promote_bulletin": {
-					"title": "[name(i18n_data.entity)] has been Promoted!",
-					"show_char_sheet": "Character Sheet"
+					"title": "[name(i18n_data.entity)] byl Povýšen!",
+					"show_char_sheet": "Informace o Postavě "
 				},
 				"delivery_quest": {
-					"complete": "Complete",
-					"abandon": "Abandon",
-					"happiness_requirement_label": "[str(value)] citizens are at least [str(moodName)]",
-					"happiness_requirement_label_all": "All citizens are at least [str(moodName)]",
-					"happiness_requirement_all": "[str(value)] (all)",
+					"complete": "Splnit",
+					"abandon": "Opustit",
+					"happiness_requirement_label": "Počet obyvatel, jejichž nálada je minimálně [str(moodName)], je [str(value)]",
+					"happiness_requirement_label_all": "Nálada všech obyvatel je minimálně [str(moodName)]",
+					"happiness_requirement_all": "[str(value)] (všichni)",
 					"gold_label": {
-						"give": "Gold",
+						"give": "Jmění",
 						"have": "Gold on hand",
 						"spent": "Gold spent via trade",
 						"earned": "Gold earned via trade"
