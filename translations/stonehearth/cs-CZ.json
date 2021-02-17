@@ -618,8 +618,8 @@
 				"death_notification": "[name(i18n_data.entity)] umřel/a.",
 				"imminent_death_notification": "[name(i18n_data.citizen)] je vážně zraněný!",
 				"starving_notification": "[name(i18n_data.citizen)] hladoví!",
-				"unreachable_ingredient_notification": "[name(i18n_data.citizen)] nemůže nalézt některé přísady, aby mohl vyrobit  [str(i18n_data.crafting_order)].",
-				"where_is_food_notification": "[name(i18n_data.citizen)] nemůže nalézt žádné jídlo.",
+				"unreachable_ingredient_notification": "[name(i18n_data.citizen)] nemůže najít některé přísady, aby mohl vyrobit  [str(i18n_data.crafting_order)].",
+				"where_is_food_notification": "[name(i18n_data.citizen)] nemůže najít žádné jídlo.",
 				"health_status_normal": "Normální",
 				"health": "Životy",
 				"gender": {
@@ -1040,7 +1040,7 @@
 					"doors": "Dveře",
 					"decorations": "Dekorace",
 					"erase_tool": "Smazat",
-					"undo_tool": "Vrátit Zpět",
+					"undo_tool": "Zpět",
 					"redo_tool": "Obnovit",
 					"new_building": "Nová Stavba",
 					"save_building": "Uložit Stavbu",
@@ -1054,194 +1054,194 @@
 						"build": "Nemůžeš stavět, pozastavit nebo pokračovat ve stavbě, kterou nevlastníš."
 					}
 				},
-				"build_mode_title": "Build & Design",
+				"build_mode_title": "Stavba & Návrh",
 				"blocks_tool_context": {
-					"blocks": "Blocks",
-					"roof": "Roof",
-					"wall": "Wall",
-					"cycle_normal": "Cycle Normal"
+					"blocks": "Bloky",
+					"roof": "Střecha",
+					"wall": "Zeď",
+					"cycle_normal": "Normální Cyklus"
 				},
 				"roof_tool_context": {
-					"drop_walls": "Drop Walls",
-					"slope": "Slope",
-					"front": "Front",
-					"back": "Back",
-					"left": "Left",
-					"right": "Right"
+					"drop_walls": "Spustit Zdi",
+					"slope": "Sklon",
+					"front": "Vpředu",
+					"back": "Vzadu",
+					"left": "Nalevo",
+					"right": "Napravo"
 				},
 				"stairs_designer": {
-					"block_stairs": "Block Stairs",
-					"free_stairs": "Free Stairs",
-					"apply_block_style": "Apply Block Style",
-					"apply_free_style": "Apply Free Style",
-					"rotate": "Rotate"
+					"block_stairs": "Schody v Bloku",
+					"free_stairs": "Volné Schody",
+					"apply_block_style": "Použít Styl v Bloku",
+					"apply_free_style": "Použít Volný Styl",
+					"rotate": "Otočit"
 				},
 				"stairs_tool_context": {
-					"hollow": "Hollow"
+					"hollow": "Bez výplně"
 				}
 			},
 			"build_mode": {
 				"tooltips": {
-					"building_tools": "Building Tools",
-					"erase": "Erase Tool",
-					"voxel_tools": "Voxel Tools",
-					"voxel_add": "Add Voxel",
-					"voxel_paint": "Paint Voxel",
-					"voxel_remove": "Remove Voxel",
-					"selection": "Selection",
-					"delete": "Delete",
-					"undo": "Undo (Ctrl + Z)",
-					"draw_slab_tool": "Slabs",
-					"draw_floor_tool": "Foundations",
-					"grow_floor_tool": "Floors",
-					"grow_roof_tool": "Roofs",
-					"draw_door_tool": "Doors",
-					"draw_window_tool": "Windows",
-					"grow_wall_tool": "Walls",
-					"draw_wall_tool": "Free Standing Walls",
-					"draw_road_tool": "Roads",
-					"place_furniture_tool": "Furniture",
-					"place_decoration_tool": "Decorations",
-					"erase_tool": "Erase",
-					"draw_stairs_tool": "Stairs"
+					"building_tools": "Stavební Nástroje",
+					"erase": "Nástroj Mazání",
+					"voxel_tools": "Voxelové Nástroje",
+					"voxel_add": "Přidat Voxel",
+					"voxel_paint": "Vybarvit Voxel",
+					"voxel_remove": "Odstranit Voxel",
+					"selection": "Výběr",
+					"delete": "Smazat",
+					"undo": "Zpět (Ctrl + Z)",
+					"draw_slab_tool": "Desky",
+					"draw_floor_tool": "Základny",
+					"grow_floor_tool": "Podlahy",
+					"grow_roof_tool": "Střechy",
+					"draw_door_tool": "Dveře",
+					"draw_window_tool": "Okna",
+					"grow_wall_tool": "Zdi",
+					"draw_wall_tool": "Volně Stojící Zdi",
+					"draw_road_tool": "Cesty",
+					"place_furniture_tool": "Nábytek",
+					"place_decoration_tool": "Dekorace",
+					"erase_tool": "Smazat",
+					"draw_stairs_tool": "Schody"
 				},
 				"overhead_tips": {
-					"wall_segment_tip_title": "Click to place freestanding wall segments",
-					"wall_segment_tip_description": "Hold down SHIFT while clicking to draw connected walls",
-					"build_title_building_designer": "Building Designer",
-					"build_floor_tip_title": "Click and drag to place floor tiles",
-					"build_floor_tip_description": "Right click to exit",
-					"build_slab_tip_title": "Click and drag to build a slab",
-					"build_slab_tip_description": "Right click to exit",
+					"wall_segment_tip_title": "Klikni pro umístění volně stojících částí zdi",
+					"wall_segment_tip_description": "Stiskni a drž SHIFT, když vytváříš spojené zdi",
+					"build_title_building_designer": "Navrhování Staveb",
+					"build_floor_tip_title": "Kliknutím a tahem myši, umístíš podlahové dlaždice",
+					"build_floor_tip_description": "Skonči stiskem pravého tlačítka.",
+					"build_slab_tip_title": "Klikni a táhni myší pro stavbu desky",
+					"build_slab_tip_description": "Skonči stiskem pravého tlačítka.",
 					"erase_structure_tip_title": "Click to erase items. Click and drag to erase floor",
-					"erase_structure_tip_description": "Right click to exit",
-					"roof_tip_title": "Click a walled floorplan to place the roof",
-					"roof_tip_description": "Right click to exit",
+					"erase_structure_tip_description": "Skonči stiskem pravého tlačítka.",
+					"roof_tip_title": "Pro umístění střechy, klinkni na návrh podlahy se zdmi",
+					"roof_tip_description": "Skonči stiskem pravého tlačítka.",
 					"raise_walls_tip_title": "Click a floorplan to add walls",
-					"raise_walls_tip_description": "Right click to exit",
+					"raise_walls_tip_description": "Skonči stiskem pravého tlačítka.",
 					"doodad_tip_title": "Click a wall to place the door or window",
-					"doodad_tip_description": "Right click to exit",
+					"doodad_tip_description": "Skonči stiskem pravého tlačítka.",
 					"draw_template_title": "Click to build template",
-					"draw_template_description": "Rotate with [str(left_binding)] and [str(right_binding)] keys",
+					"draw_template_description": "Otáčej pomocí kláves [str(left_binding)] a [str(right_binding)]",
 					"build_road_tip_title": "Click and drag to build road",
-					"build_road_tip_description": "Right click to exit",
+					"build_road_tip_description": "Skonči stiskem pravého tlačítka.",
 					"stairs_tip_title": "Click to place stairs",
-					"stairs_tip_description": "Right click to exit. Rotate with [str(left_binding)] and [str(right_binding)] keys"
+					"stairs_tip_description": "Skonči stiskem pravého tlačítka. Otáčej pomocí kláves [str(left_binding)] a [str(right_binding)]"
 				},
 				"building_cost": {
-					"required_item": "Needed Items"
+					"required_item": "Potřebné Předměty"
 				},
 				"overview": {
-					"title": "Building Designer - [str(building_name)]",
-					"building_name": "Building Name",
-					"building_cost": "Materials Needed",
-					"start_building": "Build!",
-					"pause_building": "Pause building",
-					"continue_building": "Continue building",
-					"save_building_template": "Save",
-					"finished_editing": "Finished Editing",
-					"start_editing": "Edit",
-					"build_complete_title": "Congratulations!",
-					"build_complete_description": "this building is complete",
-					"compute_scaffolding": "Building Planning"
+					"title": "Navrhování Staveb - [str(building_name)]",
+					"building_name": "Název Stavby",
+					"building_cost": "Potřebné Materiály",
+					"start_building": "Postavit!",
+					"pause_building": "Pozastavit stavbu",
+					"continue_building": "Pokračovat ve stavbě",
+					"save_building_template": "Uložit",
+					"finished_editing": "Ukončit Úpravy",
+					"start_editing": "Upravit",
+					"build_complete_title": "Blahopřejeme!",
+					"build_complete_description": "tato budova je dokončená",
+					"compute_scaffolding": "Plánování Stavby"
 				},
 				"roof": {
-					"title": "Roof Menu - [str(building_name)]"
+					"title": "Střešní Menu - [str(building_name)]"
 				},
 				"roof_shape": {
-					"title": "Slope, Direction, & Size",
-					"max_height": "Max Height",
-					"rise_slope": "Rise Slope",
-					"y_offset": "Roof Offset",
-					"show_gradient": "Slope",
-					"show_margin": "Overhang"
+					"title": "Sklon, Směr, & Velikost",
+					"max_height": "Maximální Výška",
+					"rise_slope": "Zvýšit Sklon",
+					"y_offset": "Přesah Střechy",
+					"show_gradient": "Svažující",
+					"show_margin": "Přečnívající"
 				},
 				"stairs_shape": {
-					"shape_title": "Stairs Shape",
-					"options_title": "Stairs Options",
-					"max_height": "Free-standing Height",
-					"width": "Width",
-					"solid_stairs": "Solid Stairs",
-					"hollow_stairs": "Hollow Stairs"
+					"shape_title": "Tvar Schodů",
+					"options_title": "Možnosti Schodů",
+					"max_height": "Výška samotných schodů",
+					"width": "Šířka",
+					"solid_stairs": "Plné Schody",
+					"hollow_stairs": "Schody bez Výplně"
 				},
 				"fixtures": {
-					"search_placeholder": "Search"
+					"search_placeholder": "Hledat"
 				},
 				"building_templates": {
-					"title": "Building Templates:",
-					"design_custom_building": "Design Custom Building",
-					"search_placeholder": "Search",
+					"title": "Stavební Šablony:",
+					"design_custom_building": "Navrhnout Vlastní Budovu",
+					"search_placeholder": "Hledat",
 					"template_names": {
-						"tiny_cottage": "Tiny Cottage",
-						"cottage_for_two": "Cottage for Two",
-						"shared_sleeping_quarters": "Shared Sleeping Quarters",
-						"dining_hall": "Dining Hall",
-						"herbalist_house": "Herbalist's House",
-						"little_clay_house": "Little Clay House",
-						"clay_house_for_two": "Clay House for Two",
-						"clay_dining_room": "Clay Dining Room",
-						"clay_dormitory": "Clay Dormitory"
+						"tiny_cottage": "Chatka",
+						"cottage_for_two": "Chata pro Dva",
+						"shared_sleeping_quarters": "Sdílené Obydlí ke Spaní",
+						"dining_hall": "Jídelní Síň",
+						"herbalist_house": "Bylinkářův Dům",
+						"little_clay_house": "Malý Jílový Dům",
+						"clay_house_for_two": "Hliněný Dům pro Dva",
+						"clay_dining_room": "Hliněná Jídelní Síň",
+						"clay_dormitory": "Společná Hliněná Ložnice"
 					},
-					"set_template_name_title": "Template Name",
-					"template_default_name": "My new building template",
-					"set_template_name_prompt": "Enter a name for this template",
-					"ignore_quality": "Ignore Quality",
-					"ignore_quality_tooltip": "Treat all items in the template as standard quality (rather than Fine, Excellent, etc.).",
+					"set_template_name_title": "Název Šablony",
+					"template_default_name": "Moje nová stavební šablona",
+					"set_template_name_prompt": "Zadejte název této šablony",
+					"ignore_quality": "Ignorovat Kvalitu",
+					"ignore_quality_tooltip": "Zacházet se všemi předměty šablony jako by byly běžné kvality (raději než Dobré, Vynikající, atd.).",
 					"remove_template_confirm": {
-						"title": "Delete Template",
-						"message": "Are you sure you want to delete this building template?",
-						"keep_template": "Keep this template",
-						"remove_template": "Delete it!"
+						"title": "Smazat Šablonu",
+						"message": "Jsi si jistý, že chceš smazat tuto stavební šablonu?",
+						"keep_template": "Zachovat šablonu",
+						"remove_template": "Smažte to!"
 					},
-					"template_description_tooltip": "Filename: [str(filename)]",
-					"remove_template_button": "Delete Template",
-					"build_template_button": "Build"
+					"template_description_tooltip": "Název souboru: [str(filename)]",
+					"remove_template_button": "Smazat Šablonu",
+					"build_template_button": "Postavit"
 				},
 				"place_item": {
-					"title": "Place an Item"
+					"title": "Umístit Předmět"
 				},
 				"materials": {
 					"wall": {
-						"material": "Wall Material",
-						"wood_resource": "Wooden Wall",
-						"stone_resource": "Stone Wall",
-						"clay_resource": "Clay Wall",
-						"clay_brick_resource": "Clay Brick Wall"
+						"material": "Materiál Zdi",
+						"wood_resource": "Dřevěná Zeď",
+						"stone_resource": "Kamenná Zeď",
+						"clay_resource": "Hliněná Zeď",
+						"clay_brick_resource": "Zeď z Hliněných Cihel"
 					},
 					"foundation": {
-						"material": "Foundation Material",
-						"wood_resource": "Wooden Foundation",
-						"stone_resource": "Stone Foundation",
-						"clay_resource": "Clay Foundation",
-						"clay_brick_resource": "Clay Brick Foundation"
+						"material": "Maeteriál Základny",
+						"wood_resource": "Dřevěná Základna",
+						"stone_resource": "Kamenná Základna",
+						"clay_resource": "Hliněná Základna",
+						"clay_brick_resource": "Základna z Hliněných Cihel"
 					},
 					"slab": {
-						"material": "Slab Material",
-						"wood_resource": "Wooden Slab",
-						"stone_resource": "Stone Slab",
-						"clay_resource": "Clay Slab",
-						"clay_brick_resource": "Clay Brick Slab"
+						"material": "Materiál Desky",
+						"wood_resource": "Dřevěná Deska",
+						"stone_resource": "Kamenná Deska",
+						"clay_resource": "Hliněná Deska",
+						"clay_brick_resource": "Deska z Hliněných Cihel"
 					},
 					"floor": {
-						"material": "Floor Material",
-						"wood_resource": "Wooden Floor",
-						"stone_resource": "Stone Floor",
-						"clay_resource": "Clay Floor",
-						"clay_brick_resource": "Clay Brick Floor"
+						"material": "Materiál Podlahy",
+						"wood_resource": "Dřevěná Podlaha",
+						"stone_resource": "Kamenná Podlaha",
+						"clay_resource": "Hliněná Podlaha",
+						"clay_brick_resource": "Podlaha z Hliněných Cihel"
 					},
 					"roof": {
-						"material": "Roof Material",
-						"wood_resource": "Wooden Roof",
-						"stone_resource": "Stone Roof",
-						"clay_resource": "Clay Roof",
-						"clay_brick_resource": "Clay Brick Roof"
+						"material": "Materiál Střechy",
+						"wood_resource": "Dřevěná Střecha",
+						"stone_resource": "Kamenná Střecha",
+						"clay_resource": "Hliněná Střecha",
+						"clay_brick_resource": "Střecha z Hliněných Cihel"
 					},
 					"column": {
-						"material": "Column Material",
-						"wood_resource": "Wooden Column",
-						"stone_resource": "Stone Column",
-						"clay_resource": "Clay Column",
-						"clay_brick_resource": "Clay Brick Column"
+						"material": "Materiál Sloupu",
+						"wood_resource": "Dřevěný Sloup",
+						"stone_resource": "Kamenný Sloup",
+						"clay_resource": "Hliněný Sloup",
+						"clay_brick_resource": "Sloup z Hliněných Cihel"
 					},
 					"road": {
 						"material": "Road Material",
