@@ -176,8 +176,8 @@
 				"you": "[str(town_name)] (Ty!)",
 				"offering": "Nabízíš: ",
 				"requesting": "Žádáš:",
-				"source_gold": "Tvé jmění celkem:",
-				"target_gold": "Jejich jmění celkem:",
+				"source_gold": "Tvé zlaté celkem:",
+				"target_gold": "Jejich zlaté celkem:",
 				"give_1": "Dát 1",
 				"give_10": "Dát 10",
 				"request_1": "Požádat o 1",
@@ -892,10 +892,10 @@
 					"sell_all": "Prodat Vše",
 					"buy_tab": "Nákup",
 					"sell_tab": "Prodej",
-					"shop_gold_label": "Jmění",
-					"shopkeeper_gold_label": "Ochodníkovo jmění",
-					"not_enough_gold_tooltip": "Nedostatečné jmění",
-					"shopkeeper_not_enough_gold_tooltip": "Prodavač nemá dostatečné jmění"
+					"shop_gold_label": "Zlaté",
+					"shopkeeper_gold_label": "Ochodníkovy zlaté",
+					"not_enough_gold_tooltip": "Nedostatek zlatých",
+					"shopkeeper_not_enough_gold_tooltip": "Prodavač nemá dostatek zlatých"
 				},
 				"trade": {
 					"target_title": "Obchodní Nabídka od [str(i18n_data.town_name)]",
@@ -914,8 +914,8 @@
 						"title": "Obchod Nemohl Být Dokončen",
 						"source": "Druhé město nemá dostatek nabízených zdrojů na dokončení obchodu.",
 						"target": "Nemáš dostatek zdrojů pro dokončení obchodu.",
-						"source_gold": "Druhé město nemá dostatečné jmění na dokončení obchodu.",
-						"target_gold": "Nemáš dostatečné jmění na dokončení obchodu."
+						"source_gold": "Druhé město nemá dostatek zlatých na dokončení obchodu.",
+						"target_gold": "Nemáš dostatek zlatých na dokončení obchodu."
 					}
 				},
 				"city_dialog": {
@@ -923,7 +923,7 @@
 				},
 				"city_tier_dialog": {
 					"build_and_place": "Postav & Umísti",
-					"attain_net_worth": "Získej Čisté Jmění:",
+					"attain_net_worth": "Získej Celkové Jmění:",
 					"check_requirements": "Zkontroluj Požadavky",
 					"summon_herald": "Předvolej Posla!"
 				},
@@ -942,12 +942,12 @@
 					"happiness_requirement_label_all": "Nálada všech obyvatel je minimálně [str(moodName)]",
 					"happiness_requirement_all": "[str(value)] (všichni)",
 					"gold_label": {
-						"give": "Jmění",
-						"have": "Požitelné jmění",
-						"spent": "Jmění utracené obchodováním",
-						"earned": "Jmění vydělané obchodováním"
+						"give": "Zlaté",
+						"have": "Požitelné zlaté",
+						"spent": "Zlaté utracené obchodováním",
+						"earned": "Zlaté vydělané obchodováním"
 					},
-					"net_worth_label": "Čisté jmění",
+					"net_worth_label": "Celkové jmění",
 					"placed_item_label": "[str(itemName)] placed",
 					"quality_label": {
 						"quality_2": "Vlastněné předměty dobré kvality",
@@ -984,7 +984,7 @@
 					"tooltips": {
 						"food": "Jídlo vyšší kvality dává vyšší jídlení skóre.",
 						"morale": "Spokojenost zlepšíš, když se tvoji heratlingové budou cícit pohodlně, bezpečně a budou dobře živení.",
-						"net_worth": "Odhadovaná hodnota tvého města. Sbírej předměty, shromažďuj zlato a stav budovy, abys si zvýšil čisté jmění."
+						"net_worth": "Odhadovaná hodnota tvého města. Sbírej předměty, shromažďuj zlato a stav budovy, abys si zvýšil celkové jmění."
 					}
 				},
 				"collection_quest": {
@@ -1392,7 +1392,7 @@
 				"orders_tab": "Příkazy",
 				"missing_ingredients": "Chybějící přísady: ",
 				"tooltip_appeal_stat": "Přitažlivost",
-				"tooltip_net_worth_stat": "Hodnota Jmění",
+				"tooltip_net_worth_stat": "Hodnota Zlatých",
 				"tooltip_effort_stat": "Úsílí (Výrobní čas)",
 				"damage_stat": "ÚTOK",
 				"armor_stat": "OBR"
@@ -1441,7 +1441,7 @@
 					}
 				},
 				"score": {
-					"net_worth": "Čisté Jmění",
+					"net_worth": "Celkové Jmění",
 					"buildings": "Stavby",
 					"inventory": "Inventář",
 					"agriculture": "Zemědělství",
@@ -1476,7 +1476,7 @@
 					"sections": {
 						"team": "Tým Stonehearth",
 						"team_additional": "Dodatečný Vývoj",
-						"candledark_and_frostfeast": "Candledark and Frostfeast",
+						"candledark_and_frostfeast": "Candledark a Frostfeast",
 						"moderators": "Modera Komunity",
 						"special_thanks": "Speciální Poděkování",
 						"special_thanks_endnote": "...všichni kdo udělali z discourse.stonehearth.net báječnou komunitu,",
@@ -1565,19 +1565,19 @@
 					"033": "chytám kapky deště..."
 				},
 				"tips": {
-					"000": "If your workers get stuck in a mine, you can build a ladder to get them out!",
-					"001": "Your hearthlings will get a better night's sleep if you provide beds for them.",
-					"002": "Build pens around your pastures to make sure shepherded animals stay put.",
-					"003": "Stockpiles can be changed to hold specific kinds of items.",
-					"004": "You can farm silkweed for a steady supply of thread fiber.",
-					"005": "A well fed town is a happy town.",
-					"006": "Use the < and > keys to rotate an item or building before placing it.",
-					"007": "Your hearthlings move faster on roads.",
-					"008": "The weaver can craft new uniforms that increases the effectiveness of your workers.",
-					"009": "Sitting during a meal helps with digestion. Build tables and chairs for your hearthlings.",
-					"010": "Shepherds will automatically find sheep to fill a pasture.",
-					"011": "If you want a higher net worth, try selling your items to a merchant for gold.",
-					"012": "Resources and Food do not contribute to your town net worth.",
+					"000": "Jestli se tvoji hearthlingové zaseknou v dole, můžeš postavit žebřík, abys je dostal ven!",
+					"001": "Tvoji hearthlingové se v noci lépe vyspí, když pro ně budeš mít postele.",
+					"002": "Postav ohrady kolem svých pastvin, aby ti přivedená zvířata neutekla.",
+					"003": "Skladiště můžeš změnit, tak aby obsahovala pouze určité předměty.",
+					"004": "Můžeš pěstovat hebkotrav, abys měl spolehlivou zásobu vláken na přízi.",
+					"005": "Plný žaludek, šťastné srdce.",
+					"006": "Použij klávesy , a . pro otočení předmětů nebo budov před jejich umístěním.",
+					"007": "Po cestách se tvoji hearthlingové pohybují rychleji.",
+					"008": "Tkadlec může vyrobit nové oděvy, které zvyší výkon tvých pracovníků.",
+					"009": "Sezení během jídla zlepšuje zažívání. Postav stoly a židle pro sovje hearthlingy.",
+					"010": "Pastýři budou automaticky hledat ovce, aby využili pastvinu.",
+					"011": "Jestli chceš mít větší celkové jmění, zkus prodat obchodníkovi předměty za zlaté.",
+					"012": "Zdroje a Jídlo nepřispívají k celkovému jmění tvého města.",
 					"013": "The curiosity attribute increases experience gain.",
 					"014": "Fine items have a higher net worth than their normal versions.",
 					"015": "The net worth of an item is its sell value.",
@@ -1602,8 +1602,8 @@
 				"settle_at_this_location": "Settle here!",
 				"clear_selection": "Choose another location",
 				"regenerate_map": "Roll new map",
-				"world_seed": "World Seed: ",
-				"starting_season": "Starting Season",
+				"world_seed": "Seed Světa: ",
+				"starting_season": "Počáteční Období",
 				"terrain_stats": {
 					"trees_and_plants_title": "Trees & Plants",
 					"trees_and_plants_description": "Wood is a primary building resource. You will need some in order to build your buildings and craft items like beds, tables, and chairs.",
