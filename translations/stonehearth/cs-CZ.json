@@ -1897,179 +1897,179 @@
 				},
 				"mod_dependency_conflict": {
 					"title": "Objevena Cyklická Závislost Modulů!",
-					"message": "Varování: Máš módy které mají cyklické závislosti (např. mód A závisí na jíném mód B, který  následně vede zpet k módu A). Závislosti módů určují v jakém pořadí mají být módy načteny, ale pokud dojde k zacyklení, tak nemůžeme určit, v jakém pořadí je máme načíst.<br><br>Vyřš. Dotčené módy byly dočasně zakázány: <br><br>",
+					"message": "Varování: Máš módy které mají cyklické závislosti (např. mód A závisí na jíném mód B, který  následně vede zpet k módu A). Závislosti módů určují v jakém pořadí mají být módy načteny, ale pokud dojde k zacyklení, tak nemůžeme určit, v jakém pořadí je máme načíst.<br><br>Vyřeš cyklické závislosti v manifestech dotčených módů. Dotčené módy byly dočasně zakázány: <br><br>",
 					"accept": "Ano, pokračovat.",
-					"dependency": ", which depends on:"
+					"dependency": ", což závisí na:"
 				},
 				"ace": "ACE!!! ",
 				"ace_dialog": {
 					"title": "Zapnout Autorizovanou Komunitní Expanzi (ACE)?",
-					"message": "ACE is a mod that was born out of the desire of a group of awesome community members to create a richer and more complete Stonehearth experience. It includes features intended to enhance the game, such as new classes, UX changes, biomes, items and more!<br><br><font size=-1><i>Note: As with any mod, your play experience will differ from the base game. ACE adds a lot of content, so you may need a more powerful machine in order to experience it the way it was intended. (You can always enable or disable it from the title screen or Mods Menu later).</i></font><br><br>Would you like to enable their mod?",
-					"accept": "Yes!",
-					"cancel": "No, thanks."
+					"message": "ACE je mód, který se zrodil z touhy skupiny skvělých členů komunity, vytvořit bohatší a úplnější zaážitek ze Stonehearthu. Obsahuje prvky a funkce, které vylepšují hru, jako jsou nové profese, změny UX, biomy, předměty a mnohem více!<br><br><font size=-1><i>Poznámka: Jako s jakýmkoliv jiným módem, tvůj herní zážitek se bude lišit od základní hry. ACE přidává hodně nového obsahu, takže možná budeš potřebovat silnější stroj, aby sis ho mohl užít tak jak je to zamýšleno. (Vždycky ho můžeš povolit nebo zakázat na počáteční obrazovce hry nebo později v Menu Módů).</i></font><br><br>Chtěl bys teď povolit ACE?",
+					"accept": "Ano, prosím!",
+					"cancel": "Ne, díky."
 				},
 				"ace_toggle": {
 					"enable": {
-						"title": "Turn on ACE?",
-						"message": "The game will have to reload to enable ACE. Would you like to continue?",
-						"tooltip": "Turn on Stonehearth's Authorized Community Expansion."
+						"title": "Zapnout ACE?",
+						"message": "Hra se bude muset znovu načíst aby se povolilo ACE. Budeš chtít pokračovat?",
+						"tooltip": "Zapnout Autorizovanou Komunitní Expanzi Stonehearthu."
 					},
 					"disable": {
-						"title": "Turn off ACE?",
-						"message": "The game will have to reload to disable ACE. Would you like to continue?",
-						"tooltip": "Turn off Stonehearth's Authorized Community Expansion."
+						"title": "Vypnout ACE?",
+						"message": "Hra se bude muset znovu načíst, aby se zakázalo ACE. Budeš chtít pokračovat?",
+						"tooltip": "Vypnout Zapnout Autorizovanou Komunitní Expanzi Stonehearthu."
 					},
-					"accept": "Continue",
-					"cancel": "Cancel"
+					"accept": "Pokračovat",
+					"cancel": "Zrušit"
 				}
 			},
 			"mods_menu": {
-				"title": "Mods",
-				"note": "Enabling or disabling a module requires a game reload.",
-				"apply": "Apply",
-				"open_folder": "Open Folder",
-				"quit_to_menu": "Save and Quit to Menu",
-				"base_mod": "Base Mod",
-				"modding_guide": "Modding Guide",
+				"title": "Módy",
+				"note": "Povolení nebo zakázání modulu vyžaduje znovunačtení hry",
+				"apply": "Použít",
+				"open_folder": "Otevřít Složku",
+				"quit_to_menu": "Uložit a Vráti se do Menu",
+				"base_mod": "Základní Mód",
+				"modding_guide": "Průvodce Módováním (v Aj)",
 				"sections": {
 					"base_mods": {
-						"title": "Base Mods"
+						"title": "Základní Módy"
 					},
 					"unmanaged_mods": {
-						"title": "Local Mods",
-						"templates_title": "Your Templates"
+						"title": "Místní Módy",
+						"templates_title": "Tvoje Šablony"
 					},
 					"workshop_mods": {
-						"title": "Subscribed Workshop Mods",
-						"templates_title": "Subscribed Template Packs",
-						"browse_workshop": "Browse Steam Workshop",
-						"unsubscribe": "Unsubscribe",
-						"view_in_workshop": "View in Workshop",
-						"upload": "Upload",
-						"update": "Update",
+						"title": "Odebírané Módy z Workshopu",
+						"templates_title": "Odebírané Balíčky Šablon",
+						"browse_workshop": "Procházet Steam Workshop",
+						"unsubscribe": "Zrušit Odběr",
+						"view_in_workshop": "Zobrazit ve Workshopu",
+						"upload": "Nahrát",
+						"update": "Aktualizovat",
 						"cancel": "X"
 					},
 					"my_items": {
-						"title": "Workshop Uploads",
-						"templates_title": "Template Pack Uploads",
-						"create_new_mod": "Create New Mod"
+						"title": "Nahrané do Workshopu ",
+						"templates_title": "Nahrané Balíčky Šablon",
+						"create_new_mod": "Vytvořit Nový Mód"
 					}
 				},
 				"tooltips": {
-					"open_folder": "Open mod folder",
-					"view_in_workshop": "View mod in workshop",
-					"toggle_view_templates": "Expand/collapse list of templates",
-					"edit_templates": "Edit this mod's list of templates",
-					"upload": "Upload mod to workshop",
-					"unsubscribe": "Unsubscribe from mod"
+					"open_folder": "Otevřít složku módu",
+					"view_in_workshop": "Zobrazit mód ve workshopu",
+					"toggle_view_templates": "Rozbalit/sbalit seznam šablon",
+					"edit_templates": "Upravit seznam šablon tohoto módu",
+					"upload": "Nahrát mód do workshopu",
+					"unsubscribe": "Zrušit odběr módu"
 				},
 				"unsubscribe_dialog": {
-					"title": "Are you sure you want to unsubscribe?",
-					"message": "This will erase the mod from your local machine, but you can find the mod again in the Steam Workshop.",
-					"accept": "Yes, unsubscribe.",
-					"cancel": "No, stay subscribed."
+					"title": "Jsi si jistý, že chceš zrušit odběr?",
+					"message": "Tím vymažeš mód ze svého počítače, ale pořád si ho můžeš znovu najít ve Steam Workshopu.",
+					"accept": "Ano, zrušit odběr.",
+					"cancel": "Ne, pokrčovat v odběru."
 				},
 				"duplicates_dialog": {
-					"title": "Duplicate Mods Enabled",
-					"message": "You currently have more than one mod with the same name enabled. Make sure you have only one version enabled at a time. Your current duplicates:<br><br>",
+					"title": "Duplicitní Módy Povoleny",
+					"message": "Máš současně povoleny minimálně dva módy se stejným jménem. Ujisti se že v jednu chvíli máš povolenou pouze jednu verzi. Tvoje současné duplikáty:<br><br>",
 					"ok": "OK"
 				}
 			},
 			"load_match_mods": {
-				"title": "Different Mods",
-				"note": "This game was saved with different mods than the ones you currently have enabled.",
-				"old_save_note": "This game was saved before enabled mods were stored in the save. These are the mods you currently have enabled.",
+				"title": "Odlišné Módy",
+				"note": "Tato hra byla uložena s odlišnými módy, než jsou v současné chvíli povoleny.",
+				"old_save_note": "Tato hra byla uložena předtím, než byly povolené módy zapsány do uložené hry. Tohle jsou módy, které máš v současnosti povolené.",
 				"warning_dialog": {
-					"title": "Warning",
-					"message": "Playing with different mods than the game was saved with could lead to unexpected errors or crashes. Do you want to continue?",
-					"continue": "Continue",
-					"cancel": "Cancel"
+					"title": "Varování",
+					"message": "Hraní s módy které jsou odlišné od těch se kterými byla hra uložena může vést k nečekaným chybám nebo pádům hry. Chceš pokračovat?",
+					"continue": "Pokračovat",
+					"cancel": "Zrušit"
 				},
 				"statuses": {
 					"missing": {
-						"header": "Missing",
-						"description": "These mods are missing (ie. deleted or unsubscribed)."
+						"header": "Chybí",
+						"description": "Tyto módy chybí (tj. smazané nebo zrušen odběr)."
 					},
 					"type_mismatch": {
-						"header": "Different Version",
-						"description": "Save had a different version of these mods enabled."
+						"header": "Odlišné Verze",
+						"description": "Uložená Hra má odlišnou verzi povolených módů."
 					},
 					"hash_mismatch": {
-						"header": "Modified",
-						"description": "These mods have been modified since the save."
+						"header": "Změněné",
+						"description": "Tyto módy byly od uložení hry změněné."
 					},
 					"additional": {
-						"header": "New",
-						"description": "These mods were not in the save."
+						"header": "Nové",
+						"description": "Tyto módy nebyly v uložené hře."
 					},
 					"disabled": {
-						"header": "Disabled",
-						"description": "These mods were in the save and are currently disabled."
+						"header": "Zakázané",
+						"description": "Tyto módy byly v uložené hře, ale jsou v současnoti zakázané."
 					},
 					"normal": {
-						"header": "All Good Here",
-						"description": "These mods haven't changed since the save."
+						"header": "V Pořadku",
+						"description": "Tyto módy se od uložení hry nezměnily."
 					}
 				},
 				"descriptions": {
-					"apply_saved": "Enable mods used in this save and disable all others.",
-					"continue_anyway": "Use current mod configuration. May cause errors."
+					"apply_saved": "Povolit módy použité v této uložené hře a zakázat všechny ostatní.",
+					"continue_anyway": "Použít současné nastavení módů. Může způsobit chyby."
 				},
 				"buttons": {
-					"continue_anyway": "Apply Mod Changes",
-					"apply_saved": "Apply Saved Mods and Continue"
+					"continue_anyway": "Použít Změny Módů",
+					"apply_saved": "Použít Uložené Módy a Pokračovat"
 				},
-				"view_in_workshop": "View mod in workshop. Note: You must restart the game to apply changes if you subscribe to this mod."
+				"view_in_workshop": "Zobrazit mód ve workshopu. Poznámka: Pokud se přihlásíš k odběru tohoto módu, musíš restartovat hru, aby si použil změny."
 			},
 			"load_match_mod_order": {
-				"title": "Different Mod Order",
-				"note": "This game was saved with mods in a different order than your current game.",
-				"old_save_note": "This game was saved before mod order was stored in the save. These are the mods you currently have enabled, in order.",
-				"saved_order": "Saved Order",
-				"current_order": "Current Order",
+				"title": "Odlišné Pořadí Módu",
+				"note": "Tato hra byla uložena s módy v jiném pořadí než hra současná.",
+				"old_save_note": "Tato hra byla uložena předtím, než do ní bylo uloženo pořadí módů. Tohle jsou módy, které máš v současnosti povolené, v pořadí.",
+				"saved_order": "Uložené Pořadí",
+				"current_order": "Současné Pořadí",
 				"warning_dialog": {
-					"title": "Warning",
-					"message": "Playing with different mod order than the game was saved with could lead to unexpected errors or crashes. Do you want to continue?",
-					"continue": "Continue",
-					"cancel": "Cancel"
+					"title": "Varování",
+					"message": "Hraní s odlišným pořadím módů, než s jakým byla hra uložena, může vést k nečekaným chybám a pádům hry. Chceš pokračovat?",
+					"continue": "Pokračovat",
+					"cancel": "Zrušit"
 				},
 				"descriptions": {
-					"apply_saved": "Use the saved game's order.",
-					"continue_anyway": "May cause errors."
+					"apply_saved": "Použít uložené pořadí módů.",
+					"continue_anyway": "Může způsobit chyby."
 				},
 				"buttons": {
-					"continue_anyway": "Use Current Order",
-					"apply_saved": "Apply Saved Order"
+					"continue_anyway": "Použít Současné Pořadí",
+					"apply_saved": "Použít Uložené Pořadí"
 				}
 			},
 			"mods_sync": {
-				"stop_title": "Missing Mods",
-				"continue_title": "Ready to Continue to Game",
+				"stop_title": "Chybí Módy",
+				"continue_title": "Připraveno Pokračovat do Hry",
 				"time_elapsed": {
-					"days": "Game Time Since Start: [str(date.day)] Days, [str(date.hour)] Hours",
-					"months": "Game Time Since Start: [str(date.month)] Months, [str(date.day)] Days, [str(date.hour)] Hours",
-					"years": "Game Time Since Start: [str(date.year)] Years, [str(date.month)] Months, [str(date.day)] Days, [str(date.hour)] Hours"
+					"days": "Herní Čas od Začátku: [str(date.day)] Dní/i, [str(date.hour)] Hodin/y",
+					"months": "Herní Čas od Začátku: [str(date.month)] Měsíců/e, [str(date.day)] Dnů/y, [str(date.hour)] Hodin/y",
+					"years": "Herní Čas od Začátku: [str(date.year)] Roků/y, [str(date.month)] Měsíců/e, [str(date.day)] Dnů/y, [str(date.hour)] Hodin/y"
 				},
 				"game_info": "[str(biomeName)]: [str(biomeLocation)], [str(gameMode)]",
-				"note": "The game you are trying to join has the following mods.",
-				"missing_note": "The game you are trying to join has the following mods. You must have the same mods and versions in order to join.",
-				"version_note": "<span class=\"warning\">Warning:</span> Your version of Stonehearth does not match the game you are trying to connect to!<br>This could prevent you from being able to connect, or lead to unexpected bugs during gameplay.",
-				"your_version": "Your version: [str(version)]",
-				"their_version": "Their version: [str(version)]",
-				"continue": "Continue to Game",
-				"loading": "Loading into game...",
-				"subscribe_all": "Subscribe All",
-				"no_steam_cant_sync": "You are missing one or more of the above mods. Ask your host to send them to you, or connect to Steam and look for them in the Steam workshop.",
-				"not_seen_in_workshop_cant_sync": "One or more of the missing mods is unavailable in the Steam Workshop. They might not be uploaded, or only be viewable by the host. Ask them to upload or change their permissions, then try connecting again.",
+				"note": "Hra do které se snažíš připojit má následující módy.",
+				"missing_note": "Hra do které se snažíš připojit má následující módy. Aby ses mohl připojit musíš mít ty samé módy a jejich stejnou verzi.",
+				"version_note": "<span class=\"warning\">Varování:</span> Tvoje verze Stonehearthu neodpovídá verzi hry, ke které se snažíš připojit!<br>To ti může bránit v pokusech o připojení, nebo vést k nečekaným chybám během hraní",
+				"your_version": "Tvoje verze: [str(version)]",
+				"their_version": "Hostitelská verze: [str(version)]",
+				"continue": "Pokračovat do Hry",
+				"loading": "Načítám do hry...",
+				"subscribe_all": "Odebírat Vše",
+				"no_steam_cant_sync": "Chybí ti jeden nebo více z výše vypsaných módů. Požádej hostitele aby ti je poslal, nebo se připoj na Steam a zkus je najít ve Steam workshopu.",
+				"not_seen_in_workshop_cant_sync": "Jeden nebo více z chybějících módů je nedostupný ve Steam Workshopu. Možná nejsou nahrané, nebo jsou viditelné pouze pro hostitele. Požádej ho o nahrání nebo změnění oprávnění, pak se zkus připojit znovu.",
 				"mismatched_hash_workshop_cant_sync": "One of your Steam mods does not match the version that the host server is using. The mod's files may have been modified or the host is using a mod that is not up-to-date with the Steam version. Try deleting the mod and re-subscribing to get the Workshop version, or tell the host to update their Steam Workshop mods.",
 				"failed_download_workshop_update_cant_sync": "One or more of your mods doesn't match the version the host server has. Game was unable to download the workshop update for one of the mods because the mod steam file id invalid or you are logged out of steam.",
-				"cancel": "Cancel",
-				"private": "Private mod",
-				"non_workshop": "Not found in workshop",
-				"failed_download": "Cannot download update",
-				"mismatched_workshop_hash": "Does not match steam version",
+				"cancel": "Zrušit",
+				"private": "Soukromý mód",
+				"non_workshop": "Nenalezen ve Workshopu",
+				"failed_download": "Nemohu stáhnout update",
+				"mismatched_workshop_hash": "Neodpovídá verzi na steamu",
 				"size": {
-					"bytes": "[str(size)] bytes",
+					"bytes": "[str(size)] byty",
 					"kilobytes": "[str(size)] KB",
 					"megabytes": "[str(size)] MB"
 				}
