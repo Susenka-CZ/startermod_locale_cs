@@ -780,9 +780,9 @@
 							"description": "Uspořadej svoje jednotky do skupin"
 						},
 						"town_alert": {
-							"display_name": "Režim Ohrožení Města!",
+							"display_name": "Režim Městské Pohotovosti!",
 							"description": "Shromáždi hearthlingy aby se připravili na vetřelce!",
-							"activated_title": "Aktivován Režim Ohrožení Města!",
+							"activated_title": "Aktivován Režim Městské Pohotovosti!",
 							"activated_text": "Tvoji hearthlingové ostražitě sledují zda se objeví vetřelci. Nebojový hearthlingové poběží k bezpečným bodům."
 						},
 						"party_1": {
@@ -855,7 +855,7 @@
 				},
 				"bulletin_manager": {
 					"display_name": "Zpravodaje",
-					"description": "Důležité informace o světě a tvém městě."
+					"description": "Důležitá upozornění o tvém městě a světě."
 				},
 				"tasks_manager": {
 					"display_name": "Řízení Úkolů",
@@ -882,7 +882,7 @@
 				}
 			},
 			"bulletin": {
-				"bulletin_list_title": "Oznámení",
+				"bulletin_list_title": "Upozornění",
 				"shop": {
 					"buy_1": "Koupit 1",
 					"buy_10": "Koupit 10",
@@ -1791,15 +1791,15 @@
 						"cam_move_down": "Pohyb Kamerou Dolů",
 						"cam_follow": "Následovat Kameru",
 						"vision_building_toggle": "Změnit Stavební Pohled",
-						"vision_xray_toggle": "Přepínání Pohledu na Rentgen Terénu",
-						"vision_slice_toggle": "Přepínání Pohledu na Řez Terénem",
-						"vision_slice_up": "Zvýšení Úrovně Řezu (Skok o 5)",
-						"vision_slice_up_single": "Zvýšení Úrovně Řezu",
-						"vision_slice_down_single": "Snížení Úrovně Řezu",
-						"vision_slice_down": "Snížení Úrovně Řezu (Skok o 5)",
-						"vision_appeal_toggle": "Přepínání Vize Přitažlivosti",
+						"vision_xray_toggle": "Přepnout Pohled na Rentgen Terénu",
+						"vision_slice_toggle": "Přepnout Pohled na Řez Terénem",
+						"vision_slice_up": "Zvýšit Úroveň Řezu (Skok o 5)",
+						"vision_slice_up_single": "Zvýšit Úroveň Řezu",
+						"vision_slice_down_single": "Snížit Úroveň Řezu",
+						"vision_slice_down": "Snížit Úroveň Řezu (Skok o 5)",
+						"vision_appeal_toggle": "Přepnout Vizi Přitažlivosti",
 						"speed_pause": "Pozastavit",
-						"speed_toggle_pause": "Přepínání Pozastavení",
+						"speed_toggle_pause": "Přepnout Pozastavení",
 						"speed_play": "Normální Rychlost",
 						"speed_ff": "Dvojitá Rychlost",
 						"speed_three": "Super Rychlost",
@@ -1838,36 +1838,36 @@
 						"craft_herbalist": "Bylinkářovo Menu",
 						"craft_engineer": "Inženýrovo Menu",
 						"craft_geomancer": "Geomancerovo Menu",
-						"fight_menu": "Fight Menu",
-						"fight_alert": "Town Alert",
-						"fight_party_1": "Combat Party 1",
-						"fight_party_2": "Combat Party 2",
-						"fight_party_3": "Combat Party 3",
-						"fight_party_4": "Combat Party 4",
-						"bulletin_manager": "Notifications Menu",
-						"ui_quicksave": "Quick Save",
-						"ui_quickload": "Quick Load",
-						"ui_refresh": "Refresh",
-						"toggle_fullscreen": "Toggle Fullscreen",
-						"toggle": "Toggle UI",
-						"ui_print_screen": "Take Screenshot",
-						"debug_console": "Stonehearth Console",
-						"debug_navgrid": "Show/Hide Navgrid",
-						"debug_navgrid_water_tight": "Show/Hide Watertight Navgrid",
-						"debug_lifetime_tracking": "Toggle Lifetime Tracking",
+						"fight_menu": "Bojové Menu",
+						"fight_alert": "Městská Pohotovost",
+						"fight_party_1": "Bojová Četa 1",
+						"fight_party_2": "Bojová Četa 2",
+						"fight_party_3": "Bojová Četa 3",
+						"fight_party_4": "Bojová Četa 4",
+						"bulletin_manager": "Menu Upozornění",
+						"ui_quicksave": "Rychlé Uložení",
+						"ui_quickload": "Rychlé Načtení",
+						"ui_refresh": "Obnovit",
+						"toggle_fullscreen": "Přepnout Režim Celé Obrazovky",
+						"toggle": "Přepnout Uživateslké Rozhraní ",
+						"ui_print_screen": "Pořídit Snímek Obrazovky",
+						"debug_console": "Stonehearth Konzole",
+						"debug_navgrid": "Zobrazit/Skrýt Navgrid",
+						"debug_navgrid_water_tight": "Zobrazit/Skrýt Watertight Navgrid",
+						"debug_lifetime_tracking": "Přepnout Doživotní Sledování",
 						"debug_toggle_step_paths": "Step Pathfinder Service",
 						"debug_step_topology": "Step Topology Service",
-						"debug_reload": "Save & Reload",
-						"debug_toggle_save_stress_test": "Toggle Save Stress Test",
-						"debug_toggle_debug_nodes": "Toggle Debug Nodes",
-						"debug_toggle_perfhud": "Toggle Perf HUD",
-						"debug_toggle_flame_graph": "Toggle Flame Graph",
-						"debug_switch_debug_shapes": "Switch Debug Shapes View",
-						"debug_crash": "Force Crash",
-						"debug_toggle_cpu_profiler": "Toggle Lua Profiler",
-						"debug_render_show_stats": "Show Rendering Stats",
-						"debug_render_debug_view": "Renderer Debug View",
-						"debug_show_terrain_coordinates": "Show Terrain Coordinates"
+						"debug_reload": "Uložit & Znovu Načíst",
+						"debug_toggle_save_stress_test": "Přepnout Save Stress Test",
+						"debug_toggle_debug_nodes": "Přepnout Debug Nodes",
+						"debug_toggle_perfhud": "Přepnout Perf HUD",
+						"debug_toggle_flame_graph": "Přepnout Flame Graph",
+						"debug_switch_debug_shapes": "Přepnout Debug Shapes Pohled",
+						"debug_crash": "Vynutit Pád Hry",
+						"debug_toggle_cpu_profiler": "Přepnout Lua Profiler",
+						"debug_render_show_stats": "Zobrazit Statistiky Vykreslování",
+						"debug_render_debug_view": "Vykreslit Debug View",
+						"debug_show_terrain_coordinates": "Zobrazit Terénní Souřadnice"
 					}
 				}
 			},
@@ -1891,17 +1891,17 @@
 					"cancel": "Ne, díky."
 				},
 				"mod_conflic_dialog": {
-					"title": "Module Conflicts Detected!",
-					"message": "Warning: You have conflicting mods that have the same namespace. Make sure only one mod with the namespace is enabled on the mod screen.<br>If you have both an .smod and a flat folder for the mod, the flat folder will be used. The affected mods are: <br><br>",
-					"accept": "Yes, proceed."
+					"title": "Objeven Konflikt Modulů!",
+					"message": "Varování: Máš konfliktní módy, které mají stejný jmenný prostor (namespace). Ujisti se, že pouze jeden mód s tímto jmeným prostorem je povolen v Módech .<br>Jestli máš pro mód  oboje složky, jak smod tak flat, tak bude použita složka flat. Dotčené módy jsou: <br><br>",
+					"accept": "Ano, pokračovat."
 				},
 				"mod_dependency_conflict": {
-					"title": "Module Circular Dependency Detected!",
-					"message": "Warning: You have mods that have circular dependencies (e.g. mod A depends on another mod B that eventually leads back to mod A). Mod dependencies specify what order the mods should be loaded in, but if there is a cycle, then we cannot determine which order to load them in.<br><br>Resolve the cycle mod dependencies inside of the affected mods' manifests. The affected mods have been temporarily disabled: <br><br>",
-					"accept": "Yes, proceed.",
+					"title": "Objevena Cyklická Závislost Modulů!",
+					"message": "Varování: Máš módy které mají cyklické závislosti (např. mód A závisí na jíném mód B, který  následně vede zpet k módu A). Závislosti módů určují v jakém pořadí mají být módy načteny, ale pokud dojde k zacyklení, tak nemůžeme určit, v jakém pořadí je máme načíst.<br><br>Vyřš. Dotčené módy byly dočasně zakázány: <br><br>",
+					"accept": "Ano, pokračovat.",
 					"dependency": ", which depends on:"
 				},
-				"ace": "ACE!",
+				"ace": "ACE!!! ",
 				"ace_dialog": {
 					"title": "Zapnout Autorizovanou Komunitní Expanzi (ACE)?",
 					"message": "ACE is a mod that was born out of the desire of a group of awesome community members to create a richer and more complete Stonehearth experience. It includes features intended to enhance the game, such as new classes, UX changes, biomes, items and more!<br><br><font size=-1><i>Note: As with any mod, your play experience will differ from the base game. ACE adds a lot of content, so you may need a more powerful machine in order to experience it the way it was intended. (You can always enable or disable it from the title screen or Mods Menu later).</i></font><br><br>Would you like to enable their mod?",
