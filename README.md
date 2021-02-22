@@ -30,7 +30,7 @@ Průběžně také probíhá kontrola a testování funkčnosti překladu
 Pro překlad doporučuji si stáhnout git a prosím vkládat překlady do jiné větve než hlavní (main), do hlavní větve pak nahráváme jen větší ucelené bloky překladů.<br/>
 Pro pomoc s překladem doporučuji využít tento pomocný nástroj: (Many thanks to BrunoSupremo) https://brunosupremo.github.io/Stonehearth-Translator/
 
-V následujícíh dvou dokumentech jsou uložené slova případně i celé věty, které si nejsme jistí, jak překládat (Nejisté překlady). Respektive jsme se rozhodli, že je budeme překládat tímto způsobem (Ustálené výrazy)- to znamená, že při překladu byste je měli dodržovat, aby se udržela nějaká jednota překladu.Pro úpravu těchto dokumentů musíte požádat o oprávnění
+V následujícíh dvou google dokumentech jsou uložené slova případně i celé věty, které si nejsme jistí, jak překládat (Nejisté překlady). Respektive jsme se rozhodli, že je budeme překládat tímto způsobem (Ustálené výrazy)- to znamená, že při překladu byste je měli dodržovat, aby se udržela nějaká jednota překladu. Pro úpravu těchto dokumentů musíte požádat o oprávnění.
 
 [Nejisté překlady](https://docs.google.com/document/d/1XPQzsXc9MoOCnaVSEjkDlhrqXI0NYyxz/edit)<br/>
 [Ustálené výrazy](https://docs.google.com/document/d/1CrqKTX2AkoIyoFndXLSLgXdvWC69zpGG/edit)<br/>
