@@ -1,23 +1,20 @@
 
-#:czech_republic: Český překlad hry Stonehearth :czech_republic:
+# :czech_republic: Český překlad hry Stonehearth :czech_republic:
 
-####:uk: For English speaking people: :uk:
-
+#### :uk: For English speaking people: :uk:
 This is repository for Czech translation of game called Stonehearth. If you want to know more about it write me on discord (Susenka#0833) <br/>
 
-##:czech_republic: Pro Čechy (Případně Slováky)
-
+## :czech_republic: Pro Čechy (Případně Slováky)
 V tomhle repozitáři se nachází český překlad hry stonehearth včetně implementace různých fontů, tak aby podporovaly české znaky.
 
 Zatím nás na překladu nepracuje moc, takže vývoj není moc rychlý, ale snažíme se co můžeme. Máme v plánu přeložit nejříve celou základní hru tedy včetně první frakce. Poté chceme přeložit i dvě zbývající frakce a nakonec bychom se chtěli pustit do ACE (Autorizovaná komunitní expanze).
 
-##Chceš pomoci s překladem?
-
+## Chceš pomoci s překladem?
 Pokud se chceš přidat do překladatelského týmu, budeme jedině rádi. Vůbec nevadí, že nemáš překladatelské zkušenosti nebo případně neumíš moc dobře anglicky, protože nepotřebujeme jenom překladatele ale i lidi co budou překlad testovat, případně také někoho, kdo ho bude procházet a opravovat gramatické chyby. A pokud nevíš jk pracovat s gitem tak ti rádi poradíme jak na to :wink:
 
 Pokud tedy máš zájem napiš mi zprávu na discordu Susenka#0833 (případně mě můžeš najít na serveru [Stonehearth - ACE](https://discord.gg/8dxCsqB)), nebo pokud nepoužíváš discord, můžeš mi napsat na [steamu](https://steamcommunity.com/id/susenak/).
 
-##Současný stav překladu (Aktualizováno 22.2.2021)
+## Současný stav překladu (Aktualizováno 22.2.2021)
 - [x] Základní nastavení češtiny, tak aby se dala spustit
 - [x] Úprava herních fontů, tak aby podporovali češtinu
 - [ ] Základní hra (Ascendancy) **_Dokončeno_ 20%**
@@ -29,8 +26,7 @@ Pokud tedy máš zájem napiš mi zprávu na discordu Susenka#0833 (případně 
 
 Průběžně také probíhá kontrola a testování funkčnosti překladu
 
-##Informace pro překladatele
-
+## Informace pro překladatele
 Pro překlad doporučuji si stáhnout git a prosím vkládat překlady do jiné větve než hlavní (main), do hlavní větve pak nahráváme jen větší ucelené bloky překladů.<br/>
 Pro pomoc s překladem doporučuji využít tento pomocný nástroj: (Many thanks to BrunoSupremo) https://brunosupremo.github.io/Stonehearth-Translator/
 
