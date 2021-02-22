@@ -17,7 +17,7 @@
 				"repair_entity": "opravuje [name(data.target)]",
 				"follow_entity": "následuje [name(data.target)]",
 				"resting_by_fire": "odpočívá u ohně",
-				"claiming_animal": "claiming animal",
+				"claiming_animal": "zpracovává zvíře",
 				"looking_for_animals": "hledá zvířata",
 				"collect_ingredient": "sbírá přísady",
 				"build_workshop": "staví workshop",
@@ -47,7 +47,7 @@
 				"teardown_ladder": "odstraňuje žebřík",
 				"drop_item_near_workshop": "pročišťuje workshop",
 				"fabricate_structure": "staví",
-				"teardown_structure": "tearing down structures",
+				"teardown_structure": "boří stavby",
 				"feed_pasture_animals": "krmí zvířata",
 				"restock": "doplňuje zásoby",
 				"resting_from_injuries": "vyžaduje lékařskou pomoc",
@@ -146,7 +146,7 @@
 				"pause_description": "Pozastavit hru",
 				"play_title": "Pustit",
 				"play_description": "Pustit hru s normální rychlostí",
-				"ff_title": "Fast Forward",
+				"ff_title": "Větší Rychlost",
 				"ff_description": "Pustit hru s dvojitou rychlostí",
 				"speedThree_title": "Super Rychlost",
 				"speedThree_description": "Pustit hru s vysokou rychlostí",
@@ -162,7 +162,7 @@
 				"terrain_slice_vision_up_single": "Zvýšení úroveně řezu",
 				"terrain_slice_vision_down_single": "Snížení úrovně řezu",
 				"terrain_slice_vision_down": "Snížení úrovně řezu (skok o 5)",
-				"terrain_xray_vision_icon_name": "X-Ray",
+				"terrain_xray_vision_icon_name": "rtg",
 				"terrain_xray_vision": "Rentgen terénem",
 				"terrain_xray_vision_description": "Umožňuje vidět skrz terén. Vybírej mezi plným a plochým pohledem pro zobrazení podzemních stěn.",
 				"terrain_xray_vision_flat": "plochý",
@@ -176,8 +176,8 @@
 				"you": "[str(town_name)] (Ty!)",
 				"offering": "Nabízíš: ",
 				"requesting": "Žádáš:",
-				"source_gold": "Tvé jmění celkem:",
-				"target_gold": "Jejich jmění celkem:",
+				"source_gold": "Tvé zlaté celkem:",
+				"target_gold": "Jejich zlaté celkem:",
 				"give_1": "Dát 1",
 				"give_10": "Dát 10",
 				"request_1": "Požádat o 1",
@@ -214,7 +214,7 @@
 				"title": "Vyber Hráče"
 			},
 			"multiplayer_menu": {
-				"display_name": "Menu hry více hráčů",
+				"display_name": "Menu Hry Více Hráčů",
 				"description": "Ostatní hráči, kteří se připojili do této hry",
 				"host": "hostitel",
 				"client": "návštěvník",
@@ -231,7 +231,7 @@
 				"remote_connections_disabled_description": "Pokud chceš aby se ke tvojí hře mohli připojit jiní hráči, povol hru více hráčů v nastavení",
 				"settings": "Nastavení",
 				"trade": "Obchod",
-				"transfer_player": "Přisvojit si Majetek",
+				"transfer_player": "Přivlastnit si Majetek",
 				"confirm": {
 					"cancel": "Zrušit",
 					"continue": "Pokračovat",
@@ -244,12 +244,12 @@
 						"message": "Jsi si jistý, že chceš smazat všechen majetek tohoto hráče? Tím také odstraníš hráčovo město ze hry. Tato akce je nevratná!"
 					},
 					"transfer_player": {
-						"title": "Přisvojit si hráčův Majetek",
+						"title": "Přivlastnit si hráčův Majetek",
 						"message": "Jsi si jistý, že si chceš přisvojit všechen majetek tohoto hráče? Tím také odstraníš hráčovo město ze hry. Tato akce je nevratná!"
 					},
 					"friends_overlay": {
 						"title": "Pozvat Přátele",
-						"message": "Kliknutím na 'Continue'/'Pokračovat' otevřeš Steamové překrytí ve hře. Pravým tlačítkem klikni na přítele, kterého chceš pozvat do hry a klikni na 'Invite to Game'/'Pozvat do hry'. Přítel pak dostane zprávu s odkazem k připojení. "
+						"message": "Kliknutím na 'Pokračovat' otevřeš Překrytí ve hře. Pravým tlačítkem klikni na přítele, kterého chceš pozvat do hry a klikni na 'Invite to Game'/'Pozvat do hry'. Přítel pak dostane zprávu s odkazem k připojení. "
 					}
 				},
 				"friends_list": "Kliknutím Pozvi!",
@@ -267,7 +267,7 @@
 			"citizen_character_sheet": {
 				"title": "Info o Postavě",
 				"health": "životy",
-				"morale": "morálka",
+				"morale": "spokojenost",
 				"experience": "zkušenosti",
 				"max_level": "Maximální úroveň",
 				"no_levels": "Bez úrovní",
@@ -279,14 +279,14 @@
 				"master": "Mistr",
 				"journal": "Deník",
 				"thoughts": "Myšlenky",
-				"morale_meter": "Ukazatel Morálky",
+				"morale_meter": "Ukazatel Spokojenosti",
 				"attributes": "Vlastnosti",
 				"equipment": "Vybavení",
-				"abilities": "Povolání",
+				"abilities": "Dovednosti Povolání",
 				"appeal": "Přitažlivost",
 				"unknown_item": "Neobjevená Preference",
-				"morale_title": "Morálka",
-				"overall_morale": "Celková Morálka",
+				"morale_title": "Spokojenost",
+				"overall_morale": "Celková Spokojenost",
 				"morale_food": "Jídlo",
 				"morale_shelter": "Přístřeší",
 				"morale_safety": "Bezpečnost",
@@ -295,7 +295,7 @@
 				"backpack_tab_name": "Batoh",
 				"journal_no_entries": "žádné záznamy",
 				"retired": "Odstoupil na:",
-				"traits": "Traits",
+				"traits": "Rysy",
 				"above": "nad",
 				"below": "pod",
 				"currently": "V Současnosti:",
@@ -334,7 +334,7 @@
 			"tutorials": {
 				"camera": {
 					"camera_pan_title": "Pohyb kamery",
-					"camera_pan_1": "Hold, then move the mouse",
+					"camera_pan_1": "Drž tlačítko, a pak pohybuj myší",
 					"camera_pan_2": "Nebo použij klávesnici",
 					"camera_pan_3": "Nebo stiskni kolečko myši a pohybuj s ní",
 					"camera_orbit_title": "Otáčení kamery",
@@ -470,8 +470,8 @@
 					"display_name": "Zrušit Bojový Příkaz",
 					"description": "Zruší aktivní bojové příkazy."
 				},
-				"level": "Lv: ",
-				"Lvl": "Lvl",
+				"level": "Úr: ",
+				"Lvl": "Úrv",
 				"class_lv_title": "Požadovaná Třída a Úroveň ",
 				"no_requirements": "Žádná!",
 				"equipment_description": "Vybavení, které může použít: [str(class_list)]",
@@ -506,7 +506,7 @@
 					"current_activity": "Činnost",
 					"working_for": "Pracuje Pro",
 					"status": "Stav",
-					"morale": "Morálka"
+					"morale": "Spokojenost"
 				},
 				"show_character_sheet": "Informace o Postavě",
 				"button_suspend": "přerušit",
@@ -523,7 +523,7 @@
 					"cannot_enroll": "Cannot enroll"
 				},
 				"working_for": {
-					"title": "Change Working For",
+					"title": "Změnit pro koho pracuje",
 					"myself": "Naše město"
 				}
 			},
@@ -550,9 +550,9 @@
 					"12": "Northmun"
 				},
 				"month_format": "i18n(stonehearth:ui.game.calendar.months.[str(date.month)])",
-				"date_format_long": "Den [str(date.day)] Měsíce i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)]",
-				"date_format_long_ordinal": "[str(ord_day)] Den Měsíce i18n(stonehearth:ui.game.calendar.month_format) [str(date.year)]",
-				"date_time_long_format": "Den [str(date.day)] Měsíce i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)], [str(date.time)]",
+				"date_format_long": "Den [str(date.day)] měsíce i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)]",
+				"date_format_long_ordinal": "[str(ord_day)] Den měsíce i18n(stonehearth:ui.game.calendar.month_format) [str(date.year)]",
+				"date_time_long_format": "Den [str(date.day)] měsíce i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)], [str(date.time)]",
 				"date_format_short": "i18n(stonehearth:ui.game.calendar.month_format), [str(date.day)]",
 				"weather_prefix_0": "Dnes: ",
 				"weather_prefix_1": "Zítra: ",
@@ -618,8 +618,8 @@
 				"death_notification": "[name(i18n_data.entity)] umřel/a.",
 				"imminent_death_notification": "[name(i18n_data.citizen)] je vážně zraněný!",
 				"starving_notification": "[name(i18n_data.citizen)] hladoví!",
-				"unreachable_ingredient_notification": "[name(i18n_data.citizen)] nemůže nalézt některé přísady, aby mohl vyrobit  [str(i18n_data.crafting_order)].",
-				"where_is_food_notification": "[name(i18n_data.citizen)] nemůže nalézt žádné jídlo.",
+				"unreachable_ingredient_notification": "[name(i18n_data.citizen)] nemůže najít některé přísady, aby mohl vyrobit  [str(i18n_data.crafting_order)].",
+				"where_is_food_notification": "[name(i18n_data.citizen)] nemůže najít žádné jídlo.",
 				"health_status_normal": "Normální",
 				"health": "Životy",
 				"gender": {
@@ -650,18 +650,18 @@
 							"display_name": "Kopat Tunel",
 							"description": "Vykopávání tunelů a jeskyň o velikosti 4x4",
 							"tip_title": "Klikni a táhni myší pro kopání",
-							"tip_description": "Drž Ctrl pro zmenšování oblastí. Mód ukončíš stiskem pravého tlačítka."
+							"tip_description": "Drž Ctrl pro zmenšování oblastí. Skonči stiskem pravého tlačítka."
 						},
 						"mine_custom": {
 							"display_name": "Těžba Vlastních Bloků",
 							"description": "Těž bloky vlastní velikosti",
 							"tip_title": "Klikni a táhni myší pro kopání",
-							"tip_description": "Měň vodorovnou velikost pomocí Shift + Kolečko myši.<br/>Měň svislou velikost pomocí Alt + Kolečko myši .<br/>Drž Ctrl pro zmenšování oblastí.<br/>Mód ukončíš stiskem pravého tlačítka."
+							"tip_description": "Měň vodorovnou velikost pomocí Shift + Kolečko myši.<br/>Měň svislou velikost pomocí Alt + Kolečko myši .<br/>Drž Ctrl pro zmenšování oblastí.<br/>Skonči stiskem pravého tlačítka."
 						},
 						"loot_item": {
-							"display_name": "Získat Kořist",
-							"description": "Získej kořist z nepřátel",
-							"tip_title": "Klikni a táhni myší pro získání kořisti ze světa",
+							"display_name": "Sebrat Kořist",
+							"description": "Seber kořist z nepřátel",
+							"tip_title": "Klikni a táhni myší pro sebrání kořisti ze světa",
 							"tip_description": "Mód ukončíš stiskem pravého tlačítka."
 						},
 						"cancel_task": {
@@ -687,801 +687,801 @@
 					"description": "Vyznač na zemi zóny pro farmaření, skladování, atd.",
 					"items": {
 						"create_stockpile": {
-							"display_name": "Stockpile",
-							"description": "Place a stockpile for storing resources.",
-							"tip_title": "Click and drag to create your stockpile",
+							"display_name": "Skladiště",
+							"description": "Umísti skladiště na uskladnění zdrojů.",
+							"tip_title": "Klikni a táhni myší pro vytvoření svého skladiště",
 							"tip_description": "Mód ukončíš stiskem pravého tlačítka."
 						},
 						"create_farm": {
-							"display_name": "Farms",
-							"description": "Umístění farmy do terénu.",
-							"required_job_text": "Requires a farmer",
-							"tip_title": "Click and drag to designate a new field",
-							"tip_description": "Farmers will break ground and plant crops here"
+							"display_name": "Farmy",
+							"description": "Umísti farmu do terénu.",
+							"required_job_text": "Vyžaduje farmáře",
+							"tip_title": "Klikni a táhni myší pro vyznačení nového pole",
+							"tip_description": "Farmáři rozorají půdu a zasadí do ní plodiny"
 						},
 						"create_trapping_grounds": {
-							"display_name": "Trapping Ground",
-							"description": "Place traps to capture small critters.",
-							"required_job_text": "Requires a trapper",
-							"tip_title": "Click and drag to create trapping grounds",
-							"tip_description": "Trappers catch critters for food and resources in this zone"
+							"display_name": "Lovecké Pasti",
+							"description": "Umísti pasti na chytání malých tvorů.",
+							"required_job_text": "Vyžaduje trapera",
+							"tip_title": "Klikni a táhni myší pro vytvoření oblasti loveckých pastí.",
+							"tip_description": "Traperové v této oblasti chytají zvířata na jídlo a jiné zdroje"
 						},
 						"create_pasture": {
-							"display_name": "Animal Pasture",
-							"description": "The shepherd will bring animals here to graze.",
-							"required_job_text": "Requires a shepherd",
-							"tip_title": "Click and drag to create an animal pasture",
-							"tip_description": "Shepherds bring animals to this region and tend to their needs here."
+							"display_name": "Zvířecí Pastvina",
+							"description": "Pastýř sem přivede zvířata na pastvu.",
+							"required_job_text": "Vyžaduje pastýře.",
+							"tip_title": "Klikni a táhni myší pro vytvoření pastviny",
+							"tip_description": "Pastýři sem přivedou zvířata a budou se tu starat o jejich potřeby."
 						}
 					}
 				},
 				"build_menu": {
-					"display_name": "Build & Design",
-					"description": "Build structures like houses and city walls.",
+					"display_name": "Stavba & Návrh",
+					"description": "Výstavba staveb jako jsou domy nebo zdi města.",
 					"items": {
 						"building_templates": {
-							"display_name": "Place Building",
-							"description": "Choose to construct a building from a pre-designed template"
+							"display_name": "Umístit Stavbu",
+							"description": "Vyber stavbu pro zkonstruování podle šablony"
 						},
 						"custom_building": {
-							"display_name": "Design Building",
-							"description": "Design your own one-of-a-kind building"
+							"display_name": "Návrh Stavby",
+							"description": "Navrhni vlastní jedinečnou stavbu"
 						},
 						"broken_building": {
-							"display_name": "Old 'n Busted",
+							"display_name": "Staré & Rozbité",
 							"description": "Tempt fate with the old building editor!"
 						},
 						"place_item": {
-							"display_name": "Place Item",
-							"description": "Place items like furniture and decoration",
-							"tip_title": "Click to place this item",
-							"tip_description": "Rotate with [str(left_binding)] and [str(right_binding)] keys"
+							"display_name": "Umístit Předmět",
+							"description": "Umísti předměty jako nábytek nebo dekorace",
+							"tip_title": "Klikni pro umístení předmětu.",
+							"tip_description": "Otáčej pomocí kláves [str(left_binding)] a [str(right_binding)]"
 						},
 						"cannot_place_item": {
-							"tip_title": "Cannot place this item",
-							"tip_description": "Reached [str(tag)] placement limit of [str(num)] / [str(max)]"
+							"tip_title": "Předmět nelze umístit",
+							"tip_description": "Dosažen [str(tag)] limit umístění [str(num)] / [str(max)]"
 						},
 						"build_ladder": {
-							"display_name": "Construct Ladder",
-							"description": "Build a ladder to access hard to reach places",
-							"tip_title": "Click on a wall to build ladders",
-							"tip_description": "Click to manually place a ladder to access hard to reach areas.<br><br>Right click to exit"
+							"display_name": "Konstrukce Žebříku",
+							"description": "Postav žebřík, aby ses dostal na těžko dostupná místa",
+							"tip_title": "Kliknutím na zeď postavíš žebříky",
+							"tip_description": "Klikni pro ruční umístění žebříku, aby ses dostal do těžko dostupných oblastí.<br><br>Skonči stiskem pravého tlačítka "
 						}
 					}
 				},
 				"place_menu": {
-					"display_name": "Place",
-					"description": "Place objects like furniture and ladders.",
+					"display_name": "Umístit",
+					"description": "Umísti objekty jako nábytek a žebříky.",
 					"items": {
 						"place_item": {
-							"display_name": "Place Item",
-							"description": "Place items like furniture and decoration",
-							"tip_title": "Click to place this item",
-							"tip_description": "Rotate with [str(left_binding)] and [str(right_binding)] keys"
+							"display_name": "Umístit Předmět",
+							"description": "Umísti předměty jako nábytek nebo dekorace",
+							"tip_title": "Klikni pro umístení předmětu.",
+							"tip_description": "Otáčej pomocí kláves [str(left_binding)] a [str(right_binding)]"
 						},
 						"cannot_place_item": {
-							"tip_title": "Cannot place this item",
-							"tip_description": "Reached [str(tag)] item placement limit of [str(num)] / [str(max)]"
+							"tip_title": "Předmět nelze umístit",
+							"tip_description": "Dosažen [str(tag)] limit umístění [str(num)] / [str(max)]"
 						},
 						"build_ladder": {
-							"display_name": "Construct Ladder",
-							"description": "Build a ladder to access hard to reach places",
-							"tip_title": "Click on a wall to build ladders",
-							"tip_description": "Click to manually place a ladder to access hard to reach areas.<br><br>Right click to exit"
+							"display_name": "Konstrukce Žebříku",
+							"description": "Postav žebřík, aby ses dostal na těžko dostupná místa",
+							"tip_title": "Kliknutím na zeď postavíš žebříky",
+							"tip_description": "Klikni pro ruční umístění žebříku, aby ses dostal do těžko dostupných oblastí.<br><br>Skonči stiskem pravého tlačítka "
 						}
 					}
 				},
 				"fight_menu": {
-					"display_name": "Fight & Defend",
-					"description": "Manage your combat forces",
+					"display_name": "Boj & Obrana",
+					"description": "Řiď své vojenské jednotky",
 					"items": {
 						"party_manager": {
-							"display_name": "Parties",
-							"description": "Organize your troops into groups"
+							"display_name": "Čety",
+							"description": "Uspořadej svoje jednotky do skupin"
 						},
 						"town_alert": {
-							"display_name": "Town Alert Mode!",
-							"description": "Rally your hearthlings to prepare for intruders!",
-							"activated_title": "Town Alert Mode Activated!",
-							"activated_text": "Your hearthlings are vigilantly watching for intruders. Non-combat hearthlings will run to safety points."
+							"display_name": "Režim Městské Pohotovosti!",
+							"description": "Shromáždi hearthlingy aby se připravili na vetřelce!",
+							"activated_title": "Aktivován Režim Městské Pohotovosti!",
+							"activated_text": "Tvoji hearthlingové ostražitě sledují zda se objeví vetřelci. Nebojový hearthlingové poběží k bezpečným bodům."
 						},
 						"party_1": {
-							"display_name": "Combat Party 1",
-							"description": "Direct hearthlings with combat jobs into battle! Promoted combat units are automatically added here.",
+							"display_name": "Bojová Četa 1",
+							"description": "Veď hearthlingy s bojovými povoláními do bitvy! Sem jsou automaticky přidány povýšené bojové jednotky.",
 							"tip_title": "The party is selected in the unit frame.",
 							"tip_description": "Use the commands in the unit frame to direct the people in the party."
 						},
 						"party_2": {
-							"display_name": "Combat Party",
+							"display_name": "Bojová Četa",
 							"description": "Direct hearthlings with combat jobs into battle! Use the unit frame controls to manage the party.",
 							"tip_title": "The party is selected in the unit frame.",
 							"tip_description": "Use the commands in the unit frame to direct the people in the party."
 						},
 						"party": {
-							"required_job_text": "Requires a combat job"
+							"required_job_text": "Vyžaduje bojové povolání"
 						}
 					}
 				},
 				"crafter_menu": {
-					"display_name": "Crafters",
-					"description": "Build and manage crafting workshops",
+					"display_name": "Řemeslníci",
+					"description": "Postav a spravuj řemeslnické dílny",
 					"items": {
 						"carpenter": {
-							"display_name": "Carpenter Craft Menu",
-							"description": "Build wooden furniture and decor.",
-							"required_job_text": "Requires a carpenter"
+							"display_name": "Výrobní Menu Tesaře",
+							"description": "Vyrábí dřevěné vybavení a dekorace",
+							"required_job_text": "Vyžaduje tesaře"
 						},
 						"weaver": {
-							"display_name": "Weaver Craft Menu",
-							"description": "Create clothes, fabrics, and decor.",
-							"required_job_text": "Requires a weaver"
+							"display_name": "Výrobní Menu Tkalce",
+							"description": "Vytváří oblečení, látky a dekorace.",
+							"required_job_text": "Vyžaduje tkalce"
 						},
 						"mason": {
-							"display_name": "Mason Craft Menu",
-							"description": "Chisel stone weapons and furniture.",
-							"required_job_text": "Requires a mason"
+							"display_name": "Výrobní Menu Kameníka",
+							"description": "Vytesá kamenné zbraně a vybavení. ",
+							"required_job_text": "Vyžaduje kameníka"
 						},
 						"blacksmith": {
-							"display_name": "Blacksmith Craft Menu",
-							"description": "Smelt ore for weapons and armor.",
-							"required_job_text": "Requires a blacksmith"
+							"display_name": "Výrobní menu Kováře",
+							"description": "Přetavuje rudy na zbraně a brnění.",
+							"required_job_text": "Vyžaduje kováře"
 						},
 						"cook": {
-							"display_name": "Cook Craft Menu",
-							"description": "Makes food taste better and last longer.",
-							"required_job_text": "Requires a cook"
+							"display_name": "Výrobní Menu Kuchaře",
+							"description": "Dělá jídlo chutnější a trvanlivější.",
+							"required_job_text": "Vyžaduje kuchaře"
 						},
 						"potter": {
-							"display_name": "Potter Craft Menu",
-							"description": "Makes bricks and goods from clay.",
-							"required_job_text": "Requires a potter"
+							"display_name": "Výrobní Menu Hrnčíře",
+							"description": "Vyrábí cihly a věci z jílu.",
+							"required_job_text": "Vyžduje hrnčíře"
 						},
 						"herbalist": {
-							"display_name": "Herbalist Craft Menu",
-							"description": "Makes healing items from herbs.",
-							"required_job_text": "Requires an herbalist"
+							"display_name": "Výrobní Menu Bylinkáře",
+							"description": "Připravuje léčivé předměty z bylinek.",
+							"required_job_text": "Vyžaduje bylinkáře."
 						},
 						"engineer": {
-							"display_name": "Engineer Craft Menu",
-							"description": "Make contraptions and defensive weaponry",
-							"required_job_text": "Requires an engineer"
+							"display_name": "Výrobní Menu Technika",
+							"description": "Vyrábí zlepšováky a obrannou techniku.",
+							"required_job_text": "Vyžaduje technika"
 						},
 						"geomancer": {
-							"display_name": "Geomancer Craft Menu",
-							"description": "Imbue summoning stones and golems",
-							"required_job_text": "Requires a geomancer"
+							"display_name": "Výrobní Menu Geomancera",
+							"description": "Vyvolává kameny a vytváří golemy.",
+							"required_job_text": "Vyžaduje geomancera"
 						}
 					}
 				},
 				"bulletin_manager": {
-					"display_name": "Bulletins",
-					"description": "Important notifications about the world and your town"
+					"display_name": "Zpravodaje",
+					"description": "Důležitá upozornění o tvém městě a světě."
 				},
 				"tasks_manager": {
-					"display_name": "Manage Tasks",
-					"description": "Do task stuff.",
-					"remove_stockpile": "Remove Stockpile",
-					"pause_stockpile": "Pause",
-					"resume_stockpile": "Resume",
+					"display_name": "Řízení Úkolů",
+					"description": "Dělá věci k úkolům.",
+					"remove_stockpile": "Odstranit Skladiště",
+					"pause_stockpile": "Pozastavit",
+					"resume_stockpile": "Znovu Spustit",
 					"group": {
-						"stockpiles": "Stockpiles",
-						"building": "Building",
-						"placement": "Placed Items",
-						"maintenance": "General Maintenance",
-						"farming": "Farming",
-						"harvesting": "Harvesting",
-						"mining": "Mining",
-						"trapping": "Trapping"
+						"stockpiles": "Skladiště",
+						"building": "Stavby",
+						"placement": "Umístěné Předměty",
+						"maintenance": "Obecná Údržba",
+						"farming": "Farmaření",
+						"harvesting": "Sklizeň/Těžba",
+						"mining": "Kopání",
+						"trapping": "Chytání do Pastí"
 					},
-					"percent_full": "[str(percent)] Percent Full",
-					"active": "active",
-					"paused": "paused"
+					"percent_full": "Zaplněno [str(percent)] Procent",
+					"active": "aktivní",
+					"paused": "pozastavené"
 				},
 				"warnings": {
-					"town_inventory_full": "Town Items Full"
+					"town_inventory_full": "Inventář Města Plný"
 				}
 			},
 			"bulletin": {
-				"bulletin_list_title": "Notifications",
+				"bulletin_list_title": "Upozornění",
 				"shop": {
-					"buy_1": "Buy 1",
-					"buy_10": "Buy 10",
-					"buy_all": "Buy All",
-					"sell_1": "Sell 1",
-					"sell_10": "Sell 10",
-					"sell_all": "Sell All",
-					"buy_tab": "Buy",
-					"sell_tab": "Sell",
-					"shop_gold_label": "Gold",
-					"shopkeeper_gold_label": "Merchant gold",
-					"not_enough_gold_tooltip": "Not enough gold",
-					"shopkeeper_not_enough_gold_tooltip": "Shopkeeper does not have enough gold"
+					"buy_1": "Koupit 1",
+					"buy_10": "Koupit 10",
+					"buy_all": "Koupit Vše",
+					"sell_1": "Prodat 1",
+					"sell_10": "Prodat 10",
+					"sell_all": "Prodat Vše",
+					"buy_tab": "Nákup",
+					"sell_tab": "Prodej",
+					"shop_gold_label": "Zlaté",
+					"shopkeeper_gold_label": "Ochodníkovy zlaté",
+					"not_enough_gold_tooltip": "Nedostatek zlatých",
+					"shopkeeper_not_enough_gold_tooltip": "Prodavač nemá dostatek zlatých"
 				},
 				"trade": {
-					"target_title": "Trade Offer from [str(i18n_data.town_name)]",
-					"source_title": "Trade Offer for [str(i18n_data.town_name)]",
-					"title_without_name": "Trade Offer",
-					"offering": "Offering:",
-					"exchange": "In exchange for:",
-					"request": "Requesting:",
-					"cancelled": "[str(i18n_data.town_name)] Cancelled a Trade",
-					"cancelled_no_name": "Trade Cancelled",
-					"accepted": "[str(i18n_data.town_name)] Accepted a Trade",
-					"accepted_no_name": "Trade Accepted",
-					"declined": "[str(i18n_data.town_name)] Declined a Trade",
-					"declined_no_name": "Trade Declined",
+					"target_title": "Obchodní Nabídka od [str(i18n_data.town_name)]",
+					"source_title": "Obchodní Nabídka pro [str(i18n_data.town_name)]",
+					"title_without_name": "Obchodní Nabídka",
+					"offering": "Nabízí:",
+					"exchange": "Výměnou za:",
+					"request": "Žádá:",
+					"cancelled": "Město [str(i18n_data.town_name)] Zrušilo Obchod",
+					"cancelled_no_name": "Obchod Zrušen",
+					"accepted": "Město [str(i18n_data.town_name)] Přijalo Obchod",
+					"accepted_no_name": "Obchod Přijat",
+					"declined": "Město [str(i18n_data.town_name)] Odmítlo Obchod",
+					"declined_no_name": "Obchod Odmítnut",
 					"fail": {
-						"title": "Trade Couldn't Be Completed",
-						"source": "The other town no longer has enough of the offered resources to complete this trade.",
-						"target": "You don't have enough resources to complete this trade.",
-						"source_gold": "The other town no longer has enough gold to complete this trade.",
-						"target_gold": "You don't have enough gold to complete this trade."
+						"title": "Obchod Nemohl Být Dokončen",
+						"source": "Druhé město nemá dostatek nabízených zdrojů na dokončení obchodu.",
+						"target": "Nemáš dostatek zdrojů pro dokončení obchodu.",
+						"source_gold": "Druhé město nemá dostatek zlatých na dokončení obchodu.",
+						"target_gold": "Nemáš dostatek zlatých na dokončení obchodu."
 					}
 				},
 				"city_dialog": {
-					"proclamation": "PROCLAMATION OF"
+					"proclamation": "PROHLÁŠENÍ"
 				},
 				"city_tier_dialog": {
-					"build_and_place": "Build & Place",
-					"attain_net_worth": "Attain Net Worth:",
-					"check_requirements": "Check Requirements",
-					"summon_herald": "Summon Herald!"
+					"build_and_place": "Postav & Umísti",
+					"attain_net_worth": "Získej Celkové Jmění:",
+					"check_requirements": "Zkontroluj Požadavky",
+					"summon_herald": "Předvolej Posla!"
 				},
 				"level_up_bulletin": {
-					"title": "[name(i18n_data.entity)] has Leveled Up!",
-					"show_char_sheet": "Character Sheet"
+					"title": "[name(i18n_data.entity)] postoupil na Další Úroveň!",
+					"show_char_sheet": "Informace o Postavě "
 				},
 				"promote_bulletin": {
-					"title": "[name(i18n_data.entity)] has been Promoted!",
-					"show_char_sheet": "Character Sheet"
+					"title": "[name(i18n_data.entity)] byl Povýšen!",
+					"show_char_sheet": "Informace o Postavě "
 				},
 				"delivery_quest": {
-					"complete": "Complete",
-					"abandon": "Abandon",
-					"happiness_requirement_label": "[str(value)] citizens are at least [str(moodName)]",
-					"happiness_requirement_label_all": "All citizens are at least [str(moodName)]",
-					"happiness_requirement_all": "[str(value)] (all)",
+					"complete": "Splnit",
+					"abandon": "Opustit",
+					"happiness_requirement_label": "Počet obyvatel, jejichž nálada je minimálně [str(moodName)], je [str(value)]",
+					"happiness_requirement_label_all": "Nálada všech obyvatel je minimálně [str(moodName)]",
+					"happiness_requirement_all": "[str(value)] (všichni)",
 					"gold_label": {
-						"give": "Gold",
-						"have": "Gold on hand",
-						"spent": "Gold spent via trade",
-						"earned": "Gold earned via trade"
+						"give": "Zlaté",
+						"have": "Požitelné zlaté",
+						"spent": "Zlaté utracené obchodováním",
+						"earned": "Zlaté vydělané obchodováním"
 					},
-					"net_worth_label": "Net worth",
+					"net_worth_label": "Celkové jmění",
 					"placed_item_label": "[str(itemName)] placed",
 					"quality_label": {
-						"quality_2": "Fine quality items owned",
-						"quality_3": "Excellent quality items owned",
-						"quality_4": "Masterwork quality items owned"
+						"quality_2": "Vlastněné předměty dobré kvality",
+						"quality_3": "Vlastněné předměty vynikající kvality",
+						"quality_4": "Vlastněné předměty hustodémonskykrutopřísné kvality"
 					}
 				},
 				"dispatch_quest": {
-					"abandon": "Abandon",
-					"dispatch": "Dispatch",
-					"selected": "Selected",
-					"select": "Select",
-					"deselect": "Deselect"
+					"abandon": "Opustit",
+					"dispatch": "Odeslat",
+					"selected": "Vybráno",
+					"select": "Vybrat",
+					"deselect": "Zrušit vyběr"
 				},
 				"reembarkation": {
-					"title": "A new adventure awaits!",
-					"dismiss": "Maybe Later",
-					"reject": "Maybe Next Month",
-					"confirm": "Depart",
-					"prompt": "Select a crew to depart on a new adventure, and choose items for them to take along!"
+					"title": "Nové dobrodrušství čeká!",
+					"dismiss": "Možná Později",
+					"reject": "Možná Příští Měsíc",
+					"confirm": "Odcestovat",
+					"prompt": "Vyber skupinu, která odcestuje za novým dobrodružstvím, a vyber jim předměty na cestu!"
 				},
 				"town_upgrade_choice": {
-					"title": "Official Settlement Declaration",
-					"name_header": "Choose a name for your settlement!",
-					"name_prompt": "Name:",
-					"banner_prompt": "Choose settlement path:",
-					"complete": "Issue Declaration!"
+					"title": "Officiální Prohlášení Osady",
+					"name_header": "Zvol jméno své osady!",
+					"name_prompt": "Jméno:",
+					"banner_prompt": "Vyber cestu osady:",
+					"complete": "Vydat Prohlášení!"
 				},
 				"immigration_report": {
-					"title": "Daily Update",
-					"immigration_report_title": "Immigration Report",
-					"population_label": "[str(town_name)] population",
-					"next_requirements_label": "Next hearthling requirements...",
+					"title": "Denní Aktualizace",
+					"immigration_report_title": "Hlášení o Imigraci",
+					"population_label": "[str(town_name)] populace",
+					"next_requirements_label": "Požadavky na dalšího hearthlinga...",
 					"tooltips": {
-						"food": "Higher quality food provides higher food scores.",
-						"morale": "Keep your hearthlings safe, well-fed, and comfortable to improve morale.",
-						"net_worth": "Estimated value of your town. Collect items, accumulate gold and build buildings to increase your net worth."
+						"food": "Jídlo vyšší kvality dává vyšší jídlení skóre.",
+						"morale": "Spokojenost zlepšíš, když se tvoji heratlingové budou cícit pohodlně, bezpečně a budou dobře živení.",
+						"net_worth": "Odhadovaná hodnota tvého města. Sbírej předměty, shromažďuj zlato a stav budovy, abys si zvýšil celkové jmění."
 					}
 				},
 				"collection_quest": {
-					"pay": "Here you go!",
-					"cancel": "I've changed my mind"
+					"pay": "Tady to máš!",
+					"cancel": "Rozmyslel jsem si to"
 				},
 				"inventory_full": {
-					"title": "Town Items Full",
-					"message": "You've reached the maximum number of items! Each hearthling increases the total number of items your town can have. Hearthlings will not harvest resources if their town owns too many items. Storage containers count as items and do NOT increase your item limit. Sell off the extra items or destroy them using the clear item tool."
+					"title": "Inventář Města Plný",
+					"message": "Dosáhl jsi maximálního počtu předmětů! Každý hearthling zvyšuje celkové množství předmětů, které můžeš mít. Hertlingové nebudou získávat zdroje, pokud jejich město vlastní příliš předmětů. Skladovací nádoby se počítají jako předměty a NEzvyšují limit počtu předmětů. Prodej přebytečné předměty nebo je znič pomocí nástroje mazání."
 				},
 				"max_citizens_cap": {
 					"early_warning": {
-						"title": "You've reached [str(i18n_data.num_citizens)] citizens!",
-						"message": "Congratulations! Your town has become a solid community.<br><br>A performance-related warning: More citizens mean more AI processing. Lower-spec computers may experience increased hitching, lag, and idling citizens.<br><br>If you encounter these issues, try reducing your town's maximum citizen limit in the Gameplay tab of the Settings Menu. This will prevent new settlers from joining as long as you're over that cap."
+						"title": "Dosáhl si počtu [str(i18n_data.num_citizens)] obyvatel!",
+						"message": "Blahopřejeme! Tvoje město se stalo solidní komunitou.<br><br>Upozornění ohledně výkonu: Více obyvatel znamená více práce pro AI. Méně výkonné počítače mohou pocítit vetší škubání,  lagy a nečinnost obyvatel.<br><br>Jestli narazíš na tyto problémy, zkus snížit limit maximálního počtu obyvatel města v záložce Hra v Nastavení. Tím zabráníš příchodu nových osadníků, tak dlouho dokud budeš přes limit."
 					},
 					"full_warning": {
-						"message": "You've just reached [str(i18n_data.num_citizens)] citizens, the maximum number of that can live in your town.<br><br>New citizens will no longer join your town at this point, unless you drop back below this number. <br><br><strong>Note:</strong> You can change this limit in the Gameplay tab of the Settings Menu. A small warning - having too many citizens may cause increased hitching, lag, and idling citizens.",
-						"title": "Max citizens reached!"
+						"message": "Právě jsi dosáhl [str(i18n_data.num_citizens)] obyvatel, tedy maximálního počtu, který může žít ve tvém městě.<br><br>Nový obyvatelé se nadále nebudou připojovat do dvého města, dokud se znovu nedostaneš pod tento počet. <br><br><strong>Poznámka:</strong> Tento limit můžeš změnit v záložce Hra v Nastavení. Malé varování - velké množství obyvatel může způsobit vetší škubání, lagy a nečinnost obyvatel.",
+						"title": "Dosaženo Maxima obyvatel!"
 					}
 				},
 				"quest_bulletin_dialog": {
-					"description": "Description",
-					"rewards": "Rewards"
+					"description": "Popis",
+					"rewards": "Odměny"
 				},
 				"traveler": {
 					"first": {
-						"title": "Your First Traveller!",
-						"message": "[str(i18n_data.traveler_name)] came to visit!<br><br>Travellers will stop by as long as there are beds reserved for them. They'll admire your town, chat with your citizens, shop at your markets, and even leave gifts for you if they had a pleasant visit.<br><br>Happy travellers will spread word of your town, and it will become a more popular destination over time!"
+						"title": "Tvůj První Cestovatel!",
+						"message": "[str(i18n_data.traveler_name)] přišel na návštěvu!<br><br>Cestovatelé budou přicházet tak dlouho dokud pro ně bude zarezervovaná postel. Budou se kochat tvým městem, povídat si s obyvately, nakupovat v obchodech, a když se jim bude návštěva líbit, nechají ti dárky.<br><br>Šťastní cestovatelé rozšíří zprávu o tvém městě, a to se pak časem stane populárnější destinací!"
 					},
 					"summary": {
-						"title": "Traveller Summary",
-						"text": "The travellers loved your town today! They left these gifts for you:",
-						"gifted_by": "Gift from [str(gifter)]"
+						"title": "Souhrn Pobytu Cestovatelů",
+						"text": "Cestovatelům se dnes tvoje město opravdu líbilo! Nechali tu pro tebe tyto dárky:",
+						"gifted_by": "Dárek od [str(gifter)]"
 					}
 				}
 			},
 			"build_mode2": {
 				"tooltips": {
-					"pointer_tool": "Pointer",
-					"room_tool": "Rooms",
-					"wall_tool": "Walls",
-					"split_wall_tool": "Split Walls",
-					"roof_tool": "Roofs",
-					"blocks_tool": "Blocks",
-					"paint_tool": "Paint",
-					"hole_tool": "Holes",
-					"stairs_tool": "Stairs",
-					"road_tool": "Roads",
-					"fence_tool": "Fences",
-					"terrain_tool": "Terrain",
-					"windows": "Windows",
-					"furniture": "Furniture",
-					"doors": "Doors",
-					"decorations": "Decorations",
-					"erase_tool": "Erase",
-					"undo_tool": "Undo",
-					"redo_tool": "Redo",
-					"new_building": "New Building",
-					"save_building": "Save Building",
-					"template_list": "Templates",
-					"destroy": "Destroy Building",
-					"wood_resource": "Wood",
-					"clay_resource": "Clay",
-					"stone_resource": "Stone",
+					"pointer_tool": "Ukazovátko",
+					"room_tool": "Pokoje",
+					"wall_tool": "Zdi",
+					"split_wall_tool": "Rozdělit Zdi",
+					"roof_tool": "Střechy",
+					"blocks_tool": "Bloky",
+					"paint_tool": "Malovat",
+					"hole_tool": "Díry",
+					"stairs_tool": "Schody",
+					"road_tool": "Cesty",
+					"fence_tool": "Ploty",
+					"terrain_tool": "Terén",
+					"windows": "Okna",
+					"furniture": "Nábytek",
+					"doors": "Dveře",
+					"decorations": "Dekorace",
+					"erase_tool": "Smazat",
+					"undo_tool": "Zpět",
+					"redo_tool": "Obnovit",
+					"new_building": "Nová Stavba",
+					"save_building": "Uložit Stavbu",
+					"template_list": "Šablony",
+					"destroy": "Zničit Stavbu",
+					"wood_resource": "Dřevo",
+					"clay_resource": "Jíl",
+					"stone_resource": "Kámen",
 					"disabled": {
-						"destroy": "Can't destroy buildings you don't own.",
-						"build": "Can't build, pause, or resume buildings you don't own."
+						"destroy": "Nemůžeš zničit stavby, které nejsou tvoje.",
+						"build": "Nemůžeš stavět, pozastavit nebo pokračovat ve stavbě, kterou nevlastníš."
 					}
 				},
-				"build_mode_title": "Build & Design",
+				"build_mode_title": "Stavba & Návrh",
 				"blocks_tool_context": {
-					"blocks": "Blocks",
-					"roof": "Roof",
-					"wall": "Wall",
-					"cycle_normal": "Cycle Normal"
+					"blocks": "Bloky",
+					"roof": "Střecha",
+					"wall": "Zeď",
+					"cycle_normal": "Normální Cyklus"
 				},
 				"roof_tool_context": {
-					"drop_walls": "Drop Walls",
-					"slope": "Slope",
-					"front": "Front",
-					"back": "Back",
-					"left": "Left",
-					"right": "Right"
+					"drop_walls": "Spustit Zdi",
+					"slope": "Sklon",
+					"front": "Vpředu",
+					"back": "Vzadu",
+					"left": "Nalevo",
+					"right": "Napravo"
 				},
 				"stairs_designer": {
-					"block_stairs": "Block Stairs",
-					"free_stairs": "Free Stairs",
-					"apply_block_style": "Apply Block Style",
-					"apply_free_style": "Apply Free Style",
-					"rotate": "Rotate"
+					"block_stairs": "Schody v Bloku",
+					"free_stairs": "Volné Schody",
+					"apply_block_style": "Použít Styl v Bloku",
+					"apply_free_style": "Použít Volný Styl",
+					"rotate": "Otočit"
 				},
 				"stairs_tool_context": {
-					"hollow": "Hollow"
+					"hollow": "Bez výplně"
 				}
 			},
 			"build_mode": {
 				"tooltips": {
-					"building_tools": "Building Tools",
-					"erase": "Erase Tool",
-					"voxel_tools": "Voxel Tools",
-					"voxel_add": "Add Voxel",
-					"voxel_paint": "Paint Voxel",
-					"voxel_remove": "Remove Voxel",
-					"selection": "Selection",
-					"delete": "Delete",
-					"undo": "Undo (Ctrl + Z)",
-					"draw_slab_tool": "Slabs",
-					"draw_floor_tool": "Foundations",
-					"grow_floor_tool": "Floors",
-					"grow_roof_tool": "Roofs",
-					"draw_door_tool": "Doors",
-					"draw_window_tool": "Windows",
-					"grow_wall_tool": "Walls",
-					"draw_wall_tool": "Free Standing Walls",
-					"draw_road_tool": "Roads",
-					"place_furniture_tool": "Furniture",
-					"place_decoration_tool": "Decorations",
-					"erase_tool": "Erase",
-					"draw_stairs_tool": "Stairs"
+					"building_tools": "Stavební Nástroje",
+					"erase": "Nástroj Mazání",
+					"voxel_tools": "Voxelové Nástroje",
+					"voxel_add": "Přidat Voxel",
+					"voxel_paint": "Vybarvit Voxel",
+					"voxel_remove": "Odstranit Voxel",
+					"selection": "Výběr",
+					"delete": "Smazat",
+					"undo": "Zpět (Ctrl + Z)",
+					"draw_slab_tool": "Desky",
+					"draw_floor_tool": "Základny",
+					"grow_floor_tool": "Podlahy",
+					"grow_roof_tool": "Střechy",
+					"draw_door_tool": "Dveře",
+					"draw_window_tool": "Okna",
+					"grow_wall_tool": "Zdi",
+					"draw_wall_tool": "Volně Stojící Zdi",
+					"draw_road_tool": "Cesty",
+					"place_furniture_tool": "Nábytek",
+					"place_decoration_tool": "Dekorace",
+					"erase_tool": "Smazat",
+					"draw_stairs_tool": "Schody"
 				},
 				"overhead_tips": {
-					"wall_segment_tip_title": "Click to place freestanding wall segments",
-					"wall_segment_tip_description": "Hold down SHIFT while clicking to draw connected walls",
-					"build_title_building_designer": "Building Designer",
-					"build_floor_tip_title": "Click and drag to place floor tiles",
-					"build_floor_tip_description": "Right click to exit",
-					"build_slab_tip_title": "Click and drag to build a slab",
-					"build_slab_tip_description": "Right click to exit",
-					"erase_structure_tip_title": "Click to erase items. Click and drag to erase floor",
-					"erase_structure_tip_description": "Right click to exit",
-					"roof_tip_title": "Click a walled floorplan to place the roof",
-					"roof_tip_description": "Right click to exit",
-					"raise_walls_tip_title": "Click a floorplan to add walls",
-					"raise_walls_tip_description": "Right click to exit",
-					"doodad_tip_title": "Click a wall to place the door or window",
-					"doodad_tip_description": "Right click to exit",
-					"draw_template_title": "Click to build template",
-					"draw_template_description": "Rotate with [str(left_binding)] and [str(right_binding)] keys",
-					"build_road_tip_title": "Click and drag to build road",
-					"build_road_tip_description": "Right click to exit",
-					"stairs_tip_title": "Click to place stairs",
-					"stairs_tip_description": "Right click to exit. Rotate with [str(left_binding)] and [str(right_binding)] keys"
+					"wall_segment_tip_title": "Klikni pro umístění volně stojících částí zdi",
+					"wall_segment_tip_description": "Stiskni a drž SHIFT, když vytváříš spojené zdi",
+					"build_title_building_designer": "Navrhování Staveb",
+					"build_floor_tip_title": "Klikni a táhni myší pro umístění podlahových dlaždic",
+					"build_floor_tip_description": "Skonči stiskem pravého tlačítka.",
+					"build_slab_tip_title": "Klikni a táhni myší pro stavbu desky",
+					"build_slab_tip_description": "Skonči stiskem pravého tlačítka.",
+					"erase_structure_tip_title": "Kliknutím smažeš předměty. Click and drag to erase floor",
+					"erase_structure_tip_description": "Skonči stiskem pravého tlačítka.",
+					"roof_tip_title": "Klinkni na návrh podlahy se zdmi pro umístění střechy",
+					"roof_tip_description": "Skonči stiskem pravého tlačítka.",
+					"raise_walls_tip_title": "Klikni na návrh podlahy, pro přidání zdí",
+					"raise_walls_tip_description": "Skonči stiskem pravého tlačítka.",
+					"doodad_tip_title": "Klikni na zeď pro umístění dveří nebo oken",
+					"doodad_tip_description": "Skonči stiskem pravého tlačítka.",
+					"draw_template_title": "Klikni pro postavení šablony",
+					"draw_template_description": "Otáčej pomocí kláves [str(left_binding)] a [str(right_binding)]",
+					"build_road_tip_title": "Klikni a ",
+					"build_road_tip_description": "Skonči stiskem pravého tlačítka.",
+					"stairs_tip_title": "Kliknutím umístíš schody",
+					"stairs_tip_description": "Skonči stiskem pravého tlačítka. Otáčej pomocí kláves [str(left_binding)] a [str(right_binding)]"
 				},
 				"building_cost": {
-					"required_item": "Needed Items"
+					"required_item": "Potřebné Předměty"
 				},
 				"overview": {
-					"title": "Building Designer - [str(building_name)]",
-					"building_name": "Building Name",
-					"building_cost": "Materials Needed",
-					"start_building": "Build!",
-					"pause_building": "Pause building",
-					"continue_building": "Continue building",
-					"save_building_template": "Save",
-					"finished_editing": "Finished Editing",
-					"start_editing": "Edit",
-					"build_complete_title": "Congratulations!",
-					"build_complete_description": "this building is complete",
-					"compute_scaffolding": "Building Planning"
+					"title": "Navrhování Staveb - [str(building_name)]",
+					"building_name": "Název Stavby",
+					"building_cost": "Potřebné Materiály",
+					"start_building": "Postavit!",
+					"pause_building": "Pozastavit stavbu",
+					"continue_building": "Pokračovat ve stavbě",
+					"save_building_template": "Uložit",
+					"finished_editing": "Ukončit Úpravy",
+					"start_editing": "Upravit",
+					"build_complete_title": "Blahopřejeme!",
+					"build_complete_description": "tato budova je dokončená",
+					"compute_scaffolding": "Plánování Stavby"
 				},
 				"roof": {
-					"title": "Roof Menu - [str(building_name)]"
+					"title": "Střešní Menu - [str(building_name)]"
 				},
 				"roof_shape": {
-					"title": "Slope, Direction, & Size",
-					"max_height": "Max Height",
-					"rise_slope": "Rise Slope",
-					"y_offset": "Roof Offset",
-					"show_gradient": "Slope",
-					"show_margin": "Overhang"
+					"title": "Sklon, Směr, & Velikost",
+					"max_height": "Maximální Výška",
+					"rise_slope": "Zvýšit Sklon",
+					"y_offset": "Přesah Střechy",
+					"show_gradient": "Svažující",
+					"show_margin": "Přečnívající"
 				},
 				"stairs_shape": {
-					"shape_title": "Stairs Shape",
-					"options_title": "Stairs Options",
-					"max_height": "Free-standing Height",
-					"width": "Width",
-					"solid_stairs": "Solid Stairs",
-					"hollow_stairs": "Hollow Stairs"
+					"shape_title": "Tvar Schodů",
+					"options_title": "Možnosti Schodů",
+					"max_height": "Výška samotných schodů",
+					"width": "Šířka",
+					"solid_stairs": "Plné Schody",
+					"hollow_stairs": "Schody bez Výplně"
 				},
 				"fixtures": {
-					"search_placeholder": "Search"
+					"search_placeholder": "Hledat"
 				},
 				"building_templates": {
-					"title": "Building Templates:",
-					"design_custom_building": "Design Custom Building",
-					"search_placeholder": "Search",
+					"title": "Stavební Šablony:",
+					"design_custom_building": "Navrhnout Vlastní Budovu",
+					"search_placeholder": "Hledat",
 					"template_names": {
-						"tiny_cottage": "Tiny Cottage",
-						"cottage_for_two": "Cottage for Two",
-						"shared_sleeping_quarters": "Shared Sleeping Quarters",
-						"dining_hall": "Dining Hall",
-						"herbalist_house": "Herbalist's House",
-						"little_clay_house": "Little Clay House",
-						"clay_house_for_two": "Clay House for Two",
-						"clay_dining_room": "Clay Dining Room",
-						"clay_dormitory": "Clay Dormitory"
+						"tiny_cottage": "Chatka",
+						"cottage_for_two": "Chata pro Dva",
+						"shared_sleeping_quarters": "Sdílené Obydlí ke Spaní",
+						"dining_hall": "Jídelní Síň",
+						"herbalist_house": "Bylinkářův Dům",
+						"little_clay_house": "Malý Jílový Dům",
+						"clay_house_for_two": "Hliněný Dům pro Dva",
+						"clay_dining_room": "Hliněná Jídelní Síň",
+						"clay_dormitory": "Společná Hliněná Ložnice"
 					},
-					"set_template_name_title": "Template Name",
-					"template_default_name": "My new building template",
-					"set_template_name_prompt": "Enter a name for this template",
-					"ignore_quality": "Ignore Quality",
-					"ignore_quality_tooltip": "Treat all items in the template as standard quality (rather than Fine, Excellent, etc.).",
+					"set_template_name_title": "Název Šablony",
+					"template_default_name": "Moje nová stavební šablona",
+					"set_template_name_prompt": "Zadejte název této šablony",
+					"ignore_quality": "Ignorovat Kvalitu",
+					"ignore_quality_tooltip": "Zacházet se všemi předměty šablony jako by byly běžné kvality (raději než Dobré, Vynikající, atd.).",
 					"remove_template_confirm": {
-						"title": "Delete Template",
-						"message": "Are you sure you want to delete this building template?",
-						"keep_template": "Keep this template",
-						"remove_template": "Delete it!"
+						"title": "Smazat Šablonu",
+						"message": "Jsi si jistý, že chceš smazat tuto stavební šablonu?",
+						"keep_template": "Zachovat šablonu",
+						"remove_template": "Smažte to!"
 					},
-					"template_description_tooltip": "Filename: [str(filename)]",
-					"remove_template_button": "Delete Template",
-					"build_template_button": "Build"
+					"template_description_tooltip": "Název souboru: [str(filename)]",
+					"remove_template_button": "Smazat Šablonu",
+					"build_template_button": "Postavit"
 				},
 				"place_item": {
-					"title": "Place an Item"
+					"title": "Umístit Předmět"
 				},
 				"materials": {
 					"wall": {
-						"material": "Wall Material",
-						"wood_resource": "Wooden Wall",
-						"stone_resource": "Stone Wall",
-						"clay_resource": "Clay Wall",
-						"clay_brick_resource": "Clay Brick Wall"
+						"material": "Materiál Zdi",
+						"wood_resource": "Dřevěná Zeď",
+						"stone_resource": "Kamenná Zeď",
+						"clay_resource": "Hliněná Zeď",
+						"clay_brick_resource": "Zeď z Hliněných Cihel"
 					},
 					"foundation": {
-						"material": "Foundation Material",
-						"wood_resource": "Wooden Foundation",
-						"stone_resource": "Stone Foundation",
-						"clay_resource": "Clay Foundation",
-						"clay_brick_resource": "Clay Brick Foundation"
+						"material": "Maeteriál Základny",
+						"wood_resource": "Dřevěná Základna",
+						"stone_resource": "Kamenná Základna",
+						"clay_resource": "Hliněná Základna",
+						"clay_brick_resource": "Základna z Hliněných Cihel"
 					},
 					"slab": {
-						"material": "Slab Material",
-						"wood_resource": "Wooden Slab",
-						"stone_resource": "Stone Slab",
-						"clay_resource": "Clay Slab",
-						"clay_brick_resource": "Clay Brick Slab"
+						"material": "Materiál Desky",
+						"wood_resource": "Dřevěná Deska",
+						"stone_resource": "Kamenná Deska",
+						"clay_resource": "Hliněná Deska",
+						"clay_brick_resource": "Deska z Hliněných Cihel"
 					},
 					"floor": {
-						"material": "Floor Material",
-						"wood_resource": "Wooden Floor",
-						"stone_resource": "Stone Floor",
-						"clay_resource": "Clay Floor",
-						"clay_brick_resource": "Clay Brick Floor"
+						"material": "Materiál Podlahy",
+						"wood_resource": "Dřevěná Podlaha",
+						"stone_resource": "Kamenná Podlaha",
+						"clay_resource": "Hliněná Podlaha",
+						"clay_brick_resource": "Podlaha z Hliněných Cihel"
 					},
 					"roof": {
-						"material": "Roof Material",
-						"wood_resource": "Wooden Roof",
-						"stone_resource": "Stone Roof",
-						"clay_resource": "Clay Roof",
-						"clay_brick_resource": "Clay Brick Roof"
+						"material": "Materiál Střechy",
+						"wood_resource": "Dřevěná Střecha",
+						"stone_resource": "Kamenná Střecha",
+						"clay_resource": "Hliněná Střecha",
+						"clay_brick_resource": "Střecha z Hliněných Cihel"
 					},
 					"column": {
-						"material": "Column Material",
-						"wood_resource": "Wooden Column",
-						"stone_resource": "Stone Column",
-						"clay_resource": "Clay Column",
-						"clay_brick_resource": "Clay Brick Column"
+						"material": "Materiál Sloupu",
+						"wood_resource": "Dřevěný Sloup",
+						"stone_resource": "Kamenný Sloup",
+						"clay_resource": "Hliněný Sloup",
+						"clay_brick_resource": "Sloup z Hliněných Cihel"
 					},
 					"road": {
-						"material": "Road Material",
-						"wood_resource": "Wooden Road",
-						"stone_resource": "Stone Road",
-						"clay_resource": "Clay Road",
-						"clay_brick_resource": "Clay Brick Road"
+						"material": "Materiál Cesty",
+						"wood_resource": "Dřevěná Cesta",
+						"stone_resource": "Kamenná Cesta",
+						"clay_resource": "Hliněná Cesta",
+						"clay_brick_resource": "Cesta z Hliněných Cihel"
 					},
 					"stairs": {
-						"material": "Stairs Material",
-						"wood_resource": "Wooden Stairs",
-						"stone_resource": "Stone Stairs",
-						"clay_resource": "Clay Stairs",
-						"clay_brick_resource": "Clay Brick Stairs"
+						"material": "Materiál Schodů",
+						"wood_resource": "Dřevěné Schody",
+						"stone_resource": "Kamenné Schody",
+						"clay_resource": "Hliněné Schody",
+						"clay_brick_resource": "Schody z Hliněných Cihel"
 					}
 				},
 				"start_building_confirm": {
-					"title": "Really start building?",
-					"message": "Once you begin building this structure cannot be edited or removed! Are you sure you want to build now?",
-					"yes": "Yes, start building!",
-					"no": "Not yet"
+					"title": "Opravdu začít stavět?",
+					"message": "Jakmile začneš stavět tuto stavbu, už ji nemůžeš upravit nebo odstranit! Jsi si jistý, že chceš teď začít stavět?",
+					"yes": "Ano, zahájit stavbu!",
+					"no": "Ještě ne"
 				},
 				"remove_building_confirm": {
-					"title": "Really remove this building",
-					"message": "Are you sure you want to remove this entire building?",
-					"keep_building": "Keep this building",
-					"remove_building": "Remove this building"
+					"title": "Opravdu odstranit tuto stavbu?",
+					"message": "Jsi si jistý, že chceš odstranit celou stavbu?",
+					"keep_building": "Zachovat stavbu",
+					"remove_building": "Odstranit stavbu"
 				}
 			},
 			"zones_mode": {
 				"farm": {
-					"choose_crop": "Choose a Crop",
-					"preferred_seasons": "Preferred seasons: ",
-					"preferred_seasons_tooltip": "Crops grow [str(num)]x as fast in preferred seasons.",
-					"fallow_name": "Fallow",
-					"fallow_description": "Plant no crop and let the soil renew itself."
+					"choose_crop": "Vyber Plodinu",
+					"preferred_seasons": "Preferované roční období: ",
+					"preferred_seasons_tooltip": "Plodiny rostou [str(num)]x rychleji v preferovaném období.",
+					"fallow_name": "Úhor",
+					"fallow_description": "Nesázet plodiny a nechat půdu přirozeně obnovit."
 				},
 				"mining": {
-					"help": "Mining allows you to create underground rooms and corridors. You can also discover resources while digging.",
-					"disable": "Suspend Mining",
-					"enable": "Resume Mining"
+					"help": "Kopání ti umožňuje vytvářet podzemní místnosti a chodby. Při kopáníí také můžeš objevit zdroje surovin.",
+					"disable": "Přerušit Kopání",
+					"enable": "Pokračovat v Kopání"
 				},
 				"trapping_grounds": {
-					"choose_trapping_grounds_type": "Choose Trapping Ground Type",
-					"trapping_ground": "Trapping Ground",
-					"help": "Trappers will place traps in a trapping grounds and will periodically check to see if anything has been caught.",
-					"disable": "Suspend Trapping",
-					"enable": "Resume Trapping"
+					"choose_trapping_grounds_type": "Vyber Druh Loveckých Pastí",
+					"trapping_ground": "Lovecké Pasti",
+					"help": "Traperové umístí pasti do oblasti loveckých pastí a budou je pravdelně kontrolvat, zda se něco nechytilo.",
+					"disable": "Přerušit Chytání do Pastí",
+					"enable": "Pokračovat v Chytání do Pastí"
 				},
 				"pasture": {
-					"help": "Shepherds bring animals to this region and tend to their needs here.",
-					"choose_pasture_type": "Choose Pasture Type",
-					"sheep_pasture_name": "Sheep Pasture",
-					"rabbit_pasture_name": "Rabbit Pen",
-					"poyo_pasture_name": "Poyo Coop",
-					"sheep_pasture_description": "Sheep produce wool, used by the weaver. Slaughtering sheep will produce mutton, a raw cooking ingredient",
-					"rabbit_pasture_description": "Rabbits reproduce quickly and can be slaughtered for jerky and pelts",
-					"poyo_pasture_description": "Poyos produce eggs, a valuable cooking ingredient. Slaughtering poyo will yield meat and, occasionally, feathers for crafting",
-					"num_animals": "Animals:"
+					"help": "Pastýři přivádí do této oblasti zvířata a starají se tu o jejich potřeby.",
+					"choose_pasture_type": "Vyber Druh Pastviny",
+					"sheep_pasture_name": "Pastvina pro Ovce",
+					"rabbit_pasture_name": "Králičí Kotec",
+					"poyo_pasture_name": "Kurník pro Poja",
+					"sheep_pasture_description": "Ovce dávají vlnu, kterou používá tkadlec. Poražením ovcí získáš skopové, surovou přísadu na vaření.",
+					"rabbit_pasture_description": "Králíci se rychle množí a jejich poražením získáš sušené maso a kožešiny",
+					"poyo_pasture_description": "Poja produkují vejce, cenou přísadu na vaření. Poražením poja získáš maso a příležitostně peří na výrobu",
+					"num_animals": "Zvířata:"
 				},
 				"stockpile": {
-					"default_stockpile_name": "Stockpile",
-					"contents": "Contents",
-					"filter": "Filter",
-					"shop": "Shop",
-					"help": "Click the icons to choose what to store in this stockpile.",
-					"help_single_filter": "Click an icon to choose the item type to store in this container.",
-					"help_player_market_stall": "Click an icon to choose the item type to sell at this stall.",
-					"clear": "Clear Selection",
-					"used_space": "Used:",
+					"default_stockpile_name": "Skladiště",
+					"contents": "Obsah",
+					"filter": "Filtr",
+					"shop": "Obchod",
+					"help": "Klikni na ikony, abys vybral co skaldovat v tomto skladišti.",
+					"help_single_filter": "Klikni na ikonu, aby sis vybral druh předmětů, skladovaných v tomto úložišti .",
+					"help_player_market_stall": "Klikni na ikonu, abys vybral druh předmětů prodávaných tomto stánku.",
+					"clear": "Smazat výběr",
+					"used_space": "Využito:",
 					"filters": {
-						"all": "All",
-						"none": "None",
-						"resources": "Resources",
-						"construction": "Construction",
-						"goods": "Tools & Goods",
-						"gear": "Weapons & Armor",
-						"food_and_drink": "Food & Drink",
-						"wealth": "Wealth",
-						"tooltip_tools": "Talismans and Workbenches",
-						"tooltip_wood": "Wood",
-						"tooltip_stone": "Stone",
-						"tooltip_clay": "Clay",
-						"tooltip_ore": "Ores",
-						"tooltip_animal_part": "Animal Pelts and Skins",
-						"tooltip_resource_pile": "resource piles",
-						"tooltip_plant": "Plants",
-						"tooltip_portal": "Doors & Windows",
-						"tooltip_furniture": "Furniture",
-						"tooltip_defense": "Defenses",
-						"tooltip_light": "Torches & Lights",
-						"tooltip_decoration": "Decorations",
-						"tooltip_geomancer": "Summon Stones",
-						"tooltip_refined_weaver": "Refined Materials",
-						"tooltip_refined_animal_part": "goods produced from bits of animals",
-						"tooltip_refined_ore": "Refined Metals",
-						"tooltip_weapons": "Weapons",
-						"tooltip_ranged_weapon": "ranged weapons",
-						"tooltip_equipment": "Armor and Other Equipment",
-						"tooltip_heavy_armor": "heavy armor",
-						"tooltip_exotic_gear": "exotic gear",
-						"tooltip_drink": "tasty beverages",
-						"tooltip_gold": "Gold Chests",
-						"tooltip_trophy": "Trophies",
-						"tooltip_raw_food": "Raw Foods",
-						"tooltip_prepared_food": "Cooked Foods",
-						"tooltip_cooking_ingredients": "Cooking Ingredients and Animal Feed",
-						"tooltip_cooking": "Cooking Ingredients",
-						"tooltip_consumables": "Healing Items and Other Consumables",
-						"tooltip_animal_parts": "Animal Parts"
+						"all": "Vše",
+						"none": "Nic",
+						"resources": "Zdroje",
+						"construction": "Stavba",
+						"goods": "Nástroje & Výrobky",
+						"gear": "Zbraně & Brnění",
+						"food_and_drink": "Jídlo & Pití",
+						"wealth": "Bohatsví",
+						"tooltip_tools": "Talismany & Pracovní stoly",
+						"tooltip_wood": "Dřevo",
+						"tooltip_stone": "Kámen",
+						"tooltip_clay": "Hlína",
+						"tooltip_ore": "Rudy",
+						"tooltip_animal_part": "Zvířecí Kožešiny a Kůže",
+						"tooltip_resource_pile": "hromady zdrojů",
+						"tooltip_plant": "Rostliny",
+						"tooltip_portal": "Dveře & Okna",
+						"tooltip_furniture": "Nábytek",
+						"tooltip_defense": "Obrana",
+						"tooltip_light": "Pochodně & Světla",
+						"tooltip_decoration": "Dekorace",
+						"tooltip_geomancer": "Vyvolávací Kameny",
+						"tooltip_refined_weaver": "Zpracované Materiály",
+						"tooltip_refined_animal_part": "výrobky z částí zvířat",
+						"tooltip_refined_ore": "Rafinované kovy",
+						"tooltip_weapons": "Zbraně",
+						"tooltip_ranged_weapon": "zbraně na dálku",
+						"tooltip_equipment": "Brnění a Ostatní Vybavení",
+						"tooltip_heavy_armor": "silné brnění",
+						"tooltip_exotic_gear": "exotická výstroj",
+						"tooltip_drink": "chutné nápoje",
+						"tooltip_gold": "Zlaté Truhly",
+						"tooltip_trophy": "Trofeje",
+						"tooltip_raw_food": "Syrové Jídlo",
+						"tooltip_prepared_food": "Vařené Jídlo",
+						"tooltip_cooking_ingredients": "Přísady na Vaření a Krmivo pro Zvířata",
+						"tooltip_cooking": "Přísady na Vaření",
+						"tooltip_consumables": "Léčivé Předměty a Ostatní Poživatiny",
+						"tooltip_animal_parts": "Zvířecí Části"
 					}
 				}
 			},
 			"show_workshop": {
-				"workshop_title": "[str(job_name)] Crafting Orders",
-				"placeholder": "Type to search",
-				"show_workshop_description": "Owned by [name(owner)]",
-				"unclaimed_workshop_description": "Unclaimed",
-				"workshop_entity_claimed_description": "Owned by [name(self.stonehearth:workshop.crafter)]",
-				"craft_number_left": "Craft",
-				"craft_number_right": "right now.",
-				"craft_up_to_left": "Maintain",
-				"craft_up_to_right": "in inventory.",
-				"craft_ingredients": "Ingredients:",
-				"craft_requirements": "Requirements:",
-				"unlock_text": "To Unlock:",
-				"crafting_status": "crafting...",
-				"crafting_status_queued": "Queued",
-				"workshop_paused_status": "paused...",
-				"workshop_remove_confirm": "Remove?",
-				"workshop_open": "Open!",
-				"workshop_closed": "Closed",
-				"maintain_option_disabled": "Build a stockpile or place a crate to unlock more crafting options!",
-				"craft": "Craft!",
-				"craft_queue_full": "Orders Full!",
-				"craftable_locked": "Unlocked at Level: [str(level)]",
-				"workshop_requirement_title": "Workshop",
-				"workshop_none_required": "None required!",
-				"workshop_required": "Requires a placed ",
-				"level_requirement_title": "Level Requirement",
-				"level_requirement_none": "None Required!",
-				"level_requirement_needed": "Requires a ",
-				"level_requirement_level": " of Level ",
-				"too_many_symbol": "lots",
-				"requirements_unmet_general": "Craft Requirements Unmet!",
-				"queue_anyway": "Queue Order Anyway",
-				"recipe_tab": "Recipes",
-				"orders_tab": "Orders",
-				"missing_ingredients": "Missing ingredients: ",
-				"tooltip_appeal_stat": "Appeal",
-				"tooltip_net_worth_stat": "Gold Value",
-				"tooltip_effort_stat": "Effort (Crafting Time)",
-				"damage_stat": "ATK",
-				"armor_stat": "DEF"
+				"workshop_title": "[str(job_name)] a jeho Příkazy k Výrobě",
+				"placeholder": "Začni psát pro vyhledávání ",
+				"show_workshop_description": "Vlastní [name(owner)]",
+				"unclaimed_workshop_description": "Nepřivlastněno",
+				"workshop_entity_claimed_description": "Vlastí [name(self.stonehearth:workshop.crafter)]",
+				"craft_number_left": "Vyrobit",
+				"craft_number_right": "hned teď.",
+				"craft_up_to_left": "Udržovat",
+				"craft_up_to_right": "v inventáři.",
+				"craft_ingredients": "Přísady:",
+				"craft_requirements": "Požadavky:",
+				"unlock_text": "K Odemčení:",
+				"crafting_status": "vyrábí...",
+				"crafting_status_queued": "Ve Frontě",
+				"workshop_paused_status": "pozastavený...",
+				"workshop_remove_confirm": "Odstranit?",
+				"workshop_open": "Otevřeno!",
+				"workshop_closed": "Zavřeno",
+				"maintain_option_disabled": "Postav skladiště nebo umísti bednu pro odemčení více možností výroby!",
+				"craft": "Vyrobit!",
+				"craft_queue_full": "Plná Fronta!",
+				"craftable_locked": "Odemkne se na Úrovni: [str(level)]",
+				"workshop_requirement_title": "Dílna",
+				"workshop_none_required": "Není Potřeba!",
+				"workshop_required": "Musí být umístěn/a/o",
+				"level_requirement_title": "Požadovaná Úroveň",
+				"level_requirement_none": "Žádná!",
+				"level_requirement_needed": "Je požadován ",
+				"level_requirement_level": "úrovně",
+				"too_many_symbol": "moc",
+				"requirements_unmet_general": "Požadavky na Výrobu Nesplněny!",
+				"queue_anyway": "Přesto Přidat do Fronty",
+				"recipe_tab": "Recepty",
+				"orders_tab": "Příkazy",
+				"missing_ingredients": "Chybějící přísady: ",
+				"tooltip_appeal_stat": "Přitažlivost",
+				"tooltip_net_worth_stat": "Hodnota Zlatých",
+				"tooltip_effort_stat": "Úsílí (Výrobní čas)",
+				"damage_stat": "ÚTOK",
+				"armor_stat": "OBR"
 			},
 			"town_overview": {
-				"title": "Town Overview",
-				"town_morale": "Town Morale",
-				"initial_town_name": "Expedition [str(town_number)]",
-				"num_workers": "Workers",
-				"num_crafters": "Crafters",
-				"num_soldiers": "Fighters",
+				"title": "Přehled Města",
+				"town_morale": "Spokojenost Města",
+				"initial_town_name": "Expedice [str(town_number)]",
+				"num_workers": "Pracovníci",
+				"num_crafters": "Výrobci",
+				"num_soldiers": "Bojovníci",
 				"journal": {
-					"default_message": "No journal entries yet!",
+					"default_message": "Zatím žádné zápisy do deníku!",
 					"signature": "--[name(entry.person)]",
-					"today": "Today",
-					"town_log": "Town Log",
-					"praises": "Praises",
-					"gripes": "Gripes",
-					"praise_empty": "Nothing praiseworthy happened today.",
-					"gripe_empty": "Whoa. I guess nobody has anything to gripe about."
+					"today": "Dnes",
+					"town_log": "Městský Záznam",
+					"praises": "Pochvaly",
+					"gripes": "Stížnosti",
+					"praise_empty": "Nic chvályhodného se dnes nestalo.",
+					"gripe_empty": "Páni. Asi nikoho nenapadá nic, na co by si mohl stěžovat."
 				},
 				"networth": {
 					"town_description": "The [str(descriptor)] [str(noun)] of [str(town_name)]",
 					"size": {
-						"camp": "Camp",
-						"settlement": "Settlement",
-						"hamlet": "Hamlet",
-						"village": "Village",
-						"town": "Town",
-						"county": "County",
-						"kingdom": "Kingdom",
-						"empire": "Empire"
+						"camp": "Kemp",
+						"settlement": "Osada",
+						"hamlet": "Víska",
+						"village": "Vesnice",
+						"town": "Město",
+						"county": "Hrabství",
+						"kingdom": "Království",
+						"empire": "Říše"
 					},
 					"morale_descriptor": {
-						"0": "Wretched",
-						"1": "Miserable",
-						"2": "Dejected",
-						"3": "Listless",
-						"4": "Fair",
-						"5": "Good",
-						"6": "Contented",
-						"7": "Merry",
-						"8": "Joyous",
-						"9": "Buoyant",
-						"10": "Incandescent"
+						"0": "Mizerná",
+						"1": "Bídná",
+						"2": "Sklíčený",
+						"3": "Lhostejná",
+						"4": "Slušná",
+						"5": "Dobrá",
+						"6": "Spokojený",
+						"7": "Radostná",
+						"8": "Potěšená",
+						"9": "Bujará",
+						"10": "Rozzářený"
 					}
 				},
 				"score": {
-					"net_worth": "Net worth",
-					"buildings": "Buildings",
-					"inventory": "Inventory",
-					"agriculture": "Agriculture",
-					"edibles": "Edibles",
-					"next_requirement": "Goal",
-					"overall_morale": "Overall Morale",
-					"food": "Food",
-					"shelter": "Shelter",
-					"safety": "Safety",
-					"military_strength": "Military Strength"
+					"net_worth": "Celkové Jmění",
+					"buildings": "Stavby",
+					"inventory": "Inventář",
+					"agriculture": "Zemědělství",
+					"edibles": "Potraviny",
+					"next_requirement": "Cíl",
+					"overall_morale": "Celková Spokojenost",
+					"food": "Jídlo",
+					"shelter": "Přistřeší",
+					"safety": "Bezpečí",
+					"military_strength": "Vojenská Síla"
 				},
 				"inventory": {
-					"item_count": "Items:"
+					"item_count": "Předměty:"
 				},
 				"tab": {
-					"town_overview": "Town Overview",
-					"inventory": "Inventory",
-					"journal": "Journal",
-					"bonuses": "Bonuses"
+					"town_overview": "Přehled Města",
+					"inventory": "Inventář",
+					"journal": "Deník",
+					"bonuses": "Bonusy"
 				}
 			}
 		},
 		"shell": {
 			"about": {
-				"title": "About Stonehearth",
-				"attributions": "The following is a list of Open Source Software that is used in Stonehearth:",
+				"title": "O Stonehearthu",
+				"attributions": "Následuje seznam Otevřeného softwaru, který je použitý ve Stonehearthu:",
 				"tabs": {
-					"credits": "Credits",
-					"attributions": "Attributions"
+					"credits": "Titulky",
+					"attributions": "Atribuce"
 				},
 				"credits": {
 					"sections": {
-						"team": "Team Stonehearth",
-						"team_additional": "Additional Development",
-						"candledark_and_frostfeast": "Candledark and Frostfeast",
-						"moderators": "Community Moderation",
-						"special_thanks": "Special Thanks",
-						"special_thanks_endnote": "...everyone who makes discourse.stonehearth.net a wonderful community,",
-						"special_thanks_endnote_2": "...everyone who followed our regular Thursday Streams,",
-						"special_thanks_endnote_3": "...and everyone who gave Stonehearth a chance!",
+						"team": "Tým Stonehearth",
+						"team_additional": "Dodatečný Vývoj",
+						"candledark_and_frostfeast": "Candledark a Frostfeast",
+						"moderators": "Modera Komunity",
+						"special_thanks": "Speciální Poděkování",
+						"special_thanks_endnote": "...všichni kdo udělali z discourse.stonehearth.net báječnou komunitu,",
+						"special_thanks_endnote_2": "...všichní kdo sledovali naše pravidelné Čtvrteční Streamy,",
+						"special_thanks_endnote_3": "...a všem, kteří dali Stonehearthu šanci!",
 						"kickstarter_tiers": {
 							"30": "Kickstarter Backers - Settler Tier",
 							"45": "Kickstarter Backers - Settler Tier, Beta Buddy",
@@ -1527,217 +1527,217 @@
 				}
 			},
 			"loading_screen": {
-				"initial_load_game_text": "Loading",
-				"initial_load_map_text": "Generating World",
+				"initial_load_game_text": "Načítání",
+				"initial_load_map_text": "Vytváření Světa",
 				"loading_map_flavor_text": {
-					"001": "sharpening right angles...",
-					"002": "decompressing voxels...",
-					"003": "synthesizing fauna...",
-					"004": "redistributing redistributables...",
-					"005": "terracing terrain...",
-					"006": "stocking piles...",
-					"007": "inflating trees...",
-					"008": "raising sun...",
-					"009": "floating clouds...",
+					"001": "ostřím pravé úhly...",
+					"002": "dekompresuji voxely...",
+					"003": "syntetizuji faunu...",
+					"004": "přerozděluji přerozdělitele...",
+					"005": "terasuji terén...",
+					"006": "zásobím hromady...",
+					"007": "nafukuji stromy...",
+					"008": "vycházím slunce...",
+					"009": "vznáším mraky...",
 					"010": "burlying hands...",
-					"011": "bushing berries...",
-					"012": "confabulating childhood...",
-					"013": "resolving determinism...",
-					"014": "cubulating companionship...",
-					"015": "existentializing dilemmas...",
-					"016": "improvising morals...",
+					"011": "keřím bobule...",
+					"012": "vymýšlím si dětství...",
+					"013": "vyřešuji determinismus...",
+					"014": "kostkuji společenství...",
+					"015": "existencializuji dilemata...",
+					"016": "improvizuji mravy...",
 					"017": "splining reticulators..",
-					"018": "diversifying gender...",
-					"019": "homogenizing motivation...",
-					"020": "deriving history...",
-					"021": "indexing bugs...",
-					"022": "compiling truth...",
-					"023": "recollecting marbles...",
-					"024": "effecting mass...",
-					"025": "experiencing higher math...",
-					"026": "proliferating flowers...",
-					"027": "escaping realism...",
-					"028": "positioning plushies...",
-					"029": "regulating hairbobs...",
-					"030": "shearing sheep...",
-					"031": "percolating brain...",
-					"032": "poking poyos...",
-					"033": "catching raindrops..."
+					"018": "odlišuji pohlaví...",
+					"019": "sjednocuji motivaci...",
+					"020": "odvozuji historii...",
+					"021": "registruji chyby...",
+					"022": "sestavuji pravdu...",
+					"023": "vybavuji si hraní kuliček...",
+					"024": "realizuji hmotu...",
+					"025": "zažívám vyšší matiku...",
+					"026": "množím květiny...",
+					"027": "utíkám smyslu pro skutěčnost...",
+					"028": "usazuji plyšáky...",
+					"029": "reguluji mikáda...",
+					"030": "stříhám ovce...",
+					"031": "cedím mozek...",
+					"032": "šťouchám poje..",
+					"033": "chytám kapky deště..."
 				},
 				"tips": {
-					"000": "If your workers get stuck in a mine, you can build a ladder to get them out!",
-					"001": "Your hearthlings will get a better night's sleep if you provide beds for them.",
-					"002": "Build pens around your pastures to make sure shepherded animals stay put.",
-					"003": "Stockpiles can be changed to hold specific kinds of items.",
-					"004": "You can farm silkweed for a steady supply of thread fiber.",
-					"005": "A well fed town is a happy town.",
-					"006": "Use the < and > keys to rotate an item or building before placing it.",
-					"007": "Your hearthlings move faster on roads.",
-					"008": "The weaver can craft new uniforms that increases the effectiveness of your workers.",
-					"009": "Sitting during a meal helps with digestion. Build tables and chairs for your hearthlings.",
-					"010": "Shepherds will automatically find sheep to fill a pasture.",
-					"011": "If you want a higher net worth, try selling your items to a merchant for gold.",
-					"012": "Resources and Food do not contribute to your town net worth.",
-					"013": "The curiosity attribute increases experience gain.",
-					"014": "Fine items have a higher net worth than their normal versions.",
-					"015": "The net worth of an item is its sell value.",
-					"016": "You can use a tunnel door to block off your mining tunnel entrances.",
-					"017": "Don't want your hearthlings to leave town? The Engineer can make a lockable door.",
-					"018": "Settlers with a high Mind attribute will make good crafters.",
-					"019": "Place food stockpiles closer to work areas so it's easier for your hearthlings to access food.",
-					"020": "Trappers can set traps in the mountains and the desert, but there are fewer critters there.",
-					"021": "You can disable a combat unit's job in the Citizens panel to force them to take a rest from fighting.",
-					"022": "Mining dirt will occasionally yield clay and stone.",
-					"023": "You can actually see ore veins in the side of mountains.",
-					"024": "Need a starting food source? Move Berry Bushes or Prickly Pear Cacti closer to your town.",
-					"025": "After defeating the Goblin Chieftain, you can claim Bluebell the sheep as your own.",
-					"026": "Your hearthlings don't like being in cramped spaces for too long.",
-					"027": "Farm animals can reproduce if there are at least 2 of the same animals in a pen.",
-					"028": "Use \"shift + ,\" to sink your building template's foundation before placing it."
+					"000": "Jestli se tvoji hearthlingové zaseknou v dole, můžeš postavit žebřík, abys je dostal ven!",
+					"001": "Tvoji hearthlingové se v noci lépe vyspí, když pro ně budeš mít postele.",
+					"002": "Postav ohrady kolem svých pastvin, aby ti přivedená zvířata neutekla.",
+					"003": "Skladiště můžeš změnit, tak aby obsahovala pouze určité předměty.",
+					"004": "Můžeš pěstovat hebkotrav, abys měl spolehlivou zásobu vláken na přízi.",
+					"005": "Plný žaludek, šťastné srdce.",
+					"006": "Použij klávesy , a . pro otočení předmětů nebo budov před jejich umístěním.",
+					"007": "Po cestách se tvoji hearthlingové pohybují rychleji.",
+					"008": "Tkadlec může vyrobit nové oděvy, které zvyší výkon tvých pracovníků.",
+					"009": "Sezení během jídla zlepšuje zažívání. Postav stoly a židle pro sovje hearthlingy.",
+					"010": "Pastýři budou automaticky hledat ovce, aby využili pastvinu.",
+					"011": "Jestli chceš mít větší celkové jmění, zkus prodat obchodníkovi předměty za zlaté.",
+					"012": "Zdroje a Jídlo nepřispívají k celkovému jmění tvého města.",
+					"013": "Zvědavost (vlastnost) zvyšuje získané zkušenosti.",
+					"014": "Dobré předměty mají vyšší hodnotu než jejich normální varianty.",
+					"015": "Hodnota předmětu je jeho prodejní cena.",
+					"016": "Můžeš použít tunelové dveře k zablokování vstupu do tvé důlní chodby.",
+					"017": "Nechceš aby tvoji hearthlingové opustili město? Inženýr může vytvořit uzamykatelné dveře.",
+					"018": "Z osadníků s vysokým Rozumem budou dobří řemeslníci.",
+					"019": "Umísti skaldiště na jídlo blízko pracovišť, aby bylo jídlo pro tovje hearthlingy snáze dostupné.",
+					"020": "Traperové mohou nastražit pasti v horách a poušti, ale v těchto oblastech je méně živočichů.",
+					"021": "Můžeš zrušit práci vojenské jednotce v panelu Obyvatel, abys je donutil odpočinout si od bojování.",
+					"022": "Kopáním zeminy občas získáš jílovitou hlínu a kámen.",
+					"023": "Rudné žíly můžeš dokonce vidět na stranách hor.",
+					"024": "Potřebuješ počáteční zdroj jídla? Přesuň Bobulové keře nebo Opuncie blíže ke svému městu.",
+					"025": "Po poražení Gobliního Náčelníka, si můžeš přivlastnit Zvoničku, ovečku, jako vlastní .",
+					"026": "Herlingové nejsou rádi, když musí být dlouhou dobu v přeplněných prostorech.",
+					"027": "Farmařská zvířata se mohou rozmnožit pokud jsou alespoň 2 jednoho druhu v ohradě.",
+					"028": "Použij \"shift + ,\" pro zapuštění základů stavební šablony do země před umístěním. (Zapuštění zrušíš \"shift + .\")"
 				}
 			},
 			"select_settlement": {
-				"title": "Click the map to choose your settlement's location",
-				"loading": "Loading",
-				"settle_at_this_location": "Settle here!",
-				"clear_selection": "Choose another location",
-				"regenerate_map": "Roll new map",
-				"world_seed": "World Seed: ",
-				"starting_season": "Starting Season",
+				"title": "Kliknutím na mapu si vybereš území pro osídlení",
+				"loading": "Načítání",
+				"settle_at_this_location": "Usadit se!",
+				"clear_selection": "Vybrat jiné území",
+				"regenerate_map": "Vygenerovat novou mapu",
+				"world_seed": "Seed Světa: ",
+				"starting_season": "Počáteční Období",
 				"terrain_stats": {
-					"trees_and_plants_title": "Trees & Plants",
-					"trees_and_plants_description": "Wood is a primary building resource. You will need some in order to build your buildings and craft items like beds, tables, and chairs.",
-					"wildlife_title": "Wildlife",
-					"wildlife_description": "Local wildlife can be hunted for food and raw crafting materials.",
-					"minerals_title": "Minerals",
-					"minerals_description": "You will need minerals if you plan on building things from stone or metal."
+					"trees_and_plants_title": "Stromy & Rostliny",
+					"trees_and_plants_description": "Dřevo je základní stavební zdroj. Budeš nějaké potřebovat abys mohl stavět budovy a vytvářet předměty jako postele, stoly a židle.",
+					"wildlife_title": "Divočina",
+					"wildlife_description": "Místní divokou zvěř můžeš lovit, abys získal jídlo nebo surové výrobní materiály.",
+					"minerals_title": "Minerály",
+					"minerals_description": "Jestli plánuješ stavět věci z kamene a kovů, budeš potřebovat minerály ."
 				},
 				"terrain_codes": {
-					"water": "Water",
-					"plains_1": "Plains",
-					"plains_2": "Plains",
-					"foothills_1": "Foothills",
-					"foothills_2": "Foothills",
-					"foothills_3": "Foothills",
-					"mountains_1": "Mountains",
-					"mountains_2": "Mountains",
-					"mountains_3": "Mountains",
-					"mountains_4": "Mountain Peak",
-					"mountains_5": "Mountain Peak",
-					"mountains_6": "Mountain Peak",
-					"mountains_7": "Mountain Peak",
-					"mountains_8": "Mountain Peak",
-					"vegetation_0": "Nary a weed",
-					"vegetation_1": "Sparse",
-					"vegetation_2": "Average",
-					"vegetation_3": "Dense",
-					"vegetation_4": "Lush",
-					"wildlife_0": "Desolate",
-					"wildlife_1": "Scarce",
-					"wildlife_2": "Common",
-					"wildlife_3": "Plentiful",
-					"wildlife_4": "Abundant",
-					"mineral_0": "None",
-					"mineral_1": "Sparse",
-					"mineral_2": "Infrequent",
-					"mineral_3": "Common",
-					"mineral_4": "Ample"
+					"water": "Voda",
+					"plains_1": "Roviny",
+					"plains_2": "Pláně",
+					"foothills_1": "Kopečky",
+					"foothills_2": "Kopce",
+					"foothills_3": "Podhůří",
+					"mountains_1": "Hory",
+					"mountains_2": "Hory",
+					"mountains_3": "Hory",
+					"mountains_4": "Vrchol Hory",
+					"mountains_5": "Vrchol Hory",
+					"mountains_6": "Vrchol Hory",
+					"mountains_7": "Vrchol Hory",
+					"mountains_8": "Vrchol Hory",
+					"vegetation_0": "Ani jeden plevel",
+					"vegetation_1": "Řídká",
+					"vegetation_2": "Průměrná",
+					"vegetation_3": "Hustější",
+					"vegetation_4": "Bujná",
+					"wildlife_0": "Žádná",
+					"wildlife_1": "Omezená",
+					"wildlife_2": "Normální",
+					"wildlife_3": "Značná",
+					"wildlife_4": "Naprostá",
+					"mineral_0": "Žádné",
+					"mineral_1": "Vzácně",
+					"mineral_2": "Ojediněle",
+					"mineral_3": "Běžně",
+					"mineral_4": "Hojně"
 				}
 			},
 			"settings": {
-				"title": "Settings",
-				"graphics": "Graphics",
-				"gameplay": "Gameplay",
-				"controls": "Controls",
-				"card": "Display Adapter: ",
-				"gfx_custom": "Custom",
-				"gfx_minimum": "Min",
-				"gfx_low": "Low",
-				"gfx_medium": "Medium",
-				"gfx_high": "High",
+				"title": "Nastavení",
+				"graphics": "Grafika",
+				"gameplay": "Hratelnost",
+				"controls": "Ovládání",
+				"card": "Grafický Adaptér: ",
+				"gfx_custom": "Vlastní",
+				"gfx_minimum": "Minimální",
+				"gfx_low": "Nízká",
+				"gfx_medium": "Střední",
+				"gfx_high": "Vysoká",
 				"gfx_ultra": "Ultra",
 				"gfx_cardinfo": "[str(gpuRenderer)] ([str(gpuDriver)])",
-				"gfx_enable_shadows": "Enable Shadows",
-				"gfx_enable_vsync": "Enable Vertical Sync",
-				"gfx_enable_fullscreen": "Fullscreen",
-				"gfx_msaa": "Enable Anti-Aliasing",
-				"gfx_shadows": "Shadow Detail",
-				"gfx_max_lights": "Maximum Number of Lights",
-				"gfx_max_shadows": "Maximum Number of Shadows",
-				"gfx_drawdistance": "Draw Distance",
-				"gfx_enable_ssao": "Enable Ambient Occlusion",
-				"gfx_use_high_quality": "Use Fallback Renderer",
-				"gfx_enable_dynamic_icons": "Enable Speech Bubble Icons",
-				"gfx_enable_dynamic_icons_tooltip": "If disabled, speech bubbles will not show topic icons, but this can solve hitches on older graphics chips.",
-				"gfx_use_recommended_graphics": "Use recommended graphics settings",
-				"gfx_disable_deferred_renderer_description": "<font color='#eb4c36'><strong>WARNING:</strong></font> Using the fallback renderer will cause performance issues in cities with a lot of lights. Only use it as a last resort.",
-				"shadow_0": "off",
-				"shadow_1": "just a touch",
-				"shadow_2": "a little",
-				"shadow_3": "a little more",
-				"shadow_4": "a lot",
-				"shadow_5": "a whole lot!",
-				"aa_slider_0": "off",
-				"aa_slider_1": "a little",
-				"aa_slider_2": "a little more",
-				"aa_slider_3": "a lot",
-				"aa_slider_4": "a whole lot!",
-				"sound": "Sound",
-				"background_music_volume": "Music Volume",
-				"ambient_volume": "Ambient Volume",
-				"effects_volume": "Effects Volume",
-				"system": "System",
-				"force_32_bit": "* Force 32-bit (Requires Restart)",
-				"force_32_bit_note": "* Force 32-bit only if absolutely necessary. 64-bit is faster and supports larger towns.",
-				"collect_profile": "Collect profile",
-				"enable_lua_jit": "Use Lua JIT (Requires Restart)",
-				"send_anon_data": "Send anonymous feedback to help improve Stonehearth!",
-				"language_select": "Language",
+				"gfx_enable_shadows": "Povolit Stíny",
+				"gfx_enable_vsync": "Povolit Vertikální Synchronizaci",
+				"gfx_enable_fullscreen": "Režim Celé Obrazovky",
+				"gfx_msaa": "Povolit Vyhlazování Hran",
+				"gfx_shadows": "Detaily Stínů",
+				"gfx_max_lights": "Maximální Počet Světel",
+				"gfx_max_shadows": "Maximální Počet Stínů",
+				"gfx_drawdistance": "Vykreslovaná Vzdálenost\n",
+				"gfx_enable_ssao": "Povolit Zastínění Okolím",
+				"gfx_use_high_quality": "Použít Streamování Textur",
+				"gfx_enable_dynamic_icons": "Povolit Ikony v Bublinách Řeči",
+				"gfx_enable_dynamic_icons_tooltip": "Pokud jsou zakázané, Bubliny Řeči nebudou zobrazovat obrázky témat, ale může to vyřešit škubání na starších grafických čipech .",
+				"gfx_use_recommended_graphics": "Použít doporučené nastavení grafiky.",
+				"gfx_disable_deferred_renderer_description": "<font color='#eb4c36'><strong>VAROVÁNÍ:</strong></font> Používání Streamování Textur způsobuje problémy s výkonem ve městech s hodně světly. Používej pouze jako poslední možnost.",
+				"shadow_0": "vypnuty",
+				"shadow_1": "jen maličko",
+				"shadow_2": "trochu",
+				"shadow_3": "trochu víc",
+				"shadow_4": "hodně",
+				"shadow_5": "opravdu hodně!",
+				"aa_slider_0": "vypnuto",
+				"aa_slider_1": "trochu",
+				"aa_slider_2": "trochu víc",
+				"aa_slider_3": "hodně",
+				"aa_slider_4": "opravdu hodně!",
+				"sound": "Zvuk",
+				"background_music_volume": "Hlasitost Hudby",
+				"ambient_volume": "Hlasitost Prostředí",
+				"effects_volume": "Hlasitost Efektů",
+				"system": "Systém",
+				"force_32_bit": "* Vynutit 32-bitovou verzi (Vyžaduje Restart)",
+				"force_32_bit_note": "* 32-bitovou vezi vynucuj pouze pokud je to opravdu nutné. 64-bitová verze je rychlejší a podporuje větší města.",
+				"collect_profile": "Získat profil",
+				"enable_lua_jit": "Použít Lua JIT (Vyžadujue Restart)",
+				"send_anon_data": "Posílat anonymní zpětnou vazbu pro pomoc při vylepšování Stonehearthu!",
+				"language_select": "Jazyk",
 				"unsaved_changes_dialog": {
-					"title": "Discard Changes?",
-					"message": "Do you want to discard unsaved changes?"
+					"title": "Zahodit Změny?",
+					"message": "Chceš zahodit neuložené změny?"
 				},
 				"gameplay_tab": {
-					"title": "Gameplay",
-					"advanced": "Unstable Settings",
-					"advanced_description": "<font color='#eb4c36'><strong>WARNING:</strong></font> These settings may affect game stability and performance! Change at your own risk!",
-					"enable_speed_3": "Enable Game Speed 3",
-					"enable_speed_3_description": "Adds a new speed option in the bottom right panel that will run the game at 4x speed! <br><br><font color='#eb4c36'><strong>Warning:</strong></font> Game performance might be slow with larger towns on speed 3. Be warned!",
-					"default_storage_filter_none": "Storage filters default to None",
-					"default_storage_filter_none_description": "When creating a new stockpile or putting down a new crate, the default filter on the storage will be set to 'None' instead of 'All'.",
-					"default_mining_zones_suspended": "Mining zones default to Suspended",
-					"default_mining_zones_suspended_description": "When creating a new mining zone, it will start suspended and won't be mined until you manually unsuspend it.",
-					"show_hearthling_paths": "Show Hearthling paths",
-					"show_hearthling_paths_description": "Display the path your hearthlings are following.",
-					"max_citizens": "Max Citizens",
-					"max_citizens_description": "Change the limit on maximum number of citizens you can have in your town.<br><br><font color='#eb4c36'><strong>Warning:</strong></font> Having more than 20 hearthlings can cause performance issues including AI unresponsiveness/idling and hitching.",
-					"randomize_attributes": "Randomize Hearthling Attributes",
-					"randomize_attributes_description": "If enabled, hearthling Mind, Body, and Spirit attributes will be assigned completely at random instead of distributed in a balanced fashion.",
-					"auto_loot": "Auto Loot",
-					"auto_loot_description": "When an enemy drops loot, automatically mark it for pick up.",
-					"auto_rescue": "Auto Rescue",
-					"auto_rescue_description": "When a citizen is incapacitated, automatically flag them for Rescue.",
-					"building_auto_queue_crafters": "Auto Queue Crafting For Building",
-					"building_auto_queue_crafters_description": "When starting construction on a building, all furniture and fixtures for that building are automatically queued for their respective crafters.",
-					"infinite_inventory": "Disable inventory capacity limit",
-					"infinite_inventory_description": "This will the remove the limit on the maximum number of items you can have in your town inventory.<br><br>Note: You must restart the game for this to take effect!<br><br><font color='#eb4c36'><strong>Warning:</strong></font> Having too many items in the game will affect game performance."
+					"title": "Hratelnost",
+					"advanced": "Nestabilní Nastavení",
+					"advanced_description": "<font color='#eb4c36'><strong>Varování:</strong></font> These settings may affect game stability and performance! Change at your own risk!",
+					"enable_speed_3": "Povolit Rychlost Hry 3",
+					"enable_speed_3_description": "Přidá možnost nové rychlosti do panelu vpravo dole, která ti umožní pustit hru 4x rychleji! <br><br><font color='#eb4c36'><strong>Varování:</strong></font> Výkon hry může být pomalý u větších měst s rychlostí 3. Varuji Tě!",
+					"default_storage_filter_none": "Vychozí nastavení filtrů skladů na Nic",
+					"default_storage_filter_none_description": "Při vytvoření nového skladiště nebo umístění nové bedny, bude výchozí filtry skladu nastaven na 'Nic' místo 'Vše'.",
+					"default_mining_zones_suspended": "Výchozí nastavení zón kopání bude Přerušeno",
+					"default_mining_zones_suspended_description": "Když vytvoříš novou zónu na kopání, bude od začátku nastavená na Přerušeno a nebude vykopána dokud neklikneš na Pokračovat v Kopání.",
+					"show_hearthling_paths": "Ukázat Trasy Hearthlingů",
+					"show_hearthling_paths_description": "Ukáže trasy po kterých se hearthlingové pohybují.",
+					"max_citizens": "Max. Obyvatel",
+					"max_citizens_description": "Změň limit maximálního počtu obyvatel, které můžeš mít ve svém městě.<br><br><font color='#eb4c36'><strong>Varování:</strong></font> Pokud máš více než 20 hearthlingů, může docházet k problémům s výkonem, včetně neodpovídající AI/sekání a škubání hry.",
+					"randomize_attributes": "Náhodně Rozdělit Hearthlingovi Vlastnosti ",
+					"randomize_attributes_description": "Pokud je povoleno, hearthlingovi vlastnosti, Rozum, Tělo a Duše, budou přiděleny naprasosto náhodně, místo toho aby byly rozdělené rovnoměrně.",
+					"auto_loot": "Automaticky Sebrat Kořist",
+					"auto_loot_description": "Když z nepřítele vypadně kořist, automatiky se označí k vyzvednutí.",
+					"auto_rescue": "Automaticky Zachraňovat",
+					"auto_rescue_description": "Když je obyvatel ochromený, automaticky se nastaví příkaz k Záchraně.",
+					"building_auto_queue_crafters": "Automaticky Přidávat do Fronty Výrobky pro Stavbu",
+					"building_auto_queue_crafters_description": "Když začneš stavět stavbu, všechen nábytek a příslušenství pro danou stavbu se automaticky zařadí do výrobní fronty  příslušných řemeslníků.",
+					"infinite_inventory": "Vypnout limit velikosti inventáře",
+					"infinite_inventory_description": "Toto nastavení odstraní limit maximálního počtu předmětů, které můžeš mít ve svém městském inventáři.<br><br>Poznámka: Musíš restartovat hru pro provedení změn!<br><br><font color='#eb4c36'><strong>Varování:</strong></font> Vlastnictví velkého počtu předmětů ovlivní výkon hry ."
 				},
-				"mods": "Mods",
+				"mods": "Módy",
 				"mods_tab": {
-					"title": "Installed Modules",
-					"note": "Enabling or disabling a module requires a game reload.",
-					"invalid_manifest": "Invalid Manifest",
-					"invalid_steam_file": "Invalid Steam File Id",
-					"out_of_date": "Out of Date",
-					"deferred_load": "Automatically Loaded by Other Mods",
-					"required": "Required",
-					"debug": "Debug Mod",
-					"localization": "Is this a translation mod?",
-					"loading_namespace": "[ loading... ]",
+					"title": "Instalované Moduly",
+					"note": "Povolení nebo zakázání modulu vyžaduje znovunačtení hry.",
+					"invalid_manifest": "Neplatný Manifest",
+					"invalid_steam_file": "Neplatné Id Steam Souboru",
+					"out_of_date": "Zastaralé",
+					"deferred_load": "Automaticky Načtené Jinými Módy",
+					"required": "Vyžadováno",
+					"debug": "Ladící Mód",
+					"localization": "Je tohle překlad hry?",
+					"loading_namespace": "[ načítání... ]",
 					"mods_changed_dialog": {
-						"title": "Modules Changed",
-						"message": "The game needs to reload to apply module changes. Reload now?",
-						"accept": "Ok",
+						"title": "Změna Modulů",
+						"message": "Hra se musí znovu načíst, aby se provedli změny modulů. Načíst znovu hned?",
+						"accept": "Ano",
 						"cancel": "Zrušit"
 					},
 					"upload_error_dialog": {
@@ -1745,19 +1745,19 @@
 						"message": "Nelze nahrát \"[str(modname)]\": [str(error)]"
 					},
 					"create_mod_error_dialog": {
-						"title": "Create mod failed",
-						"message": "Could not create mod \"[str(modname)]\": [str(error)]"
+						"title": "Vytváření módu selhalo",
+						"message": "Nelze vytvořit mód \"[str(modname)]\": [str(error)]"
 					}
 				},
 				"controls_tab": {
-					"key_binding_prompt": "Press Del to unbind",
-					"reset_to_defaults": "Reset to Defaults",
-					"unbound": "unbound",
+					"key_binding_prompt": "Stiskni Del pro zrušení přiřazení",
+					"reset_to_defaults": "Obnovit Výchozí Nastavení",
+					"unbound": "nepřiřazeno",
 					"conflict_dialog": {
-						"title": "Binding Conflict",
-						"message": "\"<strong>[str(combo)]</strong>\" is already used by [str(conflicts)].",
-						"choice_replace": "Unbind Existing",
-						"choice_keep": "Keep All",
+						"title": "Konflikt Přiřazení",
+						"message": "\"<strong>[str(combo)]</strong>\" už je používán pro [str(conflicts)].",
+						"choice_replace": "Zrušit Existující",
+						"choice_keep": "Zachovat Vše",
 						"choice_cancel": "Zrušit"
 					},
 					"key_category_names": {
@@ -1789,92 +1789,92 @@
 						"cam_zoom_out": "Oddálit",
 						"cam_move_up": "Pohyb Kamerou Nahoru",
 						"cam_move_down": "Pohyb Kamerou Dolů",
-						"cam_follow": "Follow Camera",
-						"vision_building_toggle": "Switch Building Vision",
-						"vision_xray_toggle": "Toggle Terrain X-Ray Vision",
-						"vision_slice_toggle": "Toggle Terrain Slice Vision",
-						"vision_slice_up": "Terrain Slice Up (Snap to 5)",
-						"vision_slice_up_single": "Terrain Slice Up",
-						"vision_slice_down_single": "Terrain Slice Down",
-						"vision_slice_down": "Terrain Slice Down (Snap to 5)",
-						"vision_appeal_toggle": "Toggle Appeal Vision",
-						"speed_pause": "Pause",
-						"speed_toggle_pause": "Toggle Pause",
-						"speed_play": "Normal Speed",
-						"speed_ff": "Double Speed",
-						"speed_three": "Super Speed",
-						"town_overview": "Town Info Menu",
-						"citizen_manager": "Citizens Menu",
-						"multiplayer_menu": "Multiplayer Menu",
-						"harvest_menu": "Harvest Menu",
-						"harvest_harvest": "Harvest Tool",
-						"harvest_mine_basic": "Mine Tool",
-						"harvest_mine_custom": "Mine Power Tool",
-						"harvest_cancel": "Cancel Task Tool",
-						"harvest_loot": "Loot Tool",
-						"harvest_clear": "Clear Tool",
-						"zone_menu": "Zone Menu",
-						"zone_stockpile": "Stockpile Tool",
-						"zone_farm": "Farm Tool",
-						"zone_trapping": "Trapping Zone Tool",
-						"zone_pasture": "Pasture Tool",
-						"build_menu": "Build Menu",
-						"place_menu": "Place Menu",
-						"build_template": "Place Building",
-						"build_custom": "Design Building",
-						"build_place": "Place Item",
-						"build_ladder": "Build Ladder",
-						"build_rotate_left": "Rotate Selection Left",
-						"build_rotate_right": "Rotate Selection Right",
-						"build_raise_template": "Raise Template",
-						"build_sink_template": "Sink Template",
-						"craft_menu": "Crafting Menu",
-						"craft_carpenter": "Carpenter Menu",
-						"craft_weaver": "Weaver Menu",
-						"craft_mason": "Mason Menu",
-						"craft_blacksmith": "Blacksmith Menu",
-						"craft_cook": "Cook Menu",
-						"craft_potter": "Potter Menu",
-						"craft_herbalist": "Herbalist Menu",
-						"craft_engineer": "Engineer Menu",
-						"craft_geomancer": "Geomancer Menu",
-						"fight_menu": "Fight Menu",
-						"fight_alert": "Town Alert",
-						"fight_party_1": "Combat Party 1",
-						"fight_party_2": "Combat Party 2",
-						"fight_party_3": "Combat Party 3",
-						"fight_party_4": "Combat Party 4",
-						"bulletin_manager": "Notifications Menu",
-						"ui_quicksave": "Quick Save",
-						"ui_quickload": "Quick Load",
-						"ui_refresh": "Refresh",
-						"toggle_fullscreen": "Toggle Fullscreen",
-						"toggle": "Toggle UI",
-						"ui_print_screen": "Take Screenshot",
-						"debug_console": "Stonehearth Console",
-						"debug_navgrid": "Show/Hide Navgrid",
-						"debug_navgrid_water_tight": "Show/Hide Watertight Navgrid",
-						"debug_lifetime_tracking": "Toggle Lifetime Tracking",
+						"cam_follow": "Následovat Kameru",
+						"vision_building_toggle": "Změnit Stavební Pohled",
+						"vision_xray_toggle": "Přepnout Pohled na Rentgen Terénu",
+						"vision_slice_toggle": "Přepnout Pohled na Řez Terénem",
+						"vision_slice_up": "Zvýšit Úroveň Řezu (Skok o 5)",
+						"vision_slice_up_single": "Zvýšit Úroveň Řezu",
+						"vision_slice_down_single": "Snížit Úroveň Řezu",
+						"vision_slice_down": "Snížit Úroveň Řezu (Skok o 5)",
+						"vision_appeal_toggle": "Přepnout Vizi Přitažlivosti",
+						"speed_pause": "Pozastavit",
+						"speed_toggle_pause": "Přepnout Pozastavení",
+						"speed_play": "Normální Rychlost",
+						"speed_ff": "Dvojitá Rychlost",
+						"speed_three": "Super Rychlost",
+						"town_overview": "Menu Informací o Městě",
+						"citizen_manager": "Menu Obyvatel",
+						"multiplayer_menu": "Menu Hry Více Hráčů",
+						"harvest_menu": "Menu Těžby a Sklízení",
+						"harvest_harvest": "Nástroj Těžby/Sklizně",
+						"harvest_mine_basic": "Nástroj Kopání",
+						"harvest_mine_custom": "Nástroj Kopání Vlastních Bloků",
+						"harvest_cancel": "Nástroj Rušení Úkolů",
+						"harvest_loot": "Nástroj Sebrání Kořisti",
+						"harvest_clear": "Nástroj Ničení Předmětů",
+						"zone_menu": "Zónové Menu",
+						"zone_stockpile": "Nástroj Skladišť",
+						"zone_farm": "Nástroj Farem",
+						"zone_trapping": "Nástroj Loveckých Pastí",
+						"zone_pasture": "Nástroj Pastvin",
+						"build_menu": "Stavební Menu",
+						"place_menu": "Menu Umisťování",
+						"build_template": "Umístit Stavbu",
+						"build_custom": "Navrhnout Stavbu",
+						"build_place": "Umístit Předmět",
+						"build_ladder": "Postavit Žebřík",
+						"build_rotate_left": "Otočit Výběr Doleva",
+						"build_rotate_right": "Otočit Výběr Doprava",
+						"build_raise_template": "Zrušit Zapuštění Šablony",
+						"build_sink_template": "Zapustit Šablonu do Země",
+						"craft_menu": "Výrobní Menu",
+						"craft_carpenter": "Tesařovo Menu",
+						"craft_weaver": "Tkalcovo Menu",
+						"craft_mason": "Kameníkovo Menu",
+						"craft_blacksmith": "Kovářovo Menu",
+						"craft_cook": "Kuchařovo Menu",
+						"craft_potter": "Hrnčírovo Menu",
+						"craft_herbalist": "Bylinkářovo Menu",
+						"craft_engineer": "Inženýrovo Menu",
+						"craft_geomancer": "Geomancerovo Menu",
+						"fight_menu": "Bojové Menu",
+						"fight_alert": "Městská Pohotovost",
+						"fight_party_1": "Bojová Četa 1",
+						"fight_party_2": "Bojová Četa 2",
+						"fight_party_3": "Bojová Četa 3",
+						"fight_party_4": "Bojová Četa 4",
+						"bulletin_manager": "Menu Upozornění",
+						"ui_quicksave": "Rychlé Uložení",
+						"ui_quickload": "Rychlé Načtení",
+						"ui_refresh": "Obnovit",
+						"toggle_fullscreen": "Přepnout Režim Celé Obrazovky",
+						"toggle": "Přepnout Uživateslké Rozhraní ",
+						"ui_print_screen": "Pořídit Snímek Obrazovky",
+						"debug_console": "Stonehearth Konzole",
+						"debug_navgrid": "Zobrazit/Skrýt Navgrid",
+						"debug_navgrid_water_tight": "Zobrazit/Skrýt Watertight Navgrid",
+						"debug_lifetime_tracking": "Přepnout Doživotní Sledování",
 						"debug_toggle_step_paths": "Step Pathfinder Service",
 						"debug_step_topology": "Step Topology Service",
-						"debug_reload": "Save & Reload",
-						"debug_toggle_save_stress_test": "Toggle Save Stress Test",
-						"debug_toggle_debug_nodes": "Toggle Debug Nodes",
-						"debug_toggle_perfhud": "Toggle Perf HUD",
-						"debug_toggle_flame_graph": "Toggle Flame Graph",
-						"debug_switch_debug_shapes": "Switch Debug Shapes View",
-						"debug_crash": "Force Crash",
-						"debug_toggle_cpu_profiler": "Toggle Lua Profiler",
-						"debug_render_show_stats": "Show Rendering Stats",
-						"debug_render_debug_view": "Renderer Debug View",
-						"debug_show_terrain_coordinates": "Show Terrain Coordinates"
+						"debug_reload": "Uložit & Znovu Načíst",
+						"debug_toggle_save_stress_test": "Přepnout Save Stress Test",
+						"debug_toggle_debug_nodes": "Přepnout Debug Nodes",
+						"debug_toggle_perfhud": "Přepnout Perf HUD",
+						"debug_toggle_flame_graph": "Přepnout Flame Graph",
+						"debug_switch_debug_shapes": "Přepnout Debug Shapes Pohled",
+						"debug_crash": "Vynutit Pád Hry",
+						"debug_toggle_cpu_profiler": "Přepnout Lua Profiler",
+						"debug_render_show_stats": "Zobrazit Statistiky Vykreslování",
+						"debug_render_debug_view": "Vykreslit Debug View",
+						"debug_show_terrain_coordinates": "Zobrazit Terénní Souřadnice"
 					}
 				}
 			},
 			"title_screen": {
 				"exit": "Konec",
 				"settings": "Nastavení",
-				"about": "Info o Hře",
+				"about": "O Hře",
 				"kingdom_of": "The Settlement of",
 				"continue_game": "Pokračovat",
 				"new_game": "Nová Hra",
@@ -1891,185 +1891,185 @@
 					"cancel": "Ne, díky."
 				},
 				"mod_conflic_dialog": {
-					"title": "Module Conflicts Detected!",
-					"message": "Warning: You have conflicting mods that have the same namespace. Make sure only one mod with the namespace is enabled on the mod screen.<br>If you have both an .smod and a flat folder for the mod, the flat folder will be used. The affected mods are: <br><br>",
-					"accept": "Yes, proceed."
+					"title": "Objeven Konflikt Modulů!",
+					"message": "Varování: Máš konfliktní módy, které mají stejný jmenný prostor (namespace). Ujisti se, že pouze jeden mód s tímto jmeným prostorem je povolen v Módech .<br>Jestli máš pro mód  oboje složky, jak smod tak flat, tak bude použita složka flat. Dotčené módy jsou: <br><br>",
+					"accept": "Ano, pokračovat."
 				},
 				"mod_dependency_conflict": {
-					"title": "Module Circular Dependency Detected!",
-					"message": "Warning: You have mods that have circular dependencies (e.g. mod A depends on another mod B that eventually leads back to mod A). Mod dependencies specify what order the mods should be loaded in, but if there is a cycle, then we cannot determine which order to load them in.<br><br>Resolve the cycle mod dependencies inside of the affected mods' manifests. The affected mods have been temporarily disabled: <br><br>",
-					"accept": "Yes, proceed.",
-					"dependency": ", which depends on:"
+					"title": "Objevena Cyklická Závislost Modulů!",
+					"message": "Varování: Máš módy které mají cyklické závislosti (např. mód A závisí na jíném mód B, který  následně vede zpet k módu A). Závislosti módů určují v jakém pořadí mají být módy načteny, ale pokud dojde k zacyklení, tak nemůžeme určit, v jakém pořadí je máme načíst.<br><br>Vyřeš cyklické závislosti v manifestech dotčených módů. Dotčené módy byly dočasně zakázány: <br><br>",
+					"accept": "Ano, pokračovat.",
+					"dependency": ", což závisí na:"
 				},
-				"ace": "ACE!",
+				"ace": "ACE!!! ",
 				"ace_dialog": {
 					"title": "Zapnout Autorizovanou Komunitní Expanzi (ACE)?",
-					"message": "ACE is a mod that was born out of the desire of a group of awesome community members to create a richer and more complete Stonehearth experience. It includes features intended to enhance the game, such as new classes, UX changes, biomes, items and more!<br><br><font size=-1><i>Note: As with any mod, your play experience will differ from the base game. ACE adds a lot of content, so you may need a more powerful machine in order to experience it the way it was intended. (You can always enable or disable it from the title screen or Mods Menu later).</i></font><br><br>Would you like to enable their mod?",
-					"accept": "Yes!",
-					"cancel": "No, thanks."
+					"message": "ACE je mód, který se zrodil z touhy skupiny skvělých členů komunity, vytvořit bohatší a úplnější zaážitek ze Stonehearthu. Obsahuje prvky a funkce, které vylepšují hru, jako jsou nové profese, změny UX, biomy, předměty a mnohem více!<br><br><font size=-1><i>Poznámka: Jako s jakýmkoliv jiným módem, tvůj herní zážitek se bude lišit od základní hry. ACE přidává hodně nového obsahu, takže možná budeš potřebovat silnější stroj, aby sis ho mohl užít tak jak je to zamýšleno. (Vždycky ho můžeš povolit nebo zakázat na počáteční obrazovce hry nebo později v Menu Módů).</i></font><br><br>Chtěl bys teď povolit ACE?",
+					"accept": "Ano, prosím!",
+					"cancel": "Ne, díky."
 				},
 				"ace_toggle": {
 					"enable": {
-						"title": "Turn on ACE?",
-						"message": "The game will have to reload to enable ACE. Would you like to continue?",
-						"tooltip": "Turn on Stonehearth's Authorized Community Expansion."
+						"title": "Zapnout ACE?",
+						"message": "Hra se bude muset znovu načíst aby se povolilo ACE. Budeš chtít pokračovat?",
+						"tooltip": "Zapnout Autorizovanou Komunitní Expanzi Stonehearthu."
 					},
 					"disable": {
-						"title": "Turn off ACE?",
-						"message": "The game will have to reload to disable ACE. Would you like to continue?",
-						"tooltip": "Turn off Stonehearth's Authorized Community Expansion."
+						"title": "Vypnout ACE?",
+						"message": "Hra se bude muset znovu načíst, aby se zakázalo ACE. Budeš chtít pokračovat?",
+						"tooltip": "Vypnout Zapnout Autorizovanou Komunitní Expanzi Stonehearthu."
 					},
-					"accept": "Continue",
-					"cancel": "Cancel"
+					"accept": "Pokračovat",
+					"cancel": "Zrušit"
 				}
 			},
 			"mods_menu": {
-				"title": "Mods",
-				"note": "Enabling or disabling a module requires a game reload.",
-				"apply": "Apply",
-				"open_folder": "Open Folder",
-				"quit_to_menu": "Save and Quit to Menu",
-				"base_mod": "Base Mod",
-				"modding_guide": "Modding Guide",
+				"title": "Módy",
+				"note": "Povolení nebo zakázání modulu vyžaduje znovunačtení hry",
+				"apply": "Použít",
+				"open_folder": "Otevřít Složku",
+				"quit_to_menu": "Uložit a Vráti se do Menu",
+				"base_mod": "Základní Mód",
+				"modding_guide": "Průvodce Módováním (v Aj)",
 				"sections": {
 					"base_mods": {
-						"title": "Base Mods"
+						"title": "Základní Módy"
 					},
 					"unmanaged_mods": {
-						"title": "Local Mods",
-						"templates_title": "Your Templates"
+						"title": "Místní Módy",
+						"templates_title": "Tvoje Šablony"
 					},
 					"workshop_mods": {
-						"title": "Subscribed Workshop Mods",
-						"templates_title": "Subscribed Template Packs",
-						"browse_workshop": "Browse Steam Workshop",
-						"unsubscribe": "Unsubscribe",
-						"view_in_workshop": "View in Workshop",
-						"upload": "Upload",
-						"update": "Update",
+						"title": "Odebírané Módy z Workshopu",
+						"templates_title": "Odebírané Balíčky Šablon",
+						"browse_workshop": "Procházet Steam Workshop",
+						"unsubscribe": "Zrušit Odběr",
+						"view_in_workshop": "Zobrazit ve Workshopu",
+						"upload": "Nahrát",
+						"update": "Aktualizovat",
 						"cancel": "X"
 					},
 					"my_items": {
-						"title": "Workshop Uploads",
-						"templates_title": "Template Pack Uploads",
-						"create_new_mod": "Create New Mod"
+						"title": "Nahrané do Workshopu ",
+						"templates_title": "Nahrané Balíčky Šablon",
+						"create_new_mod": "Vytvořit Nový Mód"
 					}
 				},
 				"tooltips": {
-					"open_folder": "Open mod folder",
-					"view_in_workshop": "View mod in workshop",
-					"toggle_view_templates": "Expand/collapse list of templates",
-					"edit_templates": "Edit this mod's list of templates",
-					"upload": "Upload mod to workshop",
-					"unsubscribe": "Unsubscribe from mod"
+					"open_folder": "Otevřít složku módu",
+					"view_in_workshop": "Zobrazit mód ve workshopu",
+					"toggle_view_templates": "Rozbalit/sbalit seznam šablon",
+					"edit_templates": "Upravit seznam šablon tohoto módu",
+					"upload": "Nahrát mód do workshopu",
+					"unsubscribe": "Zrušit odběr módu"
 				},
 				"unsubscribe_dialog": {
-					"title": "Are you sure you want to unsubscribe?",
-					"message": "This will erase the mod from your local machine, but you can find the mod again in the Steam Workshop.",
-					"accept": "Yes, unsubscribe.",
-					"cancel": "No, stay subscribed."
+					"title": "Jsi si jistý, že chceš zrušit odběr?",
+					"message": "Tím vymažeš mód ze svého počítače, ale pořád si ho můžeš znovu najít ve Steam Workshopu.",
+					"accept": "Ano, zrušit odběr.",
+					"cancel": "Ne, pokrčovat v odběru."
 				},
 				"duplicates_dialog": {
-					"title": "Duplicate Mods Enabled",
-					"message": "You currently have more than one mod with the same name enabled. Make sure you have only one version enabled at a time. Your current duplicates:<br><br>",
+					"title": "Duplicitní Módy Povoleny",
+					"message": "Máš současně povoleny minimálně dva módy se stejným jménem. Ujisti se že v jednu chvíli máš povolenou pouze jednu verzi. Tvoje současné duplikáty:<br><br>",
 					"ok": "OK"
 				}
 			},
 			"load_match_mods": {
-				"title": "Different Mods",
-				"note": "This game was saved with different mods than the ones you currently have enabled.",
-				"old_save_note": "This game was saved before enabled mods were stored in the save. These are the mods you currently have enabled.",
+				"title": "Odlišné Módy",
+				"note": "Tato hra byla uložena s odlišnými módy, než jsou v současné chvíli povoleny.",
+				"old_save_note": "Tato hra byla uložena předtím, než byly povolené módy zapsány do uložené hry. Tohle jsou módy, které máš v současnosti povolené.",
 				"warning_dialog": {
-					"title": "Warning",
-					"message": "Playing with different mods than the game was saved with could lead to unexpected errors or crashes. Do you want to continue?",
-					"continue": "Continue",
-					"cancel": "Cancel"
+					"title": "Varování",
+					"message": "Hraní s módy které jsou odlišné od těch se kterými byla hra uložena může vést k nečekaným chybám nebo pádům hry. Chceš pokračovat?",
+					"continue": "Pokračovat",
+					"cancel": "Zrušit"
 				},
 				"statuses": {
 					"missing": {
-						"header": "Missing",
-						"description": "These mods are missing (ie. deleted or unsubscribed)."
+						"header": "Chybí",
+						"description": "Tyto módy chybí (tj. smazané nebo zrušen odběr)."
 					},
 					"type_mismatch": {
-						"header": "Different Version",
-						"description": "Save had a different version of these mods enabled."
+						"header": "Odlišné Verze",
+						"description": "Uložená Hra má odlišnou verzi povolených módů."
 					},
 					"hash_mismatch": {
-						"header": "Modified",
-						"description": "These mods have been modified since the save."
+						"header": "Změněné",
+						"description": "Tyto módy byly od uložení hry změněné."
 					},
 					"additional": {
-						"header": "New",
-						"description": "These mods were not in the save."
+						"header": "Nové",
+						"description": "Tyto módy nebyly v uložené hře."
 					},
 					"disabled": {
-						"header": "Disabled",
-						"description": "These mods were in the save and are currently disabled."
+						"header": "Zakázané",
+						"description": "Tyto módy byly v uložené hře, ale jsou v současnoti zakázané."
 					},
 					"normal": {
-						"header": "All Good Here",
-						"description": "These mods haven't changed since the save."
+						"header": "V Pořadku",
+						"description": "Tyto módy se od uložení hry nezměnily."
 					}
 				},
 				"descriptions": {
-					"apply_saved": "Enable mods used in this save and disable all others.",
-					"continue_anyway": "Use current mod configuration. May cause errors."
+					"apply_saved": "Povolit módy použité v této uložené hře a zakázat všechny ostatní.",
+					"continue_anyway": "Použít současné nastavení módů. Může způsobit chyby."
 				},
 				"buttons": {
-					"continue_anyway": "Apply Mod Changes",
-					"apply_saved": "Apply Saved Mods and Continue"
+					"continue_anyway": "Použít Změny Módů",
+					"apply_saved": "Použít Uložené Módy a Pokračovat"
 				},
-				"view_in_workshop": "View mod in workshop. Note: You must restart the game to apply changes if you subscribe to this mod."
+				"view_in_workshop": "Zobrazit mód ve workshopu. Poznámka: Pokud se přihlásíš k odběru tohoto módu, musíš restartovat hru, aby si použil změny."
 			},
 			"load_match_mod_order": {
-				"title": "Different Mod Order",
-				"note": "This game was saved with mods in a different order than your current game.",
-				"old_save_note": "This game was saved before mod order was stored in the save. These are the mods you currently have enabled, in order.",
-				"saved_order": "Saved Order",
-				"current_order": "Current Order",
+				"title": "Odlišné Pořadí Módu",
+				"note": "Tato hra byla uložena s módy v jiném pořadí než hra současná.",
+				"old_save_note": "Tato hra byla uložena předtím, než do ní bylo uloženo pořadí módů. Tohle jsou módy, které máš v současnosti povolené, v pořadí.",
+				"saved_order": "Uložené Pořadí",
+				"current_order": "Současné Pořadí",
 				"warning_dialog": {
-					"title": "Warning",
-					"message": "Playing with different mod order than the game was saved with could lead to unexpected errors or crashes. Do you want to continue?",
-					"continue": "Continue",
-					"cancel": "Cancel"
+					"title": "Varování",
+					"message": "Hraní s odlišným pořadím módů, než s jakým byla hra uložena, může vést k nečekaným chybám a pádům hry. Chceš pokračovat?",
+					"continue": "Pokračovat",
+					"cancel": "Zrušit"
 				},
 				"descriptions": {
-					"apply_saved": "Use the saved game's order.",
-					"continue_anyway": "May cause errors."
+					"apply_saved": "Použít uložené pořadí módů.",
+					"continue_anyway": "Může způsobit chyby."
 				},
 				"buttons": {
-					"continue_anyway": "Use Current Order",
-					"apply_saved": "Apply Saved Order"
+					"continue_anyway": "Použít Současné Pořadí",
+					"apply_saved": "Použít Uložené Pořadí"
 				}
 			},
 			"mods_sync": {
-				"stop_title": "Missing Mods",
-				"continue_title": "Ready to Continue to Game",
+				"stop_title": "Chybí Módy",
+				"continue_title": "Připraveno Pokračovat do Hry",
 				"time_elapsed": {
-					"days": "Game Time Since Start: [str(date.day)] Days, [str(date.hour)] Hours",
-					"months": "Game Time Since Start: [str(date.month)] Months, [str(date.day)] Days, [str(date.hour)] Hours",
-					"years": "Game Time Since Start: [str(date.year)] Years, [str(date.month)] Months, [str(date.day)] Days, [str(date.hour)] Hours"
+					"days": "Herní Čas od Začátku: [str(date.day)] Dní/i, [str(date.hour)] Hodin/y",
+					"months": "Herní Čas od Začátku: [str(date.month)] Měsíců/e, [str(date.day)] Dnů/y, [str(date.hour)] Hodin/y",
+					"years": "Herní Čas od Začátku: [str(date.year)] Roků/y, [str(date.month)] Měsíců/e, [str(date.day)] Dnů/y, [str(date.hour)] Hodin/y"
 				},
 				"game_info": "[str(biomeName)]: [str(biomeLocation)], [str(gameMode)]",
-				"note": "The game you are trying to join has the following mods.",
-				"missing_note": "The game you are trying to join has the following mods. You must have the same mods and versions in order to join.",
-				"version_note": "<span class=\"warning\">Warning:</span> Your version of Stonehearth does not match the game you are trying to connect to!<br>This could prevent you from being able to connect, or lead to unexpected bugs during gameplay.",
-				"your_version": "Your version: [str(version)]",
-				"their_version": "Their version: [str(version)]",
-				"continue": "Continue to Game",
-				"loading": "Loading into game...",
-				"subscribe_all": "Subscribe All",
-				"no_steam_cant_sync": "You are missing one or more of the above mods. Ask your host to send them to you, or connect to Steam and look for them in the Steam workshop.",
-				"not_seen_in_workshop_cant_sync": "One or more of the missing mods is unavailable in the Steam Workshop. They might not be uploaded, or only be viewable by the host. Ask them to upload or change their permissions, then try connecting again.",
-				"mismatched_hash_workshop_cant_sync": "One of your Steam mods does not match the version that the host server is using. The mod's files may have been modified or the host is using a mod that is not up-to-date with the Steam version. Try deleting the mod and re-subscribing to get the Workshop version, or tell the host to update their Steam Workshop mods.",
-				"failed_download_workshop_update_cant_sync": "One or more of your mods doesn't match the version the host server has. Game was unable to download the workshop update for one of the mods because the mod steam file id invalid or you are logged out of steam.",
-				"cancel": "Cancel",
-				"private": "Private mod",
-				"non_workshop": "Not found in workshop",
-				"failed_download": "Cannot download update",
-				"mismatched_workshop_hash": "Does not match steam version",
+				"note": "Hra do které se snažíš připojit má následující módy.",
+				"missing_note": "Hra do které se snažíš připojit má následující módy. Aby ses mohl připojit musíš mít ty samé módy a jejich stejnou verzi.",
+				"version_note": "<span class=\"warning\">Varování:</span> Tvoje verze Stonehearthu neodpovídá verzi hry, ke které se snažíš připojit!<br>To ti může bránit v pokusech o připojení, nebo vést k nečekaným chybám během hraní",
+				"your_version": "Tvoje verze: [str(version)]",
+				"their_version": "Hostitelská verze: [str(version)]",
+				"continue": "Pokračovat do Hry",
+				"loading": "Načítám do hry...",
+				"subscribe_all": "Odebírat Vše",
+				"no_steam_cant_sync": "Chybí ti jeden nebo více z výše vypsaných módů. Požádej hostitele aby ti je poslal, nebo se připoj na Steam a zkus je najít ve Steam workshopu.",
+				"not_seen_in_workshop_cant_sync": "Jeden nebo více z chybějících módů je nedostupný ve Steam Workshopu. Možná nejsou nahrané, nebo jsou viditelné pouze pro hostitele. Požádej ho o nahrání nebo změnění oprávnění, pak se zkus připojit znovu.",
+				"mismatched_hash_workshop_cant_sync": "Jeden z tvých Steamových módů neodpovídá verzi, kterou používá hostitelský server. Soubory módu mohli být upraveny nebo hostitel používá neaktualizovanou verzi tohoto módu. Zkus tento mód smazat a pak se znovu přihlásit k jeho odběru, aby jsi získal verzi z Workshopu, nebo řekni hostiteli ať si aktualizuje módy ze Steam Worshopu.",
+				"failed_download_workshop_update_cant_sync": "Jeden nebo více tvých módů neodpovídá verzi, kterou používá hostielský server. Hra nebyla schopná stáhnout z Worshopu update pro některý z těchto módů, protože steam id tohoto módu bylo neplatné nebo jsi odhlášen ze Steamu.",
+				"cancel": "Zrušit",
+				"private": "Soukromý mód",
+				"non_workshop": "Nenalezen ve Workshopu",
+				"failed_download": "Nemohu stáhnout update",
+				"mismatched_workshop_hash": "Neodpovídá verzi na steamu",
 				"size": {
-					"bytes": "[str(size)] bytes",
+					"bytes": "[str(size)] byty",
 					"kilobytes": "[str(size)] KB",
 					"megabytes": "[str(size)] MB"
 				}
