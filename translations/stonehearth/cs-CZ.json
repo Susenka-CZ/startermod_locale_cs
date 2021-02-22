@@ -423,8 +423,8 @@
 			},
 			"steam": {
 				"workshop_agreement": {
-					"notice": "Odesláním této položky, souhlasíš s worshopem",
-					"terms_of_service": "podmínky služby"
+					"notice": "Odesláním této položky, souhlasíš s workshopovými",
+					"terms_of_service": "podmínkami služby"
 				}
 			},
 			"party": {
@@ -1668,8 +1668,8 @@
 				"gfx_enable_ssao": "Povolit Zastínění Okolím",
 				"gfx_use_high_quality": "Použít Streamování Textur",
 				"gfx_enable_dynamic_icons": "Povolit Ikony v Bublinách Řeči",
-				"gfx_enable_dynamic_icons_tooltip": "Pokud jsou zakázané, Bubliny Řeči nebudou zobrazovat obrázky témat, ale může to vyřešit škubání na starších grafických čipech .",
-				"gfx_use_recommended_graphics": "Použít doporučené nastavení grafiky.",
+				"gfx_enable_dynamic_icons_tooltip": "Pokud jsou zakázané, Bubliny Řeči nebudou zobrazovat obrázky témat, ale může to vyřešit škubání na starších grafických čipech.",
+				"gfx_use_recommended_graphics": "Použít doporučené nastavení grafiky",
 				"gfx_disable_deferred_renderer_description": "<font color='#eb4c36'><strong>VAROVÁNÍ:</strong></font> Používání Streamování Textur způsobuje problémy s výkonem ve městech s hodně světly. Používej pouze jako poslední možnost.",
 				"shadow_0": "vypnuty",
 				"shadow_1": "jen maličko",
@@ -1700,16 +1700,16 @@
 				"gameplay_tab": {
 					"title": "Hratelnost",
 					"advanced": "Nestabilní Nastavení",
-					"advanced_description": "<font color='#eb4c36'><strong>Varování:</strong></font> These settings may affect game stability and performance! Change at your own risk!",
+					"advanced_description": "<font color='#eb4c36'><strong>Varování:</strong></font> Tato nastavení mohou ovlivnit stabilitu a výkon hry! Změny provádíš na vlastní riziko!",
 					"enable_speed_3": "Povolit Rychlost Hry 3",
-					"enable_speed_3_description": "Přidá možnost nové rychlosti do panelu vpravo dole, která ti umožní pustit hru 4x rychleji! <br><br><font color='#eb4c36'><strong>Varování:</strong></font> Výkon hry může být pomalý u větších měst s rychlostí 3. Varuji Tě!",
+					"enable_speed_3_description": "Přidá možnost nové rychlosti do panelu vpravo dole, která ti umožní pustit hru 4x rychleji! <br><br><font color='#eb4c36'><strong>Varování:</strong></font> Výkon hry může být pomalý u větších měst s rychlostí 3. Varujeme tě!",
 					"default_storage_filter_none": "Vychozí nastavení filtrů skladů na Nic",
 					"default_storage_filter_none_description": "Při vytvoření nového skladiště nebo umístění nové bedny, bude výchozí filtry skladu nastaven na 'Nic' místo 'Vše'.",
 					"default_mining_zones_suspended": "Výchozí nastavení zón kopání bude Přerušeno",
 					"default_mining_zones_suspended_description": "Když vytvoříš novou zónu na kopání, bude od začátku nastavená na Přerušeno a nebude vykopána dokud neklikneš na Pokračovat v Kopání.",
 					"show_hearthling_paths": "Ukázat Trasy Hearthlingů",
 					"show_hearthling_paths_description": "Ukáže trasy po kterých se hearthlingové pohybují.",
-					"max_citizens": "Max. Obyvatel",
+					"max_citizens": "Maximum Obyvatel",
 					"max_citizens_description": "Změň limit maximálního počtu obyvatel, které můžeš mít ve svém městě.<br><br><font color='#eb4c36'><strong>Varování:</strong></font> Pokud máš více než 20 hearthlingů, může docházet k problémům s výkonem, včetně neodpovídající AI/sekání a škubání hry.",
 					"randomize_attributes": "Náhodně Rozdělit Hearthlingovi Vlastnosti ",
 					"randomize_attributes_description": "Pokud je povoleno, hearthlingovi vlastnosti, Rozum, Tělo a Duše, budou přiděleny naprasosto náhodně, místo toho aby byly rozdělené rovnoměrně.",
@@ -1886,7 +1886,7 @@
 				"patch_notes": "Ukázat Poznámky Patche",
 				"alpha_welcome_dialog": {
 					"title": "Vítejte v Stonehearthu!",
-					"message": "Můžete pomoct vylepšit Stonehearth tím, že budete automaticky anonymě odesílat chybová hlášení z vaší hry.",
+					"message": "Můžete pomoct vylepšit Stonehearth tím, že budete automaticky anonymně odesílat chybová hlášení z vaší hry.",
 					"accept": "Ano, chci pomoct!",
 					"cancel": "Ne, díky."
 				},
@@ -1928,9 +1928,9 @@
 				"note": "Povolení nebo zakázání modulu vyžaduje znovunačtení hry",
 				"apply": "Použít",
 				"open_folder": "Otevřít Složku",
-				"quit_to_menu": "Uložit a Vráti se do Menu",
+				"quit_to_menu": "Uložit a Vrátit se do Menu",
 				"base_mod": "Základní Mód",
-				"modding_guide": "Průvodce Módováním (v Aj)",
+				"modding_guide": "Návod k Módování",
 				"sections": {
 					"base_mods": {
 						"title": "Základní Módy"
@@ -1940,7 +1940,7 @@
 						"templates_title": "Tvoje Šablony"
 					},
 					"workshop_mods": {
-						"title": "Odebírané Módy z Workshopu",
+						"title": "Odebírané Módy",
 						"templates_title": "Odebírané Balíčky Šablon",
 						"browse_workshop": "Procházet Steam Workshop",
 						"unsubscribe": "Zrušit Odběr",
@@ -1952,7 +1952,7 @@
 					"my_items": {
 						"title": "Nahrané do Workshopu ",
 						"templates_title": "Nahrané Balíčky Šablon",
-						"create_new_mod": "Vytvořit Nový Mód"
+						"create_new_mod": "Vytvořit Mód"
 					}
 				},
 				"tooltips": {
@@ -1981,7 +1981,7 @@
 				"old_save_note": "Tato hra byla uložena předtím, než byly povolené módy zapsány do uložené hry. Tohle jsou módy, které máš v současnosti povolené.",
 				"warning_dialog": {
 					"title": "Varování",
-					"message": "Hraní s módy které jsou odlišné od těch se kterými byla hra uložena může vést k nečekaným chybám nebo pádům hry. Chceš pokračovat?",
+					"message": "Hraní s módy které jsou odlišné od těch se kterými byla hra uložena, může vést k nečekaným chybám nebo pádům hry. Chceš pokračovat?",
 					"continue": "Pokračovat",
 					"cancel": "Zrušit"
 				},
@@ -2022,7 +2022,7 @@
 				"view_in_workshop": "Zobrazit mód ve workshopu. Poznámka: Pokud se přihlásíš k odběru tohoto módu, musíš restartovat hru, aby si použil změny."
 			},
 			"load_match_mod_order": {
-				"title": "Odlišné Pořadí Módu",
+				"title": "Odlišné Pořadí Módů",
 				"note": "Tato hra byla uložena s módy v jiném pořadí než hra současná.",
 				"old_save_note": "Tato hra byla uložena předtím, než do ní bylo uloženo pořadí módů. Tohle jsou módy, které máš v současnosti povolené, v pořadí.",
 				"saved_order": "Uložené Pořadí",
@@ -2044,7 +2044,7 @@
 			},
 			"mods_sync": {
 				"stop_title": "Chybí Módy",
-				"continue_title": "Připraveno Pokračovat do Hry",
+				"continue_title": "Připraven Pokračovat do Hry",
 				"time_elapsed": {
 					"days": "Herní Čas od Začátku: [str(date.day)] Dní/i, [str(date.hour)] Hodin/y",
 					"months": "Herní Čas od Začátku: [str(date.month)] Měsíců/e, [str(date.day)] Dnů/y, [str(date.hour)] Hodin/y",
@@ -2075,42 +2075,42 @@
 				}
 			},
 			"mod_upload": {
-				"title": "[str(i18n_data.action)] mod \"[str(i18n_data.modname)]\"",
-				"opt_title": "Steam Mod Title",
-				"opt_title_placeholder": "Title for your steam workshop mod",
-				"opt_description": "Steam Mod Description",
-				"opt_description_placeholder": "Description of your mod",
-				"opt_visibility": "Visibility",
-				"opt_tags": "Tags",
-				"opt_tags_placeholder": "e.g. biome, furniture, animals",
-				"opt_tags_tooltip": "Tags must be separated by commas. Each tag can be at most 255 characters.",
-				"opt_tags_invalid": "Tags cannot contain special characters",
+				"title": "[str(i18n_data.action)] mód \"[str(i18n_data.modname)]\"",
+				"opt_title": "Název Módu na Steamu",
+				"opt_title_placeholder": "Název tvého módu ve steam workshopu",
+				"opt_description": "Popis Módu na Steamu",
+				"opt_description_placeholder": "Popis tvého módu",
+				"opt_visibility": "Viditelnost",
+				"opt_tags": "Tagy",
+				"opt_tags_placeholder": "např. biom, vybavení, zvířata",
+				"opt_tags_tooltip": "Tagy musí být oddělené čárkami. Každy tag může být maximálně 255 znaků dlouhý.",
+				"opt_tags_invalid": "Tagy nesmí obsahovat speciální znaky",
 				"opt_preview_image": "Preview Image",
-				"opt_preview_image_choose_file": "Choose File",
-				"opt_preview_image_placeholder": "No file chosen",
-				"opt_preview_image_info": "(1MB limit)",
+				"opt_preview_image_choose_file": "Vybrat Soubor",
+				"opt_preview_image_placeholder": "Žádný soubor nevybrán",
+				"opt_preview_image_info": "(limit 1MB)",
 				"opt_preview_image_dialog_title": "Open preview image file",
 				"opt_building_template_preview_images": "Use building template screenshots as additional preview images",
 				"opt_building_template_preview_images_tooltip": "Add an additional preview image for every template in your building template mod.<br><br><font color='#eb4c36'><strong>Warning:</strong></font> This will overwrite all existing preview images (except the main preview image) for this steam workshop item and replace them with your building template screenshots.",
-				"opt_change_note": "Change Note",
-				"opt_change_note_placeholder": "A brief description of the changes made",
-				"upload": "Upload",
-				"update": "Update",
-				"cancel": "Cancel",
-				"public": "Public",
-				"friends_only": "Friends Only",
-				"private": "Only You",
-				"required": "* required",
-				"optional": "optional",
-				"exceeded_byte_limit": "* exceeded byte limit ([str(byte_limit)])",
-				"debug_mod": "Debug Mod",
-				"localization_mod": "Is this a translation mod?",
-				"building_template_mod": "Is this a building templates mod?",
+				"opt_change_note": "Poznámka ke změnám",
+				"opt_change_note_placeholder": "Stručný popis provedených změn",
+				"upload": "Nahrát",
+				"update": "Aktualizovat",
+				"cancel": "Zrušit",
+				"public": "Veřejné",
+				"friends_only": "Jen pro Přátele",
+				"private": "Skryté",
+				"required": "* vyžadováno",
+				"optional": "volitelné",
+				"exceeded_byte_limit": "* přesahuje limit bytů ([str(byte_limit)])",
+				"debug_mod": "Debugovací Mód",
+				"localization_mod": "Je tohle překladatelský mód?",
+				"building_template_mod": "Je tohle mód stavebních šablon?",
 				"errors": {
-					"steam_not_present": "Steam is not running",
-					"update_handle_invalid": "Could not update mod [str(modname)]. Check that you have permissions to update this steam workshop item.",
-					"invalid_title": "Title cannot be empty or contain more than 129 bytes",
-					"invalid_description": "Description cannot be empty or contain more than 8000 bytes",
+					"steam_not_present": "Není zapnutý Steam",
+					"update_handle_invalid": "Nemohli jsme aktualizovat mód [str(modname)]. Zkontroluj zda máš oprávnění aktualizovat tuto položku steam workshopu.",
+					"invalid_title": "Název nesmí být prázdný, ani nesmí přeshovat 129 bytů",
+					"invalid_description": "Popis nesmí být prádný, ani přeshaovat 8000 bytů",
 					"invalid_content_path": "The directory for the mod [str(modname)] was not found. The directory name must match the mod namespace found in the manifest.",
 					"invalid_param": "Preview image file is smaller than 16 bytes or steam AppID does not match user AppID.",
 					"access_denied": "Could not find your steam license for Stonehearth",
