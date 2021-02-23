@@ -259,8 +259,8 @@
 			"build_workshop": {
 				"title": "Postavit Workshop",
 				"requirements": "Požadavky",
-				"create_stockpile": "Crafterovo Skladiště",
-				"create_stockpile_description": "Do tohoto skladiště bude crafter ukládat výrobky.<p>Pravděpodobně je dobré, umístit ho blízko pracovního stolu, ale to je tvoje rozhodnutí.",
+				"create_stockpile": "Řemeslníkovo Skladiště",
+				"create_stockpile_description": "Do tohoto skladiště bude řemeslník ukládat výrobky.<p>Pravděpodobně je dobré, umístit ho blízko pracovního stolu, ale to je tvoje rozhodnutí.",
 				"page1_subtitle2": "Kliknutím na zem umístíš workshop",
 				"page2_subtitle2": "Kliknutím a tahem po zemi vytvoříš skladiště"
 			},
@@ -1402,7 +1402,7 @@
 				"town_morale": "Spokojenost Města",
 				"initial_town_name": "Expedice [str(town_number)]",
 				"num_workers": "Pracovníci",
-				"num_crafters": "Výrobci",
+				"num_crafters": "Řemeslníci",
 				"num_soldiers": "Bojovníci",
 				"journal": {
 					"default_message": "Zatím žádné zápisy do deníku!",
@@ -1606,8 +1606,8 @@
 				"starting_season": "Počáteční Období",
 				"terrain_stats": {
 					"trees_and_plants_title": "Stromy & Rostliny",
-					"trees_and_plants_description": "Dřevo je základní stavební zdroj. Budeš nějaké potřebovat abys mohl stavět budovy a vytvářet předměty jako postele, stoly a židle.",
-					"wildlife_title": "Divočina",
+					"trees_and_plants_description": "Dřevo je základní stavební zdroj. Budeš nějaké potřebovat abys mohl stavět budovy a vyrábět předměty jako postele, stoly a židle.",
+					"wildlife_title": "Divoká Zvířata",
 					"wildlife_description": "Místní divokou zvěř můžeš lovit, abys získal jídlo nebo surové výrobní materiály.",
 					"minerals_title": "Minerály",
 					"minerals_description": "Jestli plánuješ stavět věci z kamene a kovů, budeš potřebovat minerály ."
@@ -1717,8 +1717,8 @@
 					"auto_loot_description": "Když z nepřítele vypadně kořist, automatiky se označí k vyzvednutí.",
 					"auto_rescue": "Automaticky Zachraňovat",
 					"auto_rescue_description": "Když je obyvatel ochromený, automaticky se nastaví příkaz k Záchraně.",
-					"building_auto_queue_crafters": "Automaticky Přidávat do Fronty Výrobky pro Stavbu",
-					"building_auto_queue_crafters_description": "Když začneš stavět stavbu, všechen nábytek a příslušenství pro danou stavbu se automaticky zařadí do výrobní fronty  příslušných řemeslníků.",
+					"building_auto_queue_crafters": "Automaticky Přidávat Výrobky pro Stavbu do Fronty",
+					"building_auto_queue_crafters_description": "Když začneš stavět stavbu, všechen nábytek a příslušenství pro danou stavbu se automaticky zařadí do výrobní fronty příslušných řemeslníků.",
 					"infinite_inventory": "Vypnout limit velikosti inventáře",
 					"infinite_inventory_description": "Toto nastavení odstraní limit maximálního počtu předmětů, které můžeš mít ve svém městském inventáři.<br><br>Poznámka: Musíš restartovat hru pro provedení změn!<br><br><font color='#eb4c36'><strong>Varování:</strong></font> Vlastnictví velkého počtu předmětů ovlivní výkon hry ."
 				},
@@ -2053,7 +2053,7 @@
 				"game_info": "[str(biomeName)]: [str(biomeLocation)], [str(gameMode)]",
 				"note": "Hra do které se snažíš připojit má následující módy.",
 				"missing_note": "Hra do které se snažíš připojit má následující módy. Aby ses mohl připojit musíš mít ty samé módy a jejich stejnou verzi.",
-				"version_note": "<span class=\"warning\">Varování:</span> Tvoje verze Stonehearthu neodpovídá verzi hry, ke které se snažíš připojit!<br>To ti může bránit v pokusech o připojení, nebo vést k nečekaným chybám během hraní",
+				"version_note": "<span class=\"warning\">Varování:</span> Tvoje verze Stonehearthu se neshoduje s verzí hry, ke které se snažíš připojit!<br>To ti může bránit v pokusech o připojení, nebo vést k nečekaným chybám během hraní",
 				"your_version": "Tvoje verze: [str(version)]",
 				"their_version": "Hostitelská verze: [str(version)]",
 				"continue": "Pokračovat do Hry",
@@ -2061,13 +2061,13 @@
 				"subscribe_all": "Odebírat Vše",
 				"no_steam_cant_sync": "Chybí ti jeden nebo více z výše vypsaných módů. Požádej hostitele aby ti je poslal, nebo se připoj na Steam a zkus je najít ve Steam workshopu.",
 				"not_seen_in_workshop_cant_sync": "Jeden nebo více z chybějících módů je nedostupný ve Steam Workshopu. Možná nejsou nahrané, nebo jsou viditelné pouze pro hostitele. Požádej ho o nahrání nebo změnění oprávnění, pak se zkus připojit znovu.",
-				"mismatched_hash_workshop_cant_sync": "Jeden z tvých Steamových módů neodpovídá verzi, kterou používá hostitelský server. Soubory módu mohli být upraveny nebo hostitel používá neaktualizovanou verzi tohoto módu. Zkus tento mód smazat a pak se znovu přihlásit k jeho odběru, aby jsi získal verzi z Workshopu, nebo řekni hostiteli ať si aktualizuje módy ze Steam Worshopu.",
-				"failed_download_workshop_update_cant_sync": "Jeden nebo více tvých módů neodpovídá verzi, kterou používá hostielský server. Hra nebyla schopná stáhnout z Worshopu update pro některý z těchto módů, protože steam id tohoto módu bylo neplatné nebo jsi odhlášen ze Steamu.",
+				"mismatched_hash_workshop_cant_sync": "Jeden z tvých Steamových módů s neshoduje s verzí, kterou používá hostitelský server. Soubory módu mohli být upraveny nebo hostitel používá neaktualizovanou verzi tohoto módu. Zkus tento mód smazat a pak se znovu přihlásit k jeho odběru, aby jsi získal verzi z Workshopu, nebo řekni hostiteli ať si aktualizuje módy ze Steam Worshopu.",
+				"failed_download_workshop_update_cant_sync": "Jeden nebo více tvých módů se neshodujue s verzí, kterou používá hostielský server. Hra nebyla schopná stáhnout z Worshopu update pro některý z těchto módů, protože steam id tohoto módu bylo neplatné nebo jsi odhlášen ze Steamu.",
 				"cancel": "Zrušit",
 				"private": "Soukromý mód",
 				"non_workshop": "Nenalezen ve Workshopu",
 				"failed_download": "Nemohu stáhnout update",
-				"mismatched_workshop_hash": "Neodpovídá verzi na steamu",
+				"mismatched_workshop_hash": "Neshoduje se s verzí na steamu",
 				"size": {
 					"bytes": "[str(size)] byty",
 					"kilobytes": "[str(size)] KB",
@@ -2107,153 +2107,153 @@
 				"localization_mod": "Je tohle překladatelský mód?",
 				"building_template_mod": "Je tohle mód stavebních šablon?",
 				"errors": {
-					"steam_not_present": "Není zapnutý Steam",
+					"steam_not_present": "Steam neběží",
 					"update_handle_invalid": "Nemohli jsme aktualizovat mód [str(modname)]. Zkontroluj zda máš oprávnění aktualizovat tuto položku steam workshopu.",
 					"invalid_title": "Název nesmí být prázdný, ani nesmí přeshovat 129 bytů",
 					"invalid_description": "Popis nesmí být prádný, ani přeshaovat 8000 bytů",
-					"invalid_content_path": "The directory for the mod [str(modname)] was not found. The directory name must match the mod namespace found in the manifest.",
+					"invalid_content_path": "Nebyl nalezen adresář módu [str(modname)]. Název adresáře se musí shodovat s jmenným prostorem v manifestu.",
 					"invalid_param": "Preview image file is smaller than 16 bytes or steam AppID does not match user AppID.",
-					"access_denied": "Could not find your steam license for Stonehearth",
-					"file_not_found": "Failed to get the workshop info for the item, failed to read the preview file, or provided content folder is not valid. Check that your steam_file_id is a valid workshop item.",
-					"locking_failed": "Failed to aquire UGC Lock for steam workshop item",
-					"limit_exceeded": "The preview image is too large (it must be less than 1 Megabyte) or there is not enough space available on your Steam Cloud",
-					"generic": "Could not update mod [str(modname)] on steam workshop"
+					"access_denied": "Nemohli jsme nalézt tvojí steamovou licenci Stonehearthu",
+					"file_not_found": "Selhalo získávání inforamcí o položce z workhopu, selhalo čtení náhledového souboru, nebo poskytnutá složka s obsahem je neplatná. Zkontroj zda steam id souboru je platná položka workshopu.",
+					"locking_failed": "Selhalo získávání UGC Zámku pro položku steam workshopu.",
+					"limit_exceeded": "Náhledový obrázek je moc velký (musí být menší než 1 Megabyte) nebo není dostatek použitelného místa na tvém Steam Cloudu.",
+					"generic": "Nemohli jsme aktualizovat mód [str(modname)] ve steam workshopu"
 				}
 			},
 			"mod_create": {
-				"title": "Create new Steam Workshop mod",
-				"opt_title": "Mod Title",
-				"opt_title_tooltip": "A title for your mod",
-				"opt_title_placeholder": "e.g. Candy Land",
-				"opt_namespace": "Mod Namespace",
-				"opt_namespace_tooltip": "The namespace for your mod that you will use to prefix alias references in your mod",
-				"opt_namespace_placeholder": "e.g. candy_land",
-				"create": "Create",
-				"cancel": "Cancel",
-				"invalid_characters": "* Cannot contain special characters or spaces",
+				"title": "Vytvořit nový mód ve Steam Workshopu",
+				"opt_title": "Název Módu",
+				"opt_title_tooltip": "Název pro tvůj mód",
+				"opt_title_placeholder": "např. Pivovar a Hospoda",
+				"opt_namespace": "Jmenný Prostor Módu",
+				"opt_namespace_tooltip": "Jmenný prostor tvého módu, který budeš používat jako předponu přezdívek odkazů tvého módu.",
+				"opt_namespace_placeholder": "např. pivovar_a_hospoda",
+				"create": "Vytvořit",
+				"cancel": "Zrušit",
+				"invalid_characters": "* Nesmí obsahovat speciální znaky nebo mezery",
 				"errors": {
-					"steam_not_present": "Steam is not running",
-					"duplicate_namespace": "Your game already has a mod with the namespace [str(modname)]. Please try with another name",
-					"protected_namespace": "[str(modname)] is a protected namespace. Please try with another name.",
-					"missing_fields": "Missing title or namespace",
-					"invalid_directory": "Could not create directory for [str(modname)]",
-					"in_progress": "Could not create mod [str(modname)]. Previous create mod process is still in progress",
-					"insufficient_privilege": "Your steam account does not have permission to make items for the Stonehearth community",
-					"timeout": "The create item operation took longer than expected. Try again",
-					"not_logged_on": "You are not currently logged into steam",
-					"failed": "Steam failed to create the mod"
+					"steam_not_present": "Steam neběží",
+					"duplicate_namespace": "Tvoje hra už má mód s jmenným prostorem [str(modname)]. Prosím, zkus to znovu s jiným jménem.",
+					"protected_namespace": "[str(modname)] je chráněnný jmenný prostor. Prosím, zkus to znovu s jiným jménem.",
+					"missing_fields": "Chybějící název nebo jmenný prostor",
+					"invalid_directory": "Nemohli jsme vytvořit adresář pro [str(modname)]",
+					"in_progress": "Nemohli jsme vytvořit mód [str(modname)]. Předchozí proces vytváření módu stále běží.",
+					"insufficient_privilege": "Tvůj steam účet nemá povolení vytvářet položky pro komunitu Stonehearthu",
+					"timeout": "Operace vytváření položky, trvala déle než byl očekáváno. Zkus to znovu",
+					"not_logged_on": "Aktuálně nejsi přihlášený na steam",
+					"failed": "Steamu se nepodařilo vytvořit mód"
 				}
 			},
 			"edit_template_mod": {
-				"title": "Edit Templates for [str(modname)] mod",
-				"available_templates": "Available Templates",
+				"title": "Upravit Šablony pro [str(modname)] mód",
+				"available_templates": "Dostupné Šablony",
 				"mod_templates": "[str(modname)]",
 				"confirm": {
-					"title": "Save mod templates",
-					"message": "Save changes to your mod template lists? This action cannot be undone."
+					"title": "Uložit šablony módu",
+					"message": "Uložit změny seznamu šablon tohoto módu? Tato akce je nevratná."
 				}
 			},
 			"select_game_story": {
-				"title": "Choose your adventure",
-				"story_start": "This is the story of...",
-				"kingdom_section_start": "...a brave band of settlers from ",
+				"title": "Vyber si své dobrodružství",
+				"story_start": "Tento příběh vypráví o...",
+				"kingdom_section_start": "...odvážné skupince osadníků ",
 				"select_button": "?",
-				"kingdom_picker_title": "Select a Kingdom",
-				"biome_section_start": "Seeking new lands and adventure, they set off to ",
-				"biome_picker_title": "Select a Biome",
-				"game_mode_select_start": ", a location that is sure to be",
-				"game_mode_picker_title": "Select a Difficulty",
-				"biome_favored_label": "(favored)",
+				"kingdom_picker_title": "Vyber Království",
+				"biome_section_start": "Hledajíce nové země a dobrodružství, vyrazili do",
+				"biome_picker_title": "Vyber Biom",
+				"game_mode_select_start": ", oblasti, která určitě bude",
+				"game_mode_picker_title": "Vyber Obtížnost",
+				"biome_favored_label": "(oblíbené)",
 				"game_modes": {
 					"normal": {
-						"display_name": "Normal",
-						"description": "Adventure forth in a world fraught with danger. Your town will be subject to raiding enemies.",
-						"post_selection_text": "an inspiring place to start anew."
+						"display_name": "Normální",
+						"description": "Dobrodružství odehrávající se ve světě plném nebezepčí. Tvé město bude předmětem nájezdů nepřátel.",
+						"post_selection_text": "inspirujícím místem pro nový začátek."
 					},
 					"peaceful": {
-						"display_name": "Peaceful",
-						"description": "A sandbox-mode, where you're free to build your town without worrying about invaders whatsoever.",
-						"post_selection_text": "a tranquil place to start anew."
+						"display_name": "Mírumilovná",
+						"description": "Sandboxový mód, kde si můžeš v klidu stavět svoje město, aniž by ses musel bát jakýchkoliv vetřelců.",
+						"post_selection_text": "pohodovým místem pro nový začátek."
 					},
 					"hard": {
-						"display_name": "Hard",
-						"description": "Face more difficult monsters than normal mode",
-						"post_selection_text": "a daunting place to start anew."
+						"display_name": "Těžká",
+						"description": "Postav se težším nestvůrám, než při normální obtížnosti",
+						"post_selection_text": "znepokojujícím místem pro nový začátek."
 					}
 				},
-				"biome_warning_title": "Beware, Travelers...",
-				"biome_warning_text": "Crafting resources can be hard to find when [str(kingdom)] is not in their preferred biome, the [str(preferred_biome)].<br><br>Do you still want to continue with your current selection?",
-				"begin_button": "Select Roster"
+				"biome_warning_title": "Pozor, Cestovatelé...",
+				"biome_warning_text": "Zdroje pro vyrábění mohou být těžko dostupné, když [str(kingdom)] nesídlí ve svém preferovaném biomu - [str(preferred_biome)].<br><br>Stále chceš pokračovat se svým současným výběrem?",
+				"begin_button": "Vybrat Osadníky"
 			},
 			"select_roster": {
-				"reroll_citizens": "Reroll all Citizens",
-				"reembark_button": "Choose Saved",
-				"delete_crew": "Delete",
-				"delete_crew_confirm_title": "Delete Crew?",
-				"delete_crew_confirm_message": "Are you sure you want to permanently delete the selected re-embarkation crew?",
-				"delete_crew_confirm_yes": "Yes",
-				"delete_crew_confirm_no": "Cancel",
-				"select_crew": "Select",
-				"cancel_crew": "Cancel",
-				"reembark_title": "Choose Saved Citizens",
-				"recipes_label": "Unlocked Recipes",
-				"citizen_info": "Customize your party",
-				"accept_roster": "Accept Roster",
-				"randomize": "Randomize Appearance",
-				"hair_style": "Hair Style",
-				"skin_color": "Skin Color",
-				"facial_hair": "Facial Hair",
-				"hair_color": "Hair Color",
-				"name": "name",
-				"name_and_appearance": "name and appearance",
-				"appearance": "appearance"
+				"reroll_citizens": "Znovu vygenerovat všechny Obyvatele",
+				"reembark_button": "Vybrat Uložené",
+				"delete_crew": "Odstranit",
+				"delete_crew_confirm_title": "Odstranit Partu?",
+				"delete_crew_confirm_message": "Jsi si jistý že chceš trvale odstranit vybranou partu pro znovu-zahájení hry?",
+				"delete_crew_confirm_yes": "Ano",
+				"delete_crew_confirm_no": "Zrušit",
+				"select_crew": "Vybrat",
+				"cancel_crew": "Zrušit",
+				"reembark_title": "Vybrat Uložené Obyvatele",
+				"recipes_label": "Odemčené Recepty",
+				"citizen_info": "Přizpůsob si svojí skupinku",
+				"accept_roster": "Potvrdit Výběr",
+				"randomize": "Náhodný Vzhled",
+				"hair_style": "Styl Účesu",
+				"skin_color": "Barva Kůže",
+				"facial_hair": "Vousy",
+				"hair_color": "Barva Vlasů",
+				"name": "jméno",
+				"name_and_appearance": "jméno a vzhled",
+				"appearance": "vzhled"
 			},
 			"loadout": {
-				"title": "Select starting resources",
-				"start": "Start",
-				"pets_checkbox": "Include a random exotic pet"
+				"title": "Vyber si počáteční zdroje",
+				"start": "Začít",
+				"pets_checkbox": "Zahrnout náhodného exotického mazlíčka"
 			},
 			"template_palette": {
-				"delete_template": "This template file will be deleted"
+				"delete_template": "Tato šablona bude smazána"
 			}
 		},
 		"debug": {
 			"post_bug": {
-				"title": "Filing bugs",
-				"message": "Thanks for playing Stonehearth! Here's how you can file a bug.",
-				"file_bug_step_1": "Go to http://discourse.stonehearth.net/c/support/bug-reports",
-				"file_bug_step_2": "Check the list of active topics, and if your bug hasn't already been reported, create a new topic",
-				"file_bug_step_3": "When filing bugs, please be sure to include all the information requested in the report, and copy the text of all engine errors. Screenshots for visual bugs are also helpful.",
-				"file_bug_step_4": "If you're encountering a crashing bug, please check out http://discourse.stonehearth.net/t/13297 for common solutions, and how to get support for crashes. Below is your unique user id:"
+				"title": "Nahlášení chyb",
+				"message": "Děkujeme, že hraješ Stonehearth! Tady je návod jak nahlásit chybu.",
+				"file_bug_step_1": "Jdi na http://discourse.stonehearth.net/c/support/bug-reports",
+				"file_bug_step_2": "Zkontroluj seznam aktivních témat, a jestli tvoje chyba nebyla ještě nahlášena, založ nové téma. ",
+				"file_bug_step_3": "Při nahlašování chyby, se prosím ujisti, že jsi do hlášení zahrnul všechny vyžadované informace, a zkopíruj text všech chyb enginu. U viditelných chyb pomáhají i snímky obrazovky.",
+				"file_bug_step_4": "Narazíš-li na chybu způsobující pád hry, tak se koukni na http://discourse.stonehearth.net/t/13297 pro běžná řešení, a jak získat podporu pro pády. Níže je tvoje unikátní uživatelské id:"
 			},
 			"error_browser": {
-				"title": "Engine Error",
-				"filename_label": "filename",
-				"close_permanently_button": "Close Permanently",
-				"prev_button": "Prev",
-				"next_button": "Next",
-				"copy_button": "Copy to Clipboard"
+				"title": "Chyba Enginu",
+				"filename_label": "název suboru",
+				"close_permanently_button": "Zavřít Natrvalo",
+				"prev_button": "Předchozí",
+				"next_button": "Další",
+				"copy_button": "Zkopírovat do Schránky"
 			},
 			"error_dialog_js": {
-				"title": "UI Error",
-				"reset_button": "Reload UI",
-				"copy_button": "Copy to Clipboard"
+				"title": "Chyba UI ",
+				"reset_button": "Znovu Načíst UI",
+				"copy_button": "Zkopírovat do Schránky"
 			}
 		},
 		"data": {
 			"tooltips": {
 				"stamina": {
-					"display_name": "Stamina",
-					"description": "This hearthling's physical endurance.",
+					"display_name": "Výdrž",
+					"description": "To je hearthlingova tělesná vytrvalost.",
 					"bullet_points": {
-						"000": "Each point increases max health by 1"
+						"000": "Každý bod zvedá maximální zdraví o 1"
 					}
 				},
 				"inventiveness": {
-					"display_name": "Inventiveness",
-					"description": "How good this hearthling is at creating things. Good inventors are more likely to create fine craftables.",
+					"display_name": "Vynalézavost",
+					"description": "Jak je tento hearthling dobrý ve vytváření věcí. U dobrých tvůrců je větší šance na vytvoření lepších výrobků.",
 					"bullet_points": {
-						"000": "Every 2 points increases chance to craft a fine item by 1%"
+						"000": "Každé 2 body zvyšují možnost na vytvoření lepšího přemětu o 1%"
 					}
 				},
 				"inspiration": {
