@@ -266,13 +266,13 @@
 			},
 			"citizen_character_sheet": {
 				"title": "Info o Postavě",
-				"health": "životy",
+				"health": "Životy",
 				"morale": "spokojenost",
 				"experience": "zkušenosti",
 				"max_level": "Maximální úroveň",
 				"no_levels": "Bez úrovní",
 				"level_text": "Úroveň",
-				"level_abbreviation": "Lvl",
+				"level_abbreviation": "Úrv",
 				"locked_status": "(Zamčeno)",
 				"apprentice": "Učedník",
 				"journeyman": "Tovaryš",
@@ -1429,15 +1429,15 @@
 					"morale_descriptor": {
 						"0": "Mizerná",
 						"1": "Bídná",
-						"2": "Sklíčený",
+						"2": "Sklíčená",
 						"3": "Lhostejná",
 						"4": "Slušná",
 						"5": "Dobrá",
-						"6": "Spokojený",
+						"6": "Spokojená",
 						"7": "Radostná",
 						"8": "Potěšená",
 						"9": "Bujará",
-						"10": "Rozzářený"
+						"10": "Rozzářená"
 					}
 				},
 				"score": {
@@ -1582,7 +1582,7 @@
 					"014": "Dobré předměty mají vyšší hodnotu než jejich normální varianty.",
 					"015": "Hodnota předmětu je jeho prodejní cena.",
 					"016": "Můžeš použít tunelové dveře k zablokování vstupu do tvé důlní chodby.",
-					"017": "Nechceš aby tvoji hearthlingové opustili město? Inženýr může vytvořit uzamykatelné dveře.",
+					"017": "Nechceš aby tvoji hearthlingové opustili město? Technik může vytvořit uzamykatelné dveře.",
 					"018": "Z osadníků s vysokým Rozumem budou dobří řemeslníci.",
 					"019": "Umísti skaldiště na jídlo blízko pracovišť, aby bylo jídlo pro tovje hearthlingy snáze dostupné.",
 					"020": "Traperové mohou nastražit pasti v horách a poušti, ale v těchto oblastech je méně živočichů.",
@@ -1712,7 +1712,7 @@
 					"max_citizens": "Maximum Obyvatel",
 					"max_citizens_description": "Změň limit maximálního počtu obyvatel, které můžeš mít ve svém městě.<br><br><font color='#eb4c36'><strong>Varování:</strong></font> Pokud máš více než 20 hearthlingů, může docházet k problémům s výkonem, včetně neodpovídající AI/sekání a škubání hry.",
 					"randomize_attributes": "Náhodně Rozdělit Hearthlingovi Vlastnosti ",
-					"randomize_attributes_description": "Pokud je povoleno, hearthlingovi vlastnosti, Rozum, Tělo a Duše, budou přiděleny naprasosto náhodně, místo toho aby byly rozdělené rovnoměrně.",
+					"randomize_attributes_description": "Pokud je povoleno, hearthlingovi vlastnosti - Rozum, Tělo a Duše - budou přiděleny naprasosto náhodně, místo toho aby byly rozdělené rovnoměrně.",
 					"auto_loot": "Automaticky Sebrat Kořist",
 					"auto_loot_description": "Když z nepřítele vypadně kořist, automatiky se označí k vyzvednutí.",
 					"auto_rescue": "Automaticky Zachraňovat",
@@ -1836,7 +1836,7 @@
 						"craft_cook": "Kuchařovo Menu",
 						"craft_potter": "Hrnčírovo Menu",
 						"craft_herbalist": "Bylinkářovo Menu",
-						"craft_engineer": "Inženýrovo Menu",
+						"craft_engineer": "Technikovo Menu",
 						"craft_geomancer": "Geomancerovo Menu",
 						"fight_menu": "Bojové Menu",
 						"fight_alert": "Městská Pohotovost",
@@ -2085,13 +2085,13 @@
 				"opt_tags_placeholder": "např. biom, vybavení, zvířata",
 				"opt_tags_tooltip": "Tagy musí být oddělené čárkami. Každy tag může být maximálně 255 znaků dlouhý.",
 				"opt_tags_invalid": "Tagy nesmí obsahovat speciální znaky",
-				"opt_preview_image": "Preview Image",
+				"opt_preview_image": "Náhledový Obrázek",
 				"opt_preview_image_choose_file": "Vybrat Soubor",
 				"opt_preview_image_placeholder": "Žádný soubor nevybrán",
 				"opt_preview_image_info": "(limit 1MB)",
-				"opt_preview_image_dialog_title": "Open preview image file",
-				"opt_building_template_preview_images": "Use building template screenshots as additional preview images",
-				"opt_building_template_preview_images_tooltip": "Add an additional preview image for every template in your building template mod.<br><br><font color='#eb4c36'><strong>Warning:</strong></font> This will overwrite all existing preview images (except the main preview image) for this steam workshop item and replace them with your building template screenshots.",
+				"opt_preview_image_dialog_title": "Otevřít soubor náhledového obrázku",
+				"opt_building_template_preview_images": "Použít snímky stavebních šablon jako další náhledové obrázky",
+				"opt_building_template_preview_images_tooltip": "Přidat další náhledový obrázek pro každou šablonu ve tvém módu stavebních šablon.<br><br><font color='#eb4c36'><strong>Varování:</strong></font> Tímto přepíšeš všechny existující náhledové obrázky (kromě hlavního obrázku) této položky steam workshopu a nahradíš je snímky stavebních šablon.",
 				"opt_change_note": "Poznámka ke změnám",
 				"opt_change_note_placeholder": "Stručný popis provedených změn",
 				"upload": "Nahrát",
@@ -2112,7 +2112,7 @@
 					"invalid_title": "Název nesmí být prázdný, ani nesmí přeshovat 129 bytů",
 					"invalid_description": "Popis nesmí být prádný, ani přeshaovat 8000 bytů",
 					"invalid_content_path": "Nebyl nalezen adresář módu [str(modname)]. Název adresáře se musí shodovat s jmenným prostorem v manifestu.",
-					"invalid_param": "Preview image file is smaller than 16 bytes or steam AppID does not match user AppID.",
+					"invalid_param": "Náhledový obrázek je menší než 16 bytů nebo steam AppID nesouhlasí s uživatelským AppID.",
 					"access_denied": "Nemohli jsme nalézt tvojí steamovou licenci Stonehearthu",
 					"file_not_found": "Selhalo získávání inforamcí o položce z workhopu, selhalo čtení náhledového souboru, nebo poskytnutá složka s obsahem je neplatná. Zkontroj zda steam id souboru je platná položka workshopu.",
 					"locking_failed": "Selhalo získávání UGC Zámku pro položku steam workshopu.",
@@ -2257,203 +2257,203 @@
 					}
 				},
 				"inspiration": {
-					"display_name": "Inspiration",
-					"description": "A flat modifier to this hearthing's chance to create items with Fine and Excellent quality.",
+					"display_name": "Inspirace",
+					"description": "Jemný modifikátor možnosti tohoto hearthlinga na vytváření předmětů Dobré nebo Výborné kvality.",
 					"bullet_points": {
-						"000": "A hearthling must be at least a Journeyman to create Fine quality items, and a Master to create Excellent items</br>",
-						"001": "Is based on the hearthling's Spirit"
+						"000": "Hearthling musí být alespoň Tovaryš aby mohl vytvářet předměty Dobré kvality, a Mistr aby mohl vytvořit Výborné předměty</br>",
+						"001": "Je založena na herthlingových Duševních vlastnostech."
 					}
 				},
 				"shelter": {
-					"display_name": "Shelter",
-					"description": "Make sure your hearthlings have a comfortable bed to sleep in.",
-					"town_description": "How your citizens feel about their lodging situation. Are there beds to sleep in?"
+					"display_name": "Přístřeší",
+					"description": "Ujisti se, že tvoji heathlingové mají pohodlnou postel na spaní.",
+					"town_description": "Jak tvoji obyvatelé hodnotí stav ubytování. Jsou zde postele ke spaní?"
 				},
 				"compassion": {
-					"display_name": "Compassion",
-					"description": "How likely this hearthling will help out a fellow villager or befriend others.",
+					"display_name": "Soucit",
+					"description": "Jak je pravděpodobné, že tento hearthling pomůže ostatním obyvatelům nebo se s nimi skamarádí.",
 					"bullet_points": {
-						"000": "Determines maximum trapper pet count",
-						"001": "Increases shepherd animal happiness",
-						"002": "Every 10 points increases direct healing amount by 1"
+						"000": "Určuje maximální počet traperových mazlíčků",
+						"001": "Zvyšuje radost zvířat na pastvinách",
+						"002": "Každých 10 bodů zvyšuje přímý počet vyléčených životů o 1"
 					}
 				},
 				"food": {
-					"display_name": "Food",
-					"description": "Make sure foods of different variety and quality are available. Cooked foods are more liked than raw foods.",
-					"town_description": "How your citizens feel about the town's food situation. Is there enough to eat? Try to obtain a variety of foods!"
+					"display_name": "Jídlo",
+					"description": "Ujisti se, že máš dostupná jídla různých druhů a kvality. Uvařené jídle je oblibenější než jídlo syrové.",
+					"town_description": "Jak tvoji obyvatelé hodnotí stav zásob jídla. Je zde dostatek jídla? Zkus získat různé druhy jídel!"
 				},
 				"diligence": {
-					"display_name": "Diligence",
-					"description": "How long this hearthling can work before needing rest.",
+					"display_name": "Píle",
+					"description": "Jak dlouho tento hearthling může pracovat předtím než si bude potřebovat odpočinout.",
 					"bullet_points": {
-						"000": "Determines sleep duration",
-						"001": "Determines Engineer repair speed"
+						"000": "Určuje délku spánku",
+						"001": "Určuje Technikovu rychlost opravování "
 					}
 				},
 				"willpower": {
-					"display_name": "Willpower",
-					"description": "How likely this hearthling is to resist enemy charms.",
+					"display_name": "Vůle",
+					"description": "Jaká je pravděpodobnost, že tento hearthling odolá vábením nepřátel.",
 					"bullet_points": {
-						"000": "Determines health regeneration"
+						"000": "Určuje regenearci zdraví"
 					}
 				},
 				"net_worth": {
-					"display_name": "Net Worth",
-					"description": "A reflection of the prosperity of your town. Buildings, inventory, and agriculture combine to form this score."
+					"display_name": "Celkové Jmění",
+					"description": "Odraz rozkvětu tvého města. Stavby, majetek, a zemědělství dohromady tvoří toto skóre."
 				},
 				"courage": {
-					"display_name": "Courage",
-					"description": "How brave this hearthling is in the face of combat.",
+					"display_name": "Odvaha",
+					"description": "Jak statečný je tento hearthling tváří v tvář boji.",
 					"bullet_points": {
-						"000": "Determines chance to flee in combat"
+						"000": "Určuje šanci na útěk z boje."
 					}
 				},
 				"muscle": {
-					"display_name": "Muscle",
-					"description": "This hearthling's brawn.",
+					"display_name": "Síla",
+					"description": "Síla tohoto hearthlinga.",
 					"bullet_points": {
-						"000": "Every 10 muscle increases weapon damage by 1"
+						"000": "Každých 10 bodů síly zvyšuje zranění zbraně o 1"
 					}
 				},
 				"happiness": {
-					"display_name": "Overall Morale",
-					"description": "This hearthling's overall happiness",
-					"town_description": "How happy your citizens are overall."
+					"display_name": "Celková Spokojenost",
+					"description": "Herthlingova celková spokojenost",
+					"town_description": "Jak šťastní jsou celkově tvoji obyvatelé."
 				},
 				"speed": {
-					"display_name": "Speed",
-					"description": "How fast this hearthling moves."
+					"display_name": "Rychlost",
+					"description": "Jak rychle se tento hearthling pohybuje."
 				},
 				"body": {
-					"display_name": "Body",
-					"description": "Competence at physical activities.</br></br>Hearthlings with a high Body stat will move a bit faster, attack harder, and live longer.</br></br>Influences Muscle, Speed, Stamina."
+					"display_name": "Tělo",
+					"description": "Schopnosti při fyzických aktivitách.</br></br>Hearthling s vysokým hodnocením Těla se bude pohybovat rychleji, útočit silněji a žít déle.</br></br>Ovlivňuje Sílu, Rychlost a Výdrž."
 				},
 				"edibles": {
-					"display_name": "Edibles",
-					"description": "The gold value of all the food in the town's inventory.",
-					"town_description": "The gold value of all the food in the town's inventory"
+					"display_name": "Poživatiny",
+					"description": "Hodnota všeho jídla v inventáři města ve zlatých.",
+					"town_description": "Hodnota všeho jídla v inventáři města ve zlatých"
 				},
 				"mind": {
-					"display_name": "Mind",
-					"description": "The ability to think intelligently.</br></br>A high Mind stat allows a hearthling to quickly grasp mental activities such as crafting, and keep their head clear.</br></br>Influences Diligence, Curiosity."
+					"display_name": "Rozum",
+					"description": "Schopnost myslet rozumně.</br></br>Vyšší Rozum umožní hearthlingovi rychle ovládnout rozumové aktivity jako vyrábění, a přitom jim zůstane čistá hlava.</br></br>Ovlivňuje Píli a Zvědavost."
 				},
 				"curiosity": {
-					"display_name": "Curiosity",
-					"description": "How much this hearthling enjoys new experiences.",
+					"display_name": "Zvědavost",
+					"description": "Jak moc rád tento hearthling získává nové zkušenosti.",
 					"bullet_points": {
-						"000": "Every 10 curiosity increases bonus experience earned by 1"
+						"000": "Každých 10 bodů zvědavosti zvyšuje bonus získaných zkušeností o 1"
 					}
 				},
 				"spirit": {
-					"display_name": "Spirit",
-					"description": "Faith in other people and themselves.</br></br>A high Spirit hearthling will easily befriend animals, stand strong against enemies, and craft exceptional things more often.</br></br>Influences Courage, Willpower, Compassion, Inspiration."
+					"display_name": "Duše",
+					"description": "Důvěra v osatní lidi i sebe sama.</br></br>Hearthling s vysokým hodnocením Duše se snado skamarádí se zvířaty, nebude se bát nepřátel, a bude častěji vytvářet výjimečné věci</br></br>Ovlivňuje Odvahu, Vůli, Soucit a Inspiraci."
 				},
 				"safety": {
-					"display_name": "Safety",
-					"description": "Protect your town from raiders and make your citizens feel safe by assigning guards.",
-					"town_description": "How your citizens feel about the town's security. Is the town well protected or getting pillaged by goblins?"
+					"display_name": "Bezpečí",
+					"description": "Ochraňuj svoje město před nájezdníky a zařid aby se tvoji obyvatelé cítili bezpečně stanovením stráží.",
+					"town_description": "Jak tvoji obyvatelé hodnoti bezpečnost města. Je dobře chráněné nebo ho plundrují golbini?"
 				},
 				"inventory": {
-					"display_name": "Inventory",
-					"description": "The gold value of all non-Resource and non-Edible items in the town inventory."
+					"display_name": "Inventář",
+					"description": "Hodnota všech předmětů z inventáře města, které nejsou zdroje a jsou nejedlé, ve zlatých."
 				},
 				"buildings": {
-					"display_name": "Buildings",
-					"description": "The value of all the buildings constructed your town. Large buildings will have slightly higher score contributions than small ones."
+					"display_name": "Stavby",
+					"description": "Hodnota všech postavených staveb ve městě. Velké stavby přispívají ke skóre o něco více než stavby malé."
 				},
 				"agriculture": {
-					"display_name": "Agriculture",
-					"description": "The value of farming fields and pastures in your town. Each planted crop and each pasture animal contributes to the score."
+					"display_name": "Zemědělství",
+					"description": "Hodnota farmářských polí a pastvin ve tvém městě. Každá zasazená plodina a každé zvíře na pasvině přispívá k tomuto skóre."
 				},
 				"military_strength": {
-					"display_name": "Military Strength",
-					"description": "A value that reflects how strong your town is militarily. Combat units and equipped weapons and armor contribute to this score."
+					"display_name": "Vojenská Síla",
+					"description": "Hodnota, která odráží vojesnkou sílu tvého města. Bojové jednotky a vybavené zbraně a brnění příspívají k tomuto skóre."
 				},
 				"content": {
-					"display_name": "Content",
-					"town_description": "Your citizens are generally satisfied with how things are.",
-					"description": "Nothing good, nothing bad."
+					"display_name": "Spokojenost",
+					"town_description": "Tvoji obyvatelé jsou celkem spokojeni se stavem věcí.",
+					"description": "Nic dobrého, nic špatného."
 				},
 				"jubilant": {
 					"display_name": "Jubilant",
-					"town_description": "Your citizens are incredibly happy living here!",
-					"description": "Movement speed is increased by 10%."
+					"town_description": "Tvoji obyvatelé jsou neuvěřitelně šťastní, že zde žijí!",
+					"description": "Rychlost pohybu je zvýšena o 10%."
 				},
 				"forlorn": {
 					"display_name": "Forlorn",
-					"town_description": "Your citizens have been having an really hard time lately.",
-					"description": "Movement speed is reduced by 10%."
+					"town_description": "Tvoji obyvtelé prošli velkými problemi a těžkostmi a není jim právě do zpěvu.",
+					"description": "Rychlost pohybu je snížena o 10%."
 				},
 				"merry": {
 					"display_name": "Merry",
-					"town_description": "Your citizens are pretty happy on the whole.",
-					"description": "Movement speed is increased by 5%."
+					"town_description": "Tvojí obyvatelé jsou celkově docela šťastní.",
+					"description": "Rychlost pohybu je zvýšena o 5%."
 				},
 				"glum": {
 					"display_name": "Glum",
-					"town_description": "Your citizens aren't feeling great, overall.",
-					"description": "Movement speed is reduced by 5%."
+					"town_description": "Tvoji obyvatelé se celkově necítí dobře.",
+					"description": "Rychlost pohybu je snížena o 5%."
 				},
 				"exp_bar": {
-					"description": "This hearthling's progress to next level."
+					"description": "Hearthlingův postup na další úroveň."
 				},
 				"health_status": {
-					"description": "This hearthling's current health status."
+					"description": "Hearthlingů současný stav zdraví."
 				},
 				"suspend_button": {
-					"description": "Pause or resume a work type."
+					"description": "Pozastavit nebo znovu spustit typ práce."
 				},
 				"customization_lock": {
-					"description": "This hearthling's [str(customization)] will be saved during trait and stat rerolls."
+					"description": "Herthlingův [str(customization)] zůstane stejný během nového generování rysů a vlastností."
 				},
 				"customization_lock_all": {
-					"description": "Click to lock all name and appearance options."
+					"description": "Klikni pro uzamčení všech nastavení jména a vzhledu."
 				},
 				"customization_unlock_all": {
-					"description": "Click to unlock all name and appearance options."
+					"description": "Klikni pro odemčení všech nastavení jména a vzhledu."
 				},
 				"working_for": {
-					"description": "Which town this citizen is currently working for"
+					"description": "Pro které město tento obyvatel právě pracuje"
 				}
 			},
 			"constants": {
-				"food_meat_raw_name": "Raw Meat",
-				"food_veggie_raw_name": "Raw Vegetable",
-				"food_bug_meat_raw_name": "Raw Bug Meat",
-				"stone_resource_name": "Stone",
-				"pelt_resource_name": "Fur Pelt",
-				"cloth_resource_name": "Bolt of Cloth",
-				"wood_resource_name": "Wood Log",
-				"clay_resource_name": "Mound of Clay",
-				"clay_brick_resource_name": "Clay Bricks",
-				"thread_resource_name": "Thread",
-				"leather_resource_name": "Bolt of Leather",
-				"fiber_resource_name": "Bundle of Fiber",
-				"ingot_resource_name": "Metal Ingot",
-				"herb_resource_name": "Herb",
-				"seed_resource_name": "Seed",
-				"seed_hard_resource_name": "Hard Seed",
-				"seed_fruit_resource_name": "Fruit Seed",
-				"food_container_resource_name": "Food",
-				"prepared_food_resource_name": "Prepared Food",
-				"prepared_dessert_resource_name": "Prepared Dessert",
+				"food_meat_raw_name": "Syrové Maso",
+				"food_veggie_raw_name": "Syrová Zelenina",
+				"food_bug_meat_raw_name": "Syrové Hmyzí Maso",
+				"stone_resource_name": "Kámen",
+				"pelt_resource_name": "Kožešina",
+				"cloth_resource_name": "Štůček Látky",
+				"wood_resource_name": "Dřevěné Poleno",
+				"clay_resource_name": "Hromádka Hlíny",
+				"clay_brick_resource_name": "Hliněné Cihly",
+				"thread_resource_name": "Příze",
+				"leather_resource_name": "Štůček Kůže",
+				"fiber_resource_name": "Svazek Vláken",
+				"ingot_resource_name": "Kovový Ingot",
+				"herb_resource_name": "Bylina",
+				"seed_resource_name": "Semeno",
+				"seed_hard_resource_name": "Tvrdé Semeno",
+				"seed_fruit_resource_name": "Ovocné Semeno",
+				"food_container_resource_name": "Jídlo",
+				"prepared_food_resource_name": "Připravené Jídlo",
+				"prepared_dessert_resource_name": "Připravený Dezert",
 				"earth_essence_resource": "Hearth Essence",
-				"feather_resource": "Feathers",
-				"gear_resource_name": "Gear",
-				"ore_resource_name": "Ore",
-				"dirt_resource_name": "Pile of Dirt"
+				"feather_resource": "Peří",
+				"gear_resource_name": "Vybavení",
+				"ore_resource_name": "Rudy",
+				"dirt_resource_name": "Hromada Zeminy"
 			}
 		}
 	},
 	"data": {
 		"population": {
 			"ascendancy": {
-				"display_name": "The Ascendancy",
+				"display_name": "Vznešení",
 				"quote": "Sheep? Check. Hoe? Check. Swords? Check. Embark!",
 				"description": "Earnest and hardworking, loyal and well-rounded. Citizens of the Ascendancy chop, build and farm, confident that the known world is theirs to inhabit.<div style='text-shadow: -2px -2px 0px #000000, 0px -2px 0px #000000, 2px -2px 0px #000000, -2px 0px 0px #000000, 2px 0px 0px #000000, -2px 2px 0px #000000, 0px 2px 0px #000000, 2px 2px 0px #000000;font-size: 15px;font-weight: bold;margin-top: 6px;'>Ideal for new players.</div>",
 				"post_selection_description": ", a prosperous and industrious kingdom.",
-				"initial_town_name": "Expedition [str(town_number)]"
+				"initial_town_name": "Výprava [str(town_number)]"
 			}
 		},
 		"biome": {
