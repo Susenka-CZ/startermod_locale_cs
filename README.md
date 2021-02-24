@@ -2,7 +2,7 @@
 # :czech_republic: Český překlad hry Stonehearth :czech_republic:
 
 #### :uk: For English speaking people: :uk:
-This is repository for Czech translation of game called Stonehearth. If you want to know more about it write me on discord (Susenka#0833) <br/>
+This is repository for Czech translation of game called Stonehearth. If you want to know more about it send me message on discord (Susenka#0833) <br/>
 
 ## :czech_republic: Pro Čechy (Případně Slováky)
 V tomhle repozitáři se nachází český překlad hry stonehearth včetně implementace různých fontů, tak aby podporovaly české znaky.
