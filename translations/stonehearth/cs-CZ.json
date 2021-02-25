@@ -217,7 +217,7 @@
 				"display_name": "Menu Hry Více Hráčů",
 				"description": "Ostatní hráči, kteří se připojili do této hry",
 				"host": "hostitel",
-				"client": "návštěvník",
+				"client": "klient",
 				"online": "online",
 				"offline": "offline",
 				"connecting": "připojování",
@@ -393,7 +393,7 @@
 				"open_game_to_multiplayer": "Otevřít hru pro více hračů",
 				"allow_remote_connections": "Povolit Hru Více Hráčů",
 				"allow_remote_connections_description": "Povolit jiným hráčům připojit se ke hře",
-				"game_speed_anarchy": "Povolit Ovládání Rychlosti Hry Návštěvníky",
+				"game_speed_anarchy": "Povolit Ovládání Rychlosti Hry Klienty",
 				"game_speed_anarchy_description": "Povolit ostatním hráčům ovládat rychlost hry",
 				"start": "Začít",
 				"settings": "Nastavení Hry Více Hráčů",
@@ -948,7 +948,7 @@
 						"earned": "Zlaté vydělané obchodováním"
 					},
 					"net_worth_label": "Celkové jmění",
-					"placed_item_label": "[str(itemName)] placed",
+					"placed_item_label": "Předmět [str(itemName)] umístěn",
 					"quality_label": {
 						"quality_2": "Vlastněné předměty dobré kvality",
 						"quality_3": "Vlastněné předměty vynikající kvality",
@@ -2450,68 +2450,68 @@
 		"population": {
 			"ascendancy": {
 				"display_name": "Vznešení",
-				"quote": "Sheep? Check. Hoe? Check. Swords? Check. Embark!",
-				"description": "Earnest and hardworking, loyal and well-rounded. Citizens of the Ascendancy chop, build and farm, confident that the known world is theirs to inhabit.<div style='text-shadow: -2px -2px 0px #000000, 0px -2px 0px #000000, 2px -2px 0px #000000, -2px 0px 0px #000000, 2px 0px 0px #000000, -2px 2px 0px #000000, 0px 2px 0px #000000, 2px 2px 0px #000000;font-size: 15px;font-weight: bold;margin-top: 6px;'>Ideal for new players.</div>",
-				"post_selection_description": ", a prosperous and industrious kingdom.",
+				"quote": "Ovci? Máme. Motyku? Máme. Meče? Máme. Vyrážíme!",
+				"description": "Svědomití a pracovití, věrní a všeumělové. Obyvatelé Vznešeného Království kácí, staví a farmaří, s pevnou vírou, že celý známý svět je tu pro ně k osídlení.<div style='text-shadow: -2px -2px 0px #000000, 0px -2px 0px #000000, 2px -2px 0px #000000, -2px 0px 0px #000000, 2px 0px 0px #000000, -2px 2px 0px #000000, 0px 2px 0px #000000, 2px 2px 0px #000000;font-size: 15px;font-weight: bold;margin-top: 6px;'>Ideal for new players.</div>",
+				"post_selection_description": ", vzkvétající a pracovité království .",
 				"initial_town_name": "Výprava [str(town_number)]"
 			}
 		},
 		"biome": {
 			"temperate": {
-				"display_name": "Temperate",
-				"description": "Forests, rivers and mountains. Default home of the Ascendancy.",
+				"display_name": "Mírný",
+				"description": "Lesy, řeky a kopce. Standartní domov Vznešeného Království.",
 				"random_location_names": {
-					"000": "Darkmoor Forest"
+					"000": "Ponurého Lesa"
 				},
 				"seasons": {
 					"spring": {
-						"display_name": "Spring",
-						"description": "Spring in the Forest is a season of rebirth, lasting three months. Rains melt the snows, revealing new growth hidden underneath, and trees come back to life covered with colorful blossoms."
+						"display_name": "Jaro",
+						"description": "Jaro v Lese je období znozrození, travající tři měsíce. Deště rozpouštějí sníh, a odhlaují nový porost schovaný pod ním a stromy znovu přicházejí k životu pokryté  množstvím barevných květů. "
 					},
 					"summer": {
-						"display_name": "Summer",
-						"description": "Summer in the Forest is the mildest season, lasting three months. It is a time to relax and bask in the sun, without worrying about storms or snow."
+						"display_name": "Léto",
+						"description": "Léto je v Lese nejvlídnější období, travající tři měsíce. Je to čas relaxování a vyhřívání se na slunci, bez thoo abyste se museli bát bouřek a sněhu."
 					},
 					"autumn": {
-						"display_name": "Autumn",
-						"description": "Autumn in the Forest is the harvest season, lasting three months. The trees turn to gold, and the grass prepares to retreat into its winter blanket, as the skies darken with storm clouds."
+						"display_name": "Podzim",
+						"description": "Podzim v Lese je obdbí sklizně, trvající tři měsícr. Listí stromů žloutne, tráva se připravuje na uložení pod sněhovou pokrývkou, zatímco nebe se zatahuje s příchodem bouřkových mraků."
 					},
 					"winter": {
-						"display_name": "Winter",
-						"description": "Winter in the Forest is a cold season, lasting three months. Trees lose their leaves, and snow covers the landscape. The cold, biting winds are best countered by cozy gatherings around the hearth."
+						"display_name": "Zima",
+						"description": "Zima v Lese je období chladu, travající tři měsíce. Stromům opadá listí a sníh pokryje celou krajinu. Chladným a štiplavým větrům se nejlépe vzdoruje útulnými schromážděními kolem hearthu."
 					}
 				}
 			},
 			"arctic": {
-				"display_name": "Arctic",
-				"description": "Snowy, with tall mountains and large water bodies. Default home of the Northern Alliance.",
+				"display_name": "Arktický",
+				"description": "Zasněžený, s vysokými horami a velkými vodními plochami. Domov Severské Aliance.",
 				"random_location_names": {
-					"000": "Valkyrie Tundra"
+					"000": "Valkýrská Tundra"
 				},
 				"seasons": {
 					"spring": {
-						"display_name": "Spring",
-						"description": "Spring in the Arctic is a season of change, only lasting one month. While the highlands retain their snow cover year-round, the lowlands around the lakes start to thaw out and young grass begins to sprout."
+						"display_name": "Jaro",
+						"description": "Jaro v Arktické oblasti je období změn, travající pouze jeden měsíc. Zatímco vrchoviny si zachovávají sněhou pokrývku po celý rok, v nížinách kolem jezer začíná roztávat a zační rašit mladá tráva."
 					},
 					"summer": {
-						"display_name": "Summer",
-						"description": "Summer in the Arctic is a season of rest, lasting three months. The weather is mild, and the lowlands are green with grass. It is a reprieve from the cold, and a time to regather strength for the long winter to come."
+						"display_name": "Léto",
+						"description": "Leto v Arktické oblasti je období odpočinku, trvající tři měsíce. Počasí je mírné a nížiny se zelenají trávou. Je to úleva od chladu a také čas na nabrání sil na dlouhou zimu, která přijde."
 					},
 					"autumn": {
-						"display_name": "Autumn",
-						"description": "Autumn in the Arctic is a season of freeze, only lasting one month. Although blizzards are rare, snow is a daily occurrence. It is the last chance to build shelter before the unforgiving winter arrives."
+						"display_name": "Podzim",
+						"description": "Podzim v Arktické oblasti je období mrazů, travající pouze jeden měsíc. Přestože vánice jsou vzácné, sníh se objevuje denně. Je to poslední možnost pro vybudování přístřeší předtím než přijde nemilosrdná zima."
 					},
 					"winter": {
-						"display_name": "Winter",
-						"description": "Winter in the Arctic is a season of hardship, lasting seven months. Weather is severe, with biting winds and unforgiving blizzards making farming exceedingly difficult. Even venturing outside without a winter outfit can end tragically."
+						"display_name": "Zima",
+						"description": "Zima v Arktické oblasti je období strastí, trvající sedm měsíců. Drsné počasí, s štiplavými větry a nemilosrdnými vánicemi, dělá farmaření nesmírně obtížné. Už i pohyb venku bez zimního oblečení může skončit tragicky."
 					}
 				}
 			},
 			"desert": {
-				"display_name": "Desert",
-				"description": "Dry and sandy, with chunky hills and sparse vegetation. Default home of Rayya's Children.",
+				"display_name": "Poušť",
+				"description": "Suchá a písčitá, se stolovými horami a roztroušenou vegetací. Tady jsou Raijiny Děti doma.",
 				"random_location_names": {
-					"000": "The Desert of Pal'Mum"
+					"000": "Pal'Mumova poušť"
 				},
 				"seasons": {
 					"spring": {
