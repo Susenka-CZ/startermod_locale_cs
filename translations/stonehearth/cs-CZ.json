@@ -221,7 +221,7 @@
 				"online": "online",
 				"offline": "offline",
 				"connecting": "připojování",
-				"embarking": "začínání",
+				"embarking": "zakládání",
 				"invite": "Pozvat",
 				"player": "Hráč",
 				"players": "Hráči",
@@ -2190,7 +2190,7 @@
 				"reembark_button": "Vybrat Uložené",
 				"delete_crew": "Odstranit",
 				"delete_crew_confirm_title": "Odstranit Partu?",
-				"delete_crew_confirm_message": "Jsi si jistý že chceš trvale odstranit vybranou partu pro znovu-zahájení hry?",
+				"delete_crew_confirm_message": "Jsi si jistý že chceš trvale odstranit vybranou partu pro založení nového města?",
 				"delete_crew_confirm_yes": "Ano",
 				"delete_crew_confirm_no": "Zrušit",
 				"select_crew": "Vybrat",
@@ -2466,11 +2466,11 @@
 				"seasons": {
 					"spring": {
 						"display_name": "Jaro",
-						"description": "Jaro v Lese je období znozrození, travající tři měsíce. Deště rozpouštějí sníh, a odhlaují nový porost schovaný pod ním a stromy znovu přicházejí k životu pokryté  množstvím barevných květů. "
+						"description": "Jaro v Lese je období znozrození, travající tři měsíce. Deště rozpouštějí sníh, a odhlaují nový porost schovaný pod ním a stromy znovu přicházejí k životu, pokryté množstvím barevných květů. "
 					},
 					"summer": {
 						"display_name": "Léto",
-						"description": "Léto je v Lese nejvlídnější období, travající tři měsíce. Je to čas relaxování a vyhřívání se na slunci, bez thoo abyste se museli bát bouřek a sněhu."
+						"description": "Léto je v Lese nejvlídnější období, travající tři měsíce. Je to čas relaxace a vyhřívání se na slunci, bez thoo abyste se museli bát bouřek a sněhu."
 					},
 					"autumn": {
 						"display_name": "Podzim",
@@ -2495,7 +2495,7 @@
 					},
 					"summer": {
 						"display_name": "Léto",
-						"description": "Leto v Arktické oblasti je období odpočinku, trvající tři měsíce. Počasí je mírné a nížiny se zelenají trávou. Je to úleva od chladu a také čas na nabrání sil na dlouhou zimu, která přijde."
+						"description": "Léto v Arktické oblasti je období odpočinku, trvající tři měsíce. Klima je mírné a nížiny se zelenají trávou. Je to úleva od chladu a také čas na nabrání sil na dlouhou zimu, která přijde."
 					},
 					"autumn": {
 						"display_name": "Podzim",
@@ -2503,7 +2503,7 @@
 					},
 					"winter": {
 						"display_name": "Zima",
-						"description": "Zima v Arktické oblasti je období strastí, trvající sedm měsíců. Drsné počasí, s štiplavými větry a nemilosrdnými vánicemi, dělá farmaření nesmírně obtížné. Už i pohyb venku bez zimního oblečení může skončit tragicky."
+						"description": "Zima v Arktické oblasti je období strastí, trvající sedm měsíců. Drsné klima, s štiplavými větry a nemilosrdnými vánicemi, dělá farmaření nesmírně obtížné. Už i pohyb venku bez zimního oblečení může skončit tragicky."
 					}
 				}
 			},
@@ -2515,29 +2515,29 @@
 				},
 				"seasons": {
 					"spring": {
-						"display_name": "Spring",
-						"description": "Spring in the Desert is the wet season, lasting two months. It is a rare time for the water reserves to be replenished, leading the local flora to all bloom at once."
+						"display_name": "Jaro",
+						"description": "Jaro v Poušti je období dešťů, trvající dva měsíce. Je to vzácná příležitost pro doplnění rezervních zásob vody, vedoucí k rozkvětu celé místní flóry najednou."
 					},
 					"summer": {
-						"display_name": "Summer",
-						"description": "Summer in the Desert is the storm season, lasting four months. Sandstorms ravage the landscape on almost a daily basis, and a town without ample shelter, be it walls, mountains, or underground dwellings, may have trouble surviving the onslaught."
+						"display_name": "Léto",
+						"description": "Léto v Poušti je období bouří, trvající čtyři měsíce. Písečné bouře pustoší krajinu skoro každý den, a město bez dostatečného přístřeší, jako jsou zdi, hory nebo podzemní příbytky, může mít problém přežít tento nápor."
 					},
 					"autumn": {
-						"display_name": "Autumn",
-						"description": "Autumn in the Desert is the quiet season, lasting four months. The weather is hot, but milder than in the summer, with neither sandstorms nor precipitation. It is traditionally a time to rest after surviving the sandstorms of summer."
+						"display_name": "Podzim",
+						"description": "Podzim v Poušti je období klidu, trvající čtyři měsíce. Klima je horké, ale mírnější než v létě, bez písečných bouří i srážek. Tradičně je to čas odpočinku, po přečkání letních písečných bouří."
 					},
 					"winter": {
-						"display_name": "Winter",
-						"description": "Winter in the Desert is a cool season, lasting two months. Breezes blow over the dunes, bringing with them milder weather than in the autumn, and even the occasional snow cloud."
+						"display_name": "Zima",
+						"description": "Zima v pušti je svěží období, trvající dva měsíce. Vánek nesoucí se přes duny, přináší mírnější klima než bylo na podzim a občas sem dokonce zanese i sněhový mrak."
 					}
 				},
 				"sandy_poyo": {
-					"display_name": "Sandy Poyo",
-					"species": "poyo"
+					"display_name": "Pojo Písečné",
+					"species": "pojo"
 				},
 				"fennec_fox": {
-					"display_name": "Fennec Fox",
-					"species": "fox"
+					"display_name": "Fenek Berberský",
+					"species": "liška"
 				}
 			}
 		},
@@ -2545,55 +2545,55 @@
 			"campaigns": {
 				"encounters": {
 					"daily_report_encounter": {
-						"title": "A traveller approaches your town.",
-						"update_title": "Daily Update",
-						"sub_title": "Immigration Report",
-						"food_label": "Food ",
-						"morale_label": "Morale ",
-						"net_worth_label": "Net Worth ",
-						"conclusion_positive": "A new settler would like to join your town!",
-						"conclusion_negative": "The road remains empty. Maybe tomorrow!",
-						"success_title": "[name(i18n_data.citizen)] has joined [str(i18n_data.town_name)]!",
+						"title": "Do tvého města přijel cestovatel.",
+						"update_title": "Denní Aktualizace",
+						"sub_title": "Hlášení o Imigraci",
+						"food_label": "Jídlo",
+						"morale_label": "Spokojenost",
+						"net_worth_label": "Celkové Jmění",
+						"conclusion_positive": "Nový osadník by se rád připojil do tvého města!",
+						"conclusion_negative": "Cesty zůstávají prázdné. Možná zítra!",
+						"success_title": "[name(i18n_data.citizen)] se připojil do města [str(i18n_data.town_name)]!",
 						"messages": {
-							"000": "I've heard a lot about your town!",
-							"001": "I'd like to join your town.",
-							"002": "You guys really look like you could use a hand!",
-							"003": "Wow! What a town! Let me help out!"
+							"000": "Hodně jsem o tvém městě slyšel!",
+							"001": "Chtěl bych se připojit do tvého města .",
+							"002": "Lidi, vypadáte jako by se vám hodila pomocná ruka!",
+							"003": "Páni! To je město! Dovolte mi pomoct!"
 						},
-						"outcome_statement": " A [str(i18n_data.job)] would like to join [str(i18n_data.town_name)]!"
+						"outcome_statement": "[str(i18n_data.job)] by se rád připojil/a ke městu [str(i18n_data.town_name)]!"
 					}
 				},
 				"trader": {
 					"simple_caravan_encounter": {
-						"message": "Hello [str(i18n_data.town_name)]! I come bearing goods for trade. Would you like to give me <strong>[str(i18n_data.your_quantity)] [str(i18n_data.your_item)](s)</strong> in exchange for <strong>[str(i18n_data.my_quantity)] [str(i18n_data.my_item)](s)</strong>?",
-						"title": "A caravan approaches!"
+						"message": "Zdravím [str(i18n_data.town_name)]! Přicházím nesouce zboží na obchod. Nechtěli byste mi dát <strong>[str(i18n_data.your_quantity)] [str(i18n_data.your_item)](s)</strong> výměnou za <strong>[str(i18n_data.my_quantity)] [str(i18n_data.my_item)](s)</strong>?",
+						"title": "Karavana přichází!"
 					},
 					"starting_food_donation": {
 						"donation_dialog_info": {
 							"dialog_nodes": {
 								"simple_message": {
-									"choice_000": "Thank goodness!",
+									"choice_000": "Bohudíky!",
 									"bulletin_message": {
-										"000": "Welcome to the area, folks! Goodness, you people look starved. Here's something to help:",
+										"000": "Vitejte na tomto území, lidi! Panebože, vypadáte hladově. Tady máte něco co vám pomůže:",
 										"001": "Just celebrated Embarkation Day, eh? Buck up! You look like you'd really benefit from something tasty. How about I give you:",
 										"002": "Embarkees! Praise Cid. Here's something to get you started.",
 										"003": "Long journey over the mountains, eh? Well you're in a good place now. Here's a little something to get you started!",
 										"004": "Welcome to the area, Embarkees!! Here's a gift to get you started!"
 									},
-									"bulletin_title": "A Ranger Approaches",
-									"dialog_title": "Ronia Olarkson"
+									"bulletin_title": "Hraničář Přichází",
+									"dialog_title": "Ronja Olarkson"
 								}
 							}
 						}
 					},
 					"returning_trader_encounter": {
-						"title": "A trader approaches your town.",
-						"days": " days",
-						"hours": " hours",
-						"trade_details": "Hello [str(i18n_data.town_name)]! I'm just passing through, but I'd be willing to make a trade or two, if you're interested. If you make me <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]</strong>, I'll be back in [str(i18n_data.num_days)] days and might be able to get you <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]</strong> in exchange. Sound good?",
-						"waiting_title": "The trader will be back in [str(i18n_data.hour_counter)] [str(i18n_data.period)]!",
+						"title": "Do tvého města přijel obchodník.",
+						"days": " dní/y",
+						"hours": " hodin/y",
+						"trade_details": "Zdravím [str(i18n_data.town_name)]! Jenom tudy procházím, byl bych ochotný uzavřít obchod nebo dva, pokud vás to zajímá. Když mi vyrobíte <strong>[str(i18n_data.want_number)]x [str(i18n_data.want_item)]</strong>, tak budu zpět za [str(i18n_data.num_days)] dní/y a snad bych pro vás zato mohl získat <strong>[str(i18n_data.reward_number)]x [str(i18n_data.reward_item)]</strong>. Vyhovuje?",
+						"waiting_title": "Obchodník bude zpátky za [str(i18n_data.hour_counter)] [str(i18n_data.period)]!",
 						"waiting_text": "The trader will be back in [str(i18n_data.hour_counter)] [str(i18n_data.period)] to give you <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]</strong> if you have <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]</strong> ready for him!",
-						"return_title": "The trader returns!",
+						"return_title": "Obchodník se vrátil!",
 						"return_greetings_positive": "I'm back! It looks like you've made me the [str(i18n_data.want_number)] [str(i18n_data.want_item)] I asked for. Are you still willing to trade them to me? I'll give you [str(i18n_data.reward_number)] [str(i18n_data.reward_item)] in exchange. Still sounds good?",
 						"return_greetings_negative": "I'm back, but it doesn't look like you've got the [str(i18n_data.want_number)] [str(i18n_data.want_item)] I asked for. That's too bad! Maybe next time!"
 					},
