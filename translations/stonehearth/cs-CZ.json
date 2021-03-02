@@ -1528,7 +1528,7 @@
 			},
 			"loading_screen": {
 				"initial_load_game_text": "Načítání",
-				"initial_load_map_text": "Vytváření Světa",
+				"initial_load_map_text": "Vytvářím Svět",
 				"loading_map_flavor_text": {
 					"001": "ostřím pravé úhly...",
 					"002": "dekompresuji voxely...",
@@ -2863,13 +2863,13 @@
 								"potter_shop_2": {
 									"shop_info": {
 										"name": "Tvarovaná Hlína Feriny Raije ",
-										"title": "Hrnčířství Feriny Raije je ve městě, a nabízí hrnčířské výrobky a keramické dekorace"
+										"title": "Hrnčířství Feriny Raije je ve městě, nabízejíc hrnčířské výrobky a keramické dekorace"
 									}
 								},
 								"herbalist_shop_2": {
 									"shop_info": {
-										"name": "Vert Greene's Verdant Greenery",
-										"title": "Vert Greene is passing by, selling plants and seeds"
+										"name": "Kvetoucí Skleník Květoslava Sklenáře",
+										"title": "Květoslav Sklenář projíždí kolem, prodávajíce rostliny a semínka."
 									}
 								}
 							},
@@ -2877,7 +2877,7 @@
 								"pets_shop_1": {
 									"shop_info": {
 										"name": "Avelinin Zverimex",
-										"title": "Kolemjdoucí místní hraničářka, nabízí mazlíčky k adopci"
+										"title": "Kolemjdoucí místní hraničářka nabízí mazlíčky k adopci"
 									}
 								},
 								"pets_shop_2": {
@@ -2900,20 +2900,20 @@
 								},
 								"food_shop_1": {
 									"shop_info": {
-										"name": "Gannor's Breakfast Foods Trunk",
-										"title": "A young cook has arrived with a trunk of breakfast foods"
+										"name": "Ganorova Nůše Snídaňových Pochutin",
+										"title": "Mladý kuchař přijel s nůší snídaňových pochutin"
 									}
 								},
 								"potter_shop_1": {
 									"shop_info": {
 										"name": "Tvarovaná Hlína Feriny Raije ",
-										"title": "Ferina Rayye's wheeled studio is passing by, offering pottery"
+										"title": "Ferina Raije a její kruhové hrnčířství projíždí kolem, nabízejíc hrnčířské výrobky"
 									}
 								},
 								"herbalist_shop_1": {
 									"shop_info": {
-										"name": "Vert Greene's Verdant Greenery",
-										"title": "Vert Greene is passing by, selling herbs"
+										"name": "Kvetoucí Skleník Květoslava Sklenáře",
+										"title": "Květoslav Sklenář projíždí kolem, prodávajíce byliny."
 									}
 								}
 							},
@@ -2951,13 +2951,13 @@
 								"potter_shop_3": {
 									"shop_info": {
 										"name": "Tvarovaná Hlína Feriny Raije",
-										"title": "Ferina Rayye's wheeled pottery studio is in town, offering artisan clay crafts"
+										"title": "Ferina Raije a její kruhové hrnčířství je ve městě, nabízejíc řemeslné hliněnné výrobky"
 									}
 								},
 								"herbalist_shop_3": {
 									"shop_info": {
-										"name": "Vert Greene's Verdant Greenery",
-										"title": "Vert Greene is passing by, selling plants of all kinds"
+										"name": "Kvetoucí Skleník Květoslava Sklenáře",
+										"title": "Květoslav Sklenář projíždí kolem, prodávajíce rostliny mnoha různých druhů."
 									}
 								}
 							}
@@ -2996,46 +2996,46 @@
 									"choice_000": "Ehm... dobře?",
 									"choice_001": "Jsem Zmaten. Pardon.",
 									"bulletin_message": {
-										"000": "Půjčit si sílu, abys povstal, znamená, padnout, když síla selže. Ogovi nepropůjčuje sílu jeho  tak-zvaný-mudrc, ale děvče které ukradl."
+										"000": "Půjčit si sílu, abys povstal, znamená, padnout, když síla selže. Ogovi nepropůjčuje sílu jeho  tak-zvaný-věštěc, ale dítě které ukradl."
 									},
 									"bulletin_title": "Postava naklání hlavu",
 									"dialog_title": "???"
 								},
 								"erdene_description": {
-									"choice_000": "Cool!",
-									"choice_001": "Sounds ominous.",
+									"choice_000": "Super!",
+									"choice_001": "To zní zlověstně.",
 									"bulletin_message": {
-										"000": "Me? I am the one who watches. You. Him. For the star. For fate.",
-										"001": "I? I am of the Red Kiln. We would have been your saviours, but your Cid parlayed hard in your stead. So now we watch. And wait for the day when your star rises.",
-										"002": "Me! I suppose you've earned your bit. I am an ember in the forge, a spark in the air. I watch, so that I may know when it is time for the fire to engulf us all.",
-										"003": "Me? Today, it matters not. Tomorrow, if you still live, you may call me Erdene, of the Red Kiln."
+										"000": "Já? Já jsem ta co sleduje. Vás. Jeho. Pro hvězdu. Pro osud.",
+										"001": "Já? Já patřím k Rudé Peci. Bylo bychom vaši zachránci, ale váš Cid tvrdě vyjdnával ve váš prospěch. Takže teď sledujeme. A čekáme na ten den kdy vyjde vaše hvězda.",
+										"002": "Já! Mám dojem, že si to zasloužíte. Jsem žhavík v kovářské výhni, jiskra ve vzduchu. Sleduji, abych věděla, kdy je ten správný čas, pro to aby nás pohltil oheň.",
+										"003": "Já? Dnes, nezáleží na tom. Zítra, pokud stále budete naživu, my můžete říkat Erdene, z Rudé Pece."
 									},
-									"bulletin_title": "She smiles with a glint of teeth",
+									"bulletin_title": "Usmála se, až se jí zablýskly zuby.",
 									"dialog_title": "???"
 								},
 								"accept_offer": {
 									"choice_000": "Počkat! Kdo jsi?",
-									"choice_001": "Huh.",
+									"choice_001": "Hmm.",
 									"bulletin_message": {
-										"000": "Fight hard, little town. Fate is meaningless. But were it not, yours would be to rise."
+										"000": "Bojuj statečně, městečko. Osud je bezvýznamný. Ale kdyby tomu tak nebylo, váš by byl, abyste povstali."
 									},
-									"bulletin_title": "She nods firmly",
+									"bulletin_title": "Rozhodně kývá hlavou",
 									"dialog_title": "???"
 								},
 								"flute_description": {
-									"choice_000": "Sounds good!",
-									"choice_001": "No. Thanks.",
+									"choice_000": "To zní dobře!",
+									"choice_001": "Ne. Díky.",
 									"bulletin_message": {
-										"000": "Upon this paper, you shall find the lullabye to sooth the Mountain's soul. Find a stolen flute. Bid your wood-worker pitch it to this melody. Place it in Ogo's great ogre's path, and watch self-importance meet its just reward."
+										"000": "Na tomto papíře, najdete ukolébavku, kterou ukonejšíte duši Hory. Najděte ukradenou flétnu. Přikaž svému dřevařovi ať ji nastaví na tuto melodii. Postav ji do cesty Ogovi velkému ogrovi a sleduj jak namyšlenost dojde svojí spravedlivé odměny."
 									},
-									"bulletin_title": "She offers a scrap of paper",
+									"bulletin_title": "Nabízí cár papíru",
 									"dialog_title": "???"
 								},
 								"departure": {
 									"bulletin_message": {
-										"000": "Well then. Fight hard, little town."
+										"000": "Tak tedy. Bojuj statečně, městečko."
 									},
-									"bulletin_title": "She shrugs",
+									"bulletin_title": "Krčí rameny",
 									"dialog_title": "???"
 								}
 							}
@@ -3046,42 +3046,42 @@
 							"dialog_nodes": {
 								"soothsayer_description": {
 									"choice_000": "No way!",
-									"choice_001": "Huh.",
+									"choice_001": "Hmm.",
 									"bulletin_message": {
-										"000": "Soothsayer magic! Speak with old ones! Tell future! He see... he see Red Kiln Falling, new star rising. That star is Ogo. This time, we pick winning side!",
-										"001": "Soothsayer old, old snake. Speaks out with bones and scales. Sees future! Sees cycle ending, ending forever. Not sure what he mean, but good for Ogo!",
-										"002": "Soothsayer goblin, obviously! Goblin who can see future! He say old ones dying away, new star rising. Good for Ogo, bad for everyone else, you included!"
+										"000": "Věštecká magie! Mluv s předky! Předvídej budoucnost! Vidí... vidí Pád Červené Pece, nová hvězda vychází. Ta hvězda je Ogo. Tentokrát, si vybíráme výtěznou stranu!",
+										"001": "Věštec starý, starý had. Mluví s pomocí  kostí a vah. Vidí budoucnost! Vidí konec koloběhu, konec jednou provždy. Nejsem si jistý co tím myslí, ale dobře pro Oga!",
+										"002": "Goblin věštec, samozřejmě! Goblin, který vidí budoucnost! Říká že staří vymírají, nová hvězda vychází. Dobré pro Oga, špatné pro všechny ostatní, tebe nevyjímaje!"
 									},
-									"bulletin_title": "The goblin's eyes grow round",
-									"dialog_title": "Ogo's Bannerman"
+									"bulletin_title": "Goblin vytřeští oči",
+									"dialog_title": "Ogoův Korouhevník"
 								},
 								"snooty_introduction": {
-									"choice_000": "Huh.",
+									"choice_000": "Hmm.",
 									"choice_001": "Gagh!",
 									"bulletin_message": {
-										"000": "Ho, puny town! Me stand here with bad news for you!",
-										"001": "Puny Town! Bow and tremble!",
-										"002": "Muahahahahah! This? This your town? I laugh till I cry!"
+										"000": "Hola, mrňavé městečko! Mám tady pro vás špatnou novinu!",
+										"001": "Mrňavé Městečko! Ukloň se a třes se!",
+										"002": "Chachachá! Tohle? Tohle je vaše město? Směju se, až z toho brečím!"
 									},
-									"bulletin_title": "A goblin with a officious smirk slithers into town",
-									"dialog_title": "Ogo's Bannerman"
+									"bulletin_title": "Goblin s nepříjemným šklebem se šourá do města",
+									"dialog_title": "Ogoův Korouhevník"
 								},
 								"ogo_introduction": {
-									"choice_000": "Ogo who?",
-									"choice_001": "Uh. No.",
+									"choice_000": "Ogo, kdo?",
+									"choice_001": "Hm. Ne.",
 									"bulletin_message": {
-										"000": "By order of Ogo Skullbonker, Goblin-All-Chief-To-Be, you and all your stuffs now be tribute to Great Glittering Army and Red Kiln Empire!",
+										"000": "Z rozhodnutí Oga Lebkomlátiče, Goblina-Budoucího-Šéfa-Všech, vy a všechny vaše věci jste od teď v područí Velké Třpytivé Armády a Říše Červené Pece!",
 										"001": "I envoy of Ogo Skullbonker, tamer of Mountains! Ogo demand many thing from all, include you, include your gold!",
 										"002": "My Chief-of-Chiefs, Ogo Skullbonker, soon take Glittering Army and rule all of Red Kiln! You next of many conquests. You become our goldfarmers!",
 										"003": "I am Bannergoblin of Ogo Skullbonker, rider of Mountain! My master demand you tribute, in form of all you have! You give everything! Or you pay!",
 										"004": "I bannergoblin of Ogo Skullbonker! When you bested the small chiefs, you bring Ogo's Eye upon you! And Ogo's Eye know all! You will give tribute, or eye will see your end!"
 									},
-									"bulletin_title": "The goblin straightens",
-									"dialog_title": "Ogo's Bannerman"
+									"bulletin_title": "Goblin se napřimuje",
+									"dialog_title": "Ogoův Korouhevník"
 								},
 								"ogo_description": {
-									"choice_000": "Soothsayer?",
-									"choice_001": "Eh",
+									"choice_000": "Věštec?",
+									"choice_001": "Ehm",
 									"bulletin_message": {
 										"000": "Soothsayer say Ogo Skullbonker will be hero above all heroes! You destined to give him gold!",
 										"001": "Soothsayer little, but have big thoughts! Soothsayer never wrong. Soothsayer say you give Ogo gold, or Ogo will take it from you!",
