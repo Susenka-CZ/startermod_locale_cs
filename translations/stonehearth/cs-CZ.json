@@ -2889,7 +2889,7 @@
 								"pets_shop_3": {
 									"shop_info": {
 										"name": "Cestující Zoo Olina a Ruvela ",
-										"title": "A zoo caravan is offering exotic animals for sale"
+										"title": "Karavana nabízí cizokrajná zvířata k prodeji"
 									}
 								},
 								"container_shop_1": {
@@ -3053,7 +3053,7 @@
 										"002": "Goblin věštec, samozřejmě! Goblin, který vidí budoucnost! Říká že staří vymírají, nová hvězda vychází. Dobré pro Oga, špatné pro všechny ostatní, tebe nevyjímaje!"
 									},
 									"bulletin_title": "Goblin vytřeští oči",
-									"dialog_title": "Ogoův Korouhevník"
+									"dialog_title": "Ogoův Vlajkonoš"
 								},
 								"snooty_introduction": {
 									"choice_000": "Hmm.",
@@ -3064,32 +3064,32 @@
 										"002": "Chachachá! Tohle? Tohle je vaše město? Směju se, až z toho brečím!"
 									},
 									"bulletin_title": "Goblin s nepříjemným šklebem se šourá do města",
-									"dialog_title": "Ogoův Korouhevník"
+									"dialog_title": "Ogoův Vlajkonoš"
 								},
 								"ogo_introduction": {
 									"choice_000": "Ogo, kdo?",
 									"choice_001": "Hm. Ne.",
 									"bulletin_message": {
 										"000": "Z rozhodnutí Oga Lebkomlátiče, Goblina-Budoucího-Šéfa-Všech, vy a všechny vaše věci jste od teď v područí Velké Třpytivé Armády a Říše Červené Pece!",
-										"001": "I envoy of Ogo Skullbonker, tamer of Mountains! Ogo demand many thing from all, include you, include your gold!",
-										"002": "My Chief-of-Chiefs, Ogo Skullbonker, soon take Glittering Army and rule all of Red Kiln! You next of many conquests. You become our goldfarmers!",
-										"003": "I am Bannergoblin of Ogo Skullbonker, rider of Mountain! My master demand you tribute, in form of all you have! You give everything! Or you pay!",
-										"004": "I bannergoblin of Ogo Skullbonker! When you bested the small chiefs, you bring Ogo's Eye upon you! And Ogo's Eye know all! You will give tribute, or eye will see your end!"
+										"001": "Já vyslanec Oga Lebkomlátiče, zkrotitele Hor! Ogo vyžaduje množství věcí od všech, včetně vás, včetně vašeho zlata!",
+										"002": "Můj Šéf-Všech-Šéfů, Ogo Lebkomlátič, brzy vzít Třpytivou Armádu a vládnout všem z Červené Pece! Vy další z mnoha dobytí. Vy se stanete našimi zásobovači zlatem!",
+										"003": "Já jsem goblin Vlajkonoš Oga Lebkomlátiče, jezdce Hory! Můj Pán požadovat poplatky, ve formě všeho co ty mít! Ty dát vše! Nebo ty zaplatit!",
+										"004": "Já goblin Vlajkonoš Oga Lebkomlátiče! Když jste překonali malé náčelníky, upoutali jste pozornost Ogova Oka! A Ogovo Oko ví vše! Vy dáte poplatky nebo oko uvidí váš konec!"
 									},
 									"bulletin_title": "Goblin se napřimuje",
-									"dialog_title": "Ogoův Korouhevník"
+									"dialog_title": "Ogoův Vlajkonoš"
 								},
 								"ogo_description": {
 									"choice_000": "Věštec?",
 									"choice_001": "Ehm",
 									"bulletin_message": {
-										"000": "Soothsayer say Ogo Skullbonker will be hero above all heroes! You destined to give him gold!",
-										"001": "Soothsayer little, but have big thoughts! Soothsayer never wrong. Soothsayer say you give Ogo gold, or Ogo will take it from you!",
+										"000": "Věštec říká Ogo Lebkomlátič bude hrdinou nadevšemi hrdiny! Vy předurčeni dát mu zlato!",
+										"001": "Věštec malý, sle mít velké myšlenky! Věštec nikdy nechybovat. Veštec říkat, vy dát Ogovi zlato, jinak Ogo vzít zlato sám!",
 										"002": "Goblins long be shunned and forgotten. Soothsayer say that Ogo Skullbonker, my LittleChief, will soon change everything! For that, he need gold and labor!",
 										"003": "Ogo Skullbonker, Master of Masters, have great destiny, to rule over all! Soothsayer say so; soothsayer never wrong. Soothsayer say, you will help!"
 									},
 									"bulletin_title": "The goblin's eyes glow with zeal",
-									"dialog_title": "Ogo's Bannerman"
+									"dialog_title": "Ogoův Vlajkonoš"
 								},
 								"conclusion": {
 									"bulletin_message": {
