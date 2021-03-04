@@ -2575,10 +2575,10 @@
 									"choice_000": "Bohudíky!",
 									"bulletin_message": {
 										"000": "Vitejte na tomto území, lidi! Panebože, vypadáte hladově. Tady máte něco co vám pomůže:",
-										"001": "Just celebrated Embarkation Day, eh? Buck up! You look like you'd really benefit from something tasty. How about I give you:",
-										"002": "Embarkees! Praise Cid. Here's something to get you started.",
-										"003": "Long journey over the mountains, eh? Well you're in a good place now. Here's a little something to get you started!",
-										"004": "Welcome to the area, Embarkees!! Here's a gift to get you started!"
+										"001": "Právě jste oslavili Den Založení, co? Seberte se! Vypadáte jako byste potřebovali něco dobrého k zakousnutí. Co kdybych vám dala:",
+										"002": "Osadníci! Chvalte Cida. Tady máte něco na začátek.",
+										"003": "Dlouhá cesta přes hory, co? No, teď už jste na správném místě. Mám pro vás tady na začátek takovou maličkost!",
+										"004": "Vítejte na tomto území Osadníci!! Tady máte dárek pro začátek!"
 									},
 									"bulletin_title": "Hraničář Přichází",
 									"dialog_title": "Ronja Olarkson"
@@ -3019,7 +3019,7 @@
 									"bulletin_message": {
 										"000": "Bojuj statečně, městečko. Osud je bezvýznamný. Ale kdyby tomu tak nebylo, váš by byl, abyste povstali."
 									},
-									"bulletin_title": "Rozhodně kývá hlavou",
+									"bulletin_title": "Rozhodně přikyvuje hlavou",
 									"dialog_title": "???"
 								},
 								"flute_description": {
@@ -3052,7 +3052,7 @@
 										"001": "Věštec starý, starý had. Mluví s pomocí  kostí a vah. Vidí budoucnost! Vidí konec koloběhu, konec jednou provždy. Nejsem si jistý co tím myslí, ale dobře pro Oga!",
 										"002": "Goblin věštec, samozřejmě! Goblin, který vidí budoucnost! Říká že staří vymírají, nová hvězda vychází. Dobré pro Oga, špatné pro všechny ostatní, tebe nevyjímaje!"
 									},
-									"bulletin_title": "Goblin vytřeští oči",
+									"bulletin_title": "Goblin vytřeští očka",
 									"dialog_title": "Ogoův Vlajkonoš"
 								},
 								"snooty_introduction": {
@@ -3072,9 +3072,9 @@
 									"bulletin_message": {
 										"000": "Z rozhodnutí Oga Lebkomlátiče, Goblina-Budoucího-Šéfa-Všech, vy a všechny vaše věci jste od teď v područí Velké Třpytivé Armády a Říše Červené Pece!",
 										"001": "Já vyslanec Oga Lebkomlátiče, zkrotitele Hor! Ogo vyžaduje množství věcí od všech, včetně vás, včetně vašeho zlata!",
-										"002": "Můj Šéf-Všech-Šéfů, Ogo Lebkomlátič, brzy vzít Třpytivou Armádu a vládnout všem z Červené Pece! Vy další z mnoha dobytí. Vy se stanete našimi zásobovači zlatem!",
+										"002": "Můj Šéf-Šéfů, Ogo Lebkomlátič, brzy vzít Třpytivou Armádu a vládnout všem z Červené Pece! Vy další z mnoha dobytí. Vy se stanete našimi zásobovači zlatem!",
 										"003": "Já jsem goblin Vlajkonoš Oga Lebkomlátiče, jezdce Hory! Můj Pán požadovat poplatky, ve formě všeho co ty mít! Ty dát vše! Nebo ty zaplatit!",
-										"004": "Já goblin Vlajkonoš Oga Lebkomlátiče! Když jste překonali malé náčelníky, upoutali jste pozornost Ogova Oka! A Ogovo Oko ví vše! Vy dáte poplatky nebo oko uvidí váš konec!"
+										"004": "Já goblin Vlajkonoš Oga Lebkomlátiče! Když jste překonali malé náčelníky, vy upoutat pozornost Ogova Oka! A Ogovo Oko ví vše! Vy dát poplatky nebo oko uvidět váš konec!"
 									},
 									"bulletin_title": "Goblin se napřimuje",
 									"dialog_title": "Ogoův Vlajkonoš"
@@ -3085,21 +3085,21 @@
 									"bulletin_message": {
 										"000": "Věštec říká Ogo Lebkomlátič bude hrdinou nadevšemi hrdiny! Vy předurčeni dát mu zlato!",
 										"001": "Věštec malý, sle mít velké myšlenky! Věštec nikdy nechybovat. Veštec říkat, vy dát Ogovi zlato, jinak Ogo vzít zlato sám!",
-										"002": "Goblins long be shunned and forgotten. Soothsayer say that Ogo Skullbonker, my LittleChief, will soon change everything! For that, he need gold and labor!",
-										"003": "Ogo Skullbonker, Master of Masters, have great destiny, to rule over all! Soothsayer say so; soothsayer never wrong. Soothsayer say, you will help!"
+										"002": "Goblini být dlouho zapomenti a vyhýbáni. Věštec říkat, že Ogo Lebkomlátič, můj MalýŠéf, brzy všechno změnit! Proto potřebuje zlato a práci!",
+										"003": "Ogo Lebkomlátič, Pán Pánů, mít velký osud, být vládnout nade všemi! Tak to říkat věštec; věštec nikdy nechybovat. Věštec říkat, vy být pomáhat!"
 									},
-									"bulletin_title": "The goblin's eyes glow with zeal",
+									"bulletin_title": "Goblinní očka září nadšením",
 									"dialog_title": "Ogoův Vlajkonoš"
 								},
 								"conclusion": {
 									"bulletin_message": {
-										"000": "Anyway, it matter not! I here only to warn you: muster your gold, so it easy for us to collect! We be back soon!",
-										"001": "Hahaha! Whatever. You all belong to us now. We come soon to collect you for gold mines!",
-										"002": "Oh, you say something? No matter, we return soon! Collect all your things so will be easy for us to move!",
-										"003": "Anyway, time to go iron my banner. Be back soon! Be ready, yes? New life under goblin rule awaits!"
+										"000": "Každopádně, na tom nezáležet! Já tady jenom abych vy varovat: shromážděte svoje zlato tak, aby pro nás bylo jednodušší ho vyzvednout! My být brzy zpátky!",
+										"001": "Hahaha! To je jedno. Odteď patříte nám. My příjít brzy vyzvednout vás pro zlaté doly!",
+										"002": "Oh, vy něco říkáte? Záleží ne, my vrátit brzy! Seberte si všechny věci, aby pro nás bylo snadné se přesunout!",
+										"003": "Každopádně, čas jít vyžehlit můj prapor. Být brzy zpátky! Buďte připravení, jo? Nový život pod vládou goblinů čeká!"
 									},
-									"bulletin_title": "The goblin's eyes narrow",
-									"dialog_title": "Ogo's Bannerman"
+									"bulletin_title": "Goblinovi se zužují očka",
+									"dialog_title": "Ogoův Vlajkonoš"
 								}
 							}
 						}
@@ -3108,15 +3108,15 @@
 						"dialog_tree_info": {
 							"dialog_nodes": {
 								"msg1": {
-									"choice_000": "Thank goodness!",
-									"choice_001": "(good riddance)",
+									"choice_000": "Bohudíky!",
+									"choice_001": "(Dobře pro nás)",
 									"bulletin_message": {
-										"000": "Good news for you, pathetic humans! Ogo Skullbonker, Chief-of-Chiefs-To-Be, calls us to home for clan meet-meet. Been fun hanging with you! Maybe we tell friends, back soon for more fun taking your stuff!",
-										"001": "Humans no challenge. So sad. We hope to return home to our Chief-of-Chiefs, Ogo Skullbonker, with story of our glory, but there is no glory in defeating you. Maybe we come back when you stronger.",
-										"002": "We leaving now, humans. But we will be back.",
-										"003": "Well, was fun preying on you, pathetic humans! But fun times must end, we go home now to big clan meet-meet. While we gone, build more stuff, so when we come back, we can take more!"
+										"000": "Dobrá zprává pro vás, ubozí človíčkové! Ogo Lebkomlátič, Budoucí-Šéf-Šéfů, nás volá domů na klanovou radu. Byla sranda tu s vámi být! Možná my říct kámošům, brzy zpátky pro víc srandy při braní vašich věcí!",
+										"001": "Lidi nebýt výzva. Moc smtuný. My doufat že vrátit domů k našemu Šéfovi-Šéfů, Ogovi Lebkomlátičovi s příběhem o naší slávě, ale poražení vás není žádná sláva. Možná se my vrátit, když vy silnější.",
+										"002": "Už odcházíme, človíčkové. Ale zase se vrátíme, a s námi přijde zákon!",
+										"003": "Nu, byla sranda okrádat vás, ubozí človíčkové! Ale sranda někdy musí skončit, my teď jít domů na velkou klanovou radu. Zatímco my pryč, vy postavte víc věcí, abychom až se vrátíme, si toho mohli víc vzít!"
 									},
-									"bulletin_title": "The goblin sends a note",
+									"bulletin_title": "Goblini posílají sdělení",
 									"dialog_title": "[name(i18n_data.boss)]"
 								}
 							}
@@ -3126,30 +3126,30 @@
 						"dialog_tree_info": {
 							"dialog_nodes": {
 								"loot_final": {
-									"choice_000": "(good riddance)",
-									"choice_001": "Goodbye!",
+									"choice_000": "(Dobře pro nás)",
+									"choice_001": "Nashledanou!",
 									"bulletin_message": {
-										"000": "Hahaha! Exactly. This for you, to remember our friendship."
+										"000": "Hahaha! Přesně. Tohle je pro vás, vzpomínka na naše přátelství."
 									},
-									"bulletin_title": "The goblin places something on the ground with great care",
+									"bulletin_title": "Goblin něco velice opatrně pokládá na zem",
 									"dialog_title": "[name(i18n_data.boss)]"
 								},
 								"information": {
-									"choice_000": "Wow!",
-									"choice_001": "Sounds ominous.",
+									"choice_000": "Wow!!",
+									"choice_001": "To zní zlověstně.",
 									"bulletin_message": {
-										"000": "You so funny. Because we friends, me tell you: Ogo pretty cool. A bit mean. Once ate a puppy. But... soothsayer say he fated! Meant to stomp on everyone! Me just little guy, you know? Though you littler. Anyways."
+										"000": "Vy moc vtipní. Protože my přátelé, já říct vám: Ogo dost super. Trochu zlý. Jednou sníst štěně. Ale... věštec říkat, že on předurčený! Určený k  dupaní po všech! Já jen malý pívo, víte? Nicméně vy menší. Každopádně."
 									},
-									"bulletin_title": "The goblin laughs",
+									"bulletin_title": "Goblin se směje",
 									"dialog_title": "[name(i18n_data.boss)]"
 								},
 								"msg1": {
-									"choice_000": "Thank goodness!",
-									"choice_001": "Ogo who?",
+									"choice_000": "Bohudíky!",
+									"choice_001": "Ogo, kdo?",
 									"bulletin_message": {
-										"000": "Good news peons! Ogo Skullbonker, Chief-of-Chiefs-To-Be, calls us back to him. Time to go home, show him tribute! If you lucky, maybe we be back to visit... soon!"
+										"000": "Dobré zprávy, holoto! Ogo Lebkomlátič, Budoucí-Šéf-Šéfů, nás volá zpátky. Čas jít domů, vzdát mu čest! Jesli vy mít štěstí, možná mi přijít zpátky na návštěvu... brzy!"
 									},
-									"bulletin_title": "The goblin returns magnanimously",
+									"bulletin_title": "Goblin se nabubřele vrací ",
 									"dialog_title": "[name(i18n_data.boss)]"
 								}
 							}
@@ -3158,8 +3158,8 @@
 					"create_wolf_riders": {
 						"mission": {
 							"sighted_bulletin": {
-								"title": "Snarling wolves approach!",
-								"message": "Run! Mer told you to run!!!"
+								"title": "Vrčící vlci se blíží!",
+								"message": "Utíkej! Mer říkal ať utíkáš!!!"
 							}
 						}
 					},
@@ -3168,24 +3168,24 @@
 							"dialog_nodes": {
 								"msg2": {
 									"bulletin_message": {
-										"00": "It's been pretty quiet, but you know...? It's a bad sign when the birds stop singing."
+										"00": "Je tu docela klid, ale víš ty co...? Když ptáci přestanou zpívat, tak je to špatné znamení."
 									},
-									"bulletin_title": "The traveller scratches her ear",
-									"dialog_title": "Grizzled Traveller"
+									"bulletin_title": "Cestovatelka se škrábe na uchu",
+									"dialog_title": "Ošlehaná Cestovatelka"
 								},
 								"msg3": {
 									"bulletin_message": {
-										"00": "My guess is wolves. Goblin wolves. Watch your borders. You don't want to fight them after their trainer's got them in a lather, you hear? Bunker down, if you need to. Or run. Runnin's good! No shame in surviving another day."
+										"00": "Můj odhad jsou vlci. Gobliní vlci. Hlídejte si hranice. Nechcete s nimi bojovat po tom, co je jejich krotitel seřeže do latě, slyšíte? Opevněte se, jestli potřebujete. A nebo utečte. Útěk je v pohodě! Není žádná hanba přežít další den."
 									},
-									"bulletin_title": "The stranger nods firmly",
-									"dialog_title": "Grizzled Traveller"
+									"bulletin_title": "Cizinka rozhodně přikyvuje hlavou",
+									"dialog_title": "Ošlehaná Cestovatelka"
 								},
 								"msg1": {
 									"bulletin_message": {
-										"00": "Ho there township! How are things for you?"
+										"00": "Ahoj, městečko! Jak se tu máte?"
 									},
-									"bulletin_title": "A grizzled traveller appears on the horizon",
-									"dialog_title": "Grizzled Traveller"
+									"bulletin_title": "Ošlehaná cestovatelka se objevuje na obzoru",
+									"dialog_title": "Ošlehaná Cestovatelka"
 								}
 							}
 						}
@@ -3195,7 +3195,7 @@
 							"dialog_nodes": {
 								"msg2": {
 									"bulletin_message": {
-										"000": "--the one who watches you"
+										"000": "--ten kdo tě hlídá"
 									},
 									"bulletin_title": "Mysterious Note",
 									"dialog_title": "Mysterious Message"
