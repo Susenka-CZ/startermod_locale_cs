@@ -1590,7 +1590,7 @@
 					"022": "Kopáním zeminy občas získáš jílovitou hlínu a kámen.",
 					"023": "Rudné žíly můžeš dokonce vidět na stranách hor.",
 					"024": "Potřebuješ počáteční zdroj jídla? Přesuň Bobulové keře nebo Opuncie blíže ke svému městu.",
-					"025": "Po poražení Gobliního Náčelníka, si můžeš přivlastnit Zvoničku, ovečku, jako vlastní .",
+					"025": "Po poražení Gobliního Náčelníka, si můžeš přivlastnit ovečku Violku, jako vlastní .",
 					"026": "Herlingové nejsou rádi, když musí být dlouhou dobu v přeplněných prostorech.",
 					"027": "Farmařská zvířata se mohou rozmnožit pokud jsou alespoň 2 jednoho druhu v ohradě.",
 					"028": "Použij \"shift + ,\" pro zapuštění základů stavební šablony do země před umístěním. (Zapuštění zrušíš \"shift + .\")"
@@ -3084,8 +3084,8 @@
 									"choice_001": "Ehm",
 									"bulletin_message": {
 										"000": "Věštec říká Ogo Lebkomlátič bude hrdinou nadevšemi hrdiny! Vy předurčeni dát mu zlato!",
-										"001": "Věštec malý, sle mít velké myšlenky! Věštec nikdy nechybovat. Veštec říkat, vy dát Ogovi zlato, jinak Ogo vzít zlato sám!",
-										"002": "Goblini být dlouho zapomenti a vyhýbáni. Věštec říkat, že Ogo Lebkomlátič, můj MalýŠéf, brzy všechno změnit! Proto potřebuje zlato a práci!",
+										"001": "Věštec malý, ale mít velké myšlenky! Věštec nikdy nechybovat. Veštec říkat, vy dát Ogovi zlato, jinak Ogo vzít zlato sám!",
+										"002": "Goblini bít dlouho zapomenti a vyhýbáni. Věštec říkat, že Ogo Lebkomlátič, můj MalýŠéf, brzy všechno změnit! Proto potřebuje zlato a práci!",
 										"003": "Ogo Lebkomlátič, Pán Pánů, mít velký osud, být vládnout nade všemi! Tak to říkat věštec; věštec nikdy nechybovat. Věštec říkat, vy být pomáhat!"
 									},
 									"bulletin_title": "Goblinní očka září nadšením",
@@ -3093,10 +3093,10 @@
 								},
 								"conclusion": {
 									"bulletin_message": {
-										"000": "Každopádně, na tom nezáležet! Já tady jenom abych vy varovat: shromážděte svoje zlato tak, aby pro nás bylo jednodušší ho vyzvednout! My být brzy zpátky!",
+										"000": "Každopádně, na tom nezáležet! Já tady jenom abych vy varovat: shromážděte svoje zlato tak, aby pro nás bilo jednodušší ho vyzvednout! My být brzy zpátky!",
 										"001": "Hahaha! To je jedno. Odteď patříte nám. My příjít brzy vyzvednout vás pro zlaté doly!",
-										"002": "Oh, vy něco říkáte? Záleží ne, my vrátit brzy! Seberte si všechny věci, aby pro nás bylo snadné se přesunout!",
-										"003": "Každopádně, čas jít vyžehlit můj prapor. Být brzy zpátky! Buďte připravení, jo? Nový život pod vládou goblinů čeká!"
+										"002": "Oh, vy něco říkáte? Záleží ne, my vrátit brzy! Seberte si všechny věci, abi pro nás bylo snadné se přesunout!",
+										"003": "Každopádně, čas jít vyžehlit můj prapor. Bít brzy zpátky! Buďte připravení, jo? Nový život pod vládou goblinů čekat!"
 									},
 									"bulletin_title": "Goblinovi se zužují očka",
 									"dialog_title": "Ogoův Vlajkonoš"
@@ -3111,10 +3111,10 @@
 									"choice_000": "Bohudíky!",
 									"choice_001": "(Dobře pro nás)",
 									"bulletin_message": {
-										"000": "Dobrá zprává pro vás, ubozí človíčkové! Ogo Lebkomlátič, Budoucí-Šéf-Šéfů, nás volá domů na klanovou radu. Byla sranda tu s vámi být! Možná my říct kámošům, brzy zpátky pro víc srandy při braní vašich věcí!",
+										"000": "Dobrá zprává pro vás, ubozí človíčkové! Ogo Lebkomlátič, Budoucí-Šéf-Šéfů, nás volá domů na klanovou radu. Byla sranda tu s vámi bít! Možná my říct kámošům, brzy zpátky pro víc srandy při braní vašich věcí!",
 										"001": "Lidi nebýt výzva. Moc smtuný. My doufat že vrátit domů k našemu Šéfovi-Šéfů, Ogovi Lebkomlátičovi s příběhem o naší slávě, ale poražení vás není žádná sláva. Možná se my vrátit, když vy silnější.",
 										"002": "Už odcházíme, človíčkové. Ale zase se vrátíme, a s námi přijde zákon!",
-										"003": "Nu, byla sranda okrádat vás, ubozí človíčkové! Ale sranda někdy musí skončit, my teď jít domů na velkou klanovou radu. Zatímco my pryč, vy postavte víc věcí, abychom až se vrátíme, si toho mohli víc vzít!"
+										"003": "Nu, byla sranda okrádat vás, ubozí človíčkové! Ale sranda někdy musí skončit, my teď jít domů na velkou klanovou radu. Zatímco my pryč, vy postavte víc věcí, abichom až se vrátíme, si toho mohli víc vzít!"
 									},
 									"bulletin_title": "Goblini posílají sdělení",
 									"dialog_title": "[name(i18n_data.boss)]"
@@ -3197,19 +3197,19 @@
 									"bulletin_message": {
 										"000": "--ten kdo tě hlídá"
 									},
-									"bulletin_title": "Mysterious Note",
-									"dialog_title": "Mysterious Message"
+									"bulletin_title": "Tajemný Lístek",
+									"dialog_title": "Tajemná Zpráva"
 								},
 								"msg1": {
 									"bulletin_message": {
-										"000": "If you want to finish the wolves before they finish you, strike first.",
-										"001": "There are wolves in the forest. Goblin wolves. Get them before they get you.",
-										"002": "Ogo's forces are on the move. There are wolves in your woods.",
-										"003": "Little human camp: search out your enemy while they yet sleep.",
-										"004": "Goblin wolves are trained to attack on command. Free them before that command is issued, and you will sleep easy tonight."
+										"000": "Jestli chceš zatočit s vlky dříve než oni zatočí s tebou, zaútoč první.",
+										"001": "V lese jsou vlci. Goblinní vlci. Dostaň je než oni dostanou tebe.",
+										"002": "Ogovi jednotky jsou v pohybu. V tvém lese jsou vlci.",
+										"003": "Malý člověčí tábore: vypátrejte své nepřátele dokud ještě spí.",
+										"004": "Goblinní vlci jsou cvičení na to aby zaútočili na rozkaz. Osvoboď je předtím, než jim bude vydán rozkaz a budeš dnes moci klidně spát."
 									},
-									"bulletin_title": "A message on an arrow appears on your banner",
-									"dialog_title": "Mysterious Message"
+									"bulletin_title": "Zpráva připevněná na šíp se objevila na tvém praporu",
+									"dialog_title": "Tajemná Zpráva"
 								}
 							}
 						}
@@ -3219,14 +3219,14 @@
 							"dialog_nodes": {
 								"msg1": {
 									"bulletin_message": {
-										"000": "There are wolves in the woods! Run away while you still can!",
-										"001": "Can't you hear the howling? There are goblin wolves in the woods!",
-										"002": "Our group was just attacked by goblins! Flee!",
-										"003": "Those goblin wolves aren't like normal wolves--they're fast and vicious and unafraid! Run while you can!",
-										"004": "You have goblins in your woods! Bunker down somewhere safe before they attack!"
+										"000": "V lesích jsou vlci! Utíkejte dokud ještě můžete!",
+										"001": "Copak neslyšíte vytí? V lese jsou goblinní vlci!",
+										"002": "Naše družina byla právě napadena gobliny! Prchejte!",
+										"003": "Tihle goblinní vlci nejsou jako normální vlci--oni jsou nebojácní, rychlí a... a krvelační! Utečte kdo můžete!",
+										"004": "Máte v lesích gobliny! Opevněte se na nějakeém bezpečném místě než na vás zaútočí!"
 									},
-									"bulletin_title": "Panting refugees appear on the horizon",
-									"dialog_title": "Refugee"
+									"bulletin_title": "Těžce oddechující uprchlíci se objevují na obzoru",
+									"dialog_title": "Uprchlík"
 								}
 							}
 						}
@@ -3236,24 +3236,24 @@
 							"dialog_nodes": {
 								"msg2": {
 									"bulletin_message": {
-										"00": "Congratulations are in order, if that's the sort of thing you care about. I've been up and down the area and it seems you've taken care of the bulk of the goblins around these parts! Not saying you won't see a straggler or two come to harass you, but good job, all in all."
+										"00": "Gratulace jsou na místě, jestli je to tedy to na čem ti záleží. Prošla jsem tuhle oblast křížem krážem a vypadát to, že jste to tu vyčistili od většiny goblinů! Neříkám, že neuvidíte nějakého zatoulaného, nebo i dva, kteří vás přijdou obtěžovat, ale dobrá práce, vzato kolem a kolem."
 									},
-									"bulletin_title": "The traveller shakes her head",
-									"dialog_title": "Grizzled Traveller"
+									"bulletin_title": "Cestovatelka potřásá hlavou",
+									"dialog_title": "Ošlehaná Cestovatelka"
 								},
 								"msg3": {
 									"bulletin_message": {
-										"00": "Here's a gift I've collected from some neighboring towns. Everyone's sleeping easier tonight because of you."
+										"00": "Tady máte dárek, který jsem vyzvedla v pár okolních městech. Díky vám dnes všichn mohou spát klidněji."
 									},
-									"bulletin_title": "The stranger nods firmly",
-									"dialog_title": "Grizzled Traveller"
+									"bulletin_title": "Cizinka rozohdně přikyvuje hlavou",
+									"dialog_title": "Ošlehaná Cestovatelka"
 								},
 								"msg1": {
 									"bulletin_message": {
-										"00": "Hello there? Anyone still home?"
+										"00": "Haló? Je pořád někdo doma?"
 									},
-									"bulletin_title": "The Grizzled Traveller Reappears",
-									"dialog_title": "Grizzled Traveller"
+									"bulletin_title": "Ošlehaná Cestovatelka se objevuje znovu",
+									"dialog_title": "Ošlehaná Cestovatelka"
 								}
 							}
 						}
@@ -3263,10 +3263,10 @@
 							"dialog_nodes": {
 								"msg1": {
 									"bulletin_message": {
-										"00": "Yip! Yip! AWOOOOOO!!!!!!!"
+										"00": "Haf! Haf! AÚÚÚÚÚÚ!!!!!!!"
 									},
-									"bulletin_title": "The wolves explode joyfully from the cages",
-									"dialog_title": "Escaping Wolves"
+									"bulletin_title": "Vlci nadšeně vyskakují z klecí",
+									"dialog_title": "Utíkající Vlci"
 								}
 							}
 						}
@@ -3276,23 +3276,23 @@
 							"dialog_nodes": {
 								"msg2": {
 									"bulletin_message": {
-										"00": "Tell my sheep... me loves her always..."
+										"00": "Řekněte mojí ovci... já jí navždy miluji..."
 									},
-									"bulletin_title": "[name(i18n_data.boss)] is Defeated!",
+									"bulletin_title": "[name(i18n_data.boss)] je Poražen!",
 									"dialog_title": "[name(i18n_data.boss)]"
 								},
 								"msg3": {
 									"bulletin_message": {
-										"00": "You no win. Ogo... coming. Soothsayer say... Ogo... crush everyone..."
+										"00": "Vy vyhrát ne. Ogo... přichází. Věštec říkat... Ogo... rozdrtit všechny..."
 									},
-									"bulletin_title": "[name(i18n_data.boss)] is Defeated!",
+									"bulletin_title": "[name(i18n_data.boss)] je Poražen!",
 									"dialog_title": "[name(i18n_data.boss)]"
 								},
 								"msg1": {
 									"bulletin_message": {
-										"00": "Ow...it hurts..."
+										"00": "Au...to bolí..."
 									},
-									"bulletin_title": "[name(i18n_data.boss)] is Defeated!",
+									"bulletin_title": "[name(i18n_data.boss)] je Poražen!",
 									"dialog_title": "[name(i18n_data.boss)]"
 								}
 							}
@@ -3300,12 +3300,12 @@
 					},
 					"goblin_raiding_camp_1": {
 						"boss": {
-							"display_name": "Chieftain [str(self.stonehearth:unit_info.custom_name)]",
+							"display_name": "Náčelník [str(self.stonehearth:unit_info.custom_name)]",
 							"description": "Me leen green fighting macheen!!!"
 						},
 						"sheep": {
-							"display_name": "Bluebell the Sheep",
-							"description": "The Chieftain's prized companion"
+							"display_name": "Ovečka Violka",
+							"description": "Náčelníkova ceněná společnice "
 						}
 					},
 					"shakedown": {
@@ -3313,45 +3313,45 @@
 							"dialog_nodes": {
 								"shakedown": {
 									"bulletin_message": {
-										"000": "Hahaha!! Your puny settlement now part of Glittering Territory! I deserve tribute of shinies!",
-										"001": "Human Peons! You no understand the might of the Glittering Army! You lucky to bow before me. Also, want some things to hold to at night; to sing me to sleep. ",
-										"002": "You got supplies? We take; we good. We have understanding?",
-										"003": "Hahahah, you the new kid in the great Red Territory. This means me less-new-kid take your lunch. Lunch metaphor.  You make for us. Or else.",
-										"004": "You dumb bok, me big Glittering Chieftain! Natural order mean you give me stuff and I no dees-tro-i you. Me want supplies. Understand?"
+										"000": "Chechecheché!! Váše mrňavá osada teď součást Třpytivého Teritoria! Zasloužím si dar ze zlata!",
+										"001": "Člověčí holoto! Vy rozumět ne moci Třpytivé Armády! Vy mít štěstí, že vy klanět přede mnou. Taky, chtít nějaké věci kterých se já v noci držet; aby mě uspávat. ",
+										"002": "Vy mít zásoby? My vzít; My bít v pohodě. Rozumět my si?",
+										"003": "Hahahahá, vy zelenáč ve velkém Červeném Teritoriu. To znamená já menší-zelenáč vzít tvůj oběd. Obědová metafora. Vy dělat pro nás. Nebo jinak...",
+										"004": "Ty hloupý blb, já velký Třpytivý Náčelník! Zákony přírody říkat, ty dát mi věci a já ne-zny-číí-t ty. Já chtít zásoby. Rozumět?"
 									},
-									"bulletin_title": "A goblin with a fancy hat swaggers into town",
+									"bulletin_title": "Goblin s naparáděným kloboukem si vykračuje k městu",
 									"dialog_title": "[name(i18n_data.boss)]"
 								},
 								"collection_due": {
 									"bulletin_message": {
-										"000": "Glittering Army returns! Where iz stuff?",
-										"001": "My stuff! Where iz?",
-										"002": "We back. You pay tribute now. Where iz?",
-										"003": "Me dreamed last night. In dream, you make me stuff; we like brothers only me no kill you. Got Stuff?",
-										"004": "Want stuff now. You make? We good! You no make? You die. We all friends!"
+										"000": "Třpytivá Armáda se vrací! Kde jzou věci?",
+										"001": "Moje věci! Kde jzou?",
+										"002": "My zpátky. Vy zaplatit poplatky teď. Kde jzou?",
+										"003": "Já snít minoulou noc. Ve snu, vy udělat mi věci; my jako bratři jen já zabít ne vás. Mít Věci?",
+										"004": "Chtít věci teď. Vy udělat? My bít v pohodě! Vy udělat ne? Vy umřít. My všichni přátelé!"
 									},
 									"bulletin_title": "The goblin stomps back into town",
 									"dialog_title": "[name(i18n_data.boss)]"
 								},
 								"collection_failed": {
 									"bulletin_message": {
-										"000": "You forgot stuff? You no make? You stain Glittering Army Honor! You die now!",
-										"001": "You dumb boks no make my stuff?! Dooooom!!! DOOM TO ALL!!!",
-										"002": "What? You no have my stuff? BLOOD, STABBITY, AND VEN-JENCE!",
-										"003": "Me want to be good chieftan. Me want to be friends! But you no listen. No. You no worthy. Me must kill you, then go home. Cry for could-have-been. You cry too, except you dead."
+										"000": "Vy zapomenout věci? Vy udělat ne? Vy plivnout na Čest Třpytivé Armády! Teď vy umřít!",
+										"001": "Vy hloupí blbci udělat ne moje věci?! Proklínááám!!! PROKLÍNÁÁÁM VÁS VŠECHNY!!!",
+										"002": "Cožéé? Vy mít ne moje věci? SEKAT, BODAT, POM-ŠTÍT!",
+										"003": "Já chtít bít dobrý náčelník. Já chtít být přítel! Ale vy poslouchat ne. Ne. Vy bít ne hodni. Já muset zabít vás, než jít domů. Brečet kvůli tomu-co-mohlo-být. Vy brečet taky, bít ne toho, že vy mrtví."
 									},
-									"bulletin_title": "The goblin frowns so hard you can't see his eyes",
+									"bulletin_title": "Goblin se mračí tak, že ani nejsou vidět jeho oči",
 									"dialog_title": "[name(i18n_data.boss)]"
 								},
 								"collection_success": {
 									"bulletin_message": {
 										"000": "That's right. You cooperate, we get along just fine.",
 										"001": "You actually have stuff? I never--I mean, yes. You give me due.",
-										"002": "You got supplies? We take; we good!",
-										"003": "For me?! You bestest of best peons!",
+										"002": "Vy mít zásoby? My vzít; my bít v pohodě!",
+										"003": "Pro mě?! Vy nejlepší z nejlepších, holoto!",
 										"004": "My stuff! I take home now and cuddle to sleep at night.",
 										"005": "Hahahahaha!!! Pretty stuff!! Beautiful stuff!! Mine mine mine!",
-										"006": "Stuff!! Me sheep be so happy.",
+										"006": "Věci!! Moje ovce bít nadšená.",
 										"007": "My stuff! Hahahah, you pretty good for peon. Be back soon!"
 									},
 									"bulletin_title": "The goblin grins like a kid on Frostfeast",
