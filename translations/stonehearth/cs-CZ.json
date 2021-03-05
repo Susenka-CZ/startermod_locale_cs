@@ -1415,7 +1415,7 @@
 					"gripe_empty": "Páni. Asi nikoho nenapadá nic, na co by si mohl stěžovat."
 				},
 				"networth": {
-					"town_description": "The [str(descriptor)] [str(noun)] of [str(town_name)]",
+					"town_description": "[str(descriptor)] [str(noun)] města [str(town_name)]",
 					"size": {
 						"camp": "Kemp",
 						"settlement": "Osada",
@@ -2883,7 +2883,7 @@
 								"pets_shop_2": {
 									"shop_info": {
 										"name": "Dinalijin Zvěřineček",
-										"title": "Krotitelka zvířata přijela na návštěvu se svým zvěřincem"
+										"title": "Trenérka zvířata přijela na návštěvu se svým zvěřincem"
 									}
 								},
 								"pets_shop_3": {
@@ -2968,7 +2968,7 @@
 					},
 					"returning_collector_encounter": {
 						"title": "Průzkumník přichází do tvého města.",
-						"trade_details": "Zdravím [str(i18n_data.town_name)]! Jsem průzkumník z velké dálky na východě, který jedná v nejrůznějších množstvích obchodu a . Nedávno jsem našel <strong>[str(i18n_data.reward_number)]x [str(i18n_data.reward_item)]</strong> jenom se povalující vedle cesty. Nejsem si jistý, kdo je tam nechal, ale jsou docela nápomocní při uklidu! Já pro ně nemám moc velké využití, ale v blízké vesnice říkali, že by potřebovali  <strong>[str(i18n_data.want_number)]x [str(i18n_data.want_item)]</strong>. Budo odpočívat někde poblíž po [str(i18n_data.num_days)] dny/i... Budeš pak mít zájem o obchod?",
+						"trade_details": "Zdravím [str(i18n_data.town_name)]! Jsem průzkumník z velké dálky na východě, který zabývá nejrůznějšími obchody a sbíraním věcí. Nedávno jsem našel <strong>[str(i18n_data.reward_number)]x [str(i18n_data.reward_item)]</strong> jenom se povalující vedle cesty. Nejsem si jistý, kdo je tam nechal, ale jsou docela nápomocní při uklidu! Já pro ně nemám moc velké využití, ale v blízké vesnice říkali, že by potřebovali  <strong>[str(i18n_data.want_number)]x [str(i18n_data.want_item)]</strong>. Budo odpočívat někde poblíž po [str(i18n_data.num_days)] dny/i... Budeš pak mít zájem o obchod?",
 						"waiting_title": "Průzkumník bude zpátky za [str(i18n_data.hour_counter)] [str(i18n_data.period)]!",
 						"waiting_text": "Průzkumník bude zpátky za [str(i18n_data.hour_counter)] [str(i18n_data.period)], aby ti dal <strong>[str(i18n_data.reward_number)]x [str(i18n_data.reward_item)]</strong>, pokud pro něj budeš mít připravené <strong>[str(i18n_data.want_number)]x [str(i18n_data.want_item)]</strong> !",
 						"return_title": "Průzkumník se vrací!",
@@ -3057,7 +3057,7 @@
 								},
 								"snooty_introduction": {
 									"choice_000": "Hmm.",
-									"choice_001": "Gagh!",
+									"choice_001": "Ha!",
 									"bulletin_message": {
 										"000": "Hola, mrňavé městečko! Mám tady pro vás špatnou novinu!",
 										"001": "Mrňavé Městečko! Ukloň se a třes se!",
@@ -3345,34 +3345,34 @@
 								},
 								"collection_success": {
 									"bulletin_message": {
-										"000": "That's right. You cooperate, we get along just fine.",
-										"001": "You actually have stuff? I never--I mean, yes. You give me due.",
+										"000": "Tak je to správně. Vy spolupracovat, My spolu vycházet dobře.",
+										"001": "Vy opravdu mít věci? Já nikdy--Já chtít říct, dobře. Ty dát mi to co mi náležet.",
 										"002": "Vy mít zásoby? My vzít; my bít v pohodě!",
 										"003": "Pro mě?! Vy nejlepší z nejlepších, holoto!",
-										"004": "My stuff! I take home now and cuddle to sleep at night.",
-										"005": "Hahahahaha!!! Pretty stuff!! Beautiful stuff!! Mine mine mine!",
+										"004": "Moje věci! Já vzít je hned domů a přitulit k nim se až v noci spát.",
+										"005": "Chachachachá!!! Krásné věcičky!! Překrásné věcičky!! Moje. Moje! Moje!!",
 										"006": "Věci!! Moje ovce bít nadšená.",
-										"007": "My stuff! Hahahah, you pretty good for peon. Be back soon!"
+										"007": "Moje věci! Hahahá, vy docela dobrý, na to jaká vy bít holota. Brzy se vrátit zpátky!"
 									},
-									"bulletin_title": "The goblin grins like a kid on Frostfeast",
+									"bulletin_title": "Goblin je šťastný jako dítě o Mráznocích",
 									"dialog_title": "[name(i18n_data.boss)]"
 								},
 								"collection_progress": {
 									"bulletin_message": {
-										"000": "Me back soon for stuff. Better have it, or no good for you, little hearthling."
+										"000": "Já se brzy vrátit pro věci. Radši je mějte připravené, nebo vás to bude mrzet, malí hearthlingové."
 									},
-									"bulletin_title": "Satisfy the Goblins",
+									"bulletin_title": "Uspokoj Gobliny",
 									"dialog_title": "[name(i18n_data.boss)]"
 								},
 								"shakedown_refused": {
 									"bulletin_message": {
-										"000": "What? You say no? Then we take! TAKE ALL THINGS!!!!",
-										"001": "No no no. You supposed to say 'Yes.' You supposed to feel grateful! Try again? No? Bad! Me fix badness!",
-										"002": "No? Me brain breaking!! Me break you!",
-										"003": "What? Cannot believe?! Must kill!!!",
-										"004": "You no understand. Alternative: Death. Deeeaaaattth. DEAAATTTTTHHH!!!"
+										"000": "Cožé? Ty říkat ne? Tak to my si vzít vše! SEBERTE JIM VŠECHNO!!!!",
+										"001": "Ne, ne ne. Vy máte říct 'Ano.' Vy máte být vděční! Zkusíme to znovu? Ne? Chyba! Já opravovat chyby!",
+										"002": "Ne? Mě zavařuje se mozek!! Já zavařit vám!!!",
+										"003": "Cože? Nemoct uvěřit?! Muset zabít!!!",
+										"004": "Vy rozumět ne. Alternativa: Smrť. Smmmrrrrrtttť. SMMRRRRTTTTŤ!!!"
 									},
-									"bulletin_title": "The goblin looks incredulous",
+									"bulletin_title": "Goblin nevěřícně zírá",
 									"dialog_title": "[name(i18n_data.boss)]"
 								}
 							}
@@ -3382,8 +3382,8 @@
 						"missions": {
 							"raid_stockpiles": {
 								"sighted_bulletin": {
-									"title": "A goblin raiding party approaches!",
-									"message": "Gonna get you!"
+									"title": "Goblinní nájezdnická tlupa se blíží!",
+									"message": "Jdou si pro tebe!"
 								}
 							}
 						}
@@ -3392,8 +3392,8 @@
 						"missions": {
 							"raid_stockpiles": {
 								"sighted_bulletin": {
-									"title": "A thief!",
-									"message": "Shhhh, you're not supposed to be able to see him."
+									"title": "Zloděj!",
+									"message": "Pšššt, neměl by jsi ho vidět."
 								}
 							}
 						}
@@ -3402,8 +3402,8 @@
 						"missions": {
 							"raid_stockpiles": {
 								"sighted_bulletin": {
-									"title": "A goblin raiding party approaches!",
-									"message": "Gonna get you!"
+									"title": "Goblinní nájezdnická tlupa se blíží!",
+									"message": "Jdou si pro tebe!"
 								}
 							}
 						}
@@ -3415,23 +3415,23 @@
 									"create_scout_camp": {
 										"campfire": {
 											"campfire": {
-												"display_name": "Hypnotic Campfire",
-												"description": "But... what makes it green?"
+												"display_name": "Hypnotizující Táborák",
+												"description": "Ale... co způsobuje, že je zelený?"
 											},
 											"workers": {
-												"description": "Firekeeper"
+												"description": "Ohnivec"
 											}
 										},
 										"goblin_tent": {
 											"tent": {
-												"display_name": "Wolf Trainer Tent",
-												"description": "Full of improbable makeshift devices."
+												"display_name": "Stan Krotitele Vlků",
+												"description": "Plný neuvěřitelných provizorních zařízení."
 											}
 										},
 										"wolf_cage": {
 											"wolf_cage": {
-												"display_name": "Wolf Cage",
-												"description": "Property of Ogo Skullbonker"
+												"display_name": "Vlčí Klec",
+												"description": "Majetek Oga Lebkomlátiče"
 											},
 											"trainer": {
 												"description": "Whips the wolves into a dangerous frenzy"
