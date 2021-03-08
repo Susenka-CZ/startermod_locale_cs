@@ -3921,18 +3921,18 @@
 												"collection_due": {
 													"bulletin_message": {
 														"000": "Névratíš zpátky děti lesa? Nepatří totiž do tvých beden a hromad cetek. Vyhovění této žádosti bude odměněno.",
-														"001": "Hundreds of great oaks and junipers have been cut down to satiate the greed of humans. Our patience wears thin. I ask of you, return them to the homeland.",
-														"002": "Return our logs and help restore the natural balance of the great woodlands. I cannot guarantee your safety if you refuse.",
-														"003": "Our wilderness has been sacrificed for your lifestyle of excess. We will give you a chance to return our logs. I suggest you heed my warning.."
+														"001": "Stovky krásných dubů a jalovců padly k zemi aby nasytili chamtivé lidi. Naše trpělivost je už skoro vyčerpaná. Žádám tě, vrať je zpátky tam kam paří - do lesa.",
+														"002": "Vrať naše dřevo a pomož navrátit přírodní rovnováhu do této úžasné lesní krajiny. Nemůžu zaručit, že budeš v bezpečí pokud odmítneš .",
+														"003": "Naše divočina byla obětována vašemu neumírněnému životnímu stylu. Dáme vám šanci vrátit naše dřevo. Radím vám, vemete si mé varování k srdci.."
 													},
 													"bulletin_title": "Ent má požadavek.",
 													"dialog_title": "Ent"
 												},
 												"collection_failed": {
 													"bulletin_message": {
-														"000": "I am deeply disappointed... I would suggest you prepare yourselves. The minions of the forest speak of an invasion."
+														"000": "Jsem hluboce zklamaný... Doporučil bych ti ať se připravíš. Stážci lesa mluví o invazi."
 													},
-													"bulletin_title": "The Ent furrows his brow"
+													"bulletin_title": "Ent svraští čelo"
 												},
 												"collection_success": {
 													"bulletin_message": {
@@ -3943,17 +3943,17 @@
 												},
 												"introduction": {
 													"bulletin_message": {
-														"000": "Greetings, humans of [str(i18n_data.town_name)]. I have come to warn you of the growing unrest within these forests.",
-														"001": "Silently, we have been watching.. since even before the fall of Firebird. Why? To protect. Our trees. Our saplings. Our woods."
+														"000": "Buďte podraveni, lidé z městečka [str(i18n_data.town_name)]. Přišel jsem vás varovat o vzrůstajícím neklidu v těchto lesích.",
+														"001": "Tiše, jsme vás pozorovali.. už před pádem Ptáka Ohniváka. Proč? Abychom chránili. Naše stromy. Naše semenáčky. Naše lesy."
 													},
-													"bulletin_title": "A large tree-like figure approaches.",
+													"bulletin_title": "Velká stromovitá postava přichází.",
 													"dialog_title": "Ent"
 												},
 												"revenge": {
 													"bulletin_message": {
-														"000": "We will be taking these back."
+														"000": "Vezmeme si tyhle věci zpět"
 													},
-													"bulletin_title": "A horde of entlings escape with your logs!",
+													"bulletin_title": "Houf entlingů utíká s tvými špalky!",
 													"dialog_title": "Ent"
 												}
 											}
@@ -3964,11 +3964,11 @@
 											"dialog_nodes": {
 												"simple_message": {
 													"bulletin_message": {
-														"000": "Here, take this as a token of our gratitude."
+														"000": "Tady máš, ber to jako projev naší vděčnosti."
 													},
-													"bulletin_title": "Entlings carrying loot scurry toward you",
+													"bulletin_title": "Entlingové nesoucí kořist cupitají směrem k tobě",
 													"dialog_title": "Ent",
-													"choice_000": "Thanks!"
+													"choice_000": "Díky!"
 												}
 											}
 										}
@@ -3976,7 +3976,7 @@
 									"ent_wrath": {
 										"mission": {
 											"sighted_bulletin": {
-												"title": "An angry entling army approaches!"
+												"title": "Armáda naštvaných entlingů se blíží!"
 											}
 										}
 									}
@@ -3995,30 +3995,30 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": " The Red Kiln believes that advancement can only come from conflict between equals. The Khan is no longer. And where one falls, those stronger and more cunning will rise."
+														"00": "Červená Pec věří, že pokrok může vzejít pouze z střetu mezi sobě rovnými. Chán už tu není. A tam kde jeden padne, ti silnější a mazanější povstanou."
 													},
-													"bulletin_title": "Warchief Oghar Norwind",
-													"dialog_title": "Warchief Oghar Norwind"
+													"bulletin_title": "Vojvoda Oghar Severák",
+													"dialog_title": "Vojvoda Oghar Severák"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "You there. Erdene told me of you. She said you defeated Ogo Skullbonker."
+														"00": "Hej ty tam. Erdene mi o tobě říkala. Říkala, že jsi porazil Oga Lebkomlátiče."
 													},
-													"bulletin_title": "An orcish warchief approaches your town",
-													"dialog_title": "Warchief Oghar Norwind",
-													"choice_000": "Yes, that's me",
-													"choice_001": "What's it to you?"
+													"bulletin_title": "Orkský vojvoda přichází do tvého města",
+													"dialog_title": "Vojvoda Oghar Severák",
+													"choice_000": "Ano, to jsem já",
+													"choice_001": "Co je ti po tom?"
 												},
 												"msg4": {
 													"bulletin_message": {
-														"00": "The age of one Khan is over, but new light seeps from the horizon. We do as Cid bade and respect the mark of the Four Colors. Place a Scout Gong, smelted by your metal worker, in your territory to mark your readiness for battle."
+														"00": "Doba jednoha Chána skončila, ale nové světlo vychází za obzorem. Dodržujeme to co Cid přikázal a respektujeme tedy znamení Čtyř Barev. Umísti Gong Zvědů, vytavený tvým zpracovatelem kovů a umísti ho na svém území. Tím ukážeš, že si připraven k boji."
 													}
 												},
 												"msg3": {
 													"bulletin_message": {
-														"00": "Now that I am here, I see you are not yet worthy to face even the least of my camp chiefs. In your eyes flame not the lust for mastery!"
+														"00": "Teď když tu stojím, vidím, že zatím nejsi hoden postavit se třeba i poslednímu z mých náčelníků kempů. Ve tvých očích chybí plamen touhy po mistrovství !"
 													},
-													"choice_000": "How rude!"
+													"choice_000": "Jak nezdvořilé!"
 												}
 											}
 										}
@@ -4028,38 +4028,38 @@
 											"dialog_nodes": {
 												"msg3": {
 													"bulletin_message": {
-														"00": "You ask why? We offer to great Goddess Khulgana! Bring great riches after life. Now you know, you need give us treasure!"
+														"00": "Ty ptát se proč? My dát oběť velké Bohyni Khulganě! Přinést velké bohatství do posmrtného života. Teď ty vědět, ty potřebovat nám dát poklad!"
 													},
-													"bulletin_title": "Kobold Scout",
-													"dialog_title": "Kobold Scout",
-													"choice_000": "Nah"
+													"bulletin_title": "Koboldí Zvěd",
+													"dialog_title": "Koboldí Zvěd",
+													"choice_000": "Nope"
 												},
 												"msg4": {
 													"bulletin_message": {
-														"000": "You no give shinies?! We take!!!",
-														"001": "Ha, we was just testing you! Of course we strong enough to take!",
-														"002": "We take all gold! We revenge for hat melting!!"
+														"000": "Ty ne dát zlaťáky?! My vzít!!!",
+														"001": "Ha, jsme tě jen zkoušeli! Samozřejmě že my bít dost silní na to si vzít!",
+														"002": "My vzít všechno zlato! My pomstít se za to roztavení čepice!!"
 													},
-													"bulletin_title": "Kobold Scout",
-													"dialog_title": "Kobold Scout",
+													"bulletin_title": "Koboldí Zvěd",
+													"dialog_title": "Koboldí Zvěd",
 													"choice_000": "Ok"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"000": "Grek!! You notice me?",
-														"001": "Oo shinies! Gong! Emerald!"
+														"000": "Aj!! Ty všimnout si mě?",
+														"001": "Óó zlaťáky! Gong! Smaragd!"
 													},
-													"bulletin_title": "A kobold stares longingly at your piles of gold.",
-													"dialog_title": "Kobold Scout",
-													"choice_000": "What are you doing?"
+													"bulletin_title": "Kobold dlouze zírá na tvé hromady zlata.",
+													"dialog_title": "Koboldí Zvěd",
+													"choice_000": "Co to děláš?"
 												},
 												"msg2": {
 													"bulletin_message": {
-														"000": "We see you many treasures in piles and boxes. Us need many, many loots. You share, yes?"
+														"000": "My vidět ty hodně pokladů na hromadách a v bednách. My potřebovat velkou, velkou kořist. Ty sdílet, jo?"
 													},
-													"bulletin_title": "Kobold Scout",
-													"dialog_title": "Kobold Scout",
-													"choice_000": "Why do you need so much loot?"
+													"bulletin_title": "Koboldí Zvěd",
+													"dialog_title": "Koboldí Zvěd",
+													"choice_000": "Proč potřebujete tak velkou kořist?"
 												}
 											}
 										}
@@ -4069,10 +4069,10 @@
 											"dialog_nodes": {
 												"msg1": {
 													"bulletin_message": {
-														"00": "Us.. too weak.. Put out Elite Gong if you dares.."
+														"00": "My.. moc slabí.. Vyndej Elitní Gong jestli si troufáš.."
 													},
-													"bulletin_title": "The Kobold Scout whimpers on the ground",
-													"dialog_title": "Kobold Scout"
+													"bulletin_title": "Koboldí zvěd fňuká na podlaze",
+													"dialog_title": "Koboldí Zvěd"
 												}
 											}
 										}
