@@ -2,7 +2,7 @@
 # :czech_republic: Český překlad hry Stonehearth :czech_republic:
 
 #### :uk: For English speaking people: :uk:
-This is repository for Czech translation of game called Stonehearth. If you want to know more about it write me on discord (Susenka#0833) <br/>
+This is repository for Czech translation of game called Stonehearth. If you want to know more about it send me message on discord (Susenka#0833) <br/>
 
 ## :czech_republic: Pro Čechy (Případně Slováky)
 V tomhle repozitáři se nachází český překlad hry stonehearth včetně implementace různých fontů, tak aby podporovaly české znaky.
@@ -14,10 +14,12 @@ Pokud se chceš přidat do překladatelského týmu, budeme jedině rádi. Vůbe
 
 Pokud tedy máš zájem napiš mi zprávu na discordu Susenka#0833 (případně mě můžeš najít na serveru [Stonehearth - ACE](https://discord.gg/8dxCsqB)), nebo pokud nepoužíváš discord, můžeš mi napsat na [steamu](https://steamcommunity.com/id/susenak/).
 
-## Současný stav překladu (Aktualizováno 22.2.2021)
+## Současný stav překladu (Aktualizováno 7.3.2021)
+Pokud si budete překlad stahovat přímo z tohoto repozitáře nezapomeňte smazat složku gitu :)
+
 - [x] :heavy_check_mark: Základní nastavení češtiny, tak aby se dala spustit
 - [x] :heavy_check_mark: Úprava herních fontů, tak aby podporovali češtinu
-- [ ] :construction: Základní hra (Ascendancy) **_Dokončeno_ 20%**
+- [ ] :construction: Základní hra (Ascendancy) **_Dokončeno_ 29%**
 - [ ] RaRayya's Children
 - [ ] Northern Alliance
 - [ ] ACE
