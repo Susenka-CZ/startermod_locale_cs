@@ -788,14 +788,14 @@
 						"party_1": {
 							"display_name": "Bojová Četa 1",
 							"description": "Veď hearthlingy s bojovými povoláními do bitvy! Sem jsou automaticky přidány povýšené bojové jednotky.",
-							"tip_title": "The party is selected in the unit frame.",
-							"tip_description": "Use the commands in the unit frame to direct the people in the party."
+							"tip_title": "Četa je vybrána v okně jednotky.",
+							"tip_description": "Použij rozkazy v okně jednotky pro řízení lidí v této četě."
 						},
 						"party_2": {
 							"display_name": "Bojová Četa",
-							"description": "Direct hearthlings with combat jobs into battle! Use the unit frame controls to manage the party.",
-							"tip_title": "The party is selected in the unit frame.",
-							"tip_description": "Use the commands in the unit frame to direct the people in the party."
+							"description": "Řiď hearthlingy s bojovými povoláními do bitvy! Použij ovládací prvky v okně jednotky pro správu čety.",
+							"tip_title": "Četa je vybrána v okně jednotky.",
+							"tip_description": "Použij rozkazy v okně jednotky pro řízení lidí v této četě."
 						},
 						"party": {
 							"required_job_text": "Vyžaduje bojové povolání"
@@ -1535,7 +1535,7 @@
 					"003": "syntetizuji faunu...",
 					"004": "přerozděluji přerozdělitele...",
 					"005": "terasuji terén...",
-					"006": "zásobím hromady...",
+					"006": "hromadím hromady...",
 					"007": "nafukuji stromy...",
 					"008": "vycházím slunce...",
 					"009": "vznáším mraky...",
@@ -1546,7 +1546,7 @@
 					"014": "kostkuji společenství...",
 					"015": "existencializuji dilemata...",
 					"016": "improvizuji mravy...",
-					"017": "splining reticulators..",
+					"017": "rozpojuji spojovače...",
 					"018": "odlišuji pohlaví...",
 					"019": "sjednocuji motivaci...",
 					"020": "odvozuji historii...",
@@ -1875,7 +1875,7 @@
 				"exit": "Konec",
 				"settings": "Nastavení",
 				"about": "O Hře",
-				"kingdom_of": "The Settlement of",
+				"kingdom_of": "Toto jest Osídlení",
 				"continue_game": "Pokračovat",
 				"new_game": "Nová Hra",
 				"singleplayer_game": "Hra Jednoho Hráče",
@@ -3138,7 +3138,7 @@
 									"choice_000": "Wow!!",
 									"choice_001": "To zní zlověstně.",
 									"bulletin_message": {
-										"000": "Vy moc vtipní. Protože my přátelé, já říct vám: Ogo dost super. Trochu zlý. Jednou sníst štěně. Ale... věštec říkat, že on předurčený! Určený k  dupaní po všech! Já jen malý pívo, víte? Nicméně vy menší. Každopádně."
+										"000": "Vy moc vtipní. Protože my přátelé, já říct vám: Ogo dost super. Trochu zlý. Jednou sníst štěně. Ale... věštec říkat, že on předurčený! Určený k dupaní po všech! Já jen malý pívo, víte? Nicméně vy menší. Každopádně."
 									},
 									"bulletin_title": "Goblin se směje",
 									"dialog_title": "[name(i18n_data.boss)]"
@@ -3330,7 +3330,7 @@
 										"003": "Já snít minoulou noc. Ve snu, vy udělat mi věci; my jako bratři jen já zabít ne vás. Mít Věci?",
 										"004": "Chtít věci teď. Vy udělat? My bít v pohodě! Vy udělat ne? Vy umřít. My všichni přátelé!"
 									},
-									"bulletin_title": "The goblin stomps back into town",
+									"bulletin_title": "Goblin vdupe zpátky do města",
 									"dialog_title": "[name(i18n_data.boss)]"
 								},
 								"collection_failed": {
@@ -3675,7 +3675,7 @@
 											"dialog_nodes": {
 												"goblin_boss_notices": {
 													"bulletin_message": {
-														"000": "Cože? Human town dare display goblin honor token?! Retributioooooonnnn!!!!"
+														"000": "Cože? Člověčí město si troufá vystavit goblinský odznak cti?! Pomstttttaaaaaaaaa!!!!"
 													},
 													"bulletin_title": "Další Troubení Goblinního Rohu",
 													"dialog_title": "Goblinní Rváči"
@@ -4082,29 +4082,29 @@
 											"dialog_nodes": {
 												"msg3": {
 													"bulletin_message": {
-														"00": "We contractors. We make camp. Orc pay us. Those orc obsess with honor, politics, finding new Khan. Soon enough, they send orc army here and we need clean up again."
+														"00": "My dodavatelé. My udělat kemp. Orkové nás platit. Tihle orkové bít posedlí ctí, politikou a hledáním nového Chána. Brzy, oni sem poslat orkskou armádu a my muset čistit znova"
 													},
-													"bulletin_title": "Camp goblin",
-													"dialog_title": "Camp goblin",
-													"choice_000": "I see"
+													"bulletin_title": "Goblin z kempu",
+													"dialog_title": "Goblin z kempu",
+													"choice_000": "Chápu"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "You recognize? ...No, me don't know you. You saying us all look same?!"
+														"00": "Ty rozpoznat? ...Ne, já tě znát ne. Ty říkat my všichni vypadat stejně?!"
 													},
-													"bulletin_title": "Some familiar looking goblins begin building huts near your town",
-													"dialog_title": "Camp goblin",
-													"choice_000": "Maybe",
-													"choice_001": "No?"
+													"bulletin_title": "Několik povědomě vypadajících goblinů začíná stavět chatrče blízko tvého města",
+													"dialog_title": "Goblin z kempu",
+													"choice_000": "Možná",
+													"choice_001": "Ne?"
 												},
 												"msg2": {
 													"bulletin_message": {
-														"000": "You lucky us busy! What we doing? We building huts. Set up camp.",
-														"001": "....We busy, so we ignore and go back to setting up camp."
+														"000": "Ty štěstí my zaneprázdnění! Co my děláme? My stavím chatrče. Sakládáme kemp.",
+														"001": "....My zaneprázdnění, takže my ignorovat a vrátit se zpátky k zakládání kempu."
 													},
-													"bulletin_title": "Camp goblin",
-													"dialog_title": "Camp goblin",
-													"choice_000": "Why?"
+													"bulletin_title": "Goblin z kempu",
+													"dialog_title": "Goblin z kempu",
+													"choice_000": "Proč?"
 												}
 											}
 										}
@@ -4114,49 +4114,49 @@
 											"dialog_nodes": {
 												"shakedown": {
 													"bulletin_message": {
-														"000": "Oh! Me think of great idea! You pay us instead and we make so no orc come! You just need give us some few treasures. You win, me win, both win."
+														"000": "Och! Já přemýšlet o skvělém nápadu! Ty zaplatit nás místo nich, a my zařídit, že orkové nepřijít! Ty jen potřebovat nám dát nějaké poklady. Ty vyhrát, já vyhrát, oba vyhrát."
 													},
-													"bulletin_title": "The goblin's beady little eyes light up",
-													"dialog_title": "Camp goblin"
+													"bulletin_title": "Goblinova malá prasečí očka se rozsvítila",
+													"dialog_title": "Goblin z kempu"
 												},
 												"collection_due": {
 													"bulletin_message": {
-														"000": "We backs! Where is our shiny loots??"
+														"000": "My zpjet! Kde je naše blýskavá kořist??"
 													},
-													"bulletin_title": "A pack of goblins lazily slog into back into town",
-													"dialog_title": "Camp goblin"
+													"bulletin_title": "Houf goblinů se líně pachtí zpátky do města",
+													"dialog_title": "Goblin z kempu"
 												},
 												"collection_failed": {
 													"bulletin_message": {
-														"000": "What? You change mind? ... You humans so inconsiderate of our time. Now we need call back dumb bok orcs and take pay cut.",
-														"001": "No has?? We has family you knows! You waste our time! We tell orcs give you no mercy!"
+														"000": "Cože? Ty se rozmyslet? ... Vy lidé tak nehodní našeho času. Teď my muset zase zavolat pitomé orky a získat část výplatního podílu.",
+														"001": "Ne má?? My má rodinu ty ví! Ty mrhat náš čas! My říct orkům ať s vámi nemít slitování!"
 													},
-													"bulletin_title": "The goblin frowns",
-													"dialog_title": "Camp goblin"
+													"bulletin_title": "Goblin se mračí",
+													"dialog_title": "Goblin z kempu"
 												},
 												"collection_success": {
 													"bulletin_message": {
-														"000": "Shinies! Supplies! Maybe this job even better than work for Chieftain. Thanks, human. If you up to it, put out red Master Gong. Ogre take red token as challenge.",
-														"001": "You that scared of orc boks? Well, good for me! Don't put out red Gong or even bigger, dumber boks might come.",
-														"002": "Stuffs!! You should hire we full-time. You ask what we do for you? ..We can discuss in contract. Maybe you need us if you display Master Gong and giant ogre bok come.",
-														"003": "You give good stuffs! Me wolf will be so happy! Have you met ogre chief yet? They like color red. Like on Gong. Ask you blacksmith."
+														"000": "Zlaťáky! Zásoby! Možná tahle práce i lepší než pracovat pro Náčelníka. Díky, člověče. Jestli se na to budete cítit, vyndejte červený Gong Mistrů. Zlobr brát červenou jako výzvu.",
+														"001": "Ty tak bát orkských bouchačů? No, dobře pro mě! Nevyndavej červený Gong nebo bi mohli přijít větší pitomější bouchači.",
+														"002": "Věcičky!! Ty bys my měl najmout na plný úvazek. Ty ptát co my pro tebe dělat? ..My moci domluvit ve smlouvě. Možná ty nás potřebovat jestli ty vystavit Gong Mistrů a velký zlobr přijít.",
+														"003": "Ty dát dobré věci! Moje vlk bít velmi šťastný! Už ty potkat náčelníka zlobrů? Oni mít rádi červenou barvu. Třeba na Gongu. Ty zeptat svůj kovář."
 													},
-													"bulletin_title": "The goblin flashes a toothy grin",
-													"dialog_title": "Camp goblin"
+													"bulletin_title": "Goblin se nasadí zubatý škleb",
+													"dialog_title": "Goblin z kempu"
 												},
 												"collection_progress": {
 													"bulletin_message": {
-														"000": "You agree pay? Good, make us life easier. We come back later for stuffs. We take nap now..."
+														"000": "Ty souhlasit s platbou? Dobře, usnadníš nás život. My vrátit se později pro věci. My si teď dát šlofíka..."
 													},
-													"bulletin_title": "Satisfy the goblins (again)",
-													"dialog_title": "Camp goblin"
+													"bulletin_title": "Uspokoj gobliny (znovu)",
+													"dialog_title": "Goblin z kempu"
 												},
 												"shakedown_refused": {
 													"bulletin_message": {
-														"000": "You no want pay? Ok. Make little difference for us. Watch, for orc army come soon."
+														"000": "Ty ne chtít platit? Ok. Nám na tom nezáleží. Pozorně sleduj, armáda orků přijít brzy."
 													},
-													"bulletin_title": "The goblin frowns",
-													"dialog_title": "Camp goblin"
+													"bulletin_title": "Goblin se mračí",
+													"dialog_title": "Goblin z kempu"
 												}
 											}
 										}
@@ -4166,19 +4166,19 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "Your precious Cid Treaty can't protect you now, foolish humans!"
+														"00": "Vaše drahocená Cidova Smlouva vás teď už neochrání, pošetilí lidé!"
 													},
-													"bulletin_title": "Ogre chief",
-													"dialog_title": "Ogre chief",
-													"choice_000": "Bring it on"
+													"bulletin_title": "Zlobří šéf",
+													"dialog_title": "Zlobří šéf",
+													"choice_000": "\nJen do toho.\n"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "Puny town! You mount mark of Ruby! You dare challenge me, Chief Grut Bashbrain?!"
+														"00": "Mrňavé městečko! Vy vztyčit znamení Rubínu! Vy si troufáte vyzvat mě, Šéfa Gruta Mozkodrtě?!"
 													},
-													"bulletin_title": "An ogre stomps into town",
-													"dialog_title": "Ogre chief",
-													"choice_000": "You don't scare me!"
+													"bulletin_title": "Zlobr vdupe do města",
+													"dialog_title": "Zlobří šéf",
+													"choice_000": "\nMě nevyděsíš!\n"
 												}
 											}
 										}
@@ -4188,10 +4188,10 @@
 											"dialog_nodes": {
 												"msg1": {
 													"bulletin_message": {
-														"00": "Don't get arrogant puny humans! Brethren from capital await to test their might. Any town bearing the General's Gong will not be unheeded!"
+														"00": "Nezačněte být arogantní, mrňavý človíčkové! Krajani z hlavního města čekají aby mohli otestovat svoji sílu. Jakékoliv město bearing Vojevůdcův Gong nezůstane nepovšimnuté!"
 													},
-													"bulletin_title": "The ogre chief shakes his fist angrily",
-													"dialog_title": "Chief Grut Bashbrain"
+													"bulletin_title": "Šéf zlobrů naštvaně hrozí pěstí",
+													"dialog_title": "Šéf Grut Mozkodrť"
 												}
 											}
 										}
@@ -4201,18 +4201,18 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "That being said, we too are not to be underestimated. We have fought more beasts and creatures than your settlement could even conceive of. I look forward to our fight."
+														"00": "Jak už bylo řečeno, my bychom také neměli být podceňováni. My bojovali s tolika šelmami a stvůrami, že si to ani neumíte představit. Těším se na náš boj."
 													},
-													"bulletin_title": "Orc troop",
-													"dialog_title": "Orc troop"
+													"bulletin_title": "Jednotka orků",
+													"dialog_title": "Jednotka orků"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "So long it has been since we have seen the Purple Glimmer of a General's token. The Red Kiln would stand to benefit from fighting more foes such as yourself."
+														"00": "Je to tak dávno co jsme naposled viděli Purpurový Záblesk Vojevůdcova odznaku. Červené Peci by prospělo bojování s více nepráteli jako jste vy."
 													},
-													"bulletin_title": "A troop of orcs walk towards you in perfect synchrony",
-													"dialog_title": "Orc troop",
-													"choice_000": "Thank you"
+													"bulletin_title": "Jednotka orků pochoduje k tobě v dokonalé synchronizaci",
+													"dialog_title": "Jednotka orků",
+													"choice_000": "Děkuji vám"
 												}
 											}
 										}
@@ -4222,27 +4222,27 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "For us, there are many roads for advancement. This is but one, yet fruitful in itself."
+														"00": "Pro nás, je zde mnoho cest vedoucích k pokroku. Tohle je jen jedna z nich, avšak zdá se býti vcelku úrodnou."
 													},
-													"bulletin_title": "Orc troop",
-													"dialog_title": "Orc troop",
-													"choice_000": "Huh?"
+													"bulletin_title": "Jednotka orků",
+													"dialog_title": "Jednotka orků",
+													"choice_000": "Co?"
 												},
 												"msg3": {
 													"bulletin_message": {
-														"00": "Perhaps you would not understand what fortuity this experience has given us, in this period of political upheaval. But that matters not. The Warchief will wish to meet you again. For now, I bid you well, human."
+														"00": "Možná ani nepochopíš jakou šťastnou náhodou, v této politicky nejisté době, je pro nás tahle zkušenost. Ale na tom ne záleží. Vojvoda se s tebou bude chtít znovu setkat. Prozatím, se měj dobře, člověče."
 													},
-													"bulletin_title": "Orc troop",
-													"dialog_title": "Orc troop",
-													"choice_000": "Bye"
+													"bulletin_title": "Jednotka orků",
+													"dialog_title": "Jednotka orků",
+													"choice_000": "Čau"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "I commend you on your victory. You have proven yourself a skilled and honorable foe."
+														"00": "Chválím tě za tvé vítězství. Ukázal jsi se jako zručný a čestný nepřítel."
 													},
-													"bulletin_title": "The orc respectfully bows at the outcome of the battle",
-													"dialog_title": "Orc troop",
-													"choice_000": "Thanks"
+													"bulletin_title": "Ork zdvořile poklekne na závěr bitvy",
+													"dialog_title": "Jednotka orků",
+													"choice_000": "Díky"
 												}
 											}
 										}
@@ -4254,15 +4254,15 @@
 													"bulletin_message": {
 														"00": "The defeat of my chiefs and warriors demands from us recognition of your strength. Let us contend in battle and the greater of equals shall come forth with honor and valiance."
 													},
-													"bulletin_title": "Warchief Oghar Norwind",
-													"dialog_title": "Warchief Oghar Norwind"
+													"bulletin_title": "Vojvoda Oghar Severák",
+													"dialog_title": "Vojvoda Oghar Severák"
 												},
 												"msg1": {
 													"bulletin_message": {
 														"00": "As I predicted, fate brings us together once more."
 													},
 													"bulletin_title": "Warchief Oghar Norwind strides towards you with fearless bravado",
-													"dialog_title": "Warchief Oghar Norwind"
+													"dialog_title": "Vojvoda Oghar Severák"
 												}
 											}
 										}
@@ -4274,15 +4274,15 @@
 													"bulletin_message": {
 														"00": "I now return home. Word comes to me that, bereft of our Khan's wisdom, our shaman have delved into dark things, long forgotten. They think the mistakes of the past do not apply to them, and I fear for what they may do."
 													},
-													"bulletin_title": "Warchief Oghar Norwind",
-													"dialog_title": "Warchief Oghar Norwind"
+													"bulletin_title": "Vojvoda Oghar Severák",
+													"dialog_title": "Vojvoda Oghar Severák"
 												},
 												"msg2": {
 													"bulletin_message": {
 														"00": "There are still those in my ranks who believe you weak. They will honor the Accord, but put out any gong of the Four Colors and they will gladly return to meet your challenge."
 													},
-													"bulletin_title": "Warchief Oghar Norwind",
-													"dialog_title": "Warchief Oghar Norwind",
+													"bulletin_title": "Vojvoda Oghar Severák",
+													"dialog_title": "Vojvoda Oghar Severák",
 													"choice_000": "Bring it on!",
 													"choice_001": "We should remove those..."
 												},
@@ -4291,7 +4291,7 @@
 														"00": "It seems Erdene was right about you, after all. I acknowledge your claim to this land, under Knight Cid's Accord, by your proven strength. We Orcs care only that the land is held secure against the wild and the evil. You have proven yourself worthy of the task."
 													},
 													"bulletin_title": "The warchief nods humbly",
-													"dialog_title": "Warchief Oghar Norwind",
+													"dialog_title": "Vojvoda Oghar Severák",
 													"choice_000": "We protect what's ours."
 												}
 											}
