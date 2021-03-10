@@ -19,7 +19,7 @@ Pokud si budete překlad stahovat přímo z tohoto repozitáře nezapomeňte sma
 
 - [x] :heavy_check_mark: Základní nastavení češtiny, tak aby se dala spustit
 - [x] :heavy_check_mark: Úprava herních fontů, tak aby podporovali češtinu
-- [ ] :construction: Základní hra (Ascendancy) **_Dokončeno_ 29%**
+- [ ] :construction: Základní hra (Ascendancy) **_Dokončeno_ 30%**
 - [ ] RaRayya's Children
 - [ ] Northern Alliance
 - [ ] ACE
