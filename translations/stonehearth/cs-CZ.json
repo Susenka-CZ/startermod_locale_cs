@@ -162,7 +162,7 @@
 				"terrain_slice_vision_up_single": "Zvýšení úroveně řezu",
 				"terrain_slice_vision_down_single": "Snížení úrovně řezu",
 				"terrain_slice_vision_down": "Snížení úrovně řezu (skok o 5)",
-				"terrain_xray_vision_icon_name": "rtg",
+				"terrain_xray_vision_icon_name": "RTG",
 				"terrain_xray_vision": "Rentgen terénem",
 				"terrain_xray_vision_description": "Umožňuje vidět skrz terén. Vybírej mezi plným a plochým pohledem pro zobrazení podzemních stěn.",
 				"terrain_xray_vision_flat": "plochý",
@@ -2449,7 +2449,7 @@
 	"data": {
 		"population": {
 			"ascendancy": {
-				"display_name": "Vznešení",
+				"display_name": "Vznešené Království",
 				"quote": "Ovci? Máme. Motyku? Máme. Meče? Máme. Vyrážíme!",
 				"description": "Svědomití a pracovití, věrní a všeumělové. Obyvatelé Vznešeného Království kácí, staví a farmaří, s pevnou vírou, že celý známý svět je tu pro ně k osídlení.<div style='text-shadow: -2px -2px 0px #000000, 0px -2px 0px #000000, 2px -2px 0px #000000, -2px 0px 0px #000000, 2px 0px 0px #000000, -2px 2px 0px #000000, 0px 2px 0px #000000, 2px 2px 0px #000000;font-size: 15px;font-weight: bold;margin-top: 6px;'>Ideal for new players.</div>",
 				"post_selection_description": ", vzkvétající a pracovité království .",
@@ -4252,16 +4252,16 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "The defeat of my chiefs and warriors demands from us recognition of your strength. Let us contend in battle and the greater of equals shall come forth with honor and valiance."
+														"00": "Porážky mých šéfů a válečníků vyžadují, abychom uznali vaši sílu. Pojďme spolu soupeřit v bitvě a ten lepší z nás sobě rovných z toho vyjde se ziskem cti a udatnosti."
 													},
 													"bulletin_title": "Vojvoda Oghar Severák",
 													"dialog_title": "Vojvoda Oghar Severák"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "As I predicted, fate brings us together once more."
+														"00": "Jak jsem předpovídal, osud nás znovu svedl dohromady."
 													},
-													"bulletin_title": "Warchief Oghar Norwind strides towards you with fearless bravado",
+													"bulletin_title": "Vojvoda Oghar Severák si vykračuje tobě vstříc s něbojácnou bravurou",
 													"dialog_title": "Vojvoda Oghar Severák"
 												}
 											}
@@ -4272,74 +4272,74 @@
 											"dialog_nodes": {
 												"msg3": {
 													"bulletin_message": {
-														"00": "I now return home. Word comes to me that, bereft of our Khan's wisdom, our shaman have delved into dark things, long forgotten. They think the mistakes of the past do not apply to them, and I fear for what they may do."
+														"00": "Já teď vrátit domů. Donesla se ke mně zpráva, že náš šaman, zbavený moudrosti našeho Chána, se ponořil do temných věcí, dávno zapomenutých. Oni si myslí, že chyby z minulosti se na ně nevztahují a já se bojím, že možná ano."
 													},
 													"bulletin_title": "Vojvoda Oghar Severák",
 													"dialog_title": "Vojvoda Oghar Severák"
 												},
 												"msg2": {
 													"bulletin_message": {
-														"00": "There are still those in my ranks who believe you weak. They will honor the Accord, but put out any gong of the Four Colors and they will gladly return to meet your challenge."
+														"00": "V našich řadách jsou pořád takoví, kteří si myslí, že jste slabí. Budou ctít Dohodu, ale když vyndáš jakýkoliv z gongů Čtyř Barev, tak se rádi vrátí, aby čelili tvé výzvě."
 													},
 													"bulletin_title": "Vojvoda Oghar Severák",
 													"dialog_title": "Vojvoda Oghar Severák",
-													"choice_000": "Bring it on!",
-													"choice_001": "We should remove those..."
+													"choice_000": "Ať to zkusí!",
+													"choice_001": "Asi bychom je měli odstranit..."
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "It seems Erdene was right about you, after all. I acknowledge your claim to this land, under Knight Cid's Accord, by your proven strength. We Orcs care only that the land is held secure against the wild and the evil. You have proven yourself worthy of the task."
+														"00": "Vypadá to, že nakoneco vás Erdene měla pravdu. Uznávám váš nárok na tuto zemi, dle Dohody Rytíře Cida a díky vaší prokázané síle. Nám orkům záleží pouze na tom, že země je v bezpečí proti divočině a zlu. Ty jsi prokázal, že jsi hoden tohoto úkolu."
 													},
-													"bulletin_title": "The warchief nods humbly",
+													"bulletin_title": "Vojvoda skromně kývá hlavou",
 													"dialog_title": "Vojvoda Oghar Severák",
-													"choice_000": "We protect what's ours."
+													"choice_000": "Chráníme to, co je naše."
 												}
 											}
 										}
 									},
 									"unlock_blue_token_recipe": {
-										"bulletin_title": "The blacksmith has unlocked the Decorative Elite Gong recipe!"
+										"bulletin_title": "Kovářovi se odemkl návod na Okrasný Elitní Gong!"
 									},
 									"unlock_purple_token_recipe": {
-										"bulletin_title": "The Blacksmith has unlocked the General's Golden Gong recipe!"
+										"bulletin_title": "Kovářovi se odemkl návod na Vojevůdcův Zlatý Gong!"
 									},
 									"unlock_red_token_recipe": {
-										"bulletin_title": "The Blacksmith has unlocked the Decorative Master Gong recipe!"
+										"bulletin_title": "Kovářovi se odemkl návod na Okrasný Mistrovský Gong!"
 									},
 									"titan_already_killed_dialog": {
 										"dialog_tree_info": {
 											"dialog_nodes": {
 												"story2": {
 													"bulletin_message": {
-														"00": "O-oh... how did you? Never mind, it matters not. I shall return to my people with the news that the Titanous scourge can be defeated. This may be what tips events in our favor, away from the treasonous shaman.<br><br>My deepest thanks to you, on behalf of my late Khan."
+														"00": "Ó... jak se vám to? No nevadí, na tom nezáleží. Já se vrátím ke svým lidem se zprávou o tom, že Titánská zhouba může být poražena . Tohle může být to, co překlopí jazýček vah v náš prospěch, pryč od zrádného šamana.<br><br>Moje nejhlubší díky jménem mého zesnulého Chána."
 													},
-													"bulletin_title": "Erdene boggles",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "Uh, no problem, I guess!"
+													"bulletin_title": "Erdene vrávorá",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
+													"choice_000": "Eh, není zač, hádám!"
 												},
 												"story1": {
 													"bulletin_message": {
-														"00": "I had come to warn you of the Titan lurking under your lands... to beseech your help in eradicating it, but... <br><br>...did you already cleanse this land of its sinister presence?"
+														"00": "Přišla jsem vás varovat před Titánem číhajícím pod vaší zemí... úpěnlivě vás porsit o vaši pomoc při jeho vyhlazení, ale... <br><br>...nevyčistili jste už tuhle zemi od jeho hříšné přítomnosti?"
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Confused",
-													"choice_000": "Oh, yeah, we got rid of it a while ago."
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Zmatená",
+													"choice_000": "No, jasně, zbavili jsme se ho už před nějakou chvílí."
 												},
 												"greet": {
 													"bulletin_message": {
-														"00": "Valiant humans, who have proven your strength, I greet you now as equals. This domain is yours by right, and your star glints all the brighter. Yours is a promising fortune indeed!"
+														"00": "Chrabří lidé, kteří prokázali svoji sílu, Zdravím vás teď jako sobě rovné. Toto území je právem vaše, a světlo vaší hvězdy je jasnější . Věru, vaše je slibná budoucnost!"
 													},
-													"bulletin_title": "Erdene of the Red Kiln returns, anxious",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "Thank you, Erdene"
+													"bulletin_title": "Erdene z Rudé Pece se vrací plná obav",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
+													"choice_000": "Děkujeme ti, Erdene"
 												},
 												"intro": {
 													"bulletin_message": {
-														"00": "I come with a request of the utmost urgence, there is... wait..."
+														"00": "Přicházím s žádostí nanejvíš naléhavou, je tady... počkat..."
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "Something wrong?"
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
+													"choice_000": "Stalo se něco?"
 												}
 											}
 										}
@@ -4349,43 +4349,43 @@
 											"dialog_nodes": {
 												"request1": {
 													"bulletin_message": {
-														"00": "My request of you: A fragment of the evil that brought low the Phoenix Empire has coalesced here, beneath your feet.<br><br>Left unchallenged, it will sleep for generations yet, growing in strength, stifling and corrupting the magic of this land.<br><br>Awaken this Titan now, though, and it will have no choice but to expend its gathered energy in a final battle against your settlement. Withstand its wrath, and it will be snuffed out for good, and your descendants will live in peace."
+														"00": "Moje žádost na vás: Zlomek zla, který přinesl konec Impéria Fénixe has coalesced tady, pod vašima nohama.<br><br>Bude-li nechán bez povšimnutí, bude spát ještě mnoho generací, ale bude nabírat na síle, potlačujíc a rozkladjíc magii tété země.<br><br>Probuďte tohoto Titána teď, a nebude mít jinou možnost, než vyčerpat svojí nashromážděnou energii v závěrečném boji proti vašemu osídlení. Odolejte jeho hněvu a bude smeten z povrchu zemského jednou pro vždy! A vaši potomci budou v klidu žít."
 													},
-													"bulletin_title": "Erdene requests",
-													"dialog_title": "Erdene's request",
-													"choice_000": "Yes! We'll fight, what now?",
-													"choice_001": "No. ...Do we have to?"
+													"bulletin_title": "Erdene žádá",
+													"dialog_title": "Erdenina žádost",
+													"choice_000": "Ano! Budeme bojovat, co teď?",
+													"choice_001": "Ne. ...Musíme?"
 												},
 												"accept1": {
 													"bulletin_message": {
 														"00": "My shamans devised this Gong - take it and place it. When you are prepared, let it ring aloud, and it will rouse the slumbering Titan.<br><br>You will be beset by horrors for days, perhaps weeks - but a fragmented evil cannot sustain itself. Outlast. Strike at its minions, dig up its roots, drive off its tendrils. Every small victory will weaken it.<br><br>Persevere, and the Titan will fall, and a small part of the calamity of the Phoenix Empire finally undone.<br><br>Be an example for my people that this evil can be faced and destroyed - that we need not enslave ourselves to it. Please."
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "We will ensure we're ready"
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
+													"choice_000": "Ujistíme se, že jsme pripraveni"
 												},
 												"story2": {
 													"bulletin_message": {
 														"00": "Below is wrong. Snake knows this. Rabbit knows this. Monkey knows this, too. But, power seeks power.<br><br>The Phoenix, they found whispers of power below. They dug with picks and found clues, they dug with minds and found knowledge.<br><br>Knowledge without wisdom is peril."
 													},
 													"bulletin_title": "Erdene speaks low",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
 													"choice_000": "What next?"
 												},
 												"farewell": {
 													"bulletin_message": {
 														"00": "Farewell, brave Humans. May your star shine ever brighter, and be a guide to all through the coming night.<br><br><i><font size=-1>[You can find the Gong lying near your Banner, or in your inventory under 'Decorations']</font></i>"
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
 													"choice_000": "Goodbye, Erdene"
 												},
 												"story1": {
 													"bulletin_message": {
 														"00": "It is a tale passed from Speaker to Speaker, of when Monkey first rose to prominence. From Monkey came humans, and those humans united.<br><br>They built an Empire, spreading from the center outwards until it encompassed the entire continent. As their grand central capital stretched up into the sky, the humans’ ambition led them below..."
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
 													"choice_000": "Below?"
 												},
 												"reject1": {
@@ -4400,8 +4400,8 @@
 													"bulletin_message": {
 														"00": "In time, the darkness subsided, but now it saturates the earth, whispering to those who will listen. We Orcs tested your town’s strength not just for glory, but to prove that you have the will to resist this evil and its corruption.<br><br>Although, without a Khan to guide them, the shaman of the Red Kiln now seek to re-form this titanic evil, to control it.<br><br>I must stop them - it was my Khan’s last wish. But, this is for me and my kind to do.<br><br>Of you, I ask a favor."
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
 													"choice_000": "What favor?"
 												},
 												"greet": {
@@ -4409,31 +4409,31 @@
 														"00": "Valiant humans, who have proven your strength, I greet you now as equals. This domain is yours by right, and your star glints all the brighter. Yours is a promising fortune indeed!"
 													},
 													"bulletin_title": "Erdene of the Red Kiln returns, anxious",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
 													"choice_000": "Thank you, Erdene"
 												},
 												"story4": {
 													"bulletin_message": {
 														"00": "Humans fled, receding to the edges of the world, and held on by their very fingertips until the darkness quieted itself.<br><br>Orcs, like all of Snake’s children, stayed and fought. Fought the corrupted, fought through famine and hardship. Whether through noble courage or foolish pride, I know not.<br><br>The Rabbits, already in decline, burrowed deep, forsaking the surface world."
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
 													"choice_000": "Oh..."
 												},
 												"story3": {
 													"bulletin_message": {
 														"00": "A great evil was awakened, this we know. The capital was lost, obliterated, and the world surely doomed. But, there was some hero, some sacrifice, lost to time. It was enough. Not enough to destroy the evil, but enough to break it apart.<br><br>It dissipated like fog across the land, turning the forces of nature against its inhabitants, withering crops and fraying minds."
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
 													"choice_000": "What happened to the Empire?"
 												},
 												"intro": {
 													"bulletin_message": {
 														"00": "I… come also with a request. I fear for my people.<br/><br/>Have you heard of the Phoenix Empire? Of its end?"
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
 													"choice_000": "[skip] I've heard it before",
 													"choice_001": "Phoenix Empire?"
 												}
@@ -4469,9 +4469,9 @@
 													"bulletin_message": {
 														"00": "Excellent! We Orcs aren't quite as talented in the crafts as you are, but my disciple has proven themselves a fierce warrior, and I'm sure they will make themselves useful however else they can!<br><br>Farewell, brave Humans, until a future day has dawned!"
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "Safe travels, Erdene!"
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
+													"choice_000": "Sťastnou cestu, Erdene!"
 												},
 												"request1": {
 													"bulletin_message": {
@@ -4485,8 +4485,8 @@
 													"bulletin_message": {
 														"00": "Wonderful! So, this Orc disciple may join your tribe?"
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
 													"choice_000": "[Accept] Yes!",
 													"choice_001": "[Reject] No..."
 												},
@@ -4494,8 +4494,8 @@
 													"bulletin_message": {
 														"00": "Very well. The news is sure to disappoint my disciple, but your tribe and its wishes deserve our utmost respect.<br><br>Farewell, brave Humans, until another day has dawned."
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
 													"choice_000": "Safe travels, Erdene!"
 												},
 												"greet": {
@@ -4503,15 +4503,15 @@
 														"00": "By the Khan's blessed name, you've done it!<br><br>I came as quickly as I could - I could feel the change in the winds even from the Red Kiln territories."
 													},
 													"bulletin_title": "Erdene of the Red Kiln returns, joyous",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
 													"choice_000": "We did!"
 												},
 												"reject1": {
 													"bulletin_message": {
 														"00": "Oh, I see... and I understand. If I were standing in your stead, I could not so easily accept a Human into the ranks of the Red Kiln, either. <br><br>That said, are you sure my disciple does not have a place here?"
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
 													"choice_000": "[Reject] We're quite sure",
 													"choice_001": "[Accept] On second thought..."
 												},
@@ -4519,7 +4519,7 @@
 													"bulletin_message": {
 														"00": "Yes! In fact, the Titan's defeat has cleansed that sinister Gong I brought you, along with your lands. That Gong shall stand as testament of my people's enduring respect for your tribe and its people.<br><br><i>So long as that white stone Gong is deployed</i> and you have room for us, expect an Orcish immigrant every few moons."
 													},
-													"bulletin_title": "Erdene continues",
+													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene gestures",
 													"choice_000": "I see!"
 												},
@@ -4527,7 +4527,7 @@
 													"bulletin_message": {
 														"00": "In fact, one of my most loyal disciples has come along with me. They are quite insistent about joining your tribe. In truth, I lament them leaving my side, but cannot begrudge their wishes.<br><br>What say you? <i>Will you accept this humble Orc into your township this day?</i>"
 													},
-													"bulletin_title": "Erdene continues",
+													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene extends her hand",
 													"choice_000": "Welcome!",
 													"choice_001": "Um, no thanks..."
@@ -4536,8 +4536,8 @@
 													"bulletin_message": {
 														"00": "Your defeat of this sinister presence may be what tips events in our favor, and away from that of the treasonous shamans.<br><br>My deepest thanks to you, on behalf of my late Khan. I shall return to my people carrying the news that the Titanous scourge can, truly, be defeated."
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
 													"choice_000": "I'm glad we could do some good"
 												}
 											}
