@@ -486,7 +486,7 @@
 				},
 				"quality": {
 					"quality-2": "Dobrá Kvalita",
-					"quality-3": "Vynikající Kvalita",
+					"quality-3": "Výborná Kvalita",
 					"quality-4": "Hustodémonskykrutopřísná Kvalita!"
 				},
 				"traveler": {
@@ -951,7 +951,7 @@
 					"placed_item_label": "Předmět [str(itemName)] umístěn",
 					"quality_label": {
 						"quality_2": "Vlastněné předměty dobré kvality",
-						"quality_3": "Vlastněné předměty vynikající kvality",
+						"quality_3": "Vlastněné předměty výborné kvality",
 						"quality_4": "Vlastněné předměty hustodémonskykrutopřísné kvality"
 					}
 				},
@@ -1186,7 +1186,7 @@
 					"template_default_name": "Moje nová stavební šablona",
 					"set_template_name_prompt": "Zadejte název této šablony",
 					"ignore_quality": "Ignorovat Kvalitu",
-					"ignore_quality_tooltip": "Zacházet se všemi předměty šablony jako by byly běžné kvality (raději než Dobré, Vynikající, atd.).",
+					"ignore_quality_tooltip": "Zacházet se všemi předměty šablony jako by byly běžné kvality (raději než Dobré, Výborné, atd.).",
 					"remove_template_confirm": {
 						"title": "Smazat Šablonu",
 						"message": "Jsi si jistý, že chceš smazat tuto stavební šablonu?",
@@ -4311,7 +4311,7 @@
 											"dialog_nodes": {
 												"story2": {
 													"bulletin_message": {
-														"00": "Ó... jak se vám to? No nevadí, na tom nezáleží. Já se vrátím ke svým lidem se zprávou o tom, že Titánská zhouba může být poražena . Tohle může být to, co překlopí jazýček vah v náš prospěch, pryč od zrádného šamana.<br><br>Moje nejhlubší díky jménem mého zesnulého Chána."
+														"00": "Ó... jak se vám to? No nevadí, na tom nezáleží. Vrátím se ke svým lidem se zprávou o tom, že Titánská zhouba může být poražena. Tohle může být to, co překlopí jazýček vah v náš prospěch, pryč od zrádného šamana.<br><br>Moje nejhlubší díky jménem mého zesnulého Chána."
 													},
 													"bulletin_title": "Erdene vrávorá",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
@@ -4319,7 +4319,7 @@
 												},
 												"story1": {
 													"bulletin_message": {
-														"00": "Přišla jsem vás varovat před Titánem číhajícím pod vaší zemí... úpěnlivě vás porsit o vaši pomoc při jeho vyhlazení, ale... <br><br>...nevyčistili jste už tuhle zemi od jeho hříšné přítomnosti?"
+														"00": "Přišla jsem vás varovat před Titánem číhajícím pod vaší zemí... úpěnlivě vás porsit o vaši pomoc při jeho vyhlazení, ale... <br><br>...nevyčistili jste už tuhle zemi od jeho hrozivé přítomnosti?"
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Zmatená",
@@ -4382,15 +4382,15 @@
 												},
 												"story1": {
 													"bulletin_message": {
-														"00": "Je to příběh, který se předává z Mluvčího na Mluvčího, o tom kdy Opice poprvé povstane do popředí. Z Opice přišli lidé, a tito lidé se spojili.<br><br>Vystavili Říši, rozprostírajícíse od středu směrem ven, dokud neobsáhla celý kontinent. Stejně jako jejich hlavní centrální město se natahovalo k nebi, jejich lidské ambice je vedli dolů..."
+														"00": "Je to příběh, který se předává z Mluvčího na Mluvčího, o tom kdy Opice poprvé povstane do popředí. Od Opice přišli lidé, a tito lidé se spojili.<br><br>Vystavili Říši, rozprostírajícíse od středu směrem ven, dokud neobsáhla celý kontinent. Stejně jako jejich hlavní centrální město se natahovalo k nebi, jejich lidské ambice je vedli dolů..."
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
-													"choice_000": "Dole?"
+													"choice_000": "Dolů?"
 												},
 												"reject1": {
 													"bulletin_message": {
-														"00": "Ne, předpokládám že ne. Titán bude spát ještě po několik pokolení, vaše osídlení je mimo ohrožení.<br><br>Asi jsem udělala chybu, když jsem vás chtěla zatěžovat úkolem, který je právem můj. Omlouvám se. Beru to zpět, a půjdu se starat o své vlastní lidi.<br><br>Nechám vám tu tento speciálně-připravený Gong - pro případ že by jste si to rozmysleli, prostě ho umístěte na zem a budete blíže zasvěceni.<br><br>Sbohem, lidé."
+														"00": "Ne, předpokládám že ne. Titán bude spát ještě po několik pokolení, vaše osídlení je mimo ohrožení.<br><br>Asi jsem udělala chybu, když jsem vás chtěla zatěžovat úkolem, který je právem můj. Omlouvám se. Beru to zpět, a půjdu se starat o své vlastní lidi.<br><br>Nechám vám tu tento speciálně-připravený Gong - pro případ že by jste si to rozmysleli, prostě ho umístěte na zem a budete blíže zasvěceni.<br><br>Sbohem lidé."
 													},
 													"bulletin_title": "Erdene vzdychá...",
 													"dialog_title": "Erdene vzdychá...",
@@ -4453,11 +4453,11 @@
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "Only sound this gong when prepared - your town will be cut off from the world for days.<br><br>Corrupted creatures will surely appear - face them in combat if you can, hole up and hide if you cannot. There is no shame in survival. Be vigilant for citizens being trapped, buildings being threatened, and be prepared to dig.<br><br>Every small victory will sap away the Titan's strength - attempt no direct attack, it is out of reach and a mere apparition.<br><br>Stand strong in driving away its corruption, and you will emerge victorious."
+														"00": "Do gongu udeř jen když budeš připraven - tvoje město bude odříznuto od světa po několik dní.<br><br>Jistě se objeví skažená stvoření - postav se jim, pokud můžeš, zalez a schovej se pokud nemůžeš. Není žádná hamba přežít. Buď ve střehu protože obyvatelé budou chytáni, budovi budou ohroženy, a buď připraven kopat.<br><br>Každé malé vítezství odsaje Titánovu sílu - nezkoušej na něj žádný přímí útok, je mimo dosah a je to pouhý přízrak.<br><br>Buď statečný při zahánění jeho skázy a vyjdeš z toho jako vítěz."
 													},
-													"bulletin_title": "Načmáráaná poznámka, připevněná k Zlověstnému Gongu",
+													"bulletin_title": "Načmáraná poznámka, připevněná k Zlověstnému Gongu",
 													"dialog_title": "Dopis od Erdene",
-													"choice_000": "We will survive."
+													"choice_000": "Přežijeme."
 												}
 											}
 										}
@@ -4467,7 +4467,7 @@
 											"dialog_nodes": {
 												"accept2": {
 													"bulletin_message": {
-														"00": "Excellent! We Orcs aren't quite as talented in the crafts as you are, but my disciple has proven themselves a fierce warrior, and I'm sure they will make themselves useful however else they can!<br><br>Farewell, brave Humans, until a future day has dawned!"
+														"00": "Výborně! My Orkové nejsme tak talentovaní v řemeslech jako vy, ale můj učedník se prokázal jako vášnivý bojovník, a jsem si jistá, že se bude snažit být užitečný, co mu budou síli stačit!<br><br>Sbohem stateční Lidé, než se naše cesty znovu sejdou!"
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
@@ -4475,70 +4475,70 @@
 												},
 												"request1": {
 													"bulletin_message": {
-														"00": "I should add... due to your exceptional bravery, some of my people have gone beyond simply respecting you as Humans, to now truly consider you as Orc. <br/><br/>Some even wish to emmigrate and become members of your tribe."
+														"00": "Ještě bych měl říct... kvůli vaší vyjímečné odvaze, už vás někteří moji lidé nerespektují jen jako Lidi, ale uvažují o vás jako by jste byli opravdoví Orkové. <br/><br/>Někteří si dokonce přejí emigrovat a stát se členy vašeho kmene."
 													},
-													"bulletin_title": "Erdene offers",
-													"dialog_title": "Erdene's offer",
-													"choice_000": "Orcs want to join my town?"
+													"bulletin_title": "Erdene nabízí",
+													"dialog_title": "Erdenina nabídka",
+													"choice_000": "Orkové se chtějí připojit k mému městu?"
 												},
 												"accept1": {
 													"bulletin_message": {
-														"00": "Wonderful! So, this Orc disciple may join your tribe?"
+														"00": "Báječně! Takže tento Orkský učedník se může stát součástí tvého kmene?"
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
-													"choice_000": "[Accept] Yes!",
-													"choice_001": "[Reject] No..."
+													"choice_000": "[Přijmout] Ano!",
+													"choice_001": "[Odmítnout] Ne..."
 												},
 												"reject2": {
 													"bulletin_message": {
-														"00": "Very well. The news is sure to disappoint my disciple, but your tribe and its wishes deserve our utmost respect.<br><br>Farewell, brave Humans, until another day has dawned."
+														"00": "No dobrá. Taty zpráva jistě zklame mého učedníka, ale váš kmen a jeho přání si zalouží náš nejvyšší respekt.<br><br>Sbohem stateční Lidé, než se naše cesty znovu sejdou!"
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
-													"choice_000": "Safe travels, Erdene!"
+													"choice_000": "Šťastnou cestu Erdene!"
 												},
 												"greet": {
 													"bulletin_message": {
-														"00": "By the Khan's blessed name, you've done it!<br><br>I came as quickly as I could - I could feel the change in the winds even from the Red Kiln territories."
+														"00": "U Chánova požehnaného jména, vy jste to dokázali!<br><br>Přišla jsem tak rychle, jak jsem jen mohla - Cítila jsem změnu ve větru dokonce i na teritoriu Červené Pece."
 													},
-													"bulletin_title": "Erdene of the Red Kiln returns, joyous",
+													"bulletin_title": "Erdene z Červené Pece se vrací, nadšená",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
-													"choice_000": "We did!"
+													"choice_000": "Jop, dokázali!"
 												},
 												"reject1": {
 													"bulletin_message": {
-														"00": "Oh, I see... and I understand. If I were standing in your stead, I could not so easily accept a Human into the ranks of the Red Kiln, either. <br><br>That said, are you sure my disciple does not have a place here?"
+														"00": "Ach, chápu... a rozumím tomu. Když bych byla na tvém místě, také bych nemohla jednoduše přijmout Člověka do řad Červené Pece. <br><br>Přesto, si si jistý, že pro mého učedníka zde není místo?"
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
-													"choice_000": "[Reject] We're quite sure",
-													"choice_001": "[Accept] On second thought..."
+													"choice_000": "[Odmítnout] Jsmě si docela jistí",
+													"choice_001": "[Přijmout] Na druhou stranu..."
 												},
 												"request2": {
 													"bulletin_message": {
-														"00": "Yes! In fact, the Titan's defeat has cleansed that sinister Gong I brought you, along with your lands. That Gong shall stand as testament of my people's enduring respect for your tribe and its people.<br><br><i>So long as that white stone Gong is deployed</i> and you have room for us, expect an Orcish immigrant every few moons."
+														"00": "Ano! Ve skutečnosti, Titánova Porážka vyčistila ten zlověstný Gong, který jsem vám přinesla, společně s vaší zemí. Ten Gong představuje důkaz trvalé úcty mých lidí k tvému kmeni a jeho lidem.<br><br><i>Tak dlouho dokud bude tento bílý kamenný gong vystaven</i> a ty budeš mít pro nás místo, očekávej Orkského imigranta každých pár nocí."
 													},
 													"bulletin_title": "Erdene pokračuje",
-													"dialog_title": "Erdene gestures",
-													"choice_000": "I see!"
+													"dialog_title": "Erdene gestikuluje",
+													"choice_000": "Rozumím!"
 												},
 												"request3": {
 													"bulletin_message": {
-														"00": "In fact, one of my most loyal disciples has come along with me. They are quite insistent about joining your tribe. In truth, I lament them leaving my side, but cannot begrudge their wishes.<br><br>What say you? <i>Will you accept this humble Orc into your township this day?</i>"
+														"00": "Vlastně jeden z mých nejvěrnějších učedníků přišel se mnou. Je poměrně vytrvalý v tom, že se chce přidat k vašemu kmenu. Popravdě jsem truchlila, že mě chce opustit, ale nemůžu stát v cestě jeho přání<br><br>Co na to říkáš? <i>Přijmeš dnes tohoto pokorného Orka do své obce?</i>"
 													},
 													"bulletin_title": "Erdene pokračuje",
-													"dialog_title": "Erdene extends her hand",
-													"choice_000": "Welcome!",
-													"choice_001": "Um, no thanks..."
+													"dialog_title": "Erdene natahuje ruku",
+													"choice_000": "Vítej!",
+													"choice_001": "Eh, ne děkuji..."
 												},
 												"intro": {
 													"bulletin_message": {
-														"00": "Your defeat of this sinister presence may be what tips events in our favor, and away from that of the treasonous shamans.<br><br>My deepest thanks to you, on behalf of my late Khan. I shall return to my people carrying the news that the Titanous scourge can, truly, be defeated."
+														"00": "Tvá porážka této jeho horzivé přítomnosti může být to, co překlopí jazýček vah v náš prospěch, pryč od zrádného šamana.<br><br>Moje nejhlubší díky jménem mého zesnulého Chána. Vrátím se ke svým lidem a donesu zprávu o tom, že Titánská zhouba může být opravdu poražena."
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
-													"choice_000": "I'm glad we could do some good"
+													"choice_000": "Jsem rád, že jsme udělalí něco dobrého"
 												}
 											}
 										}
@@ -4548,21 +4548,21 @@
 											"dialog_nodes": {
 												"msg1": {
 													"bulletin_message": {
-														"00": "Would you like to let this Orc to join your town?<br><br><i><font size=-1>[They're strong, slow, and surprisingly hard to startle and fast to regenerate despite their low Spirit]</font></i>"
+														"00": "Chtěl bys nechat tohoto Orka připojit se k tvému městu?<br><br><i><font size=-1>[Je silný, pomalý, překvapivě těžko se dá vylekat a rycjhle se regeneruje navzdory jeho nízké vlastnosti Duše]</font></i>"
 													},
-													"bulletin_title": "An Orc immigrant!",
-													"dialog_title": "An Orc wishes to join your town!",
-													"choice_000": "Yes",
-													"choice_001": "No"
+													"bulletin_title": "Orkský imigrant!",
+													"dialog_title": "Ork by se chtěl připojit ke tvému městu!",
+													"choice_000": "Ano",
+													"choice_001": "Ne"
 												}
 											}
 										}
 									},
 									"grant_recurring_orc_citizen": {
-										"notification_title": "A new Orc citizen has joined your town!"
+										"notification_title": "Nový obyvatel z rodu Orků se připojil ke tvému městu!"
 									},
 									"grant_orc_citizen": {
-										"notification_title": "Erdene's disciple has joined your town!"
+										"notification_title": "Erdenin učedník se připojil ke tvému městu!"
 									}
 								}
 							}
@@ -4581,16 +4581,16 @@
 													"bulletin_message": {
 														"00": "For instance, a <i>Hearth of Cheer</i> is for those who believe that a town's value is found in being a happy home for its citizens."
 													},
-													"bulletin_title": "A Cheerful Choice",
-													"dialog_title": "A Cheerful Choice",
+													"bulletin_title": "Radostná Volba",
+													"dialog_title": "Radostná Volba",
 													"choice_000": "Sounds quaint"
 												},
 												"makers": {
 													"bulletin_message": {
 														"00": "A <i>Hearth of Makers</i>, on the other hand, is for those who believe that a town's value is its work, and that its work is best measured in gold."
 													},
-													"bulletin_title": "Mark of the Maker",
-													"dialog_title": "Mark of the Maker",
+													"bulletin_title": "Znak Tvůrce",
+													"dialog_title": "Znak Tvůrce",
 													"choice_000": "Sounds productive"
 												},
 												"intro": {
@@ -4630,8 +4630,8 @@
 													"bulletin_message": {
 														"00": "Indeed, Hearths have served as shining beacons for Towns all the way back to the Phoenix Empire.<br><br>Their glow attracts settlers and prosperity, and the particular qualities of a chosen Hearth reflect where a Town finds its value."
 													},
-													"bulletin_title": "Mer Continues",
-													"dialog_title": "Mer Burlyhands",
+													"bulletin_title": "Mer Pokračuje",
+													"dialog_title": "Mer Statnoruký",
 													"choice_000": "Value?"
 												}
 											}
@@ -4641,18 +4641,18 @@
 										"dialog_tree_info": {
 											"dialog_nodes": {
 												"msg1": {
-													"bulletin_title": "Banner Celebration",
-													"dialog_title": "Banner Celebration"
+													"bulletin_title": "Oslava Praporu",
+													"dialog_title": "Oslava Praporu"
 												}
 											}
 										}
 									},
 									"banner_upgrade_cunning": {
-										"title": "Outpost Established",
-										"dialog_title": "Outpost Established!",
-										"tier_title": "Outpost",
-										"reward_message": "By unanimous agreement of the citizens, we declare:",
-										"reward_message_ctd": "to be an outpost paving the roads to become a trade hub.",
+										"title": "Základna Založena",
+										"dialog_title": "Základna Založena!",
+										"tier_title": "Základna",
+										"reward_message": "Jednomyslným souhlasem obyvatel, my deklarujeme:",
+										"reward_message_ctd": "že jsme základnou umetající si cestu, aby se mohla stát obchodním uzlem.",
 										"achievements": {
 											"001": "Items sell for 50% more",
 											"000": "Roads give 3x their normal speed boost",
@@ -4660,9 +4660,9 @@
 										}
 									},
 									"banner_upgrade_strength": {
-										"title": "Outpost Established",
-										"dialog_title": "Outpost Established!",
-										"tier_title": "Outpost",
+										"title": "Základna Založena",
+										"dialog_title": "Základna Založena!",
+										"tier_title": "Základna",
 										"reward_message": "By unanimous agreement of the citizens, we declare:",
 										"reward_message_ctd": "to be an outpost on its way to be a safe haven for all.",
 										"achievements": {
