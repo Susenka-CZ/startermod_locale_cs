@@ -4327,11 +4327,11 @@
 												},
 												"greet": {
 													"bulletin_message": {
-														"00": "Chrabří lidé, kteří prokázali svoji sílu, Zdravím vás teď jako sobě rovné. Toto území je právem vaše, a světlo vaší hvězdy je jasnější . Věru, vaše je slibná budoucnost!"
+														"00": "Chrabří lidé, kteří prokázali svoji sílu, Zdravím vás teď jako sobě rovné. Toto území je právem vaše, a světlo vaší hvězdy je teď jasnější. Věru, vaše budoucnost je slibná!"
 													},
-													"bulletin_title": "Erdene z Rudé Pece se vrací plná obav",
+													"bulletin_title": "Erdene z Rudé Pece se nedočkavě vrací",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
-													"choice_000": "Děkujeme ti, Erdene"
+													"choice_000": "Děkujeme ti Erdene"
 												},
 												"intro": {
 													"bulletin_message": {
@@ -4358,7 +4358,7 @@
 												},
 												"accept1": {
 													"bulletin_message": {
-														"00": "My shamans devised this Gong - take it and place it. When you are prepared, let it ring aloud, and it will rouse the slumbering Titan.<br><br>You will be beset by horrors for days, perhaps weeks - but a fragmented evil cannot sustain itself. Outlast. Strike at its minions, dig up its roots, drive off its tendrils. Every small victory will weaken it.<br><br>Persevere, and the Titan will fall, and a small part of the calamity of the Phoenix Empire finally undone.<br><br>Be an example for my people that this evil can be faced and destroyed - that we need not enslave ourselves to it. Please."
+														"00": "Moji šamani sestrojili tento Gong - vem si ho a umísti ho. Až budeš připraven, nech ho nahlas zvonit, a on vzbudí dřímaícího Titána.<br><br>Budeš obléhán hrůzami několik dní možná i týdnů - ale rozdrobené zlo samo o sobě nevydrží. Vydrž. Útoč na jeho poskoky, vykopávej jeho kořeny, zaháněj jeho úponky. Každé malé vítězství ho oslabí.<br><br>Vytrvej a Titán padne, a s ním bude konečně odčiněna i část pohormy Impéria Fénixe.<br><br>Buď příkldem pro můj lid, že tomuto slu je možné se postavit čelem a zničit ho - že se jím nemusíme nechat zotročit. Prosím!"
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
@@ -4366,76 +4366,76 @@
 												},
 												"story2": {
 													"bulletin_message": {
-														"00": "Below is wrong. Snake knows this. Rabbit knows this. Monkey knows this, too. But, power seeks power.<br><br>The Phoenix, they found whispers of power below. They dug with picks and found clues, they dug with minds and found knowledge.<br><br>Knowledge without wisdom is peril."
+														"00": "Dole je zlo. Had to ví. Králík to ví. Opice to ví také. Ale moc hledá další moc.<br><br>Fénixové, našli dole šepot moci. Kopali s krumpáči a našli indicie, kopali pomocí myslí a našli vědomosti.<br><br>Vědomosti bez moudrosti jsou nebezpečné."
 													},
-													"bulletin_title": "Erdene speaks low",
+													"bulletin_title": "Erdene mluví tiše",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
-													"choice_000": "What next?"
+													"choice_000": "Co dál?"
 												},
 												"farewell": {
 													"bulletin_message": {
-														"00": "Farewell, brave Humans. May your star shine ever brighter, and be a guide to all through the coming night.<br><br><i><font size=-1>[You can find the Gong lying near your Banner, or in your inventory under 'Decorations']</font></i>"
+														"00": "Sbohem, stateční Lidé. Ať vaše hvězda září stále jasněji, a ať je průvdcem pro všchny přes přicházející noc.<br><br><i><font size=-1>[Gong najdeš ležet poblíž svého Praporu, nebo ve scém inventáři v 'Dekoracích']</font></i>"
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
-													"choice_000": "Goodbye, Erdene"
+													"choice_000": "Na shledanou Erdene"
 												},
 												"story1": {
 													"bulletin_message": {
-														"00": "It is a tale passed from Speaker to Speaker, of when Monkey first rose to prominence. From Monkey came humans, and those humans united.<br><br>They built an Empire, spreading from the center outwards until it encompassed the entire continent. As their grand central capital stretched up into the sky, the humans’ ambition led them below..."
+														"00": "Je to příběh, který se předává z Mluvčího na Mluvčího, o tom kdy Opice poprvé povstane do popředí. Z Opice přišli lidé, a tito lidé se spojili.<br><br>Vystavili Říši, rozprostírajícíse od středu směrem ven, dokud neobsáhla celý kontinent. Stejně jako jejich hlavní centrální město se natahovalo k nebi, jejich lidské ambice je vedli dolů..."
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
-													"choice_000": "Below?"
+													"choice_000": "Dole?"
 												},
 												"reject1": {
 													"bulletin_message": {
-														"00": "No, I suppose not. The Titan will stay asleep for generations, your settlement is not at risk.<br><br>Perhaps I was wrong to burden you with a task that is rightfully mine. My apologies. I withdraw now, to tend to my own people.<br><br>I will leave behind this specially-prepared Gong - in the event you change your mind, simply place it and you shall be further enlightened.<br><br>Farewell, humans."
+														"00": "Ne, předpokládám že ne. Titán bude spát ještě po několik pokolení, vaše osídlení je mimo ohrožení.<br><br>Asi jsem udělala chybu, když jsem vás chtěla zatěžovat úkolem, který je právem můj. Omlouvám se. Beru to zpět, a půjdu se starat o své vlastní lidi.<br><br>Nechám vám tu tento speciálně-připravený Gong - pro případ že by jste si to rozmysleli, prostě ho umístěte na zem a budete blíže zasvěceni.<br><br>Sbohem, lidé."
 													},
-													"bulletin_title": "Erdene sighs...",
-													"dialog_title": "Erdene sighs...",
-													"choice_000": "We wish you the best."
+													"bulletin_title": "Erdene vzdychá...",
+													"dialog_title": "Erdene vzdychá...",
+													"choice_000": "Přejeme ti jen to nejlepší."
 												},
 												"story5": {
 													"bulletin_message": {
-														"00": "In time, the darkness subsided, but now it saturates the earth, whispering to those who will listen. We Orcs tested your town’s strength not just for glory, but to prove that you have the will to resist this evil and its corruption.<br><br>Although, without a Khan to guide them, the shaman of the Red Kiln now seek to re-form this titanic evil, to control it.<br><br>I must stop them - it was my Khan’s last wish. But, this is for me and my kind to do.<br><br>Of you, I ask a favor."
+														"00": "Časem temntota odezněla, ale teď sytí zemi, šeptajíce těm, kdo ji budou poslouchat. My Orkové jsme testovali sílu vašeho města nejen pro slávu, ale také abychom se ujistili, že máte dostešnou vůli, abyste odolali tomuto zlu a skáze.<br><br>Nicméně, bez Chána, který by je vedl, šaman Červené Pece usiluje o přetvoření tohoto titánského zla, tak aby šlo ovládat.<br><br>Musím je zastavit - bylo to poslední přání mého Chána. Ale to je věc mě a mého druhu.<br><br>Po vás bych chtěla laskavost."
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
-													"choice_000": "What favor?"
+													"choice_000": "Jakou laskavost?"
 												},
 												"greet": {
 													"bulletin_message": {
-														"00": "Valiant humans, who have proven your strength, I greet you now as equals. This domain is yours by right, and your star glints all the brighter. Yours is a promising fortune indeed!"
+														"00": "Chrabří lidé, kteří prokázali svoji sílu, Zdravím vás teď jako sobě rovné. Toto území je právem vaše, a světlo vaší hvězdy je teď jasnější. Věru, vaše budoucnost je slibná!"
 													},
-													"bulletin_title": "Erdene of the Red Kiln returns, anxious",
+													"bulletin_title": "Erdene z Rudé Pece se nedočkavě vrací",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
-													"choice_000": "Thank you, Erdene"
+													"choice_000": "Děkujeme ti Erdene"
 												},
 												"story4": {
 													"bulletin_message": {
-														"00": "Humans fled, receding to the edges of the world, and held on by their very fingertips until the darkness quieted itself.<br><br>Orcs, like all of Snake’s children, stayed and fought. Fought the corrupted, fought through famine and hardship. Whether through noble courage or foolish pride, I know not.<br><br>The Rabbits, already in decline, burrowed deep, forsaking the surface world."
+														"00": "Lídé utekli, ustoupili k okrajům světa, a drželi se ho konečny prstů dokude se temnota sama neutišila.<br><br>Orkové, stejně jako ostatní děti Hada, zůstali a bojovali. Bojovali  proti skáze, bojovali i přes hladomor a strádání. Zdali kvůli vznešené odvaze nebo pošetilé hrdosti, to nevím.<br><br>Králičí lid, kterého již ubývalo, se zahrabal hlouběji a zřekl se povrchu světa."
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
-													"choice_000": "Oh..."
+													"choice_000": "Ach..."
 												},
 												"story3": {
 													"bulletin_message": {
-														"00": "A great evil was awakened, this we know. The capital was lost, obliterated, and the world surely doomed. But, there was some hero, some sacrifice, lost to time. It was enough. Not enough to destroy the evil, but enough to break it apart.<br><br>It dissipated like fog across the land, turning the forces of nature against its inhabitants, withering crops and fraying minds."
+														"00": "A velké zlo bylo probuzeno, to víme určitě. Hlavní město bylo ztraceno, vyhlazeno, a svět byl s jistotou odsouzen ke zkáze. Ale, byl tu nějaký hrdina, nějaká oběť, ztracená v čase. Byla dostatečná. Nestačila na zničení zla, ale stačila na to, aby ho rozdělila na kousky.<br><br>Rozprostřeli se jako mlha po krajině, obracejíce síly přírody proti svým obyvatelům, pustošíce úrodu a tříštíce mysli."
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
-													"choice_000": "What happened to the Empire?"
+													"choice_000": "Co se stalo s Impériem?"
 												},
 												"intro": {
 													"bulletin_message": {
-														"00": "I… come also with a request. I fear for my people.<br/><br/>Have you heard of the Phoenix Empire? Of its end?"
+														"00": "Já… přicházím také s žádostí. Bojím se o svoje lidi.<br/><br/>Už jste slyšeli o Impériu Fénixe? O jeho konci?"
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
-													"choice_000": "[skip] I've heard it before",
-													"choice_001": "Phoenix Empire?"
+													"choice_000": "[přeskočit] Už jsme to slyšeli",
+													"choice_001": "Impérium Fénixe?"
 												}
 											}
 										}
@@ -4445,18 +4445,18 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "<i><font size=-1>[Select the Gong and Press the 'Awaken Titan' button when you're ready. Killing or destroying the Titan's minions, tentacles, and roots will all reduce its health.]<br><br>[Good luck!]</font>"
+														"00": "<i><font size=-1>[Vyber Gong a zmáčkni tlačítko 'Probudit Titána' až budeš připraven. Zabití nebo zničení Titánových poskoků, chapadel nebo kořenů sníží jeho zdraví.]<br><br>[Hodně štěstí!]</font>"
 													},
-													"bulletin_title": "A scrawled note, attached to the Sinister Gong",
-													"dialog_title": "A letter from Erdene",
-													"choice_000": "[Okay!]"
+													"bulletin_title": "Načmáráaná poznámka, připevněná k Zlověstnému Gongu",
+													"dialog_title": "Dopis od Erdene",
+													"choice_000": "[Fajn!]"
 												},
 												"msg1": {
 													"bulletin_message": {
 														"00": "Only sound this gong when prepared - your town will be cut off from the world for days.<br><br>Corrupted creatures will surely appear - face them in combat if you can, hole up and hide if you cannot. There is no shame in survival. Be vigilant for citizens being trapped, buildings being threatened, and be prepared to dig.<br><br>Every small victory will sap away the Titan's strength - attempt no direct attack, it is out of reach and a mere apparition.<br><br>Stand strong in driving away its corruption, and you will emerge victorious."
 													},
-													"bulletin_title": "A scrawled note, attached to the Sinister Gong",
-													"dialog_title": "A letter from Erdene",
+													"bulletin_title": "Načmáráaná poznámka, připevněná k Zlověstnému Gongu",
+													"dialog_title": "Dopis od Erdene",
 													"choice_000": "We will survive."
 												}
 											}
