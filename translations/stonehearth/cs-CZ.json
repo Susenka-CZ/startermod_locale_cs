@@ -267,7 +267,7 @@
 			"citizen_character_sheet": {
 				"title": "Info o Postavě",
 				"health": "Životy",
-				"morale": "spokojenost",
+				"morale": "nálada",
 				"experience": "zkušenosti",
 				"max_level": "Maximální úroveň",
 				"no_levels": "Bez úrovní",
@@ -279,17 +279,17 @@
 				"master": "Mistr",
 				"journal": "Deník",
 				"thoughts": "Myšlenky",
-				"morale_meter": "Ukazatel Spokojenosti",
+				"morale_meter": "Ukazatel Nálady",
 				"attributes": "Vlastnosti",
 				"equipment": "Vybavení",
 				"abilities": "Dovednosti Povolání",
 				"appeal": "Přitažlivost",
 				"unknown_item": "Neobjevená Preference",
-				"morale_title": "Spokojenost",
-				"overall_morale": "Celková Spokojenost",
+				"morale_title": "Nálada",
+				"overall_morale": "Celková Nálada",
 				"morale_food": "Jídlo",
 				"morale_shelter": "Přístřeší",
-				"morale_safety": "Bezpečnost",
+				"morale_safety": "Bezpečí",
 				"attack_abbreviation": "Útok",
 				"defense_abbreviation": "Obr",
 				"backpack_tab_name": "Batoh",
@@ -506,7 +506,7 @@
 					"current_activity": "Činnost",
 					"working_for": "Pracuje Pro",
 					"status": "Stav",
-					"morale": "Spokojenost"
+					"morale": "Nálada"
 				},
 				"show_character_sheet": "Informace o Postavě",
 				"button_suspend": "přerušit",
@@ -983,7 +983,7 @@
 					"next_requirements_label": "Požadavky na dalšího hearthlinga...",
 					"tooltips": {
 						"food": "Jídlo vyšší kvality dává vyšší jídlení skóre.",
-						"morale": "Spokojenost zlepšíš, když se tvoji heratlingové budou cícit pohodlně, bezpečně a budou dobře živení.",
+						"morale": "Náladu zlepšíš, když se tvoji heratlingové cítí pohodlně, bezpečně a budou dobře živení.",
 						"net_worth": "Odhadovaná hodnota tvého města. Sbírej předměty, shromažďuj zlato a stav budovy, abys si zvýšil celkové jmění."
 					}
 				},
@@ -1399,7 +1399,7 @@
 			},
 			"town_overview": {
 				"title": "Přehled Města",
-				"town_morale": "Spokojenost Města",
+				"town_morale": "Nálada Města",
 				"initial_town_name": "Expedice [str(town_number)]",
 				"num_workers": "Pracovníci",
 				"num_crafters": "Řemeslníci",
@@ -1447,7 +1447,7 @@
 					"agriculture": "Zemědělství",
 					"edibles": "Potraviny",
 					"next_requirement": "Cíl",
-					"overall_morale": "Celková Spokojenost",
+					"overall_morale": "Celková Nálada",
 					"food": "Jídlo",
 					"shelter": "Přistřeší",
 					"safety": "Bezpečí",
@@ -2317,7 +2317,7 @@
 					}
 				},
 				"happiness": {
-					"display_name": "Celková Spokojenost",
+					"display_name": "Celková Nálada",
 					"description": "Herthlingova celková spokojenost",
 					"town_description": "Jak šťastní jsou celkově tvoji obyvatelé."
 				},
@@ -2549,7 +2549,7 @@
 						"update_title": "Denní Aktualizace",
 						"sub_title": "Hlášení o Imigraci",
 						"food_label": "Jídlo",
-						"morale_label": "Spokojenost",
+						"morale_label": "Nálada",
 						"net_worth_label": "Celkové Jmění",
 						"conclusion_positive": "Nový osadník by se rád připojil do tvého města!",
 						"conclusion_negative": "Cesty zůstávají prázdné. Možná zítra!",
@@ -2774,7 +2774,7 @@
 								},
 								"conclusion": {
 									"bulletin_message": {
-										"000": "Znamenitě! Kromě příslušného pomníku, bude tvoje město také potřebovat dosáhnout určité hodnoty. Nechám vám tu jednotlivé požadavky, pokud byste se o nich chtěli znovu poradit nebo pokud by vám jiná cesta připadlal lepší než ta kterou jste si vybrali na začátku."
+										"000": "Znamenitě! Kromě příslušného pomníku, bude tvoje město také potřebovat dosáhnout určité hodnoty. Nechám vám tu jednotlivé požadavky, pokud byste se o nich chtěli znovu poradit nebo pokud by vám jiná cesta připadala lepší než ta, kterou jste si vybrali na začátku."
 									},
 									"bulletin_title": "Anwyn svinuje svitek",
 									"dialog_title": "Ctihodná Anwyn Torresi",
@@ -4349,7 +4349,7 @@
 											"dialog_nodes": {
 												"request1": {
 													"bulletin_message": {
-														"00": "Moje žádost na vás: Zlomek zla, který přinesl konec Impéria Fénixe has coalesced tady, pod vašima nohama.<br><br>Bude-li nechán bez povšimnutí, bude spát ještě mnoho generací, ale bude nabírat na síle, potlačujíc a rozkladjíc magii tété země.<br><br>Probuďte tohoto Titána teď, a nebude mít jinou možnost, než vyčerpat svojí nashromážděnou energii v závěrečném boji proti vašemu osídlení. Odolejte jeho hněvu a bude smeten z povrchu zemského jednou pro vždy! A vaši potomci budou v klidu žít."
+														"00": "Moje žádost na vás: Zlomek zla, který přinesl konec Impéria Fénixe se zhmotnil tady, pod vašima nohama.<br><br>Bude-li nechán bez povšimnutí, bude spát ještě mnoho generací, ale bude nabírat na síle, potlačujíc a rozkladjíc magii tété země.<br><br>Probuďte tohoto Titána teď, a nebude mít jinou možnost, než vyčerpat svojí nashromážděnou energii v závěrečném boji proti vašemu osídlení. Odolejte jeho hněvu a bude smeten z povrchu zemského jednou pro vždy! A vaši potomci budou v klidu žít."
 													},
 													"bulletin_title": "Erdene žádá",
 													"dialog_title": "Erdenina žádost",
@@ -4414,7 +4414,7 @@
 												},
 												"story4": {
 													"bulletin_message": {
-														"00": "Lídé utekli, ustoupili k okrajům světa, a drželi se ho konečny prstů dokude se temnota sama neutišila.<br><br>Orkové, stejně jako ostatní děti Hada, zůstali a bojovali. Bojovali  proti skáze, bojovali i přes hladomor a strádání. Zdali kvůli vznešené odvaze nebo pošetilé hrdosti, to nevím.<br><br>Králičí lid, kterého již ubývalo, se zahrabal hlouběji a zřekl se povrchu světa."
+														"00": "Lídé utekli, ustoupili k okrajům světa, a drželi se ho konečky prstů dokude se temnota sama neutišila.<br><br>Orkové, stejně jako ostatní děti Hada, zůstali a bojovali. Bojovali  proti skáze, bojovali i přes hladomor a strádání. Zdali kvůli vznešené odvaze nebo pošetilé hrdosti, to nevím.<br><br>Králičí lid, kterého již ubývalo, se zahrabal hlouběji a zřekl se povrchu světa."
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
@@ -4579,60 +4579,60 @@
 											"dialog_nodes": {
 												"cheer": {
 													"bulletin_message": {
-														"00": "For instance, a <i>Hearth of Cheer</i> is for those who believe that a town's value is found in being a happy home for its citizens."
+														"00": "Na příklad <i>Městské Srdce Radosti</i> je pro ty, kteří věř, že hodnota města je v tom, že jsou v něm jeho obyvatelé šťastní."
 													},
-													"bulletin_title": "Radostná Volba",
-													"dialog_title": "Radostná Volba",
-													"choice_000": "Sounds quaint"
+													"bulletin_title": "Radostné Rozhodnutí",
+													"dialog_title": "Radostná Rozhodnutí",
+													"choice_000": "To zní legračně"
 												},
 												"makers": {
 													"bulletin_message": {
-														"00": "A <i>Hearth of Makers</i>, on the other hand, is for those who believe that a town's value is its work, and that its work is best measured in gold."
+														"00": "Na druhou stranu je tu <i>Městské Srdce Tvůrců</i>, pro ty kteří věří, že hodnota města tkví v jeho výtvorech, a výtvory se nejlépe měří v zlaťácích ."
 													},
-													"bulletin_title": "Znak Tvůrce",
-													"dialog_title": "Znak Tvůrce",
-													"choice_000": "Sounds productive"
+													"bulletin_title": "Trasa Tvůrců",
+													"dialog_title": "Trasa Tvůrců",
+													"choice_000": "To zní tvořivě"
 												},
 												"intro": {
 													"bulletin_message": {
-														"00": "Kind greetings! At last, I can see your Settlement in person. You've developed even faster than I anticipated, you should all be proud!"
+														"00": "Vřelé pozdravy! Nakonec můžu vidět vaši osadu na vlastní oči. Rozvinuli jste se ještě rychleji než jsem očekával, měl byste na sebe být hrdí!"
 													},
-													"bulletin_title": "An Official-Looking Fellow Approaches!",
-													"dialog_title": "Not a Bird This Time",
-													"choice_000": "Thank you!",
-													"choice_001": "[skip] We know what Hearth we want."
+													"bulletin_title": "Úředně-Vypadající Chlápek Přichází!",
+													"dialog_title": "Tentokrát To Není Ptáček",
+													"choice_000": "Děkujeme vám!",
+													"choice_001": "[přeskočit] My víme jaké Městské Srdce chceme."
 												},
 												"glory": {
 													"bulletin_message": {
-														"00": "Finally, a <i>Hearth of Glory</i> is for those who believe their destiny is to stand strong in a hostile world, as the Knight Cid did at the founding of the Ascendancy."
+														"00": "A nakonec <i>Městské Srdce Slávy</i> je pro ty, kteří věří, že jejich osud postavit se nepřátelskému světu, jako to udělal Rytíř Cid, při založení království Vznešených ."
 													},
-													"bulletin_title": "Guts and Glory",
-													"dialog_title": "Guts and Glory",
-													"choice_000": "Sounds heroic"
+													"bulletin_title": "Síla a Sláva",
+													"dialog_title": "Síla a Sláva",
+													"choice_000": "To zní hrdinsky"
 												},
 												"final": {
 													"bulletin_message": {
-														"00": "Cheer, Glory, or Makers - the choice is entirely yours. Envision what your Town will one day be, and follow that beacon into the future!"
+														"00": "Radost, Sláva nebo Tvůrci - volba je pouze na tobě. Představ si jaké jednou bude tvoje Město a následuj tuto představu do budoucnosti!"
 													},
-													"bulletin_title": "A Choice",
-													"dialog_title": "A Choice",
-													"choice_000": "We choose..."
+													"bulletin_title": "Volba",
+													"dialog_title": "Volba",
+													"choice_000": "Vybíráme si..."
 												},
 												"intro2": {
 													"bulletin_message": {
-														"00": "I came out personally to help you on your last step towards being a true Settlement of the Ascendancy!<br><br>You've grown large enough now that it's time to choose what Hearth shall represent your town, as is tradition."
+														"00": "Přišel jsem vám osobně pomoct s vaším posledním krokem k tomu stát se pravým Osadou Vznešených!<br><br>Rozrostli jste se dostatečně na to, aby jste si teď mohli vybrat jaké Srdce bude reprezentovat vaše město, jak říká tradice."
 													},
-													"bulletin_title": "Mer Continues",
-													"dialog_title": "Mer Burlyhands",
-													"choice_000": "Tradition?"
+													"bulletin_title": "Mer Pokračujš",
+													"dialog_title": "Mer Statnoruký",
+													"choice_000": "Tradice?"
 												},
 												"intro3": {
 													"bulletin_message": {
-														"00": "Indeed, Hearths have served as shining beacons for Towns all the way back to the Phoenix Empire.<br><br>Their glow attracts settlers and prosperity, and the particular qualities of a chosen Hearth reflect where a Town finds its value."
+														"00": "Přesně tak, Srdce sloužila jako svítící maják pro Města už v době Impéria Fénixe.<br><br>Jejich světlo přitahuje osadníky a blahobyt, a zvláštní vlastnosti vybraného Městského Srdce odráží, v čem se nachází hodnota Města. "
 													},
 													"bulletin_title": "Mer Pokračuje",
 													"dialog_title": "Mer Statnoruký",
-													"choice_000": "Value?"
+													"choice_000": "Hodnota?"
 												}
 											}
 										}
@@ -4651,67 +4651,67 @@
 										"title": "Základna Založena",
 										"dialog_title": "Základna Založena!",
 										"tier_title": "Základna",
-										"reward_message": "Jednomyslným souhlasem obyvatel, my deklarujeme:",
+										"reward_message": "Jednomyslným souhlasem obyvatel deklarujeme:",
 										"reward_message_ctd": "že jsme základnou umetající si cestu, aby se mohla stát obchodním uzlem.",
 										"achievements": {
-											"001": "Items sell for 50% more",
-											"000": "Roads give 3x their normal speed boost",
-											"002": "Traders will bring 2x the goods and Gold"
+											"001": "Prodejní cena předmětů je  o 50% vyšší",
+											"000": "Cesty dávají 3x vyšší bonus rychlosti",
+											"002": "Obchodnící přivezou 2x více zboží a Zlaťáků"
 										}
 									},
 									"banner_upgrade_strength": {
 										"title": "Základna Založena",
 										"dialog_title": "Základna Založena!",
 										"tier_title": "Základna",
-										"reward_message": "By unanimous agreement of the citizens, we declare:",
-										"reward_message_ctd": "to be an outpost on its way to be a safe haven for all.",
+										"reward_message": "Jednomyslným souhlasem obyvatel deklarujeme:",
+										"reward_message_ctd": "že jsme základnou na cestě k tomu být bezpečným útočištěm pro všechny.",
 										"achievements": {
-											"001": "Hearthlings no longer mind cramped spaces",
-											"000": "Mining gives 50% more Ore, Stone, and Clay"
+											"001": "Hearthlingům už nevadí přecpaná místa",
+											"000": "Dolováním získáváš o 50% více Rud, Kamene a Hlíny"
 										}
 									},
 									"banner_upgrade_vitality": {
-										"title": "Outpost Established",
-										"dialog_title": "Outpost Established!",
-										"tier_title": "Outpost",
-										"reward_message": "By unanimous agreement of the citizens, we declare:",
-										"reward_message_ctd": "to be an outpost striving to be at one with the environment.",
+										"title": "Základna Založena",
+										"dialog_title": "Základna Založena!",
+										"tier_title": "Základna",
+										"reward_message": "Jednomyslným souhlasem obyvatel deklarujeme:",
+										"reward_message_ctd": "že jsme základnou usilující o to být v souladu s přírodou.",
 										"achievements": {
-											"001": "Plants and Crops both grow 25% faster",
-											"000": "Trees produce 25% more Wood",
-											"002": "Plants have 2x their normal Appeal"
+											"001": "Rostliny i Plodiny rostou o 25% rychleji",
+											"000": "Stromy produkují o 25% více Dřeva",
+											"002": "Rostliny mají 2x jejich normální Přitažlivosti"
 										}
 									},
 									"hearth_upgrade_makers": {
-										"title": "Settlement Established",
-										"dialog_title": "Settlement Established!",
-										"tier_title": "Settlement",
-										"reward_message": "By unanimous agreement of the citizens, we declare:",
-										"reward_message_ctd": "to be a settlement out to prove that its riches and craftsmanship is unmatched.",
+										"title": "Osada Založena",
+										"dialog_title": "Osada Založena!",
+										"tier_title": "Osada",
+										"reward_message": "Jednomyslným souhlasem obyvatel deklarujeme:",
+										"reward_message_ctd": "že jsme osadou, která chce dokázat, že její bohatství a řemeslná zručnost nemá srovnání.",
 										"achievements": {
-											"001": "Daily Update boosted by Gold Coins",
-											"000": "+5% daily interest on Gold Coins (up to 300 per day)"
+											"001": "Denní Aktualizace vylepšená o Zlaté Mince",
+											"000": "+5% denní úrok Zlatých Mincí (až do 300 za den)"
 										}
 									},
 									"hearth_upgrade_glory": {
-										"title": "Settlement Established",
-										"dialog_title": "Settlement Established!",
-										"tier_title": "Settlement",
-										"reward_message": "By unanimous agreement of the citizens, we declare:",
-										"reward_message_ctd": "To be a settlement out to prove that it has unrivaled military strength.",
+										"title": "Osada Založena",
+										"dialog_title": "Osada Založena!",
+										"tier_title": "Osada",
+										"reward_message": "Jednomyslným souhlasem obyvatel deklarujeme:",
+										"reward_message_ctd": "že jsme osadou, která chce dokázat, že její vojenská síla je bezkonkurenční.",
 										"achievements": {
-											"000": "Hearth summons foes to defeat for Glory",
-											"001": "Daily Update boosted by Glory Tier"
+											"000": "Městské Srdce povolá nepřátelé k poražení a k získu Slávy",
+											"001": "Denní Aktualizace vylepšená o Úroveň Slávy "
 										}
 									},
 									"hearth_upgrade_cheer": {
-										"title": "Settlement Established",
-										"dialog_title": "Settlement Established!",
-										"tier_title": "Settlement",
-										"reward_message": "By unanimous agreement of the citizens, we declare:",
+										"title": "Osada Založena",
+										"dialog_title": "Osada Založena!",
+										"tier_title": "Osada",
+										"reward_message": "Jednomyslným souhlasem obyvatel deklarujeme:",
 										"reward_message_ctd": "to be a settlement out to prove that it has the happiest, most well-fed citizens, and nice places for them to live.",
 										"achievements": {
-											"000": "Daily Update boosted by citizen Morale",
+											"000": "Denní Aktualizace vylepšená o Náladu obyvatel",
 											"001": "Random Daily Buffs"
 										}
 									},
