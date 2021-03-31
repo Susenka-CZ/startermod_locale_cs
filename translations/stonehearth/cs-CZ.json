@@ -1656,7 +1656,7 @@
 				"gfx_medium": "Střední",
 				"gfx_high": "Vysoká",
 				"gfx_ultra": "Ultra",
-				"gfx_cardinfo": "[str(gpuRenderer)] ([str(gpuDriver)])",
+				"gfx_cardinfo": "[str(gpuRenderer)] - ([str(gpuDriver)])",
 				"gfx_enable_shadows": "Povolit Stíny",
 				"gfx_enable_vsync": "Povolit Vertikální Synchronizaci",
 				"gfx_enable_fullscreen": "Režim Celé Obrazovky",
@@ -2186,7 +2186,7 @@
 				"begin_button": "Vybrat Osadníky"
 			},
 			"select_roster": {
-				"reroll_citizens": "Znovu vygenerovat všechny Obyvatele",
+				"reroll_citizens": "Znovu Vygenerovat",
 				"reembark_button": "Vybrat Uložené",
 				"delete_crew": "Odstranit",
 				"delete_crew_confirm_title": "Odstranit Partu?",
@@ -2300,7 +2300,7 @@
 				},
 				"net_worth": {
 					"display_name": "Celkové Jmění",
-					"description": "Odraz rozkvětu tvého města. Stavby, majetek, a zemědělství dohromady tvoří toto skóre."
+					"description": "Odraz blahobytu tvého města. Stavby, majetek, a zemědělství dohromady tvoří toto skóre."
 				},
 				"courage": {
 					"display_name": "Odvaha",
@@ -2774,7 +2774,7 @@
 								},
 								"conclusion": {
 									"bulletin_message": {
-										"000": "Znamenitě! Kromě příslušného pomníku, bude tvoje město také potřebovat dosáhnout určité hodnoty. Nechám vám tu jednotlivé požadavky, pokud byste se o nich chtěli znovu poradit nebo pokud by vám jiná cesta připadala lepší než ta, kterou jste si vybrali na začátku."
+										"000": "Znamenitě! Kromě příslušného monumentu, bude tvoje město také potřebovat dosáhnout určité hodnoty. Nechám vám tu jednotlivé požadavky, pokud byste se o nich chtěli znovu poradit nebo pokud by vám jiná cesta připadala lepší než ta, kterou jste si vybrali na začátku."
 									},
 									"bulletin_title": "Anwyn svinuje svitek",
 									"dialog_title": "Ctihodná Anwyn Torresi",
@@ -3168,7 +3168,7 @@
 							"dialog_nodes": {
 								"msg2": {
 									"bulletin_message": {
-										"00": "Je tu docela klid, ale víš ty co...? Když ptáci přestanou zpívat, tak je to špatné znamení."
+										"00": "Je tu docela klid, ale víš ty co...? Když ptáčci přestanou zpívat, tak je to špatné znamení."
 									},
 									"bulletin_title": "Cestovatelka se škrábe na uchu",
 									"dialog_title": "Ošlehaná Cestovatelka"
@@ -4447,7 +4447,7 @@
 													"bulletin_message": {
 														"00": "<i><font size=-1>[Vyber Gong a zmáčkni tlačítko 'Probudit Titána' až budeš připraven. Zabití nebo zničení Titánových poskoků, chapadel nebo kořenů sníží jeho zdraví.]<br><br>[Hodně štěstí!]</font>"
 													},
-													"bulletin_title": "Načmáráaná poznámka, připevněná k Zlověstnému Gongu",
+													"bulletin_title": "Načmáraná poznámka, připevněná k Zlověstnému Gongu",
 													"dialog_title": "Dopis od Erdene",
 													"choice_000": "[Fajn!]"
 												},
@@ -4517,7 +4517,7 @@
 												},
 												"request2": {
 													"bulletin_message": {
-														"00": "Ano! Ve skutečnosti, Titánova Porážka vyčistila ten zlověstný Gong, který jsem vám přinesla, společně s vaší zemí. Ten Gong představuje důkaz trvalé úcty mých lidí k tvému kmeni a jeho lidem.<br><br><i>Tak dlouho dokud bude tento bílý kamenný gong vystaven</i> a ty budeš mít pro nás místo, očekávej Orkského imigranta každých pár nocí."
+														"00": "Ano! Ve skutečnosti, Titánova Porážka vyčistila ten zlověstný Gong, který jsem vám přinesla, společně s vaší zemí. Ten Gong představuje důkaz trvalé úcty mých lidí k tvému kmeni a jeho lidem.<br><br><i>Tak dlouho dokud bude tento bílý kamenný gong vystaven</i> a ty budeš mít pro nás místo, očekávej Orkského přistěhovalce každých pár nocí."
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene gestikuluje",
@@ -4550,7 +4550,7 @@
 													"bulletin_message": {
 														"00": "Chtěl bys nechat tohoto Orka připojit se k tvému městu?<br><br><i><font size=-1>[Je silný, pomalý, překvapivě těžko se dá vylekat a rycjhle se regeneruje navzdory jeho nízké vlastnosti Duše]</font></i>"
 													},
-													"bulletin_title": "Orkský imigrant!",
+													"bulletin_title": "Orkský přistěhovalec!",
 													"dialog_title": "Ork by se chtěl připojit ke tvému městu!",
 													"choice_000": "Ano",
 													"choice_001": "Ne"
@@ -4779,7 +4779,7 @@
 												},
 												"clergy_cont": {
 													"bulletin_message": {
-														"00": "Církev má úsloví, že <i>'Štěstí přeje laskavým'</i>, a požehnané fontány Hojnosti jsou pravým požehnáním po duši, těle i mysli všech obyvatel Města.<br><br>Prosím zváži zda nechceš ukázat světu, že tvoje Město bude jedno z nejdobrosrdečnějších tím, že postavíš oltář podle návrhu Církve.<br><br><font size=-1><i>Zasvěcení Fontány Hojnosti zajistí všem tvým měšťanům bonus +1 k vlastnstem Mysli, Těla i Duše.</i></font>"
+														"00": "Církev má úsloví, že <i>'Štěstí přeje laskavým'</i>, a požehnané fontány Hojnosti jsou pravým požehnáním po duši, těle i mysli všech obyvatel Města.<br><br>Prosím zváži zda nechceš ukázat světu, že tvoje Město bude jedno z nejdobrosrdečnějších tím, že postavíš svatyni podle návrhu Církve.<br><br><font size=-1><i>Zasvěcení Fontány Hojnosti zajistí všem tvým měšťanům bonus +1 k vlastnstem Mysli, Těla i Duše.</i></font>"
 													},
 													"bulletin_title": "Ember Minton",
 													"dialog_title": "Ember Minton",
@@ -4799,7 +4799,7 @@
 													},
 													"bulletin_title": "Marak Azael",
 													"dialog_title": "Marak Azael",
-													"choice_000": "Such vigor!"
+													"choice_000": "Taková verva!"
 												},
 												"intro": {
 													"bulletin_message": {
@@ -4834,7 +4834,7 @@
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "Ha ha ha! Jaký pěkný pomník jste to postavili! Úroveň, zarovnání, a všechny ty finální úpravy, které dokáže ocenit jen trénované oko, jako je to moje!</br></br><font size=-1>Och, jak se vám však povedlo ho takhle rozzářit?</font>"
+														"00": "Ha ha ha! Jaký pěkný monument jste to postavili! Úroveň, zarovnání, a všechny ty finální úpravy, které dokáže ocenit jen trénované oko, jako je to moje!</br></br><font size=-1>Och, jak se vám však povedlo ho takhle rozzářit?</font>"
 													},
 													"bulletin_title": "Marak Azael vybuchuje smíchy",
 													"dialog_title": "Marak Azael, Cechmistr",
@@ -4848,7 +4848,7 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "Oh! I'm fine, I was just... remembering something.<br/><br/>You know, I really do believe in the Ascendancy, that we have a destiny to retake these lost lands. Every new Town that springs up serves to strengthen my belief.<br/><br/>But it's the Towns like yours, dedicated to the support our valorous Guard, that truly warm my heart."
+														"00": "Och! Jsem v pohdě, jenom jsem... si něco vybavovala.<br/><br/>Víš, já opravdu věřím v Vznešené Království, tedy že je naším osudem vzít si zpátky tot ztracené území. Každé nové město, které tu vyroste, posiluje mé přesvědčení.<br/><br/>Ale jsou to Města jako to vaše, oddaná podpoře naší chrabré Stráže, která mě opravdu zahřejí u srdce. "
 													},
 													"bulletin_title": "Anwyn pokračuje",
 													"dialog_title": "Anwyn Torresi, Kapitánka Stráže",
@@ -4856,11 +4856,11 @@
 												},
 												"msg3": {
 													"bulletin_message": {
-														"00": "I've brought along plans for the Guard's finest weapons, as you've surely earned the right to forge them.<br/><br/>Now, if my service has taught me anything, it's to eat a good meal when given the chance. I'll leave you to your celebrating!"
+														"00": "Přinesla jsem s sebou plány na nejlepší zbraně Stráže, protože si určitě získaly právo na to je vykovat.<br/><br/>Ale teď, pokud mě moje služba něčemu naučila, tak je to sníst dobré jídlo, kdykoliv máte příležitost. Už vás nechám oslavovat!"
 													},
 													"bulletin_title": "Anwyn pokračuje",
 													"dialog_title": "Anwyn Torresi, Kapitánka Stráže",
-													"choice_000": "Enjoy!"
+													"choice_000": "Užij si to!"
 												},
 												"msg1": {
 													"bulletin_message": {
@@ -4878,27 +4878,27 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "As this shrine bestows its blessing on you all, take a moment to reflect on the world, its mysteries, and its many bounties.<br/><br/>May your Town always be a happy home for its people, and a wellspring for the generosity of the Church of Plenty."
+														"00": "Jako tato svatyně dává požehnání vám všem, udělejte si chvilku na přemítání o světě, jeho záhadami a jeho mnoha dary.<br/><br/>Ať je vaše Město navždy sťastným domovem pro jeho obyvatele a pramenem šťedrosti pro Církev Hojnosti."
 													},
-													"bulletin_title": "Ember continues",
-													"dialog_title": "Ember Minton, Missionary",
-													"choice_000": "We'll do our best!"
+													"bulletin_title": "Ember pokračuje",
+													"dialog_title": "Ember Minton, Misionářka",
+													"choice_000": "Uděláme, co bude vnašich silách!"
 												},
 												"msg3": {
 													"bulletin_message": {
-														"00": "Now, enough somber platitudes - go enjoy the party! I think I saw Mer with some cake earlier that I'd love to get my hands on..."
+														"00": "No, ale dost otřepaných frázích - jděte si užít party! Myslím, že jsem viděla Mera s nějakým dortem, který bych taky ráda dostala do ruky..."
 													},
-													"bulletin_title": "Ember continues",
-													"dialog_title": "Ember Minton, Missionary",
-													"choice_000": "Enjoy!"
+													"bulletin_title": "Ember pokračuje",
+													"dialog_title": "Ember Minton, Misionářka",
+													"choice_000": "Užij si to!"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "<font size=-1>...and may this town flourish in fortune and prosperity, for so long as the Sun shall shine. Umbasa.</font><br/><br/>Oh! My apologies, I was lost in prayer.<br/><br/>You have a truly wonderful town here, and I feel so privileged to be the missionary to bless this fine monument."
+														"00": "<font size=-1>...a ať toto město nabírá na bohotství a blahobytu, tak dlouho dokud bude Slunce svítit. Umbasa.</font><br/><br/>Och! Omlouvám se, trochu jsem se zapomněla v modlitbách.<br/><br/>Máte tady opravdu nádherné město, a cítím se velmi privilegovaně, že jsem ta misionářka, která požehná tento krásný monument."
 													},
-													"bulletin_title": "Ember faces the shrine",
-													"dialog_title": "Ember Minton, Missionary",
-													"choice_000": "Thank you for coming"
+													"bulletin_title": "Ember se dívá na svatyni",
+													"dialog_title": "Ember Minton, Misionářka",
+													"choice_000": "Díky, že jsi přišla"
 												}
 											}
 										}
@@ -4908,27 +4908,27 @@
 											"dialog_nodes": {
 												"msg1": {
 													"bulletin_message": {
-														"00": "Well, now, it seems my favorite little Outpost is all grown up! Congratulations on your newfound Township!"
+														"00": "No, tak to vypadá, že moje nejoblíbenjší Základna vyrostla! Gratuluji k vaší nově založené Obci!"
 													},
-													"bulletin_title": "It's Mer Again!",
-													"dialog_title": "Mer Burlyhands, Capital Fellow",
-													"choice_000": "Aw, Thanks!"
+													"bulletin_title": "To Je Zase Mer!",
+													"dialog_title": "Mer Statnoruký, Skvělý Chlapík",
+													"choice_000": "Óó, Díky!"
 												},
 												"msg2": {
 													"bulletin_message": {
-														"00": "By the by, this monument here is special, since it's gotten blessed and all - you can build the others if you like, but they'll just be regular old statues. Fancy-looking ones, but none quite so magical.<br/><br/> Still, they make for a nice decoration, don't you think?"
+														"00": "Mimochodem, ten monument tady je zvláštní, jelikož byl posvěcen a tak - můžeš poslavit i ostatní, jestli chceš, ale budou to jen staré dobré sochy. Pěkně vypadající, ale vůbec né tak kouzelné.<br/><br/> Pořád jde ale o pěkné dekorace, nemyslíš?"
 													},
-													"bulletin_title": "Mer Continues",
-													"dialog_title": "Mer Burlyhands, Capital Fellow",
-													"choice_000": "Got it!"
+													"bulletin_title": "Mer Pokračuje",
+													"dialog_title": "Mer Statnoruký, Skvělý Chlapík",
+													"choice_000": "Chápu!"
 												},
 												"msg3": {
 													"bulletin_message": {
-														"00": "Thanks for being such a bunch of charming folks - I'm proud to serve a group of such earnest and ambitious individuals. You make me proud!<br/><br/>Farewell for now, and the best of luck to each of you!"
+														"00": "Děkuji, že jste takovou okouzlující partou lidiček - Jsem hrdý, že posloužím skupině takových svědomitých a ambicióznéích osob. Jsem na vás pyšný!<br/><br/>Tak zatím sbohem a hodně štěstí vám všem!"
 													},
-													"bulletin_title": "Mer Continues",
-													"dialog_title": "Mer Burlyhands, Capital Fellow",
-													"choice_000": "Farewell, Mer! It's been a pleasure!"
+													"bulletin_title": "Mer Pokračuje",
+													"dialog_title": "Mer Statnoruký, Skvělý Chlapík",
+													"choice_000": "Sbohem, Mere! Bylo nám potěšením!"
 												}
 											}
 										}
@@ -4938,11 +4938,11 @@
 											"dialog_nodes": {
 												"msg1": {
 													"bulletin_message": {
-														"00": "Hello again! Now that you've got a bustling little town here, perhaps it's time to start thinking of your next adventure.<p>I expect some of your citizens are itching to head out and establish a brand new town, even bigger, and even better, with all the lessons learned from this one.</p><p><font size=-1><i>Re-embarking allows you to carry over up to 3 citizens, 10 items, and all your unlocked recipes when starting a new town.</i></font></p>"
+														"00": "Ještě jednou Ahoj! Teď když už tady máš rušné městečko, možná je čas, začít pemýšlet o tvém dalším dobrodružství.<p>Předpokládám, že někteří z tvých obyvatel mají nutkání vyrazit na cestu a založit úplně nové město, ještě větší a ještě lepší, se zkušenostmi, které mají z tohoto.</p><p><font size=-1><i>Znovu-založení ti umožní vzít si s sebou až 3 obyvatele, 10 předmětů, a všechny odemčené recepty, když začneš s  novým městem.</i></font></p>"
 													},
-													"bulletin_title": "It's Mer Again!",
-													"dialog_title": "One Last Thing",
-													"choice_000": "Exciting!"
+													"bulletin_title": "To Je Zase Mer!",
+													"dialog_title": "Ještě Jedna Věc",
+													"choice_000": "Vzrušující!"
 												}
 											}
 										}
@@ -4956,35 +4956,35 @@
 							"dialog_nodes": {
 								"msg4": {
 									"bulletin_message": {
-										"00": "Take the time to consider what you consider most important, what you wish that beacon to stand for. Prosperity? Happiness? Strength? Each is a noble pursuit.<br><br>Wishing you the best of luck! <br><br>Yours in the Capital,<br> Mer Burlyhands<br><br><font size=-1>P.S. A small gift for you from my personal garden <font size=+2>❀</font></font>"
+										"00": "Nech si čas na rozmyšlenou, co je pro tebe nejdůležitější. Co si přeješ aby tento „maják“ zastupoval. Blahobyt? Štěstí? Sílu? Všechno to jsou ušlechtilé cíle.<br><br>Přeji ti hodně štěstí! <br><br>Tvůj v Hlavním Městě,<br> Mer Statnoruký<br><br><font size=-1>P.S. Malý dárek pro tebe z mojí osobní zahrady <font size=+2>❀</font></font>"
 									},
-									"bulletin_title": "To Be Considered",
-									"dialog_title": "To Be Considered",
-									"choice_000": "Frostsnap seeds! Thanks!"
+									"bulletin_title": "Ke Zvážení",
+									"dialog_title": "Ke Zvážení",
+									"choice_000": "Semínka Mrazenky! Děkuji!"
 								},
 								"msg2": {
 									"bulletin_message": {
-										"00": "Congratulations on your Founding!<br><br>Your Outpost has been entered into the registry - consider yourselves official! \"Her Majesty's Outpost of [str(i18n_data.town_name)]\" - it has a nice ring to it, I think. An inspirational Banner design, as well!<br><br> All of us here are eager to hear of your success!"
+										"00": "Gratuluji k vašemu Založení!<br><br>Tvoje Základna byla zapsána do registru - teď už je to oficiální! \"Základna Její Výsosti - [str(i18n_data.town_name)]\" - myslím si, že to zní dobře. Také máte inspirující design Praporu!<br><br> Všichni se netrpělivě těšíme až uslyšíme o tvém úspěchu!"
 									},
-									"bulletin_title": "A Reply",
-									"dialog_title": "A Reply",
-									"choice_000": "The letter continues"
+									"bulletin_title": "Odpověď",
+									"dialog_title": "Odpověď",
+									"choice_000": "Dopis pokračuje"
 								},
 								"msg3": {
 									"bulletin_message": {
-										"00": "As your Outpost grows towards Settlement status, you will start to attract new immigrants.<br/><br/>Your Hearth now is only a spark of what it will one day become - I have faith that it will be a beacon seen all across the Ascendancy."
+										"00": "Jak tvoje Základna roste směrem k získání statutu Osady, začne lákat nové přistěhovalce.<br/><br/>Tvoje Městské Srdce je jen odleskem toho, cím se jednou stane - Věřím tomu, že jednou bude majákem viditelným přes celé Vznešené Království."
 									},
-									"bulletin_title": "A View Towards the Future",
-									"dialog_title": "A View Towards the Future",
-									"choice_000": "In conclusion..."
+									"bulletin_title": "Výhled Do Budoucnosti",
+									"dialog_title": "Výhled Do Budoucnosti",
+									"choice_000": "Závěrem..."
 								},
 								"msg1": {
 									"bulletin_message": {
-										"00": "The messenger bird returns, with a reply from Mer Burlyhands.<br><br><p align='right'><font size=-6 color='#cccccc'>The letter has bite marks, and is slightly drooled on. Harold is doing his best.</font></p>"
+										"00": "Ptačí poslíček se vrací s odpovědí od Mera Statnorukého.<br><br><p align='right'><font size=-6 color='#cccccc'>Dopis má na sobě stopy zobáku a je mírně poslintaný. Harold se snaží ze všech sil</font></p>"
 									},
-									"bulletin_title": "The Bird Returns!",
-									"dialog_title": "Another Letter!",
-									"choice_000": "Open the letter"
+									"bulletin_title": "Ptáček se Vrací!",
+									"dialog_title": "Další Dopis!",
+									"choice_000": "Otevřít dopis"
 								}
 							}
 						}
@@ -4994,27 +4994,27 @@
 							"dialog_nodes": {
 								"msg_final": {
 									"bulletin_message": {
-										"00": "Which Shrine will you build to signify your Settlement's ascent into Township?<br><br><font size=-1>Shrine of Fortune (+1 Mind, Body, and Spirit for your citizens!)<br><br>Shrine of Valor (Legendary weapons)<br><br>Shrine of Masterwork (Unlocks Masterwork-tier crafts! Four times as Appealing and Expensive as Excellent-tier!)</font>"
+										"00": "Jakou Svatyni postavíš abys označil vzestup své Osady ke statutu Obce?<br><br><font size=-1>Svatyně Bohatství (+1 Mysl, Tělo, a Duše pro tvé obyvatele!)<br><br>Svatyně Chrabrosti (Legendární zbraně)<br><br>Svatyně Mistrovství (Odemkne výrobky Hustodémonskykrutopřísné-úrovně! Čtyřikrát víc Přitažlivější a Dražší než Vynikající-úrovně  !)</font>"
 									},
-									"bulletin_title": "Choose a Shrine!",
-									"dialog_title": "Choose a Shrine!",
-									"choice_000": "Fortune",
-									"choice_001": "Valor",
-									"choice_002": "Masterwork"
+									"bulletin_title": "Vyber Svatyni!",
+									"dialog_title": "Vyber Svatyni!",
+									"choice_000": "Bohatství",
+									"choice_001": "Chrabrost",
+									"choice_002": "Mistrovství"
 								}
 							}
 						},
 						"guildmaster": {
-							"name": "The Guildmaster's Skill",
-							"description": "<i>This Township shall be known for its artisans' hard work and dedication to their craft.</i><ul><li>Allows crafting Masterwork quality items</li><li>Unlocks artisan-themed decoration recipes</li></ul>"
+							"name": "Cechmistrova Zručnost",
+							"description": "<i>Tato Obec bude známa pro své řemeslnické úsilí a oddanost ke svím řemeslům</i><ul><li>Umožňuje vytvářet předměty Hustodémonskykrutopřísné kvality</li><li>Odemyká návody s řemeslnou tématikou</li></ul>"
 						},
 						"deity": {
-							"name": "Fountain of Plenty",
-							"description": "<i>This Township shall show generosity and kindness to the needy.</i><ul><li>Blesses all citizens with +1  to Mind, Body, and Spirit</li><li>Unlocks nature-themed decoration recipes</li></ul>"
+							"name": "Fontána Hojnosti",
+							"description": "<i>Tato Obec se ukáže štědrostí a dobrosrdečnosti k potřebným.</i><ul><li>Požehná všechny obyvatele tím, že jim přidá +1 Mysl, Tělo, a Duše</li><li>Odemyká návody na dekorace s přírodní tématikou</li></ul>"
 						},
 						"valor": {
-							"name": "The Valor of Cid",
-							"description": "<i>This Township shall be dedicated to Cid's valorous example to protect the whole region.</i><ul><li>Unlocks legendary weapon recipes</li><li>Unlocks castle decoration recipes</li></ul>"
+							"name": "Cidova Chrabrost",
+							"description": "<i>Tato Obec bude zasvěcena Cidově chrabrému příkladu pro ochranu celé oblasti.</i><ul><li>Odemyká návody na legendární zbraně</li><li>Odemyká návody na hradní dekorace</li></ul>"
 						}
 					},
 					"shrine_foreshadow_dialog": {
@@ -5022,35 +5022,35 @@
 							"dialog_nodes": {
 								"msg4": {
 									"bulletin_message": {
-										"00": "Next time I visit, I'll bring these folks along with me, and let them plead their cases. Decisions, decisions!<br><br>Until then!<br><br>Yours in the Capital,<br>&nbsp;Mer Burlyhands"
+										"00": "Až přiště přijedu na návštěvu, vezmu tyhle lidi s sebou a nechám je hájit jejich zájmy. Rozhodnutí, rozhodnutí!<br><br>Zatím naviděnou!<br><br>Váš v Hlavním Městě,<br> Mer Satnoruký"
 									},
-									"bulletin_title": "A Letter",
-									"dialog_title": "A Letter",
-									"choice_000": "Until then, Mer"
+									"bulletin_title": "Dopis",
+									"dialog_title": "Dopis",
+									"choice_000": "Zatím naviděnou, Mer"
 								},
 								"msg2": {
 									"bulletin_message": {
-										"00": "Dear [str(i18n_data.town_name)]-ites,<br><br>Word around the Capital is that your Settlement has grown since I last saw it, and that it's getting even more bustling by the day! Your Hearth must be burning brightly to attract so many new settlers.<br><br>In fact, it's also attracted the attention of a few notable individuals."
+										"00": "Drazí občané města [str(i18n_data.town_name)],<br><br>V hlavním městě se povídá, že se vaše Osada rozrostla od doby, co jsem ji naposledy viděl, a že je den ode dne rušnější! Vaše Městské Srdce musí hořet jasně aby přilákalo tolik nových osadníků.<br><br>Popravdě, také přilákalo pozornost několika významných osob."
 									},
-									"bulletin_title": "A Letter",
-									"dialog_title": "A Letter",
-									"choice_000": "Notable?"
+									"bulletin_title": "Dopis",
+									"dialog_title": "Dopis",
+									"choice_000": "Významných?"
 								},
 								"msg3": {
 									"bulletin_message": {
-										"00": "As you probably know, a settlement traditionally needs a Sponsorship to become a true Township - generally from a guild, the clergy, or the military.<br><br>In the past few days, I've been approached by a few individuals who are <i>very</i> interested to get a look at your town for themselves, and see if you'd be interested in allowing them to be your Sponsor."
+										"00": "Jak asi víte, každé osídlení tradičně potřebuje mít svůj Patronát, aby se stalo pravou Obcí - obecně od cechu, duchovenstva, nebo armády.<br><br>Během několika posledních dní mě navštívilo několik osob, které se <i>velmi</i> zajímají o to, aby se mohli podívat na vaše město na vlastní oči, a aby zjistili jestli by si měl zájem, aby se staly tvými Patrony."
 									},
-									"bulletin_title": "A Letter",
-									"dialog_title": "A Letter",
-									"choice_000": "Great!"
+									"bulletin_title": "Dopis",
+									"dialog_title": "Dopis",
+									"choice_000": "Skvěle!"
 								},
 								"msg1": {
 									"bulletin_message": {
-										"00": "Looks like Mer is getting in touch with us again!"
+										"00": "Vypadá to, že už se nám Mer zase ozívá!"
 									},
-									"bulletin_title": "That Weird Bird Again!",
-									"dialog_title": "Another Letter!",
-									"choice_000": "Open it"
+									"bulletin_title": "Zase Ten Divný Pták!",
+									"dialog_title": "Další Dopis!",
+									"choice_000": "Otevři ho"
 								}
 							}
 						}
@@ -5060,36 +5060,36 @@
 							"dialog_nodes": {
 								"read_letter3": {
 									"bulletin_message": {
-										"00": "Hold in your mind a vision of what your Town will one day be. Your Banner will set that course, but it is up to you to finish it.<p>Choose well, my friends. I eagerly await your reply.</p><br><p>Yours,</p><p>&nbsp;Mer Burlyhands</p>"
+										"00": "Mějte na paměti vizi toho, čím jednou bude vaše Město. Váš Prapor sice tento směr nastaví, ale bude na vás aby jste to dotáhli do konce<p>Vyberteš si dobře, moji přátelé. Netrpělivě očekávám vaší odpověď.</p><br><p>Váš,</p><p> Mer Statnoruký</p>"
 									},
-									"bulletin_title": "The Letter Continues",
-									"dialog_title": "The Letter Continues...",
-									"choice_000": "What shall we choose..."
+									"bulletin_title": "Dopis Pokračuje",
+									"dialog_title": "Dopis Pokračuje",
+									"choice_000": "Co si vybereme..."
 								},
 								"open_letter": {
 									"bulletin_message": {
-										"00": "An odd bird arrives with a letter in its beak, stamped with the Official Seal of the Ascendancy. <br><br><p align='right'><font size=-6 color='#cccccc'>The bird also carries a nametag, which reads 'Harold'</font></p>"
+										"00": "Zvláštní ptáček se ovjevil s dopisem v zobáku, okolkovaný Oficiální Pečetí Vznešeného Království. <br><br><p align='right'><font size=-6 color='#cccccc'>Ptáček má na sobě také jmenovku, na které stojí 'Harold'</font></p>"
 									},
-									"bulletin_title": "A Strange Bird!",
-									"dialog_title": "A Bird... Messenger?",
-									"choice_000": "Open the letter",
-									"choice_001": "[skip] We know what banner we want."
+									"bulletin_title": "Podivný Ptáček!",
+									"dialog_title": "Ptáček... Poštovní?",
+									"choice_000": "Otevřít dopis",
+									"choice_001": "[přeskočit] Už víme jaký prapor chceme."
 								},
 								"read_letter": {
 									"bulletin_message": {
-										"00": "Dear Expedition [str(i18n_data.town_serial_number)],<p>I hope this letter finds you well. By my guess, you've likely set up camp by now.</p><p>As your Capital Liaison, it is my honor to preside, remotely, over the official Founding of your Outpost! I trust that you had ample time to choose a name on your journey.</p>"
+										"00": "Drahá Vypravo [str(i18n_data.town_serial_number)],<p>Doufém, že vás tento dopis zastihne v pořádku. Podle mého odhadu, jste pravděpodobně už založili kemp.</p><p>Jako vaší Hlavní Spojce je mi ctí předsedat, vzdáleně, oficiálnímu Založení vaší Základny! Věřím, že jste během cesty měli dostatek času, aby jste si vybrali jméno.</p>"
 									},
-									"bulletin_title": "A Letter from the Capital!",
-									"dialog_title": "A Letter from the Capital!",
-									"choice_000": "Founding?"
+									"bulletin_title": "Dopis z Hlavního Města!",
+									"dialog_title": "Dopis z Hlavního Města!",
+									"choice_000": "Založení?"
 								},
 								"read_letter2": {
 									"bulletin_message": {
-										"00": "As you know, every new settlement must choose a Banner.<p>This Banner reflects your spirit and vision, the uniting factor which brought the Expedition together!</p><p>What future did you foresee when you embarked on your quest for Township?</p> "
+										"00": "Jak víte, každé nové osídlení si musí vybrat Prapor.<p>Tento Prapor odráží váš charakter a vizi - spojující článek, který dal dohromady tuto Výpravu!</p><p>Jakou budoucnost jste předvidali, když jste vyrazili na cestu za statutem Obce?</p> "
 									},
-									"bulletin_title": "The Letter Continues",
-									"dialog_title": "The Letter Continues...",
-									"choice_000": "Banner... Hmm..."
+									"bulletin_title": "Dopis Pokračuje",
+									"dialog_title": "Dopis Pokračuje...",
+									"choice_000": "Prapor... Hmm..."
 								}
 							}
 						}
@@ -5099,11 +5099,11 @@
 							"dialog_nodes": {
 								"msg1": {
 									"bulletin_message": {
-										"00": "The odd messenger bird scurries off with your Official Settlement Founding Declaration in its beak, carrying it in the vague direction of the capital."
+										"00": "Zvláštní poštovní ptáček cupitá pryč s vaší Officiální Deklarací o Založení Osídlení ve svém zobáku, nesouce jí přibližně směrem k hlavnímu městu."
 									},
-									"bulletin_title": "The Bird Departs",
-									"dialog_title": "The Bird Departs",
-									"choice_000": "Farewell!"
+									"bulletin_title": "Ptáček Odbíhá",
+									"dialog_title": "Ptáček Odbíhá",
+									"choice_000": "Sbohem!"
 								}
 							}
 						}
@@ -5113,26 +5113,26 @@
 							"dialog_nodes": {
 								"simple_message": {
 									"bulletin_message": {
-										"00": "You're not sure how you missed it before, but the bird is wearing a tiny backpack.<br><br>It contains a note, which reads <i>\"A little something to help you celebrate\"</i> along with:"
+										"00": "Nejsi si jistý, jaktože sis toho předtím nevšiml, ale ptáček má na sobě batůžek.<br><br>Obsahuje lístek, na kterém stojí <i>\"Něco malého na pomoc s oslavou\"</i> společně s:"
 									},
-									"bulletin_title": "The Bird Squawks",
-									"dialog_title": "A Tiny Backpack",
-									"choice_000": "Delicious!"
+									"bulletin_title": "Ptáček Skřehotá",
+									"dialog_title": "Batůžek",
+									"choice_000": "Mňam!"
 								}
 							}
 						}
 					},
 					"hearth_choice": {
 						"glory": {
-							"name": "Hearth of Glory",
+							"name": "Městské Srdce Slávy",
 							"description": "<i>Proof that you have military strength, and that you're prepared to keep it on its feet.</i><ul><li>Allows summoning increasingly difficult enemies to prove your mettle</li><li>Each rank defeated will boost Daily Update net worth</li></ul>"
 						},
 						"makers": {
-							"name": "Hearth of the Makers",
+							"name": "Městské Srdce Tvůrců",
 							"description": "<i>Proof that gold has been flowing through your settlement, and that you have fine crafters.</i><ul><li>Generates 5% daily interest on any Gold Coins you have on hand (up to 300 per day)</li><li>Boosts your Daily Update net worth based on Gold Coins on hand</li></ul>"
 						},
 						"cheer": {
-							"name": "Hearth of Cheer",
+							"name": "Městské Srdce Radosti",
 							"description": "<i>Proof that you have happy, well-fed citizens, and nice places for them to live.</i><ul><li>Boosts Daily Update net worth based on the overall Morale of your citizens</li><li>Each day brings a new random buff for your townsfolk.</li></ul>"
 						}
 					},
