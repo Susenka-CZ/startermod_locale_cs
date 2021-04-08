@@ -5125,20 +5125,20 @@
 					"hearth_choice": {
 						"glory": {
 							"name": "Městské Srdce Slávy",
-							"description": "<i>Proof that you have military strength, and that you're prepared to keep it on its feet.</i><ul><li>Allows summoning increasingly difficult enemies to prove your mettle</li><li>Each rank defeated will boost Daily Update net worth</li></ul>"
+							"description": "<i>Důkaz, že máš vojenskou sílu, a že jsi připraven postarat se o to aby ti zůstala .</i><ul><li>Umožňuje přivolat nepřátelé s narůstající obtížnosti, abys prokázal svého bojového ducha</li><li>Každá poražená kategorie zvýší tvoje celkové jmění v Denní Aktualizaci</li></ul>"
 						},
 						"makers": {
 							"name": "Městské Srdce Tvůrců",
-							"description": "<i>Proof that gold has been flowing through your settlement, and that you have fine crafters.</i><ul><li>Generates 5% daily interest on any Gold Coins you have on hand (up to 300 per day)</li><li>Boosts your Daily Update net worth based on Gold Coins on hand</li></ul>"
+							"description": "<i>Důkaz, že zlato proudí tvým osídlením, a že máš skvělé řemeslníky.</i><ul><li>Generuje 5% denní úrok ze Zlatých Mincí, které máš v zásobě (až do 300 za den)</li><li>Zvýší tvoje celkové jmění v Denní Aktualizaci podle Zlatých Mincí které máš v zásobě</li></ul>"
 						},
 						"cheer": {
 							"name": "Městské Srdce Radosti",
-							"description": "<i>Proof that you have happy, well-fed citizens, and nice places for them to live.</i><ul><li>Boosts Daily Update net worth based on the overall Morale of your citizens</li><li>Each day brings a new random buff for your townsfolk.</li></ul>"
+							"description": "<i>Důkaz, že máš šťastné, dobře živené obyvatele, s příjemnými místy k bydlení.</i><ul><li>Zvýší tvoje celkové jmění v Denní Aktualizaci podle celkové Nálady tvých obyvatel</li><li>Každý den přinese náhodné požehnání všem ve tvém městě.</li></ul>"
 						}
 					},
 					"shrine_quest_deity": {
-						"title": "Township Quest: Fountain of Plenty",
-						"dialog_title": "Township Quest: Fountain of Plenty"
+						"title": "Obecní Úkol: Fontána Hojnosti",
+						"dialog_title": "Obecní Úkol: Fontána Hojnosti"
 					},
 					"shrine_quest_guildmaster": {
 						"title": "Township Quest: The Guildmaster's Skill",
@@ -5149,19 +5149,19 @@
 						"dialog_title": "Township Quest: Cid's Valor"
 					},
 					"hearth_quest_cheer": {
-						"title": "Hearth Upgrade: Cheer",
-						"dialog_title": "Hearth Upgrade: Cheer"
+						"title": "Vylepšení Městského Srdce: Radost",
+						"dialog_title": "Vylepšení Městského Srdce: Radost"
 					},
 					"hearth_quest_glory": {
-						"title": "Hearth Upgrade: Glory",
-						"dialog_title": "Hearth Upgrade: Glory"
+						"title": "Vylepšení Městského Srdce: Sláva",
+						"dialog_title": "Vylepšení Městského Srdce: Sláva"
 					},
 					"hearth_quest_makers": {
-						"title": "Hearth Upgrade: Makers",
-						"dialog_title": "Hearth Upgrade: Makers"
+						"title": "Vylepšení Městského Srdce: Tvůrci",
+						"dialog_title": "Vylepšení Městského Srdce: Tvůrci"
 					},
 					"unlock_shrine_recipes": {
-						"bulletin_title": "Mason shrine recipes unlocked!"
+						"bulletin_title": "Návody na svatyně pro kameníka odemčeny!"
 					}
 				},
 				"titan": {
