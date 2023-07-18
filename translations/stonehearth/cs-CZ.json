@@ -162,7 +162,7 @@
 				"terrain_slice_vision_up_single": "Zvýšení úroveně řezu",
 				"terrain_slice_vision_down_single": "Snížení úrovně řezu",
 				"terrain_slice_vision_down": "Snížení úrovně řezu (skok o 5)",
-				"terrain_xray_vision_icon_name": "rtg",
+				"terrain_xray_vision_icon_name": "RTG",
 				"terrain_xray_vision": "Rentgen terénem",
 				"terrain_xray_vision_description": "Umožňuje vidět skrz terén. Vybírej mezi plným a plochým pohledem pro zobrazení podzemních stěn.",
 				"terrain_xray_vision_flat": "plochý",
@@ -267,7 +267,7 @@
 			"citizen_character_sheet": {
 				"title": "Info o Postavě",
 				"health": "Životy",
-				"morale": "spokojenost",
+				"morale": "nálada",
 				"experience": "zkušenosti",
 				"max_level": "Maximální úroveň",
 				"no_levels": "Bez úrovní",
@@ -279,17 +279,17 @@
 				"master": "Mistr",
 				"journal": "Deník",
 				"thoughts": "Myšlenky",
-				"morale_meter": "Ukazatel Spokojenosti",
+				"morale_meter": "Ukazatel Nálady",
 				"attributes": "Vlastnosti",
 				"equipment": "Vybavení",
 				"abilities": "Dovednosti Povolání",
 				"appeal": "Přitažlivost",
 				"unknown_item": "Neobjevená Preference",
-				"morale_title": "Spokojenost",
-				"overall_morale": "Celková Spokojenost",
+				"morale_title": "Nálada",
+				"overall_morale": "Celková Nálada",
 				"morale_food": "Jídlo",
 				"morale_shelter": "Přístřeší",
-				"morale_safety": "Bezpečnost",
+				"morale_safety": "Bezpečí",
 				"attack_abbreviation": "Útok",
 				"defense_abbreviation": "Obr",
 				"backpack_tab_name": "Batoh",
@@ -476,7 +476,7 @@
 				"no_requirements": "Žádná!",
 				"equipment_description": "Vybavení, které může použít: [str(class_list)]",
 				"level_description": "Úrovně [str(level_req)]",
-				"or": " nebo",
+				"or": "nebo",
 				"num_uses": "Použití",
 				"placed": "umístěn",
 				"placement_tags": {
@@ -486,7 +486,7 @@
 				},
 				"quality": {
 					"quality-2": "Dobrá Kvalita",
-					"quality-3": "Vynikající Kvalita",
+					"quality-3": "Výborná Kvalita",
 					"quality-4": "Hustodémonskykrutopřísná Kvalita!"
 				},
 				"traveler": {
@@ -506,7 +506,7 @@
 					"current_activity": "Činnost",
 					"working_for": "Pracuje Pro",
 					"status": "Stav",
-					"morale": "Spokojenost"
+					"morale": "Nálada"
 				},
 				"show_character_sheet": "Informace o Postavě",
 				"button_suspend": "přerušit",
@@ -729,7 +729,7 @@
 						},
 						"broken_building": {
 							"display_name": "Staré & Rozbité",
-							"description": "Tempt fate with the old building editor!"
+							"description": "Zkus to s pomocí starého stavebního editoru!"
 						},
 						"place_item": {
 							"display_name": "Umístit Předmět",
@@ -742,7 +742,7 @@
 							"tip_description": "Dosažen [str(tag)] limit umístění [str(num)] / [str(max)]"
 						},
 						"build_ladder": {
-							"display_name": "Konstrukce Žebříku",
+							"display_name": "Postavit Žebřík",
 							"description": "Postav žebřík, aby ses dostal na těžko dostupná místa",
 							"tip_title": "Kliknutím na zeď postavíš žebříky",
 							"tip_description": "Klikni pro ruční umístění žebříku, aby ses dostal do těžko dostupných oblastí.<br><br>Skonči stiskem pravého tlačítka "
@@ -951,7 +951,7 @@
 					"placed_item_label": "Předmět [str(itemName)] umístěn",
 					"quality_label": {
 						"quality_2": "Vlastněné předměty dobré kvality",
-						"quality_3": "Vlastněné předměty vynikající kvality",
+						"quality_3": "Vlastněné předměty výborné kvality",
 						"quality_4": "Vlastněné předměty hustodémonskykrutopřísné kvality"
 					}
 				},
@@ -983,7 +983,7 @@
 					"next_requirements_label": "Požadavky na dalšího hearthlinga...",
 					"tooltips": {
 						"food": "Jídlo vyšší kvality dává vyšší jídlení skóre.",
-						"morale": "Spokojenost zlepšíš, když se tvoji heratlingové budou cícit pohodlně, bezpečně a budou dobře živení.",
+						"morale": "Náladu zlepšíš, když se tvoji heratlingové cítí pohodlně, bezpečně a budou dobře živení.",
 						"net_worth": "Odhadovaná hodnota tvého města. Sbírej předměty, shromažďuj zlato a stav budovy, abys si zvýšil celkové jmění."
 					}
 				},
@@ -1186,7 +1186,7 @@
 					"template_default_name": "Moje nová stavební šablona",
 					"set_template_name_prompt": "Zadejte název této šablony",
 					"ignore_quality": "Ignorovat Kvalitu",
-					"ignore_quality_tooltip": "Zacházet se všemi předměty šablony jako by byly běžné kvality (raději než Dobré, Vynikající, atd.).",
+					"ignore_quality_tooltip": "Zacházet se všemi předměty šablony jako by byly běžné kvality (raději než Dobré, Výborné, atd.).",
 					"remove_template_confirm": {
 						"title": "Smazat Šablonu",
 						"message": "Jsi si jistý, že chceš smazat tuto stavební šablonu?",
@@ -1399,7 +1399,7 @@
 			},
 			"town_overview": {
 				"title": "Přehled Města",
-				"town_morale": "Spokojenost Města",
+				"town_morale": "Nálada Města",
 				"initial_town_name": "Expedice [str(town_number)]",
 				"num_workers": "Pracovníci",
 				"num_crafters": "Řemeslníci",
@@ -1447,7 +1447,7 @@
 					"agriculture": "Zemědělství",
 					"edibles": "Potraviny",
 					"next_requirement": "Cíl",
-					"overall_morale": "Celková Spokojenost",
+					"overall_morale": "Celková Nálada",
 					"food": "Jídlo",
 					"shelter": "Přistřeší",
 					"safety": "Bezpečí",
@@ -1583,7 +1583,7 @@
 					"015": "Hodnota předmětu je jeho prodejní cena.",
 					"016": "Můžeš použít tunelové dveře k zablokování vstupu do tvé důlní chodby.",
 					"017": "Nechceš aby tvoji hearthlingové opustili město? Technik může vytvořit uzamykatelné dveře.",
-					"018": "Z osadníků s vysokým Rozumem budou dobří řemeslníci.",
+					"018": "Z osadníků s vysokou Myslí budou dobří řemeslníci.",
 					"019": "Umísti skaldiště na jídlo blízko pracovišť, aby bylo jídlo pro tovje hearthlingy snáze dostupné.",
 					"020": "Traperové mohou nastražit pasti v horách a poušti, ale v těchto oblastech je méně živočichů.",
 					"021": "Můžeš zrušit práci vojenské jednotce v panelu Obyvatel, abys je donutil odpočinout si od bojování.",
@@ -1656,7 +1656,7 @@
 				"gfx_medium": "Střední",
 				"gfx_high": "Vysoká",
 				"gfx_ultra": "Ultra",
-				"gfx_cardinfo": "[str(gpuRenderer)] ([str(gpuDriver)])",
+				"gfx_cardinfo": "[str(gpuRenderer)] - ([str(gpuDriver)])",
 				"gfx_enable_shadows": "Povolit Stíny",
 				"gfx_enable_vsync": "Povolit Vertikální Synchronizaci",
 				"gfx_enable_fullscreen": "Režim Celé Obrazovky",
@@ -1712,7 +1712,7 @@
 					"max_citizens": "Maximum Obyvatel",
 					"max_citizens_description": "Změň limit maximálního počtu obyvatel, které můžeš mít ve svém městě.<br><br><font color='#eb4c36'><strong>Varování:</strong></font> Pokud máš více než 20 hearthlingů, může docházet k problémům s výkonem, včetně neodpovídající AI/sekání a škubání hry.",
 					"randomize_attributes": "Náhodně Rozdělit Hearthlingovi Vlastnosti ",
-					"randomize_attributes_description": "Pokud je povoleno, hearthlingovi vlastnosti - Rozum, Tělo a Duše - budou přiděleny naprasosto náhodně, místo toho aby byly rozdělené rovnoměrně.",
+					"randomize_attributes_description": "Pokud povoleno, hearthlingovi vlastnosti - Mysl, Tělo a Duše - budou přiděleny naprasosto náhodně, místo toho, aby byly rozdělené rovnoměrně.",
 					"auto_loot": "Automaticky Sebrat Kořist",
 					"auto_loot_description": "Když z nepřítele vypadně kořist, automatiky se označí k vyzvednutí.",
 					"auto_rescue": "Automaticky Zachraňovat",
@@ -2186,7 +2186,7 @@
 				"begin_button": "Vybrat Osadníky"
 			},
 			"select_roster": {
-				"reroll_citizens": "Znovu vygenerovat všechny Obyvatele",
+				"reroll_citizens": "Znovu Vygenerovat",
 				"reembark_button": "Vybrat Uložené",
 				"delete_crew": "Odstranit",
 				"delete_crew_confirm_title": "Odstranit Partu?",
@@ -2300,7 +2300,7 @@
 				},
 				"net_worth": {
 					"display_name": "Celkové Jmění",
-					"description": "Odraz rozkvětu tvého města. Stavby, majetek, a zemědělství dohromady tvoří toto skóre."
+					"description": "Odraz blahobytu tvého města. Stavby, majetek, a zemědělství dohromady tvoří toto skóre."
 				},
 				"courage": {
 					"display_name": "Odvaha",
@@ -2317,7 +2317,7 @@
 					}
 				},
 				"happiness": {
-					"display_name": "Celková Spokojenost",
+					"display_name": "Celková Nálada",
 					"description": "Herthlingova celková spokojenost",
 					"town_description": "Jak šťastní jsou celkově tvoji obyvatelé."
 				},
@@ -2335,8 +2335,8 @@
 					"town_description": "Hodnota všeho jídla v inventáři města ve zlatých"
 				},
 				"mind": {
-					"display_name": "Rozum",
-					"description": "Schopnost myslet rozumně.</br></br>Vyšší Rozum umožní hearthlingovi rychle ovládnout rozumové aktivity jako vyrábění, a přitom jim zůstane čistá hlava.</br></br>Ovlivňuje Píli a Zvědavost."
+					"display_name": "Mysl",
+					"description": "Schopnost myslet rozumně.</br></br>Vyšší hodnota Mysli umožní hearthlingovi rychle ovládnout rozumové aktivity jako vyrábění, a přitom jim zůstane čistá hlava.</br></br>Ovlivňuje Píli a Zvědavost."
 				},
 				"curiosity": {
 					"display_name": "Zvědavost",
@@ -2438,7 +2438,7 @@
 				"food_container_resource_name": "Jídlo",
 				"prepared_food_resource_name": "Připravené Jídlo",
 				"prepared_dessert_resource_name": "Připravený Dezert",
-				"earth_essence_resource": "Hearth Essence",
+				"earth_essence_resource": "Esence Hearthu ",
 				"feather_resource": "Peří",
 				"gear_resource_name": "Vybavení",
 				"ore_resource_name": "Rudy",
@@ -2449,7 +2449,7 @@
 	"data": {
 		"population": {
 			"ascendancy": {
-				"display_name": "Vznešení",
+				"display_name": "Vznešené Království",
 				"quote": "Ovci? Máme. Motyku? Máme. Meče? Máme. Vyrážíme!",
 				"description": "Svědomití a pracovití, věrní a všeumělové. Obyvatelé Vznešeného Království kácí, staví a farmaří, s pevnou vírou, že celý známý svět je tu pro ně k osídlení.<div style='text-shadow: -2px -2px 0px #000000, 0px -2px 0px #000000, 2px -2px 0px #000000, -2px 0px 0px #000000, 2px 0px 0px #000000, -2px 2px 0px #000000, 0px 2px 0px #000000, 2px 2px 0px #000000;font-size: 15px;font-weight: bold;margin-top: 6px;'>Ideal for new players.</div>",
 				"post_selection_description": ", vzkvétající a pracovité království .",
@@ -2549,7 +2549,7 @@
 						"update_title": "Denní Aktualizace",
 						"sub_title": "Hlášení o Imigraci",
 						"food_label": "Jídlo",
-						"morale_label": "Spokojenost",
+						"morale_label": "Nálada",
 						"net_worth_label": "Celkové Jmění",
 						"conclusion_positive": "Nový osadník by se rád připojil do tvého města!",
 						"conclusion_negative": "Cesty zůstávají prázdné. Možná zítra!",
@@ -2774,7 +2774,7 @@
 								},
 								"conclusion": {
 									"bulletin_message": {
-										"000": "Znamenitě! Kromě příslušného pomníku, bude tvoje město také potřebovat dosáhnout určité hodnoty. Nechám vám tu jednotlivé požadavky, pokud byste se o nich chtěli znovu poradit nebo pokud by vám jiná cesta připadlal lepší než ta kterou jste si vybrali na začátku."
+										"000": "Znamenitě! Kromě příslušného monumentu, bude tvoje město také potřebovat dosáhnout určité hodnoty. Nechám vám tu jednotlivé požadavky, pokud byste se o nich chtěli znovu poradit nebo pokud by vám jiná cesta připadala lepší než ta, kterou jste si vybrali na začátku."
 									},
 									"bulletin_title": "Anwyn svinuje svitek",
 									"dialog_title": "Ctihodná Anwyn Torresi",
@@ -3168,7 +3168,7 @@
 							"dialog_nodes": {
 								"msg2": {
 									"bulletin_message": {
-										"00": "Je tu docela klid, ale víš ty co...? Když ptáci přestanou zpívat, tak je to špatné znamení."
+										"00": "Je tu docela klid, ale víš ty co...? Když ptáčci přestanou zpívat, tak je to špatné znamení."
 									},
 									"bulletin_title": "Cestovatelka se škrábe na uchu",
 									"dialog_title": "Ošlehaná Cestovatelka"
@@ -3512,7 +3512,7 @@
 												},
 												"ogo_poem_2": {
 													"bulletin_message": {
-														"000": "Hrdinové přicházejí, hrdinové odcházejí, ve světle ohně se vždy nacházejí"
+														"000": "Hrdinové přicházejí, hrdinové odcházejí, ale ve světle ohně se vždy nacházejí"
 													},
 													"bulletin_title": "Erdene uvažuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece"
@@ -3526,7 +3526,7 @@
 												},
 												"erdene_discusses": {
 													"bulletin_message": {
-														"000": "Pro velké přichází výzvy velkých. Mocní moc hledají. Moc porazit... znaméná přilákat oči dalších."
+														"000": "Pro velké přichází výzvy velkých. Mocní hledá další moc. Moc porazit... znaméná přilákat zájem dalších."
 													},
 													"bulletin_title": "Erdene uvažuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
@@ -4252,16 +4252,16 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "The defeat of my chiefs and warriors demands from us recognition of your strength. Let us contend in battle and the greater of equals shall come forth with honor and valiance."
+														"00": "Porážky mých šéfů a válečníků vyžadují, abychom uznali vaši sílu. Pojďme spolu soupeřit v bitvě a ten lepší z nás sobě rovných z toho vyjde se ziskem cti a udatnosti."
 													},
 													"bulletin_title": "Vojvoda Oghar Severák",
 													"dialog_title": "Vojvoda Oghar Severák"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "As I predicted, fate brings us together once more."
+														"00": "Jak jsem předpovídal, osud nás znovu svedl dohromady."
 													},
-													"bulletin_title": "Warchief Oghar Norwind strides towards you with fearless bravado",
+													"bulletin_title": "Vojvoda Oghar Severák si vykračuje tobě vstříc s něbojácnou bravurou",
 													"dialog_title": "Vojvoda Oghar Severák"
 												}
 											}
@@ -4272,74 +4272,74 @@
 											"dialog_nodes": {
 												"msg3": {
 													"bulletin_message": {
-														"00": "I now return home. Word comes to me that, bereft of our Khan's wisdom, our shaman have delved into dark things, long forgotten. They think the mistakes of the past do not apply to them, and I fear for what they may do."
+														"00": "Já teď vrátit domů. Donesla se ke mně zpráva, že náš šaman, zbavený moudrosti našeho Chána, se ponořil do temných věcí, dávno zapomenutých. Oni si myslí, že chyby z minulosti se na ně nevztahují a já se bojím, že možná ano."
 													},
 													"bulletin_title": "Vojvoda Oghar Severák",
 													"dialog_title": "Vojvoda Oghar Severák"
 												},
 												"msg2": {
 													"bulletin_message": {
-														"00": "There are still those in my ranks who believe you weak. They will honor the Accord, but put out any gong of the Four Colors and they will gladly return to meet your challenge."
+														"00": "V našich řadách jsou pořád takoví, kteří si myslí, že jste slabí. Budou ctít Dohodu, ale když vyndáš jakýkoliv z gongů Čtyř Barev, tak se rádi vrátí, aby čelili tvé výzvě."
 													},
 													"bulletin_title": "Vojvoda Oghar Severák",
 													"dialog_title": "Vojvoda Oghar Severák",
-													"choice_000": "Bring it on!",
-													"choice_001": "We should remove those..."
+													"choice_000": "Ať to zkusí!",
+													"choice_001": "Asi bychom je měli odstranit..."
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "It seems Erdene was right about you, after all. I acknowledge your claim to this land, under Knight Cid's Accord, by your proven strength. We Orcs care only that the land is held secure against the wild and the evil. You have proven yourself worthy of the task."
+														"00": "Vypadá to, že nakoneco vás Erdene měla pravdu. Uznávám váš nárok na tuto zemi, dle Dohody Rytíře Cida a díky vaší prokázané síle. Nám orkům záleží pouze na tom, že země je v bezpečí proti divočině a zlu. Ty jsi prokázal, že jsi hoden tohoto úkolu."
 													},
-													"bulletin_title": "The warchief nods humbly",
+													"bulletin_title": "Vojvoda skromně kývá hlavou",
 													"dialog_title": "Vojvoda Oghar Severák",
-													"choice_000": "We protect what's ours."
+													"choice_000": "Chráníme to, co je naše."
 												}
 											}
 										}
 									},
 									"unlock_blue_token_recipe": {
-										"bulletin_title": "The blacksmith has unlocked the Decorative Elite Gong recipe!"
+										"bulletin_title": "Kovářovi se odemkl návod na Okrasný Elitní Gong!"
 									},
 									"unlock_purple_token_recipe": {
-										"bulletin_title": "The Blacksmith has unlocked the General's Golden Gong recipe!"
+										"bulletin_title": "Kovářovi se odemkl návod na Vojevůdcův Zlatý Gong!"
 									},
 									"unlock_red_token_recipe": {
-										"bulletin_title": "The Blacksmith has unlocked the Decorative Master Gong recipe!"
+										"bulletin_title": "Kovářovi se odemkl návod na Okrasný Mistrovský Gong!"
 									},
 									"titan_already_killed_dialog": {
 										"dialog_tree_info": {
 											"dialog_nodes": {
 												"story2": {
 													"bulletin_message": {
-														"00": "O-oh... how did you? Never mind, it matters not. I shall return to my people with the news that the Titanous scourge can be defeated. This may be what tips events in our favor, away from the treasonous shaman.<br><br>My deepest thanks to you, on behalf of my late Khan."
+														"00": "Ó... jak se vám to? No nevadí, na tom nezáleží. Vrátím se ke svým lidem se zprávou o tom, že Titánská zhouba může být poražena. Tohle může být to, co překlopí jazýček vah v náš prospěch, pryč od zrádného šamana.<br><br>Moje nejhlubší díky jménem mého zesnulého Chána."
 													},
-													"bulletin_title": "Erdene boggles",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "Uh, no problem, I guess!"
+													"bulletin_title": "Erdene vrávorá",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
+													"choice_000": "Eh, není zač, hádám!"
 												},
 												"story1": {
 													"bulletin_message": {
-														"00": "I had come to warn you of the Titan lurking under your lands... to beseech your help in eradicating it, but... <br><br>...did you already cleanse this land of its sinister presence?"
+														"00": "Přišla jsem vás varovat před Titánem číhajícím pod vaší zemí... úpěnlivě vás porsit o vaši pomoc při jeho vyhlazení, ale... <br><br>...nevyčistili jste už tuhle zemi od jeho hrozivé přítomnosti?"
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Confused",
-													"choice_000": "Oh, yeah, we got rid of it a while ago."
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Zmatená",
+													"choice_000": "No, jasně, zbavili jsme se ho už před nějakou chvílí."
 												},
 												"greet": {
 													"bulletin_message": {
-														"00": "Valiant humans, who have proven your strength, I greet you now as equals. This domain is yours by right, and your star glints all the brighter. Yours is a promising fortune indeed!"
+														"00": "Chrabří lidé, kteří prokázali svoji sílu, Zdravím vás teď jako sobě rovné. Toto území je právem vaše, a světlo vaší hvězdy je teď jasnější. Věru, vaše budoucnost je slibná!"
 													},
-													"bulletin_title": "Erdene of the Red Kiln returns, anxious",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "Thank you, Erdene"
+													"bulletin_title": "Erdene z Rudé Pece se nedočkavě vrací",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
+													"choice_000": "Děkujeme ti Erdene"
 												},
 												"intro": {
 													"bulletin_message": {
-														"00": "I come with a request of the utmost urgence, there is... wait..."
+														"00": "Přicházím s žádostí nanejvíš naléhavou, je tady... počkat..."
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "Something wrong?"
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
+													"choice_000": "Stalo se něco?"
 												}
 											}
 										}
@@ -4349,93 +4349,93 @@
 											"dialog_nodes": {
 												"request1": {
 													"bulletin_message": {
-														"00": "My request of you: A fragment of the evil that brought low the Phoenix Empire has coalesced here, beneath your feet.<br><br>Left unchallenged, it will sleep for generations yet, growing in strength, stifling and corrupting the magic of this land.<br><br>Awaken this Titan now, though, and it will have no choice but to expend its gathered energy in a final battle against your settlement. Withstand its wrath, and it will be snuffed out for good, and your descendants will live in peace."
+														"00": "Moje žádost na vás: Zlomek zla, který přinesl konec Impéria Fénixe se zhmotnil tady, pod vašima nohama.<br><br>Bude-li nechán bez povšimnutí, bude spát ještě mnoho generací, ale bude nabírat na síle, potlačujíc a rozkladjíc magii tété země.<br><br>Probuďte tohoto Titána teď, a nebude mít jinou možnost, než vyčerpat svojí nashromážděnou energii v závěrečném boji proti vašemu osídlení. Odolejte jeho hněvu a bude smeten z povrchu zemského jednou pro vždy! A vaši potomci budou v klidu žít."
 													},
-													"bulletin_title": "Erdene requests",
-													"dialog_title": "Erdene's request",
-													"choice_000": "Yes! We'll fight, what now?",
-													"choice_001": "No. ...Do we have to?"
+													"bulletin_title": "Erdene žádá",
+													"dialog_title": "Erdenina žádost",
+													"choice_000": "Ano! Budeme bojovat, co teď?",
+													"choice_001": "Ne. ...Musíme?"
 												},
 												"accept1": {
 													"bulletin_message": {
-														"00": "My shamans devised this Gong - take it and place it. When you are prepared, let it ring aloud, and it will rouse the slumbering Titan.<br><br>You will be beset by horrors for days, perhaps weeks - but a fragmented evil cannot sustain itself. Outlast. Strike at its minions, dig up its roots, drive off its tendrils. Every small victory will weaken it.<br><br>Persevere, and the Titan will fall, and a small part of the calamity of the Phoenix Empire finally undone.<br><br>Be an example for my people that this evil can be faced and destroyed - that we need not enslave ourselves to it. Please."
+														"00": "Moji šamani sestrojili tento Gong - vem si ho a umísti ho. Až budeš připraven, nech ho nahlas zvonit, a on vzbudí dřímaícího Titána.<br><br>Budeš obléhán hrůzami několik dní možná i týdnů - ale rozdrobené zlo samo o sobě nevydrží. Vydrž. Útoč na jeho poskoky, vykopávej jeho kořeny, zaháněj jeho úponky. Každé malé vítězství ho oslabí.<br><br>Vytrvej a Titán padne, a s ním bude konečně odčiněna i část pohormy Impéria Fénixe.<br><br>Buď příkldem pro můj lid, že tomuto slu je možné se postavit čelem a zničit ho - že se jím nemusíme nechat zotročit. Prosím!"
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "We will ensure we're ready"
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
+													"choice_000": "Ujistíme se, že jsme pripraveni"
 												},
 												"story2": {
 													"bulletin_message": {
-														"00": "Below is wrong. Snake knows this. Rabbit knows this. Monkey knows this, too. But, power seeks power.<br><br>The Phoenix, they found whispers of power below. They dug with picks and found clues, they dug with minds and found knowledge.<br><br>Knowledge without wisdom is peril."
+														"00": "Dole je zlo. Had to ví. Králík to ví. Opice to ví také. Ale moc hledá další moc.<br><br>Fénixové, našli dole šepot moci. Kopali s krumpáči a našli indicie, kopali pomocí myslí a našli vědomosti.<br><br>Vědomosti bez moudrosti jsou nebezpečné."
 													},
-													"bulletin_title": "Erdene speaks low",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "What next?"
+													"bulletin_title": "Erdene mluví tiše",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
+													"choice_000": "Co dál?"
 												},
 												"farewell": {
 													"bulletin_message": {
-														"00": "Farewell, brave Humans. May your star shine ever brighter, and be a guide to all through the coming night.<br><br><i><font size=-1>[You can find the Gong lying near your Banner, or in your inventory under 'Decorations']</font></i>"
+														"00": "Sbohem, stateční Lidé. Ať vaše hvězda září stále jasněji, a ať je průvdcem pro všchny přes přicházející noc.<br><br><i><font size=-1>[Gong najdeš ležet poblíž svého Praporu, nebo ve scém inventáři v 'Dekoracích']</font></i>"
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "Goodbye, Erdene"
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
+													"choice_000": "Na shledanou Erdene"
 												},
 												"story1": {
 													"bulletin_message": {
-														"00": "It is a tale passed from Speaker to Speaker, of when Monkey first rose to prominence. From Monkey came humans, and those humans united.<br><br>They built an Empire, spreading from the center outwards until it encompassed the entire continent. As their grand central capital stretched up into the sky, the humans’ ambition led them below..."
+														"00": "Je to příběh, který se předává z Mluvčího na Mluvčího, o tom kdy Opice poprvé povstane do popředí. Od Opice přišli lidé, a tito lidé se spojili.<br><br>Vystavili Říši, rozprostírajícíse od středu směrem ven, dokud neobsáhla celý kontinent. Stejně jako jejich hlavní centrální město se natahovalo k nebi, jejich lidské ambice je vedli dolů..."
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "Below?"
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
+													"choice_000": "Dolů?"
 												},
 												"reject1": {
 													"bulletin_message": {
-														"00": "No, I suppose not. The Titan will stay asleep for generations, your settlement is not at risk.<br><br>Perhaps I was wrong to burden you with a task that is rightfully mine. My apologies. I withdraw now, to tend to my own people.<br><br>I will leave behind this specially-prepared Gong - in the event you change your mind, simply place it and you shall be further enlightened.<br><br>Farewell, humans."
+														"00": "Ne, předpokládám že ne. Titán bude spát ještě po několik pokolení, vaše osídlení je mimo ohrožení.<br><br>Asi jsem udělala chybu, když jsem vás chtěla zatěžovat úkolem, který je právem můj. Omlouvám se. Beru to zpět, a půjdu se starat o své vlastní lidi.<br><br>Nechám vám tu tento speciálně-připravený Gong - pro případ že by jste si to rozmysleli, prostě ho umístěte na zem a budete blíže zasvěceni.<br><br>Sbohem lidé."
 													},
-													"bulletin_title": "Erdene sighs...",
-													"dialog_title": "Erdene sighs...",
-													"choice_000": "We wish you the best."
+													"bulletin_title": "Erdene vzdychá...",
+													"dialog_title": "Erdene vzdychá...",
+													"choice_000": "Přejeme ti jen to nejlepší."
 												},
 												"story5": {
 													"bulletin_message": {
-														"00": "In time, the darkness subsided, but now it saturates the earth, whispering to those who will listen. We Orcs tested your town’s strength not just for glory, but to prove that you have the will to resist this evil and its corruption.<br><br>Although, without a Khan to guide them, the shaman of the Red Kiln now seek to re-form this titanic evil, to control it.<br><br>I must stop them - it was my Khan’s last wish. But, this is for me and my kind to do.<br><br>Of you, I ask a favor."
+														"00": "Časem temntota odezněla, ale teď sytí zemi, šeptajíce těm, kdo ji budou poslouchat. My Orkové jsme testovali sílu vašeho města nejen pro slávu, ale také abychom se ujistili, že máte dostešnou vůli, abyste odolali tomuto zlu a skáze.<br><br>Nicméně, bez Chána, který by je vedl, šaman Červené Pece usiluje o přetvoření tohoto titánského zla, tak aby šlo ovládat.<br><br>Musím je zastavit - bylo to poslední přání mého Chána. Ale to je věc mě a mého druhu.<br><br>Po vás bych chtěla laskavost."
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "What favor?"
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
+													"choice_000": "Jakou laskavost?"
 												},
 												"greet": {
 													"bulletin_message": {
-														"00": "Valiant humans, who have proven your strength, I greet you now as equals. This domain is yours by right, and your star glints all the brighter. Yours is a promising fortune indeed!"
+														"00": "Chrabří lidé, kteří prokázali svoji sílu, Zdravím vás teď jako sobě rovné. Toto území je právem vaše, a světlo vaší hvězdy je teď jasnější. Věru, vaše budoucnost je slibná!"
 													},
-													"bulletin_title": "Erdene of the Red Kiln returns, anxious",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "Thank you, Erdene"
+													"bulletin_title": "Erdene z Rudé Pece se nedočkavě vrací",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
+													"choice_000": "Děkujeme ti Erdene"
 												},
 												"story4": {
 													"bulletin_message": {
-														"00": "Humans fled, receding to the edges of the world, and held on by their very fingertips until the darkness quieted itself.<br><br>Orcs, like all of Snake’s children, stayed and fought. Fought the corrupted, fought through famine and hardship. Whether through noble courage or foolish pride, I know not.<br><br>The Rabbits, already in decline, burrowed deep, forsaking the surface world."
+														"00": "Lídé utekli, ustoupili k okrajům světa, a drželi se ho konečky prstů dokude se temnota sama neutišila.<br><br>Orkové, stejně jako ostatní děti Hada, zůstali a bojovali. Bojovali  proti skáze, bojovali i přes hladomor a strádání. Zdali kvůli vznešené odvaze nebo pošetilé hrdosti, to nevím.<br><br>Králičí lid, kterého již ubývalo, se zahrabal hlouběji a zřekl se povrchu světa."
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "Oh..."
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
+													"choice_000": "Ach..."
 												},
 												"story3": {
 													"bulletin_message": {
-														"00": "A great evil was awakened, this we know. The capital was lost, obliterated, and the world surely doomed. But, there was some hero, some sacrifice, lost to time. It was enough. Not enough to destroy the evil, but enough to break it apart.<br><br>It dissipated like fog across the land, turning the forces of nature against its inhabitants, withering crops and fraying minds."
+														"00": "A velké zlo bylo probuzeno, to víme určitě. Hlavní město bylo ztraceno, vyhlazeno, a svět byl s jistotou odsouzen ke zkáze. Ale, byl tu nějaký hrdina, nějaká oběť, ztracená v čase. Byla dostatečná. Nestačila na zničení zla, ale stačila na to, aby ho rozdělila na kousky.<br><br>Rozprostřeli se jako mlha po krajině, obracejíce síly přírody proti svým obyvatelům, pustošíce úrodu a tříštíce mysli."
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "What happened to the Empire?"
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
+													"choice_000": "Co se stalo s Impériem?"
 												},
 												"intro": {
 													"bulletin_message": {
-														"00": "I… come also with a request. I fear for my people.<br/><br/>Have you heard of the Phoenix Empire? Of its end?"
+														"00": "Já… přicházím také s žádostí. Bojím se o svoje lidi.<br/><br/>Už jste slyšeli o Impériu Fénixe? O jeho konci?"
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "[skip] I've heard it before",
-													"choice_001": "Phoenix Empire?"
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
+													"choice_000": "[přeskočit] Už jsme to slyšeli",
+													"choice_001": "Impérium Fénixe?"
 												}
 											}
 										}
@@ -4445,19 +4445,19 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "<i><font size=-1>[Select the Gong and Press the 'Awaken Titan' button when you're ready. Killing or destroying the Titan's minions, tentacles, and roots will all reduce its health.]<br><br>[Good luck!]</font>"
+														"00": "<i><font size=-1>[Vyber Gong a zmáčkni tlačítko 'Probudit Titána' až budeš připraven. Zabití nebo zničení Titánových poskoků, chapadel nebo kořenů sníží jeho zdraví.]<br><br>[Hodně štěstí!]</font>"
 													},
-													"bulletin_title": "A scrawled note, attached to the Sinister Gong",
-													"dialog_title": "A letter from Erdene",
-													"choice_000": "[Okay!]"
+													"bulletin_title": "Načmáraná poznámka, připevněná k Zlověstnému Gongu",
+													"dialog_title": "Dopis od Erdene",
+													"choice_000": "[Fajn!]"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "Only sound this gong when prepared - your town will be cut off from the world for days.<br><br>Corrupted creatures will surely appear - face them in combat if you can, hole up and hide if you cannot. There is no shame in survival. Be vigilant for citizens being trapped, buildings being threatened, and be prepared to dig.<br><br>Every small victory will sap away the Titan's strength - attempt no direct attack, it is out of reach and a mere apparition.<br><br>Stand strong in driving away its corruption, and you will emerge victorious."
+														"00": "Do gongu udeř jen když budeš připraven - tvoje město bude odříznuto od světa po několik dní.<br><br>Jistě se objeví skažená stvoření - postav se jim, pokud můžeš, zalez a schovej se pokud nemůžeš. Není žádná hamba přežít. Buď ve střehu protože obyvatelé budou chytáni, budovi budou ohroženy, a buď připraven kopat.<br><br>Každé malé vítezství odsaje Titánovu sílu - nezkoušej na něj žádný přímí útok, je mimo dosah a je to pouhý přízrak.<br><br>Buď statečný při zahánění jeho skázy a vyjdeš z toho jako vítěz."
 													},
-													"bulletin_title": "A scrawled note, attached to the Sinister Gong",
-													"dialog_title": "A letter from Erdene",
-													"choice_000": "We will survive."
+													"bulletin_title": "Načmáraná poznámka, připevněná k Zlověstnému Gongu",
+													"dialog_title": "Dopis od Erdene",
+													"choice_000": "Přežijeme."
 												}
 											}
 										}
@@ -4467,78 +4467,78 @@
 											"dialog_nodes": {
 												"accept2": {
 													"bulletin_message": {
-														"00": "Excellent! We Orcs aren't quite as talented in the crafts as you are, but my disciple has proven themselves a fierce warrior, and I'm sure they will make themselves useful however else they can!<br><br>Farewell, brave Humans, until a future day has dawned!"
+														"00": "Výborně! My Orkové nejsme tak talentovaní v řemeslech jako vy, ale můj učedník se prokázal jako vášnivý bojovník, a jsem si jistá, že se bude snažit být užitečný, co mu budou síli stačit!<br><br>Sbohem stateční Lidé, než se naše cesty znovu sejdou!"
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "Safe travels, Erdene!"
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
+													"choice_000": "Sťastnou cestu, Erdene!"
 												},
 												"request1": {
 													"bulletin_message": {
-														"00": "I should add... due to your exceptional bravery, some of my people have gone beyond simply respecting you as Humans, to now truly consider you as Orc. <br/><br/>Some even wish to emmigrate and become members of your tribe."
+														"00": "Ještě bych měl říct... kvůli vaší vyjímečné odvaze, už vás někteří moji lidé nerespektují jen jako Lidi, ale uvažují o vás jako by jste byli opravdoví Orkové. <br/><br/>Někteří si dokonce přejí emigrovat a stát se členy vašeho kmene."
 													},
-													"bulletin_title": "Erdene offers",
-													"dialog_title": "Erdene's offer",
-													"choice_000": "Orcs want to join my town?"
+													"bulletin_title": "Erdene nabízí",
+													"dialog_title": "Erdenina nabídka",
+													"choice_000": "Orkové se chtějí připojit k mému městu?"
 												},
 												"accept1": {
 													"bulletin_message": {
-														"00": "Wonderful! So, this Orc disciple may join your tribe?"
+														"00": "Báječně! Takže tento Orkský učedník se může stát součástí tvého kmene?"
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "[Accept] Yes!",
-													"choice_001": "[Reject] No..."
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
+													"choice_000": "[Přijmout] Ano!",
+													"choice_001": "[Odmítnout] Ne..."
 												},
 												"reject2": {
 													"bulletin_message": {
-														"00": "Very well. The news is sure to disappoint my disciple, but your tribe and its wishes deserve our utmost respect.<br><br>Farewell, brave Humans, until another day has dawned."
+														"00": "No dobrá. Taty zpráva jistě zklame mého učedníka, ale váš kmen a jeho přání si zalouží náš nejvyšší respekt.<br><br>Sbohem stateční Lidé, než se naše cesty znovu sejdou!"
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "Safe travels, Erdene!"
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
+													"choice_000": "Šťastnou cestu Erdene!"
 												},
 												"greet": {
 													"bulletin_message": {
-														"00": "By the Khan's blessed name, you've done it!<br><br>I came as quickly as I could - I could feel the change in the winds even from the Red Kiln territories."
+														"00": "U Chánova požehnaného jména, vy jste to dokázali!<br><br>Přišla jsem tak rychle, jak jsem jen mohla - Cítila jsem změnu ve větru dokonce i na teritoriu Červené Pece."
 													},
-													"bulletin_title": "Erdene of the Red Kiln returns, joyous",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "We did!"
+													"bulletin_title": "Erdene z Červené Pece se vrací, nadšená",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
+													"choice_000": "Jop, dokázali!"
 												},
 												"reject1": {
 													"bulletin_message": {
-														"00": "Oh, I see... and I understand. If I were standing in your stead, I could not so easily accept a Human into the ranks of the Red Kiln, either. <br><br>That said, are you sure my disciple does not have a place here?"
+														"00": "Ach, chápu... a rozumím tomu. Když bych byla na tvém místě, také bych nemohla jednoduše přijmout Člověka do řad Červené Pece. <br><br>Přesto, si si jistý, že pro mého učedníka zde není místo?"
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "[Reject] We're quite sure",
-													"choice_001": "[Accept] On second thought..."
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
+													"choice_000": "[Odmítnout] Jsmě si docela jistí",
+													"choice_001": "[Přijmout] Na druhou stranu..."
 												},
 												"request2": {
 													"bulletin_message": {
-														"00": "Yes! In fact, the Titan's defeat has cleansed that sinister Gong I brought you, along with your lands. That Gong shall stand as testament of my people's enduring respect for your tribe and its people.<br><br><i>So long as that white stone Gong is deployed</i> and you have room for us, expect an Orcish immigrant every few moons."
+														"00": "Ano! Ve skutečnosti, Titánova Porážka vyčistila ten zlověstný Gong, který jsem vám přinesla, společně s vaší zemí. Ten Gong představuje důkaz trvalé úcty mých lidí k tvému kmeni a jeho lidem.<br><br><i>Tak dlouho dokud bude tento bílý kamenný gong vystaven</i> a ty budeš mít pro nás místo, očekávej Orkského přistěhovalce každých pár nocí."
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene gestures",
-													"choice_000": "I see!"
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene gestikuluje",
+													"choice_000": "Rozumím!"
 												},
 												"request3": {
 													"bulletin_message": {
-														"00": "In fact, one of my most loyal disciples has come along with me. They are quite insistent about joining your tribe. In truth, I lament them leaving my side, but cannot begrudge their wishes.<br><br>What say you? <i>Will you accept this humble Orc into your township this day?</i>"
+														"00": "Vlastně jeden z mých nejvěrnějších učedníků přišel se mnou. Je poměrně vytrvalý v tom, že se chce přidat k vašemu kmenu. Popravdě jsem truchlila, že mě chce opustit, ale nemůžu stát v cestě jeho přání<br><br>Co na to říkáš? <i>Přijmeš dnes tohoto pokorného Orka do své obce?</i>"
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene extends her hand",
-													"choice_000": "Welcome!",
-													"choice_001": "Um, no thanks..."
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene natahuje ruku",
+													"choice_000": "Vítej!",
+													"choice_001": "Eh, ne děkuji..."
 												},
 												"intro": {
 													"bulletin_message": {
-														"00": "Your defeat of this sinister presence may be what tips events in our favor, and away from that of the treasonous shamans.<br><br>My deepest thanks to you, on behalf of my late Khan. I shall return to my people carrying the news that the Titanous scourge can, truly, be defeated."
+														"00": "Tvá porážka této jeho horzivé přítomnosti může být to, co překlopí jazýček vah v náš prospěch, pryč od zrádného šamana.<br><br>Moje nejhlubší díky jménem mého zesnulého Chána. Vrátím se ke svým lidem a donesu zprávu o tom, že Titánská zhouba může být opravdu poražena."
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "I'm glad we could do some good"
+													"bulletin_title": "Erdene pokračuje",
+													"dialog_title": "Erdene, Mluvčí Červené Pece",
+													"choice_000": "Jsem rád, že jsme udělalí něco dobrého"
 												}
 											}
 										}
@@ -4548,21 +4548,21 @@
 											"dialog_nodes": {
 												"msg1": {
 													"bulletin_message": {
-														"00": "Would you like to let this Orc to join your town?<br><br><i><font size=-1>[They're strong, slow, and surprisingly hard to startle and fast to regenerate despite their low Spirit]</font></i>"
+														"00": "Chtěl bys nechat tohoto Orka připojit se k tvému městu?<br><br><i><font size=-1>[Je silný, pomalý, překvapivě těžko se dá vylekat a rycjhle se regeneruje navzdory jeho nízké vlastnosti Duše]</font></i>"
 													},
-													"bulletin_title": "An Orc immigrant!",
-													"dialog_title": "An Orc wishes to join your town!",
-													"choice_000": "Yes",
-													"choice_001": "No"
+													"bulletin_title": "Orkský přistěhovalec!",
+													"dialog_title": "Ork by se chtěl připojit ke tvému městu!",
+													"choice_000": "Ano",
+													"choice_001": "Ne"
 												}
 											}
 										}
 									},
 									"grant_recurring_orc_citizen": {
-										"notification_title": "A new Orc citizen has joined your town!"
+										"notification_title": "Nový obyvatel z rodu Orků se připojil ke tvému městu!"
 									},
 									"grant_orc_citizen": {
-										"notification_title": "Erdene's disciple has joined your town!"
+										"notification_title": "Erdenin učedník se připojil ke tvému městu!"
 									}
 								}
 							}
@@ -4579,60 +4579,60 @@
 											"dialog_nodes": {
 												"cheer": {
 													"bulletin_message": {
-														"00": "For instance, a <i>Hearth of Cheer</i> is for those who believe that a town's value is found in being a happy home for its citizens."
+														"00": "Na příklad <i>Hearth Radosti</i> je pro ty, kteří věř, že hodnota města je v tom, že jsou v něm jeho obyvatelé šťastní."
 													},
-													"bulletin_title": "A Cheerful Choice",
-													"dialog_title": "A Cheerful Choice",
-													"choice_000": "Sounds quaint"
+													"bulletin_title": "Radostné Rozhodnutí",
+													"dialog_title": "Radostná Rozhodnutí",
+													"choice_000": "To zní legračně"
 												},
 												"makers": {
 													"bulletin_message": {
-														"00": "A <i>Hearth of Makers</i>, on the other hand, is for those who believe that a town's value is its work, and that its work is best measured in gold."
+														"00": "Na druhou stranu je tu <i>Hearth Tvůrců</i>, pro ty kteří věří, že hodnota města tkví v jeho výtvorech, a výtvory se nejlépe měří v zlaťácích ."
 													},
-													"bulletin_title": "Mark of the Maker",
-													"dialog_title": "Mark of the Maker",
-													"choice_000": "Sounds productive"
+													"bulletin_title": "Trasa Tvůrců",
+													"dialog_title": "Trasa Tvůrců",
+													"choice_000": "To zní tvořivě"
 												},
 												"intro": {
 													"bulletin_message": {
-														"00": "Kind greetings! At last, I can see your Settlement in person. You've developed even faster than I anticipated, you should all be proud!"
+														"00": "Vřelé pozdravy! Nakonec můžu vidět vaši osadu na vlastní oči. Rozvinuli jste se ještě rychleji než jsem očekával, měl byste na sebe být hrdí!"
 													},
-													"bulletin_title": "An Official-Looking Fellow Approaches!",
-													"dialog_title": "Not a Bird This Time",
-													"choice_000": "Thank you!",
-													"choice_001": "[skip] We know what Hearth we want."
+													"bulletin_title": "Úředně-Vypadající Chlápek Přichází!",
+													"dialog_title": "Tentokrát To Není Ptáček",
+													"choice_000": "Děkujeme vám!",
+													"choice_001": "[přeskočit] My víme jaké Hearth chceme."
 												},
 												"glory": {
 													"bulletin_message": {
-														"00": "Finally, a <i>Hearth of Glory</i> is for those who believe their destiny is to stand strong in a hostile world, as the Knight Cid did at the founding of the Ascendancy."
+														"00": "A nakonec <i>Hearth Slávy</i> je pro ty, kteří věří, že jejich osud postavit se nepřátelskému světu, jako to udělal Rytíř Cid, při založení království Vznešených ."
 													},
-													"bulletin_title": "Guts and Glory",
-													"dialog_title": "Guts and Glory",
-													"choice_000": "Sounds heroic"
+													"bulletin_title": "Síla a Sláva",
+													"dialog_title": "Síla a Sláva",
+													"choice_000": "To zní hrdinsky"
 												},
 												"final": {
 													"bulletin_message": {
-														"00": "Cheer, Glory, or Makers - the choice is entirely yours. Envision what your Town will one day be, and follow that beacon into the future!"
+														"00": "Radost, Sláva nebo Tvůrci - volba je pouze na tobě. Představ si jaké jednou bude tvoje Město a následuj tuto představu do budoucnosti!"
 													},
-													"bulletin_title": "A Choice",
-													"dialog_title": "A Choice",
-													"choice_000": "We choose..."
+													"bulletin_title": "Volba",
+													"dialog_title": "Volba",
+													"choice_000": "Vybíráme si..."
 												},
 												"intro2": {
 													"bulletin_message": {
-														"00": "I came out personally to help you on your last step towards being a true Settlement of the Ascendancy!<br><br>You've grown large enough now that it's time to choose what Hearth shall represent your town, as is tradition."
+														"00": "Přišel jsem vám osobně pomoct s vaším posledním krokem k tomu stát se pravým Osadou Vznešených!<br><br>Rozrostli jste se dostatečně na to, aby jste si teď mohli vybrat jaké Hearth bude reprezentovat vaše město, jak říká tradice."
 													},
-													"bulletin_title": "Mer Continues",
-													"dialog_title": "Mer Burlyhands",
-													"choice_000": "Tradition?"
+													"bulletin_title": "Mer Pokračujš",
+													"dialog_title": "Mer Statnoruký",
+													"choice_000": "Tradice?"
 												},
 												"intro3": {
 													"bulletin_message": {
-														"00": "Indeed, Hearths have served as shining beacons for Towns all the way back to the Phoenix Empire.<br><br>Their glow attracts settlers and prosperity, and the particular qualities of a chosen Hearth reflect where a Town finds its value."
+														"00": "Přesně tak, Srdce sloužila jako svítící maják pro Města už v době Impéria Fénixe.<br><br>Jejich světlo přitahuje osadníky a blahobyt, a zvláštní vlastnosti vybraného Hearthu odráží, v čem se nachází hodnota tohoto Města. "
 													},
-													"bulletin_title": "Mer Continues",
-													"dialog_title": "Mer Burlyhands",
-													"choice_000": "Value?"
+													"bulletin_title": "Mer Pokračuje",
+													"dialog_title": "Mer Statnoruký",
+													"choice_000": "Hodnota?"
 												}
 											}
 										}
@@ -4641,105 +4641,105 @@
 										"dialog_tree_info": {
 											"dialog_nodes": {
 												"msg1": {
-													"bulletin_title": "Banner Celebration",
-													"dialog_title": "Banner Celebration"
+													"bulletin_title": "Oslava Praporu",
+													"dialog_title": "Oslava Praporu"
 												}
 											}
 										}
 									},
 									"banner_upgrade_cunning": {
-										"title": "Outpost Established",
-										"dialog_title": "Outpost Established!",
-										"tier_title": "Outpost",
-										"reward_message": "By unanimous agreement of the citizens, we declare:",
-										"reward_message_ctd": "to be an outpost paving the roads to become a trade hub.",
+										"title": "Základna Založena",
+										"dialog_title": "Základna Založena!",
+										"tier_title": "Základna",
+										"reward_message": "Jednomyslným souhlasem obyvatel deklarujeme:",
+										"reward_message_ctd": "že jsme základnou umetající si cestu, aby se mohla stát obchodním uzlem.",
 										"achievements": {
-											"001": "Items sell for 50% more",
-											"000": "Roads give 3x their normal speed boost",
-											"002": "Traders will bring 2x the goods and Gold"
+											"001": "Prodejní cena předmětů je  o 50% vyšší",
+											"000": "Cesty dávají 3x vyšší bonus rychlosti",
+											"002": "Obchodnící přivezou 2x více zboží a Zlaťáků"
 										}
 									},
 									"banner_upgrade_strength": {
-										"title": "Outpost Established",
-										"dialog_title": "Outpost Established!",
-										"tier_title": "Outpost",
-										"reward_message": "By unanimous agreement of the citizens, we declare:",
-										"reward_message_ctd": "to be an outpost on its way to be a safe haven for all.",
+										"title": "Základna Založena",
+										"dialog_title": "Základna Založena!",
+										"tier_title": "Základna",
+										"reward_message": "Jednomyslným souhlasem obyvatel deklarujeme:",
+										"reward_message_ctd": "že jsme základnou na cestě k tomu být bezpečným útočištěm pro všechny.",
 										"achievements": {
-											"001": "Hearthlings no longer mind cramped spaces",
-											"000": "Mining gives 50% more Ore, Stone, and Clay"
+											"001": "Hearthlingům už nevadí přecpaná místa",
+											"000": "Dolováním získáváš o 50% více Rud, Kamene a Hlíny"
 										}
 									},
 									"banner_upgrade_vitality": {
-										"title": "Outpost Established",
-										"dialog_title": "Outpost Established!",
-										"tier_title": "Outpost",
-										"reward_message": "By unanimous agreement of the citizens, we declare:",
-										"reward_message_ctd": "to be an outpost striving to be at one with the environment.",
+										"title": "Základna Založena",
+										"dialog_title": "Základna Založena!",
+										"tier_title": "Základna",
+										"reward_message": "Jednomyslným souhlasem obyvatel deklarujeme:",
+										"reward_message_ctd": "že jsme základnou usilující o to být v souladu s přírodou.",
 										"achievements": {
-											"001": "Plants and Crops both grow 25% faster",
-											"000": "Trees produce 25% more Wood",
-											"002": "Plants have 2x their normal Appeal"
+											"001": "Rostliny i Plodiny rostou o 25% rychleji",
+											"000": "Stromy produkují o 25% více Dřeva",
+											"002": "Rostliny mají 2x jejich normální Přitažlivosti"
 										}
 									},
 									"hearth_upgrade_makers": {
-										"title": "Settlement Established",
-										"dialog_title": "Settlement Established!",
-										"tier_title": "Settlement",
-										"reward_message": "By unanimous agreement of the citizens, we declare:",
-										"reward_message_ctd": "to be a settlement out to prove that its riches and craftsmanship is unmatched.",
+										"title": "Osada Založena",
+										"dialog_title": "Osada Založena!",
+										"tier_title": "Osada",
+										"reward_message": "Jednomyslným souhlasem obyvatel deklarujeme:",
+										"reward_message_ctd": "že jsme osadou, která chce dokázat, že její bohatství a řemeslná zručnost nemá srovnání.",
 										"achievements": {
-											"001": "Daily Update boosted by Gold Coins",
-											"000": "+5% daily interest on Gold Coins (up to 300 per day)"
+											"001": "Denní Aktualizace vylepšená o Zlaté Mince",
+											"000": "+5% denní úrok Zlatých Mincí (až do 300 za den)"
 										}
 									},
 									"hearth_upgrade_glory": {
-										"title": "Settlement Established",
-										"dialog_title": "Settlement Established!",
-										"tier_title": "Settlement",
-										"reward_message": "By unanimous agreement of the citizens, we declare:",
-										"reward_message_ctd": "To be a settlement out to prove that it has unrivaled military strength.",
+										"title": "Osada Založena",
+										"dialog_title": "Osada Založena!",
+										"tier_title": "Osada",
+										"reward_message": "Jednomyslným souhlasem obyvatel deklarujeme:",
+										"reward_message_ctd": "že jsme osadou, která chce dokázat, že její vojenská síla je bezkonkurenční.",
 										"achievements": {
-											"000": "Hearth summons foes to defeat for Glory",
-											"001": "Daily Update boosted by Glory Tier"
+											"000": "Hearth povolává nepřátelé k poražení a k zisku Slávy",
+											"001": "Denní Aktualizace vylepšená o Úroveň Slávy "
 										}
 									},
 									"hearth_upgrade_cheer": {
-										"title": "Settlement Established",
-										"dialog_title": "Settlement Established!",
-										"tier_title": "Settlement",
-										"reward_message": "By unanimous agreement of the citizens, we declare:",
-										"reward_message_ctd": "to be a settlement out to prove that it has the happiest, most well-fed citizens, and nice places for them to live.",
+										"title": "Osada Založena",
+										"dialog_title": "Osada Založena!",
+										"tier_title": "Osada",
+										"reward_message": "Jednomyslným souhlasem obyvatel deklarujeme:",
+										"reward_message_ctd": "že jsme osadou, která chce dokázat, že má nějšťastnější a nejlépe živené obyvatele, a pro ně nejhezčí místa k bydlení.",
 										"achievements": {
-											"000": "Daily Update boosted by citizen Morale",
-											"001": "Random Daily Buffs"
+											"000": "Denní Aktualizace vylepšená o Náladu obyvatel",
+											"001": "Náhodné Denní Bonusy"
 										}
 									},
 									"shrine_upgrade_guildmaster": {
 										"achievements": {
-											"001": "Mason Fountains & Decorations",
-											"003": "Blacksmith Decorations",
-											"000": "Masterwork Craft Quality Unlocked",
-											"002": "Herbalist Topiary & Carpenter Fences",
-											"004": "Tier 3 Music"
+											"001": "Kamenikovi Fontány a Dekorace",
+											"003": "Kovářovi Dekorace",
+											"000": "Hustodémonskykrutopřísná Kvalita Výrobků Odemčena",
+											"002": "Bylinkářovo Umělecké Tvarování Keřů & Tesařovi Ploty",
+											"004": "Úroveň 3 Hudby "
 										}
 									},
 									"shrine_upgrade_valor": {
 										"achievements": {
-											"001": "Engineer Portcullis Recipe",
-											"003": "Blacksmith Decoration Recipes",
-											"000": "Legendary Weapon Recipes",
-											"002": "Mason Statues & Windows",
-											"004": "Tier 3 Music"
+											"001": "Technikův Návod na Padací Mříž",
+											"003": "Kovářovi Návody na Dekorace",
+											"000": "Návody na Legendární Zbraně",
+											"002": "Kameníkovi Sochy & Okna",
+											"004": "Úroveň 3 Hudby "
 										}
 									},
 									"shrine_upgrade_deity": {
 										"achievements": {
 											"001": "Herbalist Shrubberies",
-											"003": "Mason Lucky Fountain",
-											"000": "Mind, Body, and Spirit +1!",
-											"002": "Blacksmith Decorations",
-											"004": "Tier 3 Music"
+											"003": "Kameníkova Fontána Štěstí",
+											"000": "Mysl, Tělo, a Duše +1!",
+											"002": "Kovařovi Dekorace",
+											"004": "Úroveň 3 Hudby "
 										}
 									},
 									"shrine_choice_explanation": {
@@ -4747,68 +4747,68 @@
 											"dialog_nodes": {
 												"clergy": {
 													"bulletin_message": {
-														"00": "Kind greetings! My name is Ember Minton, and I am a missionary for the Church of Plenty. We would be delighted to have a settlement such as yours count among one of our Townships."
+														"00": "Vřelé Pozdravy! Mé jméno je Ember Minton, a jsem misionářka sloužící Církvi Hojnosti. Byli bychom potěšeni, kdybychom mohli počítat osadu, jako je ta vaše, mezi naše Obce. "
 													},
-													"bulletin_title": "The Clergy",
-													"dialog_title": "The Clergy",
-													"choice_000": "Welcome, Ember"
+													"bulletin_title": "Duchovenstvo",
+													"dialog_title": "Duchovenstvo",
+													"choice_000": "Vítej Ember"
 												},
 												"makers": {
 													"bulletin_message": {
-														"00": "I'm Marak Azael, nice to meet you. It tickles my whiskers to see a settlement like yours, assembled from nothing in no time at all.<br><br>The very Ascendancy itself was built with saw and hammer by fine craftsfolk like yourselves! That's why the Guild means so much to me, and why I wanted to pay you a visit."
+														"00": "Jsem Marak Azael, rád vás poznávám. Svědí mě vousy, když vidím osadu jako je ta vaše zbudovanou z ničeho než řekneš švec.<br><br>Samotní Vznešené Království bylo postaveno s pilou a kladivem šikovnými řemeslníky jako jsme my! Proto pro mě Cech tolik znamená, a proto jsem vás chtěl navštívit."
 													},
-													"bulletin_title": "The Guildmaster",
-													"dialog_title": "The Guildmaster",
-													"choice_000": "The Guild?"
+													"bulletin_title": "Cechmistr",
+													"dialog_title": "Cechmistr",
+													"choice_000": "Cech?"
 												},
 												"summary": {
 													"bulletin_message": {
-														"00": "So! Now you've met the folks that tagged along with me - I'm impartial, here, so it's up to you to decide who you want as a Sponsor. I can say that they're all good choices, though!<br><br>I'm going to show them around town a little, but I'll leave the plans for each of their fountains and shrines and whatnot with your Masons.<br><br>Good to see you all again! I'll see you at the dedication ceremony for whichever you end up picking!"
+														"00": "Takže! Teď když už jste potkali lidi kteří mě doprovázejí - Já jsem v tomhle nestraný, takže je to na tobě, aby ses rozhodl  koho chceš za Sponzora. Můžu ale říct, že všechny možnosti jsou dobré!<br><br>Trochu jim zatím ukážu město, ale nechám plány pro všechny jejích fontány a svatyně a kdo ví co ještě u tvých Kameníků.<br><br>Rád vás zase všechny vidím! Uvidíme se na slavnosti zasvěcení, ať už si nakonec vyberete kohokoliv!"
 													},
-													"bulletin_title": "Mer Concludes",
-													"dialog_title": "Mer Concludes",
-													"choice_000": "Sounds good!"
+													"bulletin_title": "Mer Uzavírá",
+													"dialog_title": "Mer Uzavírá",
+													"choice_000": "To zní dobře!"
 												},
 												"military_cont": {
 													"bulletin_message": {
-														"00": "A Township dedicated to Cid's valorous example can serve as an anchor for a whole region, and embolden new settlers to forge their own new Outposts.<br><br>If you would choose to build a memorial to Cid, the Guard would be happy to share some of our knowledge of arms with you as part of the dedication ceremony.<br><br><font size=-1><i>Dedicating the Valor of Cid will grant you recipes for new, highest-tier weapons.</i></font>"
+														"00": "Obec zasvěcená Cidovu chrabrému příkladu může sloužit jako odrazový můstek pro celý kraj, a povzbudit nové osadníky k vytvoření vlastních nových Základen.<br><br>Jestli by sis vybral, že posatvíš památník Cidovi, tak Stráž se s tebou ráda podělí o nějaké naše znalosti zbraní jako součást slavnosti zasvěcení.<br><br><font size=-1><i>Zasvěcení Cidově Chrabrosti ti zajistí návody na nové zbraně nějvyšší úrovně.</i></font>"
 													},
-													"bulletin_title": "Captain Anwyn Torresi",
-													"dialog_title": "Captain Anwyn Torresi",
-													"choice_000": "Thank you"
+													"bulletin_title": "Kapitánka Anwyn Torresi",
+													"dialog_title": "Kapitánka Anwyn Torresi",
+													"choice_000": "Děkujeme ti"
 												},
 												"clergy_cont": {
 													"bulletin_message": {
-														"00": "It is the Church's adage that <i>'Fortune favors the kind'</i>, and blessed fountains of Plenty are truly a blessing to the mind, body, and spirit of a Town's citizens.<br><br>Please consider showing the world that your Town will be one of kindness by building a shrine of the Church's design.<br><br><font size=-1><i>Dedicating a Fountain of Plenty will grant all of your townsfolk a +1 boost to the Mind, Body, and Spirit attributes.</i></font>"
+														"00": "Církev má úsloví, že <i>'Štěstí přeje laskavým'</i>, a požehnané fontány Hojnosti jsou pravým požehnáním po duši, těle i mysli všech obyvatel Města.<br><br>Prosím zváži zda nechceš ukázat světu, že tvoje Město bude jedno z nejdobrosrdečnějších tím, že postavíš svatyni podle návrhu Církve.<br><br><font size=-1><i>Zasvěcení Fontány Hojnosti zajistí všem tvým měšťanům bonus +1 k vlastnstem Mysli, Těla i Duše.</i></font>"
 													},
 													"bulletin_title": "Ember Minton",
 													"dialog_title": "Ember Minton",
-													"choice_000": "Thank you"
+													"choice_000": "Děkujeme ti"
 												},
 												"military": {
 													"bulletin_message": {
-														"00": "Hello - I am Anwyn Torresi, Captain of Her Majesty's guard. She sends me with Her thanks for settling this untamed land, and for guarding it against animals and monsters alike.<br><br>We in the Guard follow the example of the Knight Cid, believing that standing brave and resolute against the wilderness is the only way for the Ascendancy to reclaim this lost land.<br><br>You have done the Ascendancy a great service by planting your Banner here."
+														"00": "Ahoj - jsem Anwyn Torresi, Kapitánka stráže Jejího Veličenstva. Posílá mě baych vám vzkázala její díky za osídlení této nezkrocené země, a za její chránění před zvířaty a příšerami.<br><br>My jako Stráž následujeme příkladu Rytíře Cida, věříme, že postavit se statečně a odhodlaně proti divočině, je jedinou cestou pro Vznešené Království k znovuzískání ztracené země.<br><br>Prokázali jste Vznešenému Království velkou službu, když jste svůj Prapor umístili zde."
 													},
-													"bulletin_title": "The Captain",
-													"dialog_title": "The Captain",
-													"choice_000": "Our pleasure, Captain"
+													"bulletin_title": "Kapitánka",
+													"dialog_title": "Kapitánka",
+													"choice_000": "Rádo se stalo, Kapitánko"
 												},
 												"makers_cont": {
 													"bulletin_message": {
-														"00": "The Crafters Guild! We believe that the skill of an artisan must be respected, and their works celebrated.<br><br>We at the Guild would love to sanction this Township as one fit to pursue mastery in crafts - and, after all, only we can truly know masterwork when we see it!<br><br><font size=-1><i>Dedicating a tribute to the Guildmaster's Skill will grant the ability to create Masterwork-quality furniture and decorations, which are considerably better than those of Excellent quality.</i></font>"
+														"00": "Řemeslnický Cech! Věříme, že um řemeslníka musí být respektován a jejich práce oslavována.<br><br>Náš Cech by velmi rád schválil tuto Obec jako vhodnou, pro usilování o mistrovství v řemeslech - konec konců, mistrovské dílo opravdu poznáme teprve až když ho vidíme!<br><br><font size=-1><i>Věnování tributu Cechmistrově Zručnosti ti zajistí schopnosti vytvářet nábytek a dekorace Hustodémonskykrutopřísné kvality, které jsou významě lepší než ty Vynikající kvality.</i></font>"
 													},
 													"bulletin_title": "Marak Azael",
 													"dialog_title": "Marak Azael",
-													"choice_000": "Such vigor!"
+													"choice_000": "Taková verva!"
 												},
 												"intro": {
 													"bulletin_message": {
-														"00": "Hello again, [str(i18n_data.town_name)]! Glad to see you all still going strong - not that I expected any different!<br><br>In fact, I've brought some folks along with me this time - I'll let them introduce themselves and tell you why they've come."
+														"00": "Ještě jednou Ahoj, [str(i18n_data.town_name)]! Jsem rád, že vidím, že stále vzkvétáte - ne, že bych čekal něco jiného!<br><br>Popravdě jsem tentokrát s sebou vzal několik lidí - Nechám je ať se vám sami představí a řeknou vám, proč sem přišli."
 													},
-													"bulletin_title": "Mer Burlyhands Has Arrived!",
-													"dialog_title": "Mer Returns, With Guests!",
-													"choice_000": "Oh, okay!",
-													"choice_001": "[skip] We've already decided!"
+													"bulletin_title": "Mer Statnoruký Přijel!",
+													"dialog_title": "Mer Se Vrací, S Hosty!",
+													"choice_000": "Ó, ok!",
+													"choice_001": "[přeskočit] Už jsme se rozhodli!"
 												}
 											}
 										}
@@ -4818,27 +4818,27 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "As he should be! With fine crafters like them, your town will be churning out Masterworks in no time! I'll be keeping an eye out for a [str(i18n_data.town_name)] maker's mark in the Capital market in a few months!<br/><br/>Your homes all look pretty sturdy, too, come to think of it. My compliments to your Workers, they seem to know how to put things together, too!"
+														"00": "To by taky měl! S šikovnými řemeslníky jako je on, bude tvoje město zakrátkto sekat Mistrovská díla jako Baťa cvičky! Za několik měsíců budu věnovat pozornost značce tvůrců města [str(i18n_data.town_name)] na Hlavním Tržišti!<br/><br/>Také vaše domovy vypadají pevně, když o tom přemýšlím. Všechna čest vašim Dělníkům, vypadají, že vědí jak spojovat věci dohromady!"
 													},
-													"bulletin_title": "Marak continues",
-													"dialog_title": "Marak Azael, Guildmaster",
-													"choice_000": "We'll do our best!"
+													"bulletin_title": "Marak pokračuje",
+													"dialog_title": "Marak Azael, Cechmistr",
+													"choice_000": "Uděláme co bude v našich silách!"
 												},
 												"msg3": {
 													"bulletin_message": {
-														"00": "Anyway, I'll let you get back to celebrating! I'm going to go hunt down a pint of something strong and a bowl of something hearty!<br/><br/>Remember, busy hands make a happy Town!"
+														"00": "Každpoádně se už můžete vrátit ke slavení! Půjdu si ulovit pintu něčeho ostřejšího a chytit něcok zahřátí!<br/><br/>Pamatuj, zaměstanané ruce dělají šťastné město!"
 													},
-													"bulletin_title": "Marak continues",
-													"dialog_title": "Marak claps you on the back",
-													"choice_000": "Enjoy!"
+													"bulletin_title": "Marak pokračuje",
+													"dialog_title": "Marak tě poklepává po zádech",
+													"choice_000": "Bav se!"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "Ha ha ha! What a fine monument you've built! Level, square, and all the finishing touches that only a trained eye such as mine could truly appreciate!</br></br><font size=-1>Huh, how'd you get it to glow like that, though?</font>"
+														"00": "Ha ha ha! Jaký pěkný monument jste to postavili! Úroveň, zarovnání, a všechny ty finální úpravy, které dokáže ocenit jen trénované oko, jako je to moje!</br></br><font size=-1>Och, jak se vám však povedlo ho takhle rozzářit?</font>"
 													},
-													"bulletin_title": "Marak Azael guffaws",
-													"dialog_title": "Marak Azael, Guildmaster",
-													"choice_000": "Thank you! Our mason is quite proud."
+													"bulletin_title": "Marak Azael vybuchuje smíchy",
+													"dialog_title": "Marak Azael, Cechmistr",
+													"choice_000": "Děkujeme ti! Náš kameník je na to celkem hrdý."
 												}
 											}
 										}
@@ -4848,27 +4848,27 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "Oh! I'm fine, I was just... remembering something.<br/><br/>You know, I really do believe in the Ascendancy, that we have a destiny to retake these lost lands. Every new Town that springs up serves to strengthen my belief.<br/><br/>But it's the Towns like yours, dedicated to the support our valorous Guard, that truly warm my heart."
+														"00": "Och! Jsem v pohdě, jenom jsem... si něco vybavovala.<br/><br/>Víš, já opravdu věřím v Vznešené Království, tedy že je naším osudem vzít si zpátky tot ztracené území. Každé nové město, které tu vyroste, posiluje mé přesvědčení.<br/><br/>Ale jsou to Města jako to vaše, oddaná podpoře naší chrabré Stráže, která mě opravdu zahřejí u srdce. "
 													},
-													"bulletin_title": "Anwyn continues",
-													"dialog_title": "Anwyn Torresi, Guard Captain",
-													"choice_000": "We're honored, Captain"
+													"bulletin_title": "Anwyn pokračuje",
+													"dialog_title": "Anwyn Torresi, Kapitánka Stráže",
+													"choice_000": "Jsmě poctěni, Kapiránko"
 												},
 												"msg3": {
 													"bulletin_message": {
-														"00": "I've brought along plans for the Guard's finest weapons, as you've surely earned the right to forge them.<br/><br/>Now, if my service has taught me anything, it's to eat a good meal when given the chance. I'll leave you to your celebrating!"
+														"00": "Přinesla jsem s sebou plány na nejlepší zbraně Stráže, protože si určitě získaly právo na to je vykovat.<br/><br/>Ale teď, pokud mě moje služba něčemu naučila, tak je to sníst dobré jídlo, kdykoliv máte příležitost. Už vás nechám oslavovat!"
 													},
-													"bulletin_title": "Anwyn continues",
-													"dialog_title": "Anwyn Torresi, Guard Captain",
-													"choice_000": "Enjoy!"
+													"bulletin_title": "Anwyn pokračuje",
+													"dialog_title": "Anwyn Torresi, Kapitánka Stráže",
+													"choice_000": "Užij si to!"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "What an inspiring monument! It truly speaks to the heroism of the Knight Cid.<br/><br/>It reminds me all over again why I became a member of the Guard. It feels like so long ago...<br/><p align='right'><font size=-1 color='#cccccc'>(Anwyn stares into the middle distance, eyes glistening.)</font></p>"
+														"00": "Jaký to insiprující pomník! Opravdu zachycuje hrdinství Rytíře Cida.<br/><br/>Znovu mi to připomína všechno to, proč jsem se stala členem Stráže. Připadá mi to jako věčnost...<br/><p align='right'><font size=-1 color='#cccccc'>(Anwyn kouká někam do dálky a oči se jí třpytí)</font></p>"
 													},
-													"bulletin_title": "Anwyn approaches, eyes shining",
-													"dialog_title": "Anwyn Torresi, Guard Captain",
-													"choice_000": "Anwyn? Are you..."
+													"bulletin_title": "Anwyn přichází a oči jí zaří",
+													"dialog_title": "Anwyn Torresi, Kapitánka Stráže",
+													"choice_000": "Anwyn? Jsi..."
 												}
 											}
 										}
@@ -4878,27 +4878,27 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "As this shrine bestows its blessing on you all, take a moment to reflect on the world, its mysteries, and its many bounties.<br/><br/>May your Town always be a happy home for its people, and a wellspring for the generosity of the Church of Plenty."
+														"00": "Jako tato svatyně dává požehnání vám všem, udělejte si chvilku na přemítání o světě, jeho záhadami a jeho mnoha dary.<br/><br/>Ať je vaše Město navždy sťastným domovem pro jeho obyvatele a pramenem šťedrosti pro Církev Hojnosti."
 													},
-													"bulletin_title": "Ember continues",
-													"dialog_title": "Ember Minton, Missionary",
-													"choice_000": "We'll do our best!"
+													"bulletin_title": "Ember pokračuje",
+													"dialog_title": "Ember Minton, Misionářka",
+													"choice_000": "Uděláme, co bude vnašich silách!"
 												},
 												"msg3": {
 													"bulletin_message": {
-														"00": "Now, enough somber platitudes - go enjoy the party! I think I saw Mer with some cake earlier that I'd love to get my hands on..."
+														"00": "No, ale dost otřepaných frázích - jděte si užít party! Myslím, že jsem viděla Mera s nějakým dortem, který bych taky ráda dostala do ruky..."
 													},
-													"bulletin_title": "Ember continues",
-													"dialog_title": "Ember Minton, Missionary",
-													"choice_000": "Enjoy!"
+													"bulletin_title": "Ember pokračuje",
+													"dialog_title": "Ember Minton, Misionářka",
+													"choice_000": "Užij si to!"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "<font size=-1>...and may this town flourish in fortune and prosperity, for so long as the Sun shall shine. Umbasa.</font><br/><br/>Oh! My apologies, I was lost in prayer.<br/><br/>You have a truly wonderful town here, and I feel so privileged to be the missionary to bless this fine monument."
+														"00": "<font size=-1>...a ať toto město nabírá na bohotství a blahobytu, tak dlouho dokud bude Slunce svítit. Umbasa.</font><br/><br/>Och! Omlouvám se, trochu jsem se zapomněla v modlitbách.<br/><br/>Máte tady opravdu nádherné město, a cítím se velmi privilegovaně, že jsem ta misionářka, která požehná tento krásný monument."
 													},
-													"bulletin_title": "Ember faces the shrine",
-													"dialog_title": "Ember Minton, Missionary",
-													"choice_000": "Thank you for coming"
+													"bulletin_title": "Ember se dívá na svatyni",
+													"dialog_title": "Ember Minton, Misionářka",
+													"choice_000": "Díky, že jsi přišla"
 												}
 											}
 										}
@@ -4908,27 +4908,27 @@
 											"dialog_nodes": {
 												"msg1": {
 													"bulletin_message": {
-														"00": "Well, now, it seems my favorite little Outpost is all grown up! Congratulations on your newfound Township!"
+														"00": "No, tak to vypadá, že moje nejoblíbenjší Základna vyrostla! Gratuluji k vaší nově založené Obci!"
 													},
-													"bulletin_title": "It's Mer Again!",
-													"dialog_title": "Mer Burlyhands, Capital Fellow",
-													"choice_000": "Aw, Thanks!"
+													"bulletin_title": "To Je Zase Mer!",
+													"dialog_title": "Mer Statnoruký, Skvělý Chlapík",
+													"choice_000": "Óó, Díky!"
 												},
 												"msg2": {
 													"bulletin_message": {
-														"00": "By the by, this monument here is special, since it's gotten blessed and all - you can build the others if you like, but they'll just be regular old statues. Fancy-looking ones, but none quite so magical.<br/><br/> Still, they make for a nice decoration, don't you think?"
+														"00": "Mimochodem, ten monument tady je zvláštní, jelikož byl posvěcen a tak - můžeš poslavit i ostatní, jestli chceš, ale budou to jen staré dobré sochy. Pěkně vypadající, ale vůbec né tak kouzelné.<br/><br/> Pořád jde ale o pěkné dekorace, nemyslíš?"
 													},
-													"bulletin_title": "Mer Continues",
-													"dialog_title": "Mer Burlyhands, Capital Fellow",
-													"choice_000": "Got it!"
+													"bulletin_title": "Mer Pokračuje",
+													"dialog_title": "Mer Statnoruký, Skvělý Chlapík",
+													"choice_000": "Chápu!"
 												},
 												"msg3": {
 													"bulletin_message": {
-														"00": "Thanks for being such a bunch of charming folks - I'm proud to serve a group of such earnest and ambitious individuals. You make me proud!<br/><br/>Farewell for now, and the best of luck to each of you!"
+														"00": "Děkuji, že jste takovou okouzlující partou lidiček - Jsem hrdý, že posloužím skupině takových svědomitých a ambicióznéích osob. Jsem na vás pyšný!<br/><br/>Tak zatím sbohem a hodně štěstí vám všem!"
 													},
-													"bulletin_title": "Mer Continues",
-													"dialog_title": "Mer Burlyhands, Capital Fellow",
-													"choice_000": "Farewell, Mer! It's been a pleasure!"
+													"bulletin_title": "Mer Pokračuje",
+													"dialog_title": "Mer Statnoruký, Skvělý Chlapík",
+													"choice_000": "Sbohem, Mere! Bylo nám potěšením!"
 												}
 											}
 										}
@@ -4938,11 +4938,11 @@
 											"dialog_nodes": {
 												"msg1": {
 													"bulletin_message": {
-														"00": "Hello again! Now that you've got a bustling little town here, perhaps it's time to start thinking of your next adventure.<p>I expect some of your citizens are itching to head out and establish a brand new town, even bigger, and even better, with all the lessons learned from this one.</p><p><font size=-1><i>Re-embarking allows you to carry over up to 3 citizens, 10 items, and all your unlocked recipes when starting a new town.</i></font></p>"
+														"00": "Ještě jednou Ahoj! Teď když už tady máš rušné městečko, možná je čas, začít pemýšlet o tvém dalším dobrodružství.<p>Předpokládám, že někteří z tvých obyvatel mají nutkání vyrazit na cestu a založit úplně nové město, ještě větší a ještě lepší, se zkušenostmi, které mají z tohoto.</p><p><font size=-1><i>Znovu-založení ti umožní vzít si s sebou až 3 obyvatele, 10 předmětů, a všechny odemčené recepty, když začneš s  novým městem.</i></font></p>"
 													},
-													"bulletin_title": "It's Mer Again!",
-													"dialog_title": "One Last Thing",
-													"choice_000": "Exciting!"
+													"bulletin_title": "To Je Zase Mer!",
+													"dialog_title": "Ještě Jedna Věc",
+													"choice_000": "Vzrušující!"
 												}
 											}
 										}
@@ -4956,35 +4956,35 @@
 							"dialog_nodes": {
 								"msg4": {
 									"bulletin_message": {
-										"00": "Take the time to consider what you consider most important, what you wish that beacon to stand for. Prosperity? Happiness? Strength? Each is a noble pursuit.<br><br>Wishing you the best of luck! <br><br>Yours in the Capital,<br> Mer Burlyhands<br><br><font size=-1>P.S. A small gift for you from my personal garden <font size=+2>❀</font></font>"
+										"00": "Nech si čas na rozmyšlenou, co je pro tebe nejdůležitější. Co si přeješ aby tento „maják“ zastupoval. Blahobyt? Štěstí? Sílu? Všechno to jsou ušlechtilé cíle.<br><br>Přeji ti hodně štěstí! <br><br>Tvůj v Hlavním Městě,<br> Mer Statnoruký<br><br><font size=-1>P.S. Malý dárek pro tebe z mojí osobní zahrady <font size=+2>❀</font></font>"
 									},
-									"bulletin_title": "To Be Considered",
-									"dialog_title": "To Be Considered",
-									"choice_000": "Frostsnap seeds! Thanks!"
+									"bulletin_title": "Ke Zvážení",
+									"dialog_title": "Ke Zvážení",
+									"choice_000": "Semínka Mrazenky! Děkuji!"
 								},
 								"msg2": {
 									"bulletin_message": {
-										"00": "Congratulations on your Founding!<br><br>Your Outpost has been entered into the registry - consider yourselves official! \"Her Majesty's Outpost of [str(i18n_data.town_name)]\" - it has a nice ring to it, I think. An inspirational Banner design, as well!<br><br> All of us here are eager to hear of your success!"
+										"00": "Gratuluji k vašemu Založení!<br><br>Tvoje Základna byla zapsána do registru - teď už je to oficiální! \"Základna Její Výsosti - [str(i18n_data.town_name)]\" - myslím si, že to zní dobře. Také máte inspirující design Praporu!<br><br> Všichni se netrpělivě těšíme až uslyšíme o tvém úspěchu!"
 									},
-									"bulletin_title": "A Reply",
-									"dialog_title": "A Reply",
-									"choice_000": "The letter continues"
+									"bulletin_title": "Odpověď",
+									"dialog_title": "Odpověď",
+									"choice_000": "Dopis pokračuje"
 								},
 								"msg3": {
 									"bulletin_message": {
-										"00": "As your Outpost grows towards Settlement status, you will start to attract new immigrants.<br/><br/>Your Hearth now is only a spark of what it will one day become - I have faith that it will be a beacon seen all across the Ascendancy."
+										"00": "Jak tvoje Základna roste směrem k získání statutu Osady, začne lákat nové přistěhovalce.<br/><br/>Tvoje současné Hearth je jen odleskem toho, čím se jednou stane - Věřím tomu, že jednou bude majákem viditelným přes celé Vznešené Království."
 									},
-									"bulletin_title": "A View Towards the Future",
-									"dialog_title": "A View Towards the Future",
-									"choice_000": "In conclusion..."
+									"bulletin_title": "Výhled Do Budoucnosti",
+									"dialog_title": "Výhled Do Budoucnosti",
+									"choice_000": "Závěrem..."
 								},
 								"msg1": {
 									"bulletin_message": {
-										"00": "The messenger bird returns, with a reply from Mer Burlyhands.<br><br><p align='right'><font size=-6 color='#cccccc'>The letter has bite marks, and is slightly drooled on. Harold is doing his best.</font></p>"
+										"00": "Ptačí poslíček se vrací s odpovědí od Mera Statnorukého.<br><br><p align='right'><font size=-6 color='#cccccc'>Dopis má na sobě stopy zobáku a je mírně poslintaný. Harold se snaží ze všech sil</font></p>"
 									},
-									"bulletin_title": "The Bird Returns!",
-									"dialog_title": "Another Letter!",
-									"choice_000": "Open the letter"
+									"bulletin_title": "Ptáček se Vrací!",
+									"dialog_title": "Další Dopis!",
+									"choice_000": "Otevřít dopis"
 								}
 							}
 						}
@@ -4994,27 +4994,27 @@
 							"dialog_nodes": {
 								"msg_final": {
 									"bulletin_message": {
-										"00": "Which Shrine will you build to signify your Settlement's ascent into Township?<br><br><font size=-1>Shrine of Fortune (+1 Mind, Body, and Spirit for your citizens!)<br><br>Shrine of Valor (Legendary weapons)<br><br>Shrine of Masterwork (Unlocks Masterwork-tier crafts! Four times as Appealing and Expensive as Excellent-tier!)</font>"
+										"00": "Jakou Svatyni postavíš abys označil vzestup své Osady ke statutu Obce?<br><br><font size=-1>Svatyně Bohatství (+1 Mysl, Tělo, a Duše pro tvé obyvatele!)<br><br>Svatyně Chrabrosti (Legendární zbraně)<br><br>Svatyně Mistrovství (Odemkne výrobky Hustodémonskykrutopřísné-úrovně! Čtyřikrát víc Přitažlivější a Dražší než Vynikající-úrovně  !)</font>"
 									},
-									"bulletin_title": "Choose a Shrine!",
-									"dialog_title": "Choose a Shrine!",
-									"choice_000": "Fortune",
-									"choice_001": "Valor",
-									"choice_002": "Masterwork"
+									"bulletin_title": "Vyber Svatyni!",
+									"dialog_title": "Vyber Svatyni!",
+									"choice_000": "Bohatství",
+									"choice_001": "Chrabrost",
+									"choice_002": "Mistrovství"
 								}
 							}
 						},
 						"guildmaster": {
-							"name": "The Guildmaster's Skill",
-							"description": "<i>This Township shall be known for its artisans' hard work and dedication to their craft.</i><ul><li>Allows crafting Masterwork quality items</li><li>Unlocks artisan-themed decoration recipes</li></ul>"
+							"name": "Cechmistrova Zručnost",
+							"description": "<i>Tato Obec bude známa pro své řemeslnické úsilí a oddanost ke svím řemeslům</i><ul><li>Umožňuje vytvářet předměty Hustodémonskykrutopřísné kvality</li><li>Odemyká návody s řemeslnou tématikou</li></ul>"
 						},
 						"deity": {
-							"name": "Fountain of Plenty",
-							"description": "<i>This Township shall show generosity and kindness to the needy.</i><ul><li>Blesses all citizens with +1  to Mind, Body, and Spirit</li><li>Unlocks nature-themed decoration recipes</li></ul>"
+							"name": "Fontána Hojnosti",
+							"description": "<i>Tato Obec se ukáže štědrostí a dobrosrdečnosti k potřebným.</i><ul><li>Požehná všechny obyvatele tím, že jim přidá +1 Mysl, Tělo, a Duše</li><li>Odemyká návody na dekorace s přírodní tématikou</li></ul>"
 						},
 						"valor": {
-							"name": "The Valor of Cid",
-							"description": "<i>This Township shall be dedicated to Cid's valorous example to protect the whole region.</i><ul><li>Unlocks legendary weapon recipes</li><li>Unlocks castle decoration recipes</li></ul>"
+							"name": "Cidova Chrabrost",
+							"description": "<i>Tato Obec bude zasvěcena Cidově chrabrému příkladu pro ochranu celé oblasti.</i><ul><li>Odemyká návody na legendární zbraně</li><li>Odemyká návody na hradní dekorace</li></ul>"
 						}
 					},
 					"shrine_foreshadow_dialog": {
@@ -5022,35 +5022,35 @@
 							"dialog_nodes": {
 								"msg4": {
 									"bulletin_message": {
-										"00": "Next time I visit, I'll bring these folks along with me, and let them plead their cases. Decisions, decisions!<br><br>Until then!<br><br>Yours in the Capital,<br>&nbsp;Mer Burlyhands"
+										"00": "Až přiště přijedu na návštěvu, vezmu tyhle lidi s sebou a nechám je hájit jejich zájmy. Rozhodnutí, rozhodnutí!<br><br>Zatím naviděnou!<br><br>Váš v Hlavním Městě,<br> Mer Satnoruký"
 									},
-									"bulletin_title": "A Letter",
-									"dialog_title": "A Letter",
-									"choice_000": "Until then, Mer"
+									"bulletin_title": "Dopis",
+									"dialog_title": "Dopis",
+									"choice_000": "Zatím naviděnou, Mer"
 								},
 								"msg2": {
 									"bulletin_message": {
-										"00": "Dear [str(i18n_data.town_name)]-ites,<br><br>Word around the Capital is that your Settlement has grown since I last saw it, and that it's getting even more bustling by the day! Your Hearth must be burning brightly to attract so many new settlers.<br><br>In fact, it's also attracted the attention of a few notable individuals."
+										"00": "Drazí občané města [str(i18n_data.town_name)],<br><br>V hlavním městě se povídá, že se vaše Osada rozrostla od doby, co jsem ji naposledy viděl, a že je den ode dne rušnější! Vaše Hearth musí hořet jasně aby přilákalo tolik nových osadníků.<br><br>Popravdě, také přilákalo pozornost několika významných osob."
 									},
-									"bulletin_title": "A Letter",
-									"dialog_title": "A Letter",
-									"choice_000": "Notable?"
+									"bulletin_title": "Dopis",
+									"dialog_title": "Dopis",
+									"choice_000": "Významných?"
 								},
 								"msg3": {
 									"bulletin_message": {
-										"00": "As you probably know, a settlement traditionally needs a Sponsorship to become a true Township - generally from a guild, the clergy, or the military.<br><br>In the past few days, I've been approached by a few individuals who are <i>very</i> interested to get a look at your town for themselves, and see if you'd be interested in allowing them to be your Sponsor."
+										"00": "Jak asi víte, každé osídlení tradičně potřebuje mít svůj Patronát, aby se stalo pravou Obcí - obecně od cechu, duchovenstva, nebo armády.<br><br>Během několika posledních dní mě navštívilo několik osob, které se <i>velmi</i> zajímají o to, aby se mohli podívat na vaše město na vlastní oči, a aby zjistili jestli by si měl zájem, aby se staly tvými Patrony."
 									},
-									"bulletin_title": "A Letter",
-									"dialog_title": "A Letter",
-									"choice_000": "Great!"
+									"bulletin_title": "Dopis",
+									"dialog_title": "Dopis",
+									"choice_000": "Skvěle!"
 								},
 								"msg1": {
 									"bulletin_message": {
-										"00": "Looks like Mer is getting in touch with us again!"
+										"00": "Vypadá to, že už se nám Mer zase ozívá!"
 									},
-									"bulletin_title": "That Weird Bird Again!",
-									"dialog_title": "Another Letter!",
-									"choice_000": "Open it"
+									"bulletin_title": "Zase Ten Divný Pták!",
+									"dialog_title": "Další Dopis!",
+									"choice_000": "Otevři ho"
 								}
 							}
 						}
@@ -5060,36 +5060,36 @@
 							"dialog_nodes": {
 								"read_letter3": {
 									"bulletin_message": {
-										"00": "Hold in your mind a vision of what your Town will one day be. Your Banner will set that course, but it is up to you to finish it.<p>Choose well, my friends. I eagerly await your reply.</p><br><p>Yours,</p><p>&nbsp;Mer Burlyhands</p>"
+										"00": "Mějte na paměti vizi toho, čím jednou bude vaše Město. Váš Prapor sice tento směr nastaví, ale bude na vás aby jste to dotáhli do konce<p>Vyberteš si dobře, moji přátelé. Netrpělivě očekávám vaší odpověď.</p><br><p>Váš,</p><p> Mer Statnoruký</p>"
 									},
-									"bulletin_title": "The Letter Continues",
-									"dialog_title": "The Letter Continues...",
-									"choice_000": "What shall we choose..."
+									"bulletin_title": "Dopis Pokračuje",
+									"dialog_title": "Dopis Pokračuje",
+									"choice_000": "Co si vybereme..."
 								},
 								"open_letter": {
 									"bulletin_message": {
-										"00": "An odd bird arrives with a letter in its beak, stamped with the Official Seal of the Ascendancy. <br><br><p align='right'><font size=-6 color='#cccccc'>The bird also carries a nametag, which reads 'Harold'</font></p>"
+										"00": "Zvláštní ptáček se ovjevil s dopisem v zobáku, okolkovaný Oficiální Pečetí Vznešeného Království. <br><br><p align='right'><font size=-6 color='#cccccc'>Ptáček má na sobě také jmenovku, na které stojí 'Harold'</font></p>"
 									},
-									"bulletin_title": "A Strange Bird!",
-									"dialog_title": "A Bird... Messenger?",
-									"choice_000": "Open the letter",
-									"choice_001": "[skip] We know what banner we want."
+									"bulletin_title": "Podivný Ptáček!",
+									"dialog_title": "Ptáček... Poštovní?",
+									"choice_000": "Otevřít dopis",
+									"choice_001": "[přeskočit] Už víme jaký prapor chceme."
 								},
 								"read_letter": {
 									"bulletin_message": {
-										"00": "Dear Expedition [str(i18n_data.town_serial_number)],<p>I hope this letter finds you well. By my guess, you've likely set up camp by now.</p><p>As your Capital Liaison, it is my honor to preside, remotely, over the official Founding of your Outpost! I trust that you had ample time to choose a name on your journey.</p>"
+										"00": "Drahá Vypravo [str(i18n_data.town_serial_number)],<p>Doufém, že vás tento dopis zastihne v pořádku. Podle mého odhadu, jste pravděpodobně už založili kemp.</p><p>Jako vaší Hlavní Spojce je mi ctí předsedat, vzdáleně, oficiálnímu Založení vaší Základny! Věřím, že jste během cesty měli dostatek času, aby jste si vybrali jméno.</p>"
 									},
-									"bulletin_title": "A Letter from the Capital!",
-									"dialog_title": "A Letter from the Capital!",
-									"choice_000": "Founding?"
+									"bulletin_title": "Dopis z Hlavního Města!",
+									"dialog_title": "Dopis z Hlavního Města!",
+									"choice_000": "Založení?"
 								},
 								"read_letter2": {
 									"bulletin_message": {
-										"00": "As you know, every new settlement must choose a Banner.<p>This Banner reflects your spirit and vision, the uniting factor which brought the Expedition together!</p><p>What future did you foresee when you embarked on your quest for Township?</p> "
+										"00": "Jak víte, každé nové osídlení si musí vybrat Prapor.<p>Tento Prapor odráží váš charakter a vizi - spojující článek, který dal dohromady tuto Výpravu!</p><p>Jakou budoucnost jste předvidali, když jste vyrazili na cestu za statutem Obce?</p> "
 									},
-									"bulletin_title": "The Letter Continues",
-									"dialog_title": "The Letter Continues...",
-									"choice_000": "Banner... Hmm..."
+									"bulletin_title": "Dopis Pokračuje",
+									"dialog_title": "Dopis Pokračuje...",
+									"choice_000": "Prapor... Hmm..."
 								}
 							}
 						}
@@ -5099,11 +5099,11 @@
 							"dialog_nodes": {
 								"msg1": {
 									"bulletin_message": {
-										"00": "The odd messenger bird scurries off with your Official Settlement Founding Declaration in its beak, carrying it in the vague direction of the capital."
+										"00": "Zvláštní poštovní ptáček cupitá pryč s vaší Officiální Deklarací o Založení Osídlení ve svém zobáku, nesouce jí přibližně směrem k hlavnímu městu."
 									},
-									"bulletin_title": "The Bird Departs",
-									"dialog_title": "The Bird Departs",
-									"choice_000": "Farewell!"
+									"bulletin_title": "Ptáček Odbíhá",
+									"dialog_title": "Ptáček Odbíhá",
+									"choice_000": "Sbohem!"
 								}
 							}
 						}
@@ -5113,126 +5113,126 @@
 							"dialog_nodes": {
 								"simple_message": {
 									"bulletin_message": {
-										"00": "You're not sure how you missed it before, but the bird is wearing a tiny backpack.<br><br>It contains a note, which reads <i>\"A little something to help you celebrate\"</i> along with:"
+										"00": "Nejsi si jistý, jaktože sis toho předtím nevšiml, ale ptáček má na sobě batůžek.<br><br>Obsahuje lístek, na kterém stojí <i>\"Něco malého na pomoc s oslavou\"</i> společně s:"
 									},
-									"bulletin_title": "The Bird Squawks",
-									"dialog_title": "A Tiny Backpack",
-									"choice_000": "Delicious!"
+									"bulletin_title": "Ptáček Skřehotá",
+									"dialog_title": "Batůžek",
+									"choice_000": "Mňam!"
 								}
 							}
 						}
 					},
 					"hearth_choice": {
 						"glory": {
-							"name": "Hearth of Glory",
-							"description": "<i>Proof that you have military strength, and that you're prepared to keep it on its feet.</i><ul><li>Allows summoning increasingly difficult enemies to prove your mettle</li><li>Each rank defeated will boost Daily Update net worth</li></ul>"
+							"name": "Hearth Slávy",
+							"description": "<i>Důkaz, že máš vojenskou sílu, a že jsi připraven postarat se o to aby ti zůstala .</i><ul><li>Umožňuje přivolat nepřátelé s narůstající obtížnosti, abys prokázal svého bojového ducha</li><li>Každá poražená kategorie zvýší tvoje celkové jmění v Denní Aktualizaci</li></ul>"
 						},
 						"makers": {
-							"name": "Hearth of the Makers",
-							"description": "<i>Proof that gold has been flowing through your settlement, and that you have fine crafters.</i><ul><li>Generates 5% daily interest on any Gold Coins you have on hand (up to 300 per day)</li><li>Boosts your Daily Update net worth based on Gold Coins on hand</li></ul>"
+							"name": "Hearth Tvůrců",
+							"description": "<i>Důkaz, že zlato proudí tvým osídlením, a že máš skvělé řemeslníky.</i><ul><li>Generuje 5% denní úrok ze Zlatých Mincí, které máš v zásobě (až do 300 za den)</li><li>Zvýší tvoje celkové jmění v Denní Aktualizaci podle Zlatých Mincí které máš v zásobě</li></ul>"
 						},
 						"cheer": {
-							"name": "Hearth of Cheer",
-							"description": "<i>Proof that you have happy, well-fed citizens, and nice places for them to live.</i><ul><li>Boosts Daily Update net worth based on the overall Morale of your citizens</li><li>Each day brings a new random buff for your townsfolk.</li></ul>"
+							"name": "Hearth Radosti",
+							"description": "<i>Důkaz, že máš šťastné, dobře živené obyvatele, s příjemnými místy k bydlení.</i><ul><li>Zvýší tvoje celkové jmění v Denní Aktualizaci podle celkové Nálady tvých obyvatel</li><li>Každý den přinese náhodné požehnání všem ve tvém městě.</li></ul>"
 						}
 					},
 					"shrine_quest_deity": {
-						"title": "Township Quest: Fountain of Plenty",
-						"dialog_title": "Township Quest: Fountain of Plenty"
+						"title": "Úkol pro získání statutu Obce: Fontána Hojnosti",
+						"dialog_title": "Úkol pro získání statutu Obce: Fontána Hojnosti"
 					},
 					"shrine_quest_guildmaster": {
-						"title": "Township Quest: The Guildmaster's Skill",
-						"dialog_title": "Township Quest: The Guildmaster's Skill"
+						"title": "Úkol pro získání statutu Obce: Cechmistrova Zručnost",
+						"dialog_title": "Úkol pro získání statutu Obce: Cechmistrova Zručnost"
 					},
 					"shrine_quest_valor": {
-						"title": "Township Quest: Cid's Valor",
-						"dialog_title": "Township Quest: Cid's Valor"
+						"title": "Úkol pro získání statutu Obce: Cidova Chrabrost",
+						"dialog_title": "Úkol pro získání statutu Obce: Cidova Chrabrost"
 					},
 					"hearth_quest_cheer": {
-						"title": "Hearth Upgrade: Cheer",
-						"dialog_title": "Hearth Upgrade: Cheer"
+						"title": "Vylepšení Hearthu: Radost",
+						"dialog_title": "Vylepšení Hearthu: Radost"
 					},
 					"hearth_quest_glory": {
-						"title": "Hearth Upgrade: Glory",
-						"dialog_title": "Hearth Upgrade: Glory"
+						"title": "Vylepšení Hearthu: Sláva",
+						"dialog_title": "Vylepšení Hearthu: Sláva"
 					},
 					"hearth_quest_makers": {
-						"title": "Hearth Upgrade: Makers",
-						"dialog_title": "Hearth Upgrade: Makers"
+						"title": "Vylepšení Hearthu: Tvůrci",
+						"dialog_title": "Vylepšení Hearthu: Tvůrci"
 					},
 					"unlock_shrine_recipes": {
-						"bulletin_title": "Mason shrine recipes unlocked!"
+						"bulletin_title": "Návody na svatyně pro kameníka odemčeny!"
 					}
 				},
 				"titan": {
 					"titan_defeated_town_bonus": {
-						"name": "Land Cleansed of Corruption",
-						"description": "<i>With the defeat of its lurking Titan, this town's citizens can't help but be more cheerful.</i>"
+						"name": "Země Zbavená Zkázy",
+						"description": "<i>S porážkou číhajícího Titána, si obyvatelé tohoto města nemohou pomoci a jsou radostnější.</i>"
 					},
 					"end_dialog": {
 						"dialog_tree_info": {
 							"dialog_nodes": {
 								"msg2": {
 									"bulletin_message": {
-										"00": "This calls for a celebration!"
+										"00": "To volá po oslavě!"
 									},
-									"bulletin_title": "You did it!",
-									"dialog_title": "The Titan Is Vanquishsed",
-									"choice_000": "Yeah!"
+									"bulletin_title": "Dokázali jste to!",
+									"dialog_title": "Titán Je Přemožen",
+									"choice_000": "Jo!"
 								},
 								"msg1": {
 									"bulletin_message": {
-										"00": "With a terrifying roar and a staggering blast of energy, the apparition of the Titan disintegrates, vanishing into nothingness.<br><br>As the gloom fades, your citizens marvel at the clear sky stretching out above them, and the land itself seems to breathe a sigh of relief as the laws of nature return to normal."
+										"00": "S děsivým řevem a ohromným výbuchem energie se Titánův zjev rozpadl v prach a zmizel do nicoty.<br><br>Jak šero odchází, tvoji obyvatelé obdivují jasné nebe které se nad nimi prodírá z mraků, a samotná země  vypadá, že vydechla úlevou, jak se zákony přírody znovu vrací do normálu"
 									},
-									"bulletin_title": "You did it!",
-									"dialog_title": "The Titan Is Vanquishsed",
-									"choice_000": "Whew."
+									"bulletin_title": "Dokázali jste to!",
+									"dialog_title": "Titán Je Přemožen",
+									"choice_000": "Uf."
 								}
 							}
 						}
 					},
 					"alert_destroy_crops": {
-						"title": "A blight! We've lost some crops..."
+						"title": "Pohroma! Přišli jsme o nějaká plodiny..."
 					},
 					"alert_initial_spawn_roots": {
-						"title": "The Titan has Roots everywhere, below the ghostly tentacles. Dig them up to hurt the Titan!"
+						"title": "Titán má Kořeny všude všude pod přízračnými chapadly. Vykopej je abys zranil Titána!"
 					},
 					"alert_spawn_camp": {
-						"title": "A new Portal opens, guarded by Corruptions"
+						"title": "Nový Portál se otevírá, hlídaný Zkaženými"
 					},
 					"alert_spawn_roots": {
-						"title": "More Roots of corruption burrow up. Dig down and take an axe to them!"
+						"title": "Další Kořeny zkázy se zahrabábají. Kopej dolů a vem si na ně sekeru!"
 					},
 					"alert_wave": {
-						"title": "A storm of pure evil erupts from the Titan! Take shelter!"
+						"title": "Bouře čístého zla se vyhrnula z Titána! Ukryj se!"
 					},
 					"spawn_raid": {
 						"mission": {
 							"sighted_bulletin": {
-								"title": "Hostile Corruptions, and they're awfully close!"
+								"title": "Nepřátelští Zkažení, a jsou děsně blízko!"
 							}
 						}
 					},
 					"alert_destroy_building": {
-						"title": "A tentacle threatens a structure! Kill it, quickly!"
+						"title": "Chapadlo ohrožuje stavbu! Rychle ho zabij!"
 					},
 					"alert_building_was_destroyed": {
-						"title": "One of our buildings was destroyed! We were too late..."
+						"title": "Jedna z našich budov byla zničena! Přišli jsme příliš pozdě..."
 					},
 					"alert_tentacle_grab": {
-						"title": "A tentacle grabs [name(i18n_data.entity)]! Free them!"
+						"title": "[name(i18n_data.entity)] chytlo chapadlo! Osvoboď je!"
 					},
 					"alert_initial_camp_spawn": {
-						"title": "Portals! They'll keep spawning crawling bugs until you destroy them, but beware their Corrupted guardians."
+						"title": "Portály! Budou neustále plodit lezoucí hmyzáky dokud je nezničíš. Ale dávej si pozor na jejich Zkažené strážce."
 					},
 					"alert_new_bugs": {
-						"title": "Crawlers continue to emerge from the portals, hungry for your stockpiles"
+						"title": "Lezci budou pokračovat ve vynořování se z protálů, hladoví po tvých zásobách."
 					}
 				},
 				"amberstone": {
 					"persons": {
 						"sasha": {
-							"title": "Sasha, Envoy of Clan Amberstone"
+							"title": "Saša, Vyslanec Jantarového Klanu"
 						}
 					},
 					"arcs": {
@@ -5244,35 +5244,35 @@
 											"dialog_nodes": {
 												"greet": {
 													"bulletin_message": {
-														"00": "\"Hello again, my friends of the Monkey! I hope this day finds you at peace.<br><br>Honorable Humans, I... have a confession to make.\""
+														"00": "\"Znovu ahoj, moji přátelé z Opičího Rodu! Doufám, že vás tento ten narazi .<br><br>Honorable Humans, I... have a confession to make.\""
 													},
-													"bulletin_title": "Sasha of Clan Amberstone returns!",
-													"dialog_title": "Sasha, Envoy of Clan Amberstone",
-													"choice_000": "Welcome! Confession?"
+													"bulletin_title": "Saša z Jantarového Klanu se vrací!",
+													"dialog_title": "Saša, Vyslanec Jantarového Klanu",
+													"choice_000": "Vítej! Přiznání?"
 												},
 												"intro": {
 													"bulletin_message": {
-														"00": "\"When I originally came to you, it was in hopes that you could be... useful to us.\" he says sheepishly, with drooped ears. \"The Titan lurking beneath your town has loomed over my people for generations. I saw in your town a spark of hope that we might be free of its burden.<br><br>I apologize for not being more open about my motives before now. I hope I can be forgiven.\""
+														"00": "\"Když jsem k vám poprvé přišel, doufal jsem, že byste mohli být... pro nás užiteční.\" říká rozpačitě se sklopenýma ušima. \"Titán číhající pod vaším městem hrozil mému lidu po generace. Ve vašem městě jsem uviděl jiskru naděje, že se možná osvodbodíme od jeho břímě.<br><br>Omlouvám se, že jsem předtím nebyl více otevřený ohledně svých motivů. Doufám, že mi můžete odpustit.\""
 													},
-													"bulletin_title": "Sasha continues, sheepishly",
-													"dialog_title": "Sasha, Envoy of Clan Amberstone",
-													"choice_000": "Oh... don't worry about it!."
+													"bulletin_title": "Saša pokračuje, rozpačitě",
+													"dialog_title": "Saša, Vyslanec Jantarového Klanu",
+													"choice_000": "Och... nedělej si s tím starosti!"
 												},
 												"story1": {
 													"bulletin_message": {
-														"00": "\"I must admit, your town surpassed my wildest dreams, managing to defeat a foe of such magnitude by your own strength alone.<br><br>But not only that - my people and I have grown fond of you beyond expectation, as well\" he admits, smiling. \"You have been faithful allies to us, and we have learned much from each other. I hope our two warrens can continue our budding friendship.\""
+														"00": "\"Musím přiznat, že vaše město předčilo moje nejdivočejší představy - to že jste dokázali porazit nepřítele takové velikosti jen vlastními silami.<br><br>Ale nejen to - moji lidé a i já jsme si vás také nad očekávání oblíbili\" přiznává a usmívá se. \"Byli jste pro nás věrnými spojenci, a hodně jsme se jedni od druhých naučili. Doufám, že naše dvě nory mohou pokračovat v tomto rodícím se přátelství.\""
 													},
-													"bulletin_title": "Sasha continues, sheepishly",
-													"dialog_title": "Sasha, Envoy of Clan Amberstone",
-													"choice_000": "Thank you, and of course!"
+													"bulletin_title": "Saša pokračuje, rozpačitě",
+													"dialog_title": "Saša, Vyslanec Jantarového Klanu",
+													"choice_000": "Děkujeme ti, a samozřejmě!"
 												},
 												"story2": {
 													"bulletin_message": {
-														"00": "Sasha looks visibly relieved. \"I am glad to hear it! I will take my leave of you for now, but I shall visit again! Once more, congratulations on cleansing your land of the Titan scourge, it is not something easily done. Farewell!\""
+														"00": "Sašovi se viditělně ulevilo. \"To rád slyším! Prozatím vás opustím, ale zase se tu zastavím! Ještě jednou, gratuluji k vyčištění vaší země od Titánovi pohromy, není to něco co by se dělalo snadno. Sbohem!\""
 													},
-													"bulletin_title": "Sasha smiles",
-													"dialog_title": "Sasha, Envoy of Clan Amberstone",
-													"choice_000": "Bye!"
+													"bulletin_title": "Saša se usmívá",
+													"dialog_title": "Saša, Vyslanec Jantarového Klanu",
+													"choice_000": "Ahoj!"
 												}
 											}
 										}
@@ -5282,19 +5282,19 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "<i><font size=-1>[Select the Arbalest and Press the 'Awaken Titan' button when you're ready. Once the Arbalest has charged, hit the Fire button to damage the Titan. Killing or destroying the Titan's minions, tentacles, and roots will also reduce its health.]<br><br>[Good luck!]</font>"
+														"00": "<i><font size=-1>[Vyber Arbalest a Zmáčkni tlačítko 'Probudit Titána' až budeš připraven. Jakmile bude Arbalest nabitý, zmáčkni tlačítko Vystřelit abys zranil Titána. Zabití nebo zničení Titánových poskoků, chapadel nebo kořenů sníží jeho zdraví.]<br><br>[Hodně štěstí!]</font>"
 													},
-													"bulletin_title": "A Titanic Undertaking",
-													"dialog_title": "Last Steps",
-													"choice_000": "[Okay!]"
+													"bulletin_title": "Titánský Podnik",
+													"dialog_title": "Poslední Kroky",
+													"choice_000": "[Fajn!]"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "\"The Arbalest looks to be in working shape. Isn't it beautiful? The way it sparkles?\"<br><br>He shakes his head to clear his mind. \"Now is no time for distraction. Now that it's standing, all that's left is to activate it and call forth the Titan. Once that's happened, it's up to us to make sure it's charging, but I'll call on you to actually fire. It's your town, so it only seems right\"<br><br>\"Only summon the Titan when you're ready for a siege. It will not be easy, and he will not be kind.\""
+														"00": "\"Arbalest vypadá že je v funkční formě. Není to krása? Jak se třpytí?\"<br><br>Potřese halvou aby si pročistil myšlenky. \"Teď není čas na ropztýlení. Teď když stojí, jediné co zbývá, je aktivovat ho a vyvolat Titána. Jakmile se to stane, bude na nás abychom zajistili, že se nabíjí, ale vyzvu tebe abys doopravdy vystřelil. Je to tvoje město, takže to tak bude správně\"<br><br>\"Titána vyvolejte pouze když budete připraveni na obležení. Nebude to jednoduché a on nebude přívětivý.\""
 													},
-													"bulletin_title": "Sasha admires the Arbalest",
+													"bulletin_title": "Saša obdivuje Arbalest",
 													"dialog_title": "TKTK Sasha Something",
-													"choice_000": "We will survive."
+													"choice_000": "Přežijeme."
 												}
 											}
 										}
@@ -5306,26 +5306,26 @@
 													"bulletin_message": {
 														"00": "<TKTK Congrats>"
 													},
-													"bulletin_title": "Sasha continues",
-													"dialog_title": "Sasha, Envoy of Clan Amberstone",
-													"choice_000": "Safe travels, Sasha!"
+													"bulletin_title": "Saša pokračuje",
+													"dialog_title": "Saša, Vyslanec Jantarového Klanu",
+													"choice_000": "Sťastnou cestu, Sašo!"
 												},
 												"request1": {
 													"bulletin_message": {
-														"00": "\"In fact, now that the evil has passed, there should be enough Hearth magic energy up here in the aboveground to support Lapines. So long as you keep that monument standing, you should expect some of us to ask to immigrate here, from time to time.\""
+														"00": "\"Popravdě teď, když zlo odešlo, mělo by tu, tady nahoře nad zemí, být dostatečné množství magické energie Hearthu pro obživu Lapines. Dokud necháš tento monument stát, očekávej, že čas od času se někteří z nás zeptají zda sem nemohou imigrovat.\""
 													},
-													"bulletin_title": "Sasha offers",
-													"dialog_title": "Sasha's offer",
+													"bulletin_title": "Saša nabízí",
+													"dialog_title": "Sašova nabídka",
 													"choice_000": "TKTK Response"
 												},
 												"accept1": {
 													"bulletin_message": {
-														"00": "\"Fantastic, I'll let them know post-haste!\"<br><br>\"Now, I... suppose that's all. Enjoy your celebrations!\""
+														"00": "\"Fantastické, dám jim urychleně vědět!\"<br><br>\"A teď... to bude asi všechno. Užijte si oslavy!\""
 													},
-													"bulletin_title": "Sasha continues",
-													"dialog_title": "Sasha, Envoy of Clan Amberstone",
-													"choice_000": "[Accept] Yes!",
-													"choice_001": "[Reject] No..."
+													"bulletin_title": "Saša pokračuje",
+													"dialog_title": "Saša, Vyslanec Jantarového Klanu",
+													"choice_000": "[Přijmout] Ano!",
+													"choice_001": "[Odmítnout] Ne..."
 												},
 												"greet": {
 													"bulletin_message": {
@@ -8313,7 +8313,7 @@
 			},
 			"embarking": {
 				"embarking": {
-					"text": "On Arriving:",
+					"text": "Při příchodu:",
 					"logs": {
 						"insufferable_academic": {
 							"000": "Three days have passed since I had a decent philosophical conversation. Trying not to panic. Failing. Trying to keep it in. Succeeding. Mostly."
@@ -9795,7 +9795,7 @@
 				"description": "Wind, and snow, and hail, oh my!<ul><li>Růst rostlin je velmi zrychlen.</li><li>Viditelnost je velmi snížena.</li><li>Hearthlingům mimo úkryt je moc zima aby pracovali efektivně.</li><li>Zvířata mimo úkryt budou mrznout.</li></ul>"
 			},
 			"titanstorm": {
-				"display_name": "Titanův stín",
+				"display_name": "Titánův stín",
 				"description": "Venku to zuří, Všichni! Řezejte chapadla na potkání.",
 				"titan_titles": {
 					"1": "[str(self.stonehearth:unit_info.custom_name)], Níčitel Kostek",
@@ -19602,32 +19602,32 @@
 					"ui_steps": {
 						"set1": {
 							"step006": {
-								"title": "Click stamper to approve the promotion"
+								"title": "Klikni na razítko abys schválil změnu povolání"
 							},
 							"step005": {
-								"title": "Click the Carpenter job button."
+								"title": "Klikni na tlačítko Tesaře."
 							},
 							"step004": {
-								"title": "Click Change Jobs to promote this hearthling to a different job"
+								"title": "Klini na Změnit Povolání abys povýšil heartlinga do jiného povolání"
 							},
 							"step001": {
-								"title": "Open the Citizens manager",
-								"description": "Use this pane to manage all your citizens, view their stats, and set their task orders."
+								"title": "Otevři Správce obyvatel",
+								"description": "Pomocí tohoto okna spravuj všechny svoje obyvatele, zobrazuj si jejich statistiky, a nastavuj jejich příkazy."
 							},
 							"step000": {
-								"title": "Promote a Hearthling to a Carpenter",
-								"description": "We have logs and a place to store goods, but the town is looking pretty empty. Fortunately, we've brought a saw along with us. Let's promote a citizen to a Carpenter!"
+								"title": "Povyš Hearthlinga na Tesaře",
+								"description": "Máme dřevo a místo na skaldování výrobků, ale město vypadá dost prázdně. Naštěstí jsme si s sebou vzali pilu. Pojďme povýšit obyvatele na tesaře!"
 							},
 							"step007": {
-								"title": "Town Crafters",
-								"description": "Carpenters and other crafters can create various goods to help your settlement, from beds, to building materials, to weapons."
+								"title": "Městští Řemeslníci",
+								"description": "Tesaři a jiní řemeslníci mohou vytvářet různé výrobky, které pomohou tvojí osadě, od postelí, přes stavební materiály, ke zbraním."
 							},
 							"step003": {
-								"title": "Mouse over the numbers to learn what each attribute does",
-								"description": "Each hearthling has a Mind, Body, and Spirit attribute that affects how well they do certain things."
+								"title": "Přejeď myší nad čísly, abys zjistil, co jaká vlastnost dělá",
+								"description": "Každý hearthling má vlasnosti Mysli, Těla, a Duše, které ovlivňují jak dobře dělá určité věci."
 							},
 							"step002": {
-								"title": "Choose a citizen to promote"
+								"title": "Vyber obyvatele k povýšení"
 							}
 						}
 					}
@@ -19636,6 +19636,6 @@
 		}
 	},
 	"kingdoms": {
-		"ascendancy": "Ascendancy"
+		"ascendancy": "Vznešení"
 	}
 }
