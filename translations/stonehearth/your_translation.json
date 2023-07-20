@@ -2244,34 +2244,34 @@
 			"tooltips": {
 				"stamina": {
 					"display_name": "Výdrž",
-					"description": "To je hearthlingova tělesná vytrvalost.",
+					"description": "Tohle je hearthlingova tělesná odolnost.",
 					"bullet_points": {
-						"000": "Každý bod zvedá maximální zdraví o 1"
+						"000": "Každý bod zvyšuje maximální zdraví o 1"
 					}
 				},
 				"inventiveness": {
 					"display_name": "Vynalézavost",
 					"description": "Jak je tento hearthling dobrý ve vytváření věcí. U dobrých tvůrců je větší šance na vytvoření lepších výrobků.",
 					"bullet_points": {
-						"000": "Každé 2 body zvyšují možnost na vytvoření lepšího přemětu o 1%"
+						"000": "Každé 2 body zvyšují možnost na vytvoření lepšího předmětu o 1%"
 					}
 				},
 				"inspiration": {
 					"display_name": "Inspirace",
-					"description": "Jemný modifikátor možnosti tohoto hearthlinga na vytváření předmětů Dobré nebo Výborné kvality.",
+					"description": "Plochý modifikátor šance tohoto hearthlinga na vytváření předmětů Dobré nebo Vynikající kvality.",
 					"bullet_points": {
-						"000": "Hearthling musí být alespoň Tovaryš aby mohl vytvářet předměty Dobré kvality, a Mistr aby mohl vytvořit Výborné předměty</br>",
-						"001": "Je založena na herthlingových Duševních vlastnostech."
+						"000": "Hearthling musí být alespoň Tovaryš pro vytváření předmětů Dobré kvality, a Mistr pro vytváření předmětů Vynikající kvality</br>",
+						"001": "Je založena na hearthlingové Duši."
 					}
 				},
 				"shelter": {
 					"display_name": "Přístřeší",
 					"description": "Ujisti se, že tvoji heathlingové mají pohodlnou postel na spaní.",
-					"town_description": "Jak tvoji obyvatelé hodnotí stav ubytování. Jsou zde postele ke spaní?"
+					"town_description": "Jak se tví obyvatelé cítí ohledem jejich stavu ubytování. Jsou zde postele na spaní?"
 				},
 				"compassion": {
 					"display_name": "Soucit",
-					"description": "Jak je pravděpodobné, že tento hearthling pomůže ostatním obyvatelům nebo se s nimi skamarádí.",
+					"description": "Jak je pravděpodobné, že tento hearthling pomůže jinému vesničanovi nebo se spřátelí s ostatními.",
 					"bullet_points": {
 						"000": "Určuje maximální počet traperových mazlíčků",
 						"001": "Zvyšuje radost zvířat na pastvinách",
@@ -2280,45 +2280,45 @@
 				},
 				"food": {
 					"display_name": "Jídlo",
-					"description": "Ujisti se, že máš dostupná jídla různých druhů a kvality. Uvařené jídle je oblibenější než jídlo syrové.",
+					"description": "Ujisti se, že máš dostupná jídla různých druhů a kvality. Vařená jídla jsou oblibenější než jídla syrová.",
 					"town_description": "Jak tvoji obyvatelé hodnotí stav zásob jídla. Je zde dostatek jídla? Zkus získat různé druhy jídel!"
 				},
 				"diligence": {
-					"display_name": "Píle",
+					"display_name": "Pracovitost",
 					"description": "Jak dlouho tento hearthling může pracovat předtím než si bude potřebovat odpočinout.",
 					"bullet_points": {
 						"000": "Určuje délku spánku",
-						"001": "Určuje Technikovu rychlost opravování "
+						"001": "Určuje Inženýrovu rychlost opravování "
 					}
 				},
 				"willpower": {
 					"display_name": "Vůle",
 					"description": "Jaká je pravděpodobnost, že tento hearthling odolá vábením nepřátel.",
 					"bullet_points": {
-						"000": "Určuje regenearci zdraví"
+						"000": "Určuje regeneraci zdraví"
 					}
 				},
 				"net_worth": {
 					"display_name": "Celkové Jmění",
-					"description": "Odraz blahobytu tvého města. Stavby, majetek, a zemědělství dohromady tvoří toto skóre."
+					"description": "Odraz blahobytu tvého města. Stavby, majetek, a zemědělství se dohromady kombinují do formy tohoto skóre."
 				},
 				"courage": {
 					"display_name": "Odvaha",
-					"description": "Jak statečný je tento hearthling tváří v tvář boji.",
+					"description": "Jak statečný je tento hearthling tváří v tvář v boji.",
 					"bullet_points": {
 						"000": "Určuje šanci na útěk z boje."
 					}
 				},
 				"muscle": {
 					"display_name": "Síla",
-					"description": "Síla tohoto hearthlinga.",
+					"description": "Svaly tohoto hearthlinga.",
 					"bullet_points": {
-						"000": "Každých 10 bodů síly zvyšuje zranění zbraně o 1"
+						"000": "Každých 10 bodů síly zvyšuje poškození zbraně o 1"
 					}
 				},
 				"happiness": {
 					"display_name": "Celková Nálada",
-					"description": "Herthlingova celková spokojenost",
+					"description": "Hearthlingova celková spokojenost",
 					"town_description": "Jak šťastní jsou celkově tvoji obyvatelé."
 				},
 				"speed": {
@@ -2327,16 +2327,16 @@
 				},
 				"body": {
 					"display_name": "Tělo",
-					"description": "Schopnosti při fyzických aktivitách.</br></br>Hearthling s vysokým hodnocením Těla se bude pohybovat rychleji, útočit silněji a žít déle.</br></br>Ovlivňuje Sílu, Rychlost a Výdrž."
+					"description": "Způsobilost při fyzických aktivitách.</br></br>Hearthling s vysokým hodnocením Těla se bude pohybovat rychleji, útočit silněji a žít déle.</br></br>Ovlivňuje Sílu, Rychlost a Výdrž."
 				},
 				"edibles": {
 					"display_name": "Poživatiny",
-					"description": "Hodnota všeho jídla v inventáři města ve zlatých.",
-					"town_description": "Hodnota všeho jídla v inventáři města ve zlatých"
+					"description": "Hodnota všeho jídla v inventáři města ve zlatě.",
+					"town_description": "Hodnota všeho jídla v inventáři města ve zlatě"
 				},
 				"mind": {
 					"display_name": "Mysl",
-					"description": "Schopnost myslet rozumně.</br></br>Vyšší hodnota Mysli umožní hearthlingovi rychle ovládnout rozumové aktivity jako vyrábění, a přitom jim zůstane čistá hlava.</br></br>Ovlivňuje Píli a Zvědavost."
+					"description": "Schopnost rozumně myslet.</br></br>Vyšší hodnota Mysli umožní hearthlingovi rychle popadnout rozumové aktivity jako vyrábění, a zachovat čistou hlavu.</br></br>Ovlivňuje Pracovitost a Zvědavost."
 				},
 				"curiosity": {
 					"display_name": "Zvědavost",
@@ -2347,24 +2347,24 @@
 				},
 				"spirit": {
 					"display_name": "Duše",
-					"description": "Důvěra v osatní lidi i sebe sama.</br></br>Hearthling s vysokým hodnocením Duše se snado skamarádí se zvířaty, nebude se bát nepřátel, a bude častěji vytvářet výjimečné věci</br></br>Ovlivňuje Odvahu, Vůli, Soucit a Inspiraci."
+					"description": "Víra v ostatní lidi i sebe sama.</br></br>Hearthling s vysokým hodnocením Duše se snadno spřátelí se zvířaty, nebude se bát nepřátel, a bude mnohem častěji vytvářet výjimečné věci</br></br>Ovlivňuje Odvahu, Vůli, Soucit a Inspiraci."
 				},
 				"safety": {
 					"display_name": "Bezpečí",
-					"description": "Ochraňuj svoje město před nájezdníky a zařid aby se tvoji obyvatelé cítili bezpečně stanovením stráží.",
-					"town_description": "Jak tvoji obyvatelé hodnoti bezpečnost města. Je dobře chráněné nebo ho plundrují golbini?"
+					"description": "Ochraňuj tvoje město před nájezdníky a zařid aby se tvoji obyvatelé cítili bezpečně stanovením stráží.",
+					"town_description": "Jak tvoji obyvatelé hodnotí bezpečnost města. Je město dobře chráněné, nebo drancované gobliny?"
 				},
 				"inventory": {
 					"display_name": "Inventář",
-					"description": "Hodnota všech předmětů z inventáře města, které nejsou zdroje a jsou nejedlé, ve zlatých."
+					"description": "Hodnota ve zlatě všech předmětů v inventáři města, které nejsou zdroje a jsou nejedlé."
 				},
 				"buildings": {
 					"display_name": "Stavby",
-					"description": "Hodnota všech postavených staveb ve městě. Velké stavby přispívají ke skóre o něco více než stavby malé."
+					"description": "Hodnota všech postavených budov ve městě. Velké stavby přispívají ke skóre o něco více než ty menší."
 				},
 				"agriculture": {
 					"display_name": "Zemědělství",
-					"description": "Hodnota farmářských polí a pastvin ve tvém městě. Každá zasazená plodina a každé zvíře na pasvině přispívá k tomuto skóre."
+					"description": "Hodnota farmářských polí a pastvin ve tvém městě. Každá zasazená plodina a každé zvíře na pastvině přispívá k tomuto skóre."
 				},
 				"military_strength": {
 					"display_name": "Vojenská Síla",
@@ -2372,40 +2372,40 @@
 				},
 				"content": {
 					"display_name": "Spokojenost",
-					"town_description": "Tvoji obyvatelé jsou celkem spokojeni se stavem věcí.",
+					"town_description": "Tví obyvatelé jsou celkově spokojeni se stavem věcí.",
 					"description": "Nic dobrého, nic špatného."
 				},
 				"jubilant": {
-					"display_name": "Jubilant",
-					"town_description": "Tvoji obyvatelé jsou neuvěřitelně šťastní, že zde žijí!",
+					"display_name": "Jubilantní",
+					"town_description": "Tví obyvatelé jsou neuvěřitelně šťastní, že zde žijí!",
 					"description": "Rychlost pohybu je zvýšena o 10%."
 				},
 				"forlorn": {
-					"display_name": "Forlorn",
-					"town_description": "Tvoji obyvtelé prošli velkými problemi a těžkostmi a není jim právě do zpěvu.",
+					"display_name": "Zoufalí",
+					"town_description": "Tví obyvatelé prošli nedávno velmi těžkými časy.",
 					"description": "Rychlost pohybu je snížena o 10%."
 				},
 				"merry": {
-					"display_name": "Merry",
-					"town_description": "Tvojí obyvatelé jsou celkově docela šťastní.",
+					"display_name": "Veselí",
+					"town_description": "Tví obyvatelé jsou celkově docela šťastní.",
 					"description": "Rychlost pohybu je zvýšena o 5%."
 				},
 				"glum": {
-					"display_name": "Glum",
-					"town_description": "Tvoji obyvatelé se celkově necítí dobře.",
+					"display_name": "Sklíčení",
+					"town_description": "Tví obyvatelé se celkově necítí moc dobře.",
 					"description": "Rychlost pohybu je snížena o 5%."
 				},
 				"exp_bar": {
 					"description": "Hearthlingův postup na další úroveň."
 				},
 				"health_status": {
-					"description": "Hearthlingů současný stav zdraví."
+					"description": "Hearthlingův současný stav zdraví."
 				},
 				"suspend_button": {
 					"description": "Pozastavit nebo znovu spustit typ práce."
 				},
 				"customization_lock": {
-					"description": "Herthlingův [str(customization)] zůstane stejný během nového generování rysů a vlastností."
+					"description": "Tato Hearthlingova [str(customization)] budou uložena během nového rolování rysů a vlastností."
 				},
 				"customization_lock_all": {
 					"description": "Klikni pro uzamčení všech nastavení jména a vzhledu."
@@ -2425,8 +2425,8 @@
 				"pelt_resource_name": "Kožešina",
 				"cloth_resource_name": "Štůček Látky",
 				"wood_resource_name": "Dřevěné Poleno",
-				"clay_resource_name": "Hromádka Hlíny",
-				"clay_brick_resource_name": "Hliněné Cihly",
+				"clay_resource_name": "Hromádka Jílu",
+				"clay_brick_resource_name": "Jílové Cihly",
 				"thread_resource_name": "Příze",
 				"leather_resource_name": "Štůček Kůže",
 				"fiber_resource_name": "Svazek Vláken",
@@ -2441,8 +2441,8 @@
 				"earth_essence_resource": "Esence Hearthu ",
 				"feather_resource": "Peří",
 				"gear_resource_name": "Vybavení",
-				"ore_resource_name": "Rudy",
-				"dirt_resource_name": "Hromada Zeminy"
+				"ore_resource_name": "Ruda",
+				"dirt_resource_name": "Hromada Hlíny"
 			}
 		}
 	},
@@ -2451,51 +2451,51 @@
 			"ascendancy": {
 				"display_name": "Vznešené Království",
 				"quote": "Ovci? Máme. Motyku? Máme. Meče? Máme. Vyrážíme!",
-				"description": "Svědomití a pracovití, věrní a všeumělové. Obyvatelé Vznešeného Království kácí, staví a farmaří, s pevnou vírou, že celý známý svět je tu pro ně k osídlení.<div style='text-shadow: -2px -2px 0px #000000, 0px -2px 0px #000000, 2px -2px 0px #000000, -2px 0px 0px #000000, 2px 0px 0px #000000, -2px 2px 0px #000000, 0px 2px 0px #000000, 2px 2px 0px #000000;font-size: 15px;font-weight: bold;margin-top: 6px;'>Ideal for new players.</div>",
-				"post_selection_description": ", vzkvétající a pracovité království .",
+				"description": "Svědomití a těžce pracující, věrní a dobře zaoblení. Obyvatelé Vznešeného Království kácí, staví a farmaří, sebejistí, že celý známý svět je jejich k osídlení.<div style='text-shadow: -2px -2px 0px #000000, 0px -2px 0px #000000, 2px -2px 0px #000000, -2px 0px 0px #000000, 2px 0px 0px #000000, -2px 2px 0px #000000, 0px 2px 0px #000000, 2px 2px 0px #000000;font-size: 15px;font-weight: bold;margin-top: 6px;'>Ideální pro nové hráče.</div>",
+				"post_selection_description": ", prosperující a pracovité království.",
 				"initial_town_name": "Výprava [str(town_number)]"
 			}
 		},
 		"biome": {
 			"temperate": {
 				"display_name": "Mírný",
-				"description": "Lesy, řeky a kopce. Domov Vznešeného Království.",
+				"description": "Lesy, řeky a hory. Výchozí domov Vznešeného Království.",
 				"random_location_names": {
 					"000": "Ponurého Lesa"
 				},
 				"seasons": {
 					"spring": {
 						"display_name": "Jaro",
-						"description": "Jaro v Lese je období znozrození, travající tři měsíce. Deště rozpouštějí sníh, a odhlaují nový porost schovaný pod ním a stromy znovu přicházejí k životu, pokryté množstvím barevných květů. "
+						"description": "Jaro v Lese je období znovuzrození, travající tři měsíce. Deště rozpouštějí sníh, odhlaují nový porost schovaný pod ním a stromy znovu přicházejí k životu, pokryté množstvím barevných květů."
 					},
 					"summer": {
 						"display_name": "Léto",
-						"description": "Léto je v Lese nejvlídnější období, travající tři měsíce. Je to čas relaxace a vyhřívání se na slunci, bez thoo abyste se museli bát bouřek a sněhu."
+						"description": "Léto je v Lese nejvlídnější období, trvající tři měsíce. Je to čas relaxace a vyhřívání se na slunci, bez obav kolem bouřek či sněhu."
 					},
 					"autumn": {
 						"display_name": "Podzim",
-						"description": "Podzim v Lese je obdbí sklizně, trvající tři měsícr. Listí stromů žloutne, tráva se připravuje na uložení pod sněhovou pokrývkou, zatímco nebe se zatahuje s příchodem bouřkových mraků."
+						"description": "Podzim v Lese je období sklizně, trvající tři měsíce. Listí stromů žloutne, a tráva se připravuje se stáhnout do své zimné přikrývky, jak se nebe zatahuje s bouřkovými mraky."
 					},
 					"winter": {
 						"display_name": "Zima",
-						"description": "Zima v Lese je období chladu, travající tři měsíce. Stromům opadá listí a sníh pokryje celou krajinu. Chladným a štiplavým větrům se nejlépe vzdoruje útulnými schromážděními kolem hearthu."
+						"description": "Zima v Lese je období chladu, trvající tři měsíce. Stromy ztrácejí své listí, a sníh pokryje celou krajinu. Chladným, štiplavým větrům se nejlépe vzdoruje útulnými schromážděními kolem hearthu."
 					}
 				}
 			},
 			"arctic": {
 				"display_name": "Arktický",
-				"description": "Zasněžený, s vysokými horami a velkými vodními plochami. Domov Severské Aliance.",
+				"description": "Zasněžený, s vysokými horami a velkými vodními plochami. Výchozí domov Severské Aliance.",
 				"random_location_names": {
 					"000": "Valkýrská Tundra"
 				},
 				"seasons": {
 					"spring": {
 						"display_name": "Jaro",
-						"description": "Jaro v Arktické oblasti je období změn, travající pouze jeden měsíc. Zatímco vrchoviny si zachovávají sněhou pokrývku po celý rok, v nížinách kolem jezer začíná roztávat a zační rašit mladá tráva."
+						"description": "Jaro v Arktické oblasti je období změn, travající pouze jeden měsíc. Zatímco vrchoviny si zachovávají sněhou pokrývku celoročně, nížiny kolem jezer začínají roztávat a mladá tráva začne rašit."
 					},
 					"summer": {
 						"display_name": "Léto",
-						"description": "Léto v Arktické oblasti je období odpočinku, trvající tři měsíce. Klima je mírné a nížiny se zelenají trávou. Je to úleva od chladu a také čas na nabrání sil na dlouhou zimu, která přijde."
+						"description": "Léto v Arktické oblasti je období odpočinku, trvající tři měsíce. Počasí je mírné, a nížiny se zelenají trávou. Je to úleva od chladu, a také čas na znovunabrání sil na dlouhou nadcházející zimu."
 					},
 					"autumn": {
 						"display_name": "Podzim",
@@ -2503,32 +2503,32 @@
 					},
 					"winter": {
 						"display_name": "Zima",
-						"description": "Zima v Arktické oblasti je období strastí, trvající sedm měsíců. Drsné klima, s štiplavými větry a nemilosrdnými vánicemi, dělá farmaření nesmírně obtížné. Už i pohyb venku bez zimního oblečení může skončit tragicky."
+						"description": "Zima v Arktické oblasti je období strastí, trvající sedm měsíců. Počasí je drsné, s štiplavými větry a nemilosrdnými vánicemi, dělá farmaření nesmírně obtížné. Jenom pohyb venku bez zimního oblečení již může skončit tragicky."
 					}
 				}
 			},
 			"desert": {
 				"display_name": "Poušť",
-				"description": "Suchá a písčitá, se stolovými horami a roztroušenou vegetací. Tady jsou Raijiny Děti doma.",
+				"description": "Suchá a písčitá, se zavalitými horami a řídkou vegetací. Výchozí domov Raijiných Dětí.",
 				"random_location_names": {
 					"000": "Pal'Mumova poušť"
 				},
 				"seasons": {
 					"spring": {
 						"display_name": "Jaro",
-						"description": "Jaro v Poušti je období dešťů, trvající dva měsíce. Je to vzácná příležitost pro doplnění rezervních zásob vody, vedoucí k rozkvětu celé místní flóry najednou."
+						"description": "Jaro v Poušti je období dešťů, trvající dva měsíce. Je to vzácný čas pro doplnění rezervních zásob vody, vedoucí k rozkvětu celé místní flóry najednou."
 					},
 					"summer": {
 						"display_name": "Léto",
-						"description": "Léto v Poušti je období bouří, trvající čtyři měsíce. Písečné bouře pustoší krajinu skoro každý den, a město bez dostatečného přístřeší, jako jsou zdi, hory nebo podzemní příbytky, může mít problém přežít tento nápor."
+						"description": "Léto v Poušti je období bouří, trvající čtyři měsíce. Písečné bouře pustoší krajinu skoro na denní bázi, a město bez dostatečného přístřeší, jako jsou zdi, hory nebo podzemní příbytky, může mít potíž přežít tento nápor."
 					},
 					"autumn": {
 						"display_name": "Podzim",
-						"description": "Podzim v Poušti je období klidu, trvající čtyři měsíce. Klima je horké, ale mírnější než v létě, bez písečných bouří i srážek. Tradičně je to čas odpočinku, po přečkání letních písečných bouří."
+						"description": "Podzim v Poušti je období klidu, trvající čtyři měsíce. Počasí je horké, ale mírnější než v létě, bez písečných bouří či srážek. Je to tradičně čas odpočinku po přežití letních písečných bouří."
 					},
 					"winter": {
 						"display_name": "Zima",
-						"description": "Zima v pušti je svěží období, trvající dva měsíce. Vánek nesoucí se přes duny, přináší mírnější klima než bylo na podzim a občas sem dokonce zanese i sněhový mrak."
+						"description": "Zima v poušti je svěží období, trvající dva měsíce. Vánky foukající přes duny, přináší s nimi mírnější počasí než v podzimu, a občas dokonce i sněhový mrak."
 					}
 				},
 				"sandy_poyo": {
@@ -2536,7 +2536,7 @@
 					"species": "pojo"
 				},
 				"fennec_fox": {
-					"display_name": "Fenek Berberský",
+					"display_name": "Liška Fenek",
 					"species": "liška"
 				}
 			}
@@ -2547,17 +2547,17 @@
 					"daily_report_encounter": {
 						"title": "Do tvého města přijel cestovatel.",
 						"update_title": "Denní Aktualizace",
-						"sub_title": "Hlášení o Imigraci",
+						"sub_title": "Hlášení o Přistěhování",
 						"food_label": "Jídlo",
 						"morale_label": "Nálada",
 						"net_worth_label": "Celkové Jmění",
 						"conclusion_positive": "Nový osadník by se rád připojil do tvého města!",
 						"conclusion_negative": "Cesty zůstávají prázdné. Možná zítra!",
-						"success_title": "[name(i18n_data.citizen)] se připojil do města [str(i18n_data.town_name)]!",
+						"success_title": "[name(i18n_data.citizen)] se připojil/a do města [str(i18n_data.town_name)]!",
 						"messages": {
 							"000": "Hodně jsem o tvém městě slyšel!",
 							"001": "Chtěl bych se připojit do tvého města .",
-							"002": "Lidi, vypadáte jako by se vám hodila pomocná ruka!",
+							"002": "Lidi, vypadáte že by se vám hodila pomocná ruka!",
 							"003": "Páni! To je město! Dovolte mi pomoct!"
 						},
 						"outcome_statement": "[str(i18n_data.job)] by se rád připojil/a ke městu [str(i18n_data.town_name)]!"
@@ -2565,7 +2565,7 @@
 				},
 				"trader": {
 					"simple_caravan_encounter": {
-						"message": "Zdravím [str(i18n_data.town_name)]! Přicházím nesouce zboží na obchod. Nechtěli byste mi dát <strong>[str(i18n_data.your_quantity)] [str(i18n_data.your_item)](s)</strong> výměnou za <strong>[str(i18n_data.my_quantity)] [str(i18n_data.my_item)](s)</strong>?",
+						"message": "Zdravím [str(i18n_data.town_name)]! Přicházím nesouce zboží na obchod. Chtěli byste mi dát <strong>[str(i18n_data.your_quantity)] [str(i18n_data.your_item)](s)</strong> výměnou za <strong>[str(i18n_data.my_quantity)] [str(i18n_data.my_item)](s)</strong>?",
 						"title": "Karavana přichází!"
 					},
 					"starting_food_donation": {
@@ -2578,7 +2578,7 @@
 										"001": "Právě jste oslavili Den Založení, co? Seberte se! Vypadáte jako byste potřebovali něco dobrého k zakousnutí. Co kdybych vám dala:",
 										"002": "Osadníci! Chvalte Cida. Tady máte něco na začátek.",
 										"003": "Dlouhá cesta přes hory, co? No, teď už jste na správném místě. Mám pro vás tady na začátek takovou maličkost!",
-										"004": "Vítejte na tomto území Osadníci!! Tady máte dárek pro začátek!"
+										"004": "Vítejte na tomto území, Osadníci!! Tady máte dárek pro začátek!"
 									},
 									"bulletin_title": "Hraničář Přichází",
 									"dialog_title": "Ronja Olarkson"
@@ -2590,77 +2590,77 @@
 						"title": "Do tvého města přijel obchodník.",
 						"days": " dní/y",
 						"hours": " hodin/y",
-						"trade_details": "Zdravím [str(i18n_data.town_name)]! Jenom tudy procházím, ale byl bych ochotný uzavřít obchod nebo dva, pokud vás to zajímá. Když mi vyrobíte <strong>[str(i18n_data.want_number)]x [str(i18n_data.want_item)]</strong>, tak budu zpět za [str(i18n_data.num_days)] dní/y a snad bych pro vás zato mohl získat <strong>[str(i18n_data.reward_number)]x [str(i18n_data.reward_item)]</strong>. Vyhovuje?",
+						"trade_details": "Zdravím [str(i18n_data.town_name)]! Jenom tudy procházím, ale byl bych ochotný uzavřít obchod nebo dva, pokud máte zájem. Když mi vyrobíte <strong>[str(i18n_data.want_number)]x [str(i18n_data.want_item)]</strong>, tak budu zpět za [str(i18n_data.num_days)] dní/y a snad bych pro vás zato mohl získat <strong>[str(i18n_data.reward_number)]x [str(i18n_data.reward_item)]</strong> výměnou. Zní dobře?",
 						"waiting_title": "Obchodník bude zpátky za [str(i18n_data.hour_counter)] [str(i18n_data.period)]!",
 						"waiting_text": "Obchodník bude zpátky za [str(i18n_data.hour_counter)] [str(i18n_data.period)], aby ti dal <strong>[str(i18n_data.reward_number)]x [str(i18n_data.reward_item)]</strong>, pokud pro něj budeš mít připravené <strong>[str(i18n_data.want_number)]x [str(i18n_data.want_item)]</strong>!",
 						"return_title": "Obchodník se vrací!",
-						"return_greetings_positive": "Jsem zpátky! Vypadá to, že si pro mě udělal [str(i18n_data.want_number)]x [str(i18n_data.want_item)], jak jsem tě žádal. Pořád máš zájem to se mnou směnit? Výměnou ti dám [str(i18n_data.reward_number)]x [str(i18n_data.reward_item)]. Pořád to zní dobře?",
-						"return_greetings_negative": "Jsem zpátky, ale nevypadá to, že by si pro mě udělal [str(i18n_data.want_number)] [str(i18n_data.want_item)], jak jsem tě žádal. To je opravdu škoda! Tak snad příště!"
+						"return_greetings_positive": "Jsem zpátky! Vypadá to, že si pro mě udělal [str(i18n_data.want_number)]x [str(i18n_data.want_item)], o které jsem tě žádal. Pořád máš zájem je se mnou směnit? Výměnou ti dám [str(i18n_data.reward_number)]x [str(i18n_data.reward_item)]. Pořád to zní dobře?",
+						"return_greetings_negative": "Jsem zpátky, ale nevypadá to, že by si pro mě udělal [str(i18n_data.want_number)] [str(i18n_data.want_item)], o které jsem tě žádal. To je opravdu škoda! Tak snad příště!"
 					},
 					"returning_crop_trader_encounter": {
 						"title": "Obchodník přináší semínka z dalekých krajin.",
-						"trade_details": "Zdravím [str(i18n_data.town_name)]! Jenom tudy procházím, ale byl bych ochotný uzavřít obchod nebo dva, pokud vás to zajímá. Když mi vyrobíte <strong>[str(i18n_data.want_number)]x [str(i18n_data.want_item)]</strong>, tak budu zpět za [str(i18n_data.num_days)] dní/y a snad bych pro vás zato mohl získat <strong>[str(i18n_data.reward_item)]</strong> Vyhovuje?",
+						"trade_details": "Zdravím [str(i18n_data.town_name)]! Jenom tudy procházím, ale byl bych ochotný uzavřít obchod nebo dva, pokud máte zájem. Když mi vyrobíte <strong>[str(i18n_data.want_number)]x [str(i18n_data.want_item)]</strong>, tak budu zpět za [str(i18n_data.num_days)] dní/y a snad bych pro vás zato mohl získat <strong>[str(i18n_data.reward_item)]</strong> Zní dobře?",
 						"waiting_title": "Obchodník bude zpátky za [str(i18n_data.hour_counter)] [str(i18n_data.period)]!",
 						"waiting_text": "Obchodník bude zpátky za [str(i18n_data.hour_counter)] [str(i18n_data.period)], aby ti dal [str(i18n_data.reward_item)], pokud pro něj budeš mít připravené [str(i18n_data.want_number)]x [str(i18n_data.want_item)]!",
 						"return_title": "Obchodník se vrací!",
-						"return_greetings_positive": "Jsem zpátky! Vypadá to, že si pro mě udělal [str(i18n_data.want_number)]x [str(i18n_data.want_item)], jak jsem tě žádal. Pořád máš zájem to se mnou směnit? Výměnou ti dám [str(i18n_data.reward_number)]x [str(i18n_data.reward_item)]. Pořád to zní dobře?",
-						"return_greetings_negative": "Jsem zpátky, ale nevypadá to, že by si pro mě udělal [str(i18n_data.want_number)] [str(i18n_data.want_item)], jak jsem tě žádal. To je opravdu škoda! Tak snad příště!"
+						"return_greetings_positive": "Jsem zpátky! Vypadá to, že si pro mě udělal [str(i18n_data.want_number)]x [str(i18n_data.want_item)], o které jsem tě žádal. Pořád máš zájem je se mnou směnit? Výměnou ti dám [str(i18n_data.reward_number)]x [str(i18n_data.reward_item)]. Pořád to zní dobře?",
+						"return_greetings_negative": "Jsem zpátky, ale nevypadá to, že by si pro mě udělal [str(i18n_data.want_number)] [str(i18n_data.want_item)], o které jsem tě žádal. To je opravdu škoda! Tak snad příště!"
 					},
 					"rugs_shop": {
 						"shop_info": {
 							"name": "Havovo Oblečení a Koberce",
-							"title": "Prostý obchodník s oblečením přijel se zbožím k prodeji"
+							"title": "Prostý obchodník s oblečením přijel se zbožím na prodej"
 						}
 					},
 					"stonecutter_shop": {
 						"shop_info": {
 							"name": "Kamenický obchod Rufuse Garrowa",
-							"title": "Rufus Garrow přijel se zbožím k prodeji"
+							"title": "Rufus Garrow přijel se zbožím na prodej"
 						}
 					},
 					"tannery_shop": {
 						"shop_info": {
-							"name": "Koželužna a Zásoby z Divočiny Jessicy Rozmrzelové ",
-							"title": "Mrzutá survivalistka se zastavila se svým zbožím"
+							"name": "Koželužna a Zásoby z Divočiny Jessicy Rozmrzelové",
+							"title": "Drsná survivalistka se zastavila se svým zbožím"
 						}
 					},
 					"woodcutter_shop": {
 						"shop_info": {
 							"name": "Dřevařský Obchod Norma Větroslava",
-							"title": "Norm Větroslav přijel se zbožím k prodeji"
+							"title": "Norm Větroslav přijel se zbožím na prodej"
 						}
 					},
 					"valor_tier_2_reached": {
 						"title": "Obec Ustanovena",
 						"speaker_name": "Ctihodná Anwyn Torresi",
-						"message": "Gratulujeme, [str(i18n_data.town_name)]! Zvěsti o vašich válečných úspěších se šíří! Tvoje městečko je oficiálně brané jako obec! Přinesl jsem stavební materiál a obchodní smlouvy, jak je zvykem!",
+						"message": "Gratulujeme, [str(i18n_data.town_name)]! Zvěsti o vaší bojové zdatnosti se šíří! Tvoje městečko je oficiálně brané jako obec! Přinesl jsem stavební materiál a obchodní smlouvy, jak je zvykem!",
 						"accept": "Jupí!",
 						"dialog_title": "Dosaženo Statutu Obce!",
 						"tier_title": "Obec",
-						"reward_message": "Z rozhodnutí Princezny Danie ze Vznešeného Království, dáváme na vědomí:",
-						"reward_message_ctd": "Za neobyčejné činy hrdiství v boji. Tímto získává městečko oprávnění na:",
+						"reward_message": "Z nařízení Princezny Danie ze Vznešeného Království, dáváme na vědomí:",
+						"reward_message_ctd": "Za neuvěřitelnou chrabrost v boji. Město je tímto způsobilé pro:",
 						"tier_2_bldg_template": "Úroveň 2 Stavebních Šablon",
 						"tier_2_shops": "Úroveň 2 Obchodů",
 						"tier_2_BGM": "Úroveň 2 Hudby",
-						"recipe_unlock_engineer": "Nový návod na padací mříž pro Technika!",
+						"recipe_unlock_engineer": "Nový návod na padací mříž pro Inženýra!",
 						"recipe_unlock_mason": "Nové návody na dekorace pro Kameníka!",
 						"recipe_unlock_blacksmith": "Nové návody na dekorace pro Kováře!",
 						"recipe_unlock_weapons_1": "Nový návod na Legendární Meč - Spolupráce Tkalce, Hrnčíře a Kováře!",
 						"recipe_unlock_weapons_2": "Nový návod na Legendární Štít - Spolupráce Kováře, Tesaře a Kameníka!",
-						"recipe_unlock_weapons_3": "Nový návod na Legendární Luk - Spolupráce Technika, Tkalce a Tesaře!",
+						"recipe_unlock_weapons_3": "Nový návod na Legendární Luk - Spolupráce Inženýra, Tkalce a Tesaře!",
 						"recipe_unlock_weapons_4": "Nový návod na Legendární Čelenku - Spolupráce Bylinkáře, Kameníka a Kováře!"
 					},
 					"generosity_tier_2_reached": {
-						"reward_message_ctd": "Za projevy velké štědrosti potřebným. Tímto získává městečko oprávnění na:",
+						"reward_message_ctd": "Za projevy velké štědrosti potřebným. Město je tímto způsobilé pro:",
 						"recipe_unlock_mason": "Nový návod fontány přání pro Kameníka!",
-						"recipe_unlock_herbalist": "New shrubbery decorations for Herbalist!",
+						"recipe_unlock_herbalist": "Nové křovinové dekorace pro Bylinkáře!",
 						"recipe_unlock_blacksmith": "Nové návody na dekorace pro Kováře!"
 					},
 					"crafting_tier_2_reached": {
-						"reward_message_ctd": "Za dokonalost v řemesle. Tímto získává městečko oprávnění na:",
-						"recipe_unlock_mason": "Nový návod na fontánu a sochu pro Kameníka!",
+						"reward_message_ctd": "Za dokonalost v řemesle. Město je tímto způsobilé pro:",
+						"recipe_unlock_mason": "Nové návody na fontány a sochy pro Kameníka!",
 						"recipe_unlock_carpenter": "Nové dekorace a ploty pro Tesaře!",
-						"recipe_unlock_herbalist": "New shrubbery decorations for Herbalist!",
+						"recipe_unlock_herbalist": "Nové křovinové dekorace pro Bylinkáře!",
 						"recipe_unlock_blacksmith": "Nové návody na dekorace pro Kováře!"
 					},
 					"ascendancy_town_tier_quest": {
@@ -2677,16 +2677,16 @@
 							"dialog_nodes": {
 								"proclamation": {
 									"bulletin_message": {
-										"000": "Z rozhodnutí Princezny Danie, První Dámy Vznešeného Království, a na jejímž území sídlíš, a s požehnáním Církve Hojnosti, s jejíž moudrostí se nám dostává blahobytu..."
+										"000": "Z rozkazu Princezny Danie, První Dámy Vznešeného Království, a na jejímž území sídlíš, a s požehnáním Církve Hojnosti, v jejíž moudrosti všichni prosperujeme..."
 									},
 									"bulletin_title": "Anwyn si Odkašle",
 									"dialog_title": "Ctihodná Anwyn Torresi",
 									"choice_000": "Páni, prohlášení!",
-									"choice_001": "Zzzz..."
+									"choice_001": "Zzz..."
 								},
 								"craft_reqs": {
 									"bulletin_message": {
-										"000": "Královští Řemeslničtí Mistři ctí ty, kteří mají zlaté ručičky. Nech svého kameníka vytvořit sochu podle jejich přesného popisu, a staneš se tím co na ně udělá dojem."
+										"000": "Královští Řemeslničtí Mistři ctí ty, kteří mají oko pro dokonalost. Nech svého kameníka vytvořit sochu podle jejich přesného popisu, a staneš se jeden z mála co na ně udělá dojem."
 									},
 									"bulletin_title": "Anwyn se dívá zpátky na svitek",
 									"dialog_title": "Ctihodná Anwyn Torresi",
@@ -2704,24 +2704,24 @@
 								},
 								"actual_meaning": {
 									"bulletin_message": {
-										"000": "Co to tedy vlastně znamená? No, hlavně to, že si vás zapíšeme někam do účetní knihy, pro případ, že bychom si někdy vzpomněli vrátit se a vybrat daně."
+										"000": "Co to tedy vlastně znamená? No, hlavně to, že si vás zapíšeme někam do účetní knihy, pro případ, že bychom si někdy vzpomněli se vrátit a vybrat daně."
 									},
-									"bulletin_title": "Anwyn se Kření",
+									"bulletin_title": "Anwyn se Šklebí",
 									"dialog_title": "Ctihodná Anwyn Torresi",
-									"choice_000": "Tak to pak jo!",
+									"choice_000": "Potom nevadí!",
 									"choice_001": "Daňě? Vážně?"
 								},
 								"rewards": {
 									"bulletin_message": {
-										"000": "Přesně tak! Podle nařízení Princnezny, oprávněná města tedy ta, která dokázala že jsou toho hodna, vyhrají přístup k stavitelskému učení a bohatším karavanám na obchodování  ."
+										"000": "Vskutku! Podle rozkazu Princezny, oprávněná města, která prokázala že jsou toho hodna, vyhrají přístup k stavitelskému učení a bohatším karavanám k obchodování."
 									},
 									"bulletin_title": "Anwyn Přikyvuje",
 									"dialog_title": "Ctihodná Anwyn Torresi",
-									"choice_000": "Ok. Co přijde teď?"
+									"choice_000": "Ok. Co přijde dál?"
 								},
 								"military_reqs": {
 									"bulletin_message": {
-										"000": "Pro získání věhlasu u Řádu Cida, musíte ukázat svoji odvahu a chrabrost! Dám tvému kameníkovi návod; úkol na získání přísad pro vytvoření pomníku hodného ruky tvého šermíře ."
+										"000": "Pro získání věhlasu u Řádu Cida, musíte ukázat svoji odvahu a chrabrost! Dám tvému kameníkovi návod; úkol na získání přísad pro vytvoření pomníku hodného tvého šermíře."
 									},
 									"bulletin_title": "Anwyn se dívá zpátky na svitek",
 									"dialog_title": "Ctihodná Anwyn Torresi",
@@ -2730,7 +2730,7 @@
 								},
 								"herald_announcement": {
 									"bulletin_message": {
-										"000": "Znamenitě! Messire Statnoruký říkal, že tady budete, ale v prvních dnech je to vždycky takové nejisté. Můžeme začít?"
+										"000": "Výtečně! Messire Statnoruký říkal, že tady budete, ale v prvních dnech je to vždycky takové nejisté. Můžeme začít?"
 									},
 									"bulletin_title": "Anwyn zozvinuje svitek",
 									"dialog_title": "Ctihodná Anwyn Torresi",
@@ -2738,7 +2738,7 @@
 								},
 								"requirements": {
 									"bulletin_message": {
-										"000": "Dostatečný věhlas, pro povýšení na obec, můžeš získat jakoukoliv z těchto tří cest: Vojenská Sláva, Přízeň Církve, nebo Uznání od Řemeslnických Mistrů. Která znich tě nejvíce zaujala?"
+										"000": "Můžeš dostat dostatečný věhlas pro povýšení na obec kterýmkoliv z těchto tří způsobů: Vojenská Sláva, Přízeň Církve, nebo Uznání od Řemeslnických Mistrů. Která z nich tě nejvíce zaujala?"
 									},
 									"bulletin_title": "Anwyn se dívá zpátky na svitek",
 									"dialog_title": "Ctihodná Anwyn Torresi",
@@ -2750,7 +2750,7 @@
 									"bulletin_message": {
 										"000": "Dělám si srandu! Královští Účetní mají teď plné ruce práce s korunovací a tak. Každopádně, získání statusu Obce ve skutečnosti znamená, že získáš spoustu odměn a různé benefity."
 									},
-									"bulletin_title": "Anwyn se Kření",
+									"bulletin_title": "Anwyn se Šklebí",
 									"dialog_title": "Ctihodná Anwyn Torresi",
 									"choice_000": "Odměny a benefity?"
 								},
@@ -2770,19 +2770,19 @@
 									"bulletin_title": "Královský Posel Přichází",
 									"dialog_title": "Ctihodná Anwyn Torresi",
 									"choice_000": "Vítáme Vás, Má Paní!",
-									"choice_001": "Jop, to jsme my!"
+									"choice_001": "Jo, to jsme my!"
 								},
 								"conclusion": {
 									"bulletin_message": {
-										"000": "Znamenitě! Kromě příslušného monumentu, bude tvoje město také potřebovat dosáhnout určité hodnoty. Nechám vám tu jednotlivé požadavky, pokud byste se o nich chtěli znovu poradit nebo pokud by vám jiná cesta připadala lepší než ta, kterou jste si vybrali na začátku."
+										"000": "Výtečně! Kromě příslušného monumentu, bude tvoje město také potřebovat dosáhnout určitou hodnotu jmění. Nechám vám tu jednotlivé požadavky, pokud byste se o nich chtěli znovu poradit, nebo pokud by vám jiná cesta připadala lepší než ta, kterou jste si vybrali na začátku."
 									},
 									"bulletin_title": "Anwyn svinuje svitek",
 									"dialog_title": "Ctihodná Anwyn Torresi",
-									"choice_000": "Díky Vám, Má Paní!"
+									"choice_000": "Děkujeme Vám, Má Paní!"
 								},
 								"conclusion2": {
 									"bulletin_message": {
-										"000": "Budiž ti přáno Cidovo poženhání, [str(i18n_data.town_name)]. Nechám vám tu ptáčka, abyste mě mohli zavolat na zhodnocení vašeho postupu!"
+										"000": "Budiž ti přáno Cidovo požehnání, [str(i18n_data.town_name)]. Nechám vám tu ptáčka, abyste mě mohli zavolat na zhodnocení vašeho postupu!"
 									},
 									"bulletin_title": "Anwyn svinuje svitek",
 									"dialog_title": "Ctihodná Anwyn Torresi",
@@ -2796,14 +2796,14 @@
 							"tier_2_shops": {
 								"weapon_armor_shop": {
 									"shop_info": {
-										"name": "Zbrojní Obchod Sarka Černokladivouna ",
+										"name": "Zbrojní Obchod Sarka Černokladivouna",
 										"title": "Sark Černokladivoun přijel s vybavením na prodej"
 									}
 								},
 								"farming_supplies_shop": {
 									"shop_info": {
-										"name": "Farmárské Zásoby Farmáře Klenota",
-										"title": "Zásobní vozík Farmáře Klenota přirachotil do města"
+										"name": "Farmářské Zásoby Farmáře Klenota",
+										"title": "Zásobní vozík Farmáře Klenota se burácí do města"
 									}
 								},
 								"bakery_shop": {
@@ -2827,7 +2827,7 @@
 								"rugs_shop2": {
 									"shop_info": {
 										"name": "Havaadovi Hezké Koberce a Oděvy",
-										"title": "Obchodník s cizokrajnými tkaninami přijel s výtečným zbožím na prodej"
+										"title": "Obchodník s exotickými tkaninami přijel s výtečným zbožím na prodej"
 									}
 								},
 								"woodcutter_shop2": {
@@ -2869,7 +2869,7 @@
 								"herbalist_shop_2": {
 									"shop_info": {
 										"name": "Kvetoucí Skleník Květoslava Sklenáře",
-										"title": "Květoslav Sklenář projíždí kolem, prodávajíce rostliny a semínka."
+										"title": "Květoslav Sklenář projíždí kolem, prodávajíc rostliny a semínka"
 									}
 								}
 							},
@@ -2877,19 +2877,19 @@
 								"pets_shop_1": {
 									"shop_info": {
 										"name": "Avelinin Zverimex",
-										"title": "Kolemjdoucí místní hraničářka nabízí mazlíčky k adopci"
+										"title": "Místní hraničářka prochází, nabízí mazlíčky k adopci"
 									}
 								},
 								"pets_shop_2": {
 									"shop_info": {
-										"name": "Dinalijin Zvěřineček",
-										"title": "Trenérka zvířata přijela na návštěvu se svým zvěřincem"
+										"name": "Dinalijin Malý Zvěřinec",
+										"title": "Trenérka zvířat přijela na návštěvu se svým zvěřincem"
 									}
 								},
 								"pets_shop_3": {
 									"shop_info": {
-										"name": "Cestující Zoo Olina a Ruvela ",
-										"title": "Karavana nabízí cizokrajná zvířata k prodeji"
+										"name": "Cestující Zoo Olina a Ruvela",
+										"title": "Karavana nabízí exotická zvířata na prodej"
 									}
 								},
 								"container_shop_1": {
@@ -2900,20 +2900,20 @@
 								},
 								"food_shop_1": {
 									"shop_info": {
-										"name": "Ganorova Nůše Snídaňových Pochutin",
-										"title": "Mladý kuchař přijel s nůší snídaňových pochutin"
+										"name": "Ganorův Kufr Snídaňových Pochutin",
+										"title": "Mladý kuchař přijel s kufrem snídaňových pochutin"
 									}
 								},
 								"potter_shop_1": {
 									"shop_info": {
-										"name": "Tvarovaná Hlína Feriny Raije ",
+										"name": "Tvarovaná Hlína Feriny Raije",
 										"title": "Ferina Raije a její kruhové hrnčířství projíždí kolem, nabízejíc hrnčířské výrobky"
 									}
 								},
 								"herbalist_shop_1": {
 									"shop_info": {
 										"name": "Kvetoucí Skleník Květoslava Sklenáře",
-										"title": "Květoslav Sklenář projíždí kolem, prodávajíce byliny."
+										"title": "Květoslav Sklenář projíždí kolem, prodávajíc byliny"
 									}
 								}
 							},
@@ -2939,13 +2939,13 @@
 								"door_shop_3": {
 									"shop_info": {
 										"name": "Obchod s Dveřmi Edgara Planktona",
-										"title": "Edgar Plankton přijel se zásilkou svých nejlepších dveří a oken "
+										"title": "Edgar Plankton přijel se zásilkou svých nejlepších dveří a oken"
 									}
 								},
 								"food_shop_3": {
 									"shop_info": {
 										"name": "Maso a Koláče Orlíka Lišky",
-										"title": "Známý šéfkuchař projíždějící kolem, nabízí labužnická jídla na prodej"
+										"title": "Známý šéfkuchař projíždí kolem, nabízí labužnická jídla na prodej"
 									}
 								},
 								"potter_shop_3": {
@@ -2957,7 +2957,7 @@
 								"herbalist_shop_3": {
 									"shop_info": {
 										"name": "Kvetoucí Skleník Květoslava Sklenáře",
-										"title": "Květoslav Sklenář projíždí kolem, prodávajíce rostliny mnoha různých druhů."
+										"title": "Květoslav Sklenář projíždí kolem, prodávajíc rostliny všech druhů"
 									}
 								}
 							}
@@ -2968,12 +2968,12 @@
 					},
 					"returning_collector_encounter": {
 						"title": "Průzkumník přichází do tvého města.",
-						"trade_details": "Zdravím [str(i18n_data.town_name)]! Jsem průzkumník z velké dálky na východě, který zabývá nejrůznějšími obchody a sbíraním věcí. Nedávno jsem našel <strong>[str(i18n_data.reward_number)]x [str(i18n_data.reward_item)]</strong> jenom se povalující vedle cesty. Nejsem si jistý, kdo je tam nechal, ale jsou docela nápomocní při uklidu! Já pro ně nemám moc velké využití, ale v blízké vesnice říkali, že by potřebovali  <strong>[str(i18n_data.want_number)]x [str(i18n_data.want_item)]</strong>. Budo odpočívat někde poblíž po [str(i18n_data.num_days)] dny/i... Budeš pak mít zájem o obchod?",
+						"trade_details": "Zdravím [str(i18n_data.town_name)]! Jsem průzkumník z velké dálky na východě, který se zabývá nejrůznějšími obchody a sbíraním věcí. Nedávno jsem našel <strong>[str(i18n_data.reward_number)]x [str(i18n_data.reward_item)]</strong> jenom tak se povalující vedle cesty. Nejsem si jistý, kdo je tam nechal, ale jsou docela nápomocní při úklidu! Já pro ně nemám moc velké využití, ale v blízké vesnice říkali, že by potřebovali  <strong>[str(i18n_data.want_number)]x [str(i18n_data.want_item)]</strong>. Budu odpočívat někde poblíž po [str(i18n_data.num_days)] dny/í... Budeš pak mít zájem o obchod?",
 						"waiting_title": "Průzkumník bude zpátky za [str(i18n_data.hour_counter)] [str(i18n_data.period)]!",
 						"waiting_text": "Průzkumník bude zpátky za [str(i18n_data.hour_counter)] [str(i18n_data.period)], aby ti dal <strong>[str(i18n_data.reward_number)]x [str(i18n_data.reward_item)]</strong>, pokud pro něj budeš mít připravené <strong>[str(i18n_data.want_number)]x [str(i18n_data.want_item)]</strong> !",
 						"return_title": "Průzkumník se vrací!",
-						"return_greetings_positive": "Jsem zpátky! Vypadá to že si pro mě udělal [str(i18n_data.want_number)]x [str(i18n_data.want_item)] jak jsem tě žádal. Pořád máš zájem to směnit za [str(i18n_data.reward_number)]x  [str(i18n_data.reward_item)]? Ujišťuji tě, že jsou mnohem užitečnější v nošení věcí, než jakýkoliv normální člověk!",
-						"return_greetings_negative": "Jsem zpátky, ale nevypadá to, že by si pro mě udělal [str(i18n_data.want_number)] [str(i18n_data.want_item)], jak jsem tě žádal. No dobře, možná někdo v naší vesnici pro ně najde využití."
+						"return_greetings_positive": "Jsem zpátky! Vypadá to že si pro mě udělal [str(i18n_data.want_number)]x [str(i18n_data.want_item)] o které jsem tě žádal. Pořád máš zájem je směnit za [str(i18n_data.reward_number)]x  [str(i18n_data.reward_item)]? Ujišťuji tě, jsou mnohem užitečnější v nošení věcí, než jakýkoliv normální člověk!",
+						"return_greetings_negative": "Jsem zpátky, ale nevypadá to, že by si pro mě udělal [str(i18n_data.want_number)] [str(i18n_data.want_item)], o které jsem tě žádal. No dobře, možná někdo v naší vesnici pro ně najde využití."
 					}
 				},
 				"goblin_war": {
@@ -2984,7 +2984,7 @@
 						"dialog_tree_info": {
 							"dialog_nodes": {
 								"erdene_appears": {
-									"choice_000": "Vůbec!",
+									"choice_000": "V žádném případě!",
 									"choice_001": "No... ano.",
 									"bulletin_message": {
 										"000": "Bojíte se, udatní měšťané? Ogo tak-zvaný-šéf tu brzy bude. Pro vás."
@@ -2994,7 +2994,7 @@
 								},
 								"erdenes_help": {
 									"choice_000": "Ehm... dobře?",
-									"choice_001": "Jsem Zmaten. Pardon.",
+									"choice_001": "Zmatený. Pardon.",
 									"bulletin_message": {
 										"000": "Půjčit si sílu, abys povstal, znamená, padnout, když síla selže. Ogovi nepropůjčuje sílu jeho  tak-zvaný-věštěc, ale dítě které ukradl."
 									},
@@ -3006,18 +3006,18 @@
 									"choice_001": "To zní zlověstně.",
 									"bulletin_message": {
 										"000": "Já? Já jsem ta co sleduje. Vás. Jeho. Pro hvězdu. Pro osud.",
-										"001": "Já? Já patřím k Rudé Peci. Bylo bychom vaši zachránci, ale váš Cid tvrdě vyjdnával ve váš prospěch. Takže teď sledujeme. A čekáme na ten den kdy vyjde vaše hvězda.",
-										"002": "Já! Mám dojem, že si to zasloužíte. Jsem žhavík v kovářské výhni, jiskra ve vzduchu. Sleduji, abych věděla, kdy je ten správný čas, pro to aby nás pohltil oheň.",
-										"003": "Já? Dnes, nezáleží na tom. Zítra, pokud stále budete naživu, my můžete říkat Erdene, z Rudé Pece."
+										"001": "Já? Já patřím k Rudé Peci. Byli bychom vašimi zachránci, ale váš Cid tvrdě vyjednával ve váš prospěch. Takže teď sledujeme. A čekáme na ten den kdy vyjde vaše hvězda.",
+										"002": "Já! Mám dojem, že jste si zasloužili svůj drobeček. Jsem žhavík v kovářské výhni, jiskra ve vzduchu. Sleduji, abych věděla, kdy je ten správný čas, pro to aby nás pohltil oheň.",
+										"003": "Já? Dnes, na tom nesejde. Zítra, pokud budete stále naživu, my můžete říkat Erdene, z Rudé Pece."
 									},
-									"bulletin_title": "Usmála se, až se jí zablýskly zuby.",
+									"bulletin_title": "Usmála se, se zábleskem v zubech.",
 									"dialog_title": "???"
 								},
 								"accept_offer": {
-									"choice_000": "Počkat! Kdo jsi?",
+									"choice_000": "Počkej! Kdo jsi?",
 									"choice_001": "Hmm.",
 									"bulletin_message": {
-										"000": "Bojuj statečně, městečko. Osud je bezvýznamný. Ale kdyby tomu tak nebylo, váš by byl, abyste povstali."
+										"000": "Bojuj tvrdě, malé městečko. Osud je bezvýznamný. Ale kdyby tomu tak nebylo, váš by byl, abyste povstali."
 									},
 									"bulletin_title": "Rozhodně přikyvuje hlavou",
 									"dialog_title": "???"
@@ -3026,14 +3026,14 @@
 									"choice_000": "To zní dobře!",
 									"choice_001": "Ne. Díky.",
 									"bulletin_message": {
-										"000": "Na tomto papíře, najdete ukolébavku, kterou ukonejšíte duši Hory. Najděte ukradenou flétnu. Přikaž svému dřevařovi ať ji nastaví na tuto melodii. Postav ji do cesty Ogovu velkému zlobrovi a sleduj jak namyšlenost dojde svojí spravedlivé odměny."
+										"000": "Na tomto papíře, naleznete ukolébavku, kterou utišíte duši Hory. Najděte ukradenou flétnu. Přikaž svému dřevařovi aby byla na tuto melodii. Postav ji do cesty Ogovu velkému zlobrovi, a sleduj jak namyšlenost dojde svojí spravedlivé odměny."
 									},
 									"bulletin_title": "Nabízí cár papíru",
 									"dialog_title": "???"
 								},
 								"departure": {
 									"bulletin_message": {
-										"000": "Tak tedy. Bojuj statečně, městečko."
+										"000": "Dobrá tedy. Bojuj tvrdě, malé městečko."
 									},
 									"bulletin_title": "Krčí rameny",
 									"dialog_title": "???"
