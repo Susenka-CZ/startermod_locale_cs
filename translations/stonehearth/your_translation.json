@@ -2717,7 +2717,7 @@
 									},
 									"bulletin_title": "Anwyn Přikyvuje",
 									"dialog_title": "Ctihodná Anwyn Torresi",
-									"choice_000": "Ok. Co přijde dál?"
+									"choice_000": "Oukej. Co přijde dál?"
 								},
 								"military_reqs": {
 									"bulletin_message": {
@@ -3577,7 +3577,7 @@
 													},
 													"bulletin_title": "Hora, Zlobr pozvedá hlavu aby mohl poslouchat",
 													"dialog_title": "Hora, Zlobr",
-													"choice_000": "Hmm"
+													"choice_000": "Co."
 												},
 												"mountain_notices_2": {
 													"bulletin_message": {
@@ -3995,7 +3995,7 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "Červená Pec věří, že pokrok může vzejít pouze z střetu mezi sobě rovnými. Chán už tu není. A tam kde jeden padne, ti silnější a mazanější povstanou."
+														"00": "Červená Pec věří, že pokrok může vzejít pouze ze střetu mezi sobě rovnými. Chán již víc není. A tam kde jeden padne, ti silnější a mazanější povstanou."
 													},
 													"bulletin_title": "Vojvoda Oghar Severák",
 													"dialog_title": "Vojvoda Oghar Severák"
@@ -4011,12 +4011,12 @@
 												},
 												"msg4": {
 													"bulletin_message": {
-														"00": "Doba jednoha Chána skončila, ale nové světlo vychází za obzorem. Dodržujeme to co Cid přikázal a respektujeme tedy znamení Čtyř Barev. Umísti Gong Zvědů, vytavený tvým zpracovatelem kovů a umísti ho na svém území. Tím ukážeš, že si připraven k boji."
+														"00": "Doba jednoha Chána skončila, ale nové světlo prosakuje nad obzorem. Děláme to co Cid přikázal a respektujeme tedy znamení Čtyř Barev. Umísti Gong Zvědů, ztavený tvým zpracovatelem kovů, na tvé území k prokázání že si připraven k boji."
 													}
 												},
 												"msg3": {
 													"bulletin_message": {
-														"00": "Teď když tu stojím, vidím, že zatím nejsi hoden postavit se třeba i poslednímu z mých náčelníků kempů. Ve tvých očích chybí plamen touhy po mistrovství !"
+														"00": "Teď jak jsem tady, vidím, že zatím nejsi hoden postavit se i poslednímu z mých náčelníků tábora. Ve tvých očích chybí plamen touhy po mistrovství !"
 													},
 													"choice_000": "Jak nezdvořilé!"
 												}
@@ -4036,9 +4036,9 @@
 												},
 												"msg4": {
 													"bulletin_message": {
-														"000": "Ty ne dát zlaťáky?! My vzít!!!",
-														"001": "Ha, jsme tě jen zkoušeli! Samozřejmě že my bít dost silní na to si vzít!",
-														"002": "My vzít všechno zlato! My pomstít se za to roztavení čepice!!"
+														"000": "Ty ne dát ligotavé věcičky?! My vzít!!!",
+														"001": "Ha, jsme tě jen zkoušeli! Samozřejmě my být dost silní na to si vzít!",
+														"002": "My vzít všechno zlato! My pomstít za roztavení čepice!!"
 													},
 													"bulletin_title": "Koboldí Zvěd",
 													"dialog_title": "Koboldí Zvěd",
@@ -4047,7 +4047,7 @@
 												"msg1": {
 													"bulletin_message": {
 														"000": "Aj!! Ty všimnout si mě?",
-														"001": "Óó zlaťáky! Gong! Smaragd!"
+														"001": "Óó ligotavé věcičky! Gong! Smaragd!"
 													},
 													"bulletin_title": "Kobold dlouze zírá na tvé hromady zlata.",
 													"dialog_title": "Koboldí Zvěd",
@@ -4071,7 +4071,7 @@
 													"bulletin_message": {
 														"00": "My.. moc slabí.. Vyndej Elitní Gong jestli si troufáš.."
 													},
-													"bulletin_title": "Koboldí zvěd fňuká na podlaze",
+													"bulletin_title": "Koboldí zvěd fňuká na zemi",
 													"dialog_title": "Koboldí Zvěd"
 												}
 											}
@@ -4082,7 +4082,7 @@
 											"dialog_nodes": {
 												"msg3": {
 													"bulletin_message": {
-														"00": "My dodavatelé. My udělat kemp. Orkové nás platit. Tihle orkové bít posedlí ctí, politikou a hledáním nového Chána. Brzy, oni sem poslat orkskou armádu a my muset čistit znova"
+														"00": "My dodavatelé. My udělat kemp. Ork nás platit. Tihle orkové být posedlí ctí, politikou, hledáním nového Chána. Brzy, oni sem poslat orkskou armádu a my muset čistit znova."
 													},
 													"bulletin_title": "Goblin z kempu",
 													"dialog_title": "Goblin z kempu",
@@ -4090,7 +4090,7 @@
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "Ty rozpoznat? ...Ne, já tě znát ne. Ty říkat my všichni vypadat stejně?!"
+														"00": "Ty poznat? ...Ne, my tě znát ne. Ty říkat my všichni vypadat stejně?!"
 													},
 													"bulletin_title": "Několik povědomě vypadajících goblinů začíná stavět chatrče blízko tvého města",
 													"dialog_title": "Goblin z kempu",
@@ -4099,7 +4099,7 @@
 												},
 												"msg2": {
 													"bulletin_message": {
-														"000": "Ty štěstí my zaneprázdnění! Co my děláme? My stavím chatrče. Sakládáme kemp.",
+														"000": "Ty štěstí my zaneprázdnění! Co my dělat? My stavět chatrče. Vztyčit tábor.",
 														"001": "....My zaneprázdnění, takže my ignorovat a vrátit se zpátky k zakládání kempu."
 													},
 													"bulletin_title": "Goblin z kempu",
@@ -4116,44 +4116,44 @@
 													"bulletin_message": {
 														"000": "Och! Já přemýšlet o skvělém nápadu! Ty zaplatit nás místo nich, a my zařídit, že orkové nepřijít! Ty jen potřebovat nám dát nějaké poklady. Ty vyhrát, já vyhrát, oba vyhrát."
 													},
-													"bulletin_title": "Goblinova malá prasečí očka se rozsvítila",
+													"bulletin_title": "Goblinova malá korálkovitá očka se rozsvítila",
 													"dialog_title": "Goblin z kempu"
 												},
 												"collection_due": {
 													"bulletin_message": {
-														"000": "My zpjet! Kde je naše blýskavá kořist??"
+														"000": "My zpět! Kde je naše blýskavá kořist??"
 													},
 													"bulletin_title": "Houf goblinů se líně pachtí zpátky do města",
 													"dialog_title": "Goblin z kempu"
 												},
 												"collection_failed": {
 													"bulletin_message": {
-														"000": "Cože? Ty se rozmyslet? ... Vy lidé tak nehodní našeho času. Teď my muset zase zavolat pitomé orky a získat část výplatního podílu.",
-														"001": "Ne má?? My má rodinu ty ví! Ty mrhat náš čas! My říct orkům ať s vámi nemít slitování!"
+														"000": "Cože? Ty se rozmyslet? ... Vy lidé tak bezohlední k našemu času. Teď my muset zase zpátky zavolat pitomé orky a vzít výplatní podíl.",
+														"001": "Ne má?? My mít rodinu ty vědět! Ty mrhat náš čas! My říct orkům dát vám né slitování!"
 													},
 													"bulletin_title": "Goblin se mračí",
 													"dialog_title": "Goblin z kempu"
 												},
 												"collection_success": {
 													"bulletin_message": {
-														"000": "Zlaťáky! Zásoby! Možná tahle práce i lepší než pracovat pro Náčelníka. Díky, člověče. Jestli se na to budete cítit, vyndejte červený Gong Mistrů. Zlobr brát červenou jako výzvu.",
-														"001": "Ty tak bát orkských bouchačů? No, dobře pro mě! Nevyndavej červený Gong nebo bi mohli přijít větší pitomější bouchači.",
-														"002": "Věcičky!! Ty bys my měl najmout na plný úvazek. Ty ptát co my pro tebe dělat? ..My moci domluvit ve smlouvě. Možná ty nás potřebovat jestli ty vystavit Gong Mistrů a velký zlobr přijít.",
-														"003": "Ty dát dobré věci! Moje vlk bít velmi šťastný! Už ty potkat náčelníka zlobrů? Oni mít rádi červenou barvu. Třeba na Gongu. Ty zeptat svůj kovář."
+														"000": "Ligotavé věcičky! Zásoby! Možná tahle práce i lepší než pracovat pro Náčelník. Díky, človíčku. Jestli se na to budeš cítit, vyndej červený Gong Mistrů. Zlobr brát červená jako výzvu.",
+														"001": "Ty tak bát orkských bouchačů? No, dobře pro mě! Nevyndávej červený Gong nebo ještě větší, pitomější bouchači mohou přijít.",
+														"002": "Věcičky!! Ty měl bys najmout my na plný úvazek. Ty ptát co my pro tebe dělat? ..My moci domluvit ve smlouvě. Možná ty nás potřebovat jestli ty vystavit Gong Mistrů a velký zlobr tlouk přijít.",
+														"003": "Ty dát dobré věci! Moje vlk být velmi šťastný! Už ty potkat zlobr náčelník? Oni mít rádi červenou barvu. Třeba na Gongu. Ty zeptat svůj kovář."
 													},
-													"bulletin_title": "Goblin se nasadí zubatý škleb",
+													"bulletin_title": "Goblin nasadí zubatý škleb",
 													"dialog_title": "Goblin z kempu"
 												},
 												"collection_progress": {
 													"bulletin_message": {
-														"000": "Ty souhlasit s platbou? Dobře, usnadníš nás život. My vrátit se později pro věci. My si teď dát šlofíka..."
+														"000": "Ty souhlasit s platba? Dobře, náš život usnadnit. My vrátit později pro věci. My si teď dát šlofíka..."
 													},
 													"bulletin_title": "Uspokoj gobliny (znovu)",
 													"dialog_title": "Goblin z kempu"
 												},
 												"shakedown_refused": {
 													"bulletin_message": {
-														"000": "Ty ne chtít platit? Ok. Nám na tom nezáleží. Pozorně sleduj, armáda orků přijít brzy."
+														"000": "Ty chtít né platit? Ok. Dělat malý rozdíl pro nás. Sledovat, jak armáda orků přijít brzy."
 													},
 													"bulletin_title": "Goblin se mračí",
 													"dialog_title": "Goblin z kempu"
@@ -4170,15 +4170,15 @@
 													},
 													"bulletin_title": "Zlobří šéf",
 													"dialog_title": "Zlobří šéf",
-													"choice_000": "\nJen do toho.\n"
+													"choice_000": "Jen do toho"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "Mrňavé městečko! Vy vztyčit znamení Rubínu! Vy si troufáte vyzvat mě, Šéfa Gruta Mozkodrtě?!"
+														"00": "Mrňavé městečko! Vy vztyčit znamení Rubínu! Vy troufáte vyzvat mě, Šéfa Gruta Mozkodrtě?!"
 													},
 													"bulletin_title": "Zlobr vdupe do města",
 													"dialog_title": "Zlobří šéf",
-													"choice_000": "\nMě nevyděsíš!\n"
+													"choice_000": "Mě nevyděsíš!"
 												}
 											}
 										}
@@ -4188,7 +4188,7 @@
 											"dialog_nodes": {
 												"msg1": {
 													"bulletin_message": {
-														"00": "Nezačněte být arogantní, mrňavý človíčkové! Krajani z hlavního města čekají aby mohli otestovat svoji sílu. Jakékoliv město bearing Vojevůdcův Gong nezůstane nepovšimnuté!"
+														"00": "Nezačít být arogantní, mrňavý človíčkové! Krajani z hlavního města čekat aby moct otestovat jejich síla. Jakékoliv město nesoucí Vojevůdcův Gong nezůstane nepovšimnuto!"
 													},
 													"bulletin_title": "Šéf zlobrů naštvaně hrozí pěstí",
 													"dialog_title": "Šéf Grut Mozkodrť"
@@ -4201,7 +4201,7 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "Jak už bylo řečeno, my bychom také neměli být podceňováni. My bojovali s tolika šelmami a stvůrami, že si to ani neumíte představit. Těším se na náš boj."
+														"00": "Jak už bylo řečeno, my bychom také neměli být podceňováni. My bojovali s s více šelmami a stvůrami, než si vaše osada dokáže představit. Těším se na náš boj."
 													},
 													"bulletin_title": "Jednotka orků",
 													"dialog_title": "Jednotka orků"
@@ -4222,7 +4222,7 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "Pro nás, je zde mnoho cest vedoucích k pokroku. Tohle je jen jedna z nich, avšak zdá se býti vcelku úrodnou."
+														"00": "Pro nás, je zde mnoho cest vedoucích k pokroku. Tohle je ale jedna z nich, ale zdá se být úrodnou."
 													},
 													"bulletin_title": "Jednotka orků",
 													"dialog_title": "Jednotka orků",
@@ -4230,17 +4230,17 @@
 												},
 												"msg3": {
 													"bulletin_message": {
-														"00": "Možná ani nepochopíš jakou šťastnou náhodou, v této politicky nejisté době, je pro nás tahle zkušenost. Ale na tom ne záleží. Vojvoda se s tebou bude chtít znovu setkat. Prozatím, se měj dobře, člověče."
+														"00": "Možná bys nerozuměl jakou šťastnou náhodou nám tahle zkušenost dala, v tomto období politického otřesu. Ale na tom nesejde. Vojvoda se s tebou bude chtít znovu setkat. Prozatím, se měj dobře, člověče."
 													},
 													"bulletin_title": "Jednotka orků",
 													"dialog_title": "Jednotka orků",
-													"choice_000": "Čau"
+													"choice_000": "Měj se"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "Chválím tě za tvé vítězství. Ukázal jsi se jako zručný a čestný nepřítel."
+														"00": "Chválím tě za tvé vítězství. Prokázal jsi se jako zručný a čestný nepřítel."
 													},
-													"bulletin_title": "Ork zdvořile poklekne na závěr bitvy",
+													"bulletin_title": "Ork zdvořile poklekne ve výsledku bitvy",
 													"dialog_title": "Jednotka orků",
 													"choice_000": "Díky"
 												}
@@ -4261,7 +4261,7 @@
 													"bulletin_message": {
 														"00": "Jak jsem předpovídal, osud nás znovu svedl dohromady."
 													},
-													"bulletin_title": "Vojvoda Oghar Severák si vykračuje tobě vstříc s něbojácnou bravurou",
+													"bulletin_title": "Vojvoda Oghar Severák kráčí k tobě vstříc s nebojácnou bravurou",
 													"dialog_title": "Vojvoda Oghar Severák"
 												}
 											}
@@ -4272,25 +4272,25 @@
 											"dialog_nodes": {
 												"msg3": {
 													"bulletin_message": {
-														"00": "Já teď vrátit domů. Donesla se ke mně zpráva, že náš šaman, zbavený moudrosti našeho Chána, se ponořil do temných věcí, dávno zapomenutých. Oni si myslí, že chyby z minulosti se na ně nevztahují a já se bojím, že možná ano."
+														"00": "Já teď vrátit domů. Slovo ke mně se donést, že náš šaman, zbavený moudrosti našeho Chána, se ponořil do temných věcí, dávno zapomenutých. Oni si myslí, že chyby z minulosti se na ně nevztahují a já se bojím, že možná ano."
 													},
 													"bulletin_title": "Vojvoda Oghar Severák",
 													"dialog_title": "Vojvoda Oghar Severák"
 												},
 												"msg2": {
 													"bulletin_message": {
-														"00": "V našich řadách jsou pořád takoví, kteří si myslí, že jste slabí. Budou ctít Dohodu, ale když vyndáš jakýkoliv z gongů Čtyř Barev, tak se rádi vrátí, aby čelili tvé výzvě."
+														"00": "V našich řadách jsou pořád tací, kteří myslet, že vy slabí. Budou ctít Dohodu, ale vyndej jakýkoliv z gongů Čtyř Barev a oni se rádi vrátí čelit tvé výzvě."
 													},
 													"bulletin_title": "Vojvoda Oghar Severák",
 													"dialog_title": "Vojvoda Oghar Severák",
 													"choice_000": "Ať to zkusí!",
-													"choice_001": "Asi bychom je měli odstranit..."
+													"choice_001": "Měli bychom je odstranit..."
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "Vypadá to, že nakoneco vás Erdene měla pravdu. Uznávám váš nárok na tuto zemi, dle Dohody Rytíře Cida a díky vaší prokázané síle. Nám orkům záleží pouze na tom, že země je v bezpečí proti divočině a zlu. Ty jsi prokázal, že jsi hoden tohoto úkolu."
+														"00": "Vypadá to, že nakonec o vás Erdene měla pravdu. Uznávám váš nárok na tuto zemi, dle Dohody Rytíře Cida, díky vaší prokázané síle. Nám orkům záleží pouze na tom, že země je držena v bezpečí proti divočině a zlu. Ty jsi prokázal, že jsi hoden tohoto úkolu."
 													},
-													"bulletin_title": "Vojvoda skromně kývá hlavou",
+													"bulletin_title": "Vojvoda pokorně přikyvuje",
 													"dialog_title": "Vojvoda Oghar Severák",
 													"choice_000": "Chráníme to, co je naše."
 												}
@@ -4311,27 +4311,27 @@
 											"dialog_nodes": {
 												"story2": {
 													"bulletin_message": {
-														"00": "Ó... jak se vám to? No nevadí, na tom nezáleží. Vrátím se ke svým lidem se zprávou o tom, že Titánská zhouba může být poražena. Tohle může být to, co překlopí jazýček vah v náš prospěch, pryč od zrádného šamana.<br><br>Moje nejhlubší díky jménem mého zesnulého Chána."
+														"00": "O-ó... jak jsi to? Nevadí, na tom nesejde. Vrátím se ke svým lidem se zprávou o tom, že Titánská zhouba může být poražena. Tohle může být to, co nahne události v náš prospěch, pryč od zrádného šamana.<br><br>Moje nejhlubší díky, jménem mého zesnulého Chána."
 													},
-													"bulletin_title": "Erdene vrávorá",
+													"bulletin_title": "Erdene se poleká",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
 													"choice_000": "Eh, není zač, hádám!"
 												},
 												"story1": {
 													"bulletin_message": {
-														"00": "Přišla jsem vás varovat před Titánem číhajícím pod vaší zemí... úpěnlivě vás porsit o vaši pomoc při jeho vyhlazení, ale... <br><br>...nevyčistili jste už tuhle zemi od jeho hrozivé přítomnosti?"
+														"00": "Přišla jsem vás varovat před Titánem číhajícím pod vaší zemí... naléhavě vás prosit o vaši pomoc při jeho vyhlazení, ale... <br><br>...již jste vyčistili tuhle zemi od jeho zlověstné přítomnosti?"
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Zmatená",
-													"choice_000": "No, jasně, zbavili jsme se ho už před nějakou chvílí."
+													"choice_000": "Óch, jo, zbavili jsme se toho již před chvilkou."
 												},
 												"greet": {
 													"bulletin_message": {
-														"00": "Chrabří lidé, kteří prokázali svoji sílu, Zdravím vás teď jako sobě rovné. Toto území je právem vaše, a světlo vaší hvězdy je teď jasnější. Věru, vaše budoucnost je slibná!"
+														"00": "Chrabří lidé, kteří prokázali svoji sílu, Zdravím vás teď jako sobě rovné. Toto území je právem vaše, a světlo vaší hvězdy je teď jasnější. Vaše budoucnost je vskutku slibná!"
 													},
-													"bulletin_title": "Erdene z Rudé Pece se nedočkavě vrací",
+													"bulletin_title": "Erdene z Rudé Pece se vrací, znepokojeně",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
-													"choice_000": "Děkujeme ti Erdene"
+													"choice_000": "Děkujeme ti, Erdene"
 												},
 												"intro": {
 													"bulletin_message": {
@@ -4349,7 +4349,7 @@
 											"dialog_nodes": {
 												"request1": {
 													"bulletin_message": {
-														"00": "Moje žádost na vás: Zlomek zla, který přinesl konec Impéria Fénixe se zhmotnil tady, pod vašima nohama.<br><br>Bude-li nechán bez povšimnutí, bude spát ještě mnoho generací, ale bude nabírat na síle, potlačujíc a rozkladjíc magii tété země.<br><br>Probuďte tohoto Titána teď, a nebude mít jinou možnost, než vyčerpat svojí nashromážděnou energii v závěrečném boji proti vašemu osídlení. Odolejte jeho hněvu a bude smeten z povrchu zemského jednou pro vždy! A vaši potomci budou v klidu žít."
+														"00": "Moje žádost na vás: Zlomek zla, který přinesl konec Impéria Fénixe se zhmotnil tady, pod vašima nohama.<br><br>Bude-li ponechán bez povšimnutí, bude spát po generace, ale nabírat na síle, dusit a poškozovat magii této země.<br><br>Nicméně, probuďte tohoto Titána teď, a nebude mít jinou možnost, než vyčerpat svojí nashromážděnou energii v závěrečném boji proti vašemu osídlení. Odolejte jeho hněvu, a bude smeten z povrchu zemského jednou pro vždy a vaši potomci budou žít v míru."
 													},
 													"bulletin_title": "Erdene žádá",
 													"dialog_title": "Erdenina žádost",
@@ -4358,15 +4358,15 @@
 												},
 												"accept1": {
 													"bulletin_message": {
-														"00": "Moji šamani sestrojili tento Gong - vem si ho a umísti ho. Až budeš připraven, nech ho nahlas zvonit, a on vzbudí dřímaícího Titána.<br><br>Budeš obléhán hrůzami několik dní možná i týdnů - ale rozdrobené zlo samo o sobě nevydrží. Vydrž. Útoč na jeho poskoky, vykopávej jeho kořeny, zaháněj jeho úponky. Každé malé vítězství ho oslabí.<br><br>Vytrvej a Titán padne, a s ním bude konečně odčiněna i část pohormy Impéria Fénixe.<br><br>Buď příkldem pro můj lid, že tomuto slu je možné se postavit čelem a zničit ho - že se jím nemusíme nechat zotročit. Prosím!"
+														"00": "Moji šamani vypracovali tento Gong - vem si ho a umísti ho. Až budeš připraven, nech ho nahlas zvonit, a on vzbudí dřímaícího Titána.<br><br>Budeš sužován hrůzami po několik dní, možná i týdnů - ale roztříštěné zlo nemůže nevydržet. Přečkej. Udeř na jeho poskoky, vykopávej jeho kořeny, zaháněj jeho úponky. Každé malé vítězství ho oslabí.<br><br>Vytrvej, a Titán padne, a s ním bude konečně odčiněna i část pohromy Impéria Fénixe.<br><br>Buď příkldem pro můj lid, že tomuto zlu je možné se postavit čelem a zničit ho - že se jím nemusíme nechat zotročit. Prosím."
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
-													"choice_000": "Ujistíme se, že jsme pripraveni"
+													"choice_000": "Ujistíme se, že jsme připraveni"
 												},
 												"story2": {
 													"bulletin_message": {
-														"00": "Dole je zlo. Had to ví. Králík to ví. Opice to ví také. Ale moc hledá další moc.<br><br>Fénixové, našli dole šepot moci. Kopali s krumpáči a našli indicie, kopali pomocí myslí a našli vědomosti.<br><br>Vědomosti bez moudrosti jsou nebezpečné."
+														"00": "Dole je zlo. Had to ví. Králík to ví. Opice to ví také. Ale moc hledá další moc.<br><br>Fénix, oni našli dole šepot moci. Kopali s krumpáči a našli indicie, kopali pomocí myslí a našli vědomosti.<br><br>Vědomosti bez moudrosti jsou nebezpečné."
 													},
 													"bulletin_title": "Erdene mluví tiše",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
@@ -4374,15 +4374,15 @@
 												},
 												"farewell": {
 													"bulletin_message": {
-														"00": "Sbohem, stateční Lidé. Ať vaše hvězda září stále jasněji, a ať je průvdcem pro všchny přes přicházející noc.<br><br><i><font size=-1>[Gong najdeš ležet poblíž svého Praporu, nebo ve scém inventáři v 'Dekoracích']</font></i>"
+														"00": "Sbohem, stateční Lidé. Ať vaše hvězda září stále jasněji, a ať je průvodcem pro všechny přes přicházející noc.<br><br><i><font size=-1>[Gong můžeš najít ležet poblíž svého Praporu, nebo ve svém inventáři v 'Dekoracích']</font></i>"
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
-													"choice_000": "Na shledanou Erdene"
+													"choice_000": "Sbohem, Erdene"
 												},
 												"story1": {
 													"bulletin_message": {
-														"00": "Je to příběh, který se předává z Mluvčího na Mluvčího, o tom kdy Opice poprvé povstane do popředí. Od Opice přišli lidé, a tito lidé se spojili.<br><br>Vystavili Říši, rozprostírajícíse od středu směrem ven, dokud neobsáhla celý kontinent. Stejně jako jejich hlavní centrální město se natahovalo k nebi, jejich lidské ambice je vedli dolů..."
+														"00": "Je to příběh, který se předává z Mluvčího na Mluvčího, o tom kdy Opice poprvé povstane do popředí. Od Opice přišli lidé, a tito lidé se sjednotili.<br><br>Vystavěli Říši, rozprostírající se od středu směrem ven, dokud neobsáhla celý kontinent. Stejně jako jejich hlavní centrální město se natahovalo k nebi, jejich lidské ambice je vedli dolů..."
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
@@ -4390,7 +4390,7 @@
 												},
 												"reject1": {
 													"bulletin_message": {
-														"00": "Ne, předpokládám že ne. Titán bude spát ještě po několik pokolení, vaše osídlení je mimo ohrožení.<br><br>Asi jsem udělala chybu, když jsem vás chtěla zatěžovat úkolem, který je právem můj. Omlouvám se. Beru to zpět, a půjdu se starat o své vlastní lidi.<br><br>Nechám vám tu tento speciálně-připravený Gong - pro případ že by jste si to rozmysleli, prostě ho umístěte na zem a budete blíže zasvěceni.<br><br>Sbohem lidé."
+														"00": "Ne, předpokládám že ne. Titán bude spát ještě po několik generací, vaše osídlení je mimo ohrožení.<br><br>Udělala jsem chybu, zatěžit vás úkolem, který je právem můj. Omlouvám se. Stahuji se zpět, pečovat o svůj vlastní lid.<br><br>Nechám vám tu tento speciálně-připravený Gong - pro případ že by jste si to rozmysleli, prostě ho umístěte na zem a měli by jste být dále zasvěceni.<br><br>Sbohem lidé."
 													},
 													"bulletin_title": "Erdene vzdychá...",
 													"dialog_title": "Erdene vzdychá...",
@@ -4398,7 +4398,7 @@
 												},
 												"story5": {
 													"bulletin_message": {
-														"00": "Časem temntota odezněla, ale teď sytí zemi, šeptajíce těm, kdo ji budou poslouchat. My Orkové jsme testovali sílu vašeho města nejen pro slávu, ale také abychom se ujistili, že máte dostešnou vůli, abyste odolali tomuto zlu a skáze.<br><br>Nicméně, bez Chána, který by je vedl, šaman Červené Pece usiluje o přetvoření tohoto titánského zla, tak aby šlo ovládat.<br><br>Musím je zastavit - bylo to poslední přání mého Chána. Ale to je věc mě a mého druhu.<br><br>Po vás bych chtěla laskavost."
+														"00": "Časem, temnota ustoupila, ale teď nasycuje zemi, šeptající těm, kteří budou naslouchat. My Orkové jsme testovali sílu vašeho města nejen pro slávu, ale také k prokázání, že máte dostatečně silnou vůli, abyste odolali tomuto zlu a skáze.<br><br>Nicméně, bez Chána, který by je vedl, šaman Červené Pece teď usiluje o přetvoření tohoto titánského zla, aby ho mohl ovládat.<br><br>Musím je zastavit - bylo to poslední přání mého Chána. Ale to je věc mě a mého druhu.<br><br>Po vás žádam o laskavost."
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
@@ -4406,15 +4406,15 @@
 												},
 												"greet": {
 													"bulletin_message": {
-														"00": "Chrabří lidé, kteří prokázali svoji sílu, Zdravím vás teď jako sobě rovné. Toto území je právem vaše, a světlo vaší hvězdy je teď jasnější. Věru, vaše budoucnost je slibná!"
+														"00": "Chrabří lidé, kteří prokázali svoji sílu, Zdravím vás teď jako sobě rovné. Toto území je právem vaše, a světlo vaší hvězdy je teď jasnější. Vaše budoucnost je vskutku slibná!"
 													},
-													"bulletin_title": "Erdene z Rudé Pece se nedočkavě vrací",
+													"bulletin_title": "Erdene z Rudé Pece se vrací, znepokojeně",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
 													"choice_000": "Děkujeme ti Erdene"
 												},
 												"story4": {
 													"bulletin_message": {
-														"00": "Lídé utekli, ustoupili k okrajům světa, a drželi se ho konečky prstů dokude se temnota sama neutišila.<br><br>Orkové, stejně jako ostatní děti Hada, zůstali a bojovali. Bojovali  proti skáze, bojovali i přes hladomor a strádání. Zdali kvůli vznešené odvaze nebo pošetilé hrdosti, to nevím.<br><br>Králičí lid, kterého již ubývalo, se zahrabal hlouběji a zřekl se povrchu světa."
+														"00": "Lídé utekli, ustoupili k okrajům světa, a drželi se ho konečky prstů dokud se temnota sama neutišila.<br><br>Orkové, stejně jako ostatní děti Hada, zůstali a bojovali. Bojovali  proti skáze, bojovali i přes hladomor a strasti. Zdali kvůli vznešené odvaze nebo pošetilé hrdosti, to nevím.<br><br>Králičí lid, kterého již ubývalo, se zahrabal hlouběji, zříkající se povrchu světa."
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
@@ -4422,7 +4422,7 @@
 												},
 												"story3": {
 													"bulletin_message": {
-														"00": "A velké zlo bylo probuzeno, to víme určitě. Hlavní město bylo ztraceno, vyhlazeno, a svět byl s jistotou odsouzen ke zkáze. Ale, byl tu nějaký hrdina, nějaká oběť, ztracená v čase. Byla dostatečná. Nestačila na zničení zla, ale stačila na to, aby ho rozdělila na kousky.<br><br>Rozprostřeli se jako mlha po krajině, obracejíce síly přírody proti svým obyvatelům, pustošíce úrodu a tříštíce mysli."
+														"00": "A velké zlo bylo probuzeno, tohle víme jistě. Hlavní město bylo ztraceno, vyhlazeno, a svět byl s jistotou odsouzen ke zkáze. Ale, byl tu nějaký hrdina, nějaká oběť, ztracená v čase. Byla dostatečná. Nestačila na zničení zla, ale stačila na to, aby ho rozdělila na kousky.<br><br>Rozptýlili se jako mlha po krajině, obracející síly přírody proti svým obyvatelům, pustošící úrodu a třepící mysli."
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
@@ -4430,7 +4430,7 @@
 												},
 												"intro": {
 													"bulletin_message": {
-														"00": "Já… přicházím také s žádostí. Bojím se o svoje lidi.<br/><br/>Už jste slyšeli o Impériu Fénixe? O jeho konci?"
+														"00": "Já… přicházím také s žádostí. Bojím se o můj lid.<br/><br/>Už jste slyšeli o Impériu Fénixe? O jeho konci?"
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
@@ -4445,7 +4445,7 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "<i><font size=-1>[Vyber Gong a zmáčkni tlačítko 'Probudit Titána' až budeš připraven. Zabití nebo zničení Titánových poskoků, chapadel nebo kořenů sníží jeho zdraví.]<br><br>[Hodně štěstí!]</font>"
+														"00": "<i><font size=-1>[Vyber Gong a zmáčkni tlačítko 'Probudit Titána' až budeš připraven. Zabití nebo zničení Titánových poskoků, chapadel, a kořenů sníží jeho zdraví.]<br><br>[Hodně štěstí!]</font>"
 													},
 													"bulletin_title": "Načmáraná poznámka, připevněná k Zlověstnému Gongu",
 													"dialog_title": "Dopis od Erdene",
@@ -4453,7 +4453,7 @@
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "Do gongu udeř jen když budeš připraven - tvoje město bude odříznuto od světa po několik dní.<br><br>Jistě se objeví skažená stvoření - postav se jim, pokud můžeš, zalez a schovej se pokud nemůžeš. Není žádná hamba přežít. Buď ve střehu protože obyvatelé budou chytáni, budovi budou ohroženy, a buď připraven kopat.<br><br>Každé malé vítezství odsaje Titánovu sílu - nezkoušej na něj žádný přímí útok, je mimo dosah a je to pouhý přízrak.<br><br>Buď statečný při zahánění jeho skázy a vyjdeš z toho jako vítěz."
+														"00": "Rozezvuč tento gong pouze když jsi připraven - tvoje město bude odříznuto od světa po několik dní.<br><br>Jistě se objeví skažená stvoření - postav se jim v boji pokud můžeš, zalez a schovej se pokud nemůžeš. Není žádná ostuda přežít. Buď ve střehu protože obyvatelé budou lapáni, budovy budou ohrožovány, a buď připraven kopat.<br><br>Každé malé vítězství odsaje Titánovu sílu - nezkoušej na něj žádný přímý útok, je mimo dosah a je to pouhý přízrak.<br><br>Buď statečný při zahánění jeho skázy, a vzejdeš z toho jako vítěz."
 													},
 													"bulletin_title": "Načmáraná poznámka, připevněná k Zlověstnému Gongu",
 													"dialog_title": "Dopis od Erdene",
@@ -4467,7 +4467,7 @@
 											"dialog_nodes": {
 												"accept2": {
 													"bulletin_message": {
-														"00": "Výborně! My Orkové nejsme tak talentovaní v řemeslech jako vy, ale můj učedník se prokázal jako vášnivý bojovník, a jsem si jistá, že se bude snažit být užitečný, co mu budou síli stačit!<br><br>Sbohem stateční Lidé, než se naše cesty znovu sejdou!"
+														"00": "Výborně! My Orkové nejsme tak talentovaní v řemeslech jako vy, ale můj učedník se prokázal jako urputný bojovník, a jsem si jistá, že se bude snažit být užitečný, jak jenom bude moct!<br><br>Sbohem, stateční Lidé, než se naše cesty znovu sejdou!"
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
@@ -4475,7 +4475,7 @@
 												},
 												"request1": {
 													"bulletin_message": {
-														"00": "Ještě bych měl říct... kvůli vaší vyjímečné odvaze, už vás někteří moji lidé nerespektují jen jako Lidi, ale uvažují o vás jako by jste byli opravdoví Orkové. <br/><br/>Někteří si dokonce přejí emigrovat a stát se členy vašeho kmene."
+														"00": "Ještě bych měla dodat... kvůli vaší vyjímečné odvaze, někteří z mého lidu již šli za pouhé prosté respektování vás jako Lidi, teď vás opravdu pokládají za Orka <br/><br/>Někteří si dokonce přejí emigrovat a stát se členy vašeho kmene."
 													},
 													"bulletin_title": "Erdene nabízí",
 													"dialog_title": "Erdenina nabídka",
@@ -4483,7 +4483,7 @@
 												},
 												"accept1": {
 													"bulletin_message": {
-														"00": "Báječně! Takže tento Orkský učedník se může stát součástí tvého kmene?"
+														"00": "Báječně! Takže, tento Orkský učedník se smí přidat do tvého kmene?"
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
@@ -4492,40 +4492,40 @@
 												},
 												"reject2": {
 													"bulletin_message": {
-														"00": "No dobrá. Taty zpráva jistě zklame mého učedníka, ale váš kmen a jeho přání si zalouží náš nejvyšší respekt.<br><br>Sbohem stateční Lidé, než se naše cesty znovu sejdou!"
+														"00": "Nuže dobrá. Tato zpráva jistě zklame mého učedníka, ale váš kmen a jeho přání si zaslouží náš nejvyšší respekt.<br><br>Sbohem, stateční Lidé, než se naše cesty znovu sejdou!"
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
-													"choice_000": "Šťastnou cestu Erdene!"
+													"choice_000": "Šťastnou cestu, Erdene!"
 												},
 												"greet": {
 													"bulletin_message": {
-														"00": "U Chánova požehnaného jména, vy jste to dokázali!<br><br>Přišla jsem tak rychle, jak jsem jen mohla - Cítila jsem změnu ve větru dokonce i na teritoriu Červené Pece."
+														"00": "U Chánova požehnaného jména, vy jste to dokázali!<br><br>Přišla jsem nejrychleji jak jsem jen mohla - mohla jsem cítit změnu ve větrech dokonce i z území Červené Pece."
 													},
 													"bulletin_title": "Erdene z Červené Pece se vrací, nadšená",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
-													"choice_000": "Jop, dokázali!"
+													"choice_000": "Dokázali!"
 												},
 												"reject1": {
 													"bulletin_message": {
-														"00": "Ach, chápu... a rozumím tomu. Když bych byla na tvém místě, také bych nemohla jednoduše přijmout Člověka do řad Červené Pece. <br><br>Přesto, si si jistý, že pro mého učedníka zde není místo?"
+														"00": "Ach, chápu... a rozumím tomu. Když bych byla na tvém místě, také bych nemohla jednoduše přijmout Člověka do řad Červené Pece. <br><br>Přesto, jsi si jistý, že pro mého učedníka zde není místo?"
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
-													"choice_000": "[Odmítnout] Jsmě si docela jistí",
+													"choice_000": "[Odmítnout] Jsme si docela jistí",
 													"choice_001": "[Přijmout] Na druhou stranu..."
 												},
 												"request2": {
 													"bulletin_message": {
-														"00": "Ano! Ve skutečnosti, Titánova Porážka vyčistila ten zlověstný Gong, který jsem vám přinesla, společně s vaší zemí. Ten Gong představuje důkaz trvalé úcty mých lidí k tvému kmeni a jeho lidem.<br><br><i>Tak dlouho dokud bude tento bílý kamenný gong vystaven</i> a ty budeš mít pro nás místo, očekávej Orkského přistěhovalce každých pár nocí."
+														"00": "Ano! Ve skutečnosti, Titánova porážka očistila ten zlověstný Gong co jsem vám přinesla, společně s vaší zemí. Nechť ten Gong bude stát jako svědectví trvalé úcty mého lidu k tvému kmeni a jeho lidem.<br><br><i>Tak dlouho dokud bude tento bílý kamenný gong vystaven</i> a ty budeš mít pro nás místo, očekávej Orkského přistěhovalce každých pár nocí."
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene gestikuluje",
-													"choice_000": "Rozumím!"
+													"choice_000": "Chápu!"
 												},
 												"request3": {
 													"bulletin_message": {
-														"00": "Vlastně jeden z mých nejvěrnějších učedníků přišel se mnou. Je poměrně vytrvalý v tom, že se chce přidat k vašemu kmenu. Popravdě jsem truchlila, že mě chce opustit, ale nemůžu stát v cestě jeho přání<br><br>Co na to říkáš? <i>Přijmeš dnes tohoto pokorného Orka do své obce?</i>"
+														"00": "Vlastně, jeden z mých nejvěrnějších učedníků přišel se mnou. Je poměrně vytrvalý ohledně přidání se do tvého kmene. Popravdě, jsem truchlila, že mě chce opustit, ale nemůžu mu vyčítat jeho přání<br><br>Co na to říkáš? <i>Přijmeš dnes tohoto pokorného Orka do své obce?</i>"
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene natahuje ruku",
@@ -4534,11 +4534,11 @@
 												},
 												"intro": {
 													"bulletin_message": {
-														"00": "Tvá porážka této jeho horzivé přítomnosti může být to, co překlopí jazýček vah v náš prospěch, pryč od zrádného šamana.<br><br>Moje nejhlubší díky jménem mého zesnulého Chána. Vrátím se ke svým lidem a donesu zprávu o tom, že Titánská zhouba může být opravdu poražena."
+														"00": "Tvá porážka této zlověstné přítomnosti může být to, co nahne události v náš prospěch, pryč od zrádného šamana.<br><br>Moje nejhlubší díky, jménem mého zesnulého Chána. Vrátím se ke svému lidu nesoucí zprávu o tom, že Titánská zhouba může, doopravdy, být poražena."
 													},
 													"bulletin_title": "Erdene pokračuje",
 													"dialog_title": "Erdene, Mluvčí Červené Pece",
-													"choice_000": "Jsem rád, že jsme udělalí něco dobrého"
+													"choice_000": "Jsem rád, že jsme udělali něco dobrého"
 												}
 											}
 										}
@@ -4548,10 +4548,10 @@
 											"dialog_nodes": {
 												"msg1": {
 													"bulletin_message": {
-														"00": "Chtěl bys nechat tohoto Orka připojit se k tvému městu?<br><br><i><font size=-1>[Je silný, pomalý, překvapivě těžko se dá vylekat a rycjhle se regeneruje navzdory jeho nízké vlastnosti Duše]</font></i>"
+														"00": "Chtěl bys nechat tohoto Orka připojit se k tvému městu?<br><br><i><font size=-1>[Je silný, pomalý, a překvapivě těžký k polekání a rychle se regeneruje navzdory jeho nízké vlastnosti Duše]</font></i>"
 													},
 													"bulletin_title": "Orkský přistěhovalec!",
-													"dialog_title": "Ork by se chtěl připojit ke tvému městu!",
+													"dialog_title": "Ork si přeje připojit ke tvému městu!",
 													"choice_000": "Ano",
 													"choice_001": "Ne"
 												}
@@ -4559,7 +4559,7 @@
 										}
 									},
 									"grant_recurring_orc_citizen": {
-										"notification_title": "Nový obyvatel z rodu Orků se připojil ke tvému městu!"
+										"notification_title": "Nový Orkský obyvatel se připojil ke tvému městu!"
 									},
 									"grant_orc_citizen": {
 										"notification_title": "Erdenin učedník se připojil ke tvému městu!"
@@ -4579,32 +4579,32 @@
 											"dialog_nodes": {
 												"cheer": {
 													"bulletin_message": {
-														"00": "Na příklad <i>Hearth Radosti</i> je pro ty, kteří věř, že hodnota města je v tom, že jsou v něm jeho obyvatelé šťastní."
+														"00": "Například, <i>Hearth Radosti</i> je pro ty, kteří věří, že hodnota města je k nalezení v bytí šťastným domovem pro jeho obyvatele."
 													},
-													"bulletin_title": "Radostné Rozhodnutí",
-													"dialog_title": "Radostná Rozhodnutí",
-													"choice_000": "To zní legračně"
+													"bulletin_title": "Radostná Volba",
+													"dialog_title": "Radostná Volba",
+													"choice_000": "To zní kuriózně"
 												},
 												"makers": {
 													"bulletin_message": {
-														"00": "Na druhou stranu je tu <i>Hearth Tvůrců</i>, pro ty kteří věří, že hodnota města tkví v jeho výtvorech, a výtvory se nejlépe měří v zlaťácích ."
+														"00": "<i>Hearth Tvůrců</i>, nadruhou stranu, je pro ty, kteří věří, že hodnota města je v jeho práci, a že jeho práce je nejlépe vyvážená zlatem."
 													},
-													"bulletin_title": "Trasa Tvůrců",
-													"dialog_title": "Trasa Tvůrců",
-													"choice_000": "To zní tvořivě"
+													"bulletin_title": "Značka Tvůrce",
+													"dialog_title": "Značka Tvůrce",
+													"choice_000": "To zní produktivně"
 												},
 												"intro": {
 													"bulletin_message": {
-														"00": "Vřelé pozdravy! Nakonec můžu vidět vaši osadu na vlastní oči. Rozvinuli jste se ještě rychleji než jsem očekával, měl byste na sebe být hrdí!"
+														"00": "Vřele zdravím! Konečně, můžu vidět vaši Osadu na vlastní oči. Rozvinuli jste se ještě rychleji, než jsem očekával, měli by jste všichni být na sebe hrdí!"
 													},
 													"bulletin_title": "Úředně-Vypadající Chlápek Přichází!",
 													"dialog_title": "Tentokrát To Není Ptáček",
 													"choice_000": "Děkujeme vám!",
-													"choice_001": "[přeskočit] My víme jaké Hearth chceme."
+													"choice_001": "[přeskočit] My víme jaký Hearth chceme."
 												},
 												"glory": {
 													"bulletin_message": {
-														"00": "A nakonec <i>Hearth Slávy</i> je pro ty, kteří věří, že jejich osud postavit se nepřátelskému světu, jako to udělal Rytíř Cid, při založení království Vznešených ."
+														"00": "A nakonec, <i>Hearth Slávy</i> je pro ty, kteří věří, že jejich osud je stát silně v nepřátelském světě, jako to udělal Rytíř Cid, při založení Vznešeného Království."
 													},
 													"bulletin_title": "Síla a Sláva",
 													"dialog_title": "Síla a Sláva",
@@ -4612,7 +4612,7 @@
 												},
 												"final": {
 													"bulletin_message": {
-														"00": "Radost, Sláva nebo Tvůrci - volba je pouze na tobě. Představ si jaké jednou bude tvoje Město a následuj tuto představu do budoucnosti!"
+														"00": "Radost, Sláva nebo Tvůrci - volba je zcela na tobě. Předvídej jaké jednoho dne bude tvoje Město, a následuj ten maják do budoucnosti!"
 													},
 													"bulletin_title": "Volba",
 													"dialog_title": "Volba",
@@ -4620,15 +4620,15 @@
 												},
 												"intro2": {
 													"bulletin_message": {
-														"00": "Přišel jsem vám osobně pomoct s vaším posledním krokem k tomu stát se pravým Osadou Vznešených!<br><br>Rozrostli jste se dostatečně na to, aby jste si teď mohli vybrat jaké Hearth bude reprezentovat vaše město, jak říká tradice."
+														"00": "Přišel jsem vám osobně pomoct s vaším posledním krokem k tomu stát se pravou Osadou Vznešeného Království!<br><br>Rozrostli jste se dostatečně na to, aby jste si teď mohli vybrat jaké Hearth bude reprezentovat vaše město, jak říká tradice."
 													},
-													"bulletin_title": "Mer Pokračujš",
+													"bulletin_title": "Mer Pokračuje",
 													"dialog_title": "Mer Statnoruký",
 													"choice_000": "Tradice?"
 												},
 												"intro3": {
 													"bulletin_message": {
-														"00": "Přesně tak, Srdce sloužila jako svítící maják pro Města už v době Impéria Fénixe.<br><br>Jejich světlo přitahuje osadníky a blahobyt, a zvláštní vlastnosti vybraného Hearthu odráží, v čem se nachází hodnota tohoto Města. "
+														"00": "Přesně tak, Hearthy sloužili jako svítící maják pro Města již v době Impéria Fénixe.<br><br>Jejich světlo přitahuje osadníky a blahobyt, a zvláštní vlastnosti vybraného Hearthu odráží, v čem Město nachází svoji hodnotu. "
 													},
 													"bulletin_title": "Mer Pokračuje",
 													"dialog_title": "Mer Statnoruký",
@@ -4648,36 +4648,36 @@
 										}
 									},
 									"banner_upgrade_cunning": {
-										"title": "Základna Založena",
-										"dialog_title": "Základna Založena!",
-										"tier_title": "Základna",
-										"reward_message": "Jednomyslným souhlasem obyvatel deklarujeme:",
-										"reward_message_ctd": "že jsme základnou umetající si cestu, aby se mohla stát obchodním uzlem.",
+										"title": "Výspa Založena",
+										"dialog_title": "Výspa Založena!",
+										"tier_title": "Výspa",
+										"reward_message": "Jednomyslným souhlasem obyvatel, my deklarujeme:",
+										"reward_message_ctd": "být výspou dlaždící si cestu, aby se mohla stát obchodním uzlem.",
 										"achievements": {
-											"001": "Prodejní cena předmětů je  o 50% vyšší",
-											"000": "Cesty dávají 3x vyšší bonus rychlosti",
-											"002": "Obchodnící přivezou 2x více zboží a Zlaťáků"
+											"001": "Prodejní cena předmětů je o 50% vyšší",
+											"000": "Cesty dávají 3x vyšší bonus jejich normální rychlosti",
+											"002": "Obchodnící přivezou 2x více zboží a Zlata"
 										}
 									},
 									"banner_upgrade_strength": {
-										"title": "Základna Založena",
-										"dialog_title": "Základna Založena!",
-										"tier_title": "Základna",
-										"reward_message": "Jednomyslným souhlasem obyvatel deklarujeme:",
-										"reward_message_ctd": "že jsme základnou na cestě k tomu být bezpečným útočištěm pro všechny.",
+										"title": "Výspa Založena",
+										"dialog_title": "Výspa Založena!",
+										"tier_title": "Výspa",
+										"reward_message": "Jednomyslným souhlasem obyvatel, my deklarujeme:",
+										"reward_message_ctd": "být výspou na cestě k tomu být bezpečným útočištěm pro všechny.",
 										"achievements": {
 											"001": "Hearthlingům už nevadí přecpaná místa",
-											"000": "Dolováním získáváš o 50% více Rud, Kamene a Hlíny"
+											"000": "Dolováním získáváš o 50% více Rudy, Kamene, a Jílu"
 										}
 									},
 									"banner_upgrade_vitality": {
-										"title": "Základna Založena",
-										"dialog_title": "Základna Založena!",
-										"tier_title": "Základna",
-										"reward_message": "Jednomyslným souhlasem obyvatel deklarujeme:",
-										"reward_message_ctd": "že jsme základnou usilující o to být v souladu s přírodou.",
+										"title": "Výspa Založena",
+										"dialog_title": "Výspa Založena!",
+										"tier_title": "Výspa",
+										"reward_message": "Jednomyslným souhlasem obyvatel, my deklarujeme:",
+										"reward_message_ctd": "být výspou usilující o to být v souladu s přírodou.",
 										"achievements": {
-											"001": "Rostliny i Plodiny rostou o 25% rychleji",
+											"001": "Rostliny a Plodiny obě rostou o 25% rychleji",
 											"000": "Stromy produkují o 25% více Dřeva",
 											"002": "Rostliny mají 2x jejich normální Přitažlivosti"
 										}
@@ -4686,8 +4686,8 @@
 										"title": "Osada Založena",
 										"dialog_title": "Osada Založena!",
 										"tier_title": "Osada",
-										"reward_message": "Jednomyslným souhlasem obyvatel deklarujeme:",
-										"reward_message_ctd": "že jsme osadou, která chce dokázat, že její bohatství a řemeslná zručnost nemá srovnání.",
+										"reward_message": "Jednomyslným souhlasem obyvatel, my deklarujeme:",
+										"reward_message_ctd": "být osadou, která chce dokázat, že její bohatství a řemeslná zručnost je bezkonkurenční.",
 										"achievements": {
 											"001": "Denní Aktualizace vylepšená o Zlaté Mince",
 											"000": "+5% denní úrok Zlatých Mincí (až do 300 za den)"
@@ -4697,10 +4697,10 @@
 										"title": "Osada Založena",
 										"dialog_title": "Osada Založena!",
 										"tier_title": "Osada",
-										"reward_message": "Jednomyslným souhlasem obyvatel deklarujeme:",
-										"reward_message_ctd": "že jsme osadou, která chce dokázat, že její vojenská síla je bezkonkurenční.",
+										"reward_message": "Jednomyslným souhlasem obyvatel, my deklarujeme:",
+										"reward_message_ctd": "být osadou, která chce dokázat, že její vojenská síla je bezkonkurenční.",
 										"achievements": {
-											"000": "Hearth povolává nepřátelé k poražení a k zisku Slávy",
+											"000": "Hearth vyvolává nepřátelé k poražení pro zisk Slávy",
 											"001": "Denní Aktualizace vylepšená o Úroveň Slávy "
 										}
 									},
@@ -4708,8 +4708,8 @@
 										"title": "Osada Založena",
 										"dialog_title": "Osada Založena!",
 										"tier_title": "Osada",
-										"reward_message": "Jednomyslným souhlasem obyvatel deklarujeme:",
-										"reward_message_ctd": "že jsme osadou, která chce dokázat, že má nějšťastnější a nejlépe živené obyvatele, a pro ně nejhezčí místa k bydlení.",
+										"reward_message": "Jednomyslným souhlasem obyvatel, my deklarujeme:",
+										"reward_message_ctd": "být osadou, která chce dokázat, že má nějšťastnější, nejlépe najezené obyvatele, a nejhezčí místa pro ně k bydlení.",
 										"achievements": {
 											"000": "Denní Aktualizace vylepšená o Náladu obyvatel",
 											"001": "Náhodné Denní Bonusy"
@@ -4717,29 +4717,29 @@
 									},
 									"shrine_upgrade_guildmaster": {
 										"achievements": {
-											"001": "Kamenikovi Fontány a Dekorace",
-											"003": "Kovářovi Dekorace",
-											"000": "Hustodémonskykrutopřísná Kvalita Výrobků Odemčena",
-											"002": "Bylinkářovo Umělecké Tvarování Keřů & Tesařovi Ploty",
+											"001": "Kamenické Fontány a Dekorace",
+											"003": "Kovářské Dekorace",
+											"000": "Mistrovská Kvalita Výrobků Odemčena",
+											"002": "Bylinkářské Umělecké Tvarování Keřů & Tesařovi Ploty",
 											"004": "Úroveň 3 Hudby "
 										}
 									},
 									"shrine_upgrade_valor": {
 										"achievements": {
-											"001": "Technikův Návod na Padací Mříž",
-											"003": "Kovářovi Návody na Dekorace",
+											"001": "Inženírský Návod na Padací Mříž",
+											"003": "Kovářské Návody na Dekorace",
 											"000": "Návody na Legendární Zbraně",
-											"002": "Kameníkovi Sochy & Okna",
-											"004": "Úroveň 3 Hudby "
+											"002": "Kamenické Sochy & Okna",
+											"004": "Úroveň 3 Hudby"
 										}
 									},
 									"shrine_upgrade_deity": {
 										"achievements": {
-											"001": "Herbalist Shrubberies",
+											"001": "Bylinkářské Okrasné Tvarované Keře",
 											"003": "Kameníkova Fontána Štěstí",
 											"000": "Mysl, Tělo, a Duše +1!",
-											"002": "Kovařovi Dekorace",
-											"004": "Úroveň 3 Hudby "
+											"002": "Kovářské Dekorace",
+											"004": "Úroveň 3 Hudby"
 										}
 									},
 									"shrine_choice_explanation": {
@@ -4747,15 +4747,15 @@
 											"dialog_nodes": {
 												"clergy": {
 													"bulletin_message": {
-														"00": "Vřelé Pozdravy! Mé jméno je Ember Minton, a jsem misionářka sloužící Církvi Hojnosti. Byli bychom potěšeni, kdybychom mohli počítat osadu, jako je ta vaše, mezi naše Obce. "
+														"00": "Vřele zdravím! Mé jméno je Ember Minton, a jsem misionářka sloužící Církvi Hojnosti. Byli bychom potěšeni, kdybychom mohli započítat osadu, jako je ta vaše, mezi jednu z našich Obcí. "
 													},
 													"bulletin_title": "Duchovenstvo",
 													"dialog_title": "Duchovenstvo",
-													"choice_000": "Vítej Ember"
+													"choice_000": "Vítej, Ember"
 												},
 												"makers": {
 													"bulletin_message": {
-														"00": "Jsem Marak Azael, rád vás poznávám. Svědí mě vousy, když vidím osadu jako je ta vaše zbudovanou z ničeho než řekneš švec.<br><br>Samotní Vznešené Království bylo postaveno s pilou a kladivem šikovnými řemeslníky jako jsme my! Proto pro mě Cech tolik znamená, a proto jsem vás chtěl navštívit."
+														"00": "Jsem Marak Azael, rád vás poznávám. Svědí mě vousy vidět osadu jako je ta vaše, zbudovanou z ničeho než řekneš švec.<br><br>Samotné Vznešené Království bylo postaveno s pilou a kladivem šikovnými řemeslníky jako jste vy! Proto pro mě Cech tolik znamená, a proto jsem vás chtěl navštívit."
 													},
 													"bulletin_title": "Cechmistr",
 													"dialog_title": "Cechmistr",
@@ -4763,7 +4763,7 @@
 												},
 												"summary": {
 													"bulletin_message": {
-														"00": "Takže! Teď když už jste potkali lidi kteří mě doprovázejí - Já jsem v tomhle nestraný, takže je to na tobě, aby ses rozhodl  koho chceš za Sponzora. Můžu ale říct, že všechny možnosti jsou dobré!<br><br>Trochu jim zatím ukážu město, ale nechám plány pro všechny jejích fontány a svatyně a kdo ví co ještě u tvých Kameníků.<br><br>Rád vás zase všechny vidím! Uvidíme se na slavnosti zasvěcení, ať už si nakonec vyberete kohokoliv!"
+														"00": "Takže! Teď když už jste potkali lidi kteří mě sem doprovázeli - já jsem v tomhle nestranný, takže je to na tobě se rozhodnout koho chceš za Sponzora. Každopádně, můžu ale říct, že všechny možnosti jsou dobré!<br><br>Trochu jim zatím ukážu město kolem, ale nechám plány pro všechny jejích fontány a svatyně a kdo ví co ještě u tvých Kameníků.<br><br>Rád vás zase všechny vidím! Uvidíme se na slavnosti zasvěcení, ať už si nakonec vyberete kohokoliv!"
 													},
 													"bulletin_title": "Mer Uzavírá",
 													"dialog_title": "Mer Uzavírá",
@@ -4771,7 +4771,7 @@
 												},
 												"military_cont": {
 													"bulletin_message": {
-														"00": "Obec zasvěcená Cidovu chrabrému příkladu může sloužit jako odrazový můstek pro celý kraj, a povzbudit nové osadníky k vytvoření vlastních nových Základen.<br><br>Jestli by sis vybral, že posatvíš památník Cidovi, tak Stráž se s tebou ráda podělí o nějaké naše znalosti zbraní jako součást slavnosti zasvěcení.<br><br><font size=-1><i>Zasvěcení Cidově Chrabrosti ti zajistí návody na nové zbraně nějvyšší úrovně.</i></font>"
+														"00": "Obec zasvěcená Cidovu chrabrému příkladu může sloužit jako opora pro celý kraj, a povzbudit nové osadníky k vytvoření svých vlastních nových Výsp.<br><br>Jestli by sis vybral, že postavíš památník Cidovi, tak Stráž se s tebou ráda podělí o nějaké naše znalosti zbraní jako součást slavnosti zasvěcení.<br><br><font size=-1><i>Zasvěcení Cidově Chrabrosti ti zajistí návody na nové zbraně nějvyšší úrovně.</i></font>"
 													},
 													"bulletin_title": "Kapitánka Anwyn Torresi",
 													"dialog_title": "Kapitánka Anwyn Torresi",
@@ -4779,7 +4779,7 @@
 												},
 												"clergy_cont": {
 													"bulletin_message": {
-														"00": "Církev má úsloví, že <i>'Štěstí přeje laskavým'</i>, a požehnané fontány Hojnosti jsou pravým požehnáním po duši, těle i mysli všech obyvatel Města.<br><br>Prosím zváži zda nechceš ukázat světu, že tvoje Město bude jedno z nejdobrosrdečnějších tím, že postavíš svatyni podle návrhu Církve.<br><br><font size=-1><i>Zasvěcení Fontány Hojnosti zajistí všem tvým měšťanům bonus +1 k vlastnstem Mysli, Těla i Duše.</i></font>"
+														"00": "Církev má rčení, že <i>'Štěstí přeje laskavým'</i>, a požehnané fontány Hojnosti jsou pravým požehnáním pro duši, tělo, a mysl všech obyvatel Města.<br><br>Prosím, zváž, zda-li nechceš ukázat světu, že tvoje Město bude jedno z nejdobrosrdečnějších postavením svatyně podle návrhu Církve.<br><br><font size=-1><i>Zasvěcení Fontány Hojnosti zajistí všem tvým měšťanům bonus +1 k vlastnstem Mysli, Těla i Duše.</i></font>"
 													},
 													"bulletin_title": "Ember Minton",
 													"dialog_title": "Ember Minton",
@@ -4787,7 +4787,7 @@
 												},
 												"military": {
 													"bulletin_message": {
-														"00": "Ahoj - jsem Anwyn Torresi, Kapitánka stráže Jejího Veličenstva. Posílá mě baych vám vzkázala její díky za osídlení této nezkrocené země, a za její chránění před zvířaty a příšerami.<br><br>My jako Stráž následujeme příkladu Rytíře Cida, věříme, že postavit se statečně a odhodlaně proti divočině, je jedinou cestou pro Vznešené Království k znovuzískání ztracené země.<br><br>Prokázali jste Vznešenému Království velkou službu, když jste svůj Prapor umístili zde."
+														"00": "Ahoj - jsem Anwyn Torresi, Kapitánka stráže Jejího Veličenstva. Posílá mě abych vám vzkázala její díky za osídlení této nezkrocené země, a za její chránění před zvířaty a příšerami.<br><br>My jako Stráž následujeme příkladu Rytíře Cida, věříme, že postavit se statečně a odhodlaně proti divočině, je jedinou cestou pro Vznešené Království k znovuzískání této ztracené země.<br><br>Prokázali jste Vznešenému Království velkou službu, když jste svůj Prapor umístili zde."
 													},
 													"bulletin_title": "Kapitánka",
 													"dialog_title": "Kapitánka",
@@ -4795,19 +4795,19 @@
 												},
 												"makers_cont": {
 													"bulletin_message": {
-														"00": "Řemeslnický Cech! Věříme, že um řemeslníka musí být respektován a jejich práce oslavována.<br><br>Náš Cech by velmi rád schválil tuto Obec jako vhodnou, pro usilování o mistrovství v řemeslech - konec konců, mistrovské dílo opravdu poznáme teprve až když ho vidíme!<br><br><font size=-1><i>Věnování tributu Cechmistrově Zručnosti ti zajistí schopnosti vytvářet nábytek a dekorace Hustodémonskykrutopřísné kvality, které jsou významě lepší než ty Vynikající kvality.</i></font>"
+														"00": "Řemeslnický Cech! Věříme, že um řemeslníka musí být respektován, a jejich práce oslavována.<br><br>My v Cechu by jsme velmi rádi schválili tuto Obec jako vhodnou, pro usilování o mistrovství v řemeslech - a, konec konců, jedině my opravdu teprve poznáme mistrovské dílo až když ho vidíme!<br><br><font size=-1><i>Věnování tributu Cechmistrově Zručnosti ti zajistí schopnosti vytvářet nábytek a dekorace Velmistrovské kvality, které jsou významě lepší než ty Vynikající kvality.</i></font>"
 													},
 													"bulletin_title": "Marak Azael",
 													"dialog_title": "Marak Azael",
-													"choice_000": "Taková verva!"
+													"choice_000": "Taková důraznost!"
 												},
 												"intro": {
 													"bulletin_message": {
-														"00": "Ještě jednou Ahoj, [str(i18n_data.town_name)]! Jsem rád, že vidím, že stále vzkvétáte - ne, že bych čekal něco jiného!<br><br>Popravdě jsem tentokrát s sebou vzal několik lidí - Nechám je ať se vám sami představí a řeknou vám, proč sem přišli."
+														"00": "Ještě jednou Ahoj, [str(i18n_data.town_name)]! Rád vás všechny vidím pořád stát silně - né, že bych čekal něco jiného!<br><br>Popravdě, jsem přivedl tentokrát sebou několik lidí - Nechám je ať se vám sami představí a řeknou vám, proč sem přišli."
 													},
 													"bulletin_title": "Mer Statnoruký Přijel!",
 													"dialog_title": "Mer Se Vrací, S Hosty!",
-													"choice_000": "Ó, ok!",
+													"choice_000": "Ó, oukej!",
 													"choice_001": "[přeskočit] Už jsme se rozhodli!"
 												}
 											}
@@ -4818,7 +4818,7 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "To by taky měl! S šikovnými řemeslníky jako je on, bude tvoje město zakrátkto sekat Mistrovská díla jako Baťa cvičky! Za několik měsíců budu věnovat pozornost značce tvůrců města [str(i18n_data.town_name)] na Hlavním Tržišti!<br/><br/>Také vaše domovy vypadají pevně, když o tom přemýšlím. Všechna čest vašim Dělníkům, vypadají, že vědí jak spojovat věci dohromady!"
+														"00": "To by taky měl! S šikovnými řemeslníky jako je on, bude tvoje město chrlit Mistrovská díla v mžiku! Za několik měsíců budu věnovat pozornost značce tvůrců města [str(i18n_data.town_name)] na Hlavním Tržišti!<br/><br/>Také vaše domovy vypadají pevně, když už o tom tak přemýšlím. Mé poklony tvým Dělníkům, vypadají, že vědí jak dát věci dohromady!"
 													},
 													"bulletin_title": "Marak pokračuje",
 													"dialog_title": "Marak Azael, Cechmistr",
@@ -4826,7 +4826,7 @@
 												},
 												"msg3": {
 													"bulletin_message": {
-														"00": "Každpoádně se už můžete vrátit ke slavení! Půjdu si ulovit pintu něčeho ostřejšího a chytit něcok zahřátí!<br/><br/>Pamatuj, zaměstanané ruce dělají šťastné město!"
+														"00": "Každopádně, nechám vás vrátit se ke slavení! Půjdu si ulovit pintu něčeho ostřejšího a misku něčeho vydatného!<br/><br/>Pamatuj, zaměstnané ruce dělají šťastné Město!"
 													},
 													"bulletin_title": "Marak pokračuje",
 													"dialog_title": "Marak tě poklepává po zádech",
@@ -4834,11 +4834,11 @@
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "Ha ha ha! Jaký pěkný monument jste to postavili! Úroveň, zarovnání, a všechny ty finální úpravy, které dokáže ocenit jen trénované oko, jako je to moje!</br></br><font size=-1>Och, jak se vám však povedlo ho takhle rozzářit?</font>"
+														"00": "Ha ha ha! Jaký to pěkný monument jste to postavili! Úroveň, zarovnání, a všechny ty konečné úpravy, které dokáže ocenit jen trénované oko, jako je to moje!</br></br><font size=-1>Och, nicméně, jak se vám povedlo ho takhle rozzářit?</font>"
 													},
 													"bulletin_title": "Marak Azael vybuchuje smíchy",
 													"dialog_title": "Marak Azael, Cechmistr",
-													"choice_000": "Děkujeme ti! Náš kameník je na to celkem hrdý."
+													"choice_000": "Děkujeme ti! Náš kameník je na to docela hrdý."
 												}
 											}
 										}
@@ -4848,15 +4848,15 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "Och! Jsem v pohdě, jenom jsem... si něco vybavovala.<br/><br/>Víš, já opravdu věřím v Vznešené Království, tedy že je naším osudem vzít si zpátky tot ztracené území. Každé nové město, které tu vyroste, posiluje mé přesvědčení.<br/><br/>Ale jsou to Města jako to vaše, oddaná podpoře naší chrabré Stráže, která mě opravdu zahřejí u srdce. "
+														"00": "Och! Jsem v pořádku, jenom jsem... si na něco vzpomínala.<br/><br/>Víš, já opravdu věřím ve Vznešené Království, že je naším osudem vzít si zpátky tyto ztracené země. Každé nové Město, které tu vyroste, posiluje mé přesvědčení.<br/><br/>Ale jsou to Města jako to vaše, oddaná podpoře naší chrabré Stráže, která mě opravdu hřejí u srdce."
 													},
 													"bulletin_title": "Anwyn pokračuje",
 													"dialog_title": "Anwyn Torresi, Kapitánka Stráže",
-													"choice_000": "Jsmě poctěni, Kapiránko"
+													"choice_000": "Jsmě poctěni, Kapitánko"
 												},
 												"msg3": {
 													"bulletin_message": {
-														"00": "Přinesla jsem s sebou plány na nejlepší zbraně Stráže, protože si určitě získaly právo na to je vykovat.<br/><br/>Ale teď, pokud mě moje služba něčemu naučila, tak je to sníst dobré jídlo, kdykoliv máte příležitost. Už vás nechám oslavovat!"
+														"00": "Přinesla jsem sebou plány na nejlepší zbraně Stráže, protože jste si určitě vysloužili právo na to je vykovat.<br/><br/>Ale teď, zda-li mě moje služba něčemu naučila, tak je to sníst dobré jídlo, kdykoliv máte příležitost. Už vás nechám oslavovat!"
 													},
 													"bulletin_title": "Anwyn pokračuje",
 													"dialog_title": "Anwyn Torresi, Kapitánka Stráže",
@@ -4864,11 +4864,11 @@
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "Jaký to insiprující pomník! Opravdu zachycuje hrdinství Rytíře Cida.<br/><br/>Znovu mi to připomína všechno to, proč jsem se stala členem Stráže. Připadá mi to jako věčnost...<br/><p align='right'><font size=-1 color='#cccccc'>(Anwyn kouká někam do dálky a oči se jí třpytí)</font></p>"
+														"00": "Jaký to insiprující pomník! Opravdu promlouvá k hrdinství Rytíře Cida.<br/><br/>Znovu mi to připomína všechno to, proč jsem se stala členem Stráže. Připadá mi to tak strašně dávno...<br/><p align='right'><font size=-1 color='#cccccc'>(Anwyn kouká někam do dálky, oči se jí lesknou)</font></p>"
 													},
-													"bulletin_title": "Anwyn přichází a oči jí zaří",
+													"bulletin_title": "Anwyn přichází, oči září",
 													"dialog_title": "Anwyn Torresi, Kapitánka Stráže",
-													"choice_000": "Anwyn? Jsi..."
+													"choice_000": "Anwyn? Ty snad..."
 												}
 											}
 										}
@@ -4878,15 +4878,15 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "Jako tato svatyně dává požehnání vám všem, udělejte si chvilku na přemítání o světě, jeho záhadami a jeho mnoha dary.<br/><br/>Ať je vaše Město navždy sťastným domovem pro jeho obyvatele a pramenem šťedrosti pro Církev Hojnosti."
+														"00": "Jak tato svatyně dává požehnání vám všem, udělejte si chvilku na přemítání o světě, jeho záhadami, a jeho mnoha dary.<br/><br/>Ať je vaše Město navždy sťastným domovem pro jeho obyvatele, a pramenem štědrosti Církve Hojnosti."
 													},
 													"bulletin_title": "Ember pokračuje",
 													"dialog_title": "Ember Minton, Misionářka",
-													"choice_000": "Uděláme, co bude vnašich silách!"
+													"choice_000": "Uděláme, co bude v našich silách!"
 												},
 												"msg3": {
 													"bulletin_message": {
-														"00": "No, ale dost otřepaných frázích - jděte si užít party! Myslím, že jsem viděla Mera s nějakým dortem, který bych taky ráda dostala do ruky..."
+														"00": "Teď, dost už ale otřepaných frází - jděte si užít oslavu! Myslím, že jsem viděla Mera s nějakým dortem dříve, který bych ráda dostala do ruky..."
 													},
 													"bulletin_title": "Ember pokračuje",
 													"dialog_title": "Ember Minton, Misionářka",
@@ -4894,7 +4894,7 @@
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "<font size=-1>...a ať toto město nabírá na bohotství a blahobytu, tak dlouho dokud bude Slunce svítit. Umbasa.</font><br/><br/>Och! Omlouvám se, trochu jsem se zapomněla v modlitbách.<br/><br/>Máte tady opravdu nádherné město, a cítím se velmi privilegovaně, že jsem ta misionářka, která požehná tento krásný monument."
+														"00": "<font size=-1>...a ať toto město nabírá na bohatství a blahobytu, tak dlouho dokud bude Slunce svítit. Umbasa.</font><br/><br/>Och! Omlouvám se, trochu jsem se zapomněla v modlitbách.<br/><br/>Máte tady opravdu nádherné město, a cítím se velmi výsadně, být tou misionářkou, která požehná tento krásný monument."
 													},
 													"bulletin_title": "Ember se dívá na svatyni",
 													"dialog_title": "Ember Minton, Misionářka",
@@ -4908,7 +4908,7 @@
 											"dialog_nodes": {
 												"msg1": {
 													"bulletin_message": {
-														"00": "No, tak to vypadá, že moje nejoblíbenjší Základna vyrostla! Gratuluji k vaší nově založené Obci!"
+														"00": "No, tak to vypadá, že moje nejoblíbenjší Výspa vyrostla! Gratuluji k vaší nově založené Obci!"
 													},
 													"bulletin_title": "To Je Zase Mer!",
 													"dialog_title": "Mer Statnoruký, Skvělý Chlapík",
@@ -4916,7 +4916,7 @@
 												},
 												"msg2": {
 													"bulletin_message": {
-														"00": "Mimochodem, ten monument tady je zvláštní, jelikož byl posvěcen a tak - můžeš poslavit i ostatní, jestli chceš, ale budou to jen staré dobré sochy. Pěkně vypadající, ale vůbec né tak kouzelné.<br/><br/> Pořád jde ale o pěkné dekorace, nemyslíš?"
+														"00": "Mimochodem, ten monument tady je speciální, jelikož byl posvěcen a tak - můžeš poslavit i ostatní jestli chceš, ale budou to jen běžné staré sochy. Pěkně vypadající, ale vůbec né tak kouzelné.<br/><br/> Přesto, dělají ale pěknou dekoraci, nemyslíš?"
 													},
 													"bulletin_title": "Mer Pokračuje",
 													"dialog_title": "Mer Statnoruký, Skvělý Chlapík",
@@ -4924,7 +4924,7 @@
 												},
 												"msg3": {
 													"bulletin_message": {
-														"00": "Děkuji, že jste takovou okouzlující partou lidiček - Jsem hrdý, že posloužím skupině takových svědomitých a ambicióznéích osob. Jsem na vás pyšný!<br/><br/>Tak zatím sbohem a hodně štěstí vám všem!"
+														"00": "Děkuji, že jste takovou okouzlující partičkou lidiček - Jsem hrdý, že posloužím skupině takových svědomitých a ambicióznéích jednotlivců. Jsem na vás pyšný!<br/><br/>Tak zatím sbohem, a hodně štěstí vám všem!"
 													},
 													"bulletin_title": "Mer Pokračuje",
 													"dialog_title": "Mer Statnoruký, Skvělý Chlapík",
@@ -4938,7 +4938,7 @@
 											"dialog_nodes": {
 												"msg1": {
 													"bulletin_message": {
-														"00": "Ještě jednou Ahoj! Teď když už tady máš rušné městečko, možná je čas, začít pemýšlet o tvém dalším dobrodružství.<p>Předpokládám, že někteří z tvých obyvatel mají nutkání vyrazit na cestu a založit úplně nové město, ještě větší a ještě lepší, se zkušenostmi, které mají z tohoto.</p><p><font size=-1><i>Znovu-založení ti umožní vzít si s sebou až 3 obyvatele, 10 předmětů, a všechny odemčené recepty, když začneš s  novým městem.</i></font></p>"
+														"00": "Ještě jednou Ahoj! Teď když už tady máš rušné městečko, možná je čas, začít pemýšlet o tvém dalším dobrodružství.<p>Předpokládám, že někteří z tvých obyvatel mají nutkání vyrazit na cestu a založit úplně nové město, ještě větší a ještě lepší, se zkušenostmi, které mají z tohoto.</p><p><font size=-1><i>Znovu-založení ti umožní vzít si s sebou až 3 obyvatele, 10 předmětů, a všechny odemčené recepty, když začneš s novým městem.</i></font></p>"
 													},
 													"bulletin_title": "To Je Zase Mer!",
 													"dialog_title": "Ještě Jedna Věc",
@@ -4964,7 +4964,7 @@
 								},
 								"msg2": {
 									"bulletin_message": {
-										"00": "Gratuluji k vašemu Založení!<br><br>Tvoje Základna byla zapsána do registru - teď už je to oficiální! \"Základna Její Výsosti - [str(i18n_data.town_name)]\" - myslím si, že to zní dobře. Také máte inspirující design Praporu!<br><br> Všichni se netrpělivě těšíme až uslyšíme o tvém úspěchu!"
+										"00": "Gratuluji k vašemu Založení!<br><br>Tvoje Výspa byla zapsána do registru - teď už je to oficiální! \"Výspa Její Výsosti - [str(i18n_data.town_name)]\" - myslím si, že to zní dobře. Také máte inspirující design Praporu!<br><br> Všichni se netrpělivě těšíme až uslyšíme o tvém úspěchu!"
 									},
 									"bulletin_title": "Odpověď",
 									"dialog_title": "Odpověď",
@@ -4972,7 +4972,7 @@
 								},
 								"msg3": {
 									"bulletin_message": {
-										"00": "Jak tvoje Základna roste směrem k získání statutu Osady, začne lákat nové přistěhovalce.<br/><br/>Tvoje současné Hearth je jen odleskem toho, čím se jednou stane - Věřím tomu, že jednou bude majákem viditelným přes celé Vznešené Království."
+										"00": "Jak tvoje Výspa roste směrem k získání statutu Osady, začneš lákat nové přistěhovalce.<br/><br/>Tvoje současné Hearth je jen odleskem toho, čím se jednou stane - Věřím tomu, že jednou bude majákem viditelným přes celé Vznešené Království."
 									},
 									"bulletin_title": "Výhled Do Budoucnosti",
 									"dialog_title": "Výhled Do Budoucnosti",
@@ -4980,7 +4980,7 @@
 								},
 								"msg1": {
 									"bulletin_message": {
-										"00": "Ptačí poslíček se vrací s odpovědí od Mera Statnorukého.<br><br><p align='right'><font size=-6 color='#cccccc'>Dopis má na sobě stopy zobáku a je mírně poslintaný. Harold se snaží ze všech sil</font></p>"
+										"00": "Ptačí poslíček se vrací s odpovědí od Mera Statnorukého.<br><br><p align='right'><font size=-6 color='#cccccc'>Dopis má na sobě stopy zobáku, a je mírně poslintaný. Harold se snaží ze všech sil</font></p>"
 									},
 									"bulletin_title": "Ptáček se Vrací!",
 									"dialog_title": "Další Dopis!",
@@ -4994,7 +4994,7 @@
 							"dialog_nodes": {
 								"msg_final": {
 									"bulletin_message": {
-										"00": "Jakou Svatyni postavíš abys označil vzestup své Osady ke statutu Obce?<br><br><font size=-1>Svatyně Bohatství (+1 Mysl, Tělo, a Duše pro tvé obyvatele!)<br><br>Svatyně Chrabrosti (Legendární zbraně)<br><br>Svatyně Mistrovství (Odemkne výrobky Hustodémonskykrutopřísné-úrovně! Čtyřikrát víc Přitažlivější a Dražší než Vynikající-úrovně  !)</font>"
+										"00": "Jakou Svatyni postavíš abys označil vzestup své Osady ke statutu Obce?<br><br><font size=-1>Svatyně Bohatství (+1 Mysl, Tělo, a Duše pro tvé obyvatele!)<br><br>Svatyně Chrabrosti (Legendární zbraně)<br><br>Svatyně Mistrovství (Odemkne výrobky Mitrovské-úrovně! Čtyřikrát víc Přitažlivější a Dražší než Vynikající-úrovně  !)</font>"
 									},
 									"bulletin_title": "Vyber Svatyni!",
 									"dialog_title": "Vyber Svatyni!",
@@ -5006,7 +5006,7 @@
 						},
 						"guildmaster": {
 							"name": "Cechmistrova Zručnost",
-							"description": "<i>Tato Obec bude známa pro své řemeslnické úsilí a oddanost ke svím řemeslům</i><ul><li>Umožňuje vytvářet předměty Hustodémonskykrutopřísné kvality</li><li>Odemyká návody s řemeslnou tématikou</li></ul>"
+							"description": "<i>Tato Obec bude známa pro své řemeslnické úsilí a oddanost ke svím řemeslům</i><ul><li>Umožňuje vytvářet předměty Mistrovské kvality</li><li>Odemyká návody s řemeslnou tématikou</li></ul>"
 						},
 						"deity": {
 							"name": "Fontána Hojnosti",
@@ -5022,11 +5022,11 @@
 							"dialog_nodes": {
 								"msg4": {
 									"bulletin_message": {
-										"00": "Až přiště přijedu na návštěvu, vezmu tyhle lidi s sebou a nechám je hájit jejich zájmy. Rozhodnutí, rozhodnutí!<br><br>Zatím naviděnou!<br><br>Váš v Hlavním Městě,<br> Mer Satnoruký"
+										"00": "Až příště přijedu na návštěvu, vezmu tyhle lidi sebou a nechám je hájit jejich zájmy. Rozhodnutí, rozhodnutí!<br><br>Zatím naviděnou!<br><br>Váš v Hlavním Městě,<br> Mer Satnoruký"
 									},
 									"bulletin_title": "Dopis",
 									"dialog_title": "Dopis",
-									"choice_000": "Zatím naviděnou, Mer"
+									"choice_000": "Zatím naviděnou, Mere"
 								},
 								"msg2": {
 									"bulletin_message": {
@@ -5038,7 +5038,7 @@
 								},
 								"msg3": {
 									"bulletin_message": {
-										"00": "Jak asi víte, každé osídlení tradičně potřebuje mít svůj Patronát, aby se stalo pravou Obcí - obecně od cechu, duchovenstva, nebo armády.<br><br>Během několika posledních dní mě navštívilo několik osob, které se <i>velmi</i> zajímají o to, aby se mohli podívat na vaše město na vlastní oči, a aby zjistili jestli by si měl zájem, aby se staly tvými Patrony."
+										"00": "Jak asi víte, každé osídlení tradičně potřebuje mít svůj Patronát, aby se stalo pravou Obcí - obecně od cechu, duchovenstva, nebo armády.<br><br>Během několika posledních dní, mě navštívilo několik osob, které se <i>velmi</i> zajímají o to, aby se mohli podívat na vaše město sami na vlastní oči, a aby zjistili, jestli by si měl zájem, aby se staly tvými Patrony."
 									},
 									"bulletin_title": "Dopis",
 									"dialog_title": "Dopis",
@@ -5046,7 +5046,7 @@
 								},
 								"msg1": {
 									"bulletin_message": {
-										"00": "Vypadá to, že už se nám Mer zase ozívá!"
+										"00": "Vypadá to, že už se nám Mer zase ozývá!"
 									},
 									"bulletin_title": "Zase Ten Divný Pták!",
 									"dialog_title": "Další Dopis!",
@@ -5060,7 +5060,7 @@
 							"dialog_nodes": {
 								"read_letter3": {
 									"bulletin_message": {
-										"00": "Mějte na paměti vizi toho, čím jednou bude vaše Město. Váš Prapor sice tento směr nastaví, ale bude na vás aby jste to dotáhli do konce<p>Vyberteš si dobře, moji přátelé. Netrpělivě očekávám vaší odpověď.</p><br><p>Váš,</p><p> Mer Statnoruký</p>"
+										"00": "Mějte na paměti vizi toho, čím jednou bude vaše Město. Váš Prapor sice tento směr nastaví, ale bude na vás aby jste to dotáhli do konce<p>Vyberte si dobře, moji přátelé. Netrpělivě očekávám vaší odpověď.</p><br><p>Váš,</p><p> Mer Statnoruký</p>"
 									},
 									"bulletin_title": "Dopis Pokračuje",
 									"dialog_title": "Dopis Pokračuje",
@@ -5077,7 +5077,7 @@
 								},
 								"read_letter": {
 									"bulletin_message": {
-										"00": "Drahá Vypravo [str(i18n_data.town_serial_number)],<p>Doufém, že vás tento dopis zastihne v pořádku. Podle mého odhadu, jste pravděpodobně už založili kemp.</p><p>Jako vaší Hlavní Spojce je mi ctí předsedat, vzdáleně, oficiálnímu Založení vaší Základny! Věřím, že jste během cesty měli dostatek času, aby jste si vybrali jméno.</p>"
+										"00": "Drahá Výpravo [str(i18n_data.town_serial_number)],<p>Doufém, že vás tento dopis zastihne v pořádku. Podle mého odhadu, jste pravděpodobně už založili kemp.</p><p>Jako vaší Hlavní Spojce, je mi ctí předsedat, vzdáleně, oficiálnímu Založení vaší Výspy! Věřím, že jste během cesty měli dostatek času, aby jste si vybrali jméno.</p>"
 									},
 									"bulletin_title": "Dopis z Hlavního Města!",
 									"dialog_title": "Dopis z Hlavního Města!",
@@ -5085,7 +5085,7 @@
 								},
 								"read_letter2": {
 									"bulletin_message": {
-										"00": "Jak víte, každé nové osídlení si musí vybrat Prapor.<p>Tento Prapor odráží váš charakter a vizi - spojující článek, který dal dohromady tuto Výpravu!</p><p>Jakou budoucnost jste předvidali, když jste vyrazili na cestu za statutem Obce?</p> "
+										"00": "Jak víte, každé nové osídlení si musí vybrat Prapor.<p>Tento Prapor odráží vaší podstatu a vizi, spojující článek, který svedl tuto Výpravu dohromady!</p><p>Jakou budoucnost jste předvídali, když jste vyrazili na cestu za statutem Obce?</p> "
 									},
 									"bulletin_title": "Dopis Pokračuje",
 									"dialog_title": "Dopis Pokračuje...",
@@ -5113,7 +5113,7 @@
 							"dialog_nodes": {
 								"simple_message": {
 									"bulletin_message": {
-										"00": "Nejsi si jistý, jaktože sis toho předtím nevšiml, ale ptáček má na sobě batůžek.<br><br>Obsahuje lístek, na kterém stojí <i>\"Něco malého na pomoc s oslavou\"</i> společně s:"
+										"00": "Nejsi si jistý, jak sis toho mohl předtím nevšimnout, ale ptáček má na sobě batůžek.<br><br>Obsahuje lístek, na kterém stojí <i>\"Něco malého na pomoc ti slavit\"</i> společně s:"
 									},
 									"bulletin_title": "Ptáček Skřehotá",
 									"dialog_title": "Batůžek",
@@ -5125,7 +5125,7 @@
 					"hearth_choice": {
 						"glory": {
 							"name": "Hearth Slávy",
-							"description": "<i>Důkaz, že máš vojenskou sílu, a že jsi připraven postarat se o to aby ti zůstala .</i><ul><li>Umožňuje přivolat nepřátelé s narůstající obtížnosti, abys prokázal svého bojového ducha</li><li>Každá poražená kategorie zvýší tvoje celkové jmění v Denní Aktualizaci</li></ul>"
+							"description": "<i>Důkaz, že máš vojenskou sílu, a že jsi připraven se postarat jí udržet na svých nohách.</i><ul><li>Umožňuje přivolat nepřátelé s narůstající obtížnosti, abys prokázal svého bojového ducha</li><li>Každá poražená řada zvýší tvoje celkové jmění v Denní Aktualizaci</li></ul>"
 						},
 						"makers": {
 							"name": "Hearth Tvůrců",
@@ -5133,7 +5133,7 @@
 						},
 						"cheer": {
 							"name": "Hearth Radosti",
-							"description": "<i>Důkaz, že máš šťastné, dobře živené obyvatele, s příjemnými místy k bydlení.</i><ul><li>Zvýší tvoje celkové jmění v Denní Aktualizaci podle celkové Nálady tvých obyvatel</li><li>Každý den přinese náhodné požehnání všem ve tvém městě.</li></ul>"
+							"description": "<i>Důkaz, že máš šťastné, dobře najezené obyvatele, s hezkými místy pro ně k bydlení.</i><ul><li>Zvýší tvoje celkové jmění v Denní Aktualizaci podle celkové Nálady tvých obyvatel</li><li>Každý den přinese náhodné požehnání pro všechny tvé obyvatele.</li></ul>"
 						}
 					},
 					"shrine_quest_deity": {
@@ -5176,15 +5176,15 @@
 									"bulletin_message": {
 										"00": "To volá po oslavě!"
 									},
-									"bulletin_title": "Dokázali jste to!",
+									"bulletin_title": "Dokázali jsme to!",
 									"dialog_title": "Titán Je Přemožen",
-									"choice_000": "Jo!"
+									"choice_000": "Jó!"
 								},
 								"msg1": {
 									"bulletin_message": {
-										"00": "S děsivým řevem a ohromným výbuchem energie se Titánův zjev rozpadl v prach a zmizel do nicoty.<br><br>Jak šero odchází, tvoji obyvatelé obdivují jasné nebe které se nad nimi prodírá z mraků, a samotná země  vypadá, že vydechla úlevou, jak se zákony přírody znovu vrací do normálu"
+										"00": "S děsivým řevem a ohromujícím výbuchem energie, se Titánův zjev rozpadá v prach, miznoucí do nicoty.<br><br>Jak šero vybledá, tvoji obyvatelé obdivují jasné nebe které se nad nimi prodírá z mraků, a samotná země vypadá, že vydechla úlevou, jak se zákony přírody znovu vrací do normálu."
 									},
-									"bulletin_title": "Dokázali jste to!",
+									"bulletin_title": "Dokázali jsme to!",
 									"dialog_title": "Titán Je Přemožen",
 									"choice_000": "Uf."
 								}
@@ -5192,19 +5192,19 @@
 						}
 					},
 					"alert_destroy_crops": {
-						"title": "Pohroma! Přišli jsme o nějaká plodiny..."
+						"title": "Sněť! Přišli jsme o nějaké plodiny..."
 					},
 					"alert_initial_spawn_roots": {
-						"title": "Titán má Kořeny všude všude pod přízračnými chapadly. Vykopej je abys zranil Titána!"
+						"title": "Titán má Kořeny všude, pod přízračnými chapadly. Vykopej je abys zranil Titána!"
 					},
 					"alert_spawn_camp": {
 						"title": "Nový Portál se otevírá, hlídaný Zkaženými"
 					},
 					"alert_spawn_roots": {
-						"title": "Další Kořeny zkázy se zahrabábají. Kopej dolů a vem si na ně sekeru!"
+						"title": "Další Kořeny zkázy se zahrabávají. Kopej dolů a vem si na ně sekeru!"
 					},
 					"alert_wave": {
-						"title": "Bouře čístého zla se vyhrnula z Titána! Ukryj se!"
+						"title": "Bouře čístého zla vybuchuje z Titána! Ukryj se!"
 					},
 					"spawn_raid": {
 						"mission": {
@@ -5214,7 +5214,7 @@
 						}
 					},
 					"alert_destroy_building": {
-						"title": "Chapadlo ohrožuje stavbu! Rychle ho zabij!"
+						"title": "Chapadlo ohrožuje stavbu! Zabij ho, rychle!"
 					},
 					"alert_building_was_destroyed": {
 						"title": "Jedna z našich budov byla zničena! Přišli jsme příliš pozdě..."
@@ -5223,7 +5223,7 @@
 						"title": "[name(i18n_data.entity)] chytlo chapadlo! Osvoboď je!"
 					},
 					"alert_initial_camp_spawn": {
-						"title": "Portály! Budou neustále plodit lezoucí hmyzáky dokud je nezničíš. Ale dávej si pozor na jejich Zkažené strážce."
+						"title": "Portály! Budou neustále plodit lezoucí hmyzáky dokud je nezničíš, ale dávej si pozor na jejich Zkažené strážce."
 					},
 					"alert_new_bugs": {
 						"title": "Lezci budou pokračovat ve vynořování se z protálů, hladoví po tvých zásobách."
@@ -5244,7 +5244,7 @@
 											"dialog_nodes": {
 												"greet": {
 													"bulletin_message": {
-														"00": "\"Znovu ahoj, moji přátelé z Opičího Rodu! Doufám, že vás tento ten narazi .<br><br>Honorable Humans, I... have a confession to make.\""
+														"00": "\"Znovu ahoj, moji přátelé z Opičího Rodu! Doufám, že vás tento den najde v míru.<br><br>Čestní lidé, já... mám přiznání, které musím učinit.\""
 													},
 													"bulletin_title": "Saša z Jantarového Klanu se vrací!",
 													"dialog_title": "Saša, Vyslanec Jantarového Klanu",
@@ -5252,15 +5252,15 @@
 												},
 												"intro": {
 													"bulletin_message": {
-														"00": "\"Když jsem k vám poprvé přišel, doufal jsem, že byste mohli být... pro nás užiteční.\" říká rozpačitě se sklopenýma ušima. \"Titán číhající pod vaším městem hrozil mému lidu po generace. Ve vašem městě jsem uviděl jiskru naděje, že se možná osvodbodíme od jeho břímě.<br><br>Omlouvám se, že jsem předtím nebyl více otevřený ohledně svých motivů. Doufám, že mi můžete odpustit.\""
+														"00": "\"Když jsem k vám poprvé přišel, bylo to v naději, že byste mohli být... pro nás užiteční.\" říká rozpačitě se sklopenýma ušima. \"Titán číhající pod vaším městem hrozil mému lidu po generace. Ve vašem městě jsem uviděl jiskru naděje, že by jsme se mohli osvodbodit od jeho břímě.<br><br>Omlouvám se, že jsem předtím nebyl více otevřený ohledně svých motivů. Doufám, že mi můžete odpustit.\""
 													},
 													"bulletin_title": "Saša pokračuje, rozpačitě",
 													"dialog_title": "Saša, Vyslanec Jantarového Klanu",
-													"choice_000": "Och... nedělej si s tím starosti!"
+													"choice_000": "Och... nedělej si s tím starosti!."
 												},
 												"story1": {
 													"bulletin_message": {
-														"00": "\"Musím přiznat, že vaše město předčilo moje nejdivočejší představy - to že jste dokázali porazit nepřítele takové velikosti jen vlastními silami.<br><br>Ale nejen to - moji lidé a i já jsme si vás také nad očekávání oblíbili\" přiznává a usmívá se. \"Byli jste pro nás věrnými spojenci, a hodně jsme se jedni od druhých naučili. Doufám, že naše dvě nory mohou pokračovat v tomto rodícím se přátelství.\""
+														"00": "\"Musím přiznat, že vaše město předčilo moje nejdivočejší představy, to že jste dokázali porazit nepřítele takové velikosti jen vlastními silami.<br><br>Ale nejen to - moji lidé a i já jsme si vás také nad očekávání oblíbili\" přiznává, a usmívá se. \"Byli jste pro nás věrnými spojenci, a hodně jsme se navzájem naučili. Doufám, že naše dvě nory mohou pokračovat v tomto rašícím se přátelství.\""
 													},
 													"bulletin_title": "Saša pokračuje, rozpačitě",
 													"dialog_title": "Saša, Vyslanec Jantarového Klanu",
@@ -5268,11 +5268,11 @@
 												},
 												"story2": {
 													"bulletin_message": {
-														"00": "Sašovi se viditělně ulevilo. \"To rád slyším! Prozatím vás opustím, ale zase se tu zastavím! Ještě jednou, gratuluji k vyčištění vaší země od Titánovi pohromy, není to něco co by se dělalo snadno. Sbohem!\""
+														"00": "Sašovi se viditělně ulevilo. \"To rád slyším! Prozatím vás opustím, ale zase se tu stavím! Ještě jednou, gratuluji k vyčištění vaší země od Titánovy pohromy, není to něco co by se dělalo snadno. Sbohem!\""
 													},
 													"bulletin_title": "Saša se usmívá",
 													"dialog_title": "Saša, Vyslanec Jantarového Klanu",
-													"choice_000": "Ahoj!"
+													"choice_000": "Sbohem!"
 												}
 											}
 										}
@@ -5290,10 +5290,10 @@
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "\"Arbalest vypadá že je v funkční formě. Není to krása? Jak se třpytí?\"<br><br>Potřese halvou aby si pročistil myšlenky. \"Teď není čas na ropztýlení. Teď když stojí, jediné co zbývá, je aktivovat ho a vyvolat Titána. Jakmile se to stane, bude na nás abychom zajistili, že se nabíjí, ale vyzvu tebe abys doopravdy vystřelil. Je to tvoje město, takže to tak bude správně\"<br><br>\"Titána vyvolejte pouze když budete připraveni na obležení. Nebude to jednoduché a on nebude přívětivý.\""
+														"00": "\"Arbalest vypadá že je ve funkční formě. Není to krása? Jak se třpytí?\"<br><br>Potřese hlavou aby si pročistil myšlenky. \"Teď není čas na ropztýlení. Teď když stojí, jediné co zbývá, je aktivovat ho a zavolat Titána. Jakmile se to stane, bude na nás abychom zajistili, že se nabíjí, ale vyzvu tebe abys doopravdy vystřelil. Je to tvoje město, takže to tak bude správně\"<br><br>\"Titána vyvolejte pouze když budete připraveni na obležení. Nebude to jednoduché, a on nebude přívětivý.\""
 													},
 													"bulletin_title": "Saša obdivuje Arbalest",
-													"dialog_title": "TKTK Sasha Something",
+													"dialog_title": "TKTK Saša Něco",
 													"choice_000": "Přežijeme."
 												}
 											}
@@ -5312,11 +5312,11 @@
 												},
 												"request1": {
 													"bulletin_message": {
-														"00": "\"Popravdě teď, když zlo odešlo, mělo by tu, tady nahoře nad zemí, být dostatečné množství magické energie Hearthu pro obživu Lapines. Dokud necháš tento monument stát, očekávej, že čas od času se někteří z nás zeptají zda sem nemohou imigrovat.\""
+														"00": "\"Popravdě teď, když zlo pomynulo, mělo by tady nahoře nad zemí být dostatečné množství magické energie Hearthu pro obživu Lapiny. Dokud necháš tento monument stát, očekávej, že z času na čas se někteří z nás zeptají zda se sem nemohou přistěhovat.\""
 													},
 													"bulletin_title": "Saša nabízí",
 													"dialog_title": "Sašova nabídka",
-													"choice_000": "TKTK Response"
+													"choice_000": "TKTK Odezva"
 												},
 												"accept1": {
 													"bulletin_message": {
@@ -5329,45 +5329,45 @@
 												},
 												"greet": {
 													"bulletin_message": {
-														"00": "\"By the stars! By the Divines! You did it! We did it! Did you see the look on his face as he imploded? Kapowww!\" Sasha says, with excitement you've never seen from him before."
+														"00": "\"U všech hvězd! U všech Bohů! Tys to dokázal! My jsme to dokázali! Vyděl jsi ten výraz na jeho tváři když implodoval? Kapffff!\" Saša povídá, se vzrušením, jaké si od něj nikdy předtím neviděl."
 													},
-													"bulletin_title": "Sasha leaps into the air, joyous!",
-													"dialog_title": "Sasha, ecstatic",
-													"choice_000": "We did!"
+													"bulletin_title": "Saša vyskakuje do vzduchu, plný radosti!",
+													"dialog_title": "Saša, extaticky",
+													"choice_000": "Dokázali!"
 												},
 												"reject1": {
 													"bulletin_message": {
-														"00": "\"Oh, I see - it's not my place to decide, so I'll respect your wishes.\"<br><br>\"Now, I suppose that's all the business - let's enjoy the celebrations!\""
+														"00": "\"Óch, chápu - není na mém místě rozhodovat, takže budu respektovat vaše přání.\"<br><br>\"Teď, předpokládám, že to jsou všechny záležitosti - pojďme si užít oslavy!\""
 													},
-													"bulletin_title": "Sasha continues",
-													"dialog_title": "Sasha, Envoy of Clan Amberstone",
-													"choice_000": "[Reject] We're quite sure",
-													"choice_001": "[Accept] On second thought..."
+													"bulletin_title": "Saša pokračuje",
+													"dialog_title": "Saša, Vyslanec Jantarového Klanu",
+													"choice_000": "[Odmítnout] Jsme si docela jistí",
+													"choice_001": "[Přijmout] Na druhou stranu..."
 												},
 												"request2": {
 													"bulletin_message": {
-														"00": "\"Also... the Geomancer who worked most closely on the Arbalest, who made it happen at all, has expressed to me a desire to stay here beside it, among the people who defended it. I think they've earned their place here, but that's not for me to decide.\"<br><br>\"What do you say, would you like this Rabbit Geomancer to join your town?\""
+														"00": "\"Také... Geomancer který pracoval nejblíže na Arbalestě, který to vůbec dokázal, mně vyjádřil touhu zůstat tady vedle toho, mezi lidmi, kteří to obraňovali. Myslím, že si zasloužil jejich místo zde, ale to není na mně rozhodnout.\"<br><br>\"Co říkáš, chtěl bys tohohle Králičího Geomancera aby se přidal do tvého města?\""
 													},
-													"bulletin_title": "Sasha continues",
-													"dialog_title": "Sasha gestures",
-													"choice_000": "I see!"
+													"bulletin_title": "Saša pokračuje",
+													"dialog_title": "Saša gestikuluje",
+													"choice_000": "Chápu!"
 												},
 												"request3": {
 													"bulletin_message": {
 														"00": "<TKTK Request 3>"
 													},
-													"bulletin_title": "Sasha continues",
-													"dialog_title": "Sasha extends her hand",
-													"choice_000": "Welcome!",
-													"choice_001": "Um, no thanks..."
+													"bulletin_title": "Saša pokračuje",
+													"dialog_title": "Saša natahuje svou ruku",
+													"choice_000": "Vítej!",
+													"choice_001": "Eh, né díky..."
 												},
 												"intro": {
 													"bulletin_message": {
-														"00": "Sasha stops, holding his knees and panting slightly. \"Whew... oh... look, over at the Arbalest! It seems... its job is done, and now it's gone dormant. Let's have it serve as a monument, a memorial, to what the friendship of our two clans could achieve!\""
+														"00": "Saša zastavuje, držící se za svá kolena a zlehka lapající po dechu. \"Uf... óch... koukněte, na ten Arbalest! Vypadá... že dosloužil, a teď nečinně usnul. Ponechejme ho sloužící jako monument, pamětník, jaké přátelství dvou klanů můžeme dosáhnout!\""
 													},
-													"bulletin_title": "Sasha continues",
-													"dialog_title": "Sasha, Envoy of Clan Amberstone",
-													"choice_000": "I'm glad we could do some good"
+													"bulletin_title": "Saša pokračuje",
+													"dialog_title": "Saša, Vyslanec Jantarového Klanu",
+													"choice_000": "Jsem rád, že jsme udělali něco dobrého"
 												}
 											}
 										}
@@ -5377,21 +5377,21 @@
 											"dialog_nodes": {
 												"msg1": {
 													"bulletin_message": {
-														"00": "Would you like to let this Rabbit to join your town? <br><br><i><font size=-1>[They're surprisingly fast for their low Body!]</font></i>"
+														"00": "Chtěl bys aby se tento Králík přidal ke tvému městu? <br><br><i><font size=-1>[Je překvapivě rychlý navzdory jeho nízké vlastnosti Těla!]</font></i>"
 													},
-													"bulletin_title": "A Rabbit immigrant!",
-													"dialog_title": "A member of Clan Amberstone wishes to join your town!",
-													"choice_000": "Yes",
-													"choice_001": "No"
+													"bulletin_title": "Králičí přistěhovalec!",
+													"dialog_title": "Člen Jantarového Klanu si přeje se připojit do tvého města!",
+													"choice_000": "Ano",
+													"choice_001": "Ne"
 												}
 											}
 										}
 									},
 									"grant_recurring_bun_citizen": {
-										"notification_title": "A new Rabbit citizen has joined your town!"
+										"notification_title": "Nový Králičí osadník se připojil ke tvému městu!"
 									},
 									"grant_bun_citizen": {
-										"notification_title": "Sasha's disciple has joined your town!"
+										"notification_title": "Sašův učedník se připojil ke tvému městu!"
 									},
 									"00_sighting": {
 										"00_sighting_intro": {
@@ -5399,13 +5399,13 @@
 												"dialog_nodes": {
 													"msg1": {
 														"bulletin_message": {
-															"00": "This sounds crazy, but I swear I saw an oversized pair of rabbit ears poking out from behind a bush for a second on my way here.<br><br>Reminds me of the old tales about rabbit-people. You don't think..."
+															"00": "Zní to šíleně, ale přísahám že jsem viděl pár přerostlých králičích uší čouhající ven spoza keře na vteřinu při mé cestě sem.<br><br>Připomíná mi to příběhy o králičích-lidech. Nemyslíš..."
 														},
-														"bulletin_title": "A confused-looking traveller",
-														"dialog_title": "A Confused Traveller",
-														"choice_000": "Huh! Maybe we should put some carrots out...",
-														"choice_000b": "Huh! Maybe we should put some vegetables out...",
-														"choice_001": "[Ignore] Nah, was just your imagination."
+														"bulletin_title": "Zmateně-koukající Cestovatel",
+														"dialog_title": "Zmatený Cestovatel",
+														"choice_000": "Hmm! Možná bychom měli vytáhnout nějaké mrkve...",
+														"choice_000b": "Hmm! Možná bychom měli vytáhnout nějakou zeleninu...",
+														"choice_001": "[Ignorovat] Nope, to byla jenom tvá představivost."
 													}
 												}
 											}
@@ -5415,11 +5415,11 @@
 												"dialog_nodes": {
 													"msg1": {
 														"bulletin_message": {
-															"00": "We left those carrots out overnight, and in the morning they were gone... along with the baskets.<br/><br/> Strange..."
+															"00": "Nechali sme ty mrkve přes noc venku, a ráno byli pryč... i společně s košíky.<br/><br/> Zvláštní..."
 														},
-														"bulletin_title": "Missing Carrots!",
-														"dialog_title": "Missing Carrots",
-														"choice_000": "OK"
+														"bulletin_title": "Chybějící mrkve!",
+														"dialog_title": "Chybějící Mrkve",
+														"choice_000": "Oukej"
 													}
 												}
 											}
@@ -5429,11 +5429,11 @@
 												"dialog_nodes": {
 													"msg1": {
 														"bulletin_message": {
-															"00": "We left those veggies out overnight, and in the morning they were gone... along with the baskets.<br/><br/> Strange..."
+															"00": "Nechali sme tu zeleninu přes noc venku, a ráno byla pryč... i společně s košíky.<br/><br/> Zvláštní..."
 														},
-														"bulletin_title": "Missing Veggies!",
-														"dialog_title": "Missing Veggies",
-														"choice_000": "OK"
+														"bulletin_title": "Chybějící Zelenina!",
+														"dialog_title": "Chybějící Zelenina",
+														"choice_000": "Oukej"
 													}
 												}
 											}
@@ -5443,11 +5443,11 @@
 												"dialog_nodes": {
 													"msg1": {
 														"bulletin_message": {
-															"00": "We'll leave the veggies out past the edge of town overnight. Wonder if they'll still be there in the morning..."
+															"00": "Necháme zeleninu za hranicí města přes noc. Zajímalo by mě, jestli tam stále budou i ráno..."
 														},
-														"bulletin_title": "Now We Wait",
-														"dialog_title": "Now We Wait",
-														"choice_000": "OK"
+														"bulletin_title": "Teď Počkáme",
+														"dialog_title": "Teď Počkáme",
+														"choice_000": "Oukej"
 													}
 												}
 											}
@@ -5457,24 +5457,24 @@
 												"dialog_nodes": {
 													"msg1": {
 														"bulletin_message": {
-															"00": "We'll leave the carrots out past the edge of town overnight. Wonder if they'll still be there in the morning..."
+															"00": "Necháme mrkve za hranicí města přes noc. Zajímalo by mě, jestli tam stále budou i ráno..."
 														},
-														"bulletin_title": "Now We Wait",
-														"dialog_title": "Now We Wait",
-														"choice_000": "OK"
+														"bulletin_title": "Teď Počkáme",
+														"dialog_title": "Teď Počkáme",
+														"choice_000": "Oukej"
 													}
 												}
 											}
 										},
 										"00b_sighting_quest": {
-											"title": "Veggies for a maybe-Rabbit",
-											"dialog_title": "Put out some vegetables!",
-											"text": "Let's leave some vegetables out overnight, just in case."
+											"title": "Zelenina pro možná-Králiky",
+											"dialog_title": "Vytáhněte nějakou zeleninu!",
+											"text": "Nechme nějakou zeleninu venku přes noc, jen tak pro případ."
 										},
 										"00_sighting_quest": {
-											"title": "Carrots for a maybe-Rabbit",
-											"dialog_title": "Put out some carrots!",
-											"text": "Let's leave some carrots out overnight, just in case."
+											"title": "Mrkve pro možná-Králiky",
+											"dialog_title": "Vytáhněte nějaké mrkve!",
+											"text": "Nechme nějaké mrkve venku přes noc, jen tak pro případ."
 										}
 									},
 									"14_chase_scene": {
@@ -5483,45 +5483,45 @@
 												"dialog_nodes": {
 													"heal": {
 														"bulletin_message": {
-															"00": "\"Thank you! I think I lost them, so we should have some time.\""
+															"00": "\"Děkuju ti! Myslím, že jsem je setřásl, takže by jsme měli mít trochu času.\""
 														},
-														"bulletin_title": "An Injured Rabbit",
-														"dialog_title": "An Injured Rabbit",
-														"choice_000": "Let us get some supplies together."
+														"bulletin_title": "Zraněný Králík",
+														"dialog_title": "Zraněný Králík",
+														"choice_000": "Nech nás vzít společně nějaké zásoby."
 													},
 													"fight": {
 														"bulletin_message": {
-															"00": "\"Thank you! I'll lead them here, make sure you're ready for them!\""
+															"00": "\"Děkuju ti! Nalákám je sem, ujistěte se, že jste na ně připraveni!\""
 														},
-														"bulletin_title": "An Injured Rabbit",
-														"dialog_title": "An Injured Rabbit",
-														"choice_000": "We're ready!"
+														"bulletin_title": "Zraněný Králík",
+														"dialog_title": "Zraněný Králík",
+														"choice_000": "Jsme připraveni!"
 													},
 													"leave": {
 														"bulletin_message": {
-															"00": "\"I understand. I haven't heard any howling in a while, I think your human odors might have thrown them off. I'll make a break for it, the long way around...\""
+															"00": "\"Chápu. Neslyšel jsem žádné vytí na chvíli, Myslím, že váš lidský pach je mohl zahnat pryč. Půjdu prorazit skrz, dlouhou oklikou...\""
 														},
-														"bulletin_title": "An Injured Rabbit",
-														"dialog_title": "An Injured Rabbit",
-														"choice_000": "Good luck!"
+														"bulletin_title": "Zraněný Králík",
+														"dialog_title": "Zraněný Králík",
+														"choice_000": "Hodně štěstí!"
 													},
 													"msg2": {
 														"bulletin_message": {
-															"00": "\"Thank goodness, I have nowhere else to turn. I'll hide somewhere, let me know when you're ready.\""
+															"00": "\"Díky bohům, neměl jsem se kam jinam obrátit. Někam se ukryju, dejte mi vědět až budete připraveni.\""
 														},
-														"bulletin_title": "Chase Scene",
-														"dialog_title": "A Wounded Rabbit",
-														"choice_000": "OK"
+														"bulletin_title": "Scéna Honičky",
+														"dialog_title": "Zraněný Králík",
+														"choice_000": "Oukej"
 													},
 													"msg1": {
 														"bulletin_message": {
-															"00": "A wounded rabbit limps into town, panting. \"Help! Aid! I was scouting and was caught out by a group of kobolds. I made it this far, but I'm hurt and I think their wolves are tracking me...\""
+															"00": "Zraněný králík kulhá do města, lapající po dechu. \"Pomóc! Pomóc! Hlídkoval jsem a byl jsem chycen skupinou koboldů. Dostal jsem se až sem, ale jsem zraněný a myslím že jejich vlci mě stopují...\""
 														},
-														"bulletin_title": "Chase Scene",
-														"dialog_title": "A Wounded Rabbit",
-														"choice_000": "Stay and rest. We'll protect you.",
-														"choice_001": "We can patch you up so you can make it home.",
-														"choice_002": "I'm sorry, we can't help. Good luck"
+														"bulletin_title": "Scéna Honičky",
+														"dialog_title": "Zraněný Králík",
+														"choice_000": "Zůstaň a odpočiň si. Ochráníme tě.",
+														"choice_001": "Můžeme tě ovázat, takže to zvládneš až domů.",
+														"choice_002": "Je mi líto, nemůžeme pomoci. Hodně štěstí"
 													}
 												}
 											}
@@ -5531,19 +5531,19 @@
 												"dialog_nodes": {
 													"simple_message": {
 														"bulletin_message": {
-															"000": "\"Thanks, you truly saved me.<br><br>...so, the Kobolds <i>may</i> have been chasing me because I <i>might</i> have stolen these from them...\" the young rabbit says, bashfully.<br><br>\"Here, you've earned them.\"<br><br><font size=-1><i>[Rabbit reputation increased]</i></font>"
+															"000": "\"Díky, tys mě opravdu zachránil.<br><br>...nuž, Koboldi <i>možná</i> mě mohli pronásledovat protože já jsem jim <i>mohl</i> ukrást tohle od nich...\" říká mladý králík, ostýchavě.<br><br>\"Tady, zasloužil sis je.\"<br><br><font size=-1><i>[reputace u Králíků zvýšena]</i></font>"
 														},
-														"bulletin_title": "A Grateful Rabbit",
-														"dialog_title": "A Grateful Rabbit",
-														"choice_000": "Thanks, and be safe!"
+														"bulletin_title": "Vděčný Králík",
+														"dialog_title": "Vděčný Králík",
+														"choice_000": "Díky, a buď v bezpečí!"
 													}
 												}
 											}
 										},
 										"14_chase_scene_quest_b": {
-											"title": "Chase Scene: Heal the rabbit",
-											"dialog_title": "Heal the rabbit!",
-											"text": "Let's patch up the rabbit with some bandages and healing tonics."
+											"title": "Scéna Honičky: Vyleč Králika",
+											"dialog_title": "Vyleč Králíka!",
+											"text": "Pojďme zavázat králíka s nějakými obvazy a léčivými toniky."
 										}
 									},
 									"23_borrow_crafter": {
@@ -5551,9 +5551,9 @@
 											"dialog_tree_info": {
 												"dialog_nodes": {
 													"msg1": {
-														"bulletin_title": "Borrowed Time",
-														"choice_000": "Sure!",
-														"choice_001": "Sorry, but no."
+														"bulletin_title": "Vypůjčený Čas",
+														"choice_000": "Jistě!",
+														"choice_001": "Promiň, ale ne."
 													}
 												}
 											}
@@ -5563,10 +5563,10 @@
 												"dialog_nodes": {
 													"msg1": {
 														"bulletin_message": {
-															"00": "\"Here is your townsperson, back safe and sound! I think they found the change in scenery to be invigorating, and we certainly found them to be quite helpful!\"<br><br><font size=-1><i>[Rabbit reputation increased, and your citizen is in high spirits!]</i></font>"
+															"00": "\"Tady je tvůj měšťan, zpátky živý a zdravý! Myslím, že shledali změnu prostředí osvěžující, a že my jsme je určitě shledali docela užitečnými!\"<br><br><font size=-1><i>[reputace u Králíků zvýšena, a tvůj obyvatel je ve velice dobré náladě!]</i></font>"
 														},
-														"choice_000": "Welcome back!",
-														"bulletin_title": "Borrowed Time"
+														"choice_000": "Vítej zpátky!",
+														"bulletin_title": "Vypůjčený Čas"
 													}
 												}
 											}
@@ -5576,7 +5576,7 @@
 												"dialog_nodes": {
 													"msg1": {
 														"bulletin_message": {
-															"00": "\"We have need of an experienced Carpenter for two days, to help with bracing a tunnel and putting up new vegetable storage.\"\"<br><br>\"Would you be willing to spare someone? We will provide the supplies, and they will be an honored guest of the warren.\""
+															"00": "\"Potřebujeme zkušeného Tesaře na dva dny, aby nám pomohl s vyztužením tunelu a uvedení nového skladiště zeleniny.\"\"<br><br>\"Budeš ochotný někoho postrádat? Poskytneme zásoby, a oni budou čestným hostem králičí nory.\""
 														}
 													}
 												}
@@ -5587,7 +5587,7 @@
 												"dialog_nodes": {
 													"msg1": {
 														"bulletin_message": {
-															"00": "\"We have need of an experienced Blacksmith for two days, to help us with forging some new digging equipment.\"<br><br>\"Would you be willing to spare someone? We will provide the supplies, and they will be an honored guest of the warren.\""
+															"00": "\"Potřebujeme zkušeného Kováře na dva dny, aby nám pomohl s ukováním nějakého nového kopáčského vybavení\"<br><br>\"Budeš ochotný někoho postrádat? Poskytneme zásoby, a oni budou čestným hostem králičí nory.\""
 														}
 													}
 												}
@@ -5598,7 +5598,7 @@
 												"dialog_nodes": {
 													"msg1": {
 														"bulletin_message": {
-															"00": "\"My Herbalists would like to compare notes with one of your own for a couple of days.\"<br><br>\"Would you be willing to spare someone? We will provide the supplies, and they will be an honored guest of the warren.\""
+															"00": "\"Moji Bylinkáři by chtěli porovnat poznámky s jedním z tvých na pár dní.\"<br><br>\"Budeš ochotný někoho postrádat? Poskytneme zásoby, a oni budou čestným hostem králičí nory.\""
 														}
 													}
 												}
@@ -5609,7 +5609,7 @@
 												"dialog_nodes": {
 													"msg1": {
 														"bulletin_message": {
-															"00": "\"Dear humans, some of my clan respect the efficiency of your Trappers. Could one visit for two days, so that we might learn their methods and adapt them for our own use?\"<br><br>\"We will provide the supplies, and they will be an honored guest of the warren.\""
+															"00": "\"Drazí lidé, někteří z mého klanu respektují efektivitu tvých Traperů. Mohl by nás jeden navštívit na dva dny, aby jsem se mohli naučit jejich metody a přizpůsobit je pro naše vlastní užití?\"<br><br>\"Poskytneme zásoby, a oni budou čestným hostem králičí nory.\""
 														}
 													}
 												}
@@ -5620,7 +5620,7 @@
 												"dialog_nodes": {
 													"msg1": {
 														"bulletin_message": {
-															"00": "\"Would you be willing to send one of your experienced Cooks as a liaison for two days? We would love to learn more about human cuisine.\"<br><br>\" We will provide the supplies, and they will be an honored guest of the warren.\""
+															"00": "\"Budeš ochotný poslat jednoho z tvých zkušených Kuchařů jako spojku na dva dny? Velice rádi bychom se naučili více z lidské kuchyně.\"<br><br>\" Poskytneme zásoby, a oni budou čestným hostem králičí nory.\""
 														}
 													}
 												}
@@ -5631,7 +5631,7 @@
 												"dialog_nodes": {
 													"msg1": {
 														"bulletin_message": {
-															"00": "\"We have need of an experienced Weaver for two days, to help us understand this 'loom' contraption of theirs.\"<br><br>\"Would you be willing to spare someone? We will provide the supplies, and they will be an honored guest of the warren.\""
+															"00": "\"Potřebujeme zkušeného Tkalce na dva dny, aby nám pomohl porozumět tomuto jejich 'tkalcovskému' zařízení.\"<br><br>\"Budeš ochotný někoho postrádat? Poskytneme zásoby, a oni budou čestným hostem králičí nory.\""
 														}
 													}
 												}
@@ -5642,7 +5642,7 @@
 												"dialog_nodes": {
 													"msg1": {
 														"bulletin_message": {
-															"00": "\"Dear friends, I would like to request two days of an experienced Potter's time. My clan has focused on Masonry for so long that we would benefit from a Potter's instruction.\"<br><br>\"Would you be willing to spare someone? We will provide the supplies, and they will be an honored guest of the warren.\""
+															"00": "\"Drazí přátelé, chtěl bych požádat na dva dny o čas zkušeného Hrnčíře. Můj klan se soustředil na Kamenictví tak dlouho, že bychom mohli mít prospěch z Hrnčířových instrukcí.\"<br><br>\"Budeš ochotný někoho postrádat? Poskytneme zásoby, a oni budou čestným hostem králičí nory.\""
 														}
 													}
 												}
@@ -5653,7 +5653,7 @@
 												"dialog_nodes": {
 													"msg1": {
 														"bulletin_message": {
-															"00": "\"We have need of someone with Engineering skills for around two days to help us trap a tunnel that goblins have discovered and we cannot afford to collapse.\"<br><br>\"Would you be willing to spare someone? We will provide the supplies, and they will be an honored guest of the warren.\""
+															"00": "\"Potřebujeme někoho s Inženýrskými dovednostmi asi tak na dva dny, aaby nám pomohl zapastit tunel, který objevili goblini a nemůžeme si dovolit ho zasypat\"<br><br>\"\"Budeš ochotný někoho postrádat? Poskytneme zásoby, a oni budou čestným hostem králičí nory.\""
 														}
 													}
 												}
@@ -5664,56 +5664,56 @@
 												"dialog_nodes": {
 													"msg1": {
 														"bulletin_message": {
-															"00": "\"Some of my clan are starting to experiment with aboveground farming, and would benefit greatly from consult with your expert Farmers.\"<br><br>\"Would you be willing to spare someone for a couple of days? We will provide the supplies, and they will be an honored guest of the warren.\""
+															"00": "\"Nekteří z mého klanu začali experimentovat s nadzemským farmařením, a bychom mohli mít veliký prospěch z konzultace s tvými expertními Farmáři.\"<br><br>\"\"Budeš ochotný někoho postrádat na pár dní? Poskytneme zásoby, a oni budou čestným hostem králičí nory.\""
 														}
 													}
 												}
 											}
 										},
 										"borrow_quest_blacksmith": {
-											"title": "Send a Blacksmith",
-											"dialog_title": "Send a Blacksmith",
-											"text": "Select a Blacksmith (Level 3+) to help Clan Amberstone."
+											"title": "Pošli Kováře",
+											"dialog_title": "Pošli Kováře",
+											"text": "Vyber Kováře (Úroveň 3+) aby pomohl Jantarovému Klanu."
 										},
 										"borrow_quest_carpenter": {
-											"title": "Send a Carpenter",
-											"dialog_title": "Send a Carpenter",
-											"text": "Select a Carpenter (Level 3+) to help Clan Amberstone."
+											"title": "Pošli Tesaře",
+											"dialog_title": "Pošli Tesaře",
+											"text": "Vyber Tesaře (Úroveň 3+) aby pomohl Jantarovému Klanu."
 										},
 										"borrow_quest_cook": {
-											"title": "Send a Cook",
-											"dialog_title": "Send a Cook",
-											"text": "Select a Cook (Level 3+) to help Clan Amberstone."
+											"title": "Pošli Kuchaře",
+											"dialog_title": "Pošli Kuchaře",
+											"text": "Vyber Kuchaře (Úroveň 3+) aby pomohl Jantarovému Klanu."
 										},
 										"borrow_quest_engineer": {
-											"title": "Send an Engineer",
-											"dialog_title": "Send an Engineer",
-											"text": "Select an Engineer (Level 2+) to help Clan Amberstone."
+											"title": "Pošli Inženýra",
+											"dialog_title": "Pošli Inženýra",
+											"text": "Vyber Inženýra (Úroveň 2+) aby pomohl Jantarovému Klanu."
 										},
 										"borrow_quest_farmer": {
-											"title": "Send a Farmer",
-											"dialog_title": "Send a Farmer",
-											"text": "Select a Farmer (Level 4+) to help Clan Amberstone."
+											"title": "Pošli Farmáře",
+											"dialog_title": "Pošli Farmáře",
+											"text": "Vyber Farmáře (Úroveň 4+) aby pomohl Jantarovému Klanu."
 										},
 										"borrow_quest_herbalist": {
-											"title": "Send an Herbalist",
-											"dialog_title": "Send an Herbalist",
-											"text": "Select an Herbalist (Level 3+) to help Clan Amberstone."
+											"title": "Pošli Bylinkáře",
+											"dialog_title": "Pošli Bylinkáře",
+											"text": "Vyber Bylinkáře (Úroveň 3+) aby pomohl Jantarovému Klanu."
 										},
 										"borrow_quest_potter": {
-											"title": "Send a Potter",
-											"dialog_title": "Send a Potter",
-											"text": "Select a Potter (Level 3+) to help Clan Amberstone."
+											"title": "Pošli Hrnčíře",
+											"dialog_title": "Pošli Hrnčíře",
+											"text": "Vyber Hrnčíře (Úroveň 3+) aby pomohl Jantarovému Klanu."
 										},
 										"borrow_quest_trapper": {
-											"title": "Send a Trapper",
-											"dialog_title": "Send a Trapper",
-											"text": "Select a Trapper (Level 3+) to help Clan Amberstone."
+											"title": "Pošli Trapera",
+											"dialog_title": "Pošli Trapera",
+											"text": "Vyber Trapera (Úroveň 3+) aby pomohl Jantarovému Klanu."
 										},
 										"borrow_quest_weaver": {
-											"title": "Send a Weaver",
-											"dialog_title": "Send a Weaver",
-											"text": "Select a Weaver (Level 3+) to help Clan Amberstone."
+											"title": "Pošli Tkalce",
+											"dialog_title": "Pošli Tkalce",
+											"text": "Vyber Tkalce (Úroveň 3+) aby pomohl Jantarovému Klanu."
 										}
 									},
 									"30_geomancy": {
