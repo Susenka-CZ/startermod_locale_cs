@@ -2588,8 +2588,8 @@
 					},
 					"returning_trader_encounter": {
 						"title": "Do tvého města přijel obchodník.",
-						"days": " dní/y",
-						"hours": " hodin/y",
+						"days": "dní/y",
+						"hours": "hodin/y",
 						"trade_details": "Zdravím [str(i18n_data.town_name)]! Jenom tudy procházím, ale byl bych ochotný uzavřít obchod nebo dva, pokud máte zájem. Když mi vyrobíte <strong>[str(i18n_data.want_number)]x [str(i18n_data.want_item)]</strong>, tak budu zpět za [str(i18n_data.num_days)] dní/y a snad bych pro vás zato mohl získat <strong>[str(i18n_data.reward_number)]x [str(i18n_data.reward_item)]</strong> výměnou. Zní dobře?",
 						"waiting_title": "Obchodník bude zpátky za [str(i18n_data.hour_counter)] [str(i18n_data.period)]!",
 						"waiting_text": "Obchodník bude zpátky za [str(i18n_data.hour_counter)] [str(i18n_data.period)], aby ti dal <strong>[str(i18n_data.reward_number)]x [str(i18n_data.reward_item)]</strong>, pokud pro něj budeš mít připravené <strong>[str(i18n_data.want_number)]x [str(i18n_data.want_item)]</strong>!",
@@ -5855,7 +5855,7 @@
 														},
 														"bulletin_title": "Podivné Obchodování",
 														"dialog_title": "Podivné Obchodování",
-														"choice_000": "Huh."
+														"choice_000": "Ech."
 													}
 												}
 											}
@@ -6007,7 +6007,7 @@
 															"002": "\"I am not here on official business this time - a relative of mine heard me speak of you, and thought you might be able to use this.\"",
 															"003": "\"A small token of our appreciation of our friends of the Monkey.\" He smiles amicably and extends a paw to you, holding:"
 														},
-														"bulletin_title": "A Grateful Rabbit",
+														"bulletin_title": "Vděčný Králík",
 														"dialog_title": "Saša Lehkonoha",
 														"choice_000": "Oh, thanks!"
 													}
@@ -6155,7 +6155,7 @@
 														},
 														"bulletin_title": "Historický Růst",
 														"choice_000": "Exciting! Our farmers would be happy to.",
-														"choice_001": "Sorry, not this time"
+														"choice_001": "Promiň, tentokrát ne"
 													}
 												}
 											}
@@ -6307,13 +6307,13 @@
 											}
 										},
 										"21_residents_reward_a_add_citizen": {
-											"notification_title": "A Rabbit Mason joins your town!"
+											"notification_title": "Králičí Kameník se přidává ke tvému městu!"
 										},
 										"21b_residents_reward_a_add_citizen": {
-											"notification_title": "A Rabbit Archer joins your town!"
+											"notification_title": "Králičí Lučištník se přidává ke tvému městu!"
 										},
 										"21c_residents_reward_a_add_citizen": {
-											"notification_title": "A Rabbit Worker joins your town!"
+											"notification_title": "Králičí Dělník se přidává ke tvému městu!"
 										},
 										"21_residents_outro_a": {
 											"dialog_tree_info": {
@@ -6353,7 +6353,7 @@
 														},
 														"bulletin_title": "Sasha Signals",
 														"dialog_title": "Sasha Signals",
-														"choice_000": "Okay!"
+														"choice_000": "Oukej!"
 													}
 												}
 											}
@@ -6394,22 +6394,22 @@
 															"00": "Sasha's features soften and his shoulders relax, an enormous weight clearly lifted from him. He speaks, ears folded subtly back and eyes glistening:<br><br>\"Listen, I... thank you. Thank you. I have spent so much time worrying about my people's future, and you... you are proof that we can have one. That we can have a <i>good</i> one. We are forever in your debt.\"<br><br>\"Thank you, and may your future be even brighter than ours.\""
 														},
 														"choice_000": "We merely repaid our peoples' debt to yours.",
-														"choice_001": "We are honored to have helped.",
-														"choice_002": "Anything for a friend."
+														"choice_001": "Jsme poctěni, že jsme mohli pomoct.",
+														"choice_002": "Cokoliv pro přítele."
 													},
 													"request2": {
-														"choice_000": "Yes, of course!",
-														"choice_001": "No, but they have our thanks"
+														"choice_000": "Ano, samozřejmě!",
+														"choice_001": "Ne, ale mají naše díky"
 													},
 													"request1": {
 														"choice_000": "Oh? That's exciting!"
 													},
 													"accept1": {
-														"choice_000": "You too!"
+														"choice_000": "Ty taky!"
 													},
 													"reject1": {
 														"choice_000": "We should.",
-														"choice_001": "[Back] Wait!"
+														"choice_001": "[Zpět] Počkej!"
 													},
 													"conclusion_decline": {
 														"bulletin_title": "Sasha, Grateful",
@@ -6426,22 +6426,22 @@
 															"00": "Sasha nods his head. \"While Human cleverness brought the entity, human cleverness also forestalled its cataclysm. As the entity tore open the leyline, the surviving humans knew they had to act, as the great evil was bathed in magic and growing in strength by the second.\"<br><br>\"Hearth's magic is volatile. The humans, desperate, somehow catalyzed a reaction which turned the magic <i>energy</i> into pure magic <i>force</i>.\"<br><br>\"The entity was shattered into countless fragments, not killed but, rather, transformed into a miasma of aimless evil that swept over the land, emanating from the ravaged crater that was once the seat of the Phoenix Empire.\"<br><br>\"This is what we know as 'the cataclysm'.\""
 														},
 														"bulletin_title": "A Titanic Undertaking",
-														"choice_000": "Oh..."
+														"choice_000": "Och..."
 													},
 													"story2": {
 														"bulletin_message": {
 															"00": "\"So - an eon passed; Snake declined, Monkey Ascended. Some say Monkey is a newcomer, and snatched Ascendancy from Snake early, but that’s another story. Either way, Humans built with startling speed, and the Phoenix Empire spanned the continent within three generations.\"<br><br>\"Unsatisfied with mere subsistence underground, my ancestors contacted the Phoenix, who proved amenable to us.\"<br><br>\"In fact, our teachings of Geomancy fascinated them. As is their nature, the Phoenix researchers made fast progress in utilizing Hearth’s magic, without truly understanding it. They put it to use without any concern for consequences.\""
 														},
 														"bulletin_title": "A Titanic Undertaking",
-														"choice_000": "Consequences?"
+														"choice_000": "Následky?"
 													},
 													"delay": {
 														"bulletin_message": {
 															"00": "Sasha nods, sighing. \"I understand; each warren has challenges of its own to face. Still, we will find a way to complete work on the Titan weapon on our own, and return with it once it is ready.\"<br><br>\"May our friendship continue to blossom,\" he says, bowing slightly and taking his leave."
 														},
 														"bulletin_title": "A Titanic Undertaking",
-														"choice_000": "Until then, Sasha.",
-														"choice_001": "[Back] Wait!"
+														"choice_000": "Zatím, Sašo.",
+														"choice_001": "[Zpět] Počkej!"
 													},
 													"story1": {
 														"bulletin_message": {
@@ -6462,7 +6462,7 @@
 															"00": "\"So now, to the favor. There is, beneath this land, a nascent Titan. This fragment of the great evil grows, seeping farther underground more each year, forcing my people farther and farther underground to not be cut off from the magic of Hearth and be doomed to have our descendants revert to mere rabbits.\"<br><br>\"But: we have found an answer. We have nearly completed construction of a weapon drawn from ancient designs, capable of manifesting the Titan, and capable of destroying it for good.\"<br><br>\"However, we require your help in finishing it, and… we require your town to protect it. We lack the strength or the numbers to withstand the wrath of a manifested Titan for long, and this weapon will take time to do its job. Will you help us?\""
 														},
 														"bulletin_title": "A Titanic Undertaking",
-														"choice_000": "What do you need from us?"
+														"choice_000": "Co od nás potřebuješ?"
 													},
 													"accept": {
 														"bulletin_message": {
@@ -6491,8 +6491,8 @@
 															"00": "Sasha nods, exhaling deeply. \"I understand. 'If a favor is not asked lightly, neither is it accepted lightly'. Our current warren will continue to serve for years yet before the darkness encroaches.<br><br>\"We will complete work on the Titan weapon on our own, and then return. Hopefully you will have a change of heart. May our friendship continue to blossom,\" he says, with both sadness and sincerity, and takes his leave."
 														},
 														"bulletin_title": "A Titanic Undertaking",
-														"choice_000": "Goodbye for now, Sasha",
-														"choice_001": "[Back] Wait!"
+														"choice_000": "Zatím se měj, Sašo",
+														"choice_001": "[Zpět] Počkej!"
 													},
 													"favor2": {
 														"bulletin_message": {
@@ -6500,8 +6500,8 @@
 														},
 														"bulletin_title": "A Titanic Undertaking",
 														"choice_000": "We'll do it!",
-														"choice_001": "[Delay] We can't spare anyone, but...",
-														"choice_002": "[Decline] We don't want a fight."
+														"choice_001": "[Pozdržet] Nemůžeme nikoho postrádat, ale...",
+														"choice_002": "[Odmítnout] Nechceme bojovat."
 													}
 												}
 											}
@@ -6540,7 +6540,7 @@
 															"00": "Sasha returns, followed by your dispatched citizens and a massive, sparkling bow balanced atop a skittering golem.<br><br>\"I have returned, not only with your citizens, but with a completed Crystalline Arbalest, built to the specifications of my ancestors. I... hope it works.\"<br><br>\"Signal your readiness by deploying it, and I'll instruct you in its usage.\""
 														},
 														"bulletin_title": "A Titanic Undertaking",
-														"choice_000": "Wow, good work!"
+														"choice_000": "Wow, dobrá práce!"
 													}
 												}
 											}
@@ -6565,15 +6565,15 @@
 										"50_titan_weapon_quest": {
 											"title": "A Titanic Undertaking",
 											"dialog_title": "A Titanic Undertaking",
-											"text": "Choose a Mason (Lv4), Blacksmith (Lv4), plus any two other citizens to help Clan Amberstone"
+											"text": "Vyber Kameníka (Lv4), Kováře (Lv4), plus jakékoli dva osadníky, aby pomohli Jantarovému Klanu"
 										}
 									},
 									"40_recipe_sharing": {
 										"40_grant_recipes_mason": {
-											"bulletin_title": "Amberstone Mason recipes unlocked!"
+											"bulletin_title": "Jantarové návody pro Kameníka odemčeny!"
 										},
 										"40_grant_recipes_weaver": {
-											"bulletin_title": "Amberstone Weaver recipes unlocked!"
+											"bulletin_title": "Jantarové návody pro Tkalce odemčeny!"
 										},
 										"40_recipe_sharing_intro": {
 											"dialog_tree_info": {
@@ -6597,16 +6597,16 @@
 															"00": "\"Kind greetings, human friends! I was struck by an idea after watching your crafters at work - how would you like to send a Mason and a Weaver down to our warren for a few days, to learn our various crafting recipes and techniques?\""
 														},
 														"bulletin_title": "Králičí Styl",
-														"choice_000": "Sounds great!",
-														"choice_001": "[Decline] Hm. Nah."
+														"choice_000": "To zní skvěle!",
+														"choice_001": "[Odmítnout] Hmm. Nah."
 													},
 													"reject": {
 														"bulletin_message": {
-															"00": "\"Oh. I thought it was a clever idea, myself.\"<br><br>\"Are you certain? <i>I'll not offer again</i>, you see.\""
+															"00": "\"Och. Já sám jsem si myslel, že to byl chytrý nápad.\"<br><br>\"Seš jsi jistý? <i>Již to znovu nenabídnu</i>, chápej.\""
 														},
 														"bulletin_title": "Králičí Styl",
-														"choice_000": "Nah, not a fan of your style",
-														"choice_001": "[Back] Wait, I changed my mind!"
+														"choice_000": "Nah, nejsem fanoušek tvého stylu",
+														"choice_001": "[Zpět] Počkej, rozmyslel jsem si to!"
 													}
 												}
 											}
@@ -6620,7 +6620,7 @@
 														},
 														"bulletin_title": "Králičí Styl",
 														"dialog_title": "Králičí Styl",
-														"choice_000": "It's good to have them back - thank you!"
+														"choice_000": "Je dobré je mít zpátky - děkujeme ti!"
 													}
 												}
 											}
@@ -6628,7 +6628,7 @@
 										"40_recipe_sharing_quest": {
 											"title": "Králičí Styl",
 											"dialog_title": "Králičí Styl",
-											"text": "Select a Mason and Weaver (Levels 1+) to go learn Amberstone recipes"
+											"text": "Vyber Kameníka a Tkalce (Úrovně 1+) aby se šli naučit návody Jantaru"
 										}
 									}
 								}
@@ -6638,8 +6638,8 @@
 					"entities": {
 						"amberstone_statue": {
 							"amberstone_statue_ghost": {
-								"display_name": "Amberstone Rabbit Statue",
-								"description": "A beautifully carved Amberstone rabbit statue."
+								"display_name": "Socha Jantarového Králika",
+								"description": "Překrásně vytesaná socha Jantarového králika."
 							}
 						}
 					}
@@ -6874,7 +6874,7 @@
 												},
 												"msg1": {
 													"bulletin_message": {
-														"000": "Thank you for coming to my rescue. I have long guarded this site, but I can no longer raise my sword or shield in its defense."
+														"000": "Děkuju, že jste mě přišli zachránit. Dlouho jsem střežil toto místo, ale již nemohu déle pozvednout můj meč nebo štít v jeho obraně."
 													},
 													"bulletin_title": "Hlas ještě jednou promlouvá",
 													"dialog_title": "Flox Ledodrak",
@@ -6983,11 +6983,11 @@
 				},
 				"stenched_shepherd_buff": {
 					"display_name": "Zapáchající",
-					"description": "Animals can smell that this shepherd has slaughtered something recently. This shepherd won't be able to find new wild animals until the stench fades."
+					"description": "Zvířata mohou cítit, že tento pastýř něco nedávno porazil. Tento pastýř nebude schopen najít nová divoká zvířata, dokud pach nezmizí."
 				},
 				"shepherding_solitary": {
 					"display_name": "Sociální Potřeba Snížena",
-					"description": "Pastíř je v klidu s přírodou, a touží méně často po konverzacích."
+					"description": "Pastýř je v klidu s přírodou, a touží méně často po konverzacích."
 				}
 			},
 			"sleeping": {
@@ -7010,7 +7010,7 @@
 				},
 				"starving_animal_buff": {
 					"display_name": "Lačný",
-					"description": "Toto zvíře je hladové! Ať kuchař udělá nějaké krmení, aby ho tvůj pastíř mohl nakrmit."
+					"description": "Toto zvíře je hladové! Ať kuchař udělá nějaké krmení, aby ho tvůj pastýř mohl nakrmit."
 				}
 			},
 			"stopped": {
@@ -7336,8 +7336,8 @@
 		"build": {
 			"prototypes": {
 				"building": {
-					"display_name": "Building",
-					"numbered_display_name": "Building No.[str(self.stonehearth:unit_info.custom_name)]",
+					"display_name": "Stavba",
+					"numbered_display_name": "Stavba Č.[str(self.stonehearth:unit_info.custom_name)]",
 					"description": "A building.  woot!!"
 				},
 				"column": {
@@ -7430,15 +7430,15 @@
 					"#A29161": "Earth Edge",
 					"#B3A16E": "Earth",
 					"#928C76": "Heathered Grey",
-					"#4C2424": "Volcano",
-					"#C0BBA8": "Ash",
+					"#4C2424": "Sopka",
+					"#C0BBA8": "Popel",
 					"#693921": "New Amber",
 					"#A5A199": "Light Mountain Mist",
 					"#224165": "Dark Regal Blue",
 					"#958455": "Muesli",
-					"#332B1F": "Cocoa Brown",
+					"#332B1F": "Kakaová Hnědá",
 					"#4E442F": "Punga",
-					"#979492": "Dark Mountain Mist",
+					"#979492": "Tmavá Horská Mlha",
 					"#592E18": "Baker's Chocolate",
 					"#B5A37B": "Pavlova",
 					"#B0AB9F": "Cloudy",
@@ -7516,7 +7516,7 @@
 		},
 		"commands": {
 			"build_workshop": {
-				"display_name": "Build Workshop",
+				"display_name": "Postav Workshop",
 				"description": "Create a place for productivity!"
 			},
 			"chop_tree": {
@@ -7525,12 +7525,12 @@
 			},
 			"destroy_entity": {
 				"display_name": "Zničit",
-				"description": "Irrevocably remove this item from the world!"
+				"description": "Neodvolatelně odstraň tento předmět ze světa!"
 			},
 			"harvest_berries": {
-				"display_name": "Gather Berries",
-				"description": "This bush produces berries that can be gathered to feed your settlers.",
-				"disabled_description": "The berries on this bush aren't ripe yet!"
+				"display_name": "Sesbírej Bobule",
+				"description": "Tento keř produkuje bobule, které mohou být sklizeny na nakrmení tvých osadníků.",
+				"disabled_description": "Bobule na tomto keři ještě nejsou zralé!"
 			},
 			"harvest_planted": {
 				"display_name": "Harvest",
@@ -7543,55 +7543,55 @@
 			"move_item": {
 				"display_name": "Move item",
 				"description": "Move this thing somewhere else in the world.",
-				"disabled_description": "This item is in use. Try moving it later."
+				"disabled_description": "Tento předmět se používá. Zkus ho přemístit později."
 			},
 			"open_character_sheet": {
 				"display_name": "Character Sheet",
-				"description": "Get a closer look at this hearthling"
+				"description": "Podívej se blíže na tohoto hearthlinga"
 			},
 			"open_loot": {
-				"display_name": "Loot",
+				"display_name": "Kořist",
 				"description": "Open this loot container to claim its contents."
 			},
 			"place_item": {
-				"display_name": "Place item",
-				"description": "Place this item in the world."
+				"display_name": "Umísti předmět",
+				"description": "Umísti tento předmět do světa."
 			},
 			"plant_crop": {
 				"plant_corn": {
-					"display_name": "Plant Corn!",
-					"description": "Edible Gold."
+					"display_name": "Zasaď Kukuřici!",
+					"description": "Jedlé Zlato."
 				},
-				"display_name": "Plant a crop!",
-				"description": "Plant something in this square.",
+				"display_name": "Zasaď plodinu!",
+				"description": "Zasaď něco v tomto čtverci.",
 				"plant_turnip": {
-					"display_name": "Plant a Turnip!",
-					"description": "Plant a turnip in this square."
+					"display_name": "Zasaď Tuřín!",
+					"description": "Zasaď tuřín v tomto čtverci."
 				}
 			},
 			"promote_to_job": {
-				"display_name": "Change Jobs",
-				"description": "Give this hearthling a new job."
+				"display_name": "Změň Povolání",
+				"description": "Dej tomuto hearthlingovi nové povolání."
 			},
 			"change_working_for": {
-				"display_name": "Change Working For",
-				"description": "Change which town this citizen is working for."
+				"display_name": "Změň Pracování Pro",
+				"description": "Změň, pro které město tento obyvatel pracuje."
 			},
 			"raze_crop": {
-				"display_name": "Clear Ground",
+				"display_name": "Vyčisti Zemi",
 				"description": "Clear or harvest the contents of this plot."
 			},
 			"release_pet": {
-				"display_name": "Release Pet",
-				"description": "Tell this pet you don't want it anymore."
+				"display_name": "Vypusti Mazlíčka",
+				"description": "Řekni tomuto mazlíčkovi, že ho již víc nechceš."
 			},
 			"remove_ladder": {
-				"display_name": "Remove",
-				"description": "Remove this ladder."
+				"display_name": "Odstranit",
+				"description": "Odstraň tenhle řebřík."
 			},
 			"restore_terrain": {
-				"display_name": "Restore Terrain",
-				"description": "Restore the terrain to its original state."
+				"display_name": "Obnov Terén",
+				"description": "Obnov Terén do jeho původního stavu."
 			},
 			"show_workshop": {
 				"display_name": "Workshop",
@@ -7609,10 +7609,10 @@
 				"disabled_description": "This animal is so malnourished that it has no meat. It's just skin and bones."
 			},
 			"spawn_glory_wave": {
-				"display_name": "Summon Enemy Wave",
-				"description": "Summon the next wave of enemies to claim more glory.",
+				"display_name": "Vyvolej Vlnu Nepřátel",
+				"description": "Vyvolej další vlnu nepřátel, abys získal více slávy.",
 				"disabled_description": "No more enemies are knocking down your door just yet.",
-				"glory_level_achieved_bulletin": "Glory level [str(i18n_data.glory_level)] achieved!"
+				"glory_level_achieved_bulletin": "Úroveň Slávy [str(i18n_data.glory_level)] dosažena!"
 			},
 			"undeploy_item": {
 				"display_name": "Undeploy",
@@ -7622,7 +7622,7 @@
 			"undeploy_golem": {
 				"display_name": "Undeploy Golem",
 				"description": "Deactivate this golem and return it to a stockpile.",
-				"disabled_description": "Cannot deactivate at this time."
+				"disabled_description": "Teďka nemůže být deaktivován."
 			},
 			"unit_control": {
 				"abilities": {
@@ -7632,28 +7632,28 @@
 					}
 				},
 				"move_unit": {
-					"display_name": "Move",
-					"description": "Tell this character to move somewhere else"
+					"display_name": "Pohyb",
+					"description": "Řekni této postavě, aby se pohnula někam jinam"
 				},
 				"unload_inventory": {
-					"display_name": "Unload Bags",
+					"display_name": "Vyložit Bágly",
 					"description": "Return to town and deposit the contents of your bags."
 				}
 			},
 			"plant_tree": {
-				"display_name": "Plant Tree",
-				"description": "Plant this tree in some dirt."
+				"display_name": "Zasaď Strom",
+				"description": "Zasaď tento strom v nějaké hlíně."
 			},
 			"use_consumable": {
-				"display_name": "Use",
-				"description": "Use this consumable item to buff every hearthling in town. This will destroy the item."
+				"display_name": "Použít",
+				"description": "Použij tento spotřebný předmět na posílení každého hearthlinga ve městě. Toto zničí předmět."
 			},
 			"use_seeds": {
-				"display_name": "Use",
-				"description": "Use these seeds to teach your farmers to grow a new crop. This will destroy the item."
+				"display_name": "Použít",
+				"description": "Použij tyto semena k naučení tvých farmářů pěstovat novou plodinu. Toto zničí předmět."
 			},
 			"edit_party": {
-				"display_name": "Edit Party",
+				"display_name": "Uprav Skupinu",
 				"description": "Add and remove members from this party."
 			},
 			"cancel_marker": {
@@ -7661,76 +7661,76 @@
 				"description": "Cancels the combat orders for this marker"
 			},
 			"select_owner": {
-				"display_name": "Select Members",
+				"display_name": "Vyber Členy",
 				"description": "Selects the members following this order"
 			},
 			"call_trader": {
-				"display_name": "Call Merchant",
-				"description": "Call a trader to this stall",
-				"disabled_description": "A trader has already visited this stall recently. Try again later."
+				"display_name": "Zavolej Kupce",
+				"description": "Zavolej obchodníka do tohoto stánku",
+				"disabled_description": "Obchodník již nedávno tento stánek navštívil. Zkus to znovu později."
 			},
 			"show_shop": {
-				"display_name": "Show Shop",
-				"description": "Buy and sell goods"
+				"display_name": "Ukaž Obchod",
+				"description": "Kupuj a prodávej zboží"
 			},
 			"archer_arrows": {
 				"default_arrows": {
-					"display_name": "Using Default Arrows",
-					"description": "Using normal arrows. Click to swap to a different arrow type"
+					"display_name": "Používá Výchozí Šípy",
+					"description": "Používá normální šípy. Klikni pro prohození na jiný typ šípu"
 				},
 				"slow_arrows": {
-					"display_name": "Using Spiky Arrows",
-					"description": "Currently using spiky arrows, which slows enemy movement speed. Click to swap between arrow types."
+					"display_name": "Používá Špičaté Šípy",
+					"description": "Momentálně používá špičaté šípy, které zpomalují pohybovou rychlost nepřátel. Klikni pro prohození mezi typy šípů."
 				},
 				"fire_arrows": {
-					"display_name": "Using Fire Arrows",
-					"description": "Currently using fire arrows, which have a chance to set fire to enemies, dealing additional damage over time. Click to swap between arrow types."
+					"display_name": "Používá Ohnivé Šípy",
+					"description": "Momentálně používá ohnivé šípy, které mají šanci zapálit nepřátele, časem uštědřují dodatečné poškození. Klikni pro prohození mezi typy šípů."
 				}
 			},
 			"combat": {
 				"move": {
 					"display_name": "Move Marker",
-					"description": "Move to this location without attacking"
+					"description": "Přesun na tuto lokaci bez útočení"
 				},
 				"attack_move": {
 					"display_name": "Attack Move Marker",
-					"description": "Attack anything near this location"
+					"description": "Napadni cokoliv poblíž této lokace"
 				},
 				"defend_location": {
 					"display_name": "Defend Marker",
-					"description": "Defend this location"
+					"description": "Braň tuto lokaci"
 				}
 			},
 			"change_owner": {
-				"display_name": "Assign Owner",
-				"description": "Assign this object to a new owner"
+				"display_name": "Přiřaď Vlastníka",
+				"description": "Přiřaď tomuto objektu nového majitele"
 			},
 			"destroy_item": {
-				"display_name": "Cancel Placement",
+				"display_name": "Zruš Umístění",
 				"description": "Remove this placement task"
 			},
 			"toggle_lock": {
-				"display_name": "Toggle Lock",
-				"description": "Lock or unlock this door"
+				"display_name": "Přepni Zámek",
+				"description": "Zamkni nebo odemkni tyto dveře"
 			},
 			"rescue": {
-				"display_name": "Rescue",
-				"description": "Tells the town's people to try to rescue this hearthling"
+				"display_name": "Zachraň",
+				"description": "Řekni lidem města, aby se šli pokusit zachránit tohoto hearthlinga"
 			},
 			"abandon_glory_wave": {
-				"display_name": "Give Up!",
+				"display_name": "Vzdát Se!",
 				"description": "De-spawn the current enemy wave, without gaining any glory.",
 				"disabled_description": "No challenge enemies around right now."
 			},
 			"summon_titan": {
-				"display_name": "Awaken Titan",
-				"description": "Rouse the Titan from its slumber",
-				"disabled_description": "The Titan slumbers no longer"
+				"display_name": "Probudit Titána",
+				"description": "Vyburcuj Titána z jeho spánku",
+				"disabled_description": "Titán již více nespí"
 			},
 			"fire_titan_slayer": {
-				"display_name": "Fire!!",
-				"description": "Commence Attack on Titan",
-				"disabled_description": "Needs time to recharge."
+				"display_name": "Pal!!",
+				"description": "Zahájit Útok na Titána",
+				"disabled_description": "Potřebuje čas na nabití."
 			}
 		},
 		"personality": {
@@ -7742,47 +7742,47 @@
 							"000": "You want me to be the carpenter? Can I... sell the stuff I make? Or is this communal property?"
 						},
 						"diligent_sweetheart": {
-							"000": "Me? You want me to be the carpenter? Ok, I'll do my best!"
+							"000": "Já? Ty chceš abych byl/a tesař? Oukej, udělám jak nejlépe budu moct!"
 						},
 						"psychopathic_misanthrope": {
-							"000": "The Saw? Where some people see a tool, I see a serrated weapon. Saw, you are my new best friend."
+							"000": "Pila? Kde někteří lidé vidí nástroj, já vidím zoubkovanou zbraň. Pilo, ty jsi můj nový nejlepší přítel."
 						},
 						"insufferable_academic": {
 							"000": "I shall endeavor to bring the music of the cubes to our furniture."
 						},
 						"hopeless_optimist": {
-							"000": "Me, Carpenter? YES!! I've always wanted to make miniature chairs!!!"
+							"000": "Já, Tesař? ANO!! Vždycky jsem chtěl/a dělat miniaturní židle!!!"
 						},
 						"beleaguered_leader": {
-							"000": "It is my turn to wield the saw. Too bad mom always said I was bad with power."
+							"000": "Teď je řada na mně, abych třímal/a pilu. Příliš špatné, máma vždycky říkala, že jsem byl/a zlá se sílou."
 						}
 					}
 				}
 			},
 			"chopping_wood": {
 				"chopping_logs": {
-					"text": "On Chopping Wood:",
+					"text": "Na Kácení Dřeva:",
 					"logs": {
 						"beleaguered_leader": {
-							"000": "Today, we're chopping trees for wood. I'm already sick of the wood jokes.",
-							"001": "Timbeerrrrr!!! I could get used to saying that.",
-							"002": "The gang's keeping track of who's chopped down the most trees. It's me but in the time it would take to correct their math I'd rather just add another tree to my total.",
-							"003": "Thought I saw a hornet's nest while we were logging. Luckily, everyone got out of the way in time.",
+							"000": "Dneska, jsme káceli stromy pro dřevo. Již jsem nemocný/á z dřevěných vtipů.",
+							"001": "Dřívvííííí!!! Mohl/a bych si na to zvyknout to říkat.",
+							"002": "Banda sleduje a počítá, že kdo pokácel nejvíce stromů. Jsem to já, ale časem by to chtělo opravit jejich matiku, raději bych prostě přidal/a další strom k mému celkovému počtu.",
+							"003": "Mysím, že jsem viděl/a sršní hnízdo, když jsme káceli. Naštěstí, všichni se dostali pryč včas.",
 							"004": "Wood: our eternal taskmaster. Got to keep our eye on the goal.",
-							"005": "Everyone chop together! Chop! Chop! Chop! Yes, hurry too!",
-							"006": "Ok gang, breaktime's over. Back to chopping!",
+							"005": "Všichni kácejme společně! Štíp! Štíp! Štíp! Ano, také si pospěšte!",
+							"006": "Oukej bando, konec přestávky. Zpátky ke kácení!",
 							"007": "Every time I swing this axe, I visualize my dream house and exactly how I'm going to build it. Side effect of all this chopping: the floorplan's getting smaller.",
-							"008": "Falling wood! Run, people! RUN!",
+							"008": "Padá dřevo! Utečte, lidi! UTEČTE!",
 							"teacher": {
-								"000": "Attacked more trees today. By [str(entry.teacher)] there's a lot of trees out here."
+								"000": "Napadl/a jsem dneska více stromů. Podle [str(entry.teacher)] je tady venku těch stromů hodně."
 							}
 						},
 						"lovable_rogue": {
-							"000": "Step 1: Chop wood. Step 2: ???. Step 3: Profit!! Hm. Still working on step 2.",
+							"000": "Krok 1: Kácet dřevo. Krok 2: ???. Krok 3: Zisk!! Hmm. Stále pracuji na kroku 2.",
 							"001": "I would be more excited to chop trees if they had a discernible anatomy. Or if I could get combat advantage! Or if they could be flanked. Or if they even just had facing, so I could backstab! Not that I ever heard of anyone felling a tree with a backstab.",
 							"002": "My hands are getting rough from all this chopping.",
 							"003": "Top reason chopping trees is fun: perfecting the swing of the axe. May be useful one day!",
-							"004": "Top reason carrying wood is fun: can't think of one.",
+							"004": "Nejlepší důvod, proč je nošení dříví zábava: nemůžu na žádný přijít.",
 							"005": "I wonder how much I could sell this wood for back home. ...Nothing, probably.",
 							"006": "I wonder if I could get out of chopping wood by pretending to have a splinter? Oh right, it wouldn't be pretending.",
 							"007": "Ow! Blister! Why am I doing this to myself? An at-will employment contract is pretty much beside the point when you're OUT IN THE MIDDLE OF NOWHERE.",
@@ -8126,32 +8126,32 @@
 					}
 				},
 				"sleep_in_bed": {
-					"text": "On Beds:",
+					"text": "Na Postele:",
 					"logs": {
 						"generic": {
-							"000": "It feels good to have my own bed.",
-							"001": "Sleeping in a bed is a ton cooler than sleeping on the floor!",
+							"000": "To je takový dobrý pocit mít svou vlastní postel.",
+							"001": "Spát v posteli je mnohem lepší, než spát na podlaze!",
 							"002": "Beds are the best invention since regulation log sizes.",
-							"003": "I'm never going to get tired of sleeping in a bed.",
-							"004": "Yes! This bed is mine! M-I-N-E!",
-							"005": "Being in my bed makes me feel so sheltered and cozy.",
-							"006": "Home is where your bed is."
+							"003": "Nikdy se neunavím spaním v posteli.",
+							"004": "Ano! Tahle postel je moje! M-O-J-E!",
+							"005": "Být v mé posteli je tak pohodlný a útulný pocit.",
+							"006": "Domov je tam, kde je tvoje postel."
 						}
 					}
 				},
 				"sleep_on_ground": {
-					"text": "On the Cold, Hard Earth:",
+					"text": "Na Studené, Tvrdé Zemi:",
 					"logs": {
 						"generic": {
-							"000": "Sleeping on the ground makes me super sore.",
-							"001": "I think there was a rock in my shoulder all night.",
-							"002": "Rattlesnakes! What if I wake up covered in rattlesnakes?!",
-							"003": "I wish I could sleep in a real bed.",
-							"004": "Any kind of bed would be better than sleeping on the ground",
-							"005": "I really, really wish I had a bed to call my own.",
+							"000": "Spaní na zemi mě dělá bolavým/ou.",
+							"001": "Myslím, že jsem měl/a šutr za mými zády celou noc.",
+							"002": "Chřestýši! Co když se probudím pokrytý/á chřestýši?!",
+							"003": "Přeju si, abych mohl/a spát ve skutečné posteli.",
+							"004": "Jakýkoliv druh postele by byl lepší, než spát na zemi",
+							"005": "Já si vážně, vážně přeju, mít postel, kterou bych mohl/a nazvat svou vlastní.",
 							"006": "I was too exhausted to find a proper bed, and now I'm really paying for it. Ow.",
-							"007": "Slept on the ground again. Neck super sore. Everything looks slanted.",
-							"008": "I counted beds to go to sleep. BEDS!",
+							"007": "Zase jsem spal/a na zemi. Krk super bolavý. Všechno vypadá šikmě.",
+							"008": "Počítal/a jsem postele, abych usnul/a. POSTELE!",
 							"teacher": {
 								"000": "Though [str(entry.teacher)] slept on the ground during their pilgrimage, I wish I didn't have to."
 							}
@@ -8161,82 +8161,82 @@
 			},
 			"eating_berries": {
 				"eating_berries": {
-					"text": "On Eating Berries:",
+					"text": "Na Jezení Bobulí:",
 					"logs": {
 						"psychopathic_misanthrope": {
 							"000": "Huh. These berries are actually kind of growing on me. They've got that fresh, non-manured taste.",
 							"001": "I'm not sure. These berries me feel kind of... light inside. I don't like where this is going.",
-							"002": "Now I know why hippies are vegetarian. Screw this."
+							"002": "Teď už vím, proč jsou hipíci vegetariáni. Kašlu na to."
 						},
 						"insufferable_academic": {
-							"000": "Dark colored berries are full of antioxidants. Which are good for you."
+							"000": "Tmavě zbarvené bobule jsou plné antioxidantů. Které jsou pro tebe dobré."
 						},
 						"hopeless_optimist": {
-							"000": "Wow! I get to eat all the fresh berries I want! I'll never go hungry again!",
-							"001": "I love how they make my mouth blue. And my tongue. And my insides. And--",
-							"002": "Every berry tastes a little different. Like snowflakes, but for the mouth!",
-							"003": "I'm getting really good at telling which berries are the crunchiest."
+							"000": "Wow! Mám jíst všechny čerstvé bobule kolik chci! Již opět nebudu hladovět!",
+							"001": "Miluju, jak dělají mou pusu modrou. A můj jazyk. A moje vnitřnosti. A--",
+							"002": "Každá bobule chutná trochu jinak. Jako vločky sněhu, ale pro hubu!",
+							"003": "Vážně se zlepšuji v povídáni, že které bobule jsou nejkřupavější."
 						},
 						"beleaguered_leader": {
-							"000": "Mmm, berries! Part of a healthy, regular diet.",
-							"001": "Berries again! Which is good, because they're healthy for you.",
-							"002": "Berries! They taste better than starving.",
-							"003": "Have you eaten your berries today? I know I've eaten mine!",
-							"004": "I wonder what's for dinner? I know--BERRIES!",
-							"005": "Everyone's been pretty good about eating so many berries. I try to set a good example."
+							"000": "Mmm, bobule! Z části zdravá, pravidelná dieta.",
+							"001": "A zase bobule! Které jsou dobré, protože jsou pro tebe zdravé.",
+							"002": "Bobule! Chutnají lépe než hladovět.",
+							"003": "Snědl jsi dneska svoje bobule? Já vím, že já jsem moje snědl!",
+							"004": "Zajímalo by mě, co je na večeři? Já vím--BOBULE!",
+							"005": "Všichni byli vážně dobří v pojídání tolika bobulí. Já se snažím učinit dobrý příklad."
 						},
 						"lovable_rogue": {
-							"000": "I should really stop trying to sneak these berries into my pockets. If I keep it up somebody might notice the large purple stains in my pants.",
+							"000": "Vážně bych měl přestat krást ty bobule do mých kapes. Pokud v tom budu pokračovat, někdo by si mohl všimnout těch velkých fialových fleků v mých kalhotách.",
 							"teacher": {
 								"000": "In theory, you can ferment fruit, right? By *[str(entry.teacher)]* I miss fermented drinks."
 							}
 						},
 						"diligent_sweetheart": {
-							"000": "Mmm, berries! You never got fresh fruit in the city.",
-							"001": "If we could just build an iron stove, I could make a pie. Well, if I also had butter. And flour. And sugar.",
-							"002": "My figure is looking great!"
+							"000": "Mmm, bobule! Čerstvější ovoce ve městě si nikdy nedostal.",
+							"001": "Pokud bychom prostě postavili železnou pec, Mohl/a bych udělat koláč. Nuže, kybych pouze ovšem také měl/a máslo. A mouku. A cukr.",
+							"002": "Moje postava vypadá skvěle!"
 						}
 					}
 				}
 			},
 			"eating_similar_foods": {
 				"flavor_fatigue": {
-					"text": "On Eating the Same Thing Repeatedly:",
+					"text": "Na Jezení Té Samé Věci Opakovaně:",
 					"logs": {
 						"generic": {
-							"000": "Another [str(entry.recent_food)]? Joy.",
-							"001": "If I eat one more [str(entry.recent_food)] I might throw up.",
-							"002": "Wish I had something else to eat other than this [str(entry.recent_food)]."
+							"000": "Další [str(entry.recent_food)]? Radost.",
+							"001": "Pokud sním ještě jeden [str(entry.recent_food)], tak se pobliju.",
+							"002": "Přeju si, abych měl/a na jezení něco jiného, než tenhle [str(entry.recent_food)]."
 						},
 						"insufferable_academic": {
 							"000": "[str(entry.recent_food)] again? If only people could be nourished by knowledge alone.",
 							"001": "A surprising amount of digestion does not seem to happen on a one-food diet."
 						},
 						"beleaguered_leader": {
-							"000": "Another [str(entry.recent_food)]? Joy.",
+							"000": "Další [str(entry.recent_food)]? Radost.",
 							"001": "Better chug this [str(entry.recent_food)] down; got to set a good example.",
-							"002": "[str(entry.recent_food)] definitely tastes better than starving, but...",
-							"003": "[str(entry.recent_food)] again? I can feel the revolt coming."
+							"002": "[str(entry.recent_food)] zaručeně chutná lépe než hladovět, ale...",
+							"003": "[str(entry.recent_food)] zase? Cítím, že vzpoura přichází."
 						},
 						"psychopathic_misanthrope": {
-							"000": "There's nothing to eat but [str(entry.recent_food)]? 10 days till I kill someone for their meat.",
-							"001": "I've eaten so much of this food I can taste it in my sleep.",
-							"002": "If I have to eat one more [str(entry.recent_food)] I swear I will start to foam at the mouth."
+							"000": "Není co jíst, jenom [str(entry.recent_food)]? 10 dní, dokud někoho zabiju pro jejich maso.",
+							"001": "Již jsem snědl/a tohohle jídla tolik, že ho můžu cítit i ve spaní.",
+							"002": "Pokud budu muset sníst ještě jeden [str(entry.recent_food)], přísahám, že už začnu pěnit u huby."
 						},
 						"diligent_sweetheart": {
-							"000": "More [str(entry.recent_food)]? Maybe we can dry some of it to eat later?",
-							"001": "I don't mean to complain, but all I've eaten recently is food like this [str(entry.recent_food)]. It's starting to hurt my mouth.",
-							"002": "[str(entry.recent_food)]! Must... keep... chewing....!"
+							"000": "Více [str(entry.recent_food)]? Možná můžeme něco z toho vysušit a sníst to později?",
+							"001": "Nechtěl/a jsem si stěžovat, ale všechno co jsem doteďka jedl/a bylo jenom tohle [str(entry.recent_food)]. Začíná mě z toho bolet huba.",
+							"002": "[str(entry.recent_food)]! Musím... pořád... žvíkat....!"
 						},
 						"hopeless_optimist": {
-							"000": "Maybe if I eat enough of this food, I'll turn into it!",
-							"001": "[str(entry.recent_food)] again? My jaws hurt.",
-							"002": "It's okay, tongue! Just pretend you can't taste the [str(entry.recent_food)]."
+							"000": "Možná, když sním tohoto jídla dost, se na to proměním!",
+							"001": "[str(entry.recent_food)] zase? Bolí mě čelisti.",
+							"002": "To je oukej, jazýčku! Prostě předstírej, že nemůžeš cítit tu chuť [str(entry.recent_food)]."
 						},
 						"lovable_rogue": {
-							"000": "[str(entry.recent_food)]. Great.",
-							"001": "[str(entry.recent_food)]? I miss steak.",
-							"002": "The market value for [str(entry.recent_food)] is essentially zero right now."
+							"000": "[str(entry.recent_food)]. Skvěle.",
+							"001": "[str(entry.recent_food)]? Chybí mi steak.",
+							"002": "Obchodní hodnota pro [str(entry.recent_food)] je teďka v podstatě nulová."
 						}
 					}
 				},
@@ -8266,7 +8266,7 @@
 							}
 						},
 						"hopeless_optimist": {
-							"000": "Wow! I feel great!",
+							"000": "Wow! Cítím se skvěle!",
 							"001": "We need to make more food like this [str(entry.recent_food)] so everyone can eat some!",
 							"002": "Grow grow grow, grow more of this [str(entry.recent_food)]."
 						},
@@ -8287,25 +8287,25 @@
 			},
 			"eat_once_per_day": {
 				"eat_once_daily": {
-					"text": "On Eating:",
+					"text": "Na Jezení:",
 					"logs": {
 						"generic": {
-							"000": "Food! The [str(entry.recent_food)] tastes surprisingly good today.",
-							"001": "Never really valued food like this [str(entry.recent_food)] till we moved out here.",
-							"002": "Being fed is much, much, much cooler than being hungry.",
-							"003": "Oh boy! [str(entry.recent_food)]. Tastes good in the tummy.",
+							"000": "Jídlo! [str(entry.recent_food)] chutná dneska překvapivě dobře.",
+							"001": "Nikdy jsem si nevážil/a jídla, jako je tohle [str(entry.recent_food)] , dokud jsme se nevydali sem.",
+							"002": "Být najezený/a je mnohem, mnohem, mnohem lepší než být hladový/á.",
+							"003": "Óch, chlapečku! [str(entry.recent_food)]. V bříšku chutná tak dobře.",
 							"with_reaction": {
-								"000": "Dear Diary. Today I'm eating: [str(entry.recent_food)]. Mmm!",
-								"001": "Dear Diary. Today I'm eating: [str(entry.recent_food)]. Food is good.",
-								"002": "Dear Diary. Today I'm eating: [str(entry.recent_food)]. Wooo!",
-								"003": "Dear Diary. Today I'm eating: [str(entry.recent_food)]. Happiness.",
-								"004": "Dear Diary. Today I'm eating: [str(entry.recent_food)]. Joy.",
-								"005": "Dear Diary. Today I'm eating: [str(entry.recent_food)]. Oh boy!",
-								"006": "Dear Diary. Today I'm eating: [str(entry.recent_food)]. Delicious",
-								"007": "Dear Diary. Today I'm eating: [str(entry.recent_food)]. Better than starving!"
+								"000": "Milý Deníčku. Dneska jím: [str(entry.recent_food)]. Mmm!",
+								"001": "Milý Deníčku. Dneska jím: [str(entry.recent_food)]. Jídlo je dobré.",
+								"002": "Milý Deníčku. Dneska jím: [str(entry.recent_food)]. Jééé!",
+								"003": "Milý Deníčku. Dneska jím: [str(entry.recent_food)]. Spokojenost.",
+								"004": "MilýDeníčku. Dneska jím: [str(entry.recent_food)]. Radost.",
+								"005": "Milý Deníčku. Dneska jím: [str(entry.recent_food)]. Óch, chlapečku!",
+								"006": "Milý Deníčku. Dneska jím: [str(entry.recent_food)]. Lahůdka",
+								"007": "Milý Deníčku. Dneska jím: [str(entry.recent_food)]. Lepší, než hladovět!"
 							},
 							"teacher": {
-								"000": "[str(entry.teacher)], thank you for this [str(entry.recent_food)]."
+								"000": "[str(entry.teacher)], děkuju ti za tenhle [str(entry.recent_food)]."
 							}
 						}
 					}
@@ -8325,8 +8325,8 @@
 							"000": "Wow! This is a lot of great outdoors. Well, time to form strong relationships and build community!"
 						},
 						"lovable_rogue": {
-							"000": "Well, here we are, I guess. A million miles away from civilization. Great.",
-							"001": "Mom was right. We're all going to get eaten by bears."
+							"000": "Nuž, jsme tady, Myslím. Miliony kilometrů pryč od civilizace. Skvěle.",
+							"001": "Máma měla pravdu. Všichni budeme sežráni medvědy."
 						},
 						"hopeless_optimist": {
 							"000": "I'm so psyched to be here, I could polka with joy!!!",
@@ -8447,37 +8447,37 @@
 			},
 			"no_food_all_day": {
 				"foodless": {
-					"text": "On Having No Food:",
+					"text": "Na Nemíti Žádného Jídla:",
 					"logs": {
 						"insufferable_academic": {
 							"000": "Fasting for a day merely offers an opportunity to observe the wailings of my monkey mind.",
-							"001": "A day without food is an excellent way to sharpen the mind.",
-							"002": "According to my research, people need to consume at least twenty four units of energy each day to maintain proper function."
+							"001": "Den bez jídla je výtečný způsob k zaostření mysli.",
+							"002": "Podle mého výskumu, lidé musí sníst alespoň dvacet čtyři jednotek energie každý den k udržení správné funkce."
 						},
 						"hopeless_optimist": {
-							"000": "Wow, I went a whole 24 hours without food!",
-							"001": "No food by midnight? Maybe I can drink moonlight.",
-							"002": "So hungry... maybe tomorrow we'll find more berries."
+							"000": "Wow, šel/a jsem celých 24 hodin bez jídla!",
+							"001": "Žádné jídlo o půlnoci? Možná bych mohl/a vychlastat měsíční svit.",
+							"002": "Tak hladový/á... možná zítra půjdu najít víc bobulí."
 						},
 						"beleaguered_leader": {
-							"000": "It's just 24 hours without food. Don't panic.",
-							"001": "Hunger is good for discipline.",
-							"002": "I'm going to dream about food tonight.",
+							"000": "Je to jenom 24 hodin bez jídla. Nepanikař.",
+							"001": "Hlad je dobrý pro disciplínu.",
+							"002": "Dneska v noci jdu snít o jídle.",
 							"003": "A whole day without food? Mustn't complain; got to set a good example."
 						},
 						"psychopathic_misanthrope": {
-							"000": "A whole day without food? My stomach is going to start eating itself.",
-							"001": "Went a whole day without eating a single thing. Tomorrow, my 'friends' had better watch out.",
+							"000": "Celý den bez jídla? Můj žaludek sežere sám sebe.",
+							"001": "Šel/a jsem celý den bez toho, abych snědl/a jedinou věc. Zítra, moji 'přátelé' by jste se měli radši mít přede mnou na pozoru.",
 							"002": "I may not have eaten all day today, but I'm still a badass.",
 							"003": "No food in camp today, huh? Maybe I can find something in the forest to kill tomorrow."
 						},
 						"generic": {
-							"000": "A whole day without food? ::sigh::",
-							"001": "I wish I had something to eat.",
-							"002": "Going a who day without food makes me so, so sad."
+							"000": "Celý den bez jídla? ::povzdech::",
+							"001": "Přeju si, abych měl/a něco k jídlu.",
+							"002": "Jít celý den bez jídla mě dělá tak, tak smutného/ou."
 						},
 						"diligent_sweetheart": {
-							"000": "It's okay, I don't need to eat every day.",
+							"000": "To je oukej, nemusím jíst každý den.",
 							"001": "By the precepts of the Church of Plenty, we should eat at least once a day.",
 							"teacher": {
 								"000": "A day without food? At home we used to go a whole week for the festival of [str(entry.teacher)]!"
@@ -8485,65 +8485,65 @@
 						},
 						"lovable_rogue": {
 							"000": "24 hours without food? I'm sure I could find an opportunity here, if I weren't so hungry.",
-							"001": "Nobody's eaten in a while. I could make a killing if I just had one of mom's apple pies.",
-							"002": "Going without food for a whole day is surprisingly hard."
+							"001": "Nikdo nějakou dobu nic nesnědl. Mohl bych i zabít, kdybych mohl mít jeden z máminých jablečných koláčů.",
+							"002": "Jít bez jídla po celý den je překvapivě těžké."
 						}
 					}
 				}
 			},
 			"starving": {
 				"starving": {
-					"text": "On Starvation:",
+					"text": "Na Hladovění:",
 					"logs": {
 						"beleaguered_leader": {
-							"000": "I don't know how long we can last without food.",
-							"001": "Has anyone found any animals to eat yet?",
-							"002": "Keep on the lookout for berry bushes, or something!",
-							"003": "Got... to... keep... going....",
-							"004": "I have to stop dreaming about food every night."
+							"000": "Netuším, jak dlouho můžeme vydržet bez jídla.",
+							"001": "Našel kdokoli již jakékoliv zvířata ke snědení?",
+							"002": "Pokračuji v hledání bobulových keřů, nebo něčeho!",
+							"003": "Musím... stále... jít... dál....",
+							"004": "Musím přestat snít o jídle každou noc."
 						},
 						"psychopathic_misanthrope": {
-							"000": "Is there anyone around here I can eat?",
-							"001": "I need to kill something small and furry.",
-							"002": "I hate eating moss.",
-							"003": "Cannibalism. It's what's for dinner."
+							"000": "Je tady kolem kdokoliv, koho mohu sníst?",
+							"001": "Musím zabít něco malého a chlupatého.",
+							"002": "Nesnáším jezení mechu.",
+							"003": "Kanibalizmus. To je to, co bude k večeři."
 						},
 						"diligent_sweetheart": {
-							"000": "I'm so hungry... Step 1: Learn carpentry!",
-							"001": "It's okay, I didn't really need to eat today.",
-							"002": "I wish I could bake a cheesecake.",
-							"003": "If we huddle around the fire at night, that's almost as good as eating, right?",
-							"004": "I really don't want to die here.",
+							"000": "Jsem tak hladový/á... Krok 1: Naučit se tesařinu!",
+							"001": "To je oukej, vážně jsem nechtěl/a dneska jíst.",
+							"002": "Přeju si, abych mohl/a upíct sýrový koláč.",
+							"003": "Když se schulíme kolem ohně přes noc, je to asi tak dobré jako se najíst, nemám pravdu?",
+							"004": "Já vážně tady nechci umřít.",
 							"teacher": {
-								"000": "[str(entry.teacher)], even if I don't make it, keep my friends safe, okay?"
+								"000": "[str(entry.teacher)], i kdybych to nezvládl/a, udrž mé přátelé v bezpečí, dobře?"
 							}
 						},
 						"lovable_rogue": {
-							"000": "In retrospect, I really should have hoarded those berries.",
-							"001": "It's a pity you can't eat silver and gold.",
-							"002": "That wood is starting to look like chocolate...",
+							"000": "Když se na to tak dívám zpetně, vážně jsem měl/a hromadit ty bobule.",
+							"001": "Je to škoda, že nemůžete jíst stříbro a zlato.",
+							"002": "To dřevo začíná vypadat jako čokoláda...",
 							"teacher": {
 								"000": "As [str(entry.teacher)] is my witness, I will never go hungry again!"
 							}
 						},
 						"insufferable_academic": {
-							"000": "Hunger is merely a state of mind.",
-							"001": "To be, or not to be, that is the question...",
+							"000": "Hlad je pouze stav mysli.",
+							"001": "Být, či nebýt, to je otázka...",
 							"002": "The needs of the stomach are merely a distraction from the pursuits of the mind.",
-							"003": "Mind... over... matter!",
+							"003": "Mysl... nad... hmotu!",
 							"004": "I refuse to allow my vast intellect to succumb to base starvation!",
-							"005": "According to my research, people need to consume at least twenty four units of energy each day to maintain proper function."
+							"005": "Podle mého výskumu, lidé musí sníst alespoň dvacet čtyři jednotek energie každý den k udržení správné funkce."
 						},
 						"hopeless_optimist": {
-							"000": "Oh, great! Another day without food... That's exactly that little push I needed for starting my diet!",
-							"001": "Hunger really sharpens the colors in the world!",
-							"002": "I think there's a hole in my stomach.",
-							"003": "Am I invisible yet?"
+							"000": "Och, skvěle! Další den bez jídla... To je přesně to malé šťouchnutí co jsem potřeboval/a, abych začal/a s mojí dietou!",
+							"001": "Hlad vážně zaostřuje barvy vy světě!",
+							"002": "Myslím, že mám díru v žaludku.",
+							"003": "Ještě nejsem neviditelný/á?"
 						},
 						"generic": {
-							"000": "I'm so hungry it hurts.",
-							"001": "If I could just get some food, maybe my stomach would feel better.",
-							"002": "I don't know how much longer I can go without food."
+							"000": "Jsem tak hladový/á, že to bolí.",
+							"001": "Kdybych jenom mohl/a dostat nějaké jídlo, možná by se můj žaludek cítil lépe.",
+							"002": "Nevím, ještě jak dlouho můžu jít bez jídla."
 						}
 					}
 				}
