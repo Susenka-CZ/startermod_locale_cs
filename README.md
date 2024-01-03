@@ -14,7 +14,7 @@ Pokud se chceš přidat do překladatelského týmu, budeme jedině rádi. Vůbe
 
 Pokud tedy máš zájem napiš mi zprávu na discordu Susenka#0833 (případně mě můžeš najít na serveru [Stonehearth - ACE](https://discord.gg/8dxCsqB)), nebo pokud nepoužíváš discord, můžeš mi napsat na [steamu](https://steamcommunity.com/id/susenak/).
 
-## Současný stav překladu (Aktualizováno 12.9.2023)
+## Současný stav překladu (Aktualizováno 3.1.2024)
 Pokud si budete překlad stahovat přímo z tohoto repozitáře nezapomeňte smazat složku gitu :)
 
 - [x] :heavy_check_mark: Základní nastavení češtiny, tak aby se dala spustit
