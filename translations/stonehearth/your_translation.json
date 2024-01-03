@@ -1561,7 +1561,7 @@
 					"029": "reguluji mikáda...",
 					"030": "stříhám ovce...",
 					"031": "cedím mozek...",
-					"032": "šťouchám poje...",
+					"032": "šťouchám poja...",
 					"033": "chytám kapky deště..."
 				},
 				"tips": {
@@ -2709,7 +2709,7 @@
 									"bulletin_title": "Anwyn se Šklebí",
 									"dialog_title": "Ctihodná Anwyn Torresi",
 									"choice_000": "Potom nevadí!",
-									"choice_001": "Daňě? Vážně?"
+									"choice_001": "Daně? Vážně?"
 								},
 								"rewards": {
 									"bulletin_message": {
@@ -2996,7 +2996,7 @@
 									"choice_000": "Ehm... dobře?",
 									"choice_001": "Zmatený. Pardon.",
 									"bulletin_message": {
-										"000": "Půjčit si sílu, abys povstal, znamená, padnout, když síla selže. Ogovi nepropůjčuje sílu jeho  tak-zvaný-věštěc, ale dítě které ukradl."
+										"000": "Půjčit si sílu, abys povstal, znamená padnout, když síla selže. Ogovi nepropůjčuje sílu jeho  tak-zvaný-věštěc, ale dítě které ukradl."
 									},
 									"bulletin_title": "Postava naklání hlavu",
 									"dialog_title": "???"
@@ -5736,7 +5736,7 @@
 													},
 													"offer": {
 														"bulletin_message": {
-															"00": "\"Now then, to business - would you like to send one of your esteemed citizens with me to learn the ways of Geomancy? I estimate it will take at least a week to grant them a basic understanding.\"<br><br>\"This may be your only chance to do so - I feel the elders may change their minds again in a hare's breath.\""
+															"00": "\"Nyní tedy, k věci - chtěl bys poslat jednoho ze svých vážených obyvatel se mnou se naučit cesty Geomancie? Odhaduju, že to zabere alespoň týden jim udělit základní vědění.\"<br><br>\"Tohle může být tvoje jediná šance tak učinit - já cítím, že by jsi to starší mohli zase rozmyslet v zaječím dechu.\""
 														},
 														"choice_000": "Oukej! To zní poutavě!",
 														"choice_001": "[Odmítnout] Né díky!"
@@ -5898,8 +5898,8 @@
 														},
 														"bulletin_title": "Podivné Obchodování",
 														"dialog_title": "Podivné Obchodování",
-														"choice_000": "Sure thing! Let's get some baskets...",
-														"choice_001": "No, Sorry, can't spare any"
+														"choice_000": "Jistě! Pojďme pro nějaké koše...",
+														"choice_001": "Né, Promiň, nemůžeme žádné postrádat"
 													}
 												}
 											}
@@ -5919,8 +5919,8 @@
 															"00": "Your clan has proven gracious, and your gardens savory. Many of my kin mistrust the progeny of Monkey, but I feel we must extend a paw of friendship."
 														},
 														"bulletin_title": "Nový Králičí Přítel",
-														"choice_000": "I see... talking rabbit... person...",
-														"choice_001": "Hello, and welcome!"
+														"choice_000": "Vidím... mluvícího králičího... člověka...",
+														"choice_001": "Ahoj, a vítej!"
 													},
 													"msg3": {
 														"bulletin_message": {
@@ -5943,7 +5943,7 @@
 															"00": "Two long ears spill out, the rabbit-person shaking their head a little as they straighten out.<br><br>\"Honorable greetings. I am Sasha Lightfoot of the twenty-third warren of Amberstone. I apologize for the deception, but it was deemed necessary.\""
 														},
 														"bulletin_title": "Another Conspicuous Hooded Figure",
-														"dialog_title": "Hooded Figure",
+														"dialog_title": "Postava s Kápí",
 														"choice_000": "Já to věděl!",
 														"choice_001": "Zdá se, že to vysvětluje tu zeleninu..."
 													}
@@ -5957,7 +5957,7 @@
 														"bulletin_message": {
 															"00": "For the present, I must return home, but I shall return in the coming days. Farewell, humans."
 														},
-														"bulletin_title": "Hello, Stranger",
+														"bulletin_title": "Ahoj, Cizinče",
 														"dialog_title": "Saša Lehkonoha",
 														"choice_000": "Sbohem"
 													},
@@ -5965,23 +5965,23 @@
 														"bulletin_message": {
 															"00": "Our burrow is hidden away, not far from here. We have been observing you for a time, and your clan seems trustworthy. Not all of my kin trust the progeny of Monkey, but I feel we should extend a paw of friendship."
 														},
-														"bulletin_title": "Hello, Stranger",
-														"choice_000": "I... see... talking rabbit... person",
-														"choice_001": "Welcome to our town!"
+														"bulletin_title": "Ahoj, Cizinče",
+														"choice_000": "Vidím... mluvícího králičího... člověka...",
+														"choice_001": "Vítej do našeho města!"
 													},
 													"msg3": {
 														"bulletin_message": {
 															"00": "It has been generations since Rabbitkind could set foot on the aboveground for long - and I hope perhaps you can help us with this in the future..."
 														},
-														"bulletin_title": "Hello, Stranger",
-														"choice_000": "Let us know what we can do"
+														"bulletin_title": "Ahoj, Cizinče",
+														"choice_000": "Dej nám vědět co můžeme udělat"
 													},
 													"msg0": {
 														"bulletin_message": {
 															"00": "A hooded figure approaches, hesitating for a moment before finally removing their hood..."
 														},
 														"bulletin_title": "Another Conspicuous Hooded Figure",
-														"dialog_title": "Hooded Figure",
+														"dialog_title": "Postava s Kápí",
 														"choice_000": "... "
 													},
 													"msg1": {
@@ -5989,8 +5989,8 @@
 															"00": "Two long ears spill out, the rabbit-person shaking their head a little as they straighten out.<br><br>\"Honorable greetings. I am Sasha Lightfoot of the twenty-third warren of Amberstone. I apologize for the deception, but my kind has been poorly received before, and we had to ensure our own safety.\""
 														},
 														"bulletin_title": "Another Conspicuous Hooded Figure",
-														"dialog_title": "Hooded Figure",
-														"choice_000": "Oh... uh... hello"
+														"dialog_title": "Postava s Kápí",
+														"choice_000": "Och... um... ahoj"
 													}
 												}
 											}
@@ -6009,7 +6009,7 @@
 														},
 														"bulletin_title": "Vděčný Králík",
 														"dialog_title": "Saša Lehkonoha",
-														"choice_000": "Oh, thanks!"
+														"choice_000": "Och, díky!"
 													}
 												}
 											}
@@ -6402,18 +6402,18 @@
 														"choice_001": "Ne, ale mají naše díky"
 													},
 													"request1": {
-														"choice_000": "Oh? That's exciting!"
+														"choice_000": "Och? To je vzrušující!"
 													},
 													"accept1": {
 														"choice_000": "Ty taky!"
 													},
 													"reject1": {
-														"choice_000": "We should.",
+														"choice_000": "Mohli bychom.",
 														"choice_001": "[Zpět] Počkej!"
 													},
 													"conclusion_decline": {
-														"bulletin_title": "Sasha, Grateful",
-														"dialog_title": "Sasha, Grateful"
+														"bulletin_title": "Saša, Vděčný",
+														"dialog_title": "Saša, Vděčný"
 													}
 												}
 											}
@@ -7009,7 +7009,7 @@
 					"description": "Hladovějící hearthling potřebuje vážně jídlo!"
 				},
 				"starving_animal_buff": {
-					"display_name": "Lačný",
+					"display_name": "Lačné",
 					"description": "Toto zvíře je hladové! Ať kuchař udělá nějaké krmení, aby ho tvůj pastýř mohl nakrmit."
 				}
 			},
@@ -7102,7 +7102,7 @@
 			"recently_treated": {
 				"recently_treated_buff": {
 					"display_name": "Nedávno Ošetřený/á",
-					"description": "Tento hearthling byt nedávno navštívený léčitelem a potřebuje si na chvíli odpočinout před dalším ošetřením."
+					"description": "Tento hearthling byl/a nedávno navštívený/á léčitelem a potřebuje si na chvíli odpočinout před dalším ošetřením."
 				}
 			},
 			"mood": {
@@ -7115,7 +7115,7 @@
 				"glum": {
 					"glum_mood_buff": {
 						"display_name": "Sklíčený/á",
-						"description": "Věci se nevyvíjely tak jak bych chtěl. "
+						"description": "Věci se nevyvíjely tak jak bych chtěl/a. "
 					}
 				},
 				"content": {
@@ -7173,7 +7173,7 @@
 				},
 				"hit_by_sandstorm_debuff": {
 					"display_name": "Zasažený/á Písečnou Bouří",
-					"description": "Nemám rád písek. Je hrubý a drsný a nepříjemný."
+					"description": "Nemám rád/a písek. Je hrubý a drsný a nepříjemný."
 				},
 				"hit_by_lightning_debuff": {
 					"display_name": "Zasažený/á Bleskem",
@@ -7350,7 +7350,7 @@
 				},
 				"ladder": {
 					"display_name": "Řebřík",
-					"description": "Used to reach high places"
+					"description": "Použitý k dosažení vyšších míst"
 				},
 				"patch_wall": {
 					"display_name": "Zeď",
@@ -7365,8 +7365,8 @@
 					"description": "Drží déšť venku"
 				},
 				"scaffolding": {
-					"display_name": "Scaffolding",
-					"description": "Construction support structure"
+					"display_name": "Lešení",
+					"description": "Podpůrná konstrukce stavby"
 				},
 				"wall": {
 					"display_name": "Zeď",
@@ -7374,12 +7374,12 @@
 				},
 				"stairs": {
 					"display_name": "Schody",
-					"description": "Go up and down"
+					"description": "Jít nahoru a dolů"
 				},
 				"building2": {
 					"structure": {
-						"display_name": "Structure",
-						"description": "A part of a building"
+						"display_name": "Stavba",
+						"description": "Část budovy"
 					}
 				}
 			},
@@ -7517,7 +7517,7 @@
 		"commands": {
 			"build_workshop": {
 				"display_name": "Postav Workshop",
-				"description": "Create a place for productivity!"
+				"description": "Vytvoř místo pro produktivitu!"
 			},
 			"chop_tree": {
 				"display_name": "Harvest",
@@ -7533,8 +7533,8 @@
 				"disabled_description": "Bobule na tomto keři ještě nejsou zralé!"
 			},
 			"harvest_planted": {
-				"display_name": "Harvest",
-				"description": "Reap whatever's available."
+				"display_name": "Sklízej",
+				"description": "Sklízej kdykoliv je to možné."
 			},
 			"loot_item": {
 				"display_name": "Loot item",
@@ -7546,12 +7546,12 @@
 				"disabled_description": "Tento předmět se používá. Zkus ho přemístit později."
 			},
 			"open_character_sheet": {
-				"display_name": "Character Sheet",
+				"display_name": "Soupisek Postavy",
 				"description": "Podívej se blíže na tohoto hearthlinga"
 			},
 			"open_loot": {
 				"display_name": "Kořist",
-				"description": "Open this loot container to claim its contents."
+				"description": "Otevři tento kontejner kořisti k přivlastnění jeho obsahu."
 			},
 			"place_item": {
 				"display_name": "Umísti předmět",
@@ -8181,12 +8181,12 @@
 							"000": "Mmm, bobule! Z části zdravá, pravidelná dieta.",
 							"001": "A zase bobule! Které jsou dobré, protože jsou pro tebe zdravé.",
 							"002": "Bobule! Chutnají lépe než hladovět.",
-							"003": "Snědl jsi dneska svoje bobule? Já vím, že já jsem moje snědl!",
+							"003": "Snědl/a jsi dneska svoje bobule? Já vím, že já jsem moje snědl/a!",
 							"004": "Zajímalo by mě, co je na večeři? Já vím--BOBULE!",
 							"005": "Všichni byli vážně dobří v pojídání tolika bobulí. Já se snažím učinit dobrý příklad."
 						},
 						"lovable_rogue": {
-							"000": "Vážně bych měl přestat krást ty bobule do mých kapes. Pokud v tom budu pokračovat, někdo by si mohl všimnout těch velkých fialových fleků v mých kalhotách.",
+							"000": "Vážně bych měl/a přestat krást ty bobule do mých kapes. Pokud v tom budu pokračovat, někdo by si mohl všimnout těch velkých fialových fleků v mých kalhotách.",
 							"teacher": {
 								"000": "In theory, you can ferment fruit, right? By *[str(entry.teacher)]* I miss fermented drinks."
 							}
@@ -8463,7 +8463,7 @@
 							"000": "Je to jenom 24 hodin bez jídla. Nepanikař.",
 							"001": "Hlad je dobrý pro disciplínu.",
 							"002": "Dneska v noci jdu snít o jídle.",
-							"003": "A whole day without food? Mustn't complain; got to set a good example."
+							"003": "Celý den bez jídla? nemusím si stěžovat; musím učinit dobrý příklad."
 						},
 						"psychopathic_misanthrope": {
 							"000": "Celý den bez jídla? Můj žaludek sežere sám sebe.",
@@ -8485,7 +8485,7 @@
 						},
 						"lovable_rogue": {
 							"000": "24 hours without food? I'm sure I could find an opportunity here, if I weren't so hungry.",
-							"001": "Nikdo nějakou dobu nic nesnědl. Mohl bych i zabít, kdybych mohl mít jeden z máminých jablečných koláčů.",
+							"001": "Nikdo nějakou dobu nic nesnědl. Mohl/a bych i zabít, kdybych mohl/a mít jeden z máminých jablečných koláčů.",
 							"002": "Jít bez jídla po celý den je překvapivě těžké."
 						}
 					}
@@ -8536,7 +8536,7 @@
 						},
 						"hopeless_optimist": {
 							"000": "Och, skvěle! Další den bez jídla... To je přesně to malé šťouchnutí co jsem potřeboval/a, abych začal/a s mojí dietou!",
-							"001": "Hlad vážně zaostřuje barvy vy světě!",
+							"001": "Hlad vážně zaostřuje barvy ve světě!",
 							"002": "Myslím, že mám díru v žaludku.",
 							"003": "Ještě nejsem neviditelný/á?"
 						},
@@ -9486,7 +9486,7 @@
 						},
 						"sunny_negative": {
 							"display_name": "Slunce je moc světlé",
-							"tooltip": "Musím si bránit oči abych mohl chodit venku. A nechtějte abych začal mluvit o spálení!"
+							"tooltip": "Musím si bránit oči abych mohl/a chodit venku. A nechtějte abych začal/a mluvit o spálení!"
 						},
 						"thunderstorm_positive": {
 							"display_name": "Bouřlivé počasí",
@@ -9510,7 +9510,7 @@
 						},
 						"rain_negative": {
 							"display_name": "Otravné mrholení",
-							"tooltip": "Málem jsem šlápnul do louže. Teď mi mrznou nohy."
+							"tooltip": "Málem jsem šlápnul/a do louže. Teď mi mrznou nohy."
 						},
 						"lucky": {
 							"display_name": "Šťastný den",
@@ -9577,10 +9577,10 @@
 				"debug": {
 					"values": {
 						"super_happy": {
-							"display_name": "DEBUG: Super Happy"
+							"display_name": "DEBUG: Super Šťastný/á"
 						},
 						"super_sad": {
-							"display_name": "DEBUG: Super Sad"
+							"display_name": "DEBUG: Super Smutný/á"
 						}
 					}
 				},
@@ -19055,102 +19055,102 @@
 					"description": "This tonic will make your town citizens less sleepy and move faster for a short while.",
 					"recipe_name": "Energy Tonic"
 				},
-				"decorations_name": "Decorations",
+				"decorations_name": "Dekorace",
 				"cleric_tome_recipe": {
-					"recipe_name": "Cleric's Tome",
-					"description": "Required to promote a hearthling to a cleric"
+					"recipe_name": "Klerikův Svazek",
+					"description": "Vyžadováno na povýšení hearthlinga na klerika"
 				},
-				"tools_name": "Tools",
+				"tools_name": "Nástroje",
 				"frostsnap_transmute_recipe": {
-					"description": "Separate seeds from the herbs",
-					"recipe_name": "Frostsnap Seeds (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+					"description": "Oddělit semínka od bylin",
+					"recipe_name": "Semínka Mrzoprasku (x3)",
+					"flavor": "Jedině zkušená ruka dokáže sesbírat slabší semínka, ale rostliny jsou v procesu ztraceny."
 				},
 				"cactus_transmute_recipe": {
-					"description": "Separate seeds from the herbs",
-					"recipe_name": "Wild Cactus Seeds (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+					"description": "Oddělit semínka od bylin",
+					"recipe_name": "Semínka Divokého Kaktusu (x3)",
+					"flavor": "Jedině zkušená ruka dokáže sesbírat slabší semínka, ale rostliny jsou v procesu ztraceny."
 				},
 				"brightbell_transmute_recipe": {
-					"description": "Separate seeds from the herbs",
-					"recipe_name": "Brightbell Seeds (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+					"description": "Oddělit semínka od bylin",
+					"recipe_name": "Semínka Svetlozvonu (x3)",
+					"flavor": "Jedině zkušená ruka dokáže sesbírat slabší semínka, ale rostliny jsou v procesu ztraceny."
 				},
 				"berry_bush_transmute_recipe": {
-					"description": "Separate seeds from the fruit",
-					"recipe_name": "Berry Bush Seeds (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the fruit is lost in the process."
+					"description": "Oddělit semínka od ovoce",
+					"recipe_name": "Semínka Bobulového Keře (x3)",
+					"flavor": "Jedině zkušená ruka dokáže sesbírat slabší semínka, ale ovoce je v procesu ztraceno."
 				},
-				"refined_name": "Refinement",
+				"refined_name": "Rafinováno",
 				"cactus_tulip_blue_transmute_recipe": {
-					"description": "Separate seeds from the herbs",
-					"recipe_name": "Tulip Cactus Seeds (Blue x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+					"description": "Oddělit semínka od bylin",
+					"recipe_name": "Semínka Tulipánu Kaktusu (Modré x3)",
+					"flavor": "Jedině zkušená ruka dokáže sesbírat slabší semínka, ale rostliny jsou v procesu ztraceny."
 				},
 				"cactus_tulip_red_transmute_recipe": {
-					"description": "Separate seeds from the herbs",
-					"recipe_name": "Tulip Cactus Seeds (Red x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+					"description": "Oddělit semínka od bylin",
+					"recipe_name": "Semínka Tulipánu Kaktusu (Červené x3)",
+					"flavor": "Jedině zkušená ruka dokáže sesbírat slabší semínka, ale rostliny jsou v procesu ztraceny."
 				},
 				"cactus_tulip_yellow_transmute_recipe": {
-					"description": "Separate seeds from the herbs",
-					"recipe_name": "Tulip Cactus Seeds (Yellow x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+					"description": "Oddělit semínka od bylin",
+					"recipe_name": "Semínka Tulipánu Kaktusu (Žluté x3)",
+					"flavor": "Jedině zkušená ruka dokáže sesbírat slabší semínka, ale rostliny jsou v procesu ztraceny."
 				},
 				"tulip_cactus_red_transmute_recipe": {
-					"description": "Separate seeds from the herbs",
-					"recipe_name": "Tulip Cactus Red Seeds (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+					"description": "Oddělit semínka od bylin",
+					"recipe_name": "Semínka Tulipánu Červeného Kaktusu (x3)",
+					"flavor": "Jedině zkušená ruka dokáže sesbírat slabší semínka, ale rostliny jsou v procesu ztraceny."
 				},
 				"tulip_cactus_blue_transmute_recipe": {
-					"description": "Separate seeds from the herbs",
-					"recipe_name": "Tulip Cactus Blue Seeds (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+					"description": "Oddělit semínka od bylin",
+					"recipe_name": "Semínka Tulipánu Modrého Kaktusu (x3)",
+					"flavor": "Jedině zkušená ruka dokáže sesbírat slabší semínka, ale rostliny jsou v procesu ztraceny."
 				},
 				"tulip_cactus_yellow_transmute_recipe": {
-					"description": "Separate seeds from the herbs",
-					"recipe_name": "Tulip Cactus Yellow Seeds (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+					"description": "Oddělit semínka od bylin",
+					"recipe_name": "Semínka Tulipánu Žlutého Kaktusu (x3)",
+					"flavor": "Jedině zkušená ruka dokáže sesbírat slabší semínka, ale rostliny jsou v procesu ztraceny."
 				},
 				"wax_plant_green_transmute_recipe": {
-					"description": "Separate seeds from the plant.",
-					"recipe_name": "Wax Plant Seeds (Green x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the plant is lost in the process."
+					"description": "Oddělit semínka od rostliny.",
+					"recipe_name": "Semínka Voskové Rostliny (Zelené x3)",
+					"flavor": "Jedině zkušená ruka dokáže sesbírat slabší semínka, ale rostlina je v procesu ztracena."
 				},
 				"wax_plant_purple_transmute_recipe": {
-					"description": "Separate seeds from the plant.",
-					"recipe_name": "Wax Plant Seeds (Purple x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the plant is lost in the process."
+					"description": "Oddělit semínka od rostliny.",
+					"recipe_name": "Semínka Voskové Rostliny (Fialové x3)",
+					"flavor": "Jedině zkušená ruka dokáže sesbírat slabší semínka, ale rostlina je v procesu ztracena."
 				},
 				"foxlily_transmute_recipe": {
-					"description": "Separate seeds from the plant",
-					"recipe_name": "Foxlily Seeds (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the plant is lost in the process."
+					"description": "Oddělit semínka od rostliny",
+					"recipe_name": "Semínka Liščí Lilie (x3)",
+					"flavor": "Jedině zkušená ruka dokáže sesbírat slabší semínka, ale rostlina je v procesu ztracena."
 				},
 				"sunflower_transmute_recipe": {
-					"description": "Separate seeds from the plant",
-					"recipe_name": "Sunflower Seeds (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the plant is lost in the process."
+					"description": "Oddělit semínka od rostliny",
+					"recipe_name": "Semínka Slunečnice (x3)",
+					"flavor": "Jedině zkušená ruka dokáže sesbírat slabší semínka, ale rostlina je v procesu ztracena."
 				},
 				"pear_cactus_recipe": {
-					"description": "Separate seeds from the fruit",
-					"recipe_name": "Prickly Pear Seeds (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the fruit is lost in the process."
+					"description": "Oddělit semínka od ovoce",
+					"recipe_name": "Semínka Opuncie (x3)",
+					"flavor": "Jedině zkušená ruka dokáže sesbírat slabší semínka, ale ovoce je v procesu ztraceno."
 				},
 				"wall_hanging_berrywreath_recipe": {
-					"description": "Perfect for any occasion",
+					"description": "Perfektní pro jakoukoliv příležitost",
 					"recipe_name": "Berry Wreath",
 					"flavor": "You could eat the berries, but it'd ruin the wreath."
 				},
 				"topiary_rabbit_recipe": {
 					"description": "Fluffy wildlife topiary",
-					"recipe_name": "Berry Bun",
-					"flavor": "I know it grows back, but I hate to pick its tail..."
+					"recipe_name": "Bobulový Králíček",
+					"flavor": "Já vím, že to doroste zpátky, ale nenávidím brat jeho ocas..."
 				},
 				"topiary_mammoth_recipe": {
 					"description": "Massive topiary pachyderm",
-					"recipe_name": "Berry Mammoth",
-					"flavor": "I swear I just saw it blink"
+					"recipe_name": "Bobulový Mamut",
+					"flavor": "Přísahám, že jsem ho viděl/a mrknout"
 				},
 				"topiary_fox_recipe": {
 					"description": "Much better for pie than jerky",
@@ -19197,170 +19197,170 @@
 					"flavor": "Cast from actual leaves in layers of silver and gold, they're stronger than they look"
 				},
 				"violet_transmute_recipe": {
-					"description": "Pluck the seeds from the flower",
-					"recipe_name": "Violet Seeds (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+					"description": "Očesat semínka z květu",
+					"recipe_name": "Semínka Fialky (x3)",
+					"flavor": "Jedině zkušená ruka dokáže sesbírat slabší semínka, ale rostliny jsou v procesu ztraceny."
 				},
 				"tumbleweed_transmute_recipe": {
-					"description": "Pluck spare seeds from the fiber",
-					"recipe_name": "Tumbleweed Seeds (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the fiber is destroyed in the process."
+					"description": "Očesat zbylá semínka z vlákna",
+					"recipe_name": "Semínka Bubnoplevele (x3)",
+					"flavor": "Jedině zkušená ruka dokáže sesbírat slabší semínka, ale vlákno je v procesu zničeno."
 				},
 				"wintermoss_transmute_recipe": {
-					"description": "Pluck spare seeds from the fiber",
-					"recipe_name": "Wintermoss Seeds (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the fiber is destroyed in the process."
+					"description": "Očesat zbylá semínka z vlákna",
+					"recipe_name": "Semínka Zimomechu (x3)",
+					"flavor": "Jedině zkušená ruka dokáže sesbírat slabší semínka, ale vlákno je v procesu zničeno."
 				},
 				"sweet_potato_transmute_recipe": {
-					"description": "Potatoes can be cut up and planted",
-					"recipe_name": "Sweet Potato Slips (x3)",
-					"flavor": "This doesn't require so much of a skilled hand as simply cutting the potatoes into wedges and sticking them into the ground."
+					"description": "Brambory mohou být nařezány a zasazeny",
+					"recipe_name": "Sloupek Sladké Brambory (x3)",
+					"flavor": "Tohle nevyžaduje až tolik zkušenou ruku, jelikož jednoduše stačí rozříznout brambory do klínu a zastrčit je do země."
 				},
 				"snow_poppy_transmute_recipe": {
-					"description": "Pluck the seeds from the flower",
-					"recipe_name": "Snow Poppy Seeds (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+					"description": "Očesat semínka z květu",
+					"recipe_name": "Semínka Sněžného Máku (x3)",
+					"flavor": "Jedině zkušená ruka dokáže sesbírat slabší semínka, ale rostliny jsou v procesu ztraceny."
 				}
 			},
 			"herbalist_buffs": {
 				"willpower_1_buff": {
-					"display_name": "Natural Regeneration",
-					"description": "The herbalist has improved health regeneration and diligence"
+					"display_name": "Přirozená Regenerace",
+					"description": "Bylinkář má zvýšenou regeneraci zdraví a pracovitost"
 				}
 			},
 			"herbalist_pestle": {
-				"display_name": "Herbalist's Pestle",
-				"description": "Tools of the trade for an herbalist."
+				"display_name": "Bylinkářova Palička",
+				"description": "Nástroje pro bylinkáře."
 			},
 			"herbalist_mortar": {
-				"display_name": "Herbalist's Mortar",
-				"description": "Tools of the trade for an herbalist."
+				"display_name": "Bylinkářův Hmoždíř",
+				"description": "Nástroje pro bylinkáře."
 			}
 		},
 		"cleric": {
 			"cleric_outfit": {
-				"display_name": "Cleric's Robes",
-				"description": "Holy garb worn by the devout few"
+				"display_name": "Klerikové Róby",
+				"description": "Svatý oděv nošen pár oddanými"
 			},
 			"cleric_description": {
-				"display_name": "Cleric",
-				"description": "A combat healer",
-				"requirements": "Crafted by Herbalist",
+				"display_name": "Klerik",
+				"description": "Bojový Léčitel",
+				"requirements": "Vyroben Bylinkářem",
 				"level_1_data": {
-					"perk_000_name": "Healing Aura",
-					"perk_001_name": "Minor Strength",
-					"perk_000_description": "The cleric's presence heals everyone around them periodically",
-					"perk_001_description": "The cleric's presence improves the muscle of those around them"
+					"perk_000_name": "Léčivá Aura",
+					"perk_001_name": "Malá Síla",
+					"perk_000_description": "Klerikova přítomnost léčí periodicky všechny kolem.",
+					"perk_001_description": "Klerikova přítomnost zvyšuje sílu těch kolem nich"
 				},
 				"level_2_data": {
-					"perk_000_name": "Compassion Up",
-					"perk_000_description": "Increased compassion for increased direct healing"
+					"perk_000_name": "Soucit Nahoru",
+					"perk_000_description": "Soucit zvýšen pro zvýšení přímého léčení"
 				},
 				"level_3_data": {
-					"perk_000_name": "Heal Aura (Rank 2)",
-					"perk_000_description": "Healing aura power and radius increased"
+					"perk_000_name": "Léčivá Aura (Rank 2)",
+					"perk_000_description": "Moc a dosah Léčivé aury zvýšen"
 				},
 				"level_6_data": {
-					"perk_000_name": "Healing Master",
-					"perk_000_description": "The cleric has mastered the art of healing. Compassion greatly increased."
+					"perk_000_name": "Mistr Léčení",
+					"perk_000_description": "Klerik ovládl umění léčení. Soucit značně zvýšen."
 				},
 				"level_4_data": {
-					"perk_000_name": "Heal Aura (Rank 3)",
-					"perk_000_description": "Healing Aura range increased"
+					"perk_000_name": "Léčivá Aura (Rank 3)",
+					"perk_000_description": "Dosah Léčivé Aury zvýšen"
 				},
 				"level_5_data": {
-					"perk_000_name": "Major Strength",
-					"perk_000_description": "The cleric's presence greatly improves the muscle of those around them"
+					"perk_000_name": "Velká Síla",
+					"perk_000_description": "Klerikova přítomnost značně zvyšuje sílu těch kolem nich"
 				}
 			},
 			"cleric_tome": {
 				"cleric_tome_talisman": {
-					"display_name": "Cleric's Tome",
-					"description": "Required to promote a hearthling to a Cleric"
+					"display_name": "Klerikův Svazek",
+					"description": "Vyžadován k povýšení hearthlinga na Klerika"
 				},
-				"display_name": "Tome of Healing",
-				"description": "Contains sacred texts on the way of the cleric"
+				"display_name": "Svazek Léčení",
+				"description": "Obsahuje posvátné texty na klerikových cestách"
 			},
 			"cleric_buffs": {
 				"heal_aura_1_buff": {
-					"display_name": "Healing Aura",
-					"description": "The cleric's presence heals everyone around them periodically"
+					"display_name": "Léčivá Aura",
+					"description": "Klerikova přítomnost léčí periodicky všechny kolem."
 				},
 				"add_health_small_buff": {
-					"display_name": "Small Heal",
-					"description": "From a healing aura!"
+					"display_name": "Malé Léčení",
+					"description": "Z léčivé aury!"
 				},
 				"minor_muscle_aura_buff": {
-					"display_name": "Minor Strength Aura",
-					"description": "Increases strength of those around by a small amount"
+					"display_name": "Malá Aura Síly",
+					"description": "Zvyšuje sílu všech kolem o malou hodnotu"
 				},
 				"minor_muscle_aura_effect_buff": {
-					"display_name": "Minor Strength",
-					"description": "Strength improved slightly from the presence of a cleric"
+					"display_name": "Malá Síla",
+					"description": "Síla mírně posílena z přítomnosti klerika"
 				},
 				"compassion_1_buff": {
-					"display_name": "Compassion Up",
-					"description": "Compassion Increased by 20%"
+					"display_name": "Soucit Nahoru",
+					"description": "Soucit Zvýšen o 20%"
 				},
 				"heal_aura_2_buff": {
-					"display_name": "Heal Aura (Rank 2)",
-					"description": "The cleric's presence heals everyone around them periodically."
+					"display_name": "Léčivá Aura (Rank 2)",
+					"description": "Klerikova přítomnost léčí periodicky všechny kolem."
 				},
 				"add_health_medium_buff": {
-					"display_name": "Healing Medium",
-					"description": "Healing for a medium amount"
+					"display_name": "Léčivé Médium",
+					"description": "Léčení za střední hodnotu"
 				},
 				"compassion_2_buff": {
-					"display_name": "Compassion Up",
-					"description": "Compassion Increased by 40%"
+					"display_name": "Soucit Nahoru",
+					"description": "Soucit Zvýšen o 40%"
 				},
 				"major_muscle_aura_buff": {
-					"display_name": "Major Strength Aura",
-					"description": "Greatly increases the muscle of those around"
+					"display_name": "Velká Aura Síly",
+					"description": "Značně zvyšuje sílu všech kolem"
 				},
 				"major_muscle_aura_effect_buff": {
-					"display_name": "Major Strength",
-					"description": "Muscle improved greatly from the presence of a cleric"
+					"display_name": "Velká Síla",
+					"description": "Síla zvýšena značně z přítomnosti Klerika"
 				},
 				"legendary_circlet_buff": {
-					"display_name": "Shining Circlet",
-					"description": "Increases Willpower, Courage, and Compassion by 10%"
+					"display_name": "Zářivá Čelenka",
+					"description": "Zvyšuje Vůli, Odvahu, a Soucit o 10%"
 				},
 				"wolf_helmet_buff": {
-					"display_name": "Hunter's Awareness",
-					"description": "Increases Diligence by 20%"
+					"display_name": "Lovcův Postřeh",
+					"description": "Zvyšuje Pracovitost o 20%"
 				}
 			}
 		},
 		"magmasmith": {
 			"magmasmith_outfit": {
-				"display_name": "Magmasmith Outfit",
-				"description": "Traditional uniform of the Magmasmith."
+				"display_name": "Lávokovářské Oblečení",
+				"description": "Tradiční uniforma Lávokováře."
 			},
 			"magmasmith_hammer": {
 				"magmasmith_hammer_talisman": {
-					"display_name": "Magmasmith's Hammer",
-					"description": "Required to promote a hearthling to a Magmasmith"
+					"display_name": "Lávokovářské Kladivo",
+					"description": "Vyžadováno na povýšení hearthlinga na Lávokováře"
 				},
-				"display_name": "Magmasmith's Hammer",
-				"description": "Lava to the face"
+				"display_name": "Lávokovářské Kladivo",
+				"description": "Lávou do tváře"
 			},
 			"magmasmith_forge": {
 				"magmasmith_forge_ghost": {
-					"display_name": "Magmasmith Forge",
-					"description": "Like a normal forge, except a lot hotter"
+					"display_name": "Lávokovářská Výheň",
+					"description": "Jako normální výheň, ale mnohem žhavější"
 				}
 			},
 			"magmasmith_workbench": {
 				"magmasmith_workbench_ghost": {
-					"display_name": "Magmasmith Workbench",
-					"description": "Lava flows from within"
+					"display_name": "Lávokovářský Workbench",
+					"description": "Láva teče ze spoda"
 				}
 			},
 			"magmasmith_description": {
-				"display_name": "Magmasmith",
-				"description": "Crafts from magma",
-				"requirements": "Level 2 blacksmith and Magmasmith's hammer"
+				"display_name": "Lávokovář",
+				"description": "Vyrábí z magmy",
+				"requirements": "Úroveň 2 kovář a Lávokovářské kladivo"
 			},
 			"recipes": {
 				"workbenches_name": "Workbenches"
@@ -19368,108 +19368,108 @@
 		},
 		"knight": {
 			"knight_outfit": {
-				"display_name": "Knight's Armor",
-				"description": "Metal armor worn by a knight"
+				"display_name": "Rytířská Zbroj",
+				"description": "Kovová zbroj nošena rytířem"
 			},
 			"knight_description": {
-				"display_name": "Knight",
-				"description": "A defensive combatant focused on protecting allies from harm.",
-				"requirements": "Crafted by Blacksmith",
+				"display_name": "Rytíř",
+				"description": "Obranný bojovník zaměřený v ochraňování spojenců od zranění.",
+				"requirements": "Vyrobeno Kovářem",
 				"level_1_data": {
-					"perk_000_name": "Fortify",
-					"perk_001_name": "Damage Reduction Rank 1",
-					"perk_000_description": "Increases Stamina, Courage, and draws attention from monsters",
-					"perk_001_description": "The knight gains an additional 10% defense from equipment"
+					"perk_000_name": "Opevnění",
+					"perk_001_name": "Redukce Poškození Rank 1",
+					"perk_000_description": "Zvyšuje Výdrž, Odvahu, a upoutává pozornost příšer",
+					"perk_001_description": "Rytíř získá dodatečných 10% zbroje z vybavení"
 				},
 				"level_4_data": {
-					"perk_000_name": "Damage Reduction Rank 2",
-					"perk_000_description": "The knight gains an additional 20% armor from equipment"
+					"perk_000_name": "Redukce Poškození Rank 2",
+					"perk_000_description": "Rytíř získá dodatečných 20% zbroje z vybavení"
 				},
 				"level_3_data": {
-					"perk_000_name": "Fortify (Rank 2)",
-					"perk_000_description": "Stamina and Courage increased greatly"
+					"perk_000_name": "Opevnění (Rank 2)",
+					"perk_000_description": "Výdrž a Odvaha značně zvýšeny"
 				},
 				"level_5_data": {
-					"perk_000_name": "Inspiring Presence",
-					"perk_000_description": "The knight boosts courage of everyone around"
+					"perk_000_name": "Inspirující Přítomnost",
+					"perk_000_description": "Rytíř posiluje odvahu všech kolem"
 				},
 				"level_2_data": {
-					"perk_000_name": "Shout",
-					"perk_000_description": "The knight intimidates the opponent, drawing the attention of nearby enemies."
+					"perk_000_name": "Pokřik",
+					"perk_000_description": "Rytíř zastrašuje protivníka, upoutávájící pozornost blízkých nepřátel."
 				},
 				"level_6_data": {
-					"perk_000_name": "Hero's Horn",
-					"perk_000_description": "The knight sounds a horn of combat, drawing the attention enemies both near and far"
+					"perk_000_name": "Hrdinův Roh",
+					"perk_000_description": "Rytíř rozezní bojový roh, poutající pozornosti nepřátel obou, jak blízkých, tak vzdálených"
 				}
 			},
 			"knight_buffs": {
 				"defense_1_buff": {
-					"display_name": "Defense Up 10%",
-					"description": "Defense gained from equipment increased by 10%"
+					"display_name": "Obrana Nahoru 10%",
+					"description": "Obrana dána z vybavení navýšena o 10%"
 				},
 				"defense_2_buff": {
-					"display_name": "Defense Up 20%",
-					"description": "Defense gained from equipment increased by 20%"
+					"display_name": "Obrana Nahoru 20%",
+					"description": "Obrana dána z vybavení navýšena o 20%"
 				},
 				"health_1_buff": {
-					"display_name": "Fortify",
-					"description": "The knight becomes more menacing to enemies, drawing their attention in combat. They also get a health and stamina bonus to keep up."
+					"display_name": "Opevnění",
+					"description": "Rytíř se stane více hrozivý pro nepřátele, upoutává jejich pozornost v boji. Také dostávájí bonus ke zdraví a výdrži, aby se udrželi na nohou."
 				},
 				"health_2_buff": {
-					"display_name": "Fortify (Rank 2)",
-					"description": "More fast, more furious"
+					"display_name": "Opevnění (Rank 2)",
+					"description": "Ještě rychlejší, ještě urputnější"
 				},
 				"courage_aura_buff": {
-					"display_name": "Inspiring Presence",
-					"description": "The knight increases courage of everyone around"
+					"display_name": "Inspirující Přítomnost",
+					"description": "Rytíř zvyšuje odvahu všech kolem"
 				},
 				"courage_aura_effect_buff": {
-					"display_name": "Inspired",
-					"description": "Courage increased from the presence of a knight."
+					"display_name": "Inspirován",
+					"description": "Odvaha zvýšena z přítomnosti rytíře."
 				}
 			},
 			"knight_helm": {
-				"display_name": "Knight's Helm",
-				"description": "Iron headgear standard issue for all knights"
+				"display_name": "Rytířská Helma",
+				"description": "Železná přilba, standartní výbava pro všechny rytíře"
 			}
 		},
 		"npc_jobs": {
 			"npc_thief": {
 				"npc_thief_description": {
-					"display_name": "Thief",
-					"description": "Steals items from stockpiles",
+					"display_name": "Zloděj",
+					"description": "Krade předměty ze skladiště",
 					"level_1_data": {
-						"title": "Thief"
+						"title": "Zloděj"
 					}
 				}
 			},
 			"npc_miner": {
 				"npc_miner_description": {
-					"display_name": "Miner",
-					"description": "Mines terrain.",
-					"requirements": "None",
+					"display_name": "Horník",
+					"description": "Doluje terén.",
+					"requirements": "Žádné",
 					"level_1_data": {
-						"title": "Miner"
+						"title": "Horník"
 					}
 				}
 			},
 			"npc_restocker": {
 				"npc_restocker_description": {
-					"display_name": "Miner",
-					"description": "Restocks items.",
-					"requirements": "None",
+					"display_name": "Horník",
+					"description": "Doskladňuje předměty.",
+					"requirements": "Žádné",
 					"level_1_data": {
-						"title": "Restocker"
+						"title": "Skladník"
 					}
 				}
 			},
 			"npc_harvester": {
 				"npc_harvester_description": {
-					"display_name": "Harvester",
-					"description": "Harvests farms and resources.",
-					"requirements": "None",
+					"display_name": "Sběrač",
+					"description": "Sbírá farmy a suroviny.",
+					"requirements": "Žádné",
 					"level_1_data": {
-						"title": "Harvester"
+						"title": "Sběrač"
 					}
 				}
 			}
@@ -19477,8 +19477,8 @@
 		"amberstone": {
 			"worker": {
 				"worker_outfit_winter_hood": {
-					"display_name": "Winter Hood",
-					"description": "Fluffy protection from the cold"
+					"display_name": "Zimní Kapuce",
+					"description": "Načechraná ochrana proti chladu"
 				}
 			}
 		}
@@ -19486,71 +19486,71 @@
 	"stonehearth_mixins": {
 		"base_human": {
 			"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
-			"description": "Citizen of your town",
+			"description": "Obyvatel tvého města",
 			"job": {
-				"starting_level_title": "Lvl[str(self.stonehearth:job.curr_job_level)] Apprentice [str(self.stonehearth:job.curr_job_name)]",
-				"mid_level_title": "Lvl[str(self.stonehearth:job.curr_job_level)] Journeyman [str(self.stonehearth:job.curr_job_name)]",
-				"max_level_title": "Lvl[str(self.stonehearth:job.curr_job_level)] Master [str(self.stonehearth:job.curr_job_name)]",
-				"default_level_title": "Lvl [str(i18n_data.level_number)] [str(self.stonehearth:job.curr_job_name)]",
-				"default_level_announcement": "[name(i18n_data.entity)] has achieved [str(i18n_data.job_name)] Level [str(i18n_data.level_number)]!",
-				"default_promote_announcement": "[name(i18n_data.entity)] is now a Level [str(i18n_data.level_number)] [str(i18n_data.job_name)]!",
-				"level_up_perk_description": "Max Health +10",
-				"attribute_up_desc": "All attributes increased!"
+				"starting_level_title": "Úr[str(self.stonehearth:job.curr_job_level)] Učedník [str(self.stonehearth:job.curr_job_name)]",
+				"mid_level_title": "Úr[str(self.stonehearth:job.curr_job_level)] Tovaryš [str(self.stonehearth:job.curr_job_name)]",
+				"max_level_title": "Úr[str(self.stonehearth:job.curr_job_level)] Mistr [str(self.stonehearth:job.curr_job_name)]",
+				"default_level_title": "Úr [str(i18n_data.level_number)] [str(self.stonehearth:job.curr_job_name)]",
+				"default_level_announcement": "[name(i18n_data.entity)] dosáhl/a [str(i18n_data.job_name)] Úrovně [str(i18n_data.level_number)]!",
+				"default_promote_announcement": "[name(i18n_data.entity)] je teď Úroveň [str(i18n_data.level_number)] [str(i18n_data.job_name)]!",
+				"level_up_perk_description": "Maximální Zdraví +10",
+				"attribute_up_desc": "Všechny vlastnosti zvýšeny!"
 			}
 		},
 		"food": {
 			"food_decay": {
 				"food_decay": {
 					"decay_1": {
-						"description": "Starting to Rot. Better eat it fast."
+						"description": "Začíná hnít. Lepší to rychle sníst."
 					},
 					"decay_2": {
-						"description": "Rotten. Ew."
+						"description": "Zkažené. Fuj."
 					}
 				},
 				"egg": {
 					"decay_1": {
-						"description": "Starting to go bad. Better cook it soon."
+						"description": "Začíná se kazit. Bude lepší to brzy uvařit."
 					}
 				},
 				"egg_large": {
 					"decay_1": {
-						"description": "Starting to go bad. Better cook it soon."
+						"description": "Začíná se kazit. Bude lepší to brzy uvařit."
 					}
 				}
 			},
 			"jerky": {
-				"display_name": "Jerky",
-				"description": "Stringy, but nutritious!"
+				"display_name": "Sušené Maso",
+				"description": "Skoupé, ale nutriční!"
 			},
 			"bug_meat": {
-				"description": "Sticky, but nutritious!",
-				"display_name": "Bug Meat"
+				"description": "Lepkavé, ale nutriční!",
+				"display_name": "Broučí Maso"
 			}
 		},
 		"monster": {
 			"job": {
-				"starting_level_title": "Apprentice [str(self.stonehearth:job.curr_job_name)]",
-				"default_level_title": "Level [str(self.stonehearth:job.curr_job_level)] [str(self.stonehearth:job.curr_job_name)]",
-				"default_level_announcement": "[name(i18n_data.entity)] has achieved [str(i18n_data.job_name)] Level [str(i18n_data.level_number)]!",
+				"starting_level_title": "Učedník [str(self.stonehearth:job.curr_job_name)]",
+				"default_level_title": "Úroveň [str(self.stonehearth:job.curr_job_level)] [str(self.stonehearth:job.curr_job_name)]",
+				"default_level_announcement": "[name(i18n_data.entity)] dosáhl/a [str(i18n_data.job_name)] Úrovně [str(i18n_data.level_number)]!",
 				"default_promote_announcement": "i18n(stonehearth:stonehearth_mixins.base_human.job.default_promote_announcement)",
-				"general_description_desc": "Max Health increased!",
-				"attribute_up_desc": "All attributes increased!"
+				"general_description_desc": "Maximální Zdraví zvýšeno!",
+				"attribute_up_desc": "Všechny vlastnosti zvýšeny!"
 			}
 		},
 		"resources": {
 			"fur_pelt": {
-				"display_name": "Fur pelt",
-				"description": "Soft, supple, and quite dead."
+				"display_name": "Chlupatá kůže",
+				"description": "Měkká, pružná, a docela mrtvá."
 			},
 			"hard_pelt": {
-				"display_name": "Hard pelt",
-				"description": "Hard, shiny, and quite dead."
+				"display_name": "Tvrdá kůže",
+				"description": "Tvrdá, lesklá, a docela mrtvá."
 			}
 		},
 		"base_human_npc": {
 			"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
-			"description": "A guest of your town"
+			"description": "Návštěvník tvého města"
 		}
 	},
 	"scenarios": {
@@ -19560,30 +19560,30 @@
 					"ui_steps": {
 						"set1": {
 							"step001": {
-								"title": "Click the Zones button",
-								"description": "Zones define what happens where in your town"
+								"title": "Klikni na tlačítko Zón",
+								"description": "Zóny určují, co se děje kde ve tvém městě"
 							},
 							"step000": {
-								"title": "We've harvested some wood",
-								"description": "Now we need someplace to store it"
+								"title": "Nasbírali jsme nějaké dřevo",
+								"description": "Teď potřebujeme nejaké místo kde ho uskladnit"
 							},
 							"step003": {
-								"title": "Click the check to confirm",
-								"description": "Use the filters to determine what type of items you want to go into the stockpile"
+								"title": "Klikni na fajku pro potvrzení",
+								"description": "Použij filtry k určení, jaké typy předmětů chceš aby šli do skladiště"
 							},
 							"step002": {
-								"title": "Click the Create Stockpile button",
-								"description": "Hearthlings store your items in stockpiles"
+								"title": "Klikni na tlačítko Vytvořit Skladiště",
+								"description": "Hearthlingové skladují tvé předměty ve skladištích"
 							}
 						}
 					}
 				},
 				"harvest_logs": {
 					"scenario_data": {
-						"message": "If we're going to get this town off the ground, we'll need wood, and lots of it! Chop down some nearby trees to get logs.",
-						"completed_message": "Congratulations! We've got some wood resources now. Logs and other natural resources can be used to construct buildings and craft items. They're the first building blocks for advancing your town.",
-						"title": "Initial Supplies",
-						"resource_display_name": "Wooden logs"
+						"message": "Pokud máme tohle město vztyčit ze země, budeme potřebovat dřevo, a to hodně! Pokácej nějaké okolní stromy pro získání špalků.",
+						"completed_message": "Gratulace! Teď máme nějaké zdroje dřeva. Špalky a jiné přírodní zdroje mohou být použity ke stavění budov a výrobě předmětů. Jsou to první stavební bloky k pokročení tvého města.",
+						"title": "Počáteční Zásoby",
+						"resource_display_name": "Dřevěné špalky"
 					},
 					"ui_steps": {
 						"set1": {
