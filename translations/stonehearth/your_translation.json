@@ -7657,7 +7657,7 @@
 				"description": "Add and remove members from this party."
 			},
 			"cancel_marker": {
-				"display_name": "Cancel Marker",
+				"display_name": "Ukazatel Zrušení",
 				"description": "Cancels the combat orders for this marker"
 			},
 			"select_owner": {
@@ -7689,15 +7689,15 @@
 			},
 			"combat": {
 				"move": {
-					"display_name": "Move Marker",
+					"display_name": "Ukazatel Pohybu",
 					"description": "Přesun na tuto lokaci bez útočení"
 				},
 				"attack_move": {
-					"display_name": "Attack Move Marker",
+					"display_name": "Ukazatel Útočného Pohybu",
 					"description": "Napadni cokoliv poblíž této lokace"
 				},
 				"defend_location": {
-					"display_name": "Defend Marker",
+					"display_name": "Ukazatel Obrany",
 					"description": "Braň tuto lokaci"
 				}
 			},
@@ -7963,7 +7963,7 @@
 			},
 			"dreams": {
 				"dreams": {
-					"text": "On Dreaming:",
+					"text": "Na Snění:",
 					"logs": {
 						"insufferable_academic": {
 							"000": "I wonder if anyone else has the dream where their clothes trail their bodies by several feet? Lucky for me, I always seem to have on my trusty pair of shiny knickers.",
@@ -8006,121 +8006,121 @@
 						"psychopathic_misanthrope": {
 							"000": "Went to sleep hungry again last night and dreamed for ten consecutive hours about poyo pot pie! Raaargh! Fear my devouring mouth!",
 							"001": "In heaven, I hope I get a lake of poyo pot pie to swim in. Swim forever!",
-							"002": "I dreamed about eating my fellow Hearthlings. They tasted like Poyo.",
-							"003": "I dreamed I was a goblin. I never had to work! I just stole what I needed and started fires. That was fun!",
-							"004": "I dreamed I was back at home, and not in the woods with THESE people..."
+							"002": "Snil/a jsem o pojídání mých Hearthlingských společníků. Chutnali jako Pojo.",
+							"003": "Snil/a jsem, že jsem byl/a goblin. Nikdy jsem nemusel/a pracovat! Prostě jsem ukradl/a to, co jsem potřeboval/a a založil/a ohně. To byla zábava!",
+							"004": "Snil/a jsem, že jsem byl/a zpátky doma, a né v lesích s TĚMI lidmi..."
 						},
 						"generic": {
 							"000": "First, I dreamed that I found a shiny mirror under my pillow. Then, goblins were attacking our caravan.",
 							"001": "I dreamed I built a ladder into the sky! But then someone tore it down and left me up there. It was scary.",
-							"002": "I dreamed that I WAS the tree being chopped down!",
+							"002": "Snil/a jsem, že JÁ JSEM BYL/A ten pokácený strom!",
 							"003": "I dreamed about a creature with a bill of a duck and the tail of a beaver.",
 							"004": "I dreamed that it was night time and outside of our village, there were some loud noises. Upon investigation of the fields to the south, I saw a large, black object with two circles and a bunch of dancing animals!",
 							"005": "I dreamed my friends left me on the roof of a newly constructed building.",
 							"006": "I dreamed I was at a lake and a luminous rabbit appeared out of the water and told me some great advice. &quot;If you build it they will come.&quot;",
-							"007": "I dreamed my hammer was running after me",
-							"008": "I dreamed we were racing the sheep. Something to try tomorrow?",
+							"007": "Snil/a jsem, že moje kladivo utíkalo za mnou",
+							"008": "Snil/a jsem, že jsme závodili s ovcí. Něco k vyskoušení zítra?",
 							"009": "I dreamed I couldn't stop filling my backpack with all the items littered on the ground.",
-							"010": "Last night I had this dream where I was attacked by a swarm of poyos.",
-							"011": "I had a dream that everyone could only collect berries. There weren't even trees to chop or blocks of stone to mine.",
-							"012": "I dreamed I ate berries until I turned purple and then rolled away into a pond.",
+							"010": "Poslední noc, jsem měl/a tento sen, kde na mě zaůtočilo hejno pojí.",
+							"011": "Měl/a jsem sen, že všichni mohli jenom sbírat bobule. Nebyli tam ani stromy ke kácení, nebo bloky kamenů ke kutání.",
+							"012": "Snil/a jsem, že jsem jedl/a bobule, dokud jsem nezružověl/a a pak jsem se odkutálel/a pryč do jezírka.",
 							"013": "I dreamed that I was at the mercy of a sickness that turned me into a Zombie. The worst part: I could only walk very very slowly.",
 							"014": "Last night I dreamed I was stranded in a hole all night and no one would build a ladder for me to climb up.",
-							"015": "I dreamed that all the animals plotted against us and took over the town.",
-							"016": "I dreamed that poyos rained from the sky.",
+							"015": "Snil/a jsem, že se všechna zvířata spikli proti nám a převzali město.",
+							"016": "Snil/a jsem, že z nebes pršeli poja.",
 							"017": "I dreamed that a giant man-bunny threatened me with a spear!",
-							"018": "I dreamed I found a mighty hammer that only I could lift.",
-							"019": "I dreamed I was a vegetable and I planted myself so I can grow taller.",
+							"018": "Snil/a jsem, že jsem našel/a mocné kladivo, které jsem jenom já mohl/a uzvednout.",
+							"019": "Snil/a jsem, že jsem byl/a zelenina, a zasadil/a jsme se, abych mohl/a vyrůst větší.",
 							"020": "In my dream last night, I told everyone carrots made them see in the dark. This morning, we ran out of carrots. Weird!",
 							"021": "I dreamed that I was no longer tethered to this realm, and I drifted from plane to plane.",
 							"022": "I had a dream that people buried me and made me into a tree.",
-							"023": "I dreamed the trees could talk.",
-							"024": "I dreamed I spoke to a rock, but it was stone cold towards me.",
-							"025": "I dreamed that one of the ancient trees came alive and attacked our town! It was horrible.",
+							"023": "Snil/a jsem, že stromy mohli mluvit.",
+							"024": "Snil/a jsem, že jsem mluvil se skálou, ale byla vůči mně chladná jako kámen.",
+							"025": "Snil/a jsem, že jeden z prastarých stromů ožil a napadl naše město! Bylo to strašné.",
 							"026": "I dreamed about a time where houses didn't have roofs. It was very cold.",
 							"027": "I dreamed that I walked across a vast treeless plain and all I could hear was the sounds of the wind in my ears. Bones of some large horned animal dotted the landscape. I felt so alone.",
-							"028": "I dreamed that I could walk underwater without holding my breath.",
-							"029": "I dreamed I was stuck in a maze. I had to run through it with the others.",
-							"030": "I had a dream that ants were as tall as trees!",
-							"031": "I dreamed I discovered my magical powers, and I saved my fellow Hearthlings from certain annihilation.",
-							"032": "I dreamed I was a hero with a poyo partner. We defeat the goblins and become famous!",
-							"033": "I dreamed of defending the town from a horde of angry farm animals.",
-							"034": "I dreamed I met a poyo that could talk. It kept saying its name was BuckBuck.",
+							"028": "Snil/a jsem, že jsem mohl/a kráčet pod vodou bez zadržení dechu.",
+							"029": "Snil/a jsem, že jsem byl/a uvízlý/á v bludišti. Musel/a jsem ho proběhnout s ostatníma.",
+							"030": "Měl/a jsem sen, že mravenci byli stejně vysoký jako stromy!",
+							"031": "Snil/a jsem, že jsem objevil/a mé magické síly, a zachránil/a jsem mé Hearthlingské společníky od jistého vyhlazení.",
+							"032": "Snil/a jsem, že jsem byl/a hrdina s pojím společníkem. Porazili jsme gobliny a stali jsme se slavnými!",
+							"033": "Snil/a jsem o obraňování města před hordou naštvaných farmářských zvířat.",
+							"034": "Snil/a jsem, že jsem potkal/a pojo co mohlo mluvit. Pořád říkal, že se jmenuje RamlíkRamlík.",
 							"035": "I had a dream where I found an ancient sword in a deep crypt. When I reached out to touch it, it faded away and a mournful bell sounded. All went dark.",
-							"036": "I had a dream that a wizard came to my door and asked me to join them on a journey! ",
-							"037": "I had a dream that I was next in line to become a farmer.",
+							"036": "Měl/a jsem sen, že přišel kouzelník do mých dveří a požádal mě, abych se k nim připojil na dobrodružství! ",
+							"037": "Měl/a jsem sen, že jsem byl/a další v pořadí stát se farmářem.",
 							"038": "I dreamed a giant pumpkin was rolling toward me and I couldn't move.",
 							"039": "I dreamed about creating an apple coated with gold.",
 							"040": "I dreamed we lived in a giant castle and I needed to clean it. I prefer to live in the woods!",
-							"041": "I dreamed that I caught a fish the size of a titan!",
-							"042": "I dreamed I encountered a were-sheep. It didn't end well.",
-							"043": "I had a dream about riding a dragon. Aspirational!",
+							"041": "Snil/a jsem, že jsem chytil/a rybu ve velikosti titána!",
+							"042": "Snil/a jsem, že jsem potkal/a ovco-dlaka. Neskončilo to dobře.",
+							"043": "Měl/a jsem sen, že jsem řídil/a draka. Aspirativní!",
 							"044": "I dreamed about a land that was lower than the sea yet it was still dry.",
 							"045": "I dreamed of meeting nomads who spoke a foreign tongue. I couldn't understand a word they said.",
-							"046": "I dreamed I had no arms.",
-							"047": "I dreamed that I battered some poyo meat and put it in oil. Poyo nuggets they called it!",
-							"048": "I dreamed that cloth could be a color other than blue",
-							"049": "I had a dream where the traders were really bandits! We lost everything.",
-							"050": "I dreamed I was being chased by a herd of stampeding mammoths.",
-							"051": "I dreamed I was surrounded by food of all kinds, and I never had to move.",
-							"052": "I dreamed I was the first Hearthling step onto the moon. It was a small step.",
-							"053": "I dreamed the sheep made wonderful music, with dancing lights in the air. We partied all night.",
-							"054": "I dreamed that the moon was smiling at us.",
-							"055": "I dreamed that I had to catch all the critters in the land.",
-							"056": "I dreamed about buildings as high as the sky itself.",
-							"057": "I dreamed it was dangerous to go into the woods alone. I'd better take a sword.",
+							"046": "Snil/a jsem, že jsem neměl/a žádné ruce.",
+							"047": "Snil/a jsem, že jsem otloukl/a nějaké pojí maso a vložil/a ho do oleje. Volají to Pojí nugetky!",
+							"048": "Snil/a jsem, že látka může být i jiné barvy než modrá",
+							"049": "Měl/a jsem sen, kde obchodníci byli vážně nájezdníci! Přišli jsme o všechno.",
+							"050": "Snil/a jsem, že jsem byl/a pronásledovaný/á stádem dupotajících mamutů.",
+							"051": "Snil/a jsem, že jsem byl/a obklopený/á jídlem všech druhů, a že jsem se nikdy nemusel/a hnout.",
+							"052": "Snil/a jsem, že jsem byl/a první Hearthling, co stoupl na měsíc. Byl to malý krok.",
+							"053": "Snil/a jsem, že ovce dělala báječnou hudbu, s tančícími světly ve vzduchu. Trsali jsme celou noc.",
+							"054": "Snil/a jsem, že měsíc se na nás usmíval.",
+							"055": "Snil/a jsem, že jsem musel/a pochytat všechna stvoření v kraji.",
+							"056": "Snil/a jsem o budovách tak vysokých jako samotná obloha.",
+							"057": "Snil/a jsem, že bylo nebezpečné jít do lesa sám/a. Raději bych si vzal/a meč.",
 							"058": "I once dreamed I held a magnificent sword. Though once I firmly grasped its handle, it turned to sand.",
-							"059": "I dreamed I ate bread; I woke up to eat my pillow.",
-							"060": "I dreamed I became king after pulling a sword out of a rock.",
-							"061": "I dreamed about a man with a box who could travel in time and space. It was bigger on the inside.",
-							"062": "I dreamed that dragons were real and we could tame them. Crazy dream!",
+							"059": "Snil/a jsem, že jsem jedl/a chleba; Probudil/a jsem se abych snědl/a můj polštář.",
+							"060": "Snil/a jsem, že jsem se stal/a králem po tom, co jsem vytáhl/a meč ze skály.",
+							"061": "Snil/a jsem o chlápkovi s krabicí, který mohl cestovat časem a prostorem. Z vnitřku byla větší.",
+							"062": "Snil/a jsem, že draci byli skuteční a že jsme si je mohli zkrotit. Šílený sen!",
 							"063": "I dreamed everywhere I went, a little goblin followed me. When I turned around to catch him he darted off into the trees.",
 							"064": "I had a dream where there were eggs all over the ground and I had to step ever so carefully around them.",
 							"065": "I dreamed I was eating poyo pot pie ... it tasted good.",
-							"066": "Last night I dreamed that someone was reading my diary. Creepy.",
+							"066": "Poslední noc jsem snil/a, že někdo četl můj deníček. Hrůza.",
 							"067": "I dreamed of creatures of immeasurable power surrounding us. They were actually poyo.",
-							"068": "I dreamed my sword would glow blue when there were goblins nearby.",
+							"068": "Snil/a jsem, že můj meč by se rozzářil modře, když by byli poblíž goblini.",
 							"069": "I dreamed that we fried up strips of fatty, salted meat from a tusked animal we hunted in the forest. It was the most delicious thing I ever ate! I think I'll call it ... &quot;bacon&quot;.",
 							"070": "I dreamed I had a pretty little poyo whom I loved very much. I made it a little bonnet to wear on its head!",
-							"071": "I had a dream in which ground shook and rumbled. The earth swallowed all our poyo.",
-							"072": "I dreamed a squirrel chopped our house down to build its tree.",
-							"073": "I had a dream in which a mighty warrior taught us how to shoot people in the knees with arrows.",
+							"071": "Měl/a jsem sen, ve kterém se země otřásla a zavrčela. Země spolykala všechna naše poja.",
+							"072": "Snil/a jsem, že veverka nám pokácela barák, aby si postavila svůj strom.",
+							"073": "Měl/a jsem sen, ve kterém nás mocný válečník naučil, jak střelit lidi šípama do kolena.",
 							"074": "I had a dream in which I was being baked into a giant pot pie.",
-							"075": "I had a dream in which goblins were attacking our town, but all our weapons were replaced with corn, and our armor was made of feathers sewn together.",
-							"076": "I had a dream in which all we could grow out of the ground were swords. We sold the swords in order to buy food.",
-							"077": "I had a dream where I was chewing grass in the sheep pen, yet I was still a human.",
-							"078": "I had a dream in which the dwarves were hoarding our socks.",
-							"079": "I had a dream in which I thought I was a Poyo. I woke up outside the coop. Hm.",
-							"080": "I had a dream that was very good, but I forgot what it was",
-							"081": "I had that reoccurring nightmare about the berries again!",
+							"075": "Měl/a jsem sen, ve kterém goblini útočili na naše město, ale naše zbraně byli zaměněny za kukuřici, a naše zbroj byla udělána z peří sešitých dohromady.",
+							"076": "Měl/a jsem sen, ve kterém vše co jsme mohli vypěstovat ze země byli meče. Prodali jsme meče, abychom si mohli koupit jídlo.",
+							"077": "Měl/a jsem sen, kde jsem žvíkal/a trávu v ovčí pastvině, ale byl/a jsem pořád člověk.",
+							"078": "Měl/a jsem sen, ve kterém trpaslíci hromadili naše ponožky.",
+							"079": "Měl/a jsem sen, ve kterém jsem si myslel/a, že jsem Pojo. Probudil/a jsem se venku v kurníku. Hm.",
+							"080": "Měl/a jsem sen, co byl vážně dobrý, ale zapoměl/a jsem co to bylo",
+							"081": "Opět jsem měl/a tu opětovnou noční můru o bobulích!",
 							"082": "In my dream from last night, all the jerky in the stockpile became a monster. It was a jerk to everyone.",
 							"083": "I had a dream in which I was able to make flour at a cauldron by weaving my hand together as if though I were knitting.",
 							"084": "I had a dream in which we had to import all our corn from some far-flung and distant land.",
-							"085": "I had a dream I was a wolf hunting poyos! When I awoke I had a feather in my mouth. Weird!",
-							"086": "I had a dream about a city of gold! ",
+							"085": "Měl/a jsem sen, že jsem byl/a vlk lovící poja! Když jsem se vzbudil/a, měl/a jsem pírko v mé puse. Zvláštní!",
+							"086": "Měl/a jsem sen o městě ze zlata! ",
 							"087": "I had a dream about a magic bean that could be brewed into a potion, known as coffee, and had the ability to, seemingly, raise the dead back to life.",
-							"088": "I had the craziest dream! There was a man, who was able to raise magma out of the earth! That's not possible, right!?",
-							"089": "I had a dream where everything was made of paper and wood! We had to use sticks to prop ourselves up.",
-							"090": "I had a dream in which a sheep bit me, and turned me into a sheep! But I could still talk. It was weird.",
+							"088": "Měl/a jsem ten nejšílenější sen! Byl tam muž, který byl shopný vyzdvihnout magmu ze země! To není možné, že jo!?",
+							"089": "Měl/a jsem sen, kde všechno bylo uděláno z papíru a dřeva! Museli jsme použít klacky aby jsem se podepřeli nahoru.",
+							"090": "Měl/a jsem sen, ve kterém mě kousla ovce, a proměnila mě v ovci! Ale pořád jsem mohl/a mluvit. Bylo to zváštní.",
 							"091": "I had a dream in which I was tiny, and a portly man said he was going to &quot;Boil em, mash em, stick em in a stew!&quot; Although I awoke before anything else could happen, I assumed he was talking about me.",
-							"092": "I dreamed about catching a giant fish! From a puddle!",
-							"093": "I had a dream where the tree I was chopping transformed into a giant and attacked me!",
-							"094": "I had a dream where I was bullying a poyo and then a swarm of poyo's started attacking me! ... I am now a changed Hearthling",
+							"092": "Snil/a jsem o chycení obří ryby! Z louže!",
+							"093": "Měl/a jsem sen, kde strom který jsem kácel/a se transformoval v obra a zaůtočil na mě!",
+							"094": "Měl/a jsem sen, kde jsem šikanoval/a pojo a pak hejno pojí po mě začalo ůtočit! ... Teď jsem změněný Hearthling",
 							"095": "I had a dream, in which I was peacefully dosing off. The version of myself in that dream was also having a dream about me peacefully dosing off. This went on and on until I woke up.",
-							"096": "I had a dream where I ate so much food I literally transformed into a planet.",
+							"096": "Měl/a jsem sen, kde jsem snědl/a tolik jídla, že jsem se doslova transformoval/a na planetu.",
 							"teacher": {
 								"000": "I dreamed I came upon [str(entry.teacher)] herding rabbits towards a cave.",
-								"001": "I had a dream that [str(entry.teacher)] spoke to me through a plushie toy rabbit?! I think I need to stop eating these berries."
+								"001": "Měl/a jsem sen, že [str(entry.teacher)] na mě mluvil/a skrze plyšového králička?! Myslím, že bych měl/a přestat jíst ty bobule."
 							}
 						},
 						"beleaguered_leader": {
-							"000": "Last night I counted sheep to get to sleep, and when I woke up, I realized that all night my dreams were about counting sheep. Joy.",
-							"001": "I had a dream where I saw myself standing in some kind of sun-god robes on a pyramid. I had a thousand hearthlings as subjects, but they were all screaming and throwing radishes at me.",
-							"002": "I dreamed that me and my friends lived to build a mighty empire of our own!",
+							"000": "Poslední noc jsem počítal/a ovečky abych usnul/a, a když jsem se probral/a, zjistil/a jsem, že po celou noc mé sny byli o počítaní oveček. Radost.",
+							"001": "Měl/a jsem sen, kde jsem se viděl/a stát v nějakém druhu róby slunečného-boha na pyramidě. Měl/a jsem stovku hearthlingů jako poddané, ale všichni po mě křičeli a házeli tuříny.",
+							"002": "Snil jsem o tom, že já a moji přátelé jsme žili, abychom vybudovali svou vlastní mocnou říši!",
 							"003": "I dreamed that I pushed an immense boulder up a hill. When I reached the top of the hill I watched the boulder roll back down to the bottom. I then started pushing the boulder back up the hill. This happened all night long...",
-							"004": "I had a horrible dream! I had a dream, where there were 6 other people, and we were all stuck in the- oh, wait.... that wasn't a dream.",
+							"004": "Měl/a jsem strašlivý sen! Měl/a jsem sen, kde bylo 6 dalších lidí, a my všichni jsme byli natlačený v- och, počkat.... to nebyl sen.",
 							"teacher_dreams": {
-								"000": "First, I dreamed that the trees grew arms and legs and began to sing. Then, [str(entry.teacher)] asked me to sing in front of a large audience."
+								"000": "Nejprve, jsem snil/a, že stromům narostly ruce a nohy a začali spívat. Poté, [str(entry.teacher)] mě požádal/a, abych spíval/a před velkým publikem."
 							}
 						}
 					}
@@ -8807,7 +8807,7 @@
 			"excitable": {
 				"excitable_trait": {
 					"display_name": "Rozrušený/á",
-					"description": "[name(i18n_data.entity)] can never seem to keep their emotions in check, so they become happy or sad much faster than normal."
+					"description": "[name(i18n_data.entity)] se zdá, že nikdy nemůže udržet své emoce pod kontrolou, takže se stanou šťastními nebo smutnými rychleji než obvykle."
 				}
 			},
 			"green_thumb": {
@@ -8831,13 +8831,13 @@
 			"featherweight": {
 				"featherweight_trait": {
 					"display_name": "Peří Váha",
-					"description": "[name(i18n_data.entity)] likes to walk a bit faster than others, except if they are carrying something, which causes them to slow down greatly."
+					"description": "[name(i18n_data.entity)] rád/a kráčí trošku rychleji než ostatní, kromě pokud něco nenese, což mu/jí způsobí značné zpomalení."
 				}
 			},
 			"pack_mule": {
 				"pack_mule_trait": {
-					"display_name": "Pack Mule",
-					"description": "This hearthling loves to haul things around! For inexplicable reasons, they move faster when they are carrying something in their pack."
+					"display_name": "Naložení Mulice",
+					"description": "Tento hearthling miluje táhnout věci kolem! Z nevysvětlitelných důvodů, pohybuje se rychleji, když nese něco ve svém báglu."
 				}
 			},
 			"glutton": {
@@ -8861,7 +8861,7 @@
 			"optimistic": {
 				"optimistic_trait": {
 					"display_name": "Optimista",
-					"description": "[name(i18n_data.entity)] always looks on the bright side, and sees a silver lining in almost everything."
+					"description": "[name(i18n_data.entity)] se vždy dívá na světlou stránku, a vidí stříbrnou podšívku téměř ve všem."
 				}
 			},
 			"passion_job": {
@@ -8873,25 +8873,25 @@
 			"pessimistic": {
 				"pessimistic_trait": {
 					"display_name": "Pesimista",
-					"description": "[name(i18n_data.entity)] is a glass half-empty kinda person."
+					"description": "[name(i18n_data.entity)] je skleněný napůl-prázdný člověk."
 				}
 			},
 			"cultist": {
 				"cultist_trait": {
 					"display_name": "Kultista",
-					"description": "This hearthling keeps mumbling about some sort of secret \"bunny god\" sleeping eternally. What's that about?"
+					"description": "Tento hearthling si stále mumlá něco ohledně nějakého tajného, věčně spícího \"zaječího boha\". Co to znamená?"
 				}
 			},
 			"jokester": {
 				"jokester_trait": {
 					"display_name": "Šprímař/ka",
-					"description": "[name(i18n_data.entity)] loves to tell jokes. Are they good? It's tough to say, but they frequently seem to leave others with a smile."
+					"description": "[name(i18n_data.entity)] miluje říkat vtipy. Jsou dobré? Těžko říct, ale často se zdá, že zanechají ostatní s úsměvem na tváři."
 				}
 			},
 			"charismatic": {
 				"charismatic_trait": {
 					"display_name": "Charizmatický/á",
-					"description": "When [name(i18n_data.entity)] walks into a room, people always take notice."
+					"description": "Když [name(i18n_data.entity)] vkročí do místnosti, lidi si vždycky všimnou."
 				}
 			},
 			"gregarious": {
@@ -8903,49 +8903,49 @@
 			"loner": {
 				"loner_trait": {
 					"display_name": "Samotář/ka",
-					"description": "[name(i18n_data.entity)] doesn't really care for the company of others. They prefer to be by themselves."
+					"description": "[name(i18n_data.entity)] vážně mu/jí nezáleží na společnosti ostatních. Upřednostňuje být sám/a se sebou."
 				}
 			},
 			"empathetic": {
 				"empathetic_trait": {
 					"display_name": "Empatický/á",
-					"description": "[name(i18n_data.entity)] is really sensitive to the mood of the town, and it always seems to rub off on them."
+					"description": "[name(i18n_data.entity)] je vážně citlivý/á na náladu města, a zdá se, že se to vždycky o ně otře."
 				}
 			},
 			"opinionated": {
 				"opinionated_trait": {
-					"display_name": "Opinionated",
-					"description": "[name(i18n_data.entity)] has an opinion on everything, and isn't shy about sharing it."
+					"display_name": "Umíněný/á",
+					"description": "[name(i18n_data.entity)] má názor na všechno, a není ostýchavý/á ho sdílet."
 				}
 			},
 			"magnificent_beard": {
 				"magnificent_beard_trait": {
-					"display_name": "Magnificent Beard",
-					"description": "This hearthling has a truly magnificent beard."
+					"display_name": "Velkolepý Plnovous",
+					"description": "Tento Hearthling má vskutku velkolepé vousy."
 				}
 			},
 			"stoic": {
 				"stoic_trait": {
-					"display_name": "Stoic",
-					"description": "Due to their even temperament, it takes a lot to make this Hearthling happy or sad."
+					"display_name": "Stoický/á",
+					"description": "Kvůli jeho/jímu rovnoměrnému temperamentu, to zabere hodně učinit tohohle Hearthlinga šťastného/ou nebo smutného/ou."
 				}
 			},
 			"gourmand": {
 				"gourmand_trait": {
-					"display_name": "Gourmand",
-					"description": "Only the tastiest of foods are welcome to [name(i18n_data.entity)]'s palate. They become happy when they eat higher quality food, but low quality meals are quite distasteful."
+					"display_name": "Gurmán",
+					"description": "Jenom ty nejchutnější jídla jsou vítána na [name(i18n_data.entity)] patře. Bude šťastný/á, když jí vysoce kvalitní jídlo, ale níže kvalitné pokrmy jsou docela nechutné."
 				}
 			},
 			"goat": {
 				"goat_trait": {
-					"display_name": "Goat",
-					"description": "[name(i18n_data.entity)] will basically eat anything. They are not picky at all, sometimes to the disgust of those around them."
+					"display_name": "Koza",
+					"description": "[name(i18n_data.entity)] v podstatě sní cokoli. není vůbec vybíravý/á, někdy k znechucení lidí kolem nich."
 				}
 			},
 			"pluviophile": {
 				"pluviophile_trait": {
-					"display_name": "Pluviophile",
-					"description": "[name(i18n_data.entity)] loves nothing more than the gentle drumbeat of raindrops."
+					"display_name": "Dešťofil",
+					"description": "[name(i18n_data.entity)] nic nemiluje víc, jak jemné bubnování dešťových kapek."
 				}
 			},
 			"storm_chaser": {
@@ -9039,30 +9039,30 @@
 						"tooltip": "I'm sharing my room with someone else right now. I could use a little more privacy."
 					},
 					"well_rested": {
-						"display_name": "Well rested",
+						"display_name": "Dobře odpočatý/á",
 						"tooltip": "Ahh, sleeping in my own bed without hearing other people snoring always leaves me refreshed."
 					},
 					"slept_outside": {
-						"display_name": "Slept outside",
-						"tooltip": "I wish I had some shelter and protection from the elements."
+						"display_name": "Spal/a venku",
+						"tooltip": "Přeju si, abych měl/a nějaké přístřeší a ochranu před živly."
 					},
 					"slept_in_comfy_bed": {
-						"display_name": "Slept in a comfy bed",
-						"tooltip": "My bed is really comfortable. I almost didn't want to leave it!"
+						"display_name": "Spal/a v pohodlné posteli",
+						"tooltip": "Moje postel byla vážně pohodlná. Skoro jsem jí ani nechtěl/a opustit!"
 					}
 				},
 				"eating": {
 					"ate_unpalatable": {
-						"display_name": "Ate something awful",
-						"tooltip": "Eating [str(foodname)] was one of the poorer choices I made today."
+						"display_name": "Jedl/a něco odporného",
+						"tooltip": "Jezení [str(foodname)] bylo jedno z mých horších rozhodnutí co jsem dneska udělal/a."
 					},
 					"herbivore_ate_meat": {
-						"display_name": "I ate meat! NOOOO!",
-						"tooltip": "I can't believe I ate a [str(foodname)].  I can just imagine how cute it must have looked... before..."
+						"display_name": "Snědl/a jsem maso! NÉÉÉÉ!",
+						"tooltip": "Nemůžu uvěřit, že jsem snědl/a [str(foodname)].  Mohu si jen představit, jak roztomile to muselo vypadat... předtím..."
 					},
 					"carnivore_ate_veggies": {
-						"display_name": "I ate a plant! Bleh!",
-						"tooltip": "There's been a mistake.  I've accidentally eaten food that my food eats."
+						"display_name": "Snědl/a jsem rostlinu! Fuj!",
+						"tooltip": "Stala se chyba.  Náhodou jsem snědl/a jídlo co jí moje jídlo."
 					},
 					"offended_palate": {
 						"display_name": "Offended Palate",
@@ -9077,11 +9077,11 @@
 						"tooltip": "My recent meal was amazing! Whoever made the [str(foodname)] really put their heart into it."
 					},
 					"ate_tasty": {
-						"display_name": "Ate a tasty meal",
+						"display_name": "Jedl/a chutné jídlo",
 						"tooltip": "The [str(foodname)] I ate was pretty tasty! I still remember the combination of flavors."
 					},
 					"ate_raw": {
-						"display_name": "My meal was raw",
+						"display_name": "Mé jídlo bylo syrové",
 						"tooltip": "I recently ate a raw [str(foodname)]. I can only imagine how much better it would have tasted were it cooked."
 					},
 					"ate_bland": {
@@ -9098,14 +9098,14 @@
 							"tooltip": "My recent [str(foodname)] was <font color='#ce71d2'>Excellent!</font> It was really something!"
 						},
 						"ate_item_quality_masterwork": {
-							"display_name": "Masterfully prepared meal!",
-							"tooltip": "I just ate a <font color='#E3AC53'>Masterfully</font> prepared [str(foodname)]! I never knew it could taste so good!"
+							"display_name": "Mistrovsky připravené jídlo!",
+							"tooltip": "Právě jsem jedl/a <font color='#E3AC53'>Masterfully</font> připravený/é/ou [str(foodname)]! Nikdy jsem nevěděl/a, žeby to mohlo chutnat tak dobře!"
 						}
 					},
 					"values": {
 						"ate_cooked": {
-							"display_name": "My meal was cooked",
-							"tooltip": "I always enjoy the 'warm belly' feeling after a nice prepared meal."
+							"display_name": "Mé jídlo bylo uvařené",
+							"tooltip": "Vždy si užívám pocit 'teplého bříška' po dobře připraveném jídle."
 						}
 					}
 				},
@@ -9160,14 +9160,14 @@
 					},
 					"safety": {
 						"lack_of_safety": {
-							"display_name": "Lack of safety",
+							"display_name": "Postrádá pocit bezpečí",
 							"tooltip": "Without some form of city guard, I just don't feel at ease in this wilderness."
 						}
 					},
 					"theft": {
 						"petty_theft": {
-							"display_name": "Theft",
-							"tooltip": "Someone stole something from our supplies! We need better defenses."
+							"display_name": "Okradený",
+							"tooltip": "Někdo ukradl něco z našich zásob! Potřebujeme lepší obranu."
 						}
 					},
 					"progression": {
@@ -9206,7 +9206,7 @@
 				"combat": {
 					"values": {
 						"panicked": {
-							"display_name": "Feared for my life",
+							"display_name": "Bál/a jsem se o svůj život",
 							"tooltip": "I'm not proud of how I acted when the monsters came, but it's all I could think to do."
 						}
 					}
@@ -9218,7 +9218,7 @@
 							"tooltip": "Although it's been awhile since they died, I still catch myself sometimes looking for my pet, [str(pet_name)]."
 						},
 						"plant_lover": {
-							"display_name": "Plant Lover",
+							"display_name": "Milovník Rostlin",
 							"tooltip": "Every time I interact with plants I feel a bit calmer."
 						},
 						"fruitful_labors": {
@@ -9230,12 +9230,12 @@
 							"tooltip": "I've not made anything in awhile and feel like a layabout. Isn't there something I can craft?"
 						},
 						"protected_the_town": {
-							"display_name": "Protected the Town",
+							"display_name": "Ochránil/a Město",
 							"tooltip": "We fended off a group of nasties recently, it really got my blood pumping!"
 						},
 						"loves_their_job": {
-							"display_name": "Loves Their Job",
-							"tooltip": "This is the perfect job for me! I love what I do day to day."
+							"display_name": "Miluje Jejich Práci",
+							"tooltip": "Tohle je pro mě perfektní práce! Miluju co dělám den ode dne."
 						},
 						"inspired": {
 							"display_name": "Inspired",
@@ -9250,12 +9250,12 @@
 							"tooltip": "[str(target_name)] really has his priorities straight."
 						},
 						"pluviophile": {
-							"display_name": "I love rain!",
-							"tooltip": "It's my favorite weather today!"
+							"display_name": "Miluju déšť!",
+							"tooltip": "Dneska je moje oblíbené počasí!"
 						},
 						"storm_chaser": {
 							"display_name": "It's storming!",
-							"tooltip": "It's my favorite weather today!"
+							"tooltip": "Dneska je moje oblíbené počasí!"
 						}
 					},
 					"gregarious": {
@@ -10678,7 +10678,7 @@
 			},
 			"input_bin_woven": {
 				"input_bin_woven_ghost": {
-					"display_name": "Woven Supply Basket",
+					"display_name": "Tkaný Zásobovací Košík",
 					"description": "A supply container, for quicker crafting."
 				}
 			},
@@ -10798,19 +10798,19 @@
 			},
 			"input_bin_woven_blue": {
 				"input_bin_woven_blue_ghost": {
-					"display_name": "Blue Woven Supply Basket",
+					"display_name": "Modrý Tkaný Zásobovací Košík",
 					"description": "A supply container, for quicker crafting."
 				}
 			},
 			"input_bin_woven_green": {
 				"input_bin_woven_green_ghost": {
-					"display_name": "Green Woven Supply Basket",
+					"display_name": "Zelený Tkaný Zásobovací Košík",
 					"description": "A supply container, for quicker crafting."
 				}
 			},
 			"input_bin_woven_red": {
 				"input_bin_woven_red_ghost": {
-					"display_name": "Red Woven Supply Basket",
+					"display_name": "Červený Tkaný Zásobovací Košík",
 					"description": "A supply container, for quicker crafting."
 				}
 			},
@@ -10880,35 +10880,35 @@
 				}
 			},
 			"rabbit": {
-				"display_name": "Rabbit",
+				"display_name": "Králiček",
 				"description": "Om nom nom.  This cute creature only eats greens.",
 				"rabbit_jerky": {
 					"display_name": "Rabbit jerky"
 				},
-				"species": "rabbit"
+				"species": "králiček"
 			},
 			"racoon": {
-				"display_name": "Raccoon",
+				"display_name": "Mýval",
 				"description": "Small forest creature that eats anything.",
 				"racoon_jerky": {
 					"display_name": "Raccoon jerky"
 				},
-				"species": "racoon"
+				"species": "mýval"
 			},
 			"red_fox": {
-				"display_name": "Fox",
-				"description": "Small forest creature",
+				"display_name": "Liška",
+				"description": "Malé lesní stvoření",
 				"red_fox_jerky": {
 					"display_name": "Fox jerky"
 				},
-				"species": "fox"
+				"species": "liška"
 			},
 			"sheep": {
-				"display_name": "A sheep",
+				"display_name": "Ovce",
 				"description": "So fluffy!  It eats greens, and sometimes cud.",
 				"unripe_description": "This sheep is still quite naked.",
 				"sheep_young": {
-					"display_name": "A Lamb",
+					"display_name": "Jehňátko",
 					"description": "Awww!"
 				},
 				"renewable_harvest_status_text": "shearing sheep",
@@ -10936,9 +10936,9 @@
 				"deer_jerky": {
 					"display_name": "Deer Jerky"
 				},
-				"species": "deer",
+				"species": "jelen",
 				"description": "Very gamey... how appropriate",
-				"display_name": "Deer"
+				"display_name": "Jelen"
 			},
 			"boar": {
 				"display_name": "Kanec",
@@ -10970,38 +10970,38 @@
 				}
 			},
 			"red_fox_wolf": {
-				"species": "fox",
-				"description": "Small forest creature",
-				"display_name": "Fox"
+				"species": "liška",
+				"description": "Malé lesní stvoření",
+				"display_name": "Liška"
 			},
 			"deer_horned": {
-				"species": "deer",
-				"description": "Beware the antlers!",
+				"species": "jelen",
+				"description": "Pozor na paroží!",
 				"display_name": "Caribou"
 			},
 			"ghost": {
-				"species": "ghost"
+				"species": "duch"
 			}
 		},
 		"crops": {
 			"brightbell_crop": {
-				"display_name": "Brightbell Flower",
-				"description": "Can be used as a healing herb",
+				"display_name": "Květ Světlozvonu",
+				"description": "Může být použitý jako léčivá bylina",
 				"growth_stage": {
 					"001": {
-						"name": "Brightbell Sprout",
+						"name": "Výhonek Světlozvonu",
 						"description": "Stubby."
 					},
 					"003": {
-						"name": "Brightbell",
+						"name": "Světlozvon",
 						"description": "Beauty is its own reward."
 					},
 					"000": {
-						"name": "Brightbell Seedling",
-						"description": "Full of potential."
+						"name": "Sazenice Světlozvonu",
+						"description": "Plný potenciálu."
 					},
 					"002": {
-						"name": "Brightbell Bud",
+						"name": "Pupen Světlozvonu",
 						"description": "Awkward, gangly stage."
 					}
 				}
@@ -11012,7 +11012,7 @@
 				"growth_stage": {
 					"003": {
 						"name": "Ripe Carrot",
-						"description": "Delicious!"
+						"description": "Lahodná!"
 					},
 					"002": {
 						"name": "Baby Carrot",
@@ -11020,10 +11020,10 @@
 					},
 					"001": {
 						"name": "Carrot Sprout",
-						"description": "Not edible yet!"
+						"description": "Ještě není jedlá!"
 					},
 					"000": {
-						"name": "Carrot Seedling",
+						"name": "Sazenice Mrkve",
 						"description": "A unrealized carrot."
 					},
 					"011": {
@@ -11729,14 +11729,14 @@
 			},
 			"amberstone_teapot": {
 				"amberstone_teapot_ghost": {
-					"display_name": "Stone-cut Teapot",
-					"description": "A rabbit's cherished teapot"
+					"display_name": "Kamenem-řezaná Konvice",
+					"description": "Králiky vážená konvice"
 				}
 			},
 			"decorative_teapot": {
 				"decorative_teapot_ghost": {
 					"display_name": "Dekorativní Konvice",
-					"description": "A reminder of humble beginnings"
+					"description": "Připomínka skromných začátků"
 				}
 			},
 			"decorative_tray": {
@@ -11747,8 +11747,8 @@
 			},
 			"potted_cactus": {
 				"potted_cactus_ghost": {
-					"display_name": "Potted Cactus",
-					"description": "Careful, it's still prickly."
+					"display_name": "Zasazený Kaktus",
+					"description": "Opatrně, pořád je pichlavý."
 				}
 			},
 			"blown_glass_vase": {
@@ -11771,14 +11771,14 @@
 			},
 			"amberstone_mat": {
 				"amberstone_mat_ghost": {
-					"display_name": "Woven Floormat",
-					"description": "Woven with the skill of the rabbits"
+					"display_name": "Tkaná Rohožka",
+					"description": "Tkaná se zručností králiků"
 				}
 			},
 			"amberstone_painting_branch": {
 				"amberstone_painting_branch_ghost": {
 					"display_name": "Flowering Painting",
-					"description": "Depicts a tree from cycles past"
+					"description": "Zobrazuje strom z kruhů minulých"
 				}
 			},
 			"tile_floor_mosaic": {
@@ -11790,7 +11790,7 @@
 			"tile_wall_mosaic": {
 				"tile_wall_mosaic_ghost": {
 					"display_name": "Tile Wall Mosaic",
-					"description": "Soothing decorative patterns"
+					"description": "Uklidňující ozdobné tvary"
 				}
 			},
 			"golden_clay_wall_planter": {
@@ -12146,15 +12146,15 @@
 				},
 				"wall_hanging_plaque": {
 					"wall_hanging_plaque_ghost": {
-						"display_name": "Sword and Shield Plaque",
-						"description": "Just like Granddads sword looked!"
+						"display_name": "Plaketa Meče a Štítu",
+						"description": "Přesně jak vypadal dědečkův meč!"
 					}
 				}
 			},
 			"wooden_sign_engineer": {
 				"wooden_sign_engineer_ghost": {
-					"display_name": "Engineer's Sign",
-					"description": "A sign with the mark of the Engineer."
+					"display_name": "Inženýrova Cedule",
+					"description": "Cedule se značkou Inženýra."
 				}
 			},
 			"wooden_garden_lantern_red": {
@@ -12734,7 +12734,7 @@
 			"bug_meat_stew": {
 				"bug_meat_stew": {
 					"description": "Stringy and Savory",
-					"display_name": "Tasty Bug Stew"
+					"display_name": "Chutná Broučí Polévka"
 				},
 				"bug_meat_stew_serving": {
 					"display_name": "Miska Chutné Broučí Polévky"
@@ -12759,36 +12759,36 @@
 				}
 			},
 			"varanus_jerky": {
-				"display_name": "Varanus Jerky"
+				"display_name": "Varanusí Sušené Maso"
 			},
 			"zilla_jerky": {
-				"display_name": "Zilla Jerky"
+				"display_name": "Zillí Sušené Maso"
 			},
 			"ostrich_jerky": {
-				"display_name": "Ostrich Jerky"
+				"display_name": "Pštrosí Sušené Maso"
 			},
 			"boar_jerky": {
-				"display_name": "Boar Jerky"
+				"display_name": "Kančí Sušené Maso"
 			},
 			"duckduck_jerky": {
-				"display_name": "Duckduck Jerky"
+				"display_name": "Kachní Sušené Maso"
 			},
 			"roast_venison": {
 				"roast_venison": {
-					"display_name": "Chunk of Roast Venison",
-					"description": "Thoughtfully roasted to perfection"
+					"display_name": "Kus Pečené Zvěřiny",
+					"description": "Promyšleně opečená k dokonalosti"
 				},
 				"roast_venison_serving": {
-					"display_name": "Serving of Roast Venison"
+					"display_name": "Porce Pečné Zvěřiny"
 				}
 			},
 			"venison": {
-				"display_name": "Raw Venison",
-				"description": "Raw meat from a deer"
+				"display_name": "Syrová Zvěřina",
+				"description": "Syrové maso z jelena"
 			},
 			"rotten_venison_meat": {
-				"display_name": "Rotten Venison Meat",
-				"description": "What a waste.."
+				"display_name": "Shnilé Maso ze Zvěřiny",
+				"description": "Jaké plýtvání.."
 			},
 			"sugar": {
 				"sugarbell_basket": {
@@ -12809,11 +12809,11 @@
 			},
 			"bug_meat_kabob": {
 				"bug_meat_kabob_serving": {
-					"display_name": "Serving of Bug Meat Kabob"
+					"display_name": "Porce Kabobu z Broučího Masa"
 				},
 				"bug_meat_kabob": {
-					"display_name": "Bug Meat Kabob",
-					"description": "Slightly more edible form of bug meat"
+					"display_name": "Kabob z Broučího Masa",
+					"description": "Lehce více poživatelná podoba broučího masa"
 				}
 			},
 			"sweet_potato": {
@@ -12846,12 +12846,12 @@
 				}
 			},
 			"wolf_jerky": {
-				"display_name": "Wolf Jerky"
+				"display_name": "Vlčí Sušené Maso"
 			},
 			"fodder": {
 				"fodder": {
-					"display_name": "Animal Fodder",
-					"description": "For feeding any vegetarian animals."
+					"display_name": "Zvířecí Krmivo",
+					"description": "Pro krmení jakýchkoliv vegetariánských zvířat."
 				}
 			},
 			"pie_berry": {
@@ -12865,17 +12865,17 @@
 			},
 			"pie_pear": {
 				"pie_pear_serving": {
-					"display_name": "Piece of Prickly Pear Pie"
+					"display_name": "Kousek Koláče z Opuncie"
 				},
 				"pie_pear": {
-					"display_name": "Prickly Pear Pie",
+					"display_name": "Koláč z Opuncie",
 					"description": "It's called 'Prickly Pear' but all the prickles have been removed."
 				}
 			},
 			"cake_layered": {
 				"cake_layered": {
 					"display_name": "Vrstvený Koláč",
-					"description": "So beautiful!  And just covered in tasty treats!"
+					"description": "Taková nádhera!  A právě pokrytá v chutných pochoutkách!"
 				},
 				"cake_layered_serving": {
 					"display_name": "Kousek Vrstveného Koláče"
@@ -12933,14 +12933,14 @@
 			},
 			"comfy_chair": {
 				"comfy_chair_ghost": {
-					"display_name": "Comfy Chair",
-					"description": "For sitting!"
+					"display_name": "Pohodlná Židle",
+					"description": "Na sezení!"
 				}
 			},
 			"comfy_chair_fine": {
 				"comfy_chair_fine_ghost": {
 					"display_name": "Fine Comfy Chair",
-					"description": "For sitting!"
+					"description": "Na sezení!"
 				}
 			},
 			"amberstone_table": {
@@ -12951,7 +12951,7 @@
 			},
 			"dining_table": {
 				"dining_table_ghost": {
-					"display_name": "Dining Table",
+					"display_name": "Jídelní Stůl",
 					"description": "Sitting down to eat is a sign of civilization."
 				}
 			},
@@ -12963,7 +12963,7 @@
 			},
 			"dresser": {
 				"dresser_ghost": {
-					"display_name": "Wooden Dresser",
+					"display_name": "DřevĚný Prádelník",
 					"description": "Decorative in the absence of belongings."
 				}
 			},
@@ -12981,62 +12981,62 @@
 			},
 			"park_bench": {
 				"park_bench_ghost": {
-					"display_name": "Wooden Park Bench",
-					"description": "Outdoor seating for moments of relaxation."
+					"display_name": "Dřevěná Parková Lavička",
+					"description": "Venkovní sezení pro chvíle relaxace"
 				}
 			},
 			"park_bench_fine": {
 				"park_bench_fine_ghost": {
 					"display_name": "Fine Park Bench",
-					"description": "Outdoor seating for moments of relaxation."
+					"description": "Venkovní sezení pro chvíle relaxace"
 				}
 			},
 			"ornate_bench": {
 				"ornate_bench_ghost": {
-					"display_name": "Ornate Park Bench",
-					"description": "Outdoor seating for moments of relaxation."
+					"display_name": "Zdobená Parková Lavička",
+					"description": "Venkovní sezení pro chvíle relaxace."
 				}
 			},
 			"simple_wooden_chair": {
 				"simple_wooden_chair_ghost": {
 					"display_name": "Simple Wooden Chair",
-					"description": "For sitting."
+					"description": "Na sezení."
 				}
 			},
 			"simple_wooden_chair_fine": {
 				"simple_wooden_chair_fine_ghost": {
 					"display_name": "Fine Wooden Chair",
-					"description": "For sitting."
+					"description": "Na sezení."
 				}
 			},
 			"stone_bench": {
 				"stone_bench_ghost": {
-					"display_name": "Stone Bench",
-					"description": "Outdoor seating for moments of relaxation"
+					"display_name": "Kamenná Lavička",
+					"description": "Venkovní sezení pro chvíle relaxace"
 				}
 			},
 			"stone_chair": {
 				"stone_chair_ghost": {
-					"display_name": "Stone Chair",
-					"description": "For sitting"
+					"display_name": "Kamenná Židle",
+					"description": "Na sezení"
 				}
 			},
 			"stone_table": {
 				"stone_table_ghost": {
-					"display_name": "Stone Table",
-					"description": "Its weight adds a sense of gravitas."
+					"display_name": "Kamenný Stůl",
+					"description": "Jeho váha přiáva gravitaci smysl."
 				}
 			},
 			"table_for_one": {
 				"table_for_one_ghost": {
-					"display_name": "Table for One",
-					"description": "Dining furniture for introverts."
+					"display_name": "Stůl pro Jednoho",
+					"description": "Jídelní nábytek pro introverty."
 				}
 			},
 			"table_for_one_fine": {
 				"table_for_one_fine_ghost": {
 					"display_name": "Fine Table for One",
-					"description": "Dining furniture for introverts."
+					"description": "Jídelní nábytek pro introverty."
 				}
 			},
 			"tombstone": {
@@ -13045,26 +13045,26 @@
 					"description": "[str(self.stonehearth:unit_info.custom_name)] will always be remembered."
 				},
 				"tombstone": {
-					"display_name": "Tombstone",
-					"description": "A memorial for the fallen"
+					"display_name": "Náhrobek",
+					"description": "Pamětník pro padlé"
 				}
 			},
 			"writing_desk": {
 				"writing_desk_ghost": {
-					"display_name": "Writing Desk",
+					"display_name": "Psací Stůl",
 					"description": "A peaceful place to write letters to home."
 				}
 			},
 			"writing_desk_fine": {
 				"writing_desk_fine_ghost": {
 					"display_name": "Fine Writing Desk",
-					"description": "Furniture"
+					"description": "Nábytek"
 				}
 			},
 			"clay_bed": {
 				"clay_bed_ghost": {
-					"display_name": "Clay Bed",
-					"description": "Gets you off the ground"
+					"display_name": "Jílová Postel",
+					"description": "Dostane tě ze země"
 				}
 			},
 			"clay_dining_table": {
@@ -13114,61 +13114,61 @@
 			},
 			"statue_of_cid_wanderer": {
 				"statue_of_cid_wanderer_ghost": {
-					"display_name": "Statue of Cid Wanderer",
-					"description": "Shows Cid in his later years"
+					"display_name": "Socha Cida Poutníka",
+					"description": "Ukazuje Cida v jeho pozdních letech"
 				}
 			},
 			"park_bench_red": {
 				"park_bench_red_ghost": {
-					"display_name": "Red Wooden Park Bench",
-					"description": "Outdoor seating for moments of relaxation"
+					"display_name": "Červená Dřevěná Parková Lavička",
+					"description": "Venkovní sezení pro chvíle relaxace"
 				}
 			},
 			"ornate_table_for_one": {
 				"ornate_table_for_one_ghost": {
-					"display_name": "Ornate Table for One",
-					"description": "Dining furniture for introverts."
+					"display_name": "Zdobený Stůl pro Jednoho",
+					"description": "Jídelní nábytek pro introverty."
 				}
 			},
 			"ornate_comfy_bed": {
 				"ornate_comfy_bed_ghost": {
-					"display_name": "Ornate Comfy Bed",
-					"description": "I dreamed... of flying sheep."
+					"display_name": "Zdobená Pohodlná Postel",
+					"description": "Snil/a jsem... o létajících ovečkách."
 				}
 			},
 			"ornate_dining_table": {
 				"ornate_dining_table_ghost": {
 					"description": "Sitting down to eat is a sign of civilization.",
-					"display_name": "Ornate Dining Table"
+					"display_name": "Zdobený Jídelní Stůl"
 				}
 			},
 			"ornate_dresser": {
 				"ornate_dresser_ghost": {
 					"description": "Decorative in the absence of belongings.",
-					"display_name": "Ornate Dresser"
+					"display_name": "Zdobený Prádelník"
 				}
 			},
 			"ornate_writing_desk": {
 				"ornate_writing_desk_ghost": {
-					"description": "A stylish place to write letters to home.",
-					"display_name": "Ornate Writing Desk"
+					"description": "Stylové místo k psaní dopisů domů.",
+					"display_name": "Zdobený Psací Stůl"
 				}
 			},
 			"ornate_comfy_chair": {
 				"ornate_comfy_chair_ghost": {
-					"description": "For comfortable sitting!",
+					"description": "Pro pohodlné sezení!",
 					"display_name": "Ornate Comfy Chair"
 				}
 			},
 			"bench": {
 				"bench_ghost": {
-					"display_name": "Wooden Park Bench",
-					"description": "Outdoor seating for moments of relaxation."
+					"display_name": "Dřevěná Parková Lavička",
+					"description": "Venkovní sezení pro chvíle relaxace."
 				}
 			},
 			"wooden_chair": {
 				"wooden_chair_ghost": {
-					"display_name": "Wooden Chair",
+					"display_name": "Dřevěná Židle",
 					"description": "For a little more class while sitting."
 				}
 			},
@@ -13180,7 +13180,7 @@
 			},
 			"stone_bed": {
 				"stone_bed_ghost": {
-					"display_name": "Stone bed",
+					"display_name": "Kamenná postel",
 					"description": "Some stone and hay to sleep on"
 				}
 			}
@@ -13213,20 +13213,20 @@
 			},
 			"small_turret": {
 				"small_turret_ghost": {
-					"display_name": "Turret",
-					"description": "Shoots at enemies from a small distance"
+					"display_name": "Věž",
+					"description": "Střílí na nepřátelé z malé vzdálenosti"
 				}
 			},
 			"clamp_trap": {
 				"clamp_trap_ghost": {
-					"display_name": "Clamp Trap",
-					"description": "Damages and shortly stuns enemies that step on it"
+					"display_name": "Sklápací Past",
+					"description": "Poškozuje a krátce omračuje nepřátelé co na ni šlápnou"
 				}
 			},
 			"turnip_shooter": {
 				"turnip_shooter_ghost": {
-					"display_name": "Turnip Shooter",
-					"description": "Shoots turnips at enemies"
+					"display_name": "Tuřínomet",
+					"description": "Střílí tuříny na nepřátele"
 				}
 			},
 			"critter_trap": {
@@ -13237,8 +13237,8 @@
 			},
 			"dummy_training": {
 				"dummy_training_ghost": {
-					"display_name": "Training Dummy",
-					"description": "It's best to practice with this friendly guy."
+					"display_name": "Tréninkový Panák",
+					"description": "Je to nejlepší cvičit s tímto přátelským hochem."
 				}
 			},
 			"town_banner_guardian": {
@@ -13276,8 +13276,8 @@
 			},
 			"titan_ward_stone": {
 				"titan_ward_stone_ghost": {
-					"display_name": "Anti-Titan Ward",
-					"description": "Hurts anything nearby that smells like titan."
+					"display_name": "Anti-Titánská Ochrana",
+					"description": "Zraňuje cokoliv poblíž co smrdí jako titán."
 				}
 			},
 			"titan_ward_clay": {
@@ -13318,7 +13318,7 @@
 			},
 			"tentacle_trap": {
 				"display_name": "Tentacle Trap",
-				"description": "Grabs anyone who passes close by."
+				"description": "Schmatne kohokoliv kdo prochází poblíž."
 			},
 			"charging_pedestal": {
 				"charging_pedestal_ghost": {
@@ -13335,32 +13335,32 @@
 		},
 		"loot": {
 			"gold": {
-				"display_name": "Chest of Gold Coins",
-				"description": "It's [str(self.stonehearth:stacks.stacks)] coins!",
-				"label": "gold"
+				"display_name": "Truhla Zlatých Mincí",
+				"description": "To jsou [str(self.stonehearth:stacks.stacks)] mince!",
+				"label": "zlato"
 			},
 			"dusty_tome": {
-				"display_name": "Dusty Tome",
-				"description": "An ancient text preserving knowledge of the past"
+				"display_name": "Zaprášený Svazek",
+				"description": "Starobylý text uchovává vědění minulosti"
 			}
 		},
 		"monsters": {
 			"forest": {
 				"ent": {
 					"display_name": "Ent",
-					"description": "Guardian of the forest"
+					"description": "Strážce lesa"
 				},
 				"entling": {
 					"display_name": "Entling",
-					"description": "Minion of the forest"
+					"description": "Posluhovač lesa"
 				},
 				"entling_mage": {
-					"display_name": "Entling Mage",
-					"description": "Minion of the forest"
+					"display_name": "Entlingský Mág",
+					"description": "Posluhovač lesa"
 				},
 				"stone_golem": {
-					"display_name": "Stone Golem",
-					"description": "Solid."
+					"display_name": "Kamenný Golem",
+					"description": "Pevný."
 				},
 				"little_stone_golem": {
 					"display_name": "Stoneling",
@@ -13379,50 +13379,50 @@
 					"description": "The ground rumbles when Zilla comes around."
 				},
 				"cougar": {
-					"display_name": "Cougar",
+					"display_name": "Puma",
 					"description": "A large, graceful cat.  It's a meat eating hunter.",
-					"species": "cougar"
+					"species": "puma"
 				},
 				"jacko": {
-					"display_name": "Spirit of Jack-O",
-					"description": "Protector of Light"
+					"display_name": "Duch Světlonosu",
+					"description": "Ochránce Světla"
 				}
 			},
 			"goblins": {
 				"decoration": {
 					"banner": {
-						"display_name": "A banner"
+						"display_name": "Prapor"
 					},
 					"skull_stake": {
-						"display_name": "A stake"
+						"display_name": "Kůl"
 					}
 				},
 				"goblin": {
 					"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
-					"description": "Attracted to shiny things"
+					"description": "Přitahován lesklými věcičkami"
 				},
 				"goblin_barricade": {
-					"display_name": "A barricade"
+					"display_name": "Barikáda"
 				},
 				"goblin_boss_banner": {
 					"goblin_boss_banner_ghost": {
-						"display_name": "Ogo Skullbonker's Standard",
-						"description": "Clearly indicates goblin-boss-status"
+						"display_name": "Prapor Oga Lebkomlátiče",
+						"description": "Jasně indikuje goblin-šéfský-status"
 					}
 				},
 				"goblin_boss_hut": {
-					"display_name": "Boss Hut",
+					"display_name": "Šéfova Chatrč",
 					"description": "Dirty white, like the color of winter."
 				},
 				"goblin_chief_hut": {
 					"goblin_tent": {
-						"display_name": "Goblin Tent",
+						"display_name": "Gobliní Stan",
 						"description": "Made from crudely-sewn animal hides"
 					}
 				},
 				"goblin_flute": {
 					"broken_flute": {
-						"display_name": "Broken Flute",
+						"display_name": "Zlomená Flétna",
 						"description": "Produces pathetically wheezy wailing."
 					},
 					"mountains_flute": {
@@ -13435,14 +13435,14 @@
 					}
 				},
 				"goblin_hut": {
-					"display_name": "Goblin Tent",
+					"display_name": "Gobliní Stan",
 					"description": "Made from coarsely chopped wooden boards"
 				},
 				"goblin_large_totem": {
-					"display_name": "Large Goblin Totem"
+					"display_name": "Velký Gobliní Totem"
 				},
 				"goblin_small_totem": {
-					"display_name": "Small Goblin Totem"
+					"display_name": "Malý Gobliní Totem"
 				},
 				"goblin_soldier": {
 					"display_name": "Goblin Soldier",
@@ -13453,7 +13453,7 @@
 					"description": "Cobbled together out of luxurious scraps"
 				},
 				"goblin_tent": {
-					"display_name": "A Tent",
+					"display_name": "Stan",
 					"description": "Made from crudely-sewn animal hides"
 				},
 				"goblin_throne": {
@@ -13471,16 +13471,16 @@
 					}
 				},
 				"wolf_cage": {
-					"display_name": "A wolf cage",
+					"display_name": "Vlčí klec",
 					"description": "Signals nappytime for its inhabitants."
 				},
 				"goblin_cage": {
-					"display_name": "Large Cage",
+					"display_name": "Velká Klec",
 					"description": "Property of Central Chief Grug Skull Crusher"
 				},
 				"goblin_barricade_single": {
 					"goblin_barricade_single_ghost": {
-						"display_name": "A barricade"
+						"display_name": "Barikáda"
 					}
 				}
 			},
@@ -13515,46 +13515,46 @@
 			"undead": {
 				"skeleton": {
 					"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
-					"description": "It yearns for flesh"
+					"description": "Touží to po mase"
 				},
 				"zombie": {
 					"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
-					"description": "It yearns for flesh",
+					"description": "Touží to po mase",
 					"male": {
 						"zombie_male": {
 							"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
-							"description": "It yearns for flesh"
+							"description": "Touží to po mase"
 						}
 					}
 				},
 				"crypt": {
-					"display_name": "A Crypt",
-					"description": "What lies inside?"
+					"display_name": "Krypta",
+					"description": "Copak leží uvnitř?"
 				},
 				"sarcophagus": {
-					"display_name": "A Sarcophagus",
-					"description": "Holds remains of the dead"
+					"display_name": "Sarkofág",
+					"description": "Uchovává pozůstatky mrtvých"
 				},
 				"tombstone": {
-					"display_name": "A Tombstone",
-					"description": "Where undead are born"
+					"display_name": "Náhrobek",
+					"description": "Kde se rodí nemrtvý"
 				},
 				"stone_pillar_fence": {
 					"display_name": "Stone Pillar Fence",
 					"description": "Sturdy fence anchored by pillars."
 				},
 				"necromancer": {
-					"display_name": "Necromancer",
-					"description": "Practitioner of the dark arts"
+					"display_name": "Nekromant",
+					"description": "Praktik temných umění"
 				},
 				"wolf_skeleton": {
 					"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
-					"description": "Its animal instincts are all that remain.."
+					"description": "Jeho zvířecí instinkty jsou všechno co zbylo.."
 				}
 			},
 			"rabbit": {
 				"display_name": "...",
-				"description": "A Rabbit"
+				"description": "Králík"
 			},
 			"ogres": {
 				"ogre": {
@@ -13565,24 +13565,24 @@
 			"orcs": {
 				"orc": {
 					"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
-					"description": "A warrior of the Red Kiln"
+					"description": "Válečník Červené Pece"
 				},
 				"orc_boss_banner": {
 					"display_name": "Warchief Oghar Grakbash's Banner",
 					"description": "Made to intimidate the weak hearted"
 				},
 				"orc_hut": {
-					"display_name": "Orc hut",
+					"display_name": "Orkská chatrč",
 					"description": "Made from coarsely chopped wooden boards"
 				},
 				"orc_tent": {
-					"display_name": "Orc Tent",
-					"description": "Smells like old laundry."
+					"display_name": "Orkský Stan",
+					"description": "Smrdí jako stará prádelna."
 				}
 			},
 			"mammoth": {
 				"mammoth": {
-					"display_name": "Mammoth",
+					"display_name": "Mamut",
 					"description": "Large Woolie Beastie"
 				}
 			},
@@ -13628,7 +13628,7 @@
 				"corrupt": {
 					"corrupt_zilla": {
 						"display_name": "Corrupt Monstrosity",
-						"description": "Evil. Hungry."
+						"description": "Zlá. Hladová."
 					},
 					"corrupt_hearthling": {
 						"display_name": "Corruption",
@@ -13666,37 +13666,37 @@
 		},
 		"pets": {
 			"collie": {
-				"display_name": "Collie",
-				"description": "So brave!  It eats a little bit of everything.",
-				"species": "dog"
+				"display_name": "Kolie",
+				"description": "Tak statečná! Jí trošičku všechno.",
+				"species": "pes"
 			},
 			"kitten": {
-				"display_name": "Kitten",
-				"description": "It's so cute!  It's a meat eating little hunter.",
-				"species": "cat",
+				"display_name": "Koťátko",
+				"description": "Je tak roztomilé! Je to maso pojídající malý lovec.",
+				"species": "kočka",
 				"jacko": {
-					"display_name": "Shade of Jack-O",
-					"description": "Walker of Shadows"
+					"display_name": "Stín Světlonosu",
+					"description": "Stínový Chodec"
 				},
 				"koda": {
-					"display_name": "Spirit of Koda",
-					"description": "Friend to All"
+					"display_name": "Dušička Kody",
+					"description": "Přítelíček Všech"
 				}
 			},
 			"mammoth": {
-				"display_name": "Baby Mammoth",
-				"description": "So furry!  It loves to eat plants, lots of plants.",
-				"species": "mammoth"
+				"display_name": "Dítě Mamuta",
+				"description": "Tak chlupaťoučký!  Miluje pojídat rostliny, hodně rostlin.",
+				"species": "mamut"
 			},
 			"dragon_whelp_fire": {
-				"display_name": "Flame Dragon Whelp",
-				"description": "Keep it away from flammable materials.  This dragon type prefers extra well done meat.",
-				"species": "dragon"
+				"display_name": "Mládě Ohnivého Draka",
+				"description": "Držte ho dál od hořlavých materiálů.  Tento typ draka preferuje extra dobře udělané maso.",
+				"species": "drak"
 			},
 			"dragon_whelp_nature": {
-				"display_name": "Forest Dragon Whelp",
-				"description": "They are excellent for tending a freshly planted garden.  Unlike most dragons, these eat both meat and plants.",
-				"species": "dragon",
+				"display_name": "Mládě Lesního Draka",
+				"description": "Jsou excelentní na péči o čerstvě posazenou zahradu. Narozdíl od většiny draků, tito jedí obě maso i rostliny.",
+				"species": "drak",
 				"egg": {
 					"dragon_nature_egg_fertilized_ghost": {
 						"display_name": "Nature Dragon Egg",
@@ -13711,7 +13711,7 @@
 			"dragon_whelp_ice": {
 				"display_name": "Frost Dragon Whelp",
 				"description": "A baby dragon, good for keeping food cold.  This dragon type prefers chilled meats.",
-				"species": "dragon"
+				"species": "drak"
 			},
 			"dragon_whelp_copper": {
 				"display_name": "Copper Dragon Whelp",
@@ -13762,14 +13762,14 @@
 				"stem": {
 					"berry_bush_plant_stem": {
 						"display_name": "Stemming Berry Bush",
-						"description": "Still growing!"
+						"description": "Stále roste!"
 					}
 				}
 			},
 			"brightbell_plant": {
-				"display_name": "Wild Brightbell",
+				"display_name": "Divoký Světlozvon",
 				"description": "Can be harvested for healing herbs",
-				"unripe_description": "This plant has been harvested and has not grown back yet",
+				"unripe_description": "Tato rostlina byla sesbírána a zatím ještě nedorostla zpátky",
 				"seed": {
 					"brightbell_plant_seed_ghost": {
 						"display_name": "Wild Brightbell Seed",
@@ -13783,7 +13783,7 @@
 				"stem": {
 					"brightbell_plant_stem": {
 						"display_name": "Wild Brightbell Stemming Plant",
-						"description": "Still growing!"
+						"description": "Stále roste!"
 					},
 					"brightbell_plant_bud": {
 						"display_name": "Wild Brightbell Budding Plant",
@@ -13793,14 +13793,14 @@
 			},
 			"carrot": {
 				"carrot_basket": {
-					"display_name": "Basket of Carrots",
+					"display_name": "Košík mrkve",
 					"description": "Lined up in neat rows."
 				},
 				"carrot_serving": {
-					"display_name": "Carrot",
+					"display_name": "Mrkev",
 					"description": "Tiny. Bitter."
 				},
-				"display_name": "Carrot",
+				"display_name": "Mrkev",
 				"description": "Great for soups",
 				"bud": {
 					"carrot_plant_bud": {
@@ -13810,55 +13810,55 @@
 				},
 				"rotten": {
 					"carrot_rotten": {
-						"display_name": "Rotten Carrot",
-						"description": "Not good for eating anymore, but a great source of seeds"
+						"display_name": "Shnilá Mrkev",
+						"description": "Již není dobrá na jezení, ale skvělý zdroj semínek"
 					}
 				},
 				"sprout": {
 					"carrot_plant_sprout": {
 						"display_name": "Carrot Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
 				"seed": {
 					"carrot_plant_seed": {
-						"display_name": "Carrot Seed",
-						"description": "Can be planted to grow a tasty orange veggie."
+						"display_name": "Semínko Mrkve",
+						"description": "Může být zasazen k růstu chutné oranžové zeleniny."
 					},
 					"carrot_plant_seed_ghost": {
-						"display_name": "Carrot Seed",
-						"description": "Can be planted to grow a crunchy orange veggie."
+						"display_name": "Semínko Mrkve",
+						"description": "Může být zasazen k růstu křupavé oranžové zeleniny."
 					}
 				},
 				"stem": {
 					"carrot_plant_stem": {
 						"display_name": "Stemming Carrot",
-						"description": "Still growing!"
+						"description": "Stále roste!"
 					}
 				},
 				"carrot_ghost": {
-					"display_name": "Carrot",
-					"description": "Great for soups"
+					"display_name": "Mrkev",
+					"description": "Skvělá pro polévky"
 				}
 			},
 			"frostsnap_plant": {
 				"display_name": "Wild Frost Snap",
-				"description": "Can be harvested for healing herbs",
-				"unripe_description": "This plant has been harvested and has not grown back yet",
+				"description": "Může být sesbírán pro léčivé byliny",
+				"unripe_description": "Tato rostlina byla sesbírána a zatím ještě nedorostla zpátky",
 				"seed": {
 					"frostsnap_plant_seed_ghost": {
 						"display_name": "Wild Frostsnap Seed",
-						"description": "Can be planted to grow healing herbs"
+						"description": "Může být zasazeno k růstu léčivých bylin"
 					},
 					"frostsnap_plant_sprout": {
 						"display_name": "Wild Frostsnap Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
 				"stem": {
 					"frostsnap_plant_stem": {
 						"display_name": "Wild Frostsnap Stemming Plant",
-						"description": "Still growing!"
+						"description": "Stále roste!"
 					},
 					"frostsnap_plant_bud": {
 						"display_name": "Wild Frostsnap Budding Plant",
@@ -13876,7 +13876,7 @@
 				"silkweed": {
 					"display_name": "Wild Silkweed",
 					"description": "This plant's fiber can be spun into thread.",
-					"unripe_description": "This plant has been harvested and hasn't grown back yet."
+					"unripe_description": "Tato rostlina byla sesbírána a zatím ještě nedorostla zpátky."
 				},
 				"seed": {
 					"silkweed_plant_seed_ghost": {
@@ -13893,13 +13893,13 @@
 				"sprout": {
 					"silkweed_plant_sprout": {
 						"display_name": "Silkweed Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
 				"stem": {
 					"silkweed_stem": {
 						"display_name": "Stemming Silkweed",
-						"description": "Still growing!"
+						"description": "Stále roste!"
 					}
 				}
 			},
@@ -13926,7 +13926,7 @@
 			"cactus_plant": {
 				"display_name": "Wild Cactus",
 				"description": "Can be harvested for healing herbs",
-				"unripe_description": "This plant has been harvested and has not grown back yet",
+				"unripe_description": "Tato rostlina byla sesbírána a zatím ještě nedorostla zpátky",
 				"bud": {
 					"cactus_plant_plant_bud": {
 						"display_name": "Budding Wild Cactus",
@@ -13952,7 +13952,7 @@
 				"stem": {
 					"cactus_plant_plant_stem": {
 						"display_name": "Stemming Wild Cactus",
-						"description": "Still growing!"
+						"description": "Stále roste!"
 					}
 				}
 			},
@@ -13984,7 +13984,7 @@
 				"stem": {
 					"tumbleweed_plant_stem": {
 						"display_name": "Stemming Tumbleweed",
-						"description": "Still growing!"
+						"description": "Stále roste!"
 					}
 				}
 			},
@@ -14013,7 +14013,7 @@
 				"stem": {
 					"pear_cactus_plant_stem": {
 						"display_name": "Stemming Pear Cactus",
-						"description": "Still growing!"
+						"description": "Stále roste!"
 					}
 				}
 			},
@@ -14047,7 +14047,7 @@
 				"stem": {
 					"foxlily_plant_plant_stem": {
 						"display_name": "Stemming Foxlily Plant",
-						"description": "Still growing!"
+						"description": "Stále roste!"
 					}
 				}
 			},
@@ -14120,7 +14120,7 @@
 				"stem": {
 					"sugarbell_plant_stem": {
 						"display_name": "Stemming Sugarbell",
-						"description": "Still growing!"
+						"description": "Stále roste!"
 					}
 				}
 			},
@@ -14129,11 +14129,11 @@
 					"display_name": "Red Tulip Cactus",
 					"description": "Can be harvested for healing herbs"
 				},
-				"unripe_description": "This plant has been harvested and has not grown back yet",
+				"unripe_description": "Tato rostlina byla sesbírána a zatím ještě nedorostla zpátky",
 				"stem": {
 					"cactus_tulip_red_plant_stem": {
 						"display_name": "Stemming Tulip Cactus Plant",
-						"description": "Still growing!"
+						"description": "Stále roste!"
 					}
 				},
 				"sprout": {
@@ -14163,7 +14163,7 @@
 				"stem": {
 					"cactus_tulip_blue_plant_stem": {
 						"display_name": "Stemming Tulip Cactus Plant",
-						"description": "Still growing!"
+						"description": "Stále roste!"
 					}
 				},
 				"sprout": {
@@ -14192,14 +14192,14 @@
 					"display_name": "Blue Tulip Cactus",
 					"description": "Can be harvested for healing herbs"
 				},
-				"unripe_description": "This plant has been harvested and has not grown back yet"
+				"unripe_description": "Tato rostlina byla sesbírána a zatím ještě nedorostla zpátky"
 			},
 			"cactus_tulip_plant": {
 				"yellow": {
 					"stem": {
 						"cactus_tulip_yellow_plant_stem": {
 							"display_name": "Stemming Tulip Cactus Plant",
-							"description": "Still growing!"
+							"description": "Stále roste!"
 						}
 					},
 					"sprout": {
@@ -14225,7 +14225,7 @@
 						}
 					},
 					"cactus_tulip_yellow_plant": {
-						"unripe_description": "This plant has been harvested and has not grown back yet"
+						"unripe_description": "Tato rostlina byla sesbírána a zatím ještě nedorostla zpátky"
 					},
 					"cactus_tulip_yellow_plant_ghost": {
 						"display_name": "Yellow Tulip Cactus",
@@ -14263,7 +14263,7 @@
 				"stem": {
 					"wax_plant_purple_plant_stem": {
 						"display_name": "Stemming Purple Wax Plant",
-						"description": "Still growing!"
+						"description": "Stále roste!"
 					}
 				}
 			},
@@ -14297,7 +14297,7 @@
 				"stem": {
 					"wax_plant_green_plant_stem": {
 						"display_name": "Stemming Green Wax Plant",
-						"description": "Still growing!"
+						"description": "Stále roste!"
 					}
 				}
 			},
@@ -14333,7 +14333,7 @@
 				"stem": {
 					"sweet_potato_plant_stem": {
 						"display_name": "Stemming Sweet Potato",
-						"description": "Still growing!"
+						"description": "Stále roste!"
 					}
 				}
 			},
@@ -14341,7 +14341,7 @@
 				"stem": {
 					"snow_poppy_plant_stem": {
 						"display_name": "Stemming Snow Poppy",
-						"description": "Still growing!"
+						"description": "Stále roste!"
 					}
 				},
 				"sprout": {
@@ -14366,7 +14366,7 @@
 						"description": "It's almost there!  Look, it has buds!"
 					}
 				},
-				"unripe_description": "This plant has been harvested and has not grown back yet",
+				"unripe_description": "Tato rostlina byla sesbírána a zatím ještě nedorostla zpátky",
 				"snow_poppy_plant_ghost": {
 					"display_name": "Snow Poppy",
 					"description": "Can be harvested for healing herbs"
@@ -14376,7 +14376,7 @@
 				"stem": {
 					"gold_snow_poppy_plant_stem": {
 						"display_name": "Stemming Snow Poppy",
-						"description": "Still growing!"
+						"description": "Stále roste!"
 					}
 				},
 				"sprout": {
@@ -14401,7 +14401,7 @@
 						"description": "It's almost there!  Look, it has buds!"
 					}
 				},
-				"unripe_description": "This plant has been harvested and has not grown back yet",
+				"unripe_description": "Tato rostlina byla sesbírána a zatím ještě nedorostla zpátky",
 				"gold_snow_poppy_plant_ghost": {
 					"display_name": "Snow Poppy",
 					"description": "Can be harvested for healing herbs"
@@ -14409,7 +14409,7 @@
 			},
 			"violet_plant": {
 				"violet_plant": {
-					"unripe_description": "This plant has been harvested and has not grown back yet."
+					"unripe_description": "Tato rostlina byla sesbírána a zatím ještě nedorostla zpátky."
 				},
 				"violet_plant_ghost": {
 					"display_name": "Violet",
@@ -14440,7 +14440,7 @@
 				"stem": {
 					"violet_plant_stem": {
 						"display_name": "Stemming violet",
-						"description": "Still growing!"
+						"description": "Stále roste!"
 					}
 				}
 			},
@@ -14482,7 +14482,7 @@
 				"stem": {
 					"wintermoss_plant_stem": {
 						"display_name": "Stemming Wintermoss",
-						"description": "Still growing!"
+						"description": "Stále roste!"
 					}
 				}
 			},
@@ -14490,7 +14490,7 @@
 				"stem": {
 					"earthbud_plant_stem": {
 						"display_name": "Stemming Hearthbud",
-						"description": "Still growing!"
+						"description": "Stále roste!"
 					}
 				},
 				"sprout": {
@@ -14997,7 +14997,7 @@
 				"stem": {
 					"tree_juniper_plant_stem": {
 						"display_name": "Stemming Juniper Tree",
-						"description": "Still growing!"
+						"description": "Stále roste!"
 					}
 				},
 				"sprout": {
@@ -15085,7 +15085,7 @@
 				"stem": {
 					"tree_acacia_plant_stem": {
 						"display_name": "Stemming Acacia Tree",
-						"description": "Still growing!"
+						"description": "Stále roste!"
 					}
 				},
 				"sprout": {
@@ -15119,7 +15119,7 @@
 				"stem": {
 					"tree_joshua_plant_stem": {
 						"display_name": "Stemming Joshua Tree",
-						"description": "Still growing!"
+						"description": "Stále roste!"
 					}
 				},
 				"sprout": {
@@ -15161,7 +15161,7 @@
 				"stem": {
 					"tree_pine_plant_stem": {
 						"display_name": "Stemming Pine Tree",
-						"description": "Still growing!"
+						"description": "Stále roste!"
 					}
 				},
 				"sprout": {
@@ -15245,7 +15245,7 @@
 				"stem": {
 					"tree_cactus_plant_stem": {
 						"display_name": "Stemming Cactus",
-						"description": "Still growing!"
+						"description": "Stále roste!"
 					}
 				},
 				"sprout": {
@@ -15311,7 +15311,7 @@
 				"stem": {
 					"tree_oak_plant_stem": {
 						"display_name": "Stemming Oak Tree",
-						"description": "Still growing!"
+						"description": "Stále roste!"
 					}
 				},
 				"sprout": {
@@ -15380,26 +15380,26 @@
 		},
 		"weapons": {
 			"bronze_mace": {
-				"display_name": "Bronze Mace",
+				"display_name": "Bronzový Palcát",
 				"description": "Precisely engineered for maximum bashing.",
 				"bronze_mace_iconic": {
-					"display_name": "Bronze Mace",
+					"display_name": "Bronzový Palcát",
 					"description": "For flattening faces"
 				}
 			},
 			"bronze_sword": {
-				"display_name": "Bronze Short Sword",
+				"display_name": "Bronzový Krátký Meč",
 				"description": "Basic, but better than fighting with a sharpened stick!",
 				"bronze_sword_iconic": {
-					"display_name": "Bronze Sword",
+					"display_name": "Bronzový Meč",
 					"description": "Pointy. Shiny."
 				}
 			},
 			"dagger": {
-				"display_name": "Dagger",
+				"display_name": "Dýka",
 				"description": "Pointy. Dangerous.",
 				"dagger_iconic": {
-					"display_name": "Dagger",
+					"display_name": "Dýka",
 					"description": "Pointy. Dangerous."
 				}
 			},
@@ -15412,42 +15412,42 @@
 				}
 			},
 			"giant_bone_mace": {
-				"display_name": "Giant Bone Mace",
+				"display_name": "Obří Kostěný Palcát",
 				"description": "Heavy, it packs a wallop. (Two-handed)",
 				"giant_bone_mace_iconic": {
-					"display_name": "Giant Bone Mace",
+					"display_name": "Obří Kostěný Palcát",
 					"description": "For flattening faces"
 				}
 			},
 			"iron_mace": {
-				"display_name": "Iron Mace",
+				"display_name": "Železný Palcát",
 				"description": "Heavy, it packs a wallop.",
 				"iron_mace_iconic": {
-					"display_name": "Iron Mace",
+					"display_name": "Železný Palcát",
 					"description": "For flattening faces"
 				}
 			},
 			"iron_pike": {
-				"display_name": "Iron Pike",
+				"display_name": "Železná Pika",
 				"description": "Sharp. Long. Pointy. (Two-handed)",
 				"iron_pike_iconic": {
-					"display_name": "Iron pike",
+					"display_name": "Železná Pika",
 					"description": "Sharp. Long. Pointy."
 				}
 			},
 			"jagged_cleaver": {
-				"display_name": "Jagged Cleaver",
+				"display_name": "Zubatý Sekáček",
 				"description": "A crude, ineffective weapon",
 				"jagged_cleaver_iconic": {
-					"display_name": "Jagged Cleaver",
+					"display_name": "Zubatý Sekáček",
 					"description": "A crude, ineffective weapon"
 				}
 			},
 			"long_sword": {
-				"display_name": "Long Sword",
+				"display_name": "Dlouhý Meč",
 				"description": "Sharp, with extra reach. A faithful weapon.",
 				"long_sword_iconic": {
-					"display_name": "Long Sword",
+					"display_name": "Dlouhý Meč",
 					"description": "Pointy. Shiny."
 				}
 			},
@@ -15456,10 +15456,10 @@
 				"description": "Keeps the fuzzies in line"
 			},
 			"short_sword": {
-				"display_name": "Steel Short Sword",
+				"display_name": "Ocelový Krátký Meč",
 				"description": "Stubby, but its steel blade keeps an edge.",
 				"short_sword_iconic": {
-					"display_name": "Short Sword",
+					"display_name": "Krátký Meč",
 					"description": "Pointy. Shiny."
 				}
 			},
@@ -15468,39 +15468,39 @@
 				"description": "Nasty, pointy spikes"
 			},
 			"stone_maul": {
-				"display_name": "Stone Maul",
+				"display_name": "Kamenný Kyj",
 				"description": "The perfect tool for bludgeoning",
 				"stone_maul_iconic": {
-					"display_name": "Stone Maul",
+					"display_name": "Kamenný Kyj",
 					"description": "For flattening faces"
 				}
 			},
 			"two_handed_sword": {
-				"display_name": "Two Handed Sword",
+				"display_name": "Obojruční Meč",
 				"description": "Double the hands, double the trouble. (Two-handed)",
 				"two_handed_sword_iconic": {
-					"display_name": "Two Handed Sword",
+					"display_name": "Obojruční Meč",
 					"description": "Double the hands, double the trouble."
 				}
 			},
 			"wooden_sword": {
-				"display_name": "Wooden Sword",
+				"display_name": "Dřevěný Meč",
 				"description": "Thacks thine enemies with oaken might",
 				"wooden_sword_iconic": {
-					"display_name": "Wooden Sword",
-					"description": "Basic wooden sword."
+					"display_name": "Dřevěný Meč",
+					"description": "Základný dřevěný meč."
 				},
 				"wooden_sword_talisman": {
-					"display_name": "Wooden Sword",
+					"display_name": "Dřevěný Meč",
 					"description": "Required to promote a hearthling into a Footman."
 				}
 			},
 			"scythe": {
-				"display_name": "Scythe",
+				"display_name": "Kosa",
 				"description": "Preferred weapon for reaping"
 			},
 			"bow": {
-				"display_name": "Bow",
+				"display_name": "Luk",
 				"description": "Used by an archer for shooting arrows",
 				"bow_talisman": {
 					"display_name": "Archer's Bow",
@@ -15527,8 +15527,8 @@
 				"display_name": "The Bonker",
 				"description": "Designed by Ogo Skullbonker. (Two-handed)",
 				"ogos_bone_mace_iconic": {
-					"display_name": "The Bonker",
-					"description": "Ex-property of Ogo Skullbonker"
+					"display_name": "Mlátič",
+					"description": "Ex-majetek Oga Lebkomlátiče"
 				}
 			},
 			"bullet": {
@@ -15544,7 +15544,7 @@
 				"description": "Bolt"
 			},
 			"fire_arrow": {
-				"display_name": "Fire Arrow",
+				"display_name": "Ohnivý Šíp",
 				"description": "An arrow imbued with flames"
 			},
 			"two_handed_sword_valor": {
@@ -15565,7 +15565,7 @@
 			},
 			"maul_lantern": {
 				"maul_lantern_iconic": {
-					"display_name": "Lantern Mace",
+					"display_name": "Lucernové Žezlo",
 					"description": "Wield the HolyLlight of Hestia in defence of your town."
 				}
 			}
@@ -16184,7 +16184,7 @@
 				},
 				"bronze_sword_recipe": {
 					"description": "Basic, but better than fighting with a sharpened stick!",
-					"recipe_name": "Bronze Sword",
+					"recipe_name": "Bronzový Meč",
 					"flavor": "Made in the shape of Braun's own blade."
 				},
 				"carpenter_saw_recipe": {
@@ -16224,7 +16224,7 @@
 				},
 				"long_sword_recipe": {
 					"description": "Sharp, with extra reach. A faithful weapon.",
-					"recipe_name": "Long Sword",
+					"recipe_name": "Dlouhý Meč",
 					"flavor": "'Hah! The only weapon worthy of specialization. --Lady Giest"
 				},
 				"weapons_name": "Weapons",
@@ -16233,7 +16233,7 @@
 				"tools_name": "Tools",
 				"short_sword_recipe": {
 					"description": "Stubby, but its steel blade keeps an edge.",
-					"recipe_name": "Steel Short Sword",
+					"recipe_name": "Ocelový Krátký Meč",
 					"flavor": "But, does it glow when orcs are near?"
 				},
 				"silver_ingot_recipe": {
@@ -16263,7 +16263,7 @@
 				},
 				"two_handed_sword_recipe": {
 					"description": "Double the hands, double the trouble.",
-					"recipe_name": "Two Handed Sword"
+					"recipe_name": "Obojruční Meč"
 				},
 				"blacksmith_forge_recipe": {
 					"description": "Smelt metals into ingots.",
@@ -16278,8 +16278,8 @@
 				"workbenches_name": "Workbenches",
 				"storage_name": "Storage",
 				"vault_recipe": {
-					"description": "Massive storage for 256 items!",
-					"recipe_name": "Vault",
+					"description": "Masivní sklad pro 256 předmětů!",
+					"recipe_name": "Trezor",
 					"flavor": "Conceived by the brilliant Arci, Survivor of Chaat"
 				},
 				"iron_coif_recipe": {
@@ -16379,7 +16379,7 @@
 				},
 				"sign_blacksmith_recipe": {
 					"description": "An iron-forged sign, to be displayed outside a blacksmith's workshop",
-					"recipe_name": "Blacksmith's Shop Sign",
+					"recipe_name": "Cedule Kovářova Obchodu",
 					"flavor": "Its chains rattle and sing brightly with every hammer strike"
 				},
 				"lantern_iron_recipe": {
@@ -16443,8 +16443,8 @@
 					"recipe_name": "Wooden Torch"
 				},
 				"valor_wall_hanging_plaque_recipe": {
-					"description": "Just like Granddads sword looked!",
-					"recipe_name": "Sword and Shield Plaque"
+					"description": "Přesně jak vypadal dědečkův meč!",
+					"recipe_name": "Plaketa Meče a Štítu"
 				},
 				"valor_war_horn_recipe": {
 					"description": "Reminiscent of days gone past.",
@@ -16474,11 +16474,11 @@
 		},
 		"carpenter": {
 			"carpenter_description": {
-				"display_name": "Carpenter",
+				"display_name": "Tesař",
 				"description": "The Carpenter crafts tools and furniture from wood. The tools he makes unlocks several other jobs.",
 				"requirements": "Vyrobeno Kovářem",
 				"level_6_data": {
-					"title": "Master Carpenter",
+					"title": "Mistr Tesař",
 					"perk_000_name": "10,000 Hours",
 					"perk_000_description": "The Carpenter's mastery of his trade allows them access to recipes that expand your town's opportunities."
 				},
@@ -16930,7 +16930,7 @@
 				},
 				"sign_carpenter_recipe": {
 					"description": "An expertly carved sign, to be displayed outside a carpenter's workshop",
-					"recipe_name": "Carpenter's Shop Sign",
+					"recipe_name": "Cedule Tesařova Obchodu",
 					"flavor": "Sways like rustling oak branches in the wind"
 				},
 				"fence_frostsnap_recipe": {
@@ -17263,11 +17263,11 @@
 		},
 		"engineer": {
 			"engineer_description": {
-				"display_name": "Engineer",
+				"display_name": "Inženýr",
 				"description": "The Engineer creates advanced contraptions and defensive weaponry.",
 				"requirements": "Vyrobeno Kovářem",
 				"level_6_data": {
-					"title": "Master Engineer",
+					"title": "Mistr Inženýr",
 					"perk_000_name": "General of Defense",
 					"perk_000_description": "This Engineer can place up to twelve traps and eight turrets"
 				},
@@ -17355,7 +17355,7 @@
 				},
 				"decorations_name": "Decorations",
 				"wooden_sign_engineer_recipe": {
-					"description": "A sign with the mark of the Engineer.",
+					"description": "Cedule se značkou Inženýra.",
 					"recipe_name": "Engineer's Wall-Mounted Sign"
 				},
 				"building_parts_name": "Building Parts",
@@ -17795,16 +17795,16 @@
 				"bird_bath_recipe": {
 					"description": "A decorative stone vase with water for the birdies.",
 					"recipe_name": "Bird Bath",
-					"flavor": "Not a chair."
+					"flavor": "Není židle."
 				},
 				"amberstone_lantern_recipe": {
-					"description": "A warm little light",
+					"description": "Malé teplé světlo",
 					"recipe_name": "Stone-cut Lantern",
 					"flavor": "Their thick walls blocked too much of their precious light underground, and so this style had all but vanished until now"
 				},
 				"amberstone_teapot_recipe": {
-					"description": "A rabbit's cherished teapot",
-					"recipe_name": "Stone-cut Teapot",
+					"description": "Králiky vážená konvice",
+					"recipe_name": "Kamenem-řezaná Konvice",
 					"flavor": "They are always rough at first, as if broken from the stone rather than carved. They are gradually worn smooth through generations of use."
 				},
 				"amberstone_table_recipe": {
@@ -17998,7 +17998,7 @@
 				},
 				"sign_mason_recipe": {
 					"description": "A heavy stone sign, to be displayed outside a mason's workshop",
-					"recipe_name": "Mason's Shop Sign",
+					"recipe_name": "Cedule Kameníkova Obchodu",
 					"flavor": "Probably wouldn't even swing in a hurricane"
 				},
 				"statue_rabbit_flat_recipe": {
@@ -18348,7 +18348,7 @@
 				},
 				"decorative_teapot_recipe": {
 					"description": "Reminder of humble beginnings",
-					"recipe_name": "Decorative Teapot",
+					"recipe_name": "Dekorativní Konvice",
 					"flavor": "'Wherever she went, the teapot did too, and even when there was nothing but cold water to put in, always out poured steaming tea, redolent with the aroma of Elsewhere.'"
 				},
 				"decorative_tray_recipe": {
