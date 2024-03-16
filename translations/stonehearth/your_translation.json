@@ -1297,7 +1297,7 @@
 					"sheep_pasture_name": "Pastvina pro Ovce",
 					"rabbit_pasture_name": "Králičí Kotec",
 					"poyo_pasture_name": "Kurník pro Poja",
-					"sheep_pasture_description": "Ovce produkují vlnu, použitelná tkadlcem. Poražením ovcí získáš skopové, surovou přísadu na vaření",
+					"sheep_pasture_description": "Ovce produkují vlnu, použitelná tkalcem. Poražením ovcí získáš skopové, surovou přísadu na vaření",
 					"rabbit_pasture_description": "Králíci se rychle množí a mohou být poraženi pro plátky masa a kožešiny",
 					"poyo_pasture_description": "Poja produkují vejce, cennou přísadu na vaření. Poražení poja také přinese výtěžek masa a příležitostně peří na výrobu",
 					"num_animals": "Zvířata:"
@@ -1401,7 +1401,7 @@
 				"title": "Přehled Města",
 				"town_morale": "Nálada Města",
 				"initial_town_name": "Výprava [str(town_number)]",
-				"num_workers": "Pracovníci",
+				"num_workers": "Dělníci",
 				"num_crafters": "Řemeslníci",
 				"num_soldiers": "Bojovníci",
 				"journal": {
@@ -1573,7 +1573,7 @@
 					"005": "Syté město, je šťastné město.",
 					"006": "Použij klávesy , a . pro otočení předmětů nebo budov před jejich umístěním.",
 					"007": "Tví hearthlingové se po cestách pohybují rychleji.",
-					"008": "Tkadlec může vyrobit nové oděvy, které zvyší výkon tvých pracovníků.",
+					"008": "Tkalec může vyrobit nové oděvy, které zvyší výkon tvých dělníků.",
 					"009": "Sezení během jídla zlepšuje zažívání. Postav stoly a židle pro svoje hearthlingy.",
 					"010": "Pastýři automaticky naleznou ovci, aby zaplnili pastvinu.",
 					"011": "Jestli chceš mít větší celkové jmění, zkus prodat obchodníkovi předměty za zlato.",
@@ -2432,9 +2432,9 @@
 				"fiber_resource_name": "Svazek Vláken",
 				"ingot_resource_name": "Kovový Ingot",
 				"herb_resource_name": "Bylina",
-				"seed_resource_name": "Semeno",
-				"seed_hard_resource_name": "Tvrdé Semeno",
-				"seed_fruit_resource_name": "Ovocné Semeno",
+				"seed_resource_name": "Semínko",
+				"seed_hard_resource_name": "Tvrdé Semínko",
+				"seed_fruit_resource_name": "Ovocné Semínko",
 				"food_container_resource_name": "Jídlo",
 				"prepared_food_resource_name": "Připravené Jídlo",
 				"prepared_dessert_resource_name": "Připravený Dezert",
@@ -4960,7 +4960,7 @@
 									},
 									"bulletin_title": "Ke Zvážení",
 									"dialog_title": "Ke Zvážení",
-									"choice_000": "Semínka Mrazenky! Děkuji!"
+									"choice_000": "Semínka Mrazenky! Díky!"
 								},
 								"msg2": {
 									"bulletin_message": {
@@ -6897,7 +6897,7 @@
 													},
 													"bulletin_title": "The Dragonborn King breathes softly into the egg in front of him",
 													"dialog_title": "Flox Ledodrak",
-													"choice_000": "We will honor you, King. May you be at peace."
+													"choice_000": "Poctíme tě, Králi. Ať spočineš v pokoji."
 												},
 												"information_what": {
 													"bulletin_message": {
@@ -7238,7 +7238,7 @@
 				"peasant_day": {
 					"peasant_day_buff": {
 						"display_name": "Den Motivace",
-						"description": "Pracovníci se pohybují o 30% rychleji."
+						"description": "Dělníci se pohybují o 30% rychleji."
 					},
 					"peasant_day_individual_buff": {
 						"display_name": "Den Motivace",
@@ -7650,7 +7650,7 @@
 			},
 			"use_seeds": {
 				"display_name": "Použít",
-				"description": "Použij tyto semena k naučení tvých farmářů pěstovat novou plodinu. Toto zničí předmět."
+				"description": "Použij tyto semínka k naučení tvých farmářů pěstovat novou plodinu. Toto zničí předmět."
 			},
 			"edit_party": {
 				"display_name": "Uprav Skupinu",
@@ -7875,7 +7875,7 @@
 					}
 				},
 				"villager_death": {
-					"text": "On Mortality:",
+					"text": "Na Smrtelnost:",
 					"logs": {
 						"generic": {
 							"dead_friend_and_teacher": {
@@ -8696,7 +8696,7 @@
 								"title": "Open the Carpenter's Craft Menu"
 							},
 							"step005": {
-								"title": "Click X to close this window"
+								"title": "Klikni X pro zavření tohoho okna"
 							},
 							"step004": {
 								"title": "Click the Craft button to craft the workshop"
@@ -9073,7 +9073,7 @@
 						"tooltip": "Mmm, my my. I really should tell the others how good [str(foodname)] was today!"
 					},
 					"ate_fine": {
-						"display_name": "Ate a fine meal",
+						"display_name": "Jedl/a dobré jídlo",
 						"tooltip": "My recent meal was amazing! Whoever made the [str(foodname)] really put their heart into it."
 					},
 					"ate_tasty": {
@@ -9090,7 +9090,7 @@
 					},
 					"item_quality": {
 						"ate_item_quality_fine": {
-							"display_name": "Finely prepared meal",
+							"display_name": "Dobře připravené jídlo",
 							"tooltip": "My recent [str(foodname)] was <font color='#6be9e7'>Finely</font> prepared, which made it extra delicious!"
 						},
 						"ate_item_quality_excellent": {
@@ -9852,25 +9852,25 @@
 		"armor": {
 			"knights_shield": {
 				"shield_talisman": {
-					"display_name": "Rytířuv Štít",
-					"description": "Potřeba k povýšení na rytíře"
+					"display_name": "Rytířský Štít",
+					"description": "Vyžadován k povýšení hearthlinga na rytíře"
 				},
-				"display_name": "Rytířuv Štít",
+				"display_name": "Rytířský Štít",
 				"description": "Na obranu spojenců"
 			},
 			"iron_shield": {
 				"display_name": "Těžký Železný Štít",
-				"description": "Ooof. Těžké.",
+				"description": "Uuuf. Těžký.",
 				"iron_shield_iconic": {
 					"display_name": "Těžký Železný Štít",
-					"description": "Ooof. Těžké."
+					"description": "Uuuf. Těžký."
 				}
 			},
 			"bronze_breastplate": {
-				"display_name": "Bronzové Brnění",
+				"display_name": "Bronzový Pancíř",
 				"description": "Brnění",
 				"bronze_breastplate_iconic": {
-					"display_name": "Bronzové Brnění",
+					"display_name": "Bronzový Pancíř",
 					"description": "Brnění"
 				}
 			},
@@ -10028,7 +10028,7 @@
 			},
 			"circlet_valor": {
 				"display_name": "Zářící Čelenka",
-				"description": "Squarest circlet in the Ascendancy"
+				"description": "Nejčtverečkovanější čelenka ve Vznešeném Království"
 			}
 		},
 		"boulders": {
@@ -10274,7 +10274,7 @@
 			},
 			"wooden_window_frame_tall_fine": {
 				"wooden_window_frame_tall_fine_ghost": {
-					"display_name": "Fine Tall Window Frame",
+					"display_name": "Hezký Vysoký Okenní Rám",
 					"description": "Extra height adds an air of elegance"
 				}
 			},
@@ -10303,7 +10303,7 @@
 				}
 			},
 			"wooden_tunnel_door_fine": {
-				"display_name": "Fine Wooden Tunnel Door",
+				"display_name": "Hezké Dřevěné Tunelové Dveře",
 				"description": "Useful for blocking off tunnels"
 			},
 			"blue_latticed_window": {
@@ -10350,18 +10350,18 @@
 			},
 			"ornate_wooden_door": {
 				"ornate_wooden_door_ghost": {
-					"display_name": "Ornate Wooden Door",
+					"display_name": "Zdobené Dřevěné Dveře",
 					"description": "Sturdier than your average door, and such a sweet pattern too."
 				}
 			},
 			"ornate_wooden_double_door": {
 				"ornate_wooden_double_door_ghost": {
-					"display_name": "Ornate Wooden Double Door",
+					"display_name": "Zdobené Dřevěné Dvojité Dveře",
 					"description": "A larger door with some extra style. All your friends will be envious."
 				}
 			},
 			"ornate_wooden_tunnel_door": {
-				"display_name": "Ornate Wooden Tunnel Door",
+				"display_name": "Zdobené Dřevěné Tunelové Dveře",
 				"description": "Useful for blocking off tunnels"
 			},
 			"cobblestone_fence_single": {
@@ -10618,13 +10618,13 @@
 			},
 			"small_crate_fine": {
 				"small_crate_fine_ghost": {
-					"display_name": "Fine Small Crate",
+					"display_name": "Hezká Malá Bedna",
 					"description": "Storage container with style"
 				}
 			},
 			"large_crate_fine": {
 				"large_crate_fine_ghost": {
-					"display_name": "Fine Large Crate",
+					"display_name": "Hezká Velká Bedna",
 					"description": "Stores up to 32 items. With style."
 				}
 			},
@@ -11011,15 +11011,15 @@
 				"description": "Fast-growing, but pretty bland on its own.",
 				"growth_stage": {
 					"003": {
-						"name": "Ripe Carrot",
+						"name": "Zralá Mrkev",
 						"description": "Lahodná!"
 					},
 					"002": {
-						"name": "Baby Carrot",
+						"name": "Mrňavá Mrkev",
 						"description": "Small. Bitter."
 					},
 					"001": {
-						"name": "Carrot Sprout",
+						"name": "Výhonek Mrkve",
 						"description": "Ještě není jedlá!"
 					},
 					"000": {
@@ -11027,7 +11027,7 @@
 						"description": "A unrealized carrot."
 					},
 					"011": {
-						"name": "Rotten Carrot",
+						"name": "Shnilá Mrkev",
 						"description": "Moldy and disgusting."
 					}
 				}
@@ -11037,24 +11037,24 @@
 				"description": "Slow-growing, but super nutritious crop.",
 				"growth_stage": {
 					"003": {
-						"name": "Ripe Corn",
-						"description": "Eat me! Eat Me!"
+						"name": "Zralá Kukuřice",
+						"description": "Sněz mě! Sněz Mě!"
 					},
 					"002": {
-						"name": "Green Corn",
+						"name": "Zelená Kukuřice",
 						"description": "Extremely unsatisfying to eat."
 					},
 					"001": {
-						"name": "Corn Sprout",
+						"name": "Kukuřiční Výhonek",
 						"description": "Not edible yet!"
 					},
 					"000": {
-						"name": "Corn Seedling",
+						"name": "Kukuřiční Sazenice",
 						"description": "Slow-mo, high-stakes gambling."
 					},
 					"011": {
-						"name": "Corn Husk",
-						"description": "It's dead."
+						"name": "Kukuřiční Slupka",
+						"description": "Je mrtvá."
 					}
 				}
 			},
@@ -11127,21 +11127,21 @@
 						"description": "A unrealized pumpkin."
 					},
 					"011": {
-						"name": "Rotten pumpkin",
+						"name": "Shnilá dýně",
 						"description": "Moldy and disgusting."
 					}
 				}
 			},
 			"watermelon_crop": {
-				"display_name": "Watermelon",
+				"display_name": "Meloun",
 				"description": "Takes a while to grow, but very fun to eat!",
 				"growth_stage": {
 					"003": {
-						"name": "Ripe watermelon",
+						"name": "Zralý Meloun",
 						"description": "Delicious!"
 					},
 					"002": {
-						"name": "Baby watermelon",
+						"name": "Mrňavý meloun",
 						"description": "Not edible yet!"
 					},
 					"001": {
@@ -11153,7 +11153,7 @@
 						"description": "A unrealized watermelon."
 					},
 					"011": {
-						"name": "Rotten watermelon",
+						"name": "Shnilý meloun",
 						"description": "Moldy and disgusting."
 					}
 				}
@@ -11378,7 +11378,7 @@
 						"description": "Just a tiny little stub"
 					},
 					"011": {
-						"name": "Rotten Gourds",
+						"name": "Shnilé Tykve",
 						"description": "Sadly inedible"
 					}
 				}
@@ -11472,7 +11472,7 @@
 				}
 			},
 			"sweet_potato_crop": {
-				"display_name": "Sweet Potato",
+				"display_name": "Sladká Brambora",
 				"description": "Sweet but not very tasty when raw",
 				"growth_stage": {
 					"003": {
@@ -11480,10 +11480,10 @@
 						"description": "Ready for picking!"
 					},
 					"002": {
-						"name": "Baby Sweet Potato"
+						"name": "Mrňavá Sladká Brambora"
 					},
 					"011": {
-						"name": "Rotten Sweet Potato",
+						"name": "Shnilá Sladká Brambora",
 						"description": "Moldy and inedible"
 					},
 					"000": {
@@ -11654,13 +11654,13 @@
 			},
 			"wooden_garden_lantern": {
 				"wooden_garden_lantern_ghost": {
-					"display_name": "Wooden Garden Lantern",
+					"display_name": "Dřevěná Zahradní Lampa",
 					"description": "A compact source of light"
 				}
 			},
 			"wooden_garden_lantern_fine": {
 				"wooden_garden_lantern_fine_ghost": {
-					"display_name": "Fine Garden Lantern",
+					"display_name": "Hezká Zahradní Lampa",
 					"description": "A compact source of light, with a little bit of flair."
 				},
 				"wooden_garden_lantern_red_ghost": {
@@ -11705,7 +11705,7 @@
 			},
 			"wooden_wall_lantern_fine": {
 				"wooden_wall_lantern_fine_ghost": {
-					"display_name": "Pěkná Nástěnná Lampa",
+					"display_name": "Hezká Nástěnná Lampa",
 					"description": "Easily attached to walls"
 				}
 			},
@@ -11861,7 +11861,7 @@
 			},
 			"valor_statue": {
 				"valor_statue_ghost": {
-					"display_name": "The Valor of Cid",
+					"display_name": "Cidova Chrabrost",
 					"description": "A monument to your town's military might"
 				},
 				"brazier_large_ghost": {
@@ -11870,7 +11870,7 @@
 				},
 				"window_frame_xlarge": {
 					"window_frame_xlarge_ghost": {
-						"display_name": "Extra Large Stone Window Frame",
+						"display_name": "Extra Veliký Kamenný Okenní Rám",
 						"description": "For those who enjoy wide expansive views."
 					}
 				},
@@ -11997,7 +11997,7 @@
 			},
 			"craftsman_statue": {
 				"craftsman_statue_ghost": {
-					"display_name": "The Guildmaster's Skill",
+					"display_name": "Cechmistrova Zručnost",
 					"description": "Place to show skill at crafting"
 				},
 				"candle_iron": {
@@ -12080,7 +12080,7 @@
 				},
 				"lantern_iron": {
 					"lantern_iron_ghost": {
-						"display_name": "Iron Wall-Mounted Lantern",
+						"display_name": "Železná Nástěnná Lampa",
 						"description": "Glows like the heart of the forge"
 					}
 				},
@@ -12159,13 +12159,13 @@
 			},
 			"wooden_garden_lantern_red": {
 				"wooden_garden_lantern_red_ghost": {
-					"display_name": "Wooden Garden Lantern - in Red",
-					"description": "A compact source of light"
+					"display_name": "Dřevěná Zahradní Lampa - v Rudé",
+					"description": "Kompaktní zdroj světla"
 				}
 			},
 			"wooden_wall_lantern_red": {
 				"wooden_wall_lantern_fine_ghost": {
-					"display_name": "Wooden Wall Lantern - in Red",
+					"display_name": "Dřevěná Nástěnná Lampa - v Rudé",
 					"description": "Easily attached to walls"
 				}
 			},
@@ -12190,13 +12190,13 @@
 			"ornate_wooden_garden_lantern": {
 				"ornate_wooden_garden_lantern_ghost": {
 					"description": "A compact source of light, with a little bit of flair.",
-					"display_name": "Ornate Wooden Garden Lantern"
+					"display_name": "Zdobená Dřevěná Zahradní Lampa"
 				}
 			},
 			"ornate_wooden_wall_lantern": {
 				"ornate_wooden_wall_lantern_ghost": {
 					"description": "Easily attached to walls",
-					"display_name": "Ornate Wooden Wall Lantern"
+					"display_name": "Zdobená Dřevěná Nástěnná Lampa"
 				}
 			},
 			"wet_stone": {
@@ -12374,7 +12374,7 @@
 			"corn": {
 				"amazing_corn_basket": {
 					"display_name": "Basket of Amazing Maize",
-					"description": "Super nutritious corn."
+					"description": "Super nutriční kukuřice."
 				},
 				"amazing_corn_serving": {
 					"display_name": "Amazing Maize",
@@ -12395,17 +12395,17 @@
 			},
 			"meat_stew": {
 				"meat_stew": {
-					"display_name": "Savory Meat Stew",
-					"description": "Warm and delicious"
+					"display_name": "Pikantní Masová Polévka",
+					"description": "Teplá a chutná"
 				},
 				"meat_stew_serving": {
-					"display_name": "Bowl of Savory Meat Stew"
+					"display_name": "Miska Pikantní Masové Polévky"
 				}
 			},
 			"peasant_bread": {
 				"peasant_bread": {
 					"display_name": "Rolnický Chleba",
-					"description": "A crusty, basic bread."
+					"description": "Křupavý, základní chleba."
 				},
 				"peasant_bread_serving": {
 					"display_name": "Krajíc Rolnického Chleba"
@@ -12432,7 +12432,7 @@
 				}
 			},
 			"sheep_jerky": {
-				"display_name": "Rack of Mutton"
+				"display_name": "Stojan Skopového"
 			},
 			"unknown_food": {
 				"display_name": "Edible Matter"
@@ -12465,11 +12465,11 @@
 				}
 			},
 			"poyo_meat": {
-				"display_name": "Poyo Meat",
+				"display_name": "Pojí Maso",
 				"description": "Slyšel/a jsem že to chutná jako pojo.",
 				"rotten": {
-					"display_name": "Rotten Poyo Meat",
-					"description": "It stinks"
+					"display_name": "Shnilé Pojí Maso",
+					"description": "Smrdí to"
 				}
 			},
 			"poyo_pot_pie": {
@@ -12494,11 +12494,11 @@
 			},
 			"roast_poyo": {
 				"roast_poyo": {
-					"display_name": "Roast Poyo",
+					"display_name": "Pečené Pojo",
 					"description": "Nice and juicy."
 				},
 				"roast_poyo_serving": {
-					"display_name": "Serving of Roast Poyo"
+					"display_name": "Porce Pečeného Poja"
 				}
 			},
 			"fried_eggs": {
@@ -12571,16 +12571,16 @@
 				}
 			},
 			"corn_meal": {
-				"display_name": "Corn Meal",
+				"display_name": "Kukuřičná Moučka",
 				"description": "Corn ground into a fine powder"
 			},
 			"flat_bread": {
 				"flat_bread": {
-					"display_name": "Flat Bread",
+					"display_name": "Plochý Chleba",
 					"description": "Unleavened bread made from corn meal"
 				},
 				"flat_bread_serving": {
-					"display_name": "Piece of Flat Bread"
+					"display_name": "Krajíc Plochého Chleba"
 				}
 			},
 			"meat_tagine": {
@@ -12589,7 +12589,7 @@
 					"description": "Meat and veggies simmered in a clay pot"
 				},
 				"meat_tagine_serving": {
-					"display_name": "Bowl of Meat Stew"
+					"display_name": "Miska Masové Polévky"
 				}
 			},
 			"vegetable_tagine": {
@@ -12602,7 +12602,7 @@
 				}
 			},
 			"rotten_basket": {
-				"display_name": "Rotten Food Basket",
+				"display_name": "Shnilý Košík Jídla",
 				"description": "So rotten that it's lost all form and function."
 			},
 			"rotten_egg": {
@@ -12610,20 +12610,20 @@
 				"description": "Odporné"
 			},
 			"rotten_jerky": {
-				"display_name": "Rotten Jerky",
+				"display_name": "Shnilé Sušené Maso",
 				"description": "Even jerky will rot eventually. It's true"
 			},
 			"mutton": {
-				"display_name": "Raw Mutton",
-				"description": "Raw meat from a sheep"
+				"display_name": "Syrové Skopové",
+				"description": "Syrové maso z ovce"
 			},
 			"roast_mutton": {
 				"roast_mutton": {
-					"display_name": "Rack of Roast Mutton",
-					"description": "Tenderly roasted to perfection"
+					"display_name": "Stojan Pečeného Skopového",
+					"description": "Něžně opečené k dokonalosti"
 				},
 				"roast_mutton_serving": {
-					"display_name": "Roasted Mutton Rack"
+					"display_name": "Pečený Stojan Skopového"
 				}
 			},
 			"donation_box": {
@@ -12648,15 +12648,15 @@
 			},
 			"rotten_bug_meat": {
 				"description": "Bug meat goes bad just like other meat",
-				"display_name": "Rotten Bug Meat"
+				"display_name": "Shnilé Broučí Maso"
 			},
 			"roast_pork": {
 				"roast_pork": {
-					"description": "Tenderly roasted to perfection",
-					"display_name": "Leg of Roast Pork"
+					"description": "Něžně opečené k dokonalosti",
+					"display_name": "Kýta Pečeného Vepřového"
 				},
 				"roast_pork_serving": {
-					"display_name": "Roast Pork Slice"
+					"display_name": "Plátek Pečeného Vepřového"
 				}
 			},
 			"egg_large": {
@@ -12668,20 +12668,20 @@
 				"display_name": "Velké Shnilé Vejce"
 			},
 			"varanus_meat": {
-				"display_name": "Varanus Meat",
+				"display_name": "Varanusí Maso",
 				"description": "Tastes more like Poyo than Poyo does."
 			},
 			"rotten_varanus_meat": {
 				"description": "It actually smells better now",
-				"display_name": "Rotten Varanus Meat"
+				"display_name": "Shnilé Varanusí Maso"
 			},
 			"roast_varanus": {
 				"roast_varanus": {
-					"description": "Tastily roasted to perfection",
-					"display_name": "Slab of Roast Varanus"
+					"description": "Chutně opečené k dokonalosti",
+					"display_name": "Plát Pečeného Varanuse"
 				},
 				"roast_varanus_serving": {
-					"display_name": "Serving of Roast Varanus"
+					"display_name": "Porce Pečeného Varanuse"
 				}
 			},
 			"roast_zilla": {
@@ -12694,7 +12694,7 @@
 				}
 			},
 			"rotten_pork_meat": {
-				"display_name": "Rotten Pork Meat",
+				"display_name": "Shnilé Vepřové Maso",
 				"description": "This has definitely gone bad"
 			},
 			"rotten_poultry_large_meat": {
@@ -12708,7 +12708,7 @@
 			"roast_poultry": {
 				"roast_poultry": {
 					"display_name": "Pečené Drůbeží Stehno",
-					"description": "Tediously roasted to perfection"
+					"description": "Únavně opečené k dokonalosti"
 				},
 				"roast_poultry_serving": {
 					"display_name": "Pečené Stehno"
@@ -12733,7 +12733,7 @@
 			},
 			"bug_meat_stew": {
 				"bug_meat_stew": {
-					"description": "Stringy and Savory",
+					"description": "Skoupá a Pikantní",
 					"display_name": "Chutná Broučí Polévka"
 				},
 				"bug_meat_stew_serving": {
@@ -12927,7 +12927,7 @@
 			},
 			"comfy_bed_fine": {
 				"comfy_bed_fine_ghost": {
-					"display_name": "Fine Comfy Bed",
+					"display_name": "Hezká Pohodlná Postel",
 					"description": "Snil/a jsem... o létejících ovečkách."
 				}
 			},
@@ -12939,7 +12939,7 @@
 			},
 			"comfy_chair_fine": {
 				"comfy_chair_fine_ghost": {
-					"display_name": "Fine Comfy Chair",
+					"display_name": "Hezká Pohodlná Židle",
 					"description": "Na sezení!"
 				}
 			},
@@ -12957,19 +12957,19 @@
 			},
 			"dining_table_fine": {
 				"dining_table_fine_ghost": {
-					"display_name": "Fine Dining Table",
+					"display_name": "Hezký Jídelní Stůl",
 					"description": "Sitting down to eat is a sign of civilization."
 				}
 			},
 			"dresser": {
 				"dresser_ghost": {
-					"display_name": "DřevĚný Prádelník",
+					"display_name": "Dřevěný Prádelník",
 					"description": "Decorative in the absence of belongings."
 				}
 			},
 			"dresser_fine": {
 				"dresser_fine_ghost": {
-					"display_name": "Fine Dresser",
+					"display_name": "Hezký Prádelník",
 					"description": "Decorative in the absence of belongings."
 				}
 			},
@@ -12987,7 +12987,7 @@
 			},
 			"park_bench_fine": {
 				"park_bench_fine_ghost": {
-					"display_name": "Fine Park Bench",
+					"display_name": "Hezká Parková Lavička",
 					"description": "Venkovní sezení pro chvíle relaxace"
 				}
 			},
@@ -12999,13 +12999,13 @@
 			},
 			"simple_wooden_chair": {
 				"simple_wooden_chair_ghost": {
-					"display_name": "Simple Wooden Chair",
+					"display_name": "Jednoduchá Dřevěná Židle",
 					"description": "Na sezení."
 				}
 			},
 			"simple_wooden_chair_fine": {
 				"simple_wooden_chair_fine_ghost": {
-					"display_name": "Fine Wooden Chair",
+					"display_name": "Hezká Dřevěná Židle",
 					"description": "Na sezení."
 				}
 			},
@@ -13035,7 +13035,7 @@
 			},
 			"table_for_one_fine": {
 				"table_for_one_fine_ghost": {
-					"display_name": "Fine Table for One",
+					"display_name": "Hezký Stůl pro Jednoho",
 					"description": "Jídelní nábytek pro introverty."
 				}
 			},
@@ -13052,12 +13052,12 @@
 			"writing_desk": {
 				"writing_desk_ghost": {
 					"display_name": "Psací Stůl",
-					"description": "A peaceful place to write letters to home."
+					"description": "Klidné místo k psaní dopisů domů."
 				}
 			},
 			"writing_desk_fine": {
 				"writing_desk_fine_ghost": {
-					"display_name": "Fine Writing Desk",
+					"display_name": "Hezký Psací Stůl",
 					"description": "Nábytek"
 				}
 			},
@@ -13069,7 +13069,7 @@
 			},
 			"clay_dining_table": {
 				"clay_dining_table_ghost": {
-					"display_name": "Clay Dining Table",
+					"display_name": "Jílový Jídelní Stůl",
 					"description": "Gets your food off the floor"
 				}
 			},
@@ -13081,25 +13081,25 @@
 			},
 			"simple_clay_chair": {
 				"simple_clay_chair_ghost": {
-					"display_name": "Simple Clay Chair",
+					"display_name": "Jednoduchá Jílová Židle",
 					"description": "Less dusty than sitting on the floor"
 				}
 			},
 			"clay_dining_table_fine": {
 				"clay_dining_table_fine_ghost": {
-					"display_name": "Fine Clay Dining Table",
+					"display_name": "Hezký Jílový Jídelní Stůl",
 					"description": "Gets your food off the floor ... in style"
 				}
 			},
 			"simple_clay_chair_fine": {
 				"simple_clay_chair_fine_ghost": {
-					"display_name": "Fine Clay Chair",
+					"display_name": "Hezká Jílová Židle",
 					"description": "Less dusty and more stylish than sitting on the floor"
 				}
 			},
 			"clay_bed_fine": {
 				"clay_bed_fine_ghost": {
-					"display_name": "Fine Clay Bed",
+					"display_name": "Hezká Jílová Postel",
 					"description": "Fancy, but still uncomfortable"
 				}
 			},
@@ -13157,7 +13157,7 @@
 			"ornate_comfy_chair": {
 				"ornate_comfy_chair_ghost": {
 					"description": "Pro pohodlné sezení!",
-					"display_name": "Ornate Comfy Chair"
+					"display_name": "Zdobená Pohodlná Židle"
 				}
 			},
 			"bench": {
@@ -13174,8 +13174,8 @@
 			},
 			"ornate_wooden_chair": {
 				"ornate_wooden_chair_ghost": {
-					"display_name": "Ornate Wooden Chair",
-					"description": "For even more style while sitting."
+					"display_name": "Zdobená Dřevěná Židle",
+					"description": "Pro ještě více stylu při sezení."
 				}
 			},
 			"stone_bed": {
@@ -13213,7 +13213,7 @@
 			},
 			"small_turret": {
 				"small_turret_ghost": {
-					"display_name": "Věž",
+					"display_name": "Střelecká Věž",
 					"description": "Střílí na nepřátelé z malé vzdálenosti"
 				}
 			},
@@ -13457,8 +13457,8 @@
 					"description": "Made from crudely-sewn animal hides"
 				},
 				"goblin_throne": {
-					"display_name": "Goblin Throne",
-					"description": "Made of wood, bone, and ego"
+					"display_name": "Gobliní Trůn",
+					"description": "Vyroben ze dřeva, kostí, a ega"
 				},
 				"goblin_wolf": {
 					"display_name": "Goblin Raiding Wolf",
@@ -13508,7 +13508,7 @@
 					}
 				},
 				"kobold_wolf": {
-					"display_name": "Kobold Wolf",
+					"display_name": "Koboldí Vlk",
 					"description": "A Fearsome Wolf!"
 				}
 			},
@@ -13699,23 +13699,23 @@
 				"species": "drak",
 				"egg": {
 					"dragon_nature_egg_fertilized_ghost": {
-						"display_name": "Nature Dragon Egg",
-						"description": "So mysterious!  It should be placed somewhere safe and warm..."
+						"display_name": "Vejce Přírodního Draka",
+						"description": "Tak tajemné!  Mělo by být umístěno někde, kde je bezpečno a teplo..."
 					},
 					"dragon_copper_egg_fertilized_ghost": {
-						"display_name": "Copper Dragon Egg",
-						"description": "So mysterious!  Maybe the king can hatch it..."
+						"display_name": "Vejce Měděného Draka",
+						"description": "Tak tajemné! Možná král ho může vylíhnout..."
 					}
 				}
 			},
 			"dragon_whelp_ice": {
-				"display_name": "Frost Dragon Whelp",
-				"description": "A baby dragon, good for keeping food cold.  This dragon type prefers chilled meats.",
+				"display_name": "Mládě Ledového Draka",
+				"description": "Mrňavý drak, dobrý na udržení jídla v chladu. Tento typ draka preferuje zmražená masa.",
 				"species": "drak"
 			},
 			"dragon_whelp_copper": {
-				"display_name": "Copper Dragon Whelp",
-				"description": "Adds a certain shine to the town.  This dragon type prefers meat."
+				"display_name": "Mládě Měděného Draka",
+				"description": "Přidá jistý lesk městu. Tento typ draka preferuje maso."
 			}
 		},
 		"plants": {
@@ -13738,7 +13738,7 @@
 				}
 			},
 			"berry_bush": {
-				"display_name": "Berry Bush",
+				"display_name": "Bobulový Keř",
 				"description": "Harvestable for a meager food supply.",
 				"unripe_description": "Not yet ripe for harvest.",
 				"seed": {
@@ -13772,7 +13772,7 @@
 				"unripe_description": "Tato rostlina byla sesbírána a zatím ještě nedorostla zpátky",
 				"seed": {
 					"brightbell_plant_seed_ghost": {
-						"display_name": "Wild Brightbell Seed",
+						"display_name": "Semínko Divokého Světlozvonu",
 						"description": "Once planted, it will grow into healing herbs"
 					},
 					"brightbell_plant_sprout": {
@@ -13793,7 +13793,7 @@
 			},
 			"carrot": {
 				"carrot_basket": {
-					"display_name": "Košík mrkve",
+					"display_name": "Košík Mrkve",
 					"description": "Lined up in neat rows."
 				},
 				"carrot_serving": {
@@ -13823,11 +13823,11 @@
 				"seed": {
 					"carrot_plant_seed": {
 						"display_name": "Semínko Mrkve",
-						"description": "Může být zasazen k růstu chutné oranžové zeleniny."
+						"description": "Může být zasazeno k růstu chutné oranžové zeleniny."
 					},
 					"carrot_plant_seed_ghost": {
 						"display_name": "Semínko Mrkve",
-						"description": "Může být zasazen k růstu křupavé oranžové zeleniny."
+						"description": "Může být zasazeno k růstu křupavé oranžové zeleniny."
 					}
 				},
 				"stem": {
@@ -14019,7 +14019,7 @@
 			},
 			"foxlily_plant": {
 				"foxlily_plant_ghost": {
-					"display_name": "Fox Lily",
+					"display_name": "Liščí Lilie",
 					"description": "Orange flowers bearing resemblance to fox tails"
 				},
 				"bud": {
@@ -14030,11 +14030,11 @@
 				},
 				"seed": {
 					"foxlily_plant_plant_seed_ghost": {
-						"display_name": "Foxlily Seed",
+						"display_name": "Semínko Liščí Lilie",
 						"description": "Can be planted to grow a beautiful fox tail flower."
 					},
 					"foxlily_plant_plant_seed": {
-						"display_name": "Foxlily Seed",
+						"display_name": "Semínko Liščí Lilie",
 						"description": "Can be planted to grow a beautiful fox tail flower."
 					}
 				},
@@ -14303,7 +14303,7 @@
 			},
 			"sweet_potato": {
 				"sweet_potato_ghost": {
-					"display_name": "Sweet Potato",
+					"display_name": "Sladká Brambora",
 					"description": "Hearty winter spud"
 				},
 				"bud": {
@@ -14314,7 +14314,7 @@
 				},
 				"rotten": {
 					"sweet_potato_rotten": {
-						"display_name": "Rotten Sweet Potato",
+						"display_name": "Shnilá Sladká Brambora",
 						"description": "Not good for eating anymore, but a great source of seeds"
 					}
 				},
@@ -14525,47 +14525,47 @@
 		"rabbit": {
 			"lantern_relic": {
 				"lantern_relic_ghost": {
-					"display_name": "Ancient Relic",
+					"display_name": "Starobylá Relikvie",
 					"description": "Crumbling with age"
 				}
 			},
 			"rabbit_statue": {
-				"display_name": "An Ancient Monument",
+				"display_name": "Starobylý Monument",
 				"description": "Mossy, but the stone is still good..."
 			}
 		},
 		"refined": {
 			"bronze_ingot": {
-				"display_name": "Bronze Ingot",
-				"description": "A bar of pure bronze."
+				"display_name": "Bronzový Ingot",
+				"description": "Prut čistého bronzu."
 			},
 			"cloth_bolt": {
 				"display_name": "Bolt of Cloth",
 				"description": "Soft and comforting."
 			},
 			"copper_ingot": {
-				"display_name": "Copper Ingot",
-				"description": "A bar of pure copper.  "
+				"display_name": "Měděný Ingot",
+				"description": "Prut čisté mědi.  "
 			},
 			"gold_ingot": {
-				"display_name": "Gold Ingot",
+				"display_name": "Zlatý Ingot",
 				"description": "A bar of pure gold. A suitable material for crafted goods."
 			},
 			"iron_ingot": {
-				"display_name": "Iron Ingot",
-				"description": "A bar of pure iron."
+				"display_name": "Železný Ingot",
+				"description": "Prut čistého železa."
 			},
 			"leather_bolt": {
 				"display_name": "Bolt of Leather",
 				"description": "Supple but durable."
 			},
 			"silver_ingot": {
-				"display_name": "Silver Ingot",
-				"description": "A bar of pure silver."
+				"display_name": "Stříbrný Ingot",
+				"description": "Prut čistého stříbra."
 			},
 			"steel_ingot": {
-				"display_name": "Steel Ingot",
-				"description": "A bar of pure steel."
+				"display_name": "Ocelový Ingot",
+				"description": "Prut čisté oceli."
 			},
 			"stone_bricks": {
 				"display_name": "Stack of Stone Bricks",
@@ -14580,11 +14580,11 @@
 				"description": "A bar of pure tin.  "
 			},
 			"bronze_gear": {
-				"display_name": "Bronze Gear",
+				"display_name": "Bronzové Ozubené Kolečko",
 				"description": "Used to craft basic gadgetry"
 			},
 			"iron_gear": {
-				"display_name": "Iron Gear",
+				"display_name": "Železné Ozubené Kolečko",
 				"description": "Used to craft intermediate gadgetry"
 			},
 			"silver_bowstring": {
@@ -14624,8 +14624,8 @@
 				"description": "Used by the Geomancer to craft Ox Golems"
 			},
 			"golem_parts": {
-				"display_name": "Golem Parts",
-				"description": "Used by the Geomancer to craft golems"
+				"display_name": "Části Golema",
+				"description": "Použity Geomancerem na vytváření golemů"
 			},
 			"golem_pick": {
 				"display_name": "Golem Pick",
@@ -14641,8 +14641,8 @@
 			},
 			"copper": {
 				"copper_ore": {
-					"display_name": "Copper Ore",
-					"description": "A chunk of raw copper"
+					"display_name": "Měděná Ruda",
+					"description": "Kus surové mědi"
 				}
 			},
 			"fiber": {
@@ -14673,18 +14673,18 @@
 			},
 			"gold": {
 				"gold_ore": {
-					"display_name": "Gold Ore",
-					"description": "A chunk of raw gold"
+					"display_name": "Zlatá Ruda",
+					"description": "Kus surového zlata"
 				},
 				"bone_ancient": {
-					"display_name": "Ancient Bone",
-					"description": "A piece of very old bone."
+					"display_name": "Starobylá Kost",
+					"description": "Kus velice staré kosti."
 				}
 			},
 			"iron": {
 				"iron_ore": {
-					"display_name": "Iron Ore",
-					"description": "A chunk of raw iron"
+					"display_name": "Železná Ruda",
+					"description": "Kus surového železa"
 				}
 			},
 			"pelt": {
@@ -14739,8 +14739,8 @@
 			},
 			"silver": {
 				"silver_ore": {
-					"display_name": "Silver Ore",
-					"description": "A chunk of raw silver"
+					"display_name": "Stříbrná Ruda",
+					"description": "Kus surového stříbra"
 				}
 			},
 			"stone": {
@@ -14799,7 +14799,7 @@
 			},
 			"herb": {
 				"brightbell": {
-					"display_name": "Brightbell Flowers",
+					"display_name": "Květy Světlozvonu",
 					"description": "An herb commonly used for medicinal purposes"
 				},
 				"frostsnap": {
@@ -14837,7 +14837,7 @@
 			},
 			"skin": {
 				"varanus_skin": {
-					"display_name": "Varanus Skin",
+					"display_name": "Varanusí Kůže",
 					"description": "Rough and scaly"
 				},
 				"ogre_bone": {
@@ -14845,7 +14845,7 @@
 					"description": "Dense and strong"
 				},
 				"zilla_skin": {
-					"display_name": "Zilla Skin",
+					"display_name": "Zillí Kůže",
 					"description": "Rough and scaly, it's always just a little warm."
 				}
 			},
@@ -14914,28 +14914,28 @@
 			},
 			"ui": {
 				"coal_block": {
-					"display_name": "Coal Vein",
-					"description": "Provides coal when mined."
+					"display_name": "Uhelná Žíla",
+					"description": "Poskytuje uhlí, když je kutána."
 				},
 				"copper_block": {
-					"display_name": "Copper Vein",
-					"description": "Provides copper ore when mined."
+					"display_name": "Měděná Žíla",
+					"description": "Poskytuje měděnou rudu, když je kutána."
 				},
 				"gold_block": {
-					"display_name": "Gold Vein",
-					"description": "Provides gold ore when mined."
+					"display_name": "Zlatá Žíla",
+					"description": "Poskytuje zlatou rudu, když je kutána."
 				},
 				"iron_block": {
-					"display_name": "Iron Vein",
-					"description": "Provides iron ore when mined."
+					"display_name": "Železná Žíla",
+					"description": "Poskytuje železnou rudu, když je kutána."
 				},
 				"ore_block": {
-					"display_name": "Ore block",
-					"description": "Mine to get ore"
+					"display_name": "Rudný blok",
+					"description": "Vytěž pro získání rudy"
 				},
 				"silver_block": {
-					"display_name": "Silver Vein",
-					"description": "Provides silver ore when mined."
+					"display_name": "Stříbrná Žíla",
+					"description": "Poskytuje stříbrnou rudu, když je kutána."
 				},
 				"tin_block": {
 					"display_name": "Tin Vein",
@@ -14949,11 +14949,11 @@
 				"description": "For mining and picking"
 			},
 			"worker_axe": {
-				"display_name": "Worker's Axe",
+				"display_name": "Dělníkova Sekera",
 				"description": "..."
 			},
 			"worker_hammer": {
-				"display_name": "Worker's Hammer",
+				"display_name": "Dělníkovo Kladivo",
 				"description": "Everything looks like a nail when all you have is a hammer"
 			},
 			"mining_pick_golem": {
@@ -15404,10 +15404,10 @@
 				}
 			},
 			"giant_bone_axe": {
-				"display_name": "Giant Bone Axe",
+				"display_name": "Obří Kostěná Sekera",
 				"description": "Carved from the clavicle of some great beast. (Two-handed)",
 				"giant_bone_axe_iconic": {
-					"display_name": "Giant Bone Axe",
+					"display_name": "Obří Kostěná Sekera",
 					"description": "Carved from the clavicle of some great beast."
 				}
 			},
@@ -15492,7 +15492,7 @@
 				},
 				"wooden_sword_talisman": {
 					"display_name": "Dřevěný Meč",
-					"description": "Required to promote a hearthling into a Footman."
+					"description": "Vyžadován k povýšení hearthlinga na Pěšáka."
 				}
 			},
 			"scythe": {
@@ -15503,17 +15503,17 @@
 				"display_name": "Luk",
 				"description": "Used by an archer for shooting arrows",
 				"bow_talisman": {
-					"display_name": "Archer's Bow",
-					"description": "Required to promote a Footman to an Archer"
+					"display_name": "Lučištníkův Luk",
+					"description": "Vyžadován k povýšení hearthlinga na Lučištníka"
 				}
 			},
 			"arrow": {
-				"display_name": "Slowing Arrow",
-				"description": "Slows targets that it hits"
+				"display_name": "Zpomalující Šíp",
+				"description": "Zpomaluje cíle které zasáhnou"
 			},
 			"recurve_bow": {
-				"display_name": "Recurve Bow",
-				"description": "Curved for faster and stronger shots"
+				"display_name": "Zakřivený Luk",
+				"description": "Zakřivený pro rychlejší a silnější střelby"
 			},
 			"crude_metal_axe": {
 				"display_name": "Crude Metal Axe",
@@ -15524,8 +15524,8 @@
 				"description": "Pointy branch wrapped in cloth"
 			},
 			"ogos_bone_mace": {
-				"display_name": "The Bonker",
-				"description": "Designed by Ogo Skullbonker. (Two-handed)",
+				"display_name": "Mlátič",
+				"description": "Dizajnovaný Ogem Lebkomlátičem. (Obojruční)",
 				"ogos_bone_mace_iconic": {
 					"display_name": "Mlátič",
 					"description": "Ex-majetek Oga Lebkomlátiče"
@@ -15548,11 +15548,11 @@
 				"description": "An arrow imbued with flames"
 			},
 			"two_handed_sword_valor": {
-				"display_name": "Emblazoned Sword",
-				"description": "Finest blade in the Ascendancy",
+				"display_name": "Zdobený Meč",
+				"description": "Nejlepší čepel ve Vznešeném Království",
 				"two_handed_sword_valor_iconic": {
-					"display_name": "Emblazoned Sword",
-					"description": "Finest blade in the Ascendancy."
+					"display_name": "Zdobený Meč",
+					"description": "Nejlepší čepel ve Vznešeném Království."
 				}
 			},
 			"bow_valor": {
@@ -15573,37 +15573,37 @@
 		"consumables": {
 			"healing_tonic": {
 				"small_healing_tonic": {
-					"display_name": "Small Healing Tonic",
+					"display_name": "Malé Tonikum Léčení",
 					"description": "Used by the herbalist to heal small wounds"
 				}
 			},
 			"stamina_tonic": {
-				"display_name": "Stamina Tonic",
-				"description": "Temporarily buffs Stamina"
+				"display_name": "Tonikum Výdrže",
+				"description": "Dočasně posiluje Výdrž"
 			},
 			"strength_tonic": {
-				"display_name": "Strength Tonic",
-				"description": "Temporarily buffs Muscle"
+				"display_name": "Tonikum Síly",
+				"description": "Dočasně posiluje Sílu"
 			},
 			"coarse_bandage": {
-				"display_name": "Coarse Bandage",
-				"description": "Used by the herbalist to heal for a small amount"
+				"display_name": "Hrubá Bandáž",
+				"description": "Užito bylinkářem na vyléčení malého množství"
 			},
 			"heavy_bandage": {
-				"display_name": "Heavy Bandage",
-				"description": "Used by the herbalist to provide a lot of healing."
+				"display_name": "Těžká Bandáž",
+				"description": "Užito bylinkářem na poskytnutí mnoha léčení."
 			},
 			"light_bandage": {
-				"description": "Used by the herbalist to heal a moderate amount",
-				"display_name": "Light Bandage"
+				"description": "Užito bylinkářem na vyléčení středního množství",
+				"display_name": "Lehká Bandáž"
 			},
 			"courage_tonic": {
-				"display_name": "Courage Tonic",
-				"description": "Temporarily buffs Courage"
+				"display_name": "Tonikum Odvahy",
+				"description": "Dočasně posiluje Odvahu"
 			},
 			"energy_tonic": {
-				"display_name": "Energy Tonic",
-				"description": "Temporarily buffs energy"
+				"display_name": "Tonikum Energie",
+				"description": "Dočasně posiluje energii"
 			},
 			"seeds": {
 				"turnip_seeds": {
@@ -15639,11 +15639,11 @@
 					"description": "Nauč se pěstovat dobové stromy."
 				},
 				"brightbell_seeds": {
-					"display_name": "Brightbell Seeds",
-					"description": "Learn to grow brightbells."
+					"display_name": "Semínka Světlozvonu",
+					"description": "Nauč se pěstovat světlozvon."
 				},
 				"frostsnap_seeds": {
-					"display_name": "Frostsnap Seeds",
+					"display_name": "Semínka Mrazenky",
 					"description": "Learn to grow frostsnaps."
 				},
 				"wheat_seeds": {
@@ -15778,20 +15778,20 @@
 					},
 					"herald_ember": {
 						"display_name": "Ember Minton",
-						"description": "Missionary of the Church of Plenty."
+						"description": "Misionářka Církve Hojnosti."
 					},
 					"herald_anwyn": {
 						"display_name": "Anwyn Torresi",
-						"description": "Captain of the guard."
+						"description": "Kapitánka stráže."
 					},
 					"herald_erdene": {
 						"display_name": "Erdene Jemkrushr",
-						"description": "Speaker for the Red Kiln."
+						"description": "Mluvčí Červené Pece."
 					}
 				},
 				"male": {
 					"herald_male": {
-						"display_name": "Herald B. Good",
+						"display_name": "Herald BuďHodný",
 						"description": "This is a Herald of the Ascendancy."
 					},
 					"herald_mer": {
@@ -15800,7 +15800,7 @@
 					},
 					"herald_marak": {
 						"display_name": "Marak Azael",
-						"description": "Guildmaster of the Ascendancy."
+						"description": "Cechmistr Vznešeného Království."
 					},
 					"herald_untz": {
 						"display_name": "Untz the Excellent",
@@ -15811,28 +15811,28 @@
 						"description": "Special delivery duck-duck."
 					},
 					"herald_sasha": {
-						"display_name": "Sasha Lightfoot",
+						"display_name": "Saša Lehkonoha",
 						"description": "Herald of Clan Amberstone"
 					}
 				}
 			},
 			"dragonborn": {
 				"dragonborn_king": {
-					"display_name": "Flox Icedragon",
-					"description": "Dragonborn King"
+					"display_name": "Flox Ledodrak",
+					"description": "Drakorozený Král"
 				}
 			},
 			"hestia": {
 				"hestia_dylan": {
-					"display_name": "Prince Dylan",
+					"display_name": "Princ Dylan",
 					"description": "Amiable Hestian Royal"
 				},
 				"hestia_lily": {
-					"display_name": "Princess Lily",
+					"display_name": "Princezna Lily",
 					"description": "Mysterious Hestian Royal"
 				},
 				"hestia_emma": {
-					"display_name": "Princess Emma",
+					"display_name": "Princezna Emma",
 					"description": "Inscrutable Hestian Royal"
 				}
 			}
@@ -15947,31 +15947,31 @@
 			},
 			"summon_stone_vein_coal": {
 				"summon_stone_vein_coal_ghost": {
-					"display_name": "Coal Vein Stone",
+					"display_name": "Kámen Uhelné Žíly",
 					"description": "Grows into a vein of coal."
 				}
 			},
 			"summon_stone_vein_copper": {
 				"summon_stone_vein_copper_ghost": {
-					"display_name": "Copper Vein Stone",
+					"display_name": "Kámen Měděné Žíly",
 					"description": "Grows into a vein of copper ore."
 				}
 			},
 			"summon_stone_vein_gold": {
 				"summon_stone_vein_gold_ghost": {
-					"display_name": "Gold Vein Stone",
+					"display_name": "Kámen Zlaté Žíly",
 					"description": "Grows into a vein of gold ore."
 				}
 			},
 			"summon_stone_vein_iron": {
 				"summon_stone_vein_iron_ghost": {
-					"display_name": "Iron Vein Stone",
+					"display_name": "Kámen Železné Žíly",
 					"description": "Grows into a vein of iron ore."
 				}
 			},
 			"summon_stone_vein_silver": {
 				"summon_stone_vein_silver_ghost": {
-					"display_name": "Silver Vein Stone",
+					"display_name": "Kámen Stříbrné Žíly",
 					"description": "Grows into a vein of silver ore."
 				}
 			},
@@ -15989,19 +15989,19 @@
 			},
 			"summon_stone_sun": {
 				"summon_stone_sun_ghost": {
-					"display_name": "Sun Stone",
+					"display_name": "Sluneční Kámen",
 					"description": "Summons a pattern of a cute Sun."
 				}
 			},
 			"summon_stone_moon": {
 				"summon_stone_moon_ghost": {
-					"display_name": "Moon Stone",
+					"display_name": "Měsíční Kámen",
 					"description": "Summons a pattern of a cute Moon."
 				}
 			},
 			"summon_stone_sleeping_giant": {
 				"summon_stone_sleeping_giant_ghost": {
-					"display_name": "Sleeping Stone",
+					"display_name": "Spící Kámen",
 					"description": "Summons the memory of an ancient slumbering worker."
 				}
 			}
@@ -16010,7 +16010,7 @@
 	"jobs": {
 		"common": {
 			"recipes": {
-				"legendary_name": "Legendary"
+				"legendary_name": "Legendární"
 			}
 		},
 		"animal_trainer": {
@@ -16023,61 +16023,61 @@
 		"archer": {
 			"archer_outfit": {
 				"display_name": "Archer's Padded Vest",
-				"description": "Offers light protection",
+				"description": "Poskytuje lehkou ochranu",
 				"archer_hood": {
-					"display_name": "Archer's Cloak",
+					"display_name": "Lučištníkův Plášť",
 					"description": "Hooded protection for one's head"
 				}
 			},
 			"archer_description": {
-				"display_name": "Archer",
-				"description": "A ranged combat unit that shoots foes with arrows",
+				"display_name": "Lučištník",
+				"description": "Dalekonosná bojová jednotka která střílí nepřátelé se šípy",
 				"requirements": "Vyrobeno Tesařem",
 				"level_1_data": {
-					"perk_000_name": "Bow Proficiency",
-					"perk_001_name": "Increased Draw Strength",
-					"perk_000_description": "The archer is able to use a bow to shoot arrows at enemies",
-					"perk_001_description": "The archer's damage is increased"
+					"perk_000_name": "Znalost Luku",
+					"perk_001_name": "Zvýšena Sila Natažení",
+					"perk_000_description": "Lučištník je schopen užít luk ke střílení šípů na nepřátelé",
+					"perk_001_description": "Lučištníkovo poškození je zvýšeno"
 				},
 				"level_2_data": {
-					"perk_000_name": "Armor Piercing Arrows",
-					"perk_000_description": "The archer's shots ignore 50% of the target's armor"
+					"perk_000_name": "Zbroj Průrazné Šípy",
+					"perk_000_description": "Lučištníkovy střely ignorují 50% zbroje cíle"
 				},
 				"level_3_data": {
-					"perk_000_name": "Range Increase",
-					"perk_000_description": "The Archer can attack enemies from further away"
+					"perk_000_name": "Dosah Zvýšen",
+					"perk_000_description": "Lučištník může útočit na nepřátelé z větší vzdálenosti"
 				},
 				"level_5_data": {
-					"perk_000_name": "Range Increase (Rank 2)",
-					"perk_000_description": "The Archer can attack enemies from very far away"
+					"perk_000_name": "Dosah Zvýšen (Rank 2)",
+					"perk_000_description": "Lučištník může útočit na nepřátelé z mnohem velké vzdálenosti"
 				},
 				"level_4_data": {
-					"perk_000_name": "Draw Speed Up",
-					"perk_000_description": "The archer shoots arrows with greater speed"
+					"perk_000_name": "Rychlost Natažení Nahoru",
+					"perk_000_description": "Lučištník střílí šípy s větší rychlostí"
 				},
 				"level_6_data": {
-					"perk_000_name": "Double Shot",
+					"perk_000_name": "Dvojitá Střela",
 					"perk_000_description": "The archer learns the ancient art of quick shots, allowing rapid firing of two arrows in rapid succession"
 				}
 			},
 			"archer_buffs": {
 				"damage_1_buff": {
-					"display_name": "Damage +20%",
-					"description": "The archer's damage is increased."
+					"display_name": "Poškození +20%",
+					"description": "Lučištníkovo poškození je zvýšeno."
 				},
 				"slowing_arrow": {
-					"display_name": "Slowed",
+					"display_name": "Zpomalený",
 					"description": "Movement speed slowed by Spikey Arrows"
 				},
 				"fire_arrow": {
-					"display_name": "On Fire",
+					"display_name": "V Ohni",
 					"description": "Set aflame! Taking fire damage every 5 minutes for 15 minutes"
 				}
 			}
 		},
 		"architect": {
 			"architect_description": {
-				"display_name": "Architect",
+				"display_name": "Architekt",
 				"description": "???",
 				"requirements": "???",
 				"level_1_data": {
@@ -16104,51 +16104,51 @@
 		},
 		"blacksmith": {
 			"blacksmith_description": {
-				"display_name": "Blacksmith",
+				"display_name": "Kovář",
 				"description": "The Blacksmith refines raw ore into metal bars, then uses those bars to craft weapons, armor, and building parts like gates.",
 				"requirements": "Vyrobeno Kameníkem",
 				"level_6_data": {
-					"title": "Master Blacksmith",
-					"perk_000_name": "The Armory",
+					"title": "Mistr Kovář",
+					"perk_000_name": "Zbrojnice",
 					"perk_000_description": "The Blacksmith's mastery of their trade allows them to create the finest weapons and armors seen since the forgotten Phoenix Empire."
 				},
 				"level_2_data": {
-					"perk_000_name": "Iron Age!",
-					"perk_000_description": "The Blacksmith is now skilled enough to forge heavy items made of iron."
+					"perk_000_name": "Doba Železná!",
+					"perk_000_description": "Kovář je teď dostatečně zručný na kování předmětů vyrobených ze železa."
 				},
 				"level_4_data": {
-					"perk_000_name": "Cold Steel",
+					"perk_000_name": "Chladná Ocel",
 					"perk_000_description": "Long hours at the forge have unlocked the secret of steel: sharper weapons and lighter armor."
 				},
 				"level_1_data": {
-					"perk_000_name": "Bronze Age!",
-					"perk_000_description": "The secrets of bronze are now available to the Blacksmith."
+					"perk_000_name": "Doba Bronzová!",
+					"perk_000_description": "Tajemství bronzu jsou niní dostupná pro kováře."
 				},
 				"level_3_data": {
 					"perk_000_name": "Journeyman's Knowledge",
 					"perk_000_description": "When inspiration strikes, the Blacksmith may now craft an especially Fine quality of placeable item."
 				},
 				"level_5_data": {
-					"perk_000_name": "Master's Insight",
+					"perk_000_name": "Mistrovský Vhled",
 					"perk_000_description": "The Blacksmith can now create items of Excellent quality, and will make Fine quality items more often."
 				}
 			},
 			"blacksmith_forge": {
 				"blacksmith_forge_ghost": {
-					"display_name": "Forge",
+					"display_name": "Výheň",
 					"description": "A stone oven for heating metal"
 				}
 			},
 			"blacksmith_hammer": {
-				"display_name": "Blacksmith's Hammer",
+				"display_name": "Kovářské Kladivo",
 				"description": "Tools of the trade for a blacksmith.",
 				"blacksmith_hammer_iconic": {
-					"display_name": "Blacksmith's Hammer",
+					"display_name": "Kovářské Kladivo",
 					"description": "Tools of the trade for a blacksmith."
 				},
 				"blacksmith_hammer_talisman": {
-					"display_name": "Blacksmith's Hammer",
-					"description": "Required to promote a hearthling to a blacksmith."
+					"display_name": "Kovářské Kladivo",
+					"description": "Vyžadován k povýšení hearthlinga na kováře."
 				}
 			},
 			"blacksmith_outfit": {
@@ -16157,29 +16157,29 @@
 			},
 			"blacksmith_workbench": {
 				"blacksmith_workbench_ghost": {
-					"display_name": "Blacksmith Anvil",
+					"display_name": "Kovářská Kovadlina",
 					"description": "Used by the Blacksmith for crafting."
 				}
 			},
 			"recipes": {
 				"iron_shield_recipe": {
-					"description": "Heavy, but effective.",
+					"description": "Těžký, ale efektivní.",
 					"flavor": "'Buck up, recruit! Better the shield dent than you!' -Thredd, Man at Arms",
-					"recipe_name": "Iron Shield"
+					"recipe_name": "Železný Štít"
 				},
 				"bronze_breastplate_recipe": {
 					"description": "Partial but sturdy coverage against blunt and edged weapons.",
-					"recipe_name": "Bronze Breastplate",
+					"recipe_name": "Bronzový Pancíř",
 					"flavor": "Design reminiscent of the Phoenix's Legions."
 				},
 				"bronze_ingot_recipe": {
 					"description": "Two bars of pure bronze. A suitable material for crafted goods.",
-					"recipe_name": "Bronze Ingot (x2)",
+					"recipe_name": "Bronzový Ingot (x2)",
 					"flavor": "The masters of old considered its production, evidence of our triumph over the earth."
 				},
 				"bronze_mace_recipe": {
 					"description": "Heavy, it packs a wallop.",
-					"recipe_name": "Bronze Mace",
+					"recipe_name": "Bronzový Palcát",
 					"flavor": "The good news: there is no pointy end."
 				},
 				"bronze_sword_recipe": {
@@ -16188,38 +16188,38 @@
 					"flavor": "Made in the shape of Braun's own blade."
 				},
 				"carpenter_saw_recipe": {
-					"description": "Required to promote a hearthling into a Carpenter.",
-					"recipe_name": "Carpenter's Saw",
+					"description": "Vyžadován k povýšení hearthlinga na Tesaře.",
+					"recipe_name": "Tesařova Pila",
 					"flavor": "Now the circle can begin anew."
 				},
 				"copper_ingot_recipe": {
 					"description": "A bar of pure copper. A suitable material for crafted goods.",
-					"recipe_name": "Copper Ingot",
+					"recipe_name": "Měděný Ingot",
 					"flavor": "Smooth and silky to the touch"
 				},
 				"gold_ingot_recipe": {
 					"description": "A bar of pure gold. A suitable material for crafted goods.",
-					"recipe_name": "Gold Ingot",
+					"recipe_name": "Zlatý Ingot",
 					"flavor": "The most expensive bludgeon ever."
 				},
 				"iron_ingot_recipe": {
 					"description": "A bar of pure Iron. A suitable material for crafted goods.",
-					"recipe_name": "Iron Ingot",
+					"recipe_name": "Železný Ingot",
 					"flavor": "To both swords and plowshares, what an egg is to a chicken."
 				},
 				"iron_mace_recipe": {
 					"description": "Heavy, it packs a wallop.",
-					"recipe_name": "Iron Mace",
+					"recipe_name": "Železný Palcát",
 					"flavor": "And Erin rested her forehead upon it, and the iron stole away enchantment and memory, together."
 				},
 				"iron_mail_recipe": {
 					"description": "A full suit of heavy, durable iron armor.",
-					"recipe_name": "Iron Mail",
+					"recipe_name": "Železné Brnění",
 					"flavor": "But he'd hidden his heart in an iron fortress, and no fey could touch it. --Songs of Evermarth"
 				},
 				"iron_pike_recipe": {
 					"description": "Sharp. Long. Pointy.",
-					"recipe_name": "Iron pike",
+					"recipe_name": "Železná pika",
 					"flavor": "'Coward,' Elden spat. 'Face me blade to blade, or no knight be you.'"
 				},
 				"long_sword_recipe": {
@@ -16227,10 +16227,10 @@
 					"recipe_name": "Dlouhý Meč",
 					"flavor": "'Hah! The only weapon worthy of specialization. --Lady Giest"
 				},
-				"weapons_name": "Weapons",
+				"weapons_name": "Zbraně",
 				"smelt_name": "Smelting",
-				"armor_name": "Armor",
-				"tools_name": "Tools",
+				"armor_name": "Brnění",
+				"tools_name": "Nástroje",
 				"short_sword_recipe": {
 					"description": "Stubby, but its steel blade keeps an edge.",
 					"recipe_name": "Ocelový Krátký Meč",
@@ -16238,17 +16238,17 @@
 				},
 				"silver_ingot_recipe": {
 					"description": "A bar of pure silver. A suitable material for crafted goods.",
-					"recipe_name": "Silver Ingot",
+					"recipe_name": "Stříbrný Ingot",
 					"flavor": "A pair of silver shoes once started a Phoenix war over currency."
 				},
 				"steel_ingot_recipe": {
 					"description": "A bar of pure steel. A suitable material for crafted goods.",
-					"recipe_name": "Steel Ingot",
+					"recipe_name": "Ocelový Ingot",
 					"flavor": "The beginning of the modern age."
 				},
 				"steel_mail_recipe": {
 					"description": "A full suit of heavy, durable steel armor.",
-					"recipe_name": "Full Platemail",
+					"recipe_name": "Plné Plátové Brnění",
 					"flavor": "Full Metal Jacket"
 				},
 				"tin_ingot_recipe": {
@@ -16257,8 +16257,8 @@
 					"flavor": "Step 1: Beat thin. Step 2: Use to cover roof of town hall."
 				},
 				"trapper_knife_recipe": {
-					"description": "Required to promote a hearthling into a Trapper.",
-					"recipe_name": "Trapper's Knife",
+					"description": "Vyžadován k povýšení hearthlinga na Trapera.",
+					"recipe_name": "Traperův Nůž",
 					"flavor": "Keep your edge whisker sharp, boy, and cut quick. --Willard Foxghost"
 				},
 				"two_handed_sword_recipe": {
@@ -16267,12 +16267,12 @@
 				},
 				"blacksmith_forge_recipe": {
 					"description": "Smelt metals into ingots.",
-					"recipe_name": "Blacksmith's Forge",
+					"recipe_name": "Kovářská Výheň",
 					"flavor": "In flame, purity, in purity, strength. -Lucan Varius, Artifex Ignis"
 				},
 				"blacksmith_workbench_recipe": {
 					"description": "Used to create weapons and armor out of ingots.",
-					"recipe_name": "Blacksmith's Anvil",
+					"recipe_name": "Kovářská Kovadlina",
 					"flavor": "It is no coincidence that the metaphors of good character descend from work of the smith. -Lucan Varius, Artifex Ignis"
 				},
 				"workbenches_name": "Workbenches",
@@ -16288,39 +16288,39 @@
 				},
 				"steel_helmet_recipe": {
 					"description": "Extra protection for your noggin!",
-					"recipe_name": "Plate Helm",
+					"recipe_name": "Plátová Helma",
 					"flavor": "Long considered the epitome of headgear; doubles as a fine soup pot - Roke Tastybakes II"
 				},
 				"bronze_circlet_recipe": {
 					"description": "Protection for your head!",
-					"recipe_name": "Bronze Circlet",
+					"recipe_name": "Bronzová Čelenka",
 					"flavor": "So regal. So stylish!"
 				},
 				"bronze_shield_recipe": {
-					"description": "Increase armor and blocks attacks!",
-					"recipe_name": "Bronze Shield"
+					"description": "Zvyšuje zbroj a blokuje útoky!",
+					"recipe_name": "Bronzový Štít"
 				},
-				"furniture_name": "Furniture",
-				"decoration_name": "Decorations",
+				"furniture_name": "Nábytek",
+				"decoration_name": "Dekorace",
 				"steel_shield_recipe": {
-					"recipe_name": "Steel Shield",
-					"description": "Grants the ability to completely block attacks.",
+					"recipe_name": "Ocelový Štít",
+					"description": "Dává schopnost zcela blokovat útoky.",
 					"flavor": "Incredibly protective. Small children play turtle underneath."
 				},
 				"knights_shield_recipe": {
-					"recipe_name": "Knight's Shield",
-					"description": "Required to promote a hearthling into a Knight"
+					"recipe_name": "Rytířský Štít",
+					"description": "Vyžadován k povýšení hearthlinga na Rytíře"
 				},
 				"iron_helm_recipe": {
-					"recipe_name": "Iron Helm",
+					"recipe_name": "Železná Helma",
 					"description": "Protection for one's head"
 				},
 				"iron_circlet_recipe": {
-					"recipe_name": "Iron Circlet",
+					"recipe_name": "Železná Čelenka",
 					"description": "It's quite heavy, but protects one's head"
 				},
 				"steel_circlet_recipe": {
-					"recipe_name": "Steel Circlet",
+					"recipe_name": "Ocelová Čelenka",
 					"description": "Light weight and strong head protection"
 				},
 				"decorative_elite_gong_recipe": {
@@ -16344,22 +16344,22 @@
 					"flavor": "Even scouts are adorned with gold"
 				},
 				"silver_mail_recipe": {
-					"recipe_name": "Silver Mail",
+					"recipe_name": "Stříbrné Brnění",
 					"description": "The best armor... for now.",
 					"flavor": "Cid loved the color of strawberries"
 				},
 				"silver_helmet_recipe": {
-					"recipe_name": "Silver Helmet",
+					"recipe_name": "Stříbrná Helma",
 					"description": "Quintessentially heroic",
 					"flavor": "Inspired by the plumes of the Phoenix"
 				},
 				"bronze_helm_recipe": {
-					"recipe_name": "Bronze Helmet",
+					"recipe_name": "Bronzová Helma",
 					"description": "Pretty and protective",
 					"flavor": "The iron workers insisted they had perfected the art, but the bronze workers argued their's was prettier."
 				},
 				"engineer_wrench_recipe": {
-					"description": "Required to promote a hearthling into an Engineer",
+					"description": "Vyžadován k povýšení hearthlinga na Inženýra",
 					"recipe_name": "Engineer's Wrench"
 				},
 				"input_bin_iron_recipe": {
@@ -16384,7 +16384,7 @@
 				},
 				"lantern_iron_recipe": {
 					"description": "Glows like the heart of the forge",
-					"recipe_name": "Iron Wall-mounted Lantern",
+					"recipe_name": "Železná Nástěnná Lampa",
 					"flavor": "Reinforced, but still relaxing"
 				},
 				"lamppost_rustic_recipe": {
@@ -16415,8 +16415,8 @@
 				"construction_name": "Construction",
 				"door_blacksmith_recipe": {
 					"description": "Fit for a master blacksmith's workshop",
-					"recipe_name": "Blacksmith's Door",
-					"flavor": "You can feel the heat coming through the door"
+					"recipe_name": "Kovářovy Dveře",
+					"flavor": "Můžeš cítit teplo přocházející dveřmi"
 				},
 				"lamppost_upscale_double_recipe": {
 					"description": "Lovely lighting for any pathway or promenade",
@@ -16429,8 +16429,8 @@
 					"flavor": "Stylish enough to make even the most stubborn poyo think twice about roosting on it"
 				},
 				"lantern_poyo_recipe": {
-					"description": "Happy bronze lightbirb",
-					"recipe_name": "Poyo Lantern",
+					"description": "Šťastný bronzový světlopták",
+					"recipe_name": "Pojo Lucerna",
 					"flavor": "Light as soft and warm as a poyo feather blanket"
 				},
 				"weathervane_poyo_recipe": {
@@ -16440,7 +16440,7 @@
 				},
 				"valor_torch_recipe": {
 					"description": "Its flame brings a warm feeling of pride in all we have accomplished.",
-					"recipe_name": "Wooden Torch"
+					"recipe_name": "Dřevěná Louč"
 				},
 				"valor_wall_hanging_plaque_recipe": {
 					"description": "Přesně jak vypadal dědečkův meč!",
@@ -16457,13 +16457,13 @@
 					"flavor": "The bones of the Giant"
 				},
 				"two_handed_sword_valor_recipe": {
-					"description": "Finest blade in the Ascendancy",
-					"recipe_name": "Emblazoned Sword",
+					"description": "Nejlepší čepel ve Vznešeném Království",
+					"recipe_name": "Zdobený Meč",
 					"flavor": "Perfectly balanced for its size, and equal to any challenge its wielder takes on"
 				},
 				"circlet_valor_recipe": {
-					"description": "Squarest circlet in the Ascendancy",
-					"recipe_name": "Shining Circlet",
+					"description": "Nejčtverečkovanější čelenka ve Vznešeném Království",
+					"recipe_name": "Zářící Čelenka",
 					"flavor": "Channels the very heart and soul into healing light"
 				},
 				"golem_pick_recipe": {
@@ -16483,7 +16483,7 @@
 					"perk_000_description": "The Carpenter's mastery of his trade allows them access to recipes that expand your town's opportunities."
 				},
 				"level_2_data": {
-					"perk_000_name": "Collaborative Insight",
+					"perk_000_name": "Kolaborativní Vhled",
 					"perk_000_description": "The Carpenter is now skillful enough to use materials created by other crafters."
 				},
 				"level_4_data": {
@@ -16499,7 +16499,7 @@
 					"perk_000_description": "When inspiration strikes, the Carpenter may now craft an especially Fine quality of item."
 				},
 				"level_5_data": {
-					"perk_000_name": "Master's Insight",
+					"perk_000_name": "Mistrovský Vhled",
 					"perk_000_description": "The Carpenter can now create items of Excellent quality, and will make Fine quality items more often."
 				}
 			},
@@ -16515,8 +16515,8 @@
 					"description": "Basic level carpenter's saw."
 				},
 				"carpenter_saw_talisman": {
-					"display_name": "Carpenter's Saw",
-					"description": "Required to promote a hearthling into a Carpenter."
+					"display_name": "Tesařova Pila",
+					"description": "Vyžadována k povýšení hearthlinga na Tesaře."
 				}
 			},
 			"carpenter_workbench": {
@@ -16539,32 +16539,32 @@
 				},
 				"comfy_bed_recipe": {
 					"description": "Eight hours will leave you as refreshed as the day you were born.",
-					"recipe_name": "Comfy Bed",
+					"recipe_name": "Pohodlná Postel",
 					"flavor": "Nobody ever wants to get out. It makes emergency evacuations awkward."
 				},
 				"comfy_chair_recipe": {
 					"description": "Its padded seat guarantees a 98% reduction in awkward splinters!",
-					"recipe_name": "Comfy Chair",
+					"recipe_name": "Pohodlná Židle",
 					"flavor": "If pillows are good for the head, surely they're even better for the butt and back!"
 				},
 				"dining_table_recipe": {
 					"description": "Allows a group of people to all eat together. Like grown-ups.",
-					"recipe_name": "Dining Table",
+					"recipe_name": "Jídelní Stůl",
 					"flavor": "Sitting down to eat is a sign of civilization."
 				},
 				"dresser_recipe": {
 					"description": "A chest of drawers for storing clothing and personal possessions.",
-					"recipe_name": "Wooden Dresser",
+					"recipe_name": "Dřevěný Prádelník",
 					"flavor": "Step 2: acquire personal possessions..."
 				},
 				"hoe_recipe": {
-					"description": "Required to promote a hearthling into a Farmer.",
-					"recipe_name": "Farmer's Hoe",
+					"description": "Vyžadována k povýšení hearthlinga na Farmáře.",
+					"recipe_name": "Farmářská Motyka",
 					"flavor": "Hoedown time!!!!"
 				},
 				"large_crate_recipe": {
 					"description": "For compactly storing up to 32 items",
-					"recipe_name": "Large Crate",
+					"recipe_name": "Velká Bedna",
 					"flavor": "Does the crate that stores all the things that do not store themselves, store itself?"
 				},
 				"leather_bound_chest_recipe": {
@@ -16573,8 +16573,8 @@
 					"flavor": "Like the one my granda had!"
 				},
 				"mason_chisel_recipe": {
-					"description": "Required to promote a hearthling into a Mason.",
-					"recipe_name": "Mason's Hammer & Chisel"
+					"description": "Vyžadovány k povýšení hearthlinga na Kameníka.",
+					"recipe_name": "Kameníkovo Kladivo & Dláto"
 				},
 				"not_much_of_a_bed_recipe": {
 					"description": "Slightly more comfortable than sleeping on a board.",
@@ -16582,9 +16582,9 @@
 					"flavor": "Mean as in poor, not cruel. Though it's that too."
 				},
 				"park_bench_recipe": {
-					"description": "Outdoor seating for moments of relaxation.",
-					"recipe_name": "Wooden Park Bench",
-					"flavor": "Life is like a plate of berries."
+					"description": "Venkovní sezení pro chvíle relaxace.",
+					"recipe_name": "Dřevěná Parková Lavička",
+					"flavor": "Život je jako talíř bobulí."
 				},
 				"picket_fence_gate_recipe": {
 					"description": "Lets people through your picket fence.",
@@ -16596,36 +16596,36 @@
 					"recipe_name": "Picket Fence",
 					"flavor": "If it's not white, is our life unfulfilled?"
 				},
-				"tools_weapons_name": "Tools",
+				"tools_weapons_name": "Nástroje",
 				"storage_name": "Storage",
-				"building_parts_name": "Building Parts",
-				"armor_name": "Weapons and Armor",
-				"furniture_name": "Furniture",
+				"building_parts_name": "Stavební Části",
+				"armor_name": "Zbraně a Brnění",
+				"furniture_name": "Nábytek",
 				"workbench_name": "Workbenches",
 				"utility_name": "Utility",
 				"shepherds_crook_recipe": {
-					"description": "Required to promote a hearthling into a Shepherd.",
-					"recipe_name": "Shepherd's Crook",
+					"description": "Vyžadována k povýšení hearthlinga na Pastýře.",
+					"recipe_name": "Pastýřova Berla",
 					"flavor": "Can you tell me another story about The Shepard?"
 				},
 				"simple_wooden_chair_recipe": {
 					"description": "When sitting, food is 20% more satisfying.",
-					"recipe_name": "Simple Wooden Chair",
+					"recipe_name": "Jednoduchá Dřevěná Židle",
 					"flavor": "Ten thousand years of research culminated in this four-legged design."
 				},
 				"small_crate_recipe": {
 					"description": "For compactly storing up to 8 items",
-					"recipe_name": "Small Crate",
+					"recipe_name": "Malá Bedna",
 					"flavor": "Does the crate that stores all the things that do not store themselves, store itself?"
 				},
 				"table_for_one_recipe": {
 					"description": "Better than eating standing up. Unless you're watching your weight.",
-					"recipe_name": "Table for One",
-					"flavor": "Dining furniture for introverts."
+					"recipe_name": "Stůl pro Jednoho",
+					"flavor": "Jídelní nábytek pro introverty."
 				},
 				"weaver_spindle_recipe": {
-					"description": "Required to promote a hearthling into a Weaver.",
-					"recipe_name": "Weaver's Spindle",
+					"description": "Vyžadováno k povýšení hearthlinga na Tkalce.",
+					"recipe_name": "Tkalcovo Vřeteno",
 					"flavor": "From fiber, thread, from thread, fabric, from fabric, civilization."
 				},
 				"window_box_brightbell_recipe": {
@@ -16654,17 +16654,17 @@
 				},
 				"wooden_door_recipe": {
 					"description": "Minor obstacle for intruders.",
-					"recipe_name": "Wooden Door",
-					"flavor": "Privacy at last!"
+					"recipe_name": "Dřevěné Dveře",
+					"flavor": "Konečně soukromí!"
 				},
 				"wooden_double_door_recipe": {
 					"description": "Two doors are better than one",
-					"recipe_name": "Wooden Double Door",
+					"recipe_name": "Dřevěné Dvojité Dveře",
 					"flavor": "Some people want to make an entrance... every day."
 				},
 				"wooden_garden_lantern_recipe": {
 					"description": "A small lantern that's placed on the ground. Suitable for lighting paths or small gardens.",
-					"recipe_name": "Wooden Garden Lantern",
+					"recipe_name": "Dřevěná Zahradní Lampa",
 					"flavor": "Practical and romantic!"
 				},
 				"wooden_shield_recipe": {
@@ -16698,23 +16698,23 @@
 					"flavor": "Artisinally crafted fabrics and plushies!"
 				},
 				"wooden_sword_recipe": {
-					"description": "Required to promote a hearthling into a Footman.",
+					"description": "Vyžadován k povýšení hearthlinga na Pěšáka.",
 					"recipe_name": "Wooden Practice Sword",
 					"flavor": "Just pointy enough to get the job done."
 				},
 				"wooden_wall_lantern_recipe": {
 					"description": "A simple lantern. Place on buildings to provide light at night.",
-					"recipe_name": "Wooden Wall-Mounted Lantern",
+					"recipe_name": "Dřevěná Nástěnná Lampa",
 					"flavor": "So comfortinzzzzzzzz..."
 				},
 				"wooden_window_frame_recipe": {
 					"description": "Lets light into the room.",
-					"recipe_name": "Wooden Window Frame",
-					"flavor": "So much for privacy..."
+					"recipe_name": "Dřevěný Okenní Rám",
+					"flavor": "Tolik pro soukromí..."
 				},
 				"writing_desk_recipe": {
 					"description": "Not at all like a raven.",
-					"recipe_name": "Writing Desk",
+					"recipe_name": "Psací Stůl",
 					"flavor": "...Except it can produce a few notes, tho they are very flat."
 				},
 				"carpenter_workbench_recipe": {
@@ -16729,30 +16729,30 @@
 				},
 				"wooden_window_frame_tall_recipe": {
 					"description": "Extra height adds an air of elegance.",
-					"recipe_name": "Tall Wooden Window Frame"
+					"recipe_name": "Vysoký Dřevěný Okenní Rám"
 				},
 				"wooden_window_frame_wide_recipe": {
 					"description": "It's got a panoramic view!",
-					"recipe_name": "Wide Wooden Window Frame"
+					"recipe_name": "Široký Dřevěný Okenní Rám"
 				},
 				"herbalist_staff_recipe": {
 					"description": "Required to promote a hearthling to an herbalist, who creates healing tonics and bandages.",
-					"recipe_name": "Herbalist's Staff"
+					"recipe_name": "Bylinkářská Hůl"
 				},
 				"safety_standard_recipe": {
 					"description": "Use to designate a safety point.",
 					"recipe_name": "Wooden Safety Standard"
 				},
 				"wooden_tunnel_door_recipe": {
-					"recipe_name": "Wooden Tunnel Door",
+					"recipe_name": "Dřevěné Tunelové Dveře",
 					"description": "Useful for blocking off tunnels."
 				},
 				"wooden_sign_cook_recipe": {
-					"description": "A sign with the mark of the Cook.",
+					"description": "Cedule se značkou Kuchaře.",
 					"recipe_name": "Cook's Wall-Mounted Sign"
 				},
 				"wooden_sign_herbalist_recipe": {
-					"description": "A sign with the mark of the Herbalist.",
+					"description": "Cedule se značkou Bylinkáře.",
 					"recipe_name": "Herbalist's Wall-Mounted Sign"
 				},
 				"wooden_sign_inn_recipe": {
@@ -16760,7 +16760,7 @@
 					"recipe_name": "Inn Wall-Mounted Sign"
 				},
 				"wooden_sign_potter_recipe": {
-					"description": "A sign with the mark of the Potter.",
+					"description": "Cedule se značkou Hrnčíře.",
 					"recipe_name": "Potter's Wall-Mounted Sign"
 				},
 				"log_pile_recipe": {
@@ -16782,11 +16782,11 @@
 					"flavor": "One Hearthling's trash is another's treasure... right?"
 				},
 				"archer_bow_recipe": {
-					"recipe_name": "Archer's Bow",
-					"description": "Required to promote a hearthling into an archer"
+					"recipe_name": "Lučištníkův Luk",
+					"description": "Vyžadován k povýšení hearthlinga na lučištníka"
 				},
 				"recurve_bow_recipe": {
-					"recipe_name": "Recurve Bow",
+					"recipe_name": "Zahnutý Luk",
 					"description": "A bow that curves away from the wielder, allowing for stronger and faster arrow attacks"
 				},
 				"mountains_windchime_recipe": {
@@ -16795,8 +16795,8 @@
 					"flavor": "The melody evokes the stolen ogre's long-ago lullabye"
 				},
 				"statue_of_cid_wanderer_recipe": {
-					"recipe_name": "Statue of Cid Wanderer",
-					"description": "Shows Cid in later life",
+					"recipe_name": "Socha Cida Poutníka",
+					"description": "Ukazuje Cida v pozdním životě",
 					"flavor": "And where Cid wandered, the Church rose up in his footsteps..."
 				},
 				"poyo_weathervane_recipe": {
@@ -16810,47 +16810,47 @@
 					"flavor": "Like the one my granda had!"
 				},
 				"ornate_table_for_one_recipe": {
-					"recipe_name": "Ornate Table for One",
+					"recipe_name": "Zdobený Stůl pro Jednoho",
 					"description": "Better than eating standing up. Unless you're watching your weight.",
-					"flavor": "Dining furniture for introverts."
+					"flavor": "Jídelní nábytek pro introverty."
 				},
 				"ornate_dining_table_recipe": {
-					"recipe_name": "Ornate Dining Table",
+					"recipe_name": "Zdobený Jídelní Stůl",
 					"description": "Allows a group of people to all eat together. Like grown-ups.",
 					"flavor": "Sitting down to eat is a sign of civilization."
 				},
 				"ornate_comfy_bed_recipe": {
-					"recipe_name": "Ornate Comfy Bed",
+					"recipe_name": "Zdobená Pohodlná Postel",
 					"description": "Eight hours will leave you as refreshed as the day you were born.",
 					"flavor": "Nobody ever wants to get out. It makes emergency evacuations awkward."
 				},
 				"ornate_dresser_recipe": {
-					"recipe_name": "Ornate Wooden Dresser",
+					"recipe_name": "Zdobený Dřevěný Prádelník",
 					"description": "A chest of drawers for storing clothing and personal possessions.",
 					"flavor": "Step 2: acquire personal possessions..."
 				},
 				"bench_recipe": {
-					"recipe_name": "Wooden Park Bench",
-					"description": "Outdoor seating for moments of relaxation.",
-					"flavor": "Life is like a plate of berries."
+					"recipe_name": "Dřevěná Parková Lavička",
+					"description": "Venkovní sezení pro chvíle relaxace.",
+					"flavor": "Život je jako talíř bobulí."
 				},
 				"ornate_bench_recipe": {
-					"recipe_name": "Ornate Wooden Park Bench",
-					"description": "Outdoor seating for moments of relaxation.",
-					"flavor": "Life is like a plate of berries."
+					"recipe_name": "Zdobená Dřevěná Parková Lavička",
+					"description": "Venkovní sezení pro chvíle relaxace.",
+					"flavor": "Život je jako talíř bobulí."
 				},
 				"ornate_writing_desk_recipe": {
-					"recipe_name": "Ornate Writing Desk",
+					"recipe_name": "Zdobený Psací Stůl",
 					"description": "Not at all like a raven.",
 					"flavor": "...Except it can produce a few notes, tho they are very flat."
 				},
 				"ornate_comfy_chair_recipe": {
-					"recipe_name": "Ornate Comfy Chair",
+					"recipe_name": "Zdobená Pohodlná Židle",
 					"description": "Its padded seat guarantees a 98% reduction in awkward splinters!",
 					"flavor": "If pillows are good for the head, surely they're even better for the butt and back!"
 				},
 				"ornate_wooden_tunnel_door_recipe": {
-					"recipe_name": "Ornate Wooden Tunnel Door",
+					"recipe_name": "Zdobené Dřevěné Tunelové Dveře",
 					"description": "Useful for blocking off tunnels in style."
 				},
 				"ornate_picket_fence_gate_recipe": {
@@ -16864,17 +16864,17 @@
 					"flavor": "If it's not white, is our life unfulfilled?"
 				},
 				"ornate_wooden_garden_lantern_recipe": {
-					"recipe_name": "Ornate Wooden Garden Lantern",
+					"recipe_name": "Zdobená Dřevěná Zahradní Lampa",
 					"description": "A small lantern that's placed on the ground. Suitable for lighting paths or small gardens.",
 					"flavor": "Practical and romantic!"
 				},
 				"ornate_wooden_wall_lantern_recipe": {
 					"flavor": "So comfortinzzzzzzzz...",
-					"recipe_name": "Wooden Wall-Mounted Lantern",
+					"recipe_name": "Dřevěná Nástěnná Lampa",
 					"description": "A simple lantern. Place on buildings to provide light at night."
 				},
 				"ornate_wooden_double_door_recipe": {
-					"recipe_name": "Ornate Wooden Double Door",
+					"recipe_name": "Zdobené Dřevěné Dvojité Dveře",
 					"description": "Two doors are better than one.",
 					"flavor": "Some people want to make an entrance... every day."
 				},
@@ -16886,12 +16886,12 @@
 				"wooden_chair_recipe": {
 					"description": "When sitting, food is 20% more satisfying.",
 					"flavor": "Ten thousand years of research culminated in this four-legged design.",
-					"recipe_name": "Wooden Chair"
+					"recipe_name": "Dřevěná Židle"
 				},
 				"ornate_wooden_chair_recipe": {
 					"description": "When sitting, food is 20% more satisfying.",
 					"flavor": "Ten thousand years of research culminated in this four-legged design.",
-					"recipe_name": "Ornate Wooden Chair"
+					"recipe_name": "Zdobená Dřevěná Židle"
 				},
 				"output_box_wood_recipe": {
 					"recipe_name": "Wood Finished Work Shelf",
@@ -16925,7 +16925,7 @@
 				},
 				"door_carpenter_recipe": {
 					"description": "Fit for a master carpenter's woodshop",
-					"recipe_name": "Carpenter's door",
+					"recipe_name": "Tesařovy dveře",
 					"flavor": "There's somehow always a little sawdust on it"
 				},
 				"sign_carpenter_recipe": {
@@ -17018,37 +17018,37 @@
 					"perk_000_description": "The Cook can make basic, nutritious recipes."
 				},
 				"level_3_data": {
-					"perk_000_name": "Meats 'n Pies",
+					"perk_000_name": "Masa a Koláče",
 					"perk_000_description": "The cook can now make more big, satisfying meat dishes, along with a crusty, savory pot pie.",
 					"perk_001_name": "Journeyman's Knowledge",
 					"perk_001_description": "When inspiration strikes, the Cook may now prepare an especially Fine quality of meal.<br><br>(Fine meals give an extra happy thought, are scarfed down more quickly, and sell for more!)"
 				},
 				"level_4_data": {
-					"perk_000_name": "Sweet Tooth",
+					"perk_000_name": "Sladký Zoubek",
 					"perk_000_description": "The Cook can now make and work with Sugar."
 				},
 				"level_5_data": {
-					"perk_000_name": "Master's Insight",
+					"perk_000_name": "Mistrovský Vhled",
 					"perk_000_description": "The Cook can now prepare meals of Excellent quality, and will make Fine quality meals more often.<br><br>(Excellent meals are eaten even more quickly, give another happy thought, and sell for even more!!)"
 				},
 				"level_6_data": {
-					"title": "Master Cook"
+					"title": "Mistr Kuchař"
 				}
 			},
 			"cook_outfit": {
-				"display_name": "Cook Outfit",
+				"display_name": "Kuchařský Oděv",
 				"description": "Uniform for all cooks"
 			},
 			"cook_spoon": {
 				"display_name": "Cook's Spoon",
 				"description": "Used by the cook",
 				"cook_spoon_iconic": {
-					"display_name": "Cook's Spoon",
-					"description": "Required to promote a hearthling into a Cook."
+					"display_name": "Kuchářská Lžíce",
+					"description": "Vyžadována k povýšení hearthlinga na Kuchaře."
 				},
 				"cook_spoon_talisman": {
-					"display_name": "Cook's Spoon",
-					"description": "Required to promote a hearthling into a Cook."
+					"display_name": "Kuchářská Lžíce",
+					"description": "Vyžadována k povýšení hearthlinga na Kuchaře."
 				}
 			},
 			"cook_workbench": {
@@ -17060,47 +17060,47 @@
 			"recipes": {
 				"flour_recipe": {
 					"description": "A necessary ingredient for all kinds of bread.",
-					"recipe_name": "Sack of Flour"
+					"recipe_name": "Pytel Mouky"
 				},
 				"meat_stew_recipe": {
 					"description": "Hearty, satisfying, and perfect to ease the passing of a cold night.",
-					"recipe_name": "Savory Meat Stew",
+					"recipe_name": "Pikantní Masová Polévka",
 					"flavor": "Before you ask, it's an assortment of meats."
 				},
 				"peasant_bread_recipe": {
-					"description": "A crusty, basic bread.",
-					"recipe_name": "Peasant Bread"
+					"description": "Křupavý, základní chleba.",
+					"recipe_name": "Rolnický Chleba"
 				},
 				"food_name": "Every Day Meals",
 				"ingredients_name": "Ingredient Refinement",
 				"veggie_stew_recipe": {
 					"description": "A warm, savory broth, fortified with braised pumpkin!",
-					"recipe_name": "Tasty Vegetable Stew",
+					"recipe_name": "Chutná Zeleninová Polévka",
 					"flavor": "Afterwards, you feel satisfied, but not heavy."
 				},
 				"corn_bread_recipe": {
-					"description": "A bread made from cornmeal.",
-					"recipe_name": "Corn Bread",
-					"flavor": "Like Ma used to make."
+					"description": "Chleba udělaný z kukuřičné moučky.",
+					"recipe_name": "Kukuřičný Chleba",
+					"flavor": "Jaký zvykla dělávat maminka."
 				},
 				"poyo_pot_pie_recipe": {
-					"description": "A tasty meat and veggie pie.",
+					"description": "Chutné maso a zeleninový koláč .",
 					"recipe_name": "Poyo Pot Pie",
-					"flavor": "Pie is always good."
+					"flavor": "Koláč je vždycky dobrý."
 				},
 				"omelette_recipe": {
 					"description": "Veggies and meat wrapped in egg.",
-					"recipe_name": "Omelette",
+					"recipe_name": "Omeleta",
 					"flavor": "Part of a hearty breakfast"
 				},
 				"roast_poyo_recipe": {
-					"description": "Slow roasted poyo meat",
-					"recipe_name": "Roast Poyo",
+					"description": "Pomalu pečené pojí maso",
+					"recipe_name": "Pečené Pojo",
 					"flavor": "Put 'nother poyo on the barby."
 				},
 				"fried_eggs_recipe": {
 					"description": "Eggs fried to order.",
-					"recipe_name": "Fried Eggs",
+					"recipe_name": "Míchaná Vejce",
 					"flavor": "Do you like yours sunnyside up?"
 				},
 				"animal_feed_name": "Animal Feed",
@@ -17128,16 +17128,16 @@
 					"recipe_name": "Stone Mill Grinder"
 				},
 				"cook_oven_recipe": {
-					"description": "Great for roasting",
+					"description": "Skvělá na pečení",
 					"recipe_name": "Stone Oven"
 				},
 				"corn_meal_recipe": {
 					"description": "Corn ground into a fine powder",
-					"recipe_name": "Corn Meal"
+					"recipe_name": "Kukuřičná Moučka"
 				},
-				"decoration_name": "Decorations",
+				"decoration_name": "Dekorace",
 				"roast_mutton_recipe": {
-					"recipe_name": "Roasted Rack of Mutton",
+					"recipe_name": "Pečený Stojan Skopového",
 					"description": "Nutritious and delicious",
 					"flavor": "The traditional meal, excellent with berry sauce!"
 				},
@@ -17152,28 +17152,28 @@
 					"flavor": "There is a hole in my heart the shape of a kitten. "
 				},
 				"roast_pork_recipe": {
-					"description": "Carefully created Roasted Boar",
-					"recipe_name": "Leg of Roast Pork",
+					"description": "Pečlivě udělaný pečený kanec",
+					"recipe_name": "Kýta Pečeného Vepřového",
 					"flavor": "Glazed and roasted"
 				},
 				"bacon_and_eggs_recipe": {
-					"description": "Pork and eggs just like you like 'em.",
-					"recipe_name": "Bacon and Eggs",
+					"description": "Vepřové a vajíčka přesně jak to máš rád/a.",
+					"recipe_name": "Slanina a Vajíčka",
 					"flavor": "The grease just gets into the eggs and tastes so good!"
 				},
 				"fried_eggs_large_recipe": {
 					"description": "One HUGE egg fried to order.",
-					"recipe_name": "Large Fried Egg",
+					"recipe_name": "Velké Míchané Vejce",
 					"flavor": "Better like yours sunnyside up!"
 				},
 				"bug_meat_stew_recipe": {
 					"description": "Stringy, spicy, and perfect to eat on a hot day.",
-					"recipe_name": "Tasty Bug Stew",
+					"recipe_name": "Chutná Broučí Polévka",
 					"flavor": "Just don't ask, you know it's made of bugs."
 				},
 				"roast_varanus_recipe": {
 					"description": "Spit roasted lizard meat",
-					"recipe_name": "Slab of Roast Varanus",
+					"recipe_name": "Plát Pečeného Varanuse",
 					"flavor": "What a tasty slice of lizard tail!"
 				},
 				"roast_poultry_large_recipe": {
@@ -17202,18 +17202,18 @@
 					"flavor": "For the daring food enthusiast"
 				},
 				"roasted_sweet_potato_recipe": {
-					"description": "A slow roasted sweet potato.",
-					"recipe_name": "Roasted Sweet Potato",
+					"description": "Pomalu pečená sladká brambora.",
+					"recipe_name": "Pečená Sladká Brambora",
 					"flavor": "Warms your hands and your heart."
 				},
 				"sausage_recipe": {
 					"description": "Shred up the meat, mix in some spice, stick it in a wrap, and it's good to go!",
-					"recipe_name": "Raw Sausage",
+					"recipe_name": "Syrová Klobása",
 					"flavor": "It's a good way to stretch out your food reserves a bit."
 				},
 				"roast_sausage_recipe": {
 					"description": "Tantalisingly roasted to perfection, made from any kind of meat!",
-					"recipe_name": "Roast Sausage",
+					"recipe_name": "Pečená Klobása",
 					"flavor": "It's some kind of meat, not sure which it was though..."
 				},
 				"feed_fodder_recipe": {
@@ -17223,30 +17223,30 @@
 				},
 				"pie_berry_recipe": {
 					"description": "A scrumptious pie that is very complicated to make.",
-					"recipe_name": "Sweet Berry Pie",
-					"flavor": "The crust and the berries go so well together."
+					"recipe_name": "Koláč ze Sladkých Bobulí",
+					"flavor": "Krustička a bobule jdou spolu tak dobře dohromady."
 				},
 				"pie_pear_recipe": {
 					"description": "A scrumptious pie that is very complicated to make.",
-					"recipe_name": "Prickly Pear Pie",
+					"recipe_name": "Koláč z Opuncií",
 					"flavor": "It's called 'Prickly Pear' but all the prickles have been removed."
 				},
 				"cake_layered_recipe": {
 					"description": "An extremely involved recipe but so good, and so filling...",
-					"recipe_name": "Layered Cake",
-					"flavor": "It's so beautiful!  And just covered in tasties!"
+					"recipe_name": "Vrstvený Koláč",
+					"flavor": "Taková nádhera!  A právě pokrytá v chutných pochoutkách!"
 				},
 				"dumpling_meat_recipe": {
 					"description": "A little bread pocket with meat and spices stuffed inside.",
-					"recipe_name": "Meat Dumpling",
-					"flavor": "A little complicated to make, but fill you up pretty well."
+					"recipe_name": "Masový Knedlík",
+					"flavor": "Trošku komplikované na udělání, ale zasytí tě docela dobře."
 				},
 				"dumpling_vegetarian_recipe": {
 					"description": "A little bread pocket with veggies and spices stuffed inside.",
-					"recipe_name": "Veggie Dumpling",
-					"flavor": "A little complicated to make, but fill you up pretty well."
+					"recipe_name": "Zeleninový Knedlík",
+					"flavor": "Trošku komplikované na udělání, ale zasytí tě docela dobře."
 				},
-				"chefs_desserts_name": "Specialty Desserts"
+				"chefs_desserts_name": "Speciální Dezerty"
 			},
 			"cook_mill": {
 				"cook_mill_ghost": {
@@ -17257,7 +17257,7 @@
 			"cook_oven": {
 				"cook_oven_ghost": {
 					"display_name": "Stone Oven",
-					"description": "Great for roasting"
+					"description": "Skvělá na pečení"
 				}
 			}
 		},
@@ -17268,7 +17268,7 @@
 				"requirements": "Vyrobeno Kovářem",
 				"level_6_data": {
 					"title": "Mistr Inženýr",
-					"perk_000_name": "General of Defense",
+					"perk_000_name": "Generál Obrany",
 					"perk_000_description": "This Engineer can place up to twelve traps and eight turrets"
 				},
 				"level_2_data": {
@@ -17284,20 +17284,20 @@
 					"perk_002_description": "The Engineer can repair broken doors, gates and other fixable structures."
 				},
 				"level_3_data": {
-					"perk_000_name": "Town Defender",
+					"perk_000_name": "Obránce Města",
 					"perk_000_description": "This Engineer can place up to eight traps and four turrets. ",
 					"perk_001_name": "Journeyman's Knowledge",
 					"perk_001_description": "When inspiration strikes, the Engineer may now craft an especially Fine quality of item."
 				},
 				"level_5_data": {
-					"perk_000_name": "Master's Insight",
+					"perk_000_name": "Mistrovský Vhled",
 					"perk_000_description": "The Engineer can now create items of Excellent quality, and will make Fine quality items more often."
 				}
 			},
 			"engineer_wrench": {
 				"engineer_wrench_talisman": {
 					"display_name": "Engineer's Wrench",
-					"description": "Required to promote a hearthling into an Engineer"
+					"description": "Vyžadován k povýšení hearthlinga na Inženýra"
 				},
 				"display_name": "Engineer's Wrench",
 				"description": "Tools of the trade for an Engineer"
@@ -17320,28 +17320,28 @@
 				"workbenches_name": "Workbenches",
 				"bronze_gear_recipe": {
 					"description": "Used to craft basic gadgets",
-					"recipe_name": "Bronze Gear",
+					"recipe_name": "Bronzové Ozubené Kolečko",
 					"flavor": "Luckily have teeth that don't requiring brushing"
 				},
-				"gadget_parts_name": "Gears and Parts",
+				"gadget_parts_name": "Ozubená Kolečka a Součástky",
 				"small_turret_recipe": {
 					"description": "After placed, shoots at enemies from a distance. Must be repaired after 20 uses.",
-					"recipe_name": "Turret"
+					"recipe_name": "Střelecká Véž"
 				},
 				"iron_gear_recipe": {
 					"description": "Used to craft intermediate gadgets",
-					"recipe_name": "Iron Gear",
+					"recipe_name": "Železné Ozubené Kolečko",
 					"flavor": "Not for use as a throwing star"
 				},
 				"clamp_trap_recipe": {
 					"description": "Damages and shortly stuns enemies that step near it",
-					"recipe_name": "Clamp Trap"
+					"recipe_name": "Sklápací Past"
 				},
-				"ranged_weapons_name": "Ranged Weapons",
+				"ranged_weapons_name": "Zbraně na Dálku",
 				"traps_name": "Defensive Traps",
 				"turnip_shooter_recipe": {
 					"description": "Shoots turnips at enemies from a small distance. Must be repaired after 15 uses.",
-					"recipe_name": "Turnip Shooter",
+					"recipe_name": "Tuřínomet",
 					"flavor": "Don't like the taste of turnips? Don't worry, they're multi-functional."
 				},
 				"critter_trap_recipe": {
@@ -17353,12 +17353,12 @@
 					"description": "Thick, sturdy iron door. Also comes with a thick, sturdy lock.",
 					"recipe_name": "Ironclad Door"
 				},
-				"decorations_name": "Decorations",
+				"decorations_name": "Dekorace",
 				"wooden_sign_engineer_recipe": {
 					"description": "Cedule se značkou Inženýra.",
 					"recipe_name": "Engineer's Wall-Mounted Sign"
 				},
-				"building_parts_name": "Building Parts",
+				"building_parts_name": "Stavební Části",
 				"bronze_portcullis_recipe": {
 					"description": "Useful for fortifying town entrypoints.",
 					"recipe_name": "Bronze Portcullis"
@@ -17386,7 +17386,7 @@
 				"description": "Farmers till fields and harvest crops, providing a consistent food supply and raw materials for baked goods.",
 				"requirements": "Vyrobeno Tesařem",
 				"level_6_data": {
-					"title": "Master Farmer"
+					"title": "Mistr Farmář"
 				},
 				"level_5_data": {
 					"perk_000_name": "Trees for the Forest",
@@ -17416,11 +17416,11 @@
 				"description": "Used to till fields.",
 				"farmer_hoe_iconic": {
 					"display_name": "Farmer's Hoe",
-					"description": "Required to promote a hearthling into a Farmer."
+					"description": "Vyžadována k povýšení hearthlinga na Farmáře."
 				},
 				"farmer_hoe_talisman": {
 					"display_name": "Farmer's Hoe",
-					"description": "Required to promote a hearthling into a Farmer."
+					"description": "Vyžadována k povýšení hearthlinga na Farmáře."
 				}
 			},
 			"farmer_outfit": {
@@ -17434,15 +17434,15 @@
 		},
 		"footman": {
 			"footman_description": {
-				"display_name": "Footman",
+				"display_name": "Pěšák",
 				"description": "The Footman is a melee fighter. A good choice for the backbone of your town's defense.",
 				"requirements": "Vyrobeno Tesařem",
 				"level_4_data": {
-					"perk_000_name": "Damage Up 40%",
+					"perk_000_name": "Poškození Nahoru 40%",
 					"perk_000_description": "The footman is now practiced at optimizing the effect of each blow."
 				},
 				"level_1_data": {
-					"perk_000_name": "Damage Up 20%",
+					"perk_000_name": "Poškození Nahoru 20%",
 					"perk_000_description": "The footman knows that all combats may have mortal consequences, and attacks with renewed determination."
 				},
 				"level_3_data": {
@@ -17450,8 +17450,8 @@
 					"perk_000_description": "This powerful, overhead swing deals double damage."
 				},
 				"level_6_data": {
-					"perk_000_name": "Damage Up 60%",
-					"perk_000_description": "Maxiumum damage!"
+					"perk_000_name": "Poškození Nahoru 60%",
+					"perk_000_description": "Maximální poškození!"
 				},
 				"level_2_data": {
 					"perk_000_name": "First Responder",
@@ -17465,15 +17465,15 @@
 			"footman_buffs": {
 				"damage_1_buff": {
 					"description": "At Level 1, the footman attacks with increased ferocity",
-					"display_name": "Damage +20%"
+					"display_name": "Poškození +20%"
 				},
 				"damage_2_buff": {
 					"description": "The footman attacks with increased ferocity",
-					"display_name": "Damage +40%"
+					"display_name": "Poškození +40%"
 				},
 				"damage_3_buff": {
 					"description": "At Level 6, the footman's attacks are unstoppable!",
-					"display_name": "Damage +60%"
+					"display_name": "Poškození +60%"
 				},
 				"speed_buff": {
 					"display_name": "First Responder",
@@ -17488,8 +17488,8 @@
 					"description": "Increases Willpower by 20%"
 				},
 				"maul_lantern_buff": {
-					"display_name": "Hestia's Gift",
-					"description": "Increases Courage and Regenerates Health"
+					"display_name": "Dar Hestie",
+					"description": "Zvyšuje Odvahu a Regeneruje Zdraví"
 				},
 				"lonelyness_buff": {
 					"display_name": "Loneliness Increase",
@@ -17553,7 +17553,7 @@
 			},
 			"geomancer_talisman": {
 				"geomancer_talisman_iconic": {
-					"display_name": "Geomancer Staff",
+					"display_name": "Geomancerská Hůl",
 					"description": "Intensifies the bearer's ability to interact with the powers of Hearth."
 				},
 				"display_name": "Geomancer Talisman",
@@ -17727,7 +17727,7 @@
 					"long_description": "The Mason crafts building materials and decorative items from stone."
 				},
 				"level_6_data": {
-					"title": "Master Mason"
+					"title": "Mistr Kameník"
 				},
 				"level_2_data": {
 					"perk_000_name": "Fancy Rocks",
@@ -17746,20 +17746,20 @@
 					"perk_000_description": "When inspiration strikes, the Mason may now craft an especially Fine quality of item."
 				},
 				"level_5_data": {
-					"perk_000_name": "Master's Insight",
+					"perk_000_name": "Mistrovský Vhled",
 					"perk_000_description": "The Mason can now create items of Excellent quality, and will make Fine quality items more often."
 				}
 			},
 			"mason_chisel": {
-				"display_name": "Mason's Chisel",
+				"display_name": "Kameníkovo Dláto",
 				"description": "Tools of the trade for a mason.",
 				"mason_chisel_talisman": {
-					"display_name": "Mason's Chisel",
-					"description": "Required to promote a hearthling into a mason."
+					"display_name": "Kameníkovo Dláto",
+					"description": "Vyžadován k povýšení hearthlinga na kameníka."
 				}
 			},
 			"mason_hammer": {
-				"display_name": "Mason's Hammer",
+				"display_name": "Kameníkovo Kladivo",
 				"description": "Tools of the trade for a mason."
 			},
 			"mason_outfit": {
@@ -17785,13 +17785,13 @@
 				}
 			},
 			"recipes": {
-				"tools_name": "Tools",
+				"tools_name": "Nástroje",
 				"storage_name": "Storage",
 				"signage_decoration_name": "Signage & Decoration",
-				"building_parts_name": "Building Parts",
-				"weapons_name": "Weapons",
-				"furniture_name": "Furniture",
-				"refined_name": "Refinement",
+				"building_parts_name": "Stavební Části",
+				"weapons_name": "Zbraně",
+				"furniture_name": "Nábytek",
+				"refined_name": "Rafinováno",
 				"bird_bath_recipe": {
 					"description": "A decorative stone vase with water for the birdies.",
 					"recipe_name": "Bird Bath",
@@ -17823,13 +17823,13 @@
 					"flavor": "Living underground would be unbearable without excellent ventilation"
 				},
 				"blacksmith_hammer_recipe": {
-					"description": "Required to promote a hearthling into a Blacksmith.",
-					"recipe_name": "Blacksmith's Hammer",
+					"description": "Vyžadováno k povýšení hearthlinga na Kováře.",
+					"recipe_name": "Kovářské Kladivo",
 					"flavor": "From the dragon that lives in the forge, weapons and armor, defense and conquest."
 				},
 				"potter_cutter_recipe": {
 					"description": "Allows a hearthling to make tools and goods from clay.",
-					"recipe_name": "Potter's Cutter",
+					"recipe_name": "Hrnčířský Řezák",
 					"flavor": "And Monkey struck the earth with his staff. 'For you are my children, he said, and you shall want for nothing.'"
 				},
 				"cobblestone_fence_gate_recipe": {
@@ -17843,8 +17843,8 @@
 					"flavor": "Use the earth itself to form the walls of the pasture? Genius!"
 				},
 				"cook_spoon_recipe": {
-					"description": "Required to promote a hearthling into a Cook.",
-					"recipe_name": "Cook's Spoon",
+					"description": "Vyžadována k povýšení hearthlinga na Kuchaře.",
+					"recipe_name": "Kuchářská Lžíce",
 					"flavor": "COOKED FOOOOOOOOD!!!!!! --Alton The Bard"
 				},
 				"gargoyle_recipe": {
@@ -17869,32 +17869,32 @@
 				},
 				"stone_chair_recipe": {
 					"description": "Not horribly comfortable, but a symbol of status.",
-					"recipe_name": "Stone Chair",
+					"recipe_name": "Kamenná Židle",
 					"flavor": "Outdoorsy!"
 				},
 				"stone_chest_recipe": {
 					"description": "Imposing place to put up to 64 things.",
-					"recipe_name": "Stone Chest",
+					"recipe_name": "Kamenná Truhla",
 					"flavor": "'Listen up, kid. All the chests in Hemgorir-Under-Mountain looked like this.'--Edolf, Wandering Bard"
 				},
 				"stone_garden_lantern_recipe": {
 					"description": "An ancient-looking lantern with great ambiance.",
-					"recipe_name": "Stone Garden Lantern",
+					"recipe_name": "Kamenná Zahradní Lampa",
 					"flavor": "Only slightly ominous looking."
 				},
 				"stone_maul_recipe": {
 					"description": "The perfect tool for bludgeoning",
-					"recipe_name": "Stone Maul",
+					"recipe_name": "Kamenný Kyj",
 					"flavor": "A modern adaptation of an ancient weapon."
 				},
 				"stone_table_recipe": {
 					"description": "Its considerable weight gives it a sense of gravitas. For serious business only.",
-					"recipe_name": "Stone Table",
+					"recipe_name": "Kamenný Stůl",
 					"flavor": "No lions were harmed in its construction."
 				},
 				"stone_wall_lantern_recipe": {
 					"description": "Attaches to the walls of buildings, providing light",
-					"recipe_name": "Stone Wall-Mounted Lantern",
+					"recipe_name": "Kamenná Nástěnná Lampa",
 					"flavor": "Cons: Heavy. Pros: Unlikely to burn itself down."
 				},
 				"tower_brazier_recipe": {
@@ -17924,7 +17924,7 @@
 				},
 				"stone_tunnel_door_recipe": {
 					"description": "Useful for sealing off mine tunnels.",
-					"recipe_name": "Stone Tunnel Door"
+					"recipe_name": "Kamenné Tunelové Dveře"
 				},
 				"firepit_recipe": {
 					"recipe_name": "Stone Firepit",
@@ -17933,16 +17933,16 @@
 				},
 				"valor_statue_recipe": {
 					"description": "A monument to your town's military might",
-					"recipe_name": "The Valor of Cid",
+					"recipe_name": "Cidova Chrabrost",
 					"flavor": "The shield for resilience, and the sword for strength. -- Cid, Knight of the Old Ways"
 				},
 				"roadside_shrine_recipe": {
-					"recipe_name": "Fountain of Plenty",
+					"recipe_name": "Fontána Hojnosti",
 					"description": "Place to show generosity and faith",
 					"flavor": "Cid fashioned his breastplate into a basket and brought the wealth of the rich to the bedsides of the poor --Edison Arn, Church of Plenty"
 				},
 				"craftsman_statue_recipe": {
-					"recipe_name": "The Guildmaster's Skill",
+					"recipe_name": "Cechmistrova Zručnost",
 					"description": "Shows each craftsman at their best",
 					"flavor": "A good crafter never blames his tools, only the people who make his tools. --Otto Crankfrown, Guildmaster Emeritus"
 				},
@@ -18028,7 +18028,7 @@
 				},
 				"door_mason_recipe": {
 					"description": "Fit for a master mason's workshop",
-					"recipe_name": "Mason's door",
+					"recipe_name": "Kameníkovy dveře",
 					"flavor": "Feels like knocking on a mountainside"
 				},
 				"fountain_wishing_recipe": {
@@ -18061,11 +18061,11 @@
 				},
 				"valor_window_frame_barred_recipe": {
 					"description": "For those who enjoy safe viewing from behind bars.",
-					"recipe_name": "Barred Stone Window Frame"
+					"recipe_name": "Zamřížovaný Kamenný Okenní Rám"
 				},
 				"valor_window_frame_xlarge_recipe": {
 					"description": "For those who enjoy wide expansive views.",
-					"recipe_name": "Extra Large Stone Window Frame",
+					"recipe_name": "Extra Veliký Kamenný Okenní Rám",
 					"flavor": "I'm not the sort of person who'd tell you what to do with your window, but when Riley stuck it on the first floor like a door, rabbits poured straight into his kitchen. -- Andie, Berry Farmer"
 				},
 				"valor_brazier_large_recipe": {
@@ -18110,47 +18110,47 @@
 				},
 				"stone_door_recipe": {
 					"description": "Sturdy door built to last.",
-					"recipe_name": "Stone Door"
+					"recipe_name": "Kamenné Dveře"
 				},
 				"stone_window_frame_recipe": {
-					"description": "A basic stone window.",
-					"recipe_name": "Stone Window Frame",
+					"description": "Základní kamenné okno.",
+					"recipe_name": "Kamenný Okenní Rám",
 					"flavor": "A little breezy, but fashionable!"
 				},
 				"stone_window_frame_wide_recipe": {
 					"description": "It's got a panoramic view!",
-					"recipe_name": "Wide Stone Window Frame"
+					"recipe_name": "Široký Kamenný Okenní Rám"
 				},
 				"stone_window_frame_wide_wood_recipe": {
 					"description": "Rustic and panoramic!",
-					"recipe_name": "Wide Wood and Stone Window Frame"
+					"recipe_name": "Široký Dřevěný a Kamenný Okenní Rám"
 				},
 				"stone_window_frame_wood_recipe": {
-					"description": "A basic window.",
-					"recipe_name": "Wood and Stone Window Frame",
+					"description": "Základní okno.",
+					"recipe_name": "Dřevěný a Kamenný Okenní Rám",
 					"flavor": "Is this what they call a cross section?"
 				},
 				"stone_window_frame_tall_recipe": {
 					"description": "Extra height adds an air of elegance.",
-					"recipe_name": "Tall Stone Window Frame"
+					"recipe_name": "Vysoký Kamenný Okenní Rám"
 				},
 				"stone_window_frame_short_recipe": {
 					"description": "Short can be elegant too.",
-					"recipe_name": "Short Stone Window Frame"
+					"recipe_name": "Krátký Kamenný Okenní Rám"
 				},
 				"stone_lantern_simple_recipe": {
 					"description": "Nothing fancy. Attach to any wall.",
-					"recipe_name": "Simple Stone Lantern",
+					"recipe_name": "Jednoduchá Kamenná Lampa",
 					"flavor": "Cons: Heavy. Pros: Unlikely to burn itself down."
 				},
 				"stone_garden_lantern_simple_recipe": {
 					"description": "It has a classic handle...mostly for decoration.",
-					"recipe_name": "Simple Stone Garden Lantern",
+					"recipe_name": "Jednoduchá Kamenná Zahradní Lampa",
 					"flavor": "It's weight makes it useless to carrying around."
 				},
 				"stone_torch_recipe": {
-					"description": "A wall-mounted torch with slowly burning oil.",
-					"recipe_name": "Stone Torch",
+					"description": "Nástěnná louč s pomalu hořícím olejem.",
+					"recipe_name": "Kamenná Louč",
 					"flavor": "Makes it much easier to burn the midnight oil."
 				},
 				"stone_candle_holder_recipe": {
@@ -18165,7 +18165,7 @@
 				},
 				"stone_double_door_recipe": {
 					"description": "Two doors are better than one.",
-					"recipe_name": "Stone Double Door",
+					"recipe_name": "Kamenné Dvojité Dveře",
 					"flavor": "Some people want to make an entrance... every day."
 				},
 				"stone_window_frame_crossbeam_recipe": {
@@ -18185,7 +18185,7 @@
 				},
 				"golem_parts_recipe": {
 					"description": "Used by the Geomancer to craft golems",
-					"recipe_name": "Golem Parts",
+					"recipe_name": "Části Golema",
 					"flavor": "Sturdy enough to hold an ox."
 				},
 				"window_box_violet_recipe": {
@@ -18209,7 +18209,7 @@
 		},
 		"potter": {
 			"potter_description": {
-				"display_name": "Potter",
+				"display_name": "Hrnčíř",
 				"description": "Makes useful goods from clay. Upgradeable to the Mason",
 				"requirements": "Vyrobeno Kameníkem",
 				"workshop": {
@@ -18222,12 +18222,12 @@
 					"perk_000_description": "When inspiration strikes, the Potter may now craft an especially Fine quality of item."
 				},
 				"level_5_data": {
-					"perk_000_name": "Master's Insight",
+					"perk_000_name": "Mistrovský Vhled",
 					"perk_000_description": "The Potter can now create items of Excellent quality, and will make Fine quality items more often."
 				},
 				"level_6_data": {
-					"title": "Master Potter",
-					"perk_000_name": "Master Potter",
+					"title": "Mistr Hrnčíř",
+					"perk_000_name": "Mistr Hrnčíř",
 					"perk_000_description": "The Potter has rediscovered ancient secrets of the Phoenix..."
 				},
 				"level_2_data": {
@@ -18247,13 +18247,13 @@
 				"workbench_name": "Workshops",
 				"small_urn_recipe": {
 					"description": "For compactly storing up to 8 items",
-					"recipe_name": "Small Urn",
+					"recipe_name": "Malá Urna",
 					"flavor": "Mischevious kids break these pots all the time, looking for treasure."
 				},
 				"storage_name": "Storage",
 				"large_urn_recipe": {
 					"description": "For compactly storing up to 32 items",
-					"recipe_name": "Large Urn",
+					"recipe_name": "Velká Urna",
 					"flavor": "Once we put things in, how will we get them out? Don't think about it too much"
 				},
 				"clay_lamp_recipe": {
@@ -18271,10 +18271,10 @@
 					"recipe_name": "Tiny Garden Guardian",
 					"flavor": "Designed by Grandmaster crafter The_M"
 				},
-				"furniture_name": "Furniture and Decoration",
-				"decoration_name": "Decorations",
+				"furniture_name": "Nábytek a Dekorace",
+				"decoration_name": "Dekorace",
 				"utility_name": "Utility",
-				"refined_name": "Refinement",
+				"refined_name": "Rafinováno",
 				"potter_workbench_recipe": {
 					"description": "Helps the potter create simple items from clay",
 					"recipe_name": "Potter's Wheel",
@@ -18282,7 +18282,7 @@
 				},
 				"potter_kiln_recipe": {
 					"description": "Hardens basic clay objects.",
-					"recipe_name": "Potter's Kiln",
+					"recipe_name": "Hrnčířská Pec",
 					"flavor": "'Through heat and hardship we realize our final selves.' -Silora, Acolyte of Rayya's Mystery "
 				},
 				"clay_safety_standard_recipe": {
@@ -18290,10 +18290,10 @@
 					"recipe_name": "Clay Safety Standard",
 					"flavor": "To achieve an ideal standard of living, find safety in numbers. --Mysteries and Proverbs, V"
 				},
-				"building_parts_name": "Building Parts",
+				"building_parts_name": "Stavební Části",
 				"clay_bricks_recipe": {
 					"description": "A stack of bricks, used to make clay structures.",
-					"recipe_name": "Clay Bricks",
+					"recipe_name": "Jílové Cihly",
 					"flavor": "'And when Clay emerged from the Kiln, he had become Brick, and no matter how hard Sun blasted him, he remained cheerful.'"
 				},
 				"red_clay_door_recipe": {
@@ -18338,12 +18338,12 @@
 				},
 				"clay_dining_table_recipe": {
 					"description": "Gets your food off the ground!",
-					"recipe_name": "Clay Dining Table",
+					"recipe_name": "Jílový Jídelní Stůl",
 					"flavor": "\"An elevated environment for elevated conversation\" "
 				},
 				"simple_clay_chair_recipe": {
 					"description": "Somewhere to sit while eating",
-					"recipe_name": "Simple Clay Chair",
+					"recipe_name": "Jednoduchá Jílová Židle",
 					"flavor": "'Nests with the tables, ooo, symbolic!' --Nestor Adya, Acolyte"
 				},
 				"decorative_teapot_recipe": {
@@ -18408,7 +18408,7 @@
 				},
 				"clay_tunnel_door_recipe": {
 					"description": "Useful for sealing off mine tunnels.",
-					"recipe_name": "Clay Tunnel Door",
+					"recipe_name": "Jílové Tunelové Dveře",
 					"flavor": "Speak friend and enter.... oh no wait it's not locked. - Eber, Potter's Apprentice"
 				},
 				"tan_latticed_window_recipe": {
@@ -18417,7 +18417,7 @@
 					"flavor": "\"Lets in the bugs, but at least not the really big ones!\" -- Drenkar Iskender, Ex-Marketing Associate"
 				},
 				"tall_clay_window_recipe": {
-					"recipe_name": "Tall Clay Window",
+					"recipe_name": "Vysoké Jílové Okno",
 					"description": "Still lets in the soft desert air",
 					"flavor": "\"Windowsill can cool a really tall pie\" -Aaryn, Pragmatist"
 				},
@@ -18491,7 +18491,7 @@
 				},
 				"golem_parts_recipe": {
 					"description": "Used by the Geomancer to craft golems",
-					"recipe_name": "Golem Parts",
+					"recipe_name": "Části Golema",
 					"flavor": "Sturdy enough to hold an ox."
 				},
 				"clay_fence_bar_double_recipe": {
@@ -18533,20 +18533,20 @@
 			},
 			"potter_kiln": {
 				"potter_kiln_ghost": {
-					"display_name": "Potter's Kiln",
+					"display_name": "Hrnčířská Pec",
 					"description": "Produces bricks and goods from clay."
 				}
 			},
 			"potter_cutter": {
-				"display_name": "Potter's Cutter",
+				"display_name": "Hrnčířský Řezák",
 				"description": "Used to form civilization from dirt!",
 				"potter_cutter_talisman": {
-					"display_name": "Potter's Cutter",
-					"description": "Required to promote a hearthling into a Potter."
+					"display_name": "Hrnčířský Řezák",
+					"description": "Vyžadován k povýšení hearthlinga na Hrnčíře."
 				}
 			},
 			"potter_outfit": {
-				"display_name": "Potter's Outfit",
+				"display_name": "Hrnčířův Oděv",
 				"description": "Earth splotches are part of its intense style."
 			}
 		},
@@ -18580,11 +18580,11 @@
 				"description": "Used to corral the flock",
 				"shepherd_crook_iconic": {
 					"display_name": "Pastýřova Berla",
-					"description": "Vyžadována na povýšení hearthlinga na Pastýře."
+					"description": "Vyžadována k povýšení hearthlinga na Pastýře."
 				},
 				"shepherd_crook_talisman": {
 					"display_name": "Pastýřova Berla",
-					"description": "Vyžadována na povýšení hearthlinga na Pastýře."
+					"description": "Vyžadována k povýšení hearthlinga na Pastýře."
 				}
 			},
 			"shepherd_outfit": {
@@ -18661,7 +18661,7 @@
 				},
 				"trapper_knife_talisman": {
 					"display_name": "Traperův Nůž",
-					"description": "Vyžadován na povýšení heathlinga na Trapera."
+					"description": "Vyžadován k povýšení heathlinga na Trapera."
 				}
 			},
 			"trapper_outfit": {
@@ -18694,7 +18694,7 @@
 					"title": "Mistr Tkalec"
 				},
 				"level_2_data": {
-					"perk_000_name": "Collaborative Insight",
+					"perk_000_name": "Kolaborativní Vhled",
 					"perk_000_description": "The Weaver is now skillful enough to use materials created by other crafters."
 				},
 				"level_1_data": {
@@ -18706,7 +18706,7 @@
 					"perk_000_description": "When inspiration strikes, the Weaver may now craft an especially Fine quality of decoration."
 				},
 				"level_5_data": {
-					"perk_000_name": "Master's Insight",
+					"perk_000_name": "Mistrovský Vhled",
 					"perk_000_description": "The Weaver can now create decorations of Excellent quality, and will make Fine quality decorations more often."
 				}
 			},
@@ -18815,12 +18815,12 @@
 				},
 				"worker_outfit_2_recipe": {
 					"description": "Double stitching and strategically placed padding improves the worker's efficiency. The worker who dons this upgrade outfit will move faster.",
-					"recipe_name": "Vylepšený Pracovníkův Oděv",
+					"recipe_name": "Vylepšený Dělnický Oděv",
 					"flavor": "Tvoje město tě miluje!"
 				},
 				"worker_outfit_winter_recipe": {
 					"description": "A heavy wool coat, for cold winter nights. The worker who dons this upgrade outfit will move faster.",
-					"recipe_name": "Zimní Pracovníkův Oděv",
+					"recipe_name": "Zimní Dělnický Oděv",
 					"flavor": "Zima se blíží!"
 				},
 				"workbenches_name": "Workbenches",
@@ -18915,7 +18915,7 @@
 				},
 				"weaver_spindle_talisman": {
 					"display_name": "Tkalcovo Vřeteno",
-					"description": "Vyžadováno na povýšení hearthlinga na Tkalce"
+					"description": "Vyžadováno k povýšení hearthlinga na Tkalce"
 				}
 			},
 			"weaver_spinning_wheel": {
@@ -18999,14 +18999,14 @@
 			},
 			"herbalist_staff": {
 				"display_name": "Bylinkářská Hůl",
-				"description": "Vyžadována na povýšení hearthlinga na Bylinkáře",
+				"description": "Vyžadována k povýšení hearthlinga na Bylinkáře",
 				"herbalist_staff_iconic": {
 					"display_name": "Bylinkářská Hůl",
-					"description": "Vyžadována na povýšení hearthlinga na Bylinkáře"
+					"description": "Vyžadována k povýšení hearthlinga na Bylinkáře"
 				},
 				"herbalist_staff_talisman": {
 					"display_name": "Bylinkářská Hůl",
-					"description": "Vyžadována na povýšení hearthlinga na Bylinkáře"
+					"description": "Vyžadována k povýšení hearthlinga na Bylinkáře"
 				}
 			},
 			"herbalist_workbench": {
@@ -19058,7 +19058,7 @@
 				"decorations_name": "Dekorace",
 				"cleric_tome_recipe": {
 					"recipe_name": "Klerikův Svazek",
-					"description": "Vyžadováno na povýšení hearthlinga na klerika"
+					"description": "Vyžadován k povýšení hearthlinga na klerika"
 				},
 				"tools_name": "Nástroje",
 				"frostsnap_transmute_recipe": {
@@ -19340,7 +19340,7 @@
 			"magmasmith_hammer": {
 				"magmasmith_hammer_talisman": {
 					"display_name": "Lávokovářské Kladivo",
-					"description": "Vyžadováno na povýšení hearthlinga na Lávokováře"
+					"description": "Vyžadováno k povýšení hearthlinga na Lávokováře"
 				},
 				"display_name": "Lávokovářské Kladivo",
 				"description": "Lávou do tváře"
