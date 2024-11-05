@@ -7329,7 +7329,7 @@
 			"teleportation_sickness": {
 				"teleportation_sickness_buff": {
 					"display_name": "Nedávno Teleportovaný/á",
-					"description": "Teleportation is harsh on the soul, need to wait a while before doing it again."
+					"description": "Teleportace je drsná pro ducha, potřebuji chvilku počkat předtím, než to udělám znovu."
 				}
 			}
 		},
@@ -7541,8 +7541,8 @@
 				"description": "Claim this item for your town."
 			},
 			"move_item": {
-				"display_name": "Move item",
-				"description": "Move this thing somewhere else in the world.",
+				"display_name": "Přesuň předmět",
+				"description": "Přesuň tuhle věc někam jinam ve světě.",
 				"disabled_description": "Tento předmět se používá. Zkus ho přemístit později."
 			},
 			"open_character_sheet": {
@@ -7606,7 +7606,7 @@
 			"slaughter": {
 				"display_name": "Harvest for Meat",
 				"description": "Have your shepherd harvest this animal for its meat.",
-				"disabled_description": "This animal is so malnourished that it has no meat. It's just skin and bones."
+				"disabled_description": "Tohle zvíře je tak podvyživené, že nemělo žádné maso. Jenom kost a kůže."
 			},
 			"spawn_glory_wave": {
 				"display_name": "Vyvolej Vlnu Nepřátel",
@@ -7654,15 +7654,15 @@
 			},
 			"edit_party": {
 				"display_name": "Uprav Skupinu",
-				"description": "Add and remove members from this party."
+				"description": "Přidat a odstranit členy z této skupiny."
 			},
 			"cancel_marker": {
 				"display_name": "Ukazatel Zrušení",
-				"description": "Cancels the combat orders for this marker"
+				"description": "Ruší bojové příkazy pro tento ukazatel"
 			},
 			"select_owner": {
 				"display_name": "Vyber Členy",
-				"description": "Selects the members following this order"
+				"description": "Vybere členy následující tento příkaz"
 			},
 			"call_trader": {
 				"display_name": "Zavolej Obchodníka",
@@ -7768,7 +7768,7 @@
 							"001": "Dřívvííííí!!! Mohl/a bych si na to zvyknout to říkat.",
 							"002": "Banda sleduje a počítá, že kdo pokácel nejvíce stromů. Jsem to já, ale časem by to chtělo opravit jejich matiku, raději bych prostě přidal/a další strom k mému celkovému počtu.",
 							"003": "Mysím, že jsem viděl/a sršní hnízdo, když jsme káceli. Naštěstí, všichni se dostali pryč včas.",
-							"004": "Wood: our eternal taskmaster. Got to keep our eye on the goal.",
+							"004": "Dřevo: onáš věčnýý zaavatel úkolů. Měli bychom na to dohlédnout.",
 							"005": "Všichni kácejme společně! Štíp! Štíp! Štíp! Ano, také si pospěšte!",
 							"006": "Oukej bando, konec přestávky. Zpátky ke kácení!",
 							"007": "Every time I swing this axe, I visualize my dream house and exactly how I'm going to build it. Side effect of all this chopping: the floorplan's getting smaller.",
@@ -7780,48 +7780,48 @@
 						"lovable_rogue": {
 							"000": "Krok 1: Kácet dřevo. Krok 2: ???. Krok 3: Zisk!! Hmm. Stále pracuji na kroku 2.",
 							"001": "I would be more excited to chop trees if they had a discernible anatomy. Or if I could get combat advantage! Or if they could be flanked. Or if they even just had facing, so I could backstab! Not that I ever heard of anyone felling a tree with a backstab.",
-							"002": "My hands are getting rough from all this chopping.",
+							"002": "Moje ruce se začínají zdrsňovat ze všeho toho kácení.",
 							"003": "Top důvod proč je kácení stromů zábava: zdokonalení švihání sekerou. Jednoho dne by se to mohlo hodit!",
 							"004": "Nejlepší důvod, proč je nošení dříví zábava: nemůžu na žádný přijít.",
-							"005": "Divím se za kolik bych mohl/a prodat toto dřevo za zpátky domů. ...Za nic, asi.",
+							"005": "Divím se za kolik bych mohl/a prodat toto dřevo zpátky za domov. ...Za nic, asi.",
 							"006": "I wonder if I could get out of chopping wood by pretending to have a splinter? Oh right, it wouldn't be pretending.",
 							"007": "Ow! Blister! Why am I doing this to myself? An at-will employment contract is pretty much beside the point when you're OUT IN THE MIDDLE OF NOWHERE.",
-							"008": "Splinters! Everywhere! Ok, calming breath. Calming breath. Anyone got tweezers?"
+							"008": "Třísky! Všude! Ok, v klidu dýchej. V klidu dýchej. Má někdo pinzetku?"
 						},
 						"psychopathic_misanthrope": {
 							"000": "Heeeaaaahhhhrrrghhh!!!",
 							"001": "Raaaarrrrrrghhhhh!",
 							"002": "Spork those trees, you know? Just spork them all!",
-							"003": "I've chopped about a billion trees today. Call me axe murderer!!!",
-							"004": "People say I have deep-seated aggression problems, but nobody complains about all the wood I produce",
-							"005": "Is anyone else chopping these trees? It it just me?",
-							"006": "Glad I'm doing something so physical. Sitting and knitting all day would drive me crazy."
+							"003": "Dneska jsem pokácel/a asi tak bilión stromů. Říkejte mi sekero vrahoun !!!",
+							"004": "Lidé říkají, že mám hluboce zakořeněné problémy s agresií, ale nikdo si nestěžuje na to všechno dřevo co vyprodukuju",
+							"005": "Kácí i někdo jiný ty stromy? Anebo jsem to jenom já?",
+							"006": "Jsem rád/a, že dělám něco tak fyzického. Z celodenního sezení a pletení bych zešílel/a."
 						},
 						"hopeless_optimist": {
-							"000": "Chop chop chop! If you say it over and over, it's almost like a song!",
-							"001": "Chopping wood builds muscles! Note to self: see if anyone's noticed.",
+							"000": "Štíp štíp štíp! Když to říkáte pořád dokola, je to skoro jako písnička!",
+							"001": "Kácení dřeva buduje svaly! Poznámka pro sebe: mrkni, jestli kdokoli postřehl.",
 							"002": "We're sorry Mr. Tree, but we have to cut you down so we can live inside of you. But we won't ever forget that we're warm and safe thanks to your sacrifice.",
-							"003": "There's something really satisfying about cutting down something so much bigger than me!",
-							"004": "I'm Paul Revere! I mean, Bunyon!",
+							"003": "Je tam něco velice uspokojivého při porážení něčeho mnohem většího, než jsem já!",
+							"004": "Jsem Paul Revere! Myslím, Bunyon!",
 							"005": "How much wood would a woodchuck chuck, if a woodchuck could chuck wood? Well if my name were Woodchuck, the answer would be: lots! Note to self: find out later what a woodchuck looks like.",
 							"006": "Lumber lumber lumber, must be lumber, in a woodman's world. Ah-aaaa, all the things I could do, if I had a little lumber, it's a woodman's worrrllld. Ahhh-AAAAAIIEEE---FALLING TREEEE!!!!!",
-							"007": "I hear I'm not supposed to sing anymore when I'm chopping trees. Whatever!",
+							"007": "Slyším, že bych si nemal/a již víc spívat, když kácím stromy. Cokoliv!",
 							"008": " Oh no! Mr. Squirrel! I'm so sorry. I didn't mean to cut down your house. Tell you what--move in with me! Nuts are on the house. Oh. I probably shouldn't have mentioned the house..."
 						},
 						"insufferable_academic": {
 							"000": "This is an appalling underutilization of my keen mental faculties.",
-							"001": "If I never see another axe again it will be too soon.",
+							"001": "Kdybych nikdy neviděl/a znovu další sekeru, bylo by to moc brzo.",
 							"002": "This might almost be worth the effort if only the lumber were destined for a paper mill.",
 							"003": "Is there no one else who could engage in such menial labor?",
 							"004": "I have perfected a mathematically ideal chopping motion. Alas, there are no peer-reviewed journals here in which I might publish my findings.",
-							"005": "I cannot help but feel the necessity to mention the alarming rate at which we are deforesting the entire region... What? No, of course I'm not trying to avoid lumber duties!"
+							"005": "Nemůžu si prostě pomoct zmínit alarmující poměr, se kterým odlesňujeme celou oblast... Co? Né, samozřejmě, že se nesnažím se vyhnout dřevorubeckým povinnostem!"
 						},
 						"diligent_sweetheart": {
 							"000": "I guess I can learn to chop down trees if that's what needs to be done.",
 							"001": "I'm going to put a little splinter beside the campfire for every tree I've cut down, separated by day. That way I can tell if I'm getting better at it!",
 							"002": "I hope people think callouses on the palms of the hands are attractive.",
 							"003": "I hear suffering builds character!",
-							"004": "Chopping is kind of soothing, if you just don't worry too much about the tree falling on you.",
+							"004": "Kácení je docela uklidňující, pokud se tedy pořád neobáváte příliš, že ten strom padne na vás.",
 							"005": "I hope we're not disturbing anyone's home. Imagine what it would be like to have your home cut down around you to use to make someone else's home!",
 							"006": "I hope trees don't have nerves. This would hurt a lot if they did. If they're screaming for us to stop, it must be on a different frequency.",
 							"007": "I was holding my axe today and I realized I could do some real harm if I ever used it on a person, instead of on a tree."
@@ -7831,46 +7831,46 @@
 			},
 			"combat": {
 				"hurt_badly": {
-					"text": "On Serious Injury:",
+					"text": "Na Vážné Zranění:",
 					"logs": {
 						"generic": {
-							"000": "Ow! That really hurt!",
-							"001": "I'm in danger!",
-							"002": "Pain!",
-							"003": "Hurts! Must... keep going!",
-							"004": "Things are looking bad!",
-							"005": "Can't take much more of this!",
-							"006": "My life's starting to flash before my eyes.",
-							"007": "Should I be worried?",
-							"008": "I should have written my mom more letters.",
-							"009": "If I get out of this alive, I'm going to write Grandma and tell her I love her.",
-							"010": "I could use some help here!",
-							"011": "Need to keep going!!!",
-							"012": "Raagh, take that!",
-							"013": "If I'm going down you're coming with me!",
-							"014": "For my friends! For my village!",
-							"015": "I make my last stand here!"
+							"000": "Au! To vážně bolí!",
+							"001": "Jsem v nebezpečí!",
+							"002": "Bolest!",
+							"003": "Bolí! Musím... jít dál!",
+							"004": "Věci vypadají bledě!",
+							"005": "Již tohohle více nesnesu!",
+							"006": "Můj život se mi začíná mihat před očima.",
+							"007": "Měl/a bych se obávat?",
+							"008": "Měl/a jsem napsat mámě víc dopisů.",
+							"009": "Pokud tohle přežiju, půjdu napsat Babičce a říct jí, že ji mám rád.",
+							"010": "Bodla by mi zde nějaká pomoc!",
+							"011": "Musím jít dál!!!",
+							"012": "Raagh, sežer to!",
+							"013": "Pokud padnu, půjdeš se mnou!",
+							"014": "Za mé přátelé! Za mou vesnici!",
+							"015": "Tady učiním můj poslední vzdor!"
 						}
 					}
 				},
 				"peaceful_day": {
-					"text": "On Tranquility",
+					"text": "Na Pokoj",
 					"logs": {
 						"generic": {
-							"000": "Feels good to be alive!",
-							"001": "Another awesome day in town.",
-							"002": "Peaceful!",
-							"003": "This seems like a pretty sheltered spot.",
-							"004": "I was amazingly productive today!",
-							"005": "Nothing much to do today but enjoy life!",
-							"006": "Nature sure is beautiful!",
-							"007": "It's great being here with friends and family.",
-							"008": "Settling here was a great idea.",
-							"009": "Feeling happy with a good day's work!",
-							"010": "This really feels like a spot where we can build something great.",
-							"011": "Uninterrupted bliss! I love days like this.",
-							"012": "24 hours of pure tranquility.",
-							"013": "A whole day without a single existential threat! Amazing!"
+							"000": "Dobrý pocit být naživu!",
+							"001": "Další skvělý den ve městě.",
+							"002": "Poklidné!",
+							"003": "Tohle vypadá na velmi kryté místečko.",
+							"004": "Dneska jsem byl/a ohromě produktivní!",
+							"005": "Dneska není moc co dělat, jenom si užívat život!",
+							"006": "Příroda je jistě nádherná!",
+							"007": "Je skvělé zde být s přáteli a rodinou.",
+							"008": "Usadit se zde byl dobrý nápad.",
+							"009": "Cítím se šťastný/á s dobrou denní prací!",
+							"010": "Tohle vážně vypadá na místo, kde můžeme postavit něco skvělého.",
+							"011": "Nepřerušené blaho! Takové dni miluju.",
+							"012": "24 hodin čistého pokoje.",
+							"013": "Celý den bez jediné existenciální hrozby! Ůžasné!"
 						}
 					}
 				},
@@ -7883,15 +7883,15 @@
 							},
 							"dead_friend": {
 								"000": "[name(entry.dead_friend)]? [name(entry.dead_friend)]!!!",
-								"001": "[name(entry.dead_friend)]? Nothing will ever be the same without you.",
-								"002": "[name(entry.dead_friend)]!!! Nooooooo!!!",
-								"003": "Goodbye, [name(entry.dead_friend)]. I hope we meet again someday.",
-								"004": "[name(entry.dead_friend)]? But... what will I tell your dad, when I next write home?",
-								"005": "We can't let [name(entry.dead_friend)]'s death be in vain, people!",
-								"006": "Goodbye, [name(entry.dead_friend)]. We'll miss you.",
-								"007": "Don't worry, [name(entry.dead_friend)]. We'll avenge you!",
-								"008": "I can't believe [name(entry.dead_friend)] is really gone.",
-								"009": "[name(entry.dead_friend)]? Gone? Suddenly this whole thing seems like it wasn't worth it, somehow.",
+								"001": "[name(entry.dead_friend)]? Bez tebe již nic nebude nikdy stejné.",
+								"002": "[name(entry.dead_friend)]!!! Nééééééé!!!",
+								"003": "Sbohem, [name(entry.dead_friend)]. Doufám, že se opět někdy potkáme.",
+								"004": "[name(entry.dead_friend)]? Ale... co řeknu tvému tátovi, když příště napíšu domů?",
+								"005": "Lidi, nemůžeme nechat [name(entry.dead_friend)]u smrt, aby byla v niveč!",
+								"006": "Sbohem, [name(entry.dead_friend)]. Budeš nám chybět.",
+								"007": "Neměj strach, [name(entry.dead_friend)]. Pomstíme tě!",
+								"008": "Nemůžu uvěřit, že [name(entry.dead_friend)] je vážně pryč.",
+								"009": "[name(entry.dead_friend)]? Pryč? Náhle tahle celá věc vypadá, že vůbec nestála za to, nějak.",
 								"010": "Gee, now I really wish I hadn't talked [name(entry.dead_friend)] into this adventure.",
 								"011": "[name(entry.dead_friend)]!!"
 							}
@@ -7901,48 +7901,48 @@
 				"generic_panic": {
 					"logs": {
 						"diligent_sweetheart": {
-							"000": "Oh no! Monsters!",
-							"001": "Everyone, save yourselves!",
-							"002": "AAAGH! MONSTERS!!!",
-							"003": "AAAA! Please don't hurt us!!!",
-							"004": "If I can't see it, maybe it can't see me?",
+							"000": "Och né! Příšery!",
+							"001": "Všichni se zachraňte!",
+							"002": "ÁÁÁCH! PŘÍŠERY!!!",
+							"003": "AAAA! Prosím, neubližuj nám!!!",
+							"004": "Když to nevidím, možná mě to neuvidí?",
 							"teacher": {
-								"000": "[str(entry.teacher)] SAVE US!!!"
+								"000": "[str(entry.teacher)] ZACHRAŇ NÁS!!!"
 							}
 						},
 						"insufferable_academic": {
 							"000": "Expeditious Retreat! Expeditious Retreat!!!",
-							"001": "When in doubt, PANIC!!!",
+							"001": "Když pochybuješ, PANIKAŘ!!!",
 							"002": "Keep Calm and AIEEEEE!",
-							"003": "::wails silently::",
-							"004": "Fiends of nightmare stay away!",
-							"005": "Terror bad for blood pressure!!!",
+							"003": "::tiše kvílí::",
+							"004": "Držte se zpátky, Démoni z nočních můr!",
+							"005": "Děs je zlý pro krevní tlak!!!",
 							"006": "Cardiac arrest incoming!!!",
-							"007": "Brain... paralyzed...!",
-							"008": "Help! Heeeeeelllpp!!!"
+							"007": "Mozek... paralyzován...!",
+							"008": "Pomoc! Pooommmooocc!!!"
 						},
 						"belaguered_leader": {
-							"000": "Tactical retreat! Tactical retreat!!!",
-							"001": "Everyone make for the hills!",
-							"002": "Drop everything and move, people!!!",
-							"003": "They're too strong for us! Scatter, everyone!!",
-							"004": "Run purposefully towards the exits!!!"
+							"000": "Taktický ústup! Taktický ústup!!!",
+							"001": "Všichni utečte do hor!",
+							"002": "Lidi, všechno zahoďte a hněte se!!!",
+							"003": "Jsou na nás moc silní! Všichni se rozptylte!!",
+							"004": "Utíkejte vědomě k východům!!!"
 						},
 						"generic": {
 							"000": "Scared out of my gourd now!!!",
 							"001": "Aauuugh!!!",
-							"002": "Nightmare things!!!",
-							"003": "Must run awaaaaaayyyy!!!!",
-							"004": "::cries in terror::"
+							"002": "Věci z Nočních můr!!!",
+							"003": "Musím utéct pryyyyyyyyyč!!!!",
+							"004": "::křičí hrůzou::"
 						},
 						"hopeless_optimist": {
-							"000": "Aaagh! It looks so mean!!!!",
-							"001": "I can't see you!! I can't see you!!!",
-							"002": "Monsters!!!!!",
-							"003": "Auugh! Can't we just be friends??",
-							"004": "Running away so tomorrow can be another daaaaaayyy!!!",
-							"005": "Run, run, run away from the scary monsters!!!",
-							"006": "I don't think it wants to be frieeendss!!!"
+							"000": "Ááách! Vypadá to tak ošklivě!!!!",
+							"001": "Nevidím tě!! Nevidím tě!!!",
+							"002": "Příšery!!!!!",
+							"003": "Auugh! Nemůžeme být prostě přátelé??",
+							"004": "Utíkám pryč, takže zítra můe být další deeeeeeeen!!!",
+							"005": "Uteč, uteč, uteč pryč od hrozivých příšer!!!",
+							"006": "Nemyslím si, že se to chce přááteliit!!!"
 						},
 						"psychopathic_misanthrope": {
 							"000": "RRAAAAGGGHH!!",
@@ -7951,12 +7951,12 @@
 							"003": "AIEEEEE!!!"
 						},
 						"lovable_rogue": {
-							"000": "Grab the goods and head for the hills!",
-							"001": "Please, I don't want to die!",
-							"002": "I have so many more things I need to do!!!!",
-							"003": "I can't die here!!!",
-							"004": "Must... escape!!!",
-							"005": "Every villager for themselves!!!"
+							"000": "Popadněte zboží a zamiřte do hor!",
+							"001": "Prosím, já nechci zemřít!",
+							"002": "Mám stále tolik mnoho věcí, co musím udělat!!!!",
+							"003": "Nemůžu zde umřít!!!",
+							"004": "Musím... utéct!!!",
+							"005": "Každý vesničan sám za sebe!!!"
 						}
 					}
 				}
@@ -7970,42 +7970,42 @@
 							"001": "Last night I dreamed I stood before a class of attentive raccoons. They took notes on the nature of reality. Afterwards, we had a stirring debate.",
 							"002": "According to the formulae in my dreams, determinism is a myth. Time to get breakfast.",
 							"003": "I dreamed of times present, past and future. My consciousness expanded to fill the universe. I was all, everything was me.",
-							"004": "I dreamed I was the trees in the forest, the water in the lake, and the wind in the air.",
-							"005": "I dreamed I was immortal, without beginning or end.",
-							"006": "I dreamed I was between light and dark, space and time."
+							"004": "Snil/a jsem, že jsem byl/a stromy v lese, vodou v jezeře, a vítrem ve vzduchu.",
+							"005": "Snil/a jsem, že jsem byl/a nesmrtelný/á, bez začátku, nebo konce.",
+							"006": "Snil/a jsem, že jsem byl/a mezi světlem a tmou, vesmírem a časem."
 						},
 						"lovable_rogue": {
-							"000": "This morning, I woke up certain that wolves had stolen all the sheep. Need to build walls! Thicker walls!",
-							"001": "I dreamed of a mine full of gold.",
-							"002": "I had a dream where, of all things, a crocodile, stole all our food. Then he took it to a boat and stayed there",
-							"003": "In my dream last night, I turned everything--and everyone--I touched, into gold. Oops.",
-							"004": "I dreamed that I ate all our food supplies. Best try to avoid doing that today.",
+							"000": "Tohle ráno jsem se probudil/a zcela jistý/á, že vlci ukradli všechny ovce. Musím postavit zdi! Tlustší zdi!",
+							"001": "Snil/a jsem o dolu plném zlata.",
+							"002": "Měl/a jsem sen, ve kterém všechny věci, krokodýl, ukradl všechno naše jídlo. Poté ho vzal na loď a zůstal tam",
+							"003": "V mém snu poslední noci, jsem proměnil/a všechno--a všechny--, čeho jsem se dotkl/a ve zlato. Uups.",
+							"004": "Snil/a jsem, že jsem snědl/a všechny naše zásoby jídla. Bude lepší se tomu dneska vyhnout.",
 							"teacher": {
-								"000": "I had the dream about fragile ladders again. I wish I knew what was at the top. I'm sure [str(entry.teacher)] is trying to tell me something."
+								"000": "Zase jsem měl/a sen o křehkých řebřících. Přeju si, abych věděl/a, co bylo nahoře. Jsem si jistý/á, že se mi [str(entry.teacher)] tím snaží něco říct."
 							}
 						},
 						"hopeless_optimist": {
-							"000": "Wolves! All night I dreamed I was being chased by wolves!",
-							"001": "Rabbits! All night I dreamed I was being chased by rabbits!",
-							"002": "I love dreams about flying. Tonight I flew by soft clouds and over dense trees. Watch out, birds!",
-							"003": "I dreamed I was a goblin. Don't tell anyone, but stealing from the town was a lot of fun! (Does that make me a bad person?)",
-							"004": "I dreamed I was cooking soup for everyone but I ran out of salt. Salt's a rock, right? Can you substitute rocks for salt? ",
-							"005": "I dreamt a little bird alighted upon my shoulder and told me that today was going to be a great day. I can't wait!",
-							"006": "I had a dream that in the distant future, the sons of goblins and the sons of hearthlings sat down together at the table of berries."
+							"000": "Vlci! Celou noc jsem snil/a, že mě naháněli vlci!",
+							"001": "Králici! Celou noc jsem snil/a, že mě naháněli králici!",
+							"002": "Miluju sny o létání. Dneska v noci jsem letěl/a podél jemných mračen a kolem hustých stromů. Bacha, ptáci!",
+							"003": "Snil/a jsem, že jsem byl/a goblin. Neříkejte to nikomu, ale kradení z města byla taková zábava! (Dělá mě to špatným člověkem?)",
+							"004": "Snil/a jsem, že jsem vařil/a polévku pro všechny, ale došla mi sůl. Sůl je skála, že? Můžete zaměnit šutry za sůl?",
+							"005": "Snil/a jsem, že mi po rameni stoupal malinký ptáček a pověděl mi, že dneska bude skvělý den. Nemůžu se dočkat!",
+							"006": "Měl/a jsem sen, že si ve vzdálené budoucnosti synové goblinů a synové hearthlingů společně sedli nad stolem bobulí."
 						},
 						"diligent_sweetheart": {
-							"000": "Whoa! I was out for a while! Do we still have all our hammers?",
-							"001": "Oops! I must've fallen asleep! Do we still have all our trees?",
-							"002": "I dreamed I fell asleep for a thousand years. Luckily, someone made me a shiny glass coffin with a hatch on the inside for opening. Weird.",
-							"003": "I had a Dream where a Giant Dragon approached me! But when she opened her mouth, only kitten noises came out. Adorable!",
-							"004": "I had a dream where I all the forest creatures and I were having a picnic, but the raccoon stole all the honey so we had nothing to put on our bread and butter.",
-							"005": "I dreamt that everyone was jeering at me. I ran home and didn't move. Ever again.",
-							"006": "I dreamt of a world of lush forests, and clear rivers, surrounded by friends. I woke and it was real!",
-							"007": "I dreamt about doing all my chores. Now I've woken I have to do them all over again..."
+							"000": "Whoa! Na chvíli jsem odpadl/a! Máme pořád všechny naše kladiva?",
+							"001": "Uups! Musel/a jsem usnout! Máme pořád všechny naše stromy?",
+							"002": "Snil/a jsem, e jsem usnul/a na tisíce let. Naštěstí, někdo mi udělal lesklou skleněnou rakev s ručkou na otevření zevnitř. Zvláštní.",
+							"003": "Měl/a jsem sen, kde ke mě přišel Obří Drak! Ale když ona otevřela její tlamu, vycházeli z ní ven jenom kočičí zvuky. Roztomilé!",
+							"004": "Měl/a jsem sen, kde jsme všechna lesní stvoření a já měli spolu piknik, ale mýval ukradl všechen med, takže jsme si neměli co dát na náš chleba s máslem.",
+							"005": "Snil/a jsem, že mnou všichni škubali. Utekl/a jsem domů a nepohnul/a se. Už nikdy.",
+							"006": "Snil/a jsem o světě bujných lesů, a čistých řek, obklopen/a přáteli. Probudil/a jsem se a bylo to skutečné!",
+							"007": "Snil/a jsem, že jsem udělal/a všechny moje práce. Teď jsem se probudil/a a musím je všechny udělat opět znovu..."
 						},
 						"psychopathic_misanthrope": {
 							"000": "Went to sleep hungry again last night and dreamed for ten consecutive hours about poyo pot pie! Raaargh! Fear my devouring mouth!",
-							"001": "In heaven, I hope I get a lake of poyo pot pie to swim in. Swim forever!",
+							"001": "V nebi, doufám, že dostanu jezero s bachratými pojo koláči ve kterém si zaplavu. Zaplavu navždy!",
 							"002": "Snil/a jsem o pojídání mých Hearthlingských společníků. Chutnali jako Pojo.",
 							"003": "Snil/a jsem, že jsem byl/a goblin. Nikdy jsem nemusel/a pracovat! Prostě jsem ukradl/a to, co jsem potřeboval/a a založil/a ohně. To byla zábava!",
 							"004": "Snil/a jsem, že jsem byl/a zpátky doma, a né v lesích s TĚMI lidmi..."
@@ -8016,28 +8016,28 @@
 							"002": "Snil/a jsem, že JÁ JSEM BYL/A ten pokácený strom!",
 							"003": "I dreamed about a creature with a bill of a duck and the tail of a beaver.",
 							"004": "I dreamed that it was night time and outside of our village, there were some loud noises. Upon investigation of the fields to the south, I saw a large, black object with two circles and a bunch of dancing animals!",
-							"005": "I dreamed my friends left me on the roof of a newly constructed building.",
+							"005": "Snil/a jsem, že mě přátelé nechali na střeše nově postavené budovy.",
 							"006": "I dreamed I was at a lake and a luminous rabbit appeared out of the water and told me some great advice. &quot;If you build it they will come.&quot;",
 							"007": "Snil/a jsem, že moje kladivo utíkalo za mnou",
 							"008": "Snil/a jsem, že jsme závodili s ovcí. Něco k vyskoušení zítra?",
-							"009": "I dreamed I couldn't stop filling my backpack with all the items littered on the ground.",
+							"009": "Snil/a jsem, že jsem nemohl/a přestat naplňovat můj batoh se všemi předměty posetými po zemi.",
 							"010": "Poslední noc, jsem měl/a tento sen, kde na mě zaůtočilo hejno pojí.",
 							"011": "Měl/a jsem sen, že všichni mohli jenom sbírat bobule. Nebyli tam ani stromy ke kácení, nebo bloky kamenů ke kutání.",
 							"012": "Snil/a jsem, že jsem jedl/a bobule, dokud jsem nezružověl/a a pak jsem se odkutálel/a pryč do jezírka.",
-							"013": "I dreamed that I was at the mercy of a sickness that turned me into a Zombie. The worst part: I could only walk very very slowly.",
-							"014": "Last night I dreamed I was stranded in a hole all night and no one would build a ladder for me to climb up.",
+							"013": "Snil/a jsem, že jsem byl/a na milost vydán/a chorobě, která mě změnila v Zombie. Nejhorší část: Mohl/a jsem kráčet pouze velice velice pomalu.",
+							"014": "Poslední noc jsem snil/a, že jsem stál/a v díře celou noc a nikdo pro mě nepostavil řebřík, abych vylezl/a nahoru.",
 							"015": "Snil/a jsem, že se všechna zvířata spikli proti nám a převzali město.",
 							"016": "Snil/a jsem, že z nebes pršeli poja.",
-							"017": "I dreamed that a giant man-bunny threatened me with a spear!",
+							"017": "Snil/a jsem, že mi obří kríliko-muž vyhrožoval s kopím!",
 							"018": "Snil/a jsem, že jsem našel/a mocné kladivo, které jsem jenom já mohl/a uzvednout.",
 							"019": "Snil/a jsem, že jsem byl/a zelenina, a zasadil/a jsme se, abych mohl/a vyrůst větší.",
-							"020": "In my dream last night, I told everyone carrots made them see in the dark. This morning, we ran out of carrots. Weird!",
+							"020": "V mém snu poslední noc, jsem řekl/a všem, že mrkev je učiní vidět ve tmě. Tohle ráno nám došla mrkev. Divné!",
 							"021": "I dreamed that I was no longer tethered to this realm, and I drifted from plane to plane.",
-							"022": "I had a dream that people buried me and made me into a tree.",
+							"022": "Měl/a jsem sen, že mě lidé zakopali a udělali ze mně strom.",
 							"023": "Snil/a jsem, že stromy mohli mluvit.",
 							"024": "Snil/a jsem, že jsem mluvil se skálou, ale byla vůči mně chladná jako kámen.",
 							"025": "Snil/a jsem, že jeden z prastarých stromů ožil a napadl naše město! Bylo to strašné.",
-							"026": "I dreamed about a time where houses didn't have roofs. It was very cold.",
+							"026": "Snil/a jsem o časech, kde domy neměli střechy. Bylo velice chladno.",
 							"027": "I dreamed that I walked across a vast treeless plain and all I could hear was the sounds of the wind in my ears. Bones of some large horned animal dotted the landscape. I felt so alone.",
 							"028": "Snil/a jsem, že jsem mohl/a kráčet pod vodou bez zadržení dechu.",
 							"029": "Snil/a jsem, že jsem byl/a uvízlý/á v bludišti. Musel/a jsem ho proběhnout s ostatníma.",
@@ -8049,14 +8049,14 @@
 							"035": "I had a dream where I found an ancient sword in a deep crypt. When I reached out to touch it, it faded away and a mournful bell sounded. All went dark.",
 							"036": "Měl/a jsem sen, že přišel kouzelník do mých dveří a požádal mě, abych se k nim připojil na dobrodružství! ",
 							"037": "Měl/a jsem sen, že jsem byl/a další v pořadí stát se farmářem.",
-							"038": "I dreamed a giant pumpkin was rolling toward me and I couldn't move.",
+							"038": "Snil/a jsem, že se proti mě valila obří dýně a nemohl/a jsem se hýbat.",
 							"039": "I dreamed about creating an apple coated with gold.",
-							"040": "I dreamed we lived in a giant castle and I needed to clean it. I prefer to live in the woods!",
+							"040": "Snil/a jsem, že jsem žili v obřím hradě a museli jsme ho uklidit. Dávám přednost žít v lesích!",
 							"041": "Snil/a jsem, že jsem chytil/a rybu ve velikosti titána!",
 							"042": "Snil/a jsem, že jsem potkal/a ovco-dlaka. Neskončilo to dobře.",
 							"043": "Měl/a jsem sen, že jsem řídil/a draka. Aspirativní!",
-							"044": "I dreamed about a land that was lower than the sea yet it was still dry.",
-							"045": "I dreamed of meeting nomads who spoke a foreign tongue. I couldn't understand a word they said.",
+							"044": "Snil/a jsem o zemi, která byla níže nežli moře, přesto byla stále suchá.",
+							"045": "Snil/a jsem o setkání s kočovníky, kteří mluvili zapomenutým jazykem. Nerozuměl/a jsem ani slovo z toho, co říkali.",
 							"046": "Snil/a jsem, že jsem neměl/a žádné ruce.",
 							"047": "Snil/a jsem, že jsem otloukl/a nějaké pojí maso a vložil/a ho do oleje. Volají to Pojí nugetky!",
 							"048": "Snil/a jsem, že látka může být i jiné barvy než modrá",
@@ -8069,23 +8069,23 @@
 							"055": "Snil/a jsem, že jsem musel/a pochytat všechna stvoření v kraji.",
 							"056": "Snil/a jsem o budovách tak vysokých jako samotná obloha.",
 							"057": "Snil/a jsem, že bylo nebezpečné jít do lesa sám/a. Raději bych si vzal/a meč.",
-							"058": "I once dreamed I held a magnificent sword. Though once I firmly grasped its handle, it turned to sand.",
+							"058": "Jednou jsem snil/a, e jsem držel/a velkolepý meč. Ačkoli, když jsem jemně popadl/a jeho rukojeť, změnil se v písek.",
 							"059": "Snil/a jsem, že jsem jedl/a chleba; Probudil/a jsem se abych snědl/a můj polštář.",
 							"060": "Snil/a jsem, že jsem se stal/a králem po tom, co jsem vytáhl/a meč ze skály.",
 							"061": "Snil/a jsem o chlápkovi s krabicí, který mohl cestovat časem a prostorem. Z vnitřku byla větší.",
 							"062": "Snil/a jsem, že draci byli skuteční a že jsme si je mohli zkrotit. Šílený sen!",
-							"063": "I dreamed everywhere I went, a little goblin followed me. When I turned around to catch him he darted off into the trees.",
-							"064": "I had a dream where there were eggs all over the ground and I had to step ever so carefully around them.",
-							"065": "I dreamed I was eating poyo pot pie ... it tasted good.",
+							"063": "Snil/a jsem, že kamkoliv jsem šel/la, malý goblin mě následoval. Když jsem se otočil/a, abych ho chytil/a, vystartoval do stromů.",
+							"064": "Měl/a jsem sen, kde všude po zemi byli vejce a já jsem musel/a našlapovat velice opatrně kolem nich.",
+							"065": "Snil/a jsem, že jsem jedl/a bachratý pojo koláč ... chutnal dobře.",
 							"066": "Poslední noc jsem snil/a, že někdo četl můj deníček. Hrůza.",
 							"067": "I dreamed of creatures of immeasurable power surrounding us. They were actually poyo.",
 							"068": "Snil/a jsem, že můj meč by se rozzářil modře, když by byli poblíž goblini.",
 							"069": "I dreamed that we fried up strips of fatty, salted meat from a tusked animal we hunted in the forest. It was the most delicious thing I ever ate! I think I'll call it ... &quot;bacon&quot;.",
-							"070": "I dreamed I had a pretty little poyo whom I loved very much. I made it a little bonnet to wear on its head!",
+							"070": "Snil/a jsem, že jsem měl/a malinké pojo, které jsem velice miloval/a. Udělal/a jsem mu k nošení malinký čepec na jeho hlavinku!",
 							"071": "Měl/a jsem sen, ve kterém se země otřásla a zavrčela. Země spolykala všechna naše poja.",
 							"072": "Snil/a jsem, že veverka nám pokácela barák, aby si postavila svůj strom.",
 							"073": "Měl/a jsem sen, ve kterém nás mocný válečník naučil, jak střelit lidi šípama do kolena.",
-							"074": "I had a dream in which I was being baked into a giant pot pie.",
+							"074": "Měl/a jsem sen, ve kterém jsem byl/a zapečen/a do obřího bachratého pojo koláče.",
 							"075": "Měl/a jsem sen, ve kterém goblini útočili na naše město, ale naše zbraně byli zaměněny za kukuřici, a naše zbroj byla udělána z peří sešitých dohromady.",
 							"076": "Měl/a jsem sen, ve kterém vše co jsme mohli vypěstovat ze země byli meče. Prodali jsme meče, abychom si mohli koupit jídlo.",
 							"077": "Měl/a jsem sen, kde jsem žvíkal/a trávu v ovčí pastvině, ale byl/a jsem pořád člověk.",
@@ -8093,9 +8093,9 @@
 							"079": "Měl/a jsem sen, ve kterém jsem si myslel/a, že jsem Pojo. Probudil/a jsem se venku v kurníku. Hm.",
 							"080": "Měl/a jsem sen, co byl vážně dobrý, ale zapoměl/a jsem co to bylo",
 							"081": "Opět jsem měl/a tu opětovnou noční můru o bobulích!",
-							"082": "In my dream from last night, all the jerky in the stockpile became a monster. It was a jerk to everyone.",
+							"082": "V mém snu z poslední noci, všechno trhané maso ve skladišti se stalo příšerou. Bylo trhanem na všechny.",
 							"083": "I had a dream in which I was able to make flour at a cauldron by weaving my hand together as if though I were knitting.",
-							"084": "I had a dream in which we had to import all our corn from some far-flung and distant land.",
+							"084": "Měl/a jsem sen, ve kterém jsme museli všechnu naší kukuřici importovat z nějaké odlehlé a vdálené země.",
 							"085": "Měl/a jsem sen, že jsem byl/a vlk lovící poja! Když jsem se vzbudil/a, měl/a jsem pírko v mé puse. Zvláštní!",
 							"086": "Měl/a jsem sen o městě ze zlata! ",
 							"087": "I had a dream about a magic bean that could be brewed into a potion, known as coffee, and had the ability to, seemingly, raise the dead back to life.",
@@ -8149,7 +8149,7 @@
 							"003": "Přeju si, abych mohl/a spát ve skutečné posteli.",
 							"004": "Jakýkoliv druh postele by byl lepší, než spát na zemi",
 							"005": "Já si vážně, vážně přeju, mít postel, kterou bych mohl/a nazvat svou vlastní.",
-							"006": "I was too exhausted to find a proper bed, and now I'm really paying for it. Ow.",
+							"006": "Byl/a jsem příliš unavený/á najít pořádnou postel, a teď za to vážne trpím. Au.",
 							"007": "Zase jsem spal/a na zemi. Krk super bolavý. Všechno vypadá šikmě.",
 							"008": "Počítal/a jsem postele, abych usnul/a. POSTELE!",
 							"teacher": {
@@ -8255,7 +8255,7 @@
 					}
 				},
 				"super_nutritious_food": {
-					"text": "On Eating Really Healthy:",
+					"text": "Na Jezení Vážně Zdravě:",
 					"logs": {
 						"lovable_rogue": {
 							"000": "Wow, who knew [str(entry.recent_food)] was so incredibly slimming?",
@@ -9027,16 +9027,16 @@
 				},
 				"sleeping": {
 					"slept_on_ground": {
-						"display_name": "Slept on ground",
-						"tooltip": "My back is killing me from having slept on the ground. When are we going to get some decent beds?"
+						"display_name": "Spal/a na zemi",
+						"tooltip": "Moje záda mě zabijí ze spaní na zemi. Kdy už konečně dostaneme nějaké slušné postele?"
 					},
 					"slept_in_shared_bed": {
-						"display_name": "Slept in a shared bed",
-						"tooltip": "I'm sharing my bed with someone else right now. It's not the worst, but I really wish I had my own."
+						"display_name": "Spal/a ve sdílené posteli",
+						"tooltip": "Teďka sdílím mou postel s někým jiným. Není to nejhorší, ale vážně si přeju, abych měl/a svou vlastní."
 					},
 					"slept_in_shared_room": {
-						"display_name": "Slept in a shared room",
-						"tooltip": "I'm sharing my room with someone else right now. I could use a little more privacy."
+						"display_name": "Spal/a ve sdílené ložnici",
+						"tooltip": "Právě teď sdílím mou ložnici s někým jiným. Ocenil/a bych trochu více soukromí."
 					},
 					"well_rested": {
 						"display_name": "Dobře odpočatý/á",
@@ -9144,12 +9144,12 @@
 				"town": {
 					"founding": {
 						"pioneering_spirit": {
-							"display_name": "Pioneering Spirit",
-							"tooltip": "We've left our home to build a new one. We will make it better than before!"
+							"display_name": "Pionýrský Duch",
+							"tooltip": "Odešli jsme z našeho domova, aby jsme si postavili nový. Uděláme ho lepší, nežli předtím!"
 						},
 						"settling_in": {
-							"display_name": "Settling In",
-							"tooltip": "I'm starting to feel at home, but there's work yet to be done."
+							"display_name": "Usazující Se",
+							"tooltip": "Začínám se cítit jako doma, ale je zde ještě práce, co musí být udělána."
 						}
 					},
 					"township": {
@@ -9190,16 +9190,16 @@
 				"sleepiness": {
 					"values": {
 						"tired": {
-							"display_name": "Tired",
-							"tooltip": "It's been awhile since I've slept."
+							"display_name": "Ospalý/á",
+							"tooltip": "Byla to nějaká doba, kdy jsem naposledy spal/a."
 						},
 						"exhausted": {
-							"display_name": "Exhausted",
-							"tooltip": "It feels like forever since I've slept.. I can barely keep my eyes open."
+							"display_name": "Vyčerpaný/á",
+							"tooltip": "Je to jako věčnost, co jsem naposledy spal/a. Sotva můžu udržet moje oči otevřené."
 						},
 						"fatigued": {
-							"display_name": "Fatigued",
-							"tooltip": "I've been on my feet for too long. I really need some time to sleep."
+							"display_name": "Unavený/á",
+							"tooltip": "Byl/a jsem na nohou příliš dlouho. Vážně potřebuju nějaký čas na spaní."
 						}
 					}
 				},
@@ -9207,38 +9207,38 @@
 					"values": {
 						"panicked": {
 							"display_name": "Bál/a jsem se o svůj život",
-							"tooltip": "I'm not proud of how I acted when the monsters came, but it's all I could think to do."
+							"tooltip": "Nejsem hrdý/á na to, jak jsem se zachoval/a, když přišli příšery, ale je to všechno, co mě napadlo."
 						}
 					}
 				},
 				"traits": {
 					"values": {
 						"misses_pet": {
-							"display_name": "Misses Companion",
-							"tooltip": "Although it's been awhile since they died, I still catch myself sometimes looking for my pet, [str(pet_name)]."
+							"display_name": "Chybějící Společník",
+							"tooltip": "Ačkoliv to byla již nějaká doba, co umřeli, pořád se občas najdu hledající mého mazlíčka, [str(pet_name)]."
 						},
 						"plant_lover": {
 							"display_name": "Milovník Rostlin",
-							"tooltip": "Every time I interact with plants I feel a bit calmer."
+							"tooltip": "Pokaždé, když narábím s rostlinami, cítím se trochu klidněji."
 						},
 						"fruitful_labors": {
 							"display_name": "Fruitful Labors",
 							"tooltip": "It always feels good to make something with one's own hands. It helps clear my mind."
 						},
 						"idle_hands": {
-							"display_name": "Idle Hands",
+							"display_name": "Nečinné Ruce",
 							"tooltip": "I've not made anything in awhile and feel like a layabout. Isn't there something I can craft?"
 						},
 						"protected_the_town": {
 							"display_name": "Ochránil/a Město",
-							"tooltip": "We fended off a group of nasties recently, it really got my blood pumping!"
+							"tooltip": "Nedávno jsme odvrátili bandu pobudů, vážně mi to rozpumpovalo krev!"
 						},
 						"loves_their_job": {
 							"display_name": "Miluje Jejich Práci",
 							"tooltip": "Tohle je pro mě perfektní práce! Miluju co dělám den ode dne."
 						},
 						"inspired": {
-							"display_name": "Inspired",
+							"display_name": "Inspirovaný/á",
 							"tooltip": "[str(target_name)] is in quite good spirits today. They're really pleasant to be around!"
 						},
 						"discouraged": {
@@ -9246,7 +9246,7 @@
 							"tooltip": "Sheesh, [str(target_name)] is no fun when they're in a bad mood."
 						},
 						"deeper_understanding": {
-							"display_name": "A deeper understanding",
+							"display_name": "Hlubší chápání",
 							"tooltip": "[str(target_name)] really has his priorities straight."
 						},
 						"pluviophile": {
@@ -9261,11 +9261,11 @@
 					"gregarious": {
 						"values": {
 							"lonely": {
-								"display_name": "Lonely",
+								"display_name": "Osamělý/á",
 								"tooltip": "It's been awhile since I've talked to anyone. I really need to get some stuff off my chest."
 							},
 							"enjoys_company": {
-								"display_name": "Enjoying company",
+								"display_name": "Užívá si společnost",
 								"tooltip": "It's always great to spend some time with my fellow town members."
 							}
 						}
@@ -9273,11 +9273,11 @@
 					"loner": {
 						"values": {
 							"annoyed_with_others": {
-								"display_name": "Annoyed with others",
+								"display_name": "Otrávený z ostatních",
 								"tooltip": "Why do these people keep talking to me? It keeps distracting me from what's important."
 							},
 							"alone_with_thoughts": {
-								"display_name": "Alone with my own thoughts",
+								"display_name": "Sám/a s mými vlastními myšlenkami",
 								"tooltip": "Being away from others has given me the time to reflect and clear my mind."
 							}
 						}
@@ -9289,19 +9289,19 @@
 								"tooltip": "Seeing everyone else in worse spirits just brings me down."
 							},
 							"everyone_happier": {
-								"display_name": "Everyone seems happier",
-								"tooltip": "Everyone else seems to be in a better mood than me. Maybe I should look at things differently."
+								"display_name": "Všichni se zdají být šťastnější",
+								"tooltip": "Všichni se zdají být v lepší náladě, než jsem já. Možná bych se na věci měl/a dívat jinak."
 							}
 						}
 					},
 					"goat": {
 						"values": {
 							"ate_not_bad_food": {
-								"display_name": "Mmm, not bad",
+								"display_name": "Mmm, není špatné",
 								"tooltip": "My [str(foodname)] today was a little tasty, but didn't seem that different from what I normally eat."
 							},
 							"ate_some_food": {
-								"display_name": "Ate some food",
+								"display_name": "Snědl/a nějaké jídlo",
 								"tooltip": "I had some [str(foodname)] today. It was alright, but I don't see what the big deal is."
 							}
 						}
@@ -9314,47 +9314,47 @@
 							"tooltip": "A fellow townmember has died. If only we had been more watchful!"
 						},
 						"pet_died": {
-							"display_name": "My pet died",
-							"tooltip": "My poor [str(pet_name)] passed away recently. I'll miss them quite a bit."
+							"display_name": "Můj mazlíček zemřel",
+							"tooltip": "Můj/je ubohý/á [str(pet_name)] nedávno umřel/a. Bude mi trošku docela chybět."
 						},
 						"saved_from_mortal_wounds": {
-							"display_name": "Saved from mortal wounds",
-							"tooltip": "I would have died back there were it not for those around me! I'm grateful for this second chance."
+							"display_name": "Zachráněný/á ze smrtelných zranění",
+							"tooltip": "Nebýt těch tam kolem mě, zemřel/a bych tam! Jsem vděčný/á za tuhle druhou šanci."
 						}
 					}
 				},
 				"job": {
 					"values": {
 						"gained_a_level": {
-							"display_name": "Improved my skills",
-							"tooltip": "I've been at this job long enough to gain a new insight! I can feel myself becoming better at my work."
+							"display_name": "Zlepšil/a jsem své dovednosti",
+							"tooltip": "Byl/a jsem v týhle práci dostatečně dlouho na to, abych dostal/a nový vhled! Cítím, že se zlepšuju v mojí práci."
 						}
 					}
 				},
 				"social": {
 					"values": {
 						"unpleasant_talk": {
-							"display_name": "Had an unpleasant talk",
-							"tooltip": "I can't believe [str(target_name)] said that!"
+							"display_name": "Měl/a nemilý rozhovor",
+							"tooltip": "Nemohu uvěřit, že to [str(target_name)] řekl/a!"
 						},
 						"great_talk": {
-							"display_name": "Had a great talk",
-							"tooltip": "Talking with [str(target_name)] today was really nice."
+							"display_name": "Měl/a skvělý rozhovor",
+							"tooltip": "Povídání s [str(target_name)] dneska bylo vážně hezké."
 						},
 						"great_joke": {
-							"display_name": "Heard a great joke",
+							"display_name": "Slyšel/a skvělý vtip",
 							"tooltip": "Hahaha, just thinking of the joke [str(target_name)] told makes me crack up!"
 						},
 						"tough_crowd": {
-							"display_name": "Tough crowd",
-							"tooltip": "[str(target_name)] didn't laugh at my joke. Was it really that bad?"
+							"display_name": "Tvrdý dav",
+							"tooltip": "[str(target_name)] se nezasmál/a mému vtipu. Bylo to vážně tak špatné?"
 						}
 					},
 					"animal": {
 						"values": {
 							"nuzzled": {
-								"display_name": "Nuzzled",
-								"tooltip": "Awww, my pet [str(target_name)] always manages to cheer me up."
+								"display_name": "Pomazlený/á",
+								"tooltip": "Awww, můj mazlíček [str(target_name)] mě vždycky dokáže rozveselit."
 							},
 							"booped": {
 								"display_name": "Booped",
@@ -9366,30 +9366,30 @@
 				"appeal": {
 					"thresholds": {
 						"horrendous": {
-							"display_name": "Horrid Aesthetics",
-							"tooltip": "Everywhere I look I see something terrible!"
+							"display_name": "Děsná Estetika",
+							"tooltip": "Kamkoliv se kouknu, vidím něco strašného!"
 						},
 						"beautiful": {
-							"display_name": "Beautiful Aesthetics",
-							"tooltip": "The decor around here is really great. A lot of hard work must have gone into making it look this nice."
+							"display_name": "Nádherná Estetika",
+							"tooltip": "Dekorace tady kolem jsou vážně skvělé. Hodně těžké práce muselo jít do toho to udělat takhle hezky."
 						},
 						"neutral": {
-							"display_name": "Neutral Aesthetics"
+							"display_name": "Neutrální Estetika"
 						},
 						"ugly": {
-							"display_name": "Ugly Aesthetics",
+							"display_name": "Ošklivá Estetika",
 							"tooltip": "Sheesh, it's really ugly around here. We definitely can make this look better!"
 						},
 						"awe_inspiring": {
-							"display_name": "Awe-Inspiring Aesthetics",
-							"tooltip": "This place... it's... beautiful..."
+							"display_name": "Velkolepá Estetika",
+							"tooltip": "Tohle místo... je... nádherné..."
 						},
 						"pleasing": {
-							"display_name": "Pleasing Aesthetics",
-							"tooltip": "It's pretty nice looking around here."
+							"display_name": "Příjemná Estetika",
+							"tooltip": "Tady kolem to vypadá vážně hezky."
 						},
 						"breathtaking": {
-							"display_name": "Breath-Taking Aesthetics",
+							"display_name": "Dech-Beroucí Estetika",
 							"tooltip": "Wow, everywhere I look is gorgeous! The attention to detail is amazing!"
 						}
 					}
@@ -9421,44 +9421,44 @@
 				"appeal_bedroom": {
 					"values": {
 						"pleasing": {
-							"display_name": "Pleasant Bedroom",
-							"tooltip": "Where I slept last night was pretty nice."
+							"display_name": "Příjemná Ložnice",
+							"tooltip": "Kde jsem spal/a poslední noc, bylo vážně hezky."
 						},
 						"beautiful": {
-							"display_name": "Beautiful Bedroom",
-							"tooltip": "My bedroom is really shaping up; I like it!"
+							"display_name": "Nádherná Ložnice",
+							"tooltip": "Moje ložnice vážně dostává tvar; To se mi líbí!"
 						},
 						"breathtaking": {
-							"display_name": "Breath-Taking Bedroom",
-							"tooltip": "I love sleeping in such a wonderful bedroom!"
+							"display_name": "Dech-Beroucí Ložnice",
+							"tooltip": "Miluju spaní v tak báječné ložnici!"
 						},
 						"awe_inspiring": {
-							"display_name": "Awe-Inspiring Bedroom",
-							"tooltip": "When I went to bed last night, I felt like royalty."
+							"display_name": "Velkolepá Ložnice",
+							"tooltip": "Kdy jsem šel/la do postele poslední noc, cítil/a jsem se jako královská výsost."
 						}
 					}
 				},
 				"appeal_dining": {
 					"values": {
 						"beautiful": {
-							"display_name": "Beautiful Dining",
-							"tooltip": "I was happy to eat in such an attractive spot!"
+							"display_name": "Nádherné Stolování",
+							"tooltip": "Byl/a jsem šťastný/á jíst na tak atraktivním místě!"
 						},
 						"breathtaking": {
-							"display_name": "Breath-Taking Dining",
-							"tooltip": "Someone really spent some effort decorating our dining room!"
+							"display_name": "Dech-Beroucí Stolování",
+							"tooltip": "Někdo si vážně dal nějakou námahu se zdobením naší jídelny!"
 						},
 						"awe_inspiring": {
-							"display_name": "Awe-Inspiring Dining",
-							"tooltip": "The decor was so great, dinner was a feast for both my eyes and my stomach!"
+							"display_name": "Velkolepé Stolování",
+							"tooltip": "Dekorace byli tak úžasné, večeře byla pastva jak pro obě moje oči, tak i pro můj žaludek!"
 						},
 						"pleasing": {
-							"display_name": "Pleasant Dining",
-							"tooltip": "It was nice to eat my meal in a comfortable space."
+							"display_name": "Příjemné Stolování",
+							"tooltip": "Bylo hezké jíst mé jídlo v pohodlném prostoru."
 						},
 						"ugly": {
-							"display_name": "Dreary Dining",
-							"tooltip": "The ugly surroundings made it difficult to enjoy my last meal."
+							"display_name": "Otřesné Stolování",
+							"tooltip": "Ošklivé okolí to dělalo těžké, abych si vychutnal/a moje poslední jídlo."
 						}
 					}
 				},
@@ -9607,13 +9607,13 @@
 					"display_name": "Přesun na místo"
 				},
 				"fight_attack": {
-					"display_name": "Attack Move"
+					"display_name": "Útočný Pohyb"
 				},
 				"fight_defend": {
 					"display_name": "Bránit Lokaci"
 				},
 				"fight_cancelOrders": {
-					"display_name": "Cancel Combat Order"
+					"display_name": "Zrušit Bojový Příkaz"
 				},
 				"ui_move_place_item": {
 					"display_name": "Přesunout/Položit věc"
@@ -9622,7 +9622,7 @@
 					"display_name": "Nástroj Střecha"
 				},
 				"build_slab": {
-					"display_name": "Slab Tool"
+					"display_name": "Nástroj Dlaždice"
 				},
 				"build_erase": {
 					"display_name": "Nástroj Odstranit"
@@ -9646,7 +9646,7 @@
 					"display_name": "Okna"
 				},
 				"build_floor": {
-					"display_name": "Foundation Tool"
+					"display_name": "Nástroj Základů"
 				},
 				"build_road": {
 					"display_name": "Nástroj Cesta"
@@ -9691,13 +9691,13 @@
 					"display_name": "Set Visibility to Wall"
 				},
 				"build_hole": {
-					"display_name": "Hole Tool"
+					"display_name": "Nástroj Díry"
 				},
 				"build_splitwall": {
 					"display_name": "Rozdělit zdi"
 				},
 				"build_roofBack": {
-					"display_name": "Roof Back"
+					"display_name": "Střecha Dozadu"
 				},
 				"build_roofRadio": {
 					"display_name": "Set Visibility to Roof"
@@ -9706,13 +9706,13 @@
 					"display_name": "Nástroj plot"
 				},
 				"build_roofFront": {
-					"display_name": "Roof Front"
+					"display_name": "Střecha Dopředu"
 				},
 				"build_visup": {
 					"display_name": "Building Vis Up"
 				},
 				"build_blocks": {
-					"display_name": "Blocks Tool"
+					"display_name": "Nástroj Bloků"
 				},
 				"build_stairs": {
 					"display_name": "Nástroj Schody"
@@ -9721,7 +9721,7 @@
 					"display_name": "Biulding Vis Down"
 				},
 				"build_roofLeft": {
-					"display_name": "Roof Left"
+					"display_name": "Střecha Doleva"
 				},
 				"build_paint": {
 					"display_name": "Nástroj Barva"
@@ -9733,7 +9733,7 @@
 					"display_name": "Cycle Wall Visibility Normal"
 				},
 				"build_roofRight": {
-					"display_name": "Roof Right"
+					"display_name": "Střecha Doprava"
 				}
 			}
 		},
@@ -10020,10 +10020,10 @@
 			},
 			"shield_valor": {
 				"display_name": "Obrův Štít",
-				"description": "Proudest shield in the Ascendancy",
+				"description": "Nejhrdější štít ve Vznešeném Království",
 				"shield_valor_iconic": {
 					"display_name": "Obrův Štít",
-					"description": "Proudest shield in the Ascendancy"
+					"description": "Nejhrdější štít ve Vznešeném Království"
 				}
 			},
 			"circlet_valor": {
@@ -10149,7 +10149,7 @@
 			"amberstone_window": {
 				"amberstone_window_ghost": {
 					"display_name": "Burrow Window",
-					"description": "Lets the fresh air in"
+					"description": "Pusťme dovnitř čerstvý vzduch"
 				}
 			},
 			"wooden_window_frame": {
@@ -10263,7 +10263,7 @@
 			"wooden_double_door_fine": {
 				"wooden_double_door_fine_ghost": {
 					"display_name": "Hezké Dřevěné Dvojité Dveře",
-					"description": "A larger door with some extra style. All your friends will be envious."
+					"description": "Větší dveře s trochou extra stylem. Všichni tví přátelé budou závidět."
 				}
 			},
 			"wooden_window_frame_fine": {
@@ -10299,7 +10299,7 @@
 			"picket_fence_gate_fine": {
 				"picket_fence_gate_fine_ghost": {
 					"display_name": "Fine Picket Fence Gate",
-					"description": "Don't like your neighbors? Don't install."
+					"description": "Nemáš rád své sousedy? Neinstaluj."
 				}
 			},
 			"wooden_tunnel_door_fine": {
@@ -10345,7 +10345,7 @@
 			"ornate_picket_fence_gate": {
 				"ornate_picket_fence_gate_ghost": {
 					"display_name": "Ornate Picket Fence Gate",
-					"description": "Don't like your neighbors? Don't install."
+					"description": "Nemáš rád své sousedy? Neinstaluj."
 				}
 			},
 			"ornate_wooden_door": {
@@ -10357,12 +10357,12 @@
 			"ornate_wooden_double_door": {
 				"ornate_wooden_double_door_ghost": {
 					"display_name": "Zdobené Dřevěné Dvojité Dveře",
-					"description": "A larger door with some extra style. All your friends will be envious."
+					"description": "Větší dveře s trochou extra stylem. Všichni tví přátelé budou závidět."
 				}
 			},
 			"ornate_wooden_tunnel_door": {
 				"display_name": "Zdobené Dřevěné Tunelové Dveře",
-				"description": "Useful for blocking off tunnels"
+				"description": "Užitečné pro blokování tunelů"
 			},
 			"cobblestone_fence_single": {
 				"cobblestone_fence_single_ghost": {
@@ -10868,8 +10868,8 @@
 					"description": "Is it hatching yet?"
 				},
 				"young": {
-					"display_name": "Poyo Chick",
-					"description": "Peep Peep!"
+					"display_name": "Pojo Kuřátko",
+					"description": "Pííp Pííp!"
 				},
 				"species": "pojo",
 				"egg": {
@@ -10881,17 +10881,17 @@
 			},
 			"rabbit": {
 				"display_name": "Králiček",
-				"description": "Om nom nom.  This cute creature only eats greens.",
+				"description": "Chru chrum chrum.  Tohle roztomilé stvoření jí pouze zeleninu.",
 				"rabbit_jerky": {
-					"display_name": "Rabbit jerky"
+					"display_name": "Králičí Sušené Maso"
 				},
 				"species": "králiček"
 			},
 			"racoon": {
 				"display_name": "Mýval",
-				"description": "Small forest creature that eats anything.",
+				"description": "Malé lesní stvoření co jí cokoli",
 				"racoon_jerky": {
-					"display_name": "Raccoon jerky"
+					"display_name": "Mývalí Sušené Maso"
 				},
 				"species": "mýval"
 			},
@@ -10899,7 +10899,7 @@
 				"display_name": "Liška",
 				"description": "Malé lesní stvoření",
 				"red_fox_jerky": {
-					"display_name": "Fox jerky"
+					"display_name": "Liščí Sušené Maso"
 				},
 				"species": "liška"
 			},
@@ -10916,9 +10916,9 @@
 			},
 			"squirrel": {
 				"display_name": "Veverka",
-				"description": "Small forest creature that only eats plants.",
+				"description": "Malé lesní stvoření co jí pouze rostliny.",
 				"squirrel_jerky": {
-					"display_name": "Squirrel jerky"
+					"display_name": "Veverčí Sušené Maso"
 				},
 				"species": "veverka"
 			},
@@ -10934,7 +10934,7 @@
 			},
 			"deer": {
 				"deer_jerky": {
-					"display_name": "Deer Jerky"
+					"display_name": "Jelení Sušené Maso"
 				},
 				"species": "jelen",
 				"description": "Very gamey... how appropriate",
@@ -11016,7 +11016,7 @@
 					},
 					"002": {
 						"name": "Mrňavá Mrkev",
-						"description": "Small. Bitter."
+						"description": "Malá. Hořká."
 					},
 					"001": {
 						"name": "Výhonek Mrkve",
@@ -11089,8 +11089,8 @@
 						"description": "Delicious!"
 					},
 					"002": {
-						"name": "Baby Turnip",
-						"description": "Small. Bitter."
+						"name": "Mrňavý Tuřín",
+						"description": "Malý. Hořký."
 					},
 					"001": {
 						"name": "Turnip Sprout",
@@ -11115,7 +11115,7 @@
 						"description": "Delicious!"
 					},
 					"002": {
-						"name": "Baby pumpkin",
+						"name": "Mrňavá Dýně",
 						"description": "Ještě není jedlá!"
 					},
 					"001": {
@@ -11262,8 +11262,8 @@
 						"description": "Delicious!"
 					},
 					"002": {
-						"name": "Baby Turnip",
-						"description": "Small. Bitter."
+						"name": "Mrňavý Tuřín",
+						"description": "Malý. Hořký."
 					},
 					"001": {
 						"name": "Turnip Sprout",
@@ -13798,10 +13798,10 @@
 				},
 				"carrot_serving": {
 					"display_name": "Mrkev",
-					"description": "Tiny. Bitter."
+					"description": "Malá. Hořká."
 				},
 				"display_name": "Mrkev",
-				"description": "Great for soups",
+				"description": "Skvělá pro polévky",
 				"bud": {
 					"carrot_plant_bud": {
 						"display_name": "Rašící Mrkev",
