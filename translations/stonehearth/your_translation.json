@@ -6286,7 +6286,7 @@
 															"00": "Sasha nods. \"Very well. They will no doubt be disappointed, but it will bring me some comfort to have them settle closer to the safety of the warren.\""
 														},
 														"bulletin_title": "Rabbit Residents",
-														"choice_000": "Farewell"
+														"choice_000": "Sbohem"
 													},
 													"msg2_a": {
 														"bulletin_message": {
@@ -10133,7 +10133,7 @@
 			"wooden_door_2": {
 				"wooden_door_2_ghost": {
 					"display_name": "Zesílené Dřevěné Dveře",
-					"description": "Silnější než průměrné dveře"
+					"description": "Pevnější než tvoje průměrné dveře."
 				}
 			},
 			"wooden_tunnel_door": {
@@ -10256,7 +10256,7 @@
 			},
 			"wooden_door_2_fine": {
 				"wooden_door_2_fine_ghost": {
-					"description": "Sturdier than your average door, and such a sweet pattern too.",
+					"description": "Pevnější než tvoje průměrné dveře, a také takový slaký vzor.",
 					"display_name": "Hezké Zesílené Dřevěné Dveře"
 				}
 			},
@@ -10351,7 +10351,7 @@
 			"ornate_wooden_door": {
 				"ornate_wooden_door_ghost": {
 					"display_name": "Zdobené Dřevěné Dveře",
-					"description": "Sturdier than your average door, and such a sweet pattern too."
+					"description": "Pevnější než tvoje průměrné dveře, a také takový slaký vzor."
 				}
 			},
 			"ornate_wooden_double_door": {
@@ -10397,19 +10397,19 @@
 			"clay_fence_end": {
 				"clay_fence_end_ghost": {
 					"display_name": "Hliněný Kůl",
-					"description": "Vypadá hezky ale moc neochrání"
+					"description": "Více dekorativní než ochranný."
 				}
 			},
 			"clay_fence_bar_single": {
 				"clay_fence_bar_single_ghost": {
 					"display_name": "Hliněný Krátký Plot",
-					"description": "Vypadá hezky ale moc neochrání"
+					"description": "Více dekorativní než ochranný."
 				}
 			},
 			"clay_fence_bar_double": {
 				"clay_fence_bar_double_ghost": {
 					"display_name": "Hliněný Dlouhý Plot",
-					"description": "Vypadá hezky ale moc neochrání"
+					"description": "Více dekorativní než ochranný."
 				}
 			},
 			"ornate_picket_fence_end": {
@@ -10499,7 +10499,7 @@
 			"stone_door_2": {
 				"stone_door_2_ghost": {
 					"display_name": "Opevněné Kamenné Dveře",
-					"description": "Silnější než průměrné dveře"
+					"description": "Pevnější než tvoje průměrné dveře."
 				}
 			},
 			"stone_double_door": {
@@ -11224,7 +11224,7 @@
 						"description": "Delicious!"
 					},
 					"000": {
-						"name": "Tester Seedling",
+						"name": "Sazenice Testeru",
 						"description": "A unrealized tester."
 					}
 				}
@@ -11285,19 +11285,19 @@
 				"growth_stage": {
 					"003": {
 						"name": "Zralá pšenice",
-						"description": "Ready for harvest!"
+						"description": "Připravena na sklizeň!"
 					},
 					"002": {
 						"name": "Immature wheat",
-						"description": "Not ready for harvest"
+						"description": "Není připravena na sklizeň"
 					},
 					"001": {
 						"name": "Wheat Sprout",
-						"description": "Not ready for harvest"
+						"description": "Není připravena na sklizeň"
 					},
 					"000": {
 						"name": "Sazenice Pšenice",
-						"description": "Not ready for harvest"
+						"description": "Není připravena na sklizeň"
 					},
 					"011": {
 						"name": "Wheat Husk",
@@ -11306,7 +11306,7 @@
 				}
 			},
 			"oak_tree_crop": {
-				"display_name": "Oak Tree Sapling",
+				"display_name": "Stromeček Dubu",
 				"description": "Out of trees? Get ready to participate in reforestation.",
 				"growth_stage": {
 					"001": {
@@ -11314,7 +11314,7 @@
 						"description": "It's just getting started."
 					},
 					"003": {
-						"name": "Oak Tree Sapling",
+						"name": "Stromeček Dubu",
 						"description": "Ready to be transferred to a bigger plot."
 					},
 					"000": {
@@ -11328,7 +11328,7 @@
 				}
 			},
 			"acacia_tree_crop": {
-				"display_name": "Acacia Tree Sapling",
+				"display_name": "Stromeček Akácie",
 				"description": "Out of trees? Get ready to participate in reforestation.",
 				"growth_stage": {
 					"001": {
@@ -11336,7 +11336,7 @@
 						"description": "It's just getting started."
 					},
 					"003": {
-						"name": "Acacia Tree Sapling",
+						"name": "Stromeček Akácie",
 						"description": "Ready to be transferred to a bigger plot."
 					},
 					"000": {
@@ -11401,12 +11401,12 @@
 					},
 					"003": {
 						"name": "Flowering Cactus",
-						"description": "Ready for harvesting"
+						"description": "Připraven na sbírání"
 					}
 				}
 			},
 			"cactus_tree_crop": {
-				"display_name": "Cactus Sapling",
+				"display_name": "Stromeček Kaktusu",
 				"description": "Out of cactus? Get ready to replant that beautiful desert-scape.",
 				"growth_stage": {
 					"001": {
@@ -11414,7 +11414,7 @@
 						"description": "It's just getting started."
 					},
 					"003": {
-						"name": "Cactus Sapling",
+						"name": "Stromeček Kaktusu",
 						"description": "Ready to be transferred to a bigger plot."
 					},
 					"000": {
@@ -11428,7 +11428,7 @@
 				}
 			},
 			"juniper_tree_crop": {
-				"display_name": "Juniper Sapling",
+				"display_name": "Stromeček Jalovce",
 				"description": "Forest running thin? Plant some of these gorgeous Juniper trees.",
 				"growth_stage": {
 					"001": {
@@ -11436,7 +11436,7 @@
 						"description": "It's just getting started."
 					},
 					"003": {
-						"name": "Juniper Sapling",
+						"name": "Stromeček Jalovce",
 						"description": "Ready to be transferred to a bigger plot."
 					},
 					"000": {
@@ -11450,7 +11450,7 @@
 				}
 			},
 			"pine_tree_crop": {
-				"display_name": "Pine Sapling",
+				"display_name": "Stromeček Borovice",
 				"description": "Out of trees? Get ready to participate in reforestation.",
 				"growth_stage": {
 					"001": {
@@ -11458,7 +11458,7 @@
 						"description": "A delicate stage of growth."
 					},
 					"003": {
-						"name": "Pine Sapling",
+						"name": "Stromeček Borovice",
 						"description": "Ready to be transferred to a bigger plot."
 					},
 					"000": {
@@ -11521,19 +11521,19 @@
 		"decoration": {
 			"banner_wall_big": {
 				"banner_wall_big_ghost": {
-					"display_name": "Big Wall Banner",
+					"display_name": "Velký Nástěnný Prapor",
 					"description": "Show your town pride with this banner."
 				}
 			},
 			"banner_wall_small": {
 				"banner_wall_small_ghost": {
-					"display_name": "Small Wall Banner",
+					"display_name": "Malý Nástěnný Prapor",
 					"description": "Show your town pride with this banner."
 				}
 			},
 			"bird_bath": {
 				"bird_bath_ghost": {
-					"display_name": "Bird Bath",
+					"display_name": "Ptačí Koupel",
 					"description": "Tranquil."
 				}
 			},
@@ -11542,7 +11542,7 @@
 			},
 			"curtains": {
 				"curtains_ghost": {
-					"display_name": "Curtains",
+					"display_name": "Záclony",
 					"description": "Dresses up a window."
 				}
 			},
@@ -11566,7 +11566,7 @@
 			},
 			"fur_rug": {
 				"fur_rug_ghost": {
-					"display_name": "Fur Rug",
+					"display_name": "Kožešinový Koberec",
 					"description": "Vyrobeno ze zvířecých kožešin."
 				}
 			},
@@ -11618,7 +11618,7 @@
 			},
 			"throw_rug": {
 				"throw_rug_ghost": {
-					"display_name": "Decorative Throw Rug",
+					"display_name": "Dekorativní Koberec",
 					"description": "Brightens up that old dusty floor."
 				}
 			},
@@ -11796,7 +11796,7 @@
 			"golden_clay_wall_planter": {
 				"golden_clay_wall_planter_ghost": {
 					"display_name": "Golden Clay Planter",
-					"description": "Livens up walls"
+					"description": "Oživuje zdi nahoře"
 				}
 			},
 			"unfired_clay_vase": {
@@ -13243,35 +13243,35 @@
 			},
 			"town_banner_guardian": {
 				"town_banner_guardian_ghost": {
-					"display_name": "Banner of Cunning",
-					"description": "How you know you've come home.",
+					"display_name": "Prapor Mazanosti",
+					"description": "Jak víš, že jsi přišel domů.",
 					"town_bonus_description": "<i>This settlement will be a bustling hub of trade.</i><ul><li>Roads give 3x their normal speed boost</li><li>Your items sell for 50% more</li><li>Traders will bring 2x the goods and Gold</li></ul>"
 				},
 				"town_banner_guardian_token_iconic": {
-					"display_name": "Banner of Cunning Shred",
-					"description": "A shred from the Banner of Cunning, carrying along its blessing."
+					"display_name": "Odstřižek Praporu Mazanosti",
+					"description": "Odstřižek z Praporu Mazanosti, nesoucí si jeho požehnání."
 				}
 			},
 			"town_banner_might": {
 				"town_banner_might_ghost": {
-					"display_name": "Banner of Strength",
-					"description": "How you know you've come home",
+					"display_name": "Prapor Síly",
+					"description": "Jak víš, že jsi přišel domů",
 					"town_bonus_description": "<i>This settlement will grow strong through earth and steel.</i><ul><li>Mining gives 50% more Ore, Stone, and Clay</li><li>Hearthlings no longer mind cramped spaces</li></ul>"
 				},
 				"town_banner_might_token_iconic": {
-					"display_name": "Banner of Strength Shred",
-					"description": "A shred from the Banner of Strength, carrying along its blessing."
+					"display_name": "Odstřižek Praporu Síly",
+					"description": "Odstřižek z Praporu Síly, nesoucí si jeho požehnání."
 				}
 			},
 			"town_banner_nature": {
 				"town_banner_nature_ghost": {
-					"display_name": "Banner of Vitality",
-					"description": "How you know you've come home",
+					"display_name": "Prapor Vitality",
+					"description": "Jak víš, že jsi přišel domů",
 					"town_bonus_description": "<i>This settlement shall be at one with the environment.</i><ul><li>Trees produce 25% more Wood</li><li>Plants and Crops both grow 25% faster</li><li>Plants have 2x their normal Appeal</li></ul>"
 				},
 				"town_banner_nature_token_iconic": {
-					"display_name": "Banner of Vitality Shred",
-					"description": "A shred from the Banner of Vitality, carrying along its blessing."
+					"display_name": "Odstřižek Praporu Vitality",
+					"description": "Odstřižek z Praporu Vitality, nesoucí si jeho požehnání."
 				}
 			},
 			"titan_ward_stone": {
@@ -13294,8 +13294,8 @@
 			},
 			"titan_slayer": {
 				"titan_slayer_ghost": {
-					"display_name": "Crystalline Arbalest",
-					"description": "A weapon to strike at evil's heart."
+					"display_name": "Krystalický Arbalest",
+					"description": "Zbraň k zasažení srdce zla."
 				},
 				"titan_slayer_monument": {
 					"display_name": "Testament to the Righted Wrong",
@@ -13304,8 +13304,8 @@
 			},
 			"orc_titan_gong": {
 				"orc_titan_gong_ghost": {
-					"display_name": "Gong of Sinister Beckoning",
-					"description": "Made of strange, eerily smooth stone."
+					"display_name": "Gong Zlověstného Vábení",
+					"description": "Udělaný ze zvláštního, děsivě hladkého kamene."
 				}
 			},
 			"root_of_evil": {
@@ -13594,9 +13594,9 @@
 			},
 			"avian": {
 				"ostrich": {
-					"display_name": "Ostrich",
+					"display_name": "Pštros",
 					"description": "Flightless avian who lays giant eggs.  It eats a little bit of everything.",
-					"species": "ostrich",
+					"species": "pštros",
 					"egg": {
 						"ostrich_egg_fertilized": {
 							"display_name": "Fertilized Ostrich Egg",
@@ -13616,7 +13616,7 @@
 					}
 				},
 				"ostrich_young": {
-					"display_name": "Young Ostrich",
+					"display_name": "Mladý Pštros",
 					"description": "Flightless avian, just hatched!"
 				},
 				"duckduck_young": {
@@ -13642,18 +13642,18 @@
 			},
 			"golems": {
 				"golem_harvesting": {
-					"display_name": "Ox Golem",
+					"display_name": "Volský Golem",
 					"description": "Harvesting Golem, constructed of stone and empowered by ancient knowledge."
 				},
 				"golem_mining": {
-					"display_name": "Mole Golem",
+					"display_name": "Krtčí Golem",
 					"description": "Mining Golem, constructed of stone and empowered by ancient knowledge."
 				},
 				"golem_restocking": {
-					"display_name": "Cricket Golem",
+					"display_name": "Cvrčí Golem",
 					"description": "Item-Carrying Golem, constructed of stone and empowered by ancient knowledge!",
 					"golem_restocking_ghost_auto": {
-						"display_name": "Autonomous Cricket Golem",
+						"display_name": "Samosprávný Cvrčí Golem",
 						"description": "Item-Carrying Golem that somehow works without a Geomancer around"
 					}
 				}
@@ -13740,7 +13740,7 @@
 			"berry_bush": {
 				"display_name": "Bobulový Keř",
 				"description": "Harvestable for a meager food supply.",
-				"unripe_description": "Not yet ripe for harvest.",
+				"unripe_description": "Ještě nejsou zralé na sklizeň.",
 				"seed": {
 					"berry_bush_plant_seed_ghost": {
 						"display_name": "Semínko Bobulového Keře",
@@ -13755,7 +13755,7 @@
 				},
 				"sprout": {
 					"berry_bush_plant_sprout": {
-						"display_name": "Berry Bush Sproutling",
+						"display_name": "Výhonek Bobulového Keře",
 						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
@@ -13776,7 +13776,7 @@
 						"description": "Once planted, it will grow into healing herbs"
 					},
 					"brightbell_plant_sprout": {
-						"display_name": "Wild Brightbell Sproutling",
+						"display_name": "Výhonek Divokého Světlozvonu",
 						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
@@ -13786,7 +13786,7 @@
 						"description": "Stále roste!"
 					},
 					"brightbell_plant_bud": {
-						"display_name": "Wild Brightbell Budding Plant",
+						"display_name": "Rašící Rostlina Divokého Světlozvonu",
 						"description": "Je to skoro tam! Koukni, má pupeny!"
 					}
 				}
@@ -13816,7 +13816,7 @@
 				},
 				"sprout": {
 					"carrot_plant_sprout": {
-						"display_name": "Carrot Sproutling",
+						"display_name": "Výhonek Mrkve",
 						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
@@ -13842,7 +13842,7 @@
 				}
 			},
 			"frostsnap_plant": {
-				"display_name": "Wild Frost Snap",
+				"display_name": "Divoká Mrazenka",
 				"description": "Může být sesbírán pro léčivé byliny",
 				"unripe_description": "Tato rostlina byla sesbírána a zatím ještě nedorostla zpátky",
 				"seed": {
@@ -13851,7 +13851,7 @@
 						"description": "Může být zasazeno k růstu léčivých bylin"
 					},
 					"frostsnap_plant_sprout": {
-						"display_name": "Wild Frostsnap Sproutling",
+						"display_name": "Výhonek Divoké Mrazenky",
 						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
@@ -13861,13 +13861,13 @@
 						"description": "Stále roste!"
 					},
 					"frostsnap_plant_bud": {
-						"display_name": "Wild Frostsnap Budding Plant",
+						"display_name": "Rašící Rostlina Divoké Mrazenky",
 						"description": "Je to skoro tam! Koukni, má pupeny!"
 					}
 				},
 				"bud": {
 					"frostsnap_plant_bud": {
-						"display_name": "Wild Frostsnap Budding Plant",
+						"display_name": "Rašící Rostlina Divoké Mrazenky",
 						"description": "Je to skoro tam! Koukni, má pupeny!"
 					}
 				}
@@ -13886,13 +13886,13 @@
 				},
 				"bud": {
 					"silkweed_bud": {
-						"display_name": "Budding Silkweed",
+						"display_name": "Rašící Hebkotrav",
 						"description": "Je to skoro tam! Koukni, má pupeny!"
 					}
 				},
 				"sprout": {
 					"silkweed_plant_sprout": {
-						"display_name": "Silkweed Sproutling",
+						"display_name": "Výhonek Hebkotravu",
 						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
@@ -13909,8 +13909,8 @@
 					"description": "Juicy and exciting!"
 				},
 				"tester_serving": {
-					"display_name": "A Tester",
-					"description": "Used as shields by princesses."
+					"display_name": "Tester",
+					"description": "Použity jako štíty princezen."
 				}
 			},
 			"turnip": {
@@ -13929,7 +13929,7 @@
 				"unripe_description": "Tato rostlina byla sesbírána a zatím ještě nedorostla zpátky",
 				"bud": {
 					"cactus_plant_plant_bud": {
-						"display_name": "Budding Wild Cactus",
+						"display_name": "Rašící Divoký Kaktus",
 						"description": "Je to skoro tady! Koukni, má pupeny!"
 					}
 				},
@@ -13945,7 +13945,7 @@
 				},
 				"sprout": {
 					"cactus_plant_plant_sprout": {
-						"display_name": "Wild Cactus Sproutling",
+						"display_name": "Výhonek Divokého Kaktusu",
 						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
@@ -14006,7 +14006,7 @@
 				},
 				"sprout": {
 					"pear_cactus_plant_sprout": {
-						"display_name": "Pear Cactus Sproutling",
+						"display_name": "Výhonek Opuncie",
 						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
@@ -14040,7 +14040,7 @@
 				},
 				"sprout": {
 					"foxlily_plant_plant_sprout": {
-						"display_name": "Foxlily Sproutling",
+						"display_name": "Výhonek Liščí Lilie",
 						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
@@ -14070,7 +14070,7 @@
 				},
 				"sprout": {
 					"sunflower_plant_plant_sprout": {
-						"display_name": "Sunflower Sproutling",
+						"display_name": "Výhonek Slunečnice",
 						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
@@ -14090,7 +14090,7 @@
 				"description": "Once it dries out, it will be a great source of coarse fibers"
 			},
 			"sugarbell": {
-				"unripe_description": "Not yet ripe for harvest.",
+				"unripe_description": "Ještě není zralá na sklizeň.",
 				"sugarbell_ghost": {
 					"display_name": "Cukrozvon",
 					"description": "Sběratelné pro trošku cukru."
@@ -14113,7 +14113,7 @@
 				},
 				"sprout": {
 					"sugarbell_plant_sprout": {
-						"display_name": "Sugarbell Sproutling",
+						"display_name": "Výhonek Cukrozvonku",
 						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
@@ -14138,7 +14138,7 @@
 				},
 				"sprout": {
 					"cactus_tulip_red_plant_sprout": {
-						"display_name": "Tulip Cactus Sproutling",
+						"display_name": "Výhonek Tulipánu Kaktusu",
 						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
@@ -14154,7 +14154,7 @@
 				},
 				"bud": {
 					"cactus_tulip_red_plant_bud": {
-						"display_name": "Budding Tulip Cactus Plant",
+						"display_name": "Rašící Rostlina Tulipánového Kaktusu",
 						"description": "Je to skoro tam! Koukni, má pupeny!"
 					}
 				}
@@ -14168,7 +14168,7 @@
 				},
 				"sprout": {
 					"cactus_tulip_blue_plant_sprout": {
-						"display_name": "Tulip Cactus Sproutling",
+						"display_name": "Výhonek Tulipánu Kaktusu",
 						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
@@ -14184,7 +14184,7 @@
 				},
 				"bud": {
 					"cactus_tulip_blue_plant_bud": {
-						"display_name": "Budding Tulip Cactus Plant",
+						"display_name": "Rašící Rostlina Tulipánového Kaktusu",
 						"description": "Je to skoro tam! Koukni, má pupeny!"
 					}
 				},
@@ -14204,7 +14204,7 @@
 					},
 					"sprout": {
 						"cactus_tulip_yellow_plant_sprout": {
-							"display_name": "Tulip Cactus Sproutling",
+							"display_name": "Výhonek Tulipánu Kaktusu",
 							"description": "Prostě potřebuje nějaký čas a péči."
 						}
 					},
@@ -14220,7 +14220,7 @@
 					},
 					"bud": {
 						"cactus_tulip_yellow_plant_bud": {
-							"display_name": "Budding Tulip Cactus Plant",
+							"display_name": "Rašící Rostlina Tulipánového Kaktusu",
 							"description": "Je to skoro tam! Koukni, má pupeny!"
 						}
 					},
@@ -14256,7 +14256,7 @@
 				},
 				"sprout": {
 					"wax_plant_purple_plant_sprout": {
-						"display_name": "Purple Wax Plant Sproutling",
+						"display_name": "Výhonek Fialové Voskové Rostliny",
 						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
@@ -14290,7 +14290,7 @@
 				},
 				"sprout": {
 					"wax_plant_green_plant_sprout": {
-						"display_name": "Green Wax Plant Sproutling",
+						"display_name": "Výhonek Zelené Voskové Rostliny",
 						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
@@ -14326,7 +14326,7 @@
 				},
 				"sprout": {
 					"sweet_potato_plant_sprout": {
-						"display_name": "Sweet Potato Sproutling",
+						"display_name": "Výhonek Sladké Brambory",
 						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
@@ -14346,29 +14346,29 @@
 				},
 				"sprout": {
 					"snow_poppy_plant_sprout": {
-						"display_name": "Snow Poppy Sproutling",
+						"display_name": "Výhonek Sněžného Máku",
 						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
 				"seed": {
 					"snow_poppy_plant_seed": {
-						"display_name": "Snow Poppy Seed",
+						"display_name": "Semínko Sněžného Máku",
 						"description": "Once planted, it will grow vibrant flowers"
 					},
 					"snow_poppy_plant_seed_ghost": {
-						"display_name": "Snow Poppy Seed",
+						"display_name": "Semínko Sněžného Máku",
 						"description": "Once planted, it will grow vibrant flowers"
 					}
 				},
 				"bud": {
 					"snow_poppy_plant_bud": {
-						"display_name": "Budding Snow Poppy",
+						"display_name": "Rašící Sněžný Mák",
 						"description": "Je to skoro tam! Koukni, má pupeny!"
 					}
 				},
 				"unripe_description": "Tato rostlina byla sesbírána a zatím ještě nedorostla zpátky",
 				"snow_poppy_plant_ghost": {
-					"display_name": "Snow Poppy",
+					"display_name": "Sněžný Mák",
 					"description": "Může být sesbírána pro léčivé byliny"
 				}
 			},
@@ -14381,29 +14381,29 @@
 				},
 				"sprout": {
 					"gold_snow_poppy_plant_sprout": {
-						"display_name": "Snow Poppy Sproutling",
+						"display_name": "Výhonek Sněžného Máku",
 						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
 				"seed": {
 					"gold_snow_poppy_plant_seed": {
-						"display_name": "Snow Poppy Seed",
+						"display_name": "Semínko Sněžného Máku",
 						"description": "Once planted, it will grow vibrant flowers"
 					},
 					"gold_snow_poppy_plant_seed_ghost": {
-						"display_name": "Snow Poppy Seed",
+						"display_name": "Semínko Sněžného Máku",
 						"description": "Once planted, it will grow vibrant flowers"
 					}
 				},
 				"bud": {
 					"gold_snow_poppy_plant_bud": {
-						"display_name": "Budding Snow Poppy",
+						"display_name": "Rašící Sněžný Mák",
 						"description": "Je to skoro tam! Koukni, má pupeny!"
 					}
 				},
 				"unripe_description": "Tato rostlina byla sesbírána a zatím ještě nedorostla zpátky",
 				"gold_snow_poppy_plant_ghost": {
-					"display_name": "Snow Poppy",
+					"display_name": "Sněžný Mák",
 					"description": "Může být sesbírána pro léčivé byliny"
 				}
 			},
@@ -14433,7 +14433,7 @@
 				},
 				"sprout": {
 					"violet_plant_sprout": {
-						"display_name": "Violet Sproutling",
+						"display_name": "Výhonek Fialky",
 						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
@@ -14475,7 +14475,7 @@
 				},
 				"sprout": {
 					"wintermoss_plant_sprout": {
-						"display_name": "Wintermoss Sproutling",
+						"display_name": "Výhonek Zimomechu",
 						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
@@ -14513,7 +14513,7 @@
 					"display_name": "Hearthbud",
 					"description": "Harvestable for concentrated Hearth Essence and more Hearthbud Seeds"
 				},
-				"unripe_description": "Not yet ripe for harvest.",
+				"unripe_description": "Ještě není zralý na sklizeň.",
 				"bud": {
 					"earthbud_plant_bud": {
 						"display_name": "Budding Hearthbud",
@@ -14572,12 +14572,12 @@
 				"description": "A key component of stone buildings"
 			},
 			"thread": {
-				"display_name": "Spool of Thread",
+				"display_name": "Cívka Niti",
 				"description": "Spun from the wool of sheep. Or plants."
 			},
 			"tin_ingot": {
-				"display_name": "Tin Ingot",
-				"description": "A bar of pure tin.  "
+				"display_name": "Cínový Ingot",
+				"description": "Prut čistého cínu."
 			},
 			"bronze_gear": {
 				"display_name": "Bronzové Ozubené Kolečko",
@@ -14620,23 +14620,23 @@
 				"description": "Delicately frames and protects the Shining Circlet"
 			},
 			"golem_backpack": {
-				"display_name": "Golem Backpack",
-				"description": "Used by the Geomancer to craft Ox Golems"
+				"display_name": "Golemský Batoh",
+				"description": "Užito Geomancerem k výrobě Vůlčích Golemů"
 			},
 			"golem_parts": {
 				"display_name": "Části Golema",
 				"description": "Použity Geomancerem na vytváření golemů"
 			},
 			"golem_pick": {
-				"display_name": "Golem Pick",
-				"description": "Used by the Geomancer to craft Mole Golems"
+				"display_name": "Golemský Krumpáč",
+				"description": "Užito Geomancerem k výrobě Krtčích Golemů"
 			}
 		},
 		"resources": {
 			"coal": {
 				"lump_of_coal": {
-					"display_name": "Lump 'o Coal",
-					"description": "A sizable chunk of solid coal."
+					"display_name": "Hrouda Uhlí",
+					"description": "Dost velký kus solidního uhlí."
 				}
 			},
 			"copper": {
@@ -14733,7 +14733,7 @@
 					"display_name": "Boar Pelt"
 				},
 				"deer_horn": {
-					"display_name": "Deer Antler",
+					"display_name": "Jelení Paroh",
 					"description": "Hard, sharp, and possibly useful.."
 				}
 			},
@@ -14767,8 +14767,8 @@
 			},
 			"tin": {
 				"tin_ore": {
-					"display_name": "Tin Ore",
-					"description": "A chunk of raw tin"
+					"display_name": "Cínová Ruda",
+					"description": "Hrouda surového cínu"
 				}
 			},
 			"wood": {
@@ -14823,15 +14823,15 @@
 					"description": "An herb commonly used for medicinal purposes"
 				},
 				"snow_poppy": {
-					"display_name": "Snow Poppy Flowers",
+					"display_name": "Květy Sněhového Máku",
 					"description": "A vibrant healing herb"
 				},
 				"gold_snow_poppy": {
-					"display_name": "Snow Poppy Flowers",
+					"display_name": "Květy Sněhového Máku",
 					"description": "A vibrant healing herb"
 				},
 				"violet": {
-					"display_name": "Violet Flowers",
+					"display_name": "Květy Fialky",
 					"description": "A vibrant healing herb"
 				}
 			},
@@ -14841,7 +14841,7 @@
 					"description": "Rough and scaly"
 				},
 				"ogre_bone": {
-					"display_name": "Ogre Bone",
+					"display_name": "Ogří Kost",
 					"description": "Dense and strong"
 				},
 				"zilla_skin": {
@@ -14851,12 +14851,12 @@
 			},
 			"feathers": {
 				"poyo_feathers": {
-					"display_name": "Feathers",
+					"display_name": "Pírka",
 					"description": "Feathers from a plump bird"
 				},
 				"ostrich_feathers": {
 					"description": "Feathers from a large flightless bird",
-					"display_name": "Ostrich Feathers"
+					"display_name": "Pštrosí Pírka"
 				},
 				"duckduck_feathers": {
 					"description": "Feathers from a flightless bird",
@@ -14870,7 +14870,7 @@
 				}
 			},
 			"earth_essence": {
-				"display_name": "Hearth Essence",
+				"display_name": "Esence Hearthu",
 				"description": "The power of Hearth concentrated by the Hearthbud"
 			},
 			"gem_nature": {
@@ -14880,11 +14880,11 @@
 		},
 		"terrain": {
 			"mining_zone": {
-				"display_name": "Mining Zone",
+				"display_name": "Těžební Zóna",
 				"description": "This terrain is designated for removal."
 			},
 			"tall_grass": {
-				"display_name": "Tall Grass",
+				"display_name": "Vysoká Tráva",
 				"description": "Harvestable for thatch"
 			},
 			"tilled_dirt": {
@@ -14938,8 +14938,8 @@
 					"description": "Poskytuje stříbrnou rudu, když je kutána."
 				},
 				"tin_block": {
-					"display_name": "Tin Vein",
-					"description": "Provides tin ore when mined."
+					"display_name": "Cínová Žíla",
+					"description": "Poskytuje cínovou rudu když je kutána."
 				}
 			}
 		},
@@ -14992,7 +14992,7 @@
 				},
 				"small_juniper_tree": {
 					"display_name": "Malý Jalovcový Strom",
-					"description": "Just a sapling."
+					"description": "Prostě stromeček."
 				},
 				"stem": {
 					"tree_juniper_plant_stem": {
@@ -15002,7 +15002,7 @@
 				},
 				"sprout": {
 					"tree_juniper_sprout": {
-						"display_name": "Juniper Tree Sproutling",
+						"display_name": "Výhonek Jalovce",
 						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
@@ -15028,7 +15028,7 @@
 					},
 					"description": "Baby Juniper Tree.",
 					"sapling_juniper_tree_ghost": {
-						"display_name": "Juniper Tree Sapling",
+						"display_name": "Stromeček Jalovce",
 						"description": "Baby Juniper Tree."
 					}
 				},
@@ -15042,7 +15042,7 @@
 				},
 				"small_snowy_juniper_tree": {
 					"display_name": "Malý Jalovcový Strom",
-					"description": "Just a sapling."
+					"description": "Prostě stromeček."
 				},
 				"medium_gold_juniper_tree": {
 					"display_name": "Jalovcový Strom",
@@ -15050,7 +15050,7 @@
 				},
 				"small_gold_juniper_tree": {
 					"display_name": "Malý Jalovcový Strom",
-					"description": "Just a sapling."
+					"description": "Prostě stromeček"
 				}
 			},
 			"palm_tree": {
@@ -15060,7 +15060,7 @@
 				},
 				"small_palm_tree": {
 					"display_name": "Malý Palmový Strom",
-					"description": "Just a sapling."
+					"description": "Prostě stromeček."
 				}
 			},
 			"acacia_tree": {
@@ -15075,7 +15075,7 @@
 				"sapling_acacia_tree": {
 					"description": "Baby acacia tree.",
 					"sapling_acacia_tree_ghost": {
-						"display_name": "Acacia Tree Sapling",
+						"display_name": "Stromeček Akácie",
 						"description": "Baby acacia tree."
 					},
 					"sapling_acacia_tree_iconic": {
@@ -15090,7 +15090,7 @@
 				},
 				"sprout": {
 					"tree_acacia_sprout": {
-						"display_name": "Acacia Tree Sproutling",
+						"display_name": "Výhonek Akácie",
 						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
@@ -15124,7 +15124,7 @@
 				},
 				"sprout": {
 					"tree_joshua_sprout": {
-						"display_name": "Joshua Tree Sproutling",
+						"display_name": "Výhonek Joshuovho Stromu",
 						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
@@ -15140,7 +15140,7 @@
 				},
 				"bud": {
 					"tree_joshua_plant_bud": {
-						"display_name": "Budding Joshua Tree",
+						"display_name": "Rašící Joshuův Strom",
 						"description": "Je to skoro tam! Rostou jeho dospělé listy!"
 					}
 				}
@@ -15156,7 +15156,7 @@
 				},
 				"small_pine_tree": {
 					"display_name": "Malý Strom Borovice",
-					"description": "Just a sapling."
+					"description": "Prostě stromeček."
 				},
 				"stem": {
 					"tree_pine_plant_stem": {
@@ -15166,7 +15166,7 @@
 				},
 				"sprout": {
 					"tree_pine_sprout": {
-						"display_name": "Pine Tree Sproutling",
+						"display_name": "Výhonek Borovice",
 						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
@@ -15188,7 +15188,7 @@
 				},
 				"sapling_pine_tree": {
 					"sapling_pine_tree_ghost": {
-						"display_name": "Pine Tree Sapling",
+						"display_name": "Stromeček Borovice",
 						"description": "Baby Pine Tree."
 					},
 					"sapling_pine_tree_iconic": {
@@ -15205,7 +15205,7 @@
 					"display_name": "Velký Strom Borovice"
 				},
 				"small_snowy_pine_tree": {
-					"description": "Just a sapling.",
+					"description": "Prostě stromeček.",
 					"display_name": "Malý Strom Borovice"
 				},
 				"large_gold_pine_tree": {
@@ -15218,7 +15218,7 @@
 				},
 				"small_gold_pine_tree": {
 					"display_name": "Malý Strom Borovice",
-					"description": "Just a sapling."
+					"description": "Prostě stromeček."
 				},
 				"large_silver_pine_tree": {
 					"display_name": "Velký Strom Borovice",
@@ -15226,7 +15226,7 @@
 				},
 				"small_silver_pine_tree": {
 					"display_name": "Malý Strom Borovice",
-					"description": "Just a sapling."
+					"description": "Prostě stromeček."
 				},
 				"medium_silver_pine_tree": {
 					"display_name": "Střední Strom Borovice",
@@ -15250,7 +15250,7 @@
 				},
 				"sprout": {
 					"tree_cactus_sprout": {
-						"display_name": "Cactus Sproutling",
+						"display_name": "Výhonek Kaktusu",
 						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
@@ -15276,7 +15276,7 @@
 						"description": "Plant it in the earth and watch it grow."
 					},
 					"sapling_cactus_tree_ghost": {
-						"display_name": "Cactus Sapling",
+						"display_name": "Stromeček Kaktusu",
 						"description": "Baby Cactus Plant."
 					}
 				}
@@ -15301,7 +15301,7 @@
 				"sapling_oak_tree": {
 					"description": "Baby oak tree.",
 					"sapling_oak_tree_ghost": {
-						"display_name": "Oak Tree Sapling",
+						"display_name": "Stromeček Dubu",
 						"description": "Baby oak tree."
 					},
 					"sapling_oak_tree_iconic": {
@@ -15316,7 +15316,7 @@
 				},
 				"sprout": {
 					"tree_oak_sprout": {
-						"display_name": "Oak Tree Sproutling",
+						"display_name": "Výhonek Dubu",
 						"description": "Prostě potřebuje nějaký čas a péči."
 					}
 				},
@@ -15689,14 +15689,14 @@
 		"constructillon": {
 			"wooden_door_2_fine": {
 				"wooden_door_2_fine_ghost": {
-					"description": "Sturdier than your average door, and more polished too."
+					"description": "Pevnější než tvoje průměrné dveře, a také více naleštěné."
 				}
 			}
 		},
 		"ephemera": {
 			"ball_of_wax": {
-				"display_name": "Ball of Ear Wax",
-				"description": "Gross, isn't it?"
+				"display_name": "Koule Ušního Vosku",
+				"description": "Sprosté, že?"
 			}
 		},
 		"manipulation": {
@@ -15760,8 +15760,8 @@
 		"valor_statue": {
 			"war_horn": {
 				"war_horn_ghost": {
-					"display_name": "Giant Warhorn",
-					"description": "Reminiscent of days gone past."
+					"display_name": "Obří Válečný Roh",
+					"description": "Připomýnka dní dávné minulosti."
 				}
 			}
 		},
@@ -15770,11 +15770,11 @@
 				"female": {
 					"herald_female": {
 						"display_name": "Heraldine Rigby",
-						"description": "This is a Herald of the Ascendancy."
+						"description": "Posel Vznešeného Království."
 					},
 					"herald_isabelle": {
 						"display_name": "Isabelle Swift",
-						"description": "Herald of the Ascendancy."
+						"description": "Poselkyně Vznešeného Království."
 					},
 					"herald_ember": {
 						"display_name": "Ember Minton",
@@ -15792,7 +15792,7 @@
 				"male": {
 					"herald_male": {
 						"display_name": "Herald BuďHodný",
-						"description": "This is a Herald of the Ascendancy."
+						"description": "Tohle je Posel Vznešeného Království."
 					},
 					"herald_mer": {
 						"display_name": "Mer Burlyhands",
@@ -15808,11 +15808,11 @@
 					},
 					"herald_harold": {
 						"display_name": "Harold",
-						"description": "Special delivery duck-duck."
+						"description": "Speciální donášková kachnička."
 					},
 					"herald_sasha": {
 						"display_name": "Saša Lehkonoha",
-						"description": "Herald of Clan Amberstone"
+						"description": "Posel Jantarového Klanu"
 					}
 				}
 			},
@@ -15870,37 +15870,37 @@
 			"summon_stone_block_dirt": {
 				"summon_stone_block_dirt_ghost": {
 					"display_name": "Dirt Terrain Block Stone",
-					"description": "Summons an 8x5x8 block of dirt terrain."
+					"description": "Vyvolá 8x5x8 bloku blátového terénu."
 				}
 			},
 			"summon_stone_block_mimic": {
 				"summon_stone_block_mimic_ghost": {
 					"display_name": "Mimic Terrain Block Stone",
-					"description": "Summons an 8x5x8 block of terrain that mimics whatever terrain it is placed on."
+					"description": "Vyvolá 8x5x8 bloku terénu které napodobuje jakýkoliv terén na kterém je položený."
 				}
 			},
 			"summon_stone_block_rock": {
 				"summon_stone_block_rock_ghost": {
 					"display_name": "Rock Terrain Block Stone",
-					"description": "Summons an 8x5x8 block of rocky terrain."
+					"description": "Vyvolá 8x5x8 bloku skalnatého terénu."
 				}
 			},
 			"summon_stone_block_surface": {
 				"summon_stone_block_surface_ghost": {
 					"display_name": "Surface Terrain Block Stone",
-					"description": "Summons an 8x5x8 block of surface terrain, such as grass or sand."
+					"description": "Vyvolá 8x5x8 bloku povrchového terénu, jako je tráva nebo písek."
 				}
 			},
 			"summon_stone_geyser": {
 				"summon_stone_geyser_ghost": {
-					"display_name": "Geyser Stone",
-					"description": "Summons a mountain geyser."
+					"display_name": "Kámen Geizíru",
+					"description": "Vyvolá horský gejzír."
 				}
 			},
 			"summon_stone_rune_site": {
 				"summon_stone_rune_site_ghost": {
-					"display_name": "Rune Site Stone",
-					"description": "Summons a clearing with a holy rune symbol."
+					"display_name": "Kámen Stanoviště Runy",
+					"description": "Vyvolá mýtinu se symbolem svaté runy."
 				}
 			},
 			"summon_stone_stump": {
@@ -15911,8 +15911,8 @@
 			},
 			"summon_stone_rabbit_statue": {
 				"summon_stone_rabbit_statue_ghost": {
-					"display_name": "Rabbit Statue Stone",
-					"description": "Summons an ancient rabbit statue."
+					"display_name": "Kámen Králičí Sochy",
+					"description": "Vyvolá prastarou králičí sochu."
 				}
 			},
 			"summon_stone_rock_field": {
@@ -15948,61 +15948,61 @@
 			"summon_stone_vein_coal": {
 				"summon_stone_vein_coal_ghost": {
 					"display_name": "Kámen Uhelné Žíly",
-					"description": "Grows into a vein of coal."
+					"description": "Vyroste do žíly uhlí."
 				}
 			},
 			"summon_stone_vein_copper": {
 				"summon_stone_vein_copper_ghost": {
 					"display_name": "Kámen Měděné Žíly",
-					"description": "Grows into a vein of copper ore."
+					"description": "Vyroste do žíly měděné rudy."
 				}
 			},
 			"summon_stone_vein_gold": {
 				"summon_stone_vein_gold_ghost": {
 					"display_name": "Kámen Zlaté Žíly",
-					"description": "Grows into a vein of gold ore."
+					"description": "Vyroste do žíly zlaté rudy."
 				}
 			},
 			"summon_stone_vein_iron": {
 				"summon_stone_vein_iron_ghost": {
 					"display_name": "Kámen Železné Žíly",
-					"description": "Grows into a vein of iron ore."
+					"description": "Vyroste do žíly železné rudy."
 				}
 			},
 			"summon_stone_vein_silver": {
 				"summon_stone_vein_silver_ghost": {
 					"display_name": "Kámen Stříbrné Žíly",
-					"description": "Grows into a vein of silver ore."
+					"description": "Vyroste do žíly stříbrné rudy."
 				}
 			},
 			"summon_stone_vein_tin": {
 				"summon_stone_vein_tin_ghost": {
-					"display_name": "Tin Vein Stone",
-					"description": "Grows into a vein of tin ore."
+					"display_name": "Kámen Cínové Žíly",
+					"description": "Vyroste do žíly cínové rudy."
 				}
 			},
 			"summon_stone_riverbed_dry": {
 				"summon_stone_riverbed_dry_ghost": {
 					"display_name": "Dry Riverbed Stone",
-					"description": "Summons the memory of an ancient river."
+					"description": "Vyvolá vzpomínku starobylé řeky."
 				}
 			},
 			"summon_stone_sun": {
 				"summon_stone_sun_ghost": {
 					"display_name": "Sluneční Kámen",
-					"description": "Summons a pattern of a cute Sun."
+					"description": "Vyvolá tvar roztomilého Sluníčka."
 				}
 			},
 			"summon_stone_moon": {
 				"summon_stone_moon_ghost": {
 					"display_name": "Měsíční Kámen",
-					"description": "Summons a pattern of a cute Moon."
+					"description": "Vyvolá tvar roztomilého Měsíčku."
 				}
 			},
 			"summon_stone_sleeping_giant": {
 				"summon_stone_sleeping_giant_ghost": {
 					"display_name": "Spící Kámen",
-					"description": "Summons the memory of an ancient slumbering worker."
+					"description": "Vyvolá vzpomínku prastarého spícího dělníka."
 				}
 			}
 		}
@@ -16022,11 +16022,11 @@
 		},
 		"archer": {
 			"archer_outfit": {
-				"display_name": "Archer's Padded Vest",
+				"display_name": "Lučištnická Vycpávaná Vesta",
 				"description": "Poskytuje lehkou ochranu",
 				"archer_hood": {
 					"display_name": "Lučištníkův Plášť",
-					"description": "Hooded protection for one's head"
+					"description": "Ochrana s kapucí pro jednotlivcovu hlavu"
 				}
 			},
 			"archer_description": {
@@ -16052,7 +16052,7 @@
 					"perk_000_description": "Lučištník může útočit na nepřátelé z mnohem velké vzdálenosti"
 				},
 				"level_4_data": {
-					"perk_000_name": "Rychlost Natažení Nahoru",
+					"perk_000_name": "Rychlost Natažení Zvýšena",
 					"perk_000_description": "Lučištník střílí šípy s větší rychlostí"
 				},
 				"level_6_data": {
@@ -16253,7 +16253,7 @@
 				},
 				"tin_ingot_recipe": {
 					"description": "A bar of pure tin. A suitable material for crafted goods.",
-					"recipe_name": "Tin Ingot",
+					"recipe_name": "Cínový Ingot",
 					"flavor": "Step 1: Beat thin. Step 2: Use to cover roof of town hall."
 				},
 				"trapper_knife_recipe": {
@@ -16266,7 +16266,7 @@
 					"recipe_name": "Obojruční Meč"
 				},
 				"blacksmith_forge_recipe": {
-					"description": "Smelt metals into ingots.",
+					"description": "Přetavuje kovy do ingotů.",
 					"recipe_name": "Kovářská Výheň",
 					"flavor": "In flame, purity, in purity, strength. -Lucan Varius, Artifex Ignis"
 				},
@@ -16403,16 +16403,16 @@
 					"flavor": "Luckily, if you can't swing the doors open, you can just squeeze through them"
 				},
 				"candle_iron_recipe": {
-					"description": "Let there be light!",
+					"description": "Budiž světlo!",
 					"recipe_name": "Iron Candle-holder",
 					"flavor": "Never light and leave unattended"
 				},
 				"candle_iron_double_recipe": {
-					"description": "Let there be more light!",
-					"recipe_name": "Iron Candelabra",
+					"description": "Budiž ještě více světla!",
+					"recipe_name": "Želežný Svícen",
 					"flavor": "A stately fixture that belongs wherever Hearthlings gather"
 				},
-				"construction_name": "Construction",
+				"construction_name": "Konstrukce",
 				"door_blacksmith_recipe": {
 					"description": "Fit for a master blacksmith's workshop",
 					"recipe_name": "Kovářovy Dveře",
@@ -16447,8 +16447,8 @@
 					"recipe_name": "Plaketa Meče a Štítu"
 				},
 				"valor_war_horn_recipe": {
-					"description": "Reminiscent of days gone past.",
-					"recipe_name": "Giant Warhorn",
+					"description": "Připomýnka dní dávné minulosti.",
+					"recipe_name": "Obří Válečný Roh",
 					"flavor": "The sound of a great horn like this should never be taken lightly... thankfully one hasn't sounded in Darkmoor for many years. -- Cid, Knight of the Old Ways"
 				},
 				"steel_frame_recipe": {
@@ -16592,7 +16592,7 @@
 					"flavor": "Hope you like your neighbors!"
 				},
 				"picket_fence_recipe": {
-					"description": "Keeps people off your property.",
+					"description": "Drží lidi pryč z tvého majetku.",
 					"recipe_name": "Picket Fence",
 					"flavor": "If it's not white, is our life unfulfilled?"
 				},
@@ -16648,7 +16648,7 @@
 					"flavor": "The 45 degree turn adds sophistication."
 				},
 				"wooden_door_2_recipe": {
-					"description": "Stronger than your average door.",
+					"description": "Silnější než tvoje průměrné dveře.",
 					"recipe_name": "Reinforced Wooden Door",
 					"flavor": "This here pattern, I learned from the Squarefolk."
 				},
@@ -16658,7 +16658,7 @@
 					"flavor": "Konečně soukromí!"
 				},
 				"wooden_double_door_recipe": {
-					"description": "Two doors are better than one",
+					"description": "Dvoje dveře jsou lepší nežli jedny",
 					"recipe_name": "Dřevěné Dvojité Dveře",
 					"flavor": "Some people want to make an entrance... every day."
 				},
@@ -16860,7 +16860,7 @@
 				},
 				"ornate_picket_fence_recipe": {
 					"recipe_name": "Ornate Picket Fence",
-					"description": "Keeps people off your property.",
+					"description": "Drží lidi pryč z tvého majetku.",
 					"flavor": "If it's not white, is our life unfulfilled?"
 				},
 				"ornate_wooden_garden_lantern_recipe": {
@@ -16875,12 +16875,12 @@
 				},
 				"ornate_wooden_double_door_recipe": {
 					"recipe_name": "Zdobené Dřevěné Dvojité Dveře",
-					"description": "Two doors are better than one.",
+					"description": "Dvoje dveře jsou lepší nežli jedny.",
 					"flavor": "Some people want to make an entrance... every day."
 				},
 				"ornate_wooden_door_recipe": {
 					"recipe_name": "Ornate Reinforced Wooden Door",
-					"description": "Stronger than your average door.",
+					"description": "Silnější než tvoje průměrné dveře.",
 					"flavor": "This here pattern, I learned from the Squarefolk."
 				},
 				"wooden_chair_recipe": {
@@ -16959,42 +16959,42 @@
 					"flavor": "Baby don't hurt me! Don't hurt me no more!"
 				},
 				"ornate_picket_fence_bar_double_recipe": {
-					"description": "Keeps people off your property.",
+					"description": "Drží lidi pryč z tvého majetku.",
 					"recipe_name": "Ornate Picket Fence Long",
 					"flavor": "A little gold leaf goes a long way!"
 				},
 				"ornate_picket_fence_bar_single_recipe": {
-					"description": "Keeps people off your property.",
+					"description": "Drží lidi pryč z tvého majetku.",
 					"recipe_name": "Ornate Picket Fence Short",
 					"flavor": "A little gold leaf goes a long way!"
 				},
 				"ornate_picket_fence_end_recipe": {
-					"description": "Keeps people off your property.",
+					"description": "Drží lidi pryč z tvého majetku.",
 					"recipe_name": "Ornate Picket Fence Post",
 					"flavor": "A little gold leaf goes a long way!"
 				},
 				"picket_fence_end_recipe": {
-					"description": "Keeps people off your property.",
+					"description": "Drží lidi pryč z tvého majetku.",
 					"recipe_name": "Picket Fence Post",
 					"flavor": "If it's not white, is our life unfulfilled?"
 				},
 				"picket_fence_bar_single_recipe": {
-					"description": "Keeps people off your property.",
+					"description": "Drží lidi pryč z tvého majetku.",
 					"recipe_name": "Picket Fence Short",
 					"flavor": "If it's not white, is our life unfulfilled?"
 				},
 				"picket_fence_bar_double_recipe": {
-					"description": "Keeps people off your property.",
+					"description": "Drží lidi pryč z tvého majetku.",
 					"recipe_name": "Picket Fence Long",
 					"flavor": "If it's not white, is our life unfulfilled?"
 				},
 				"picket_fence_combo_recipe": {
-					"description": "Keeps people off your property.",
+					"description": "Drží lidi pryč z tvého majetku.",
 					"recipe_name": "Picket Fence Combo",
 					"flavor": "If it's not white, is our life unfulfilled?"
 				},
 				"ornate_picket_fence_combo_recipe": {
-					"description": "Keeps people off your property.",
+					"description": "Drží lidi pryč z tvého majetku.",
 					"recipe_name": "Ornate Picket Fence Combo",
 					"flavor": "A little gold leaf goes a long way!"
 				}
@@ -17393,7 +17393,7 @@
 					"perk_000_description": "The farmer can perform amazing acts of arboreal advancement! (They can grow trees.)"
 				},
 				"level_1_data": {
-					"perk_000_name": "Rychlost Nahoru",
+					"perk_000_name": "Rychlost Zvýšena",
 					"perk_000_description": "Running fresh food from field to table has increased the farmer's footspeed."
 				},
 				"level_2_data": {
@@ -17438,11 +17438,11 @@
 				"description": "The Footman is a melee fighter. A good choice for the backbone of your town's defense.",
 				"requirements": "Vyrobeno Tesařem",
 				"level_4_data": {
-					"perk_000_name": "Poškození Nahoru 40%",
+					"perk_000_name": "Poškození Zvýšeno 40%",
 					"perk_000_description": "The footman is now practiced at optimizing the effect of each blow."
 				},
 				"level_1_data": {
-					"perk_000_name": "Poškození Nahoru 20%",
+					"perk_000_name": "Poškození Zvýšeno 20%",
 					"perk_000_description": "The footman knows that all combats may have mortal consequences, and attacks with renewed determination."
 				},
 				"level_3_data": {
@@ -17450,7 +17450,7 @@
 					"perk_000_description": "This powerful, overhead swing deals double damage."
 				},
 				"level_6_data": {
-					"perk_000_name": "Poškození Nahoru 60%",
+					"perk_000_name": "Poškození Zvýšeno 60%",
 					"perk_000_description": "Maximální poškození!"
 				},
 				"level_2_data": {
@@ -17519,22 +17519,22 @@
 					"perk_000_description": "The Geomancer can now craft all golems, and keep up to 10 of them active simulataneously."
 				},
 				"level_1_data": {
-					"perk_000_name": "Summoning",
-					"perk_000_description": "The Geomancer can now craft stones that summon terrain chunks and basic features."
+					"perk_000_name": "Vyvolávání",
+					"perk_000_description": "Geomancer teď může vyrábět kameny které vyvolají kusy terénu a základní funkce."
 				},
 				"level_4_data": {
-					"perk_001_name": "Summoned Wonder",
-					"perk_000_name": "Jewels of the Earth",
-					"perk_001_description": "The Geomancer can now craft stones that summon landmarks.",
-					"perk_000_description": "The Geomancer can now craft stones that summon ore veins."
+					"perk_001_name": "Vyvolaný Zázrak",
+					"perk_000_name": "Klenoty Země",
+					"perk_001_description": "Geomancer teď může vyrábět kameny které vyvolají orientační body.",
+					"perk_000_description": "Geomancer teď může vyrábět kameny které vyvolají rudní žíly."
 				},
 				"level_5_data": {
-					"perk_000_name": "Golem Craftsmanship",
-					"perk_000_description": "The Geomancer can now craft advanced golems, and keep up to 6 of them active simulataneously."
+					"perk_000_name": "Řemeslnictví Golemů",
+					"perk_000_description": "Geomancer teď může vyrábět pokročilé golemy, a udržet jich 6 aktivních zároveň."
 				},
 				"level_3_data": {
-					"perk_000_name": "Breath of Life",
-					"perk_000_description": "The Geomancer can now craft basic golems, and keep up to 3 of them active simulataneously."
+					"perk_000_name": "Dech Života",
+					"perk_000_description": "Geomancer teď může vyrábět základní golemy, a udržet jich 3 aktivní zároveň."
 				}
 			},
 			"geomancer_outfit": {
@@ -17556,7 +17556,7 @@
 					"display_name": "Geomancerská Hůl",
 					"description": "Intensifies the bearer's ability to interact with the powers of Hearth."
 				},
-				"display_name": "Geomancer Talisman",
+				"display_name": "Geomancerův Talisman",
 				"description": "Intensifies the bearer's ability to interact with the powers of Hearth."
 			},
 			"geomancer_golem_workbench": {
@@ -17568,11 +17568,11 @@
 			"recipes": {
 				"categories": {
 					"workbenches": "Workbenches",
-					"resources": "Resources",
-					"terrain": "Terrain",
-					"landmarks": "Landmarks",
-					"water": "Water Manipulation",
-					"golems": "Golems"
+					"resources": "Zdroje",
+					"terrain": "Terén",
+					"landmarks": "Orientační Body",
+					"water": "Manipulace s Vodou",
+					"golems": "Golemové"
 				},
 				"golem_restocking_recipe": {
 					"description": "Performs restocking tasks.",
@@ -17656,28 +17656,28 @@
 					"recipe_name": "Rune Site Stone"
 				},
 				"summon_stone_vein_coal_recipe": {
-					"description": "Grows into a vein of coal",
-					"recipe_name": "Coal Vein Stone"
+					"description": "Vyroste do žíly uhlí",
+					"recipe_name": "Kámen Uhlové Žíly"
 				},
 				"summon_stone_vein_copper_recipe": {
-					"description": "Grows into a vein of copper ore",
-					"recipe_name": "Copper Vein Stone"
+					"description": "Vyroste do žíly měděné rudy",
+					"recipe_name": "Kámen Měděné Žíly"
 				},
 				"summon_stone_vein_gold_recipe": {
-					"description": "Grows into a vein of gold ore",
-					"recipe_name": "Gold Vein Stone"
+					"description": "Vyroste do žíly zlaté rudy",
+					"recipe_name": "Kámen Zlaté Žíly"
 				},
 				"summon_stone_vein_iron_recipe": {
-					"description": "Grows into a vein of iron ore",
-					"recipe_name": "Iron Vein Stone"
+					"description": "Vyroste do žíly železné rudy",
+					"recipe_name": "Kámen Železné Žíly"
 				},
 				"summon_stone_vein_silver_recipe": {
-					"description": "Grows into a vein of silver ore",
-					"recipe_name": "Silver Vein Stone"
+					"description": "Vyroste do žíly stříbrné rudy",
+					"recipe_name": "Kámen Stříbrné Žíly"
 				},
 				"summon_stone_vein_tin_recipe": {
-					"description": "Grows into a vein of tin ore",
-					"recipe_name": "Tin Vein Stone"
+					"description": "Vyroste do žíly cínové rudy",
+					"recipe_name": "Kámen Cínové Žíly"
 				},
 				"wet_stone_greater_recipe": {
 					"description": "Four times more moist than a regular wet stone.",
@@ -17693,20 +17693,20 @@
 					"flavor": "Deseeded buds hold no magical power, but the seeds can be planted to grow anew."
 				},
 				"summon_stone_sleeping_giant_recipe": {
-					"description": "Summons the memory of an ancient slumbering worker.",
-					"recipe_name": "Sleeping Stone"
+					"description": "Vyvolá vzpomínku prastarého spícího dělníka.",
+					"recipe_name": "Spící Kámen"
 				},
 				"summon_stone_riverbed_dry_recipe": {
-					"description": "Summons the memory of an ancient river.",
+					"description": "Vyvolá vzpomínku starobylé řeky.",
 					"recipe_name": "Dry Riverbed Stone"
 				},
 				"summon_stone_moon_recipe": {
-					"description": "Summons a pattern of a cute Moon.",
-					"recipe_name": "Moon Stone"
+					"description": "Vyvolá tvar roztomilého Měsíčku.",
+					"recipe_name": "Měsíční Kámen"
 				},
 				"summon_stone_sun_recipe": {
-					"description": "Summons a pattern of a cute Sun.",
-					"recipe_name": "Sun Stone"
+					"description": "Vyvolá tvar roztomilého Sluníčka.",
+					"recipe_name": "Sluneční Kámen"
 				}
 			}
 		},
@@ -17723,7 +17723,7 @@
 				"requirements": "Vyrobeno Tesařem",
 				"workshop": {
 					"name": "Mason's Workshop",
-					"description": "insert description here",
+					"description": "přidej popis sem",
 					"long_description": "The Mason crafts building materials and decorative items from stone."
 				},
 				"level_6_data": {
@@ -17794,7 +17794,7 @@
 				"refined_name": "Rafinováno",
 				"bird_bath_recipe": {
 					"description": "A decorative stone vase with water for the birdies.",
-					"recipe_name": "Bird Bath",
+					"recipe_name": "Ptačí Koupel",
 					"flavor": "Není židle."
 				},
 				"amberstone_lantern_recipe": {
@@ -18159,12 +18159,12 @@
 					"flavor": "Romantic for some, annoying to read by for others."
 				},
 				"stone_door_2_recipe": {
-					"description": "Stronger than your average door.",
+					"description": "Silnější než tvoje průměrné dveře.",
 					"recipe_name": "Reinforced Stone Door",
 					"flavor": "This here pattern, I learned from the Squarefolk."
 				},
 				"stone_double_door_recipe": {
-					"description": "Two doors are better than one.",
+					"description": "Dvoje dveře jsou lepší nežli jedny.",
 					"recipe_name": "Kamenné Dvojité Dveře",
 					"flavor": "Some people want to make an entrance... every day."
 				},
@@ -18214,7 +18214,7 @@
 				"requirements": "Vyrobeno Kameníkem",
 				"workshop": {
 					"name": "Hrnčířovo Kolo",
-					"description": "insert description here",
+					"description": "přidej popis sem",
 					"long_description": "The Potter crafts useful goods and decorative items from clay."
 				},
 				"level_3_data": {
@@ -18228,19 +18228,19 @@
 				"level_6_data": {
 					"title": "Mistr Hrnčíř",
 					"perk_000_name": "Mistr Hrnčíř",
-					"perk_000_description": "The Potter has rediscovered ancient secrets of the Phoenix..."
+					"perk_000_description": "Hrnčíř znovuobjevil starobylá tajemství Fénixe..."
 				},
 				"level_2_data": {
-					"perk_000_name": "Art for Sale",
-					"perk_000_description": "The Potter can now make decorative items to liven up the town or sell for money."
+					"perk_000_name": "Umění na Prodej",
+					"perk_000_description": "Hrnčíř teď může dělat ozdobné předměty k oživení města nebo prodeji za peníze."
 				},
 				"level_4_data": {
 					"perk_000_name": "Kolaborativní Vhled",
-					"perk_000_description": "The Potter can now add precious metals to vases and tiles."
+					"perk_000_description": "Hrnčíř teď může přidávat drahocenné kovy do váz a dlaždic."
 				},
 				"level_1_data": {
 					"perk_000_name": "Standartní Katalog",
-					"perk_000_description": "The Potter can now make basic furniture and building adornments."
+					"perk_000_description": "Hrnčíř teď může dělat základní nábytek a stavební okrasy."
 				}
 			},
 			"recipes": {
@@ -18495,19 +18495,19 @@
 					"flavor": "Dost pevné na to aby udrželi vola."
 				},
 				"clay_fence_bar_double_recipe": {
-					"description": "Keeps people off your property.",
+					"description": "Drží lidi pryč z tvého majetku.",
 					"recipe_name": "Clay Fence Long",
-					"flavor": "More decorative than protective."
+					"flavor": "Více dekorativní než ochranný."
 				},
 				"clay_fence_bar_single_recipe": {
-					"description": "Keeps people off your property.",
+					"description": "Drží lidi pryč z tvého majetku.",
 					"recipe_name": "Clay Fence Short",
-					"flavor": "More decorative than protective."
+					"flavor": "Více dekorativní než ochranný."
 				},
 				"clay_fence_end_recipe": {
-					"description": "Keeps people off your property.",
+					"description": "Drží lidi pryč z tvého majetku.",
 					"recipe_name": "Clay Fence Post",
-					"flavor": "More decorative than protective."
+					"flavor": "Více dekorativní než ochranný."
 				},
 				"clay_fence_gate_recipe": {
 					"description": "Lets people through your fence.",
@@ -18515,9 +18515,9 @@
 					"flavor": "This decorative gate protects your fences from being broken."
 				},
 				"clay_fence_combo_recipe": {
-					"description": "Keeps people off your property.",
+					"description": "Drží lidi pryč z tvého majetku.",
 					"recipe_name": "Clay Fence Combo",
-					"flavor": "More decorative than protective."
+					"flavor": "Více dekorativní než ochranný."
 				},
 				"market_shelf_tall_ground_clay": {
 					"description": "Other players and Travellers can buy goods stocked on these shelves.",
@@ -18539,7 +18539,7 @@
 			},
 			"potter_cutter": {
 				"display_name": "Hrnčířský Řezák",
-				"description": "Used to form civilization from dirt!",
+				"description": "Užito k formování civilizace z bláta!",
 				"potter_cutter_talisman": {
 					"display_name": "Hrnčířský Řezák",
 					"description": "Vyžadován k povýšení hearthlinga na Hrnčíře."
@@ -18609,7 +18609,7 @@
 				"description": "The Trapper's snares capture and (ahem) &quot;harvest&quot; small critters for a reliable source of food and supplies.",
 				"requirements": "Vyrobeno Kameníkem",
 				"level_1_data": {
-					"perk_000_name": "Rychlost Nahoru",
+					"perk_000_name": "Rychlost Zvýšena",
 					"perk_000_description": "Dlouhé procházky zvýšili traperovu rychlost chůze."
 				},
 				"level_3_data": {
@@ -18763,13 +18763,13 @@
 				},
 				"curtains_recipe": {
 					"description": "Dresses up an otherwise ordinary window.",
-					"recipe_name": "Pretty Curtains",
+					"recipe_name": "Nádherné Záclony",
 					"flavor": "Light-blocking technology encourages sleeping-in."
 				},
 				"fur_rug_recipe": {
-					"description": "A warm and cozy rug, sewn from various animal pelts.",
-					"recipe_name": "Fur Rug",
-					"flavor": "Perfect for an evening by the fire."
+					"description": "Teplý a pohodlný koberec, sešitý z různých zvířecích kůží.",
+					"recipe_name": "Kožešinový Koberec",
+					"flavor": "Perfektní pro večer u ohně."
 				},
 				"leather_bolt_recipe": {
 					"description": "Prepared sheets of leather, ready to be put to good use.",
@@ -18810,7 +18810,7 @@
 				},
 				"throw_rug_recipe": {
 					"description": "Zesvětluje tu starou zaprášenou podlahu.",
-					"recipe_name": "Decorativní Koberec",
+					"recipe_name": "Dekorativní Koberec",
 					"flavor": "Příliš krásný po něm šlapat."
 				},
 				"worker_outfit_2_recipe": {
@@ -19153,9 +19153,9 @@
 					"flavor": "Přísahám, že jsem ho viděl/a mrknout"
 				},
 				"topiary_fox_recipe": {
-					"description": "Much better for pie than jerky",
-					"recipe_name": "Berry Fox",
-					"flavor": "Don't plant it in your poyo coop"
+					"description": "Mnohem lepší pro koláč než sušené maso",
+					"recipe_name": "Bobulová Liška",
+					"flavor": "Nesaď to ve tvém kurníku"
 				},
 				"pot_berry_bush_recipe": {
 					"description": "A carefully crated friend.",
@@ -19253,7 +19253,7 @@
 					"perk_001_description": "Klerikova přítomnost zvyšuje sílu těch kolem nich"
 				},
 				"level_2_data": {
-					"perk_000_name": "Soucit Nahoru",
+					"perk_000_name": "Soucit Zvýšen",
 					"perk_000_description": "Soucit zvýšen pro zvýšení přímého léčení"
 				},
 				"level_3_data": {
@@ -19299,7 +19299,7 @@
 					"description": "Síla mírně posílena z přítomnosti klerika"
 				},
 				"compassion_1_buff": {
-					"display_name": "Soucit Nahoru",
+					"display_name": "Soucit Zvýšen",
 					"description": "Soucit Zvýšen o 20%"
 				},
 				"heal_aura_2_buff": {
@@ -19311,7 +19311,7 @@
 					"description": "Léčení za střední hodnotu"
 				},
 				"compassion_2_buff": {
-					"display_name": "Soucit Nahoru",
+					"display_name": "Soucit Zvýšen",
 					"description": "Soucit Zvýšen o 40%"
 				},
 				"major_muscle_aura_buff": {
@@ -19404,11 +19404,11 @@
 			},
 			"knight_buffs": {
 				"defense_1_buff": {
-					"display_name": "Obrana Nahoru 10%",
+					"display_name": "Obrana Zvýšena 10%",
 					"description": "Obrana dána z vybavení navýšena o 10%"
 				},
 				"defense_2_buff": {
-					"display_name": "Obrana Nahoru 20%",
+					"display_name": "Obrana Zvýšena 20%",
 					"description": "Obrana dána z vybavení navýšena o 20%"
 				},
 				"health_1_buff": {
