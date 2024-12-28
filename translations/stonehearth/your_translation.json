@@ -20,7 +20,7 @@
 				"claiming_animal": "zpracovává zvíře",
 				"looking_for_animals": "hledá zvířata",
 				"collect_ingredient": "sbírá přísady",
-				"build_workshop": "staví workshop",
+				"build_workshop": "staví dílnu",
 				"death": "umírá",
 				"away_from_town": "mimo město",
 				"eat": "bere si jídlo",
@@ -45,7 +45,7 @@
 				"promote": "povyšuje",
 				"move_item_to_storage": "nese předmět do skladu",
 				"teardown_ladder": "odstraňuje žebřík",
-				"drop_item_near_workshop": "čistí workshop",
+				"drop_item_near_workshop": "čistí dílnu",
 				"fabricate_structure": "staví",
 				"teardown_structure": "boří stavby",
 				"feed_pasture_animals": "krmí zvířata",
@@ -257,11 +257,11 @@
 				"busy": "zaneprázdněn"
 			},
 			"build_workshop": {
-				"title": "Postavit Workshop",
+				"title": "Postavit Dílnu",
 				"requirements": "Požadavky",
 				"create_stockpile": "Řemeslníkovo Skladiště",
 				"create_stockpile_description": "Do tohoto skladiště bude řemeslník ukládat své výrobky.<p>Možná bys ho chtěl umístit blízko pracovního stolu, ale hej, to je tvoje rozhodnutí.",
-				"page1_subtitle2": "Kliknutím na zem umístíš workshop",
+				"page1_subtitle2": "Kliknutím na zem umístíš dílnu",
 				"page2_subtitle2": "Kliknutím a tahem po zemi vytvoříš skladiště"
 			},
 			"citizen_character_sheet": {
@@ -423,7 +423,7 @@
 			},
 			"steam": {
 				"workshop_agreement": {
-					"notice": "Odesláním této položky, souhlasíš s workshopovými",
+					"notice": "Odesláním této položky, souhlasíš s dílnou",
 					"terms_of_service": "podmínkami služby"
 				}
 			},
@@ -601,9 +601,9 @@
 					"wealth": "Bohatství",
 					"refined": "Zpracovné",
 					"uncategorized": "Nezařazené",
-					"workshops": "Workshopy",
+					"workshops": "Dílny",
 					"consumable": "Spotřební zboží",
-					"storage": "Skladování",
+					"storage": "Skladiště",
 					"defense": "Obrana",
 					"trophy": "Trofeje",
 					"seed": "Semínka",
@@ -1378,7 +1378,7 @@
 				"craft": "Vyrobit!",
 				"craft_queue_full": "Plná Fronta!",
 				"craftable_locked": "Odemkne se na Úrovni: [str(level)]",
-				"workshop_requirement_title": "Workshop",
+				"workshop_requirement_title": "Dílna",
 				"workshop_none_required": "Není třeba žádný!",
 				"workshop_required": "Musí být umístěn",
 				"level_requirement_title": "Požadovaná Úroveň",
@@ -6037,7 +6037,7 @@
 															"00": "\"Thank you. I hope we are not injured, but fortune favors the prepared. May our friendship continue to take root!\" He hands you some glittering bags as compensation.<br><br><font size=-1><i>[Rabbit reputation increased]</i></font>"
 														},
 														"bulletin_title": "Shook Down",
-														"choice_000": "Best of luck"
+														"choice_000": "Hodně štěstí"
 													}
 												}
 											}
@@ -6169,7 +6169,7 @@
 															"001": "\"I see, sorry to bother you. Maybe send word if more sprouts up?\""
 														},
 														"bulletin_title": "Historický Růst",
-														"choice_000": "Safe travels!"
+														"choice_000": "Šťastnou cestu!"
 													},
 													"msg1": {
 														"bulletin_message": {
@@ -6203,8 +6203,8 @@
 														"bulletin_message": {
 															"00": "\"Ahh, the full brilliance of an Amberstone is a sight to behold! Thank you for your kind service, take these in thanks.\"<br><br><font size=-1><i>[Rabbit reputation increased]</i></font>"
 														},
-														"bulletin_title": "Crystal Charged!",
-														"choice_000": "Safe Travels!"
+														"bulletin_title": "Krystal Nabitý!",
+														"choice_000": "Šťastnou Cestu!"
 													}
 												}
 											}
@@ -6253,7 +6253,7 @@
 														"bulletin_message": {
 															"00": "\"In Rabbit culture, when a new warren is dug, it exchanges statues with its neighbors to symbolize a mutual welcoming. We know you are unaware of this, but have come to offer this for our part\"<br><br>Sasha gestures to the beautifully chiseled statue of smooth, cool stone ornamented with intricate weavings and a golden core of what must be Amberstone.<br><br>\"This partnership somewhat unprecedented, but we think that you may represent hope for us against the coming darkness.\"<br><br>\"You shall see us again soon! Oh, and feel free to keep the cricket golem, it would slow me down on the return trip. Farewell!\""
 														},
-														"bulletin_title": "A New Partnership!",
+														"bulletin_title": "Nové Partnerství!",
 														"choice_000": "Děkujeme, jsme poctěni!",
 														"choice_001": "Počkat! Cvrček? Temnota?? Vrať se zpátky!"
 													},
@@ -6261,7 +6261,7 @@
 														"bulletin_message": {
 															"00": "Sasha Lightfoot approaches, a small load-bearing stone insect bobbling along behind him. \"Friends! Not long ago, my kind were afraid of you kin of Monkey, but you have dissolved our purposeless trepidation! We have found in you a dependable ally in the aboveground!\""
 														},
-														"bulletin_title": "A New Partnership",
+														"bulletin_title": "Nové Partnerství",
 														"choice_000": "Trepi... uh... right",
 														"choice_001": "Verily! Forsooth!",
 														"choice_002": "It's been nice knowing you as well"
@@ -6293,15 +6293,15 @@
 															"00": "\"Splendid! Some accomodations must first be made. You see, the Amberstone crystals are more than a mere light source - they are also what keeps us from reverting to the simple animals you see hopping around the surface.\"<br><br>\"Never fear, such a process takes considerable time. All the same, a Rabbit home would not be comfortable without an Amberstone at its center.\""
 														},
 														"bulletin_title": "Residents",
-														"choice_000": "Oh! Sounds important..."
+														"choice_000": "Och! To zní důležitě..."
 													},
 													"msg1": {
 														"bulletin_message": {
 															"00": "\"So, a pair of my more adventurous kin are interested in immigrating to the aboveground. In fact, they specifically asked me to ask you if you might have a place for them here.\""
 														},
 														"bulletin_title": "Rabbit Residents",
-														"choice_000": "Yes, we would love to have them!",
-														"choice_001": "No - but we wish them the best!"
+														"choice_000": "Ano, velice rádi bychom je měli!",
+														"choice_001": "Ne - ale přejeme jim to nejlepší!"
 													}
 												}
 											}
@@ -6448,14 +6448,14 @@
 															"00": "\"Recall what I told you before, of my people's rise when Rabbit was in Ascendance, of the discovery of Geomancy and amberstone that allows us to keep this upright form even once Snake Ascended and Rabbit waned.\"<br><br>\"I told you, too, of how my clan took to living underground, driven by both hostility and a lack of magic on Hearth's surface. That's where I left off, correct?\""
 														},
 														"bulletin_title": "Titánský Závazek",
-														"choice_000": "I remember, and yes"
+														"choice_000": "Pamatuji si, a ano"
 													},
 													"story3": {
 														"bulletin_message": {
 															"00": "\"The Phoenix capital was built on the ruins of an ancient Lapine city, which was in turn built on a nexus of Leylines. This meant it was an enormously powerful wellspring of magic.\"<br><br>\"Human Geomancy researchers built devices to extract this magic; to store it and focus it beyond anything we had ever imagined possible, and well beyond the bounds of safety or sanity. And then, a portal was opened.\"<br><br>\"Nobody knows if it was intentional, or if the strain of all that channeled magic simply tore a hole in reality. What we do know is that an entity was drawn through it, ravenous for magical energy and abhorrent of all other life.\""
 														},
 														"bulletin_title": "Titánský Závazek",
-														"choice_000": "Oh... that sounds bad."
+														"choice_000": "Och... to zní zle."
 													},
 													"favor1": {
 														"bulletin_message": {
@@ -6469,22 +6469,22 @@
 															"00": "Sasha's eyes sparkle, full of relief and gratitude. \"I was right to have put my trust in you. Please, prepare your citizens to visit with us for a time, and I will return with the finished device in time.\"<br><br>\"Perhaps use this time to store some food, shore up your defenses, and train your military. Perhaps enlist some citizens in a town guard, or build a fortified structure? One cannot be sure in what form the Titan's ire will manifest.\""
 														},
 														"bulletin_title": "Titánský Závazek",
-														"choice_000": "We will."
+														"choice_000": "Budeme."
 													},
 													"greet": {
 														"bulletin_message": {
 															"00": "\"Dear friends of the Monkey, I bring greetings and well wishes from the twenty-third warren of Amberstone.\"<br><br>\"I have a… momentous favor to ask of you, but I think perhaps you lack the context to understand it. Am I right that the history of the Phoenix Empire became lost to you humans after the cataclysm?\""
 														},
 														"bulletin_title": "Titánský Závazek",
-														"choice_000": "Please, tell us the tale",
-														"choice_001": "[skip] Nah - what favor?"
+														"choice_000": "Prosím, řekni nám příběh",
+														"choice_001": "[přeskočit] Netřeba - jaká laskavost?"
 													},
 													"story5": {
 														"bulletin_message": {
 															"00": "\"Humans, sensible, fled; to the coasts, to the northern mountains. Only recently have you started to build inwards again. Orcs, stubborn, stayed and fought the corruptions, fought the apparitions of a natural world brought to anger, defending the lands abandoned by the humans. And we Lapine, already underground, were content to wait.\"<br><br>\"But as the evil energies settled, they embedded in the ground, drawn downwards towards the source of Hearth’s magic. These fragments absorb that magic, slowly gaining strength over generations, congealing into malevolent aspects which your people have come to call ‘Titans’.\""
 														},
 														"bulletin_title": "Titánský Závazek",
-														"choice_000": "Oh."
+														"choice_000": "Och."
 													},
 													"decline": {
 														"bulletin_message": {
@@ -6499,7 +6499,7 @@
 															"00": "\"First, I will need to borrow some of your citizens: One experienced Mason to double-check our work, an experienced Blacksmith to help with reinforcement, plus two other citizens of your choosing to... help reach the tall parts.\"<br><br>\"With that complete, we will return with the weapon, and once you have prepared, we will use it to summon, attack, and destroy the Titan. The attack may take some significant time, so you should prepare for a siege.\"<br><br>\"I should say... this evil is of no <i>immediate</i> threat to you. This is a task to benefit your people's children, and mine.\""
 														},
 														"bulletin_title": "Titánský Závazek",
-														"choice_000": "We'll do it!",
+														"choice_000": "Uděláme to!",
 														"choice_001": "[Pozdržet] Nemůžeme nikoho postrádat, ale...",
 														"choice_002": "[Odmítnout] Nechceme bojovat."
 													}
@@ -6514,7 +6514,7 @@
 															"00": "Sasha returns, along with a massive, sparkling bow teetering precariously atop a skittering golem.<br><br>\"I know you previously declined to assist us with fighting the Titan,\" he says, \"but we completed this Arbalest despite your refusal. It took sacrifice, but we knew not what else to do.\"<br><br>\"It serves no use within our warren, so we have brought it here as a reminder of our request. If you decide to face the slumbering evil, merely deploy the Crystalline Arbalest and I will instruct you further."
 														},
 														"bulletin_title": "Titánský Závazek",
-														"choice_000": "I see. We'll consider..."
+														"choice_000": "Chápu. Zvážíme..."
 													}
 												}
 											}
@@ -6552,8 +6552,8 @@
 														"bulletin_message": {
 															"00": "The Rabbit Geomancer brought some Hearthbloom, Hearth Essence, and raw materials along with them, to help start their new aboveground practice."
 														},
-														"bulletin_title": "A Geomancer's Things!",
-														"dialog_title": "A Geomancer's Things!",
+														"bulletin_title": "Geomancerovy Věci!",
+														"dialog_title": "Geomancerovy Věci!",
 														"choice_000": "OK"
 													}
 												}
@@ -6583,14 +6583,14 @@
 															"00": "\"Splendid! I think even a novice Mason and Weaver would work just fine, so long as they're receptive to teaching. It shouldn't take more than two days.\""
 														},
 														"bulletin_title": "Králičí Styl",
-														"choice_000": "Let's see who to send..."
+														"choice_000": "Koukněme, koho poslat..."
 													},
 													"reject2": {
 														"bulletin_message": {
 															"00": "\"Hum. Well, I suppose maybe I still have much to learn about human aesthetics after all...\""
 														},
 														"bulletin_title": "Králičí Styl",
-														"choice_000": "Thanks for visiting, though!"
+														"choice_000": "Každopádně, děkujeme za návštěvu!"
 													},
 													"msg1": {
 														"bulletin_message": {
@@ -6793,8 +6793,8 @@
 													"bulletin_message": {
 														"000": "Emma places the scepter on the ground and slowly backs away, her garments flowing behind her.  After a moment she looks around at the different faces of the crowd:<p><i>'Of great curiosity, we are.  Stay for a while, to converse and learn, may we?'</i></p>"
 													},
-													"bulletin_title": "Emma sets down the scepter",
-													"dialog_title": "Emma sets down the scepter",
+													"bulletin_title": "Emma pokládá žezlo",
+													"dialog_title": "Emma pokládá žezlo",
 													"choice_000": "Zůstaňte tak dlouho, jak jen budete chtít!",
 													"choice_001": "Jeden z vás říkal, že je léčitel?"
 												}
@@ -6884,7 +6884,7 @@
 												},
 												"information_who": {
 													"bulletin_message": {
-														"000": "My name is Flox, of the Icedragon lineage. I was King, once, of the Dragonborn peoples, who ruled this land in an age long past."
+														"000": "Moje jmého je Flox, z linie Ledodraka. Byl jsem Král, kdysi, lidí Drakorozených, kteří vládli této zemi v době dávno minulé."
 													},
 													"bulletin_title": "Drakorozený král se usmívá",
 													"dialog_title": "Flox Ledodrak",
@@ -6895,7 +6895,7 @@
 													"bulletin_message": {
 														"000": "I am fading fast, but I have given the last of my spirit to this egg of the Great Dragon, so that the dragonling inside may finally hatch out into this world. I have known you for little time, Children of Monkey, but I trust you will aid this young welp as you have aided me. May you carry yourselves with strength and compassion, as the Dragonborn once did."
 													},
-													"bulletin_title": "The Dragonborn King breathes softly into the egg in front of him",
+													"bulletin_title": "Drakorozený Král jemně vydechne do vejce před ním",
 													"dialog_title": "Flox Ledodrak",
 													"choice_000": "Poctíme tě, Králi. Ať spočineš v pokoji."
 												},
@@ -6903,9 +6903,9 @@
 													"bulletin_message": {
 														"000": "It is a King's duty to protect the Great Dragon's lineage - a duty that endures even through death.  My spirit has kept this place hidden, veiled from sense and sight, for as long as it could.  I see now that I can maintain my vigil no longer, and that the Dragon's lineage is at risk."
 													},
-													"bulletin_title": "The dragonborn king straightens his back in pride",
+													"bulletin_title": "Drakorozený král pyšně vzpřímí svoje záda",
 													"dialog_title": "Flox Ledodrak",
-													"choice_000": "How can we help with the lineage thing?",
+													"choice_000": "Jak můžeme pomoci s věcí linie?",
 													"choice_001": "Kdo jsi?",
 													"choice_002": "Jak dlouho jsi tady byl?"
 												}
@@ -6917,7 +6917,7 @@
 											"dialog_nodes": {
 												"msg1": {
 													"bulletin_message": {
-														"000": "I can stand no longer. The trove has fallen, and with it the last light of my people. I was a fool to stay silent so long..."
+														"000": "Nemůžu již déle zůstat. Břeh padnul, a s ním i poslední světlo mého lidu. Byl jsem hlupák, že jsem zůstal tiše tak dlouho..."
 													},
 													"bulletin_title": "Hlas se navrací, očividně s velikou snahou",
 													"dialog_title": "Duchovní Hlas",
@@ -7290,8 +7290,8 @@
 			},
 			"titan_building_destroyer": {
 				"titan_building_destroyer_waiting": {
-					"display_name": "Destruction in Waiting",
-					"description": "Once this finishes waking up, it will destroy the structure!"
+					"display_name": "Skáza již Čeká",
+					"description": "Když tohle dokončí probouzení, tak to zničí stavbu!"
 				}
 			},
 			"tentacle_snared": {
@@ -7516,7 +7516,7 @@
 		},
 		"commands": {
 			"build_workshop": {
-				"display_name": "Postav Workshop",
+				"display_name": "Postav Dílnu",
 				"description": "Vytvoř místo pro produktivitu!"
 			},
 			"chop_tree": {
@@ -7594,24 +7594,24 @@
 				"description": "Obnov Terén do jeho původního stavu."
 			},
 			"show_workshop": {
-				"display_name": "Workshop",
+				"display_name": "Dilna",
 				"description": "Your crafter uses the workshop to construct useful items for your settlement.",
 				"disabled_description": "Your crafter uses the workshop to construct useful items for your settlement. Before you can craft you need to assign a crafter to this workshop."
 			},
 			"show_workshop_from_crafter": {
-				"display_name": "Workshop",
+				"display_name": "Dílna",
 				"description": "Your crafter uses the workshop to construct useful items for your settlement.",
 				"disabled_description": "Your crafter uses the workshop to construct useful items for your settlement. Before you can craft you need to assign a crafter to this workshop."
 			},
 			"slaughter": {
-				"display_name": "Harvest for Meat",
+				"display_name": "Sesbírej pro Maso",
 				"description": "Have your shepherd harvest this animal for its meat.",
 				"disabled_description": "Tohle zvíře je tak podvyživené, že nemělo žádné maso. Jenom kost a kůže."
 			},
 			"spawn_glory_wave": {
 				"display_name": "Vyvolej Vlnu Nepřátel",
 				"description": "Vyvolej další vlnu nepřátel, abys získal více slávy.",
-				"disabled_description": "No more enemies are knocking down your door just yet.",
+				"disabled_description": "Žádní další nepřátelé již zatím neklopou na tvoje dveře.",
 				"glory_level_achieved_bulletin": "Úroveň Slávy [str(i18n_data.glory_level)] dosažena!"
 			},
 			"undeploy_item": {
@@ -7736,10 +7736,10 @@
 		"personality": {
 			"carpenter_promote": {
 				"promote_carpenter": {
-					"text": "On Hearing the Call of the Saw:",
+					"text": "Na Slyšení Volání Pily:",
 					"logs": {
 						"lovable_rogue": {
-							"000": "You want me to be the carpenter? Can I... sell the stuff I make? Or is this communal property?"
+							"000": "Chceš bych byl/a tesařem? Můžu... prodat věci které udělám? Anebo je tohle veřejný majetek?"
 						},
 						"diligent_sweetheart": {
 							"000": "Já? Ty chceš abych byl/a tesař? Oukej, udělám jak nejlépe budu moct!"
@@ -7817,14 +7817,14 @@
 							"005": "Nemůžu si prostě pomoct zmínit alarmující poměr, se kterým odlesňujeme celou oblast... Co? Né, samozřejmě, že se nesnažím se vyhnout dřevorubeckým povinnostem!"
 						},
 						"diligent_sweetheart": {
-							"000": "I guess I can learn to chop down trees if that's what needs to be done.",
+							"000": "Myslím, že se můžu naučit kácení stromů, pokud to je to, co musí být uděláno.",
 							"001": "I'm going to put a little splinter beside the campfire for every tree I've cut down, separated by day. That way I can tell if I'm getting better at it!",
 							"002": "I hope people think callouses on the palms of the hands are attractive.",
 							"003": "I hear suffering builds character!",
 							"004": "Kácení je docela uklidňující, pokud se tedy pořád neobáváte příliš, že ten strom padne na vás.",
 							"005": "I hope we're not disturbing anyone's home. Imagine what it would be like to have your home cut down around you to use to make someone else's home!",
 							"006": "I hope trees don't have nerves. This would hurt a lot if they did. If they're screaming for us to stop, it must be on a different frequency.",
-							"007": "I was holding my axe today and I realized I could do some real harm if I ever used it on a person, instead of on a tree."
+							"007": "Držel/a jsem dneska mojí sekeru, a zjistil/a jsem, že bych mohl/a udělat nějaká vážná zranění, kdybych jí použil/a na člověka, namísto stromu."
 						}
 					}
 				}
@@ -7879,7 +7879,7 @@
 					"logs": {
 						"generic": {
 							"dead_friend_and_teacher": {
-								"000": "[str(entry.teacher)] keep you safe, [name(entry.dead_friend)]."
+								"000": "[str(entry.teacher)] drž se, [name(entry.dead_friend)]."
 							},
 							"dead_friend": {
 								"000": "[name(entry.dead_friend)]? [name(entry.dead_friend)]!!!",
@@ -7892,7 +7892,7 @@
 								"007": "Neměj strach, [name(entry.dead_friend)]. Pomstíme tě!",
 								"008": "Nemůžu uvěřit, že [name(entry.dead_friend)] je vážně pryč.",
 								"009": "[name(entry.dead_friend)]? Pryč? Náhle tahle celá věc vypadá, že vůbec nestála za to, nějak.",
-								"010": "Gee, now I really wish I hadn't talked [name(entry.dead_friend)] into this adventure.",
+								"010": "Ježiši, teď si vážně přeju, abych nepřemluvil/a [name(entry.dead_friend)] do tohohle dobrodružství.",
 								"011": "[name(entry.dead_friend)]!!"
 							}
 						}
@@ -7911,13 +7911,13 @@
 							}
 						},
 						"insufferable_academic": {
-							"000": "Expeditious Retreat! Expeditious Retreat!!!",
+							"000": "Rychlý Ústup! Rychlý Ústup!!!",
 							"001": "Když pochybuješ, PANIKAŘ!!!",
 							"002": "Keep Calm and AIEEEEE!",
 							"003": "::tiše kvílí::",
 							"004": "Držte se zpátky, Démoni z nočních můr!",
 							"005": "Děs je zlý pro krevní tlak!!!",
-							"006": "Cardiac arrest incoming!!!",
+							"006": "Přichází srdeční zástava!!!",
 							"007": "Mozek... paralyzován...!",
 							"008": "Pomoc! Pooommmooocc!!!"
 						},
@@ -8078,7 +8078,7 @@
 							"064": "Měl/a jsem sen, kde všude po zemi byli vejce a já jsem musel/a našlapovat velice opatrně kolem nich.",
 							"065": "Snil/a jsem, že jsem jedl/a bachratý pojo koláč ... chutnal dobře.",
 							"066": "Poslední noc jsem snil/a, že někdo četl můj deníček. Hrůza.",
-							"067": "I dreamed of creatures of immeasurable power surrounding us. They were actually poyo.",
+							"067": "Snil/a jsem, že nás obklopovali stvoření nesmírné síly. Byli to vlastně poja.",
 							"068": "Snil/a jsem, že můj meč by se rozzářil modře, když by byli poblíž goblini.",
 							"069": "I dreamed that we fried up strips of fatty, salted meat from a tusked animal we hunted in the forest. It was the most delicious thing I ever ate! I think I'll call it ... &quot;bacon&quot;.",
 							"070": "Snil/a jsem, že jsem měl/a malinké pojo, které jsem velice miloval/a. Udělal/a jsem mu k nošení malinký čepec na jeho hlavinku!",
@@ -8214,7 +8214,7 @@
 						},
 						"beleaguered_leader": {
 							"000": "Další [str(entry.recent_food)]? Radost.",
-							"001": "Better chug this [str(entry.recent_food)] down; got to set a good example.",
+							"001": "Lepší sežvíkat tohle [str(entry.recent_food)]; musel/a jsem učinit dobrý příklad.",
 							"002": "[str(entry.recent_food)] zaručeně chutná lépe než hladovět, ale...",
 							"003": "[str(entry.recent_food)] zase? Cítím, že vzpoura přichází."
 						},
@@ -8279,7 +8279,7 @@
 						"generic": {
 							"000": "Wow! That [str(entry.recent_food)] made me feel super healthy!",
 							"001": "That [str(entry.recent_food)] was surprisingly satisfying!",
-							"002": "[str(entry.recent_food)]? Super filling!",
+							"002": "[str(entry.recent_food)]? Super naplňující!",
 							"003": "This [str(entry.recent_food)] is going to fuel today's great works!"
 						}
 					}
@@ -8319,7 +8319,7 @@
 							"000": "Three days have passed since I had a decent philosophical conversation. Trying not to panic. Failing. Trying to keep it in. Succeeding. Mostly."
 						},
 						"beleaguered_leader": {
-							"000": "Everyone seems to have gotten here OK! Well... almost everyone..."
+							"000": "Zdá se, že se sem všichni dostali OK! Dobrá... téměř všichni..."
 						},
 						"diligent_sweetheart": {
 							"000": "Wow! This is a lot of great outdoors. Well, time to form strong relationships and build community!"
@@ -8346,7 +8346,7 @@
 			},
 			"gathering_supplies": {
 				"gathering_supplies": {
-					"text": "On Gathering:",
+					"text": "Na Shromáždění:",
 					"logs": {
 						"generic": {
 							"000": "Whoa. [str(entry.gather_target)]. Here goes!",
@@ -8480,7 +8480,7 @@
 							"000": "To je oukej, nemusím jíst každý den.",
 							"001": "Podle předpisů Církve Hojnosti, by jsme měli jíst alespoň jednou denně.",
 							"teacher": {
-								"000": "A day without food? At home we used to go a whole week for the festival of [str(entry.teacher)]!"
+								"000": "Celý den bez jídla ? Doma jsme zvykli chodit celý týden na festival [str(entry.teacher)]!"
 							}
 						},
 						"lovable_rogue": {
@@ -8550,7 +8550,7 @@
 			},
 			"weaver_promote": {
 				"promote_weaver": {
-					"text": "On Spindles:",
+					"text": "Na Vřetena:",
 					"logs": {
 						"psychopathic_misanthrope": {
 							"000": "Ty chceš mě abych byl/a Tkalcem? Všechno co já vím ohledně tkaní: zapíchnout ostrý konec do jiné osoby. Tohle by mělo být zajímavé."
@@ -8596,14 +8596,14 @@
 			"kobolds": {
 				"wolf_tank": {
 					"kobold_wolf": {
-						"display_name": "Kobold Wolf",
-						"description": "A Fearsome Wolf!"
+						"display_name": "Koboldí Vlk",
+						"description": "Hrůzostrašný Vlk!"
 					}
 				}
 			},
 			"orcs": {
 				"warchief_boss": {
-					"display_name": "Warchief Oghar Norwind",
+					"display_name": "Vojvoda Oghar Severák",
 					"description": "Ona je šéf."
 				}
 			},
@@ -8616,7 +8616,7 @@
 				},
 				"giant_stoneling": {
 					"display_name": "Obří Stoneling",
-					"description": "Not quite a pebble anymore!"
+					"description": "Již více není oblázkem!"
 				}
 			},
 			"corruption": {
@@ -8626,11 +8626,11 @@
 				},
 				"wolf": {
 					"display_name": "Corrupted Beast",
-					"description": "Maybe a wolf, once..."
+					"description": "Možná vlk, kdysi..."
 				},
 				"zilla": {
-					"display_name": "Titan Wyrm",
-					"description": "Zlá. Hladová."
+					"display_name": "Titánský Wyrm",
+					"description": "Zlý. Hladový."
 				}
 			},
 			"undead": {
@@ -8690,23 +8690,23 @@
 					"ui_steps": {
 						"set1": {
 							"step003": {
-								"title": "Click the Carpenter's Workshop"
+								"title": "Klikni na Tesařskou Dílnu"
 							},
 							"step002": {
-								"title": "Open the Carpenter's Craft Menu"
+								"title": "Otevři Tesařovo Výrobní Menu"
 							},
 							"step005": {
 								"title": "Klikni X pro zavření tohoho okna"
 							},
 							"step004": {
-								"title": "Click the Craft button to craft the workshop"
+								"title": "Klikni na tlačítko Vyrobit pro vyrobení dílny"
 							},
 							"step001": {
-								"title": "Open the workshop menu",
+								"title": "Otevři menu dílny",
 								"description": "Use this menu to manage the various crafting workshops of your citizens. "
 							},
 							"step000": {
-								"title": "Set Up a Workbench",
+								"title": "Nastav Pracovní Stůl",
 								"description": "Our carpenter needs a crafting station in order to craft items for the town. Let's make a workbench!"
 							}
 						}
@@ -8716,11 +8716,11 @@
 					"ui_steps": {
 						"set1": {
 							"step001": {
-								"title": "Open the Build Menu",
+								"title": "Otevři Stavební Menu",
 								"description": "Use this menu to build structures and place items in your town."
 							},
 							"step000": {
-								"title": "Place the Carpenter's Workbench",
+								"title": "Umísti Tesařský Pracovní Stůl",
 								"description": "Now that we've crafted the workbench, we need to place it in town for the Carpenter to use."
 							},
 							"step003": {
@@ -10537,13 +10537,13 @@
 			"large_crate": {
 				"large_crate_ghost": {
 					"display_name": "Velká Bedna",
-					"description": "Skladuje 32 předmětů"
+					"description": "Skladuje až 32 předmětů"
 				}
 			},
 			"large_urn": {
 				"large_urn_ghost": {
 					"display_name": "Velká Urna",
-					"description": "Skladuje 32 předmětů"
+					"description": "Skladuje až 32 předmětů"
 				}
 			},
 			"amberstone_chest": {
@@ -10555,7 +10555,7 @@
 			"leather_bound_chest": {
 				"leather_bound_chest_ghost": {
 					"display_name": "Leather Bound Chest",
-					"description": "Skladuje 64 předmětů"
+					"description": "Skladuje až 64 předmětů"
 				}
 			},
 			"small_crate": {
@@ -10567,13 +10567,13 @@
 			"stone_chest": {
 				"stone_chest_ghost": {
 					"display_name": "Kamenná Truhla",
-					"description": "Skladuje 64 předmětů"
+					"description": "Skladuje až 64 předmětů"
 				}
 			},
 			"barrel": {
 				"barrel_ghost": {
 					"display_name": "Čtvercový Barel",
-					"description": "Sklad"
+					"description": "Skladovací nádoba"
 				}
 			},
 			"small_urn": {
@@ -10625,19 +10625,19 @@
 			"large_crate_fine": {
 				"large_crate_fine_ghost": {
 					"display_name": "Hezká Velká Bedna",
-					"description": "Stores up to 32 items. With style."
+					"description": "Skladuje až 32 předmětů. Se stylem."
 				}
 			},
 			"leather_bound_chest_fine": {
 				"leather_bound_chest_fine_ghost": {
 					"display_name": "Fine Leather Bound Chest",
-					"description": "Stores up to 64 items. With style."
+					"description": "Skladuje až 64 předmětů. Se stylem."
 				}
 			},
 			"ornate_leather_bound_chest": {
 				"ornate_leather_bound_chest_ghost": {
 					"display_name": "Ornate Leather Bound Chest",
-					"description": "Stores up to 64 items. With style."
+					"description": "Skladuje až 64 předmětů. Se stylem."
 				}
 			},
 			"output_box_wood": {
@@ -10684,7 +10684,7 @@
 			},
 			"input_bin_wood": {
 				"input_bin_wood_ghost": {
-					"display_name": "Wooden Supply Crate",
+					"display_name": "Dřevěná Zásobovací Bedna",
 					"description": "A supply container, for quicker crafting."
 				}
 			},
@@ -10703,13 +10703,13 @@
 			"input_shelf_wall_clay": {
 				"input_shelf_wall_clay_ghost": {
 					"display_name": "Ceramic Wall Supply Shelf",
-					"description": "Make sure it's within reach!"
+					"description": "Ujisti se, že je na dosah ruky!"
 				}
 			},
 			"input_shelf_wall_stone": {
 				"input_shelf_wall_stone_ghost": {
 					"display_name": "Stonework Wall Supply Shelf",
-					"description": "Make sure it's within reach!"
+					"description": "Ujisti se, že je na dosah ruky!"
 				}
 			},
 			"input_shelf_ground_clay": {
@@ -10733,7 +10733,7 @@
 			"input_shelf_wall_wood": {
 				"input_shelf_wall_wood_ghost": {
 					"display_name": "Wooden Wall Supply Shelf",
-					"description": "Make sure it's within reach!"
+					"description": "Ujisti se, že je na dosah ruky!"
 				}
 			},
 			"input_table_ground_iron": {
@@ -10966,7 +10966,7 @@
 				"description": "Roztomilý malý hmyz",
 				"species": "doodles",
 				"doodles_jerky": {
-					"display_name": "Doodles Bug Meat"
+					"display_name": "Doodlesovo Broučí Maso"
 				}
 			},
 			"red_fox_wolf": {
@@ -11024,11 +11024,11 @@
 					},
 					"000": {
 						"name": "Sazenice Mrkve",
-						"description": "A unrealized carrot."
+						"description": "Nerealizovaná mrkev."
 					},
 					"011": {
 						"name": "Shnilá Mrkev",
-						"description": "Moldy and disgusting."
+						"description": "Plesnivá a nechutná."
 					}
 				}
 			},
@@ -11063,20 +11063,20 @@
 				"description": "Can be used as a healing herb",
 				"growth_stage": {
 					"001": {
-						"name": "Frostsnap Sprout",
+						"name": "Výhonek Mrazenky",
 						"description": "Stubby."
 					},
 					"003": {
 						"name": "Mrazenka",
-						"description": "Mysteriously cool."
+						"description": "Tajemně chladná."
 					},
 					"000": {
 						"name": "Sazenice Mrazenky",
-						"description": "Full of potential."
+						"description": "Plná potencionálu."
 					},
 					"002": {
 						"name": "Pupen Mrazenky",
-						"description": "Like a baby snowflake."
+						"description": "Jako mrňavá sněhová vločka."
 					}
 				}
 			},
@@ -11086,23 +11086,23 @@
 				"growth_stage": {
 					"003": {
 						"name": "Zralý Tuřín",
-						"description": "Delicious!"
+						"description": "Lahodný!"
 					},
 					"002": {
 						"name": "Mrňavý Tuřín",
 						"description": "Malý. Hořký."
 					},
 					"001": {
-						"name": "Turnip Sprout",
+						"name": "Výhonek Tuřínu",
 						"description": "Ještě není jedlý!"
 					},
 					"000": {
 						"name": "Sazenice Tuřínu",
-						"description": "A unrealized turnip."
+						"description": "Nerealizovaný tuřín."
 					},
 					"011": {
 						"name": "Shnilý Tuřín",
-						"description": "Moldy and disgusting."
+						"description": "Plesnivý a nechutný."
 					}
 				}
 			},
@@ -11112,23 +11112,23 @@
 				"growth_stage": {
 					"003": {
 						"name": "Zralá dýně",
-						"description": "Delicious!"
+						"description": "Lahodná!"
 					},
 					"002": {
 						"name": "Mrňavá Dýně",
 						"description": "Ještě není jedlá!"
 					},
 					"001": {
-						"name": "Pumpkin Sprout",
+						"name": "Výhonek Dýně",
 						"description": "Ještě není jedlá!"
 					},
 					"000": {
 						"name": "Sazenice Dýně",
-						"description": "A unrealized pumpkin."
+						"description": "Nerealizovaná dýně."
 					},
 					"011": {
 						"name": "Shnilá dýně",
-						"description": "Moldy and disgusting."
+						"description": "Plesnivá a nechutná."
 					}
 				}
 			},
@@ -11138,23 +11138,23 @@
 				"growth_stage": {
 					"003": {
 						"name": "Zralý meloun",
-						"description": "Delicious!"
+						"description": "Lahodný!"
 					},
 					"002": {
 						"name": "Mrňavý meloun",
 						"description": "Ještě není jedlý!"
 					},
 					"001": {
-						"name": "Watermelon Sprout",
+						"name": "Výhonek Melounu",
 						"description": "Ještě není jedlý!"
 					},
 					"000": {
 						"name": "Sazenice Melounu",
-						"description": "A unrealized watermelon."
+						"description": "Nerealizovaný meloun."
 					},
 					"011": {
 						"name": "Shnilý meloun",
-						"description": "Moldy and disgusting."
+						"description": "Plesnivý a nechutný."
 					}
 				}
 			},
@@ -11167,7 +11167,7 @@
 						"description": "Ready for weaving!"
 					},
 					"001": {
-						"name": "Silkweed sprout",
+						"name": "výhonek Hebkotravu",
 						"description": "Sprout, little one!"
 					},
 					"000": {
@@ -11178,7 +11178,7 @@
 						"name": "Shnilý Hebkotrav"
 					},
 					"003": {
-						"name": "Immature silkweed",
+						"name": "Nezralý hebkotrav",
 						"description": "Flossy hairs are beginning to emerge"
 					},
 					"002": {
@@ -11195,23 +11195,23 @@
 					"description": "Steeped in the soil.",
 					"growth_stage": {
 						"001": {
-							"name": "Ripe Tester",
-							"description": "Delicious!"
+							"name": "Zralý Tester",
+							"description": "Lahodný!"
 						},
 						"000": {
 							"name": "Sazenice Testeru",
-							"description": "A unrealized tester."
+							"description": "Nerealizovaný tester."
 						}
 					}
 				},
 				"growth_stage": {
 					"001": {
-						"name": "Ripe Tester",
-						"description": "Delicious!"
+						"name": "Zralý Tester",
+						"description": "Lahodný!"
 					},
 					"000": {
 						"name": "Sazenice Testeru",
-						"description": "A unrealized tester."
+						"description": "Nerealizovaný tester."
 					}
 				}
 			},
@@ -11220,12 +11220,12 @@
 				"description": "Steeped in the soil.",
 				"growth_stage": {
 					"001": {
-						"name": "Ripe Tester",
-						"description": "Delicious!"
+						"name": "Zralý Tester",
+						"description": "Lahodný!"
 					},
 					"000": {
 						"name": "Sazenice Testeru",
-						"description": "A unrealized tester."
+						"description": "Nerealizovaný tester."
 					}
 				}
 			},
@@ -11237,7 +11237,7 @@
 						"name": "Dospělý hebkotrav"
 					},
 					"001": {
-						"name": "Silkweed sprout"
+						"name": "výhonek Hebkotravu"
 					},
 					"000": {
 						"name": "Sazenice Hebkotravu"
@@ -11246,7 +11246,7 @@
 						"name": "Shnilý hebkotrav"
 					},
 					"003": {
-						"name": "Immature silkweed"
+						"name": "Nezralý hebkotrav"
 					},
 					"002": {
 						"name": "Stubby silkweed"
@@ -11259,23 +11259,23 @@
 				"growth_stage": {
 					"003": {
 						"name": "Zralý Tuřín",
-						"description": "Delicious!"
+						"description": "Lahodný!"
 					},
 					"002": {
 						"name": "Mrňavý Tuřín",
 						"description": "Malý. Hořký."
 					},
 					"001": {
-						"name": "Turnip Sprout",
+						"name": "Výhonek Tuřínu",
 						"description": "Ještě není jedlý!"
 					},
 					"000": {
 						"name": "Sazenice Tuřínu",
-						"description": "A unrealized turnip."
+						"description": "Nerealizovaný tuřín."
 					},
 					"011": {
 						"name": "Shnilý Tuřín",
-						"description": "Moldy and disgusting."
+						"description": "Plesnivý a nechutný."
 					}
 				}
 			},
@@ -11288,11 +11288,11 @@
 						"description": "Připravena na sklizeň!"
 					},
 					"002": {
-						"name": "Immature wheat",
+						"name": "Nezralá pšenice",
 						"description": "Není připravena na sklizeň"
 					},
 					"001": {
-						"name": "Wheat Sprout",
+						"name": "Výhonek Pšenice",
 						"description": "Není připravena na sklizeň"
 					},
 					"000": {
@@ -11322,7 +11322,7 @@
 						"description": "Even a mighty tree has humble beginnings."
 					},
 					"002": {
-						"name": "Oak Tree Sprout",
+						"name": "Výhonek Dubu",
 						"description": "Reach for the sun, little oakling."
 					}
 				}
@@ -11344,7 +11344,7 @@
 						"description": "Even a mighty tree has humble beginnings."
 					},
 					"002": {
-						"name": "Acacia Tree Sprout",
+						"name": "Výhonek Akácie",
 						"description": "Perfect size for a baby giraffe."
 					}
 				}
@@ -11422,7 +11422,7 @@
 						"description": "Even a mighty cactus has humble beginnings."
 					},
 					"002": {
-						"name": "Cactus Sprout",
+						"name": "Výhonek Kaktusu",
 						"description": "Perfect size for a baby lizard."
 					}
 				}
@@ -11444,7 +11444,7 @@
 						"description": "Even a mighty juniper has humble beginnings."
 					},
 					"002": {
-						"name": "Juniper Sprout",
+						"name": "Výhonek Jalovce",
 						"description": "Perfect size for a rabbit to hide in."
 					}
 				}
@@ -11466,7 +11466,7 @@
 						"description": "A new pine tree taking root."
 					},
 					"002": {
-						"name": "Pine Sprout",
+						"name": "Výhonek Borovice",
 						"description": "A perfect tiny pine. Still growing!"
 					}
 				}
@@ -11484,7 +11484,7 @@
 					},
 					"011": {
 						"name": "Shnilá Sladká Brambora",
-						"description": "Moldy and inedible"
+						"description": "Plesnivá a nejedlá"
 					},
 					"000": {
 						"description": "Someday will grow into a tasty purple veggie."
@@ -11505,7 +11505,7 @@
 					},
 					"000": {
 						"name": "Heirbloom Shoot",
-						"description": "A hardy sprout"
+						"description": "Vytrvalý výhonek"
 					},
 					"002": {
 						"name": "Unripe Heirbloom",
@@ -12015,19 +12015,19 @@
 				"door_blacksmith": {
 					"door_blacksmith_ghost": {
 						"display_name": "Kovářovy dveře",
-						"description": "Fit for a master blacksmith's workshop"
+						"description": "Pasují pro dílnu mistra kováře"
 					}
 				},
 				"door_carpenter": {
 					"door_carpenter_ghost": {
 						"display_name": "Tesařovy dveře",
-						"description": "Fit for a master carpenter's woodshop"
+						"description": "Pasují pro dřevárnu mistra tesaře"
 					}
 				},
 				"door_mason": {
 					"door_mason_ghost": {
 						"display_name": "Kameníkovy dveře",
-						"description": "Fit for a master mason's workshop"
+						"description": "Pasují pro dílnu mistra kameníka"
 					}
 				},
 				"fence_brightbell": {
@@ -12417,8 +12417,8 @@
 					"description": "Připraveno k jezení"
 				},
 				"pumpkin_serving": {
-					"display_name": "Pumpkin Mush",
-					"description": "Delicious. Really..."
+					"display_name": "Dýňová Kaše",
+					"description": "Lahodná. Opravdu..."
 				}
 			},
 			"watermelon": {
@@ -12475,7 +12475,7 @@
 			"poyo_pot_pie": {
 				"poyo_pot_pie": {
 					"display_name": "Poyo Pot Pie",
-					"description": "Warm and delicious."
+					"description": "Teplý a lahodný."
 				},
 				"poyo_pot_pie_serving": {
 					"display_name": "Slice of Poyo Pot Pie",
@@ -12495,7 +12495,7 @@
 			"roast_poyo": {
 				"roast_poyo": {
 					"display_name": "Pečené Pojo",
-					"description": "Nice and juicy."
+					"description": "Pěkné a šťavnaté."
 				},
 				"roast_poyo_serving": {
 					"display_name": "Porce Pečeného Poja"
@@ -12716,7 +12716,7 @@
 			},
 			"rotten_sausage_meat": {
 				"display_name": "Shnilé Klobásy",
-				"description": "Can meat become ripe?"
+				"description": "Může se maso stát zralým?"
 			},
 			"sausage": {
 				"display_name": "Syrová Klobása",
@@ -12823,7 +12823,7 @@
 				},
 				"sweet_potato_basket": {
 					"display_name": "Košík Sladkých Brambor",
-					"description": "Seřazeno v úhledných řádkách."
+					"description": "Seřazeny v úhledných řádkách."
 				}
 			},
 			"roasted_sweet_potato": {
@@ -13794,7 +13794,7 @@
 			"carrot": {
 				"carrot_basket": {
 					"display_name": "Košík Mrkve",
-					"description": "Lined up in neat rows."
+					"description": "Seřazené v úhledných řádkách."
 				},
 				"carrot_serving": {
 					"display_name": "Mrkev",
@@ -14600,12 +14600,12 @@
 				"description": "Radiant gilding for the Emblazoned Sword."
 			},
 			"steel_frame": {
-				"display_name": "Giant's Frame",
-				"description": "Reinforces the Giant's Shield."
+				"display_name": "Obrův Rám",
+				"description": "Zesiluje Obrův Štít."
 			},
 			"giants_face": {
-				"display_name": "Giant's Face",
-				"description": "Protects the Giant's Shield."
+				"display_name": "Obrova Tvář",
+				"description": "Chrání Obrův Štít."
 			},
 			"mechanism": {
 				"display_name": "Phoenix Mechanism",
@@ -15501,7 +15501,7 @@
 			},
 			"bow": {
 				"display_name": "Luk",
-				"description": "Used by an archer for shooting arrows",
+				"description": "Užitý lučištníkem ke střílení šípů",
 				"bow_talisman": {
 					"display_name": "Lučištníkův Luk",
 					"description": "Vyžadován k povýšení hearthlinga na Lučištníka"
@@ -15574,7 +15574,7 @@
 			"healing_tonic": {
 				"small_healing_tonic": {
 					"display_name": "Malé Tonikum Léčení",
-					"description": "Used by the herbalist to heal small wounds"
+					"description": "Užitý bylinkářem k léčrní malých zranění"
 				}
 			},
 			"stamina_tonic": {
@@ -16271,12 +16271,12 @@
 					"flavor": "In flame, purity, in purity, strength. -Lucan Varius, Artifex Ignis"
 				},
 				"blacksmith_workbench_recipe": {
-					"description": "Used to create weapons and armor out of ingots.",
+					"description": "Užita k vytváření zbraní a zbrojí z ingotů.",
 					"recipe_name": "Kovářská Kovadlina",
 					"flavor": "It is no coincidence that the metaphors of good character descend from work of the smith. -Lucan Varius, Artifex Ignis"
 				},
-				"workbenches_name": "Workbenches",
-				"storage_name": "Storage",
+				"workbenches_name": "Pracovní Stoly",
+				"storage_name": "Skladiště",
 				"vault_recipe": {
 					"description": "Masivní sklad pro 256 předmětů!",
 					"recipe_name": "Trezor",
@@ -16365,17 +16365,17 @@
 				"input_bin_iron_recipe": {
 					"recipe_name": "Iron-Banded Supply Bin",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
-					"flavor": "Think of what we can achieve when Hearthlings work together!"
+					"flavor": "Přemýšlejme, čeho můžeme dosáhnout, když Hearthlingové pracují společně!"
 				},
 				"input_table_ground_iron_recipe": {
 					"recipe_name": "Iron-Studded Supply Table",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
-					"flavor": "Think of what we can achieve when Hearthlings work together!"
+					"flavor": "Přemýšlejme, čeho můžeme dosáhnout, když Hearthlingové pracují společně!"
 				},
 				"input_corner_ground_iron_recipe": {
 					"recipe_name": "Iron-Framed Corner Supply Shelf",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
-					"flavor": "Think of what we can achieve when Hearthlings work together!"
+					"flavor": "Přemýšlejme, čeho můžeme dosáhnout, když Hearthlingové pracují společně!"
 				},
 				"sign_blacksmith_recipe": {
 					"description": "An iron-forged sign, to be displayed outside a blacksmith's workshop",
@@ -16414,7 +16414,7 @@
 				},
 				"construction_name": "Konstrukce",
 				"door_blacksmith_recipe": {
-					"description": "Fit for a master blacksmith's workshop",
+					"description": "Pasují pro dílnu mistra kováře",
 					"recipe_name": "Kovářovy Dveře",
 					"flavor": "Můžeš cítit teplo přocházející dveřmi"
 				},
@@ -16452,9 +16452,9 @@
 					"flavor": "The sound of a great horn like this should never be taken lightly... thankfully one hasn't sounded in Darkmoor for many years. -- Cid, Knight of the Old Ways"
 				},
 				"steel_frame_recipe": {
-					"description": "Reinforces the Giant's Shield.",
-					"recipe_name": "Giant's Frame",
-					"flavor": "The bones of the Giant"
+					"description": "Zesiluje Obrův Štít.",
+					"recipe_name": "Obrův Rám",
+					"flavor": "Kosti Obra"
 				},
 				"two_handed_sword_valor_recipe": {
 					"description": "Nejlepší čepel ve Vznešeném Království",
@@ -16521,14 +16521,14 @@
 			},
 			"carpenter_workbench": {
 				"carpenter_workbench_ghost": {
-					"display_name": "Carpenter Workbench",
-					"description": "Used by the Carpenter for crafting."
+					"display_name": "Tesařský Pracovní Stůl",
+					"description": "Užitý Tesařem pro výrobu."
 				}
 			},
 			"carpenter_toolbench": {
 				"carpenter_toolbench_ghost": {
 					"display_name": "Carpenter Toolbench",
-					"description": "Used to make fancier kinds of furniture."
+					"description": "Užitý k dělání vkusnějších druhů nábytku."
 				}
 			},
 			"recipes": {
@@ -16568,9 +16568,9 @@
 					"flavor": "Does the crate that stores all the things that do not store themselves, store itself?"
 				},
 				"leather_bound_chest_recipe": {
-					"description": "Stylishly stores up to 64 items.",
+					"description": "Stylově skladuje a 64 předmětů.",
 					"recipe_name": "Leather Bound Chest",
-					"flavor": "Like the one my granda had!"
+					"flavor": "Jako ta, kterou měla moje babička!"
 				},
 				"mason_chisel_recipe": {
 					"description": "Vyžadovány k povýšení hearthlinga na Kameníka.",
@@ -16597,11 +16597,11 @@
 					"flavor": "If it's not white, is our life unfulfilled?"
 				},
 				"tools_weapons_name": "Nástroje",
-				"storage_name": "Storage",
+				"storage_name": "Skladiště",
 				"building_parts_name": "Stavební Části",
 				"armor_name": "Zbraně a Brnění",
 				"furniture_name": "Nábytek",
-				"workbench_name": "Workbenches",
+				"workbench_name": "Pracovní Stoly",
 				"utility_name": "Utility",
 				"shepherds_crook_recipe": {
 					"description": "Vyžadována k povýšení hearthlinga na Pastýře.",
@@ -16719,7 +16719,7 @@
 				},
 				"carpenter_workbench_recipe": {
 					"description": "Required to produce most of the Carpenter's recipes.",
-					"recipe_name": "Carpenter Workbench",
+					"recipe_name": "Tesařský Pracovní Stůl",
 					"flavor": "A sturdy, well-organized place for tools and crafts."
 				},
 				"carpenter_toolbench_recipe": {
@@ -16806,8 +16806,8 @@
 				},
 				"ornate_leather_bound_chest_recipe": {
 					"recipe_name": "Ornate Leather Bound Chest",
-					"description": "Stylishly stores up to 64 items.",
-					"flavor": "Like the one my granda had!"
+					"description": "Stylově skladuje až 64 předmětů.",
+					"flavor": "Jako ta, kterou měla moje babička!"
 				},
 				"ornate_table_for_one_recipe": {
 					"recipe_name": "Zdobený Stůl pro Jednoho",
@@ -16899,29 +16899,29 @@
 					"flavor": "Crafters love to show off their work!"
 				},
 				"input_bin_wood_recipe": {
-					"recipe_name": "Wooden Supply Crate",
+					"recipe_name": "Dřevěná Zásobovací Bedna",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
-					"flavor": "Think of what we can achieve when Hearthlings work together!"
+					"flavor": "Přemýšlejme, čeho můžeme dosáhnout, když Hearthlingové pracují společně!"
 				},
 				"input_shelf_ground_wood_recipe": {
 					"recipe_name": "Wooden Supply Rack",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
-					"flavor": "Think of what we can achieve when Hearthlings work together!"
+					"flavor": "Přemýšlejme, čeho můžeme dosáhnout, když Hearthlingové pracují společně!"
 				},
 				"input_shelf_wall_wood_recipe": {
 					"recipe_name": "Wooden Wall Supply Shelf",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
-					"flavor": "Think of what we can achieve when Hearthlings work together!"
+					"flavor": "Přemýšlejme, čeho můžeme dosáhnout, když Hearthlingové pracují společně!"
 				},
 				"input_corner_ground_wood_recipe": {
 					"recipe_name": "Wooden Corner Supply Rack",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
-					"flavor": "Think of what we can achieve when Hearthlings work together!"
+					"flavor": "Přemýšlejme, čeho můžeme dosáhnout, když Hearthlingové pracují společně!"
 				},
 				"input_table_ground_wood_recipe": {
 					"recipe_name": "Wooden Supply Table",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
-					"flavor": "Think of what we can achieve when Hearthlings work together!"
+					"flavor": "Přemýšlejme, čeho můžeme dosáhnout, když Hearthlingové pracují společně!"
 				},
 				"door_carpenter_recipe": {
 					"description": "Fit for a master carpenter's woodshop",
@@ -16944,8 +16944,8 @@
 					"flavor": "Farmer Peggy wouldn't suffer a weed on her watch. Either she had a soft spot for the flowering kind, or they just grew back too fast."
 				},
 				"giants_face_recipe": {
-					"description": "Protects the Giant's shield",
-					"recipe_name": "Giant's face",
+					"description": "Chrání Obrův Štít.",
+					"recipe_name": "Obrova tvář",
 					"flavor": "Steel plated and solid as the mountainside"
 				},
 				"bow_valor_recipe": {
@@ -17003,19 +17003,19 @@
 		"cook": {
 			"cook_description": {
 				"display_name": "Kuchař",
-				"description": "The Cook makes delicious, hearty meals from base vegetables and meats.",
+				"description": "Kuchař dělá vynikající, zdravá jídla ze základní zeleniny a masa.",
 				"requirements": "Vyrobeno Kameníkem",
 				"workshop": {
-					"name": "Stone Cauldron",
+					"name": "Kamenný Kotel",
 					"long_description": "Humongous, heavy pot, suitable for cooking up a feast at a time!"
 				},
 				"level_2_data": {
 					"perk_000_name": "Kitchen Chemistry",
-					"perk_000_description": "The Cook has learned to make slightly fancier recipes."
+					"perk_000_description": "Kuchař se naučil dělat trošku vkusnější recepty."
 				},
 				"level_1_data": {
-					"perk_000_name": "Camp Cooking",
-					"perk_000_description": "The Cook can make basic, nutritious recipes."
+					"perk_000_name": "Kempové Vaření",
+					"perk_000_description": "Kuchař může dělat základní, výživné recepty."
 				},
 				"level_3_data": {
 					"perk_000_name": "Masa a Koláče",
@@ -17053,13 +17053,13 @@
 			},
 			"cook_workbench": {
 				"cook_workbench_ghost": {
-					"display_name": "Stone Cauldron",
-					"description": "Used by the Cook for delicious recipes."
+					"display_name": "Kamenný Kotel",
+					"description": "Užitý Kuchařem pro lahodné recepty."
 				}
 			},
 			"recipes": {
 				"flour_recipe": {
-					"description": "A necessary ingredient for all kinds of bread.",
+					"description": "Potřebná přísada pro všechny druhy chleba.",
 					"recipe_name": "Pytel Mouky"
 				},
 				"meat_stew_recipe": {
@@ -17071,7 +17071,7 @@
 					"description": "Křupavý, základní chleba.",
 					"recipe_name": "Rolnický Chleba"
 				},
-				"food_name": "Every Day Meals",
+				"food_name": "Každo Denní Jídla",
 				"ingredients_name": "Ingredient Refinement",
 				"veggie_stew_recipe": {
 					"description": "A warm, savory broth, fortified with braised pumpkin!",
@@ -17089,9 +17089,9 @@
 					"flavor": "Koláč je vždycky dobrý."
 				},
 				"omelette_recipe": {
-					"description": "Veggies and meat wrapped in egg.",
+					"description": "Zelenina a masíčko zabalené ve vajíčku.",
 					"recipe_name": "Omeleta",
-					"flavor": "Part of a hearty breakfast"
+					"flavor": "Část zdravé snídaně"
 				},
 				"roast_poyo_recipe": {
 					"description": "Pomalu pečené pojí maso",
@@ -17103,33 +17103,33 @@
 					"recipe_name": "Míchaná Vejce",
 					"flavor": "Do you like yours sunnyside up?"
 				},
-				"animal_feed_name": "Animal Feed",
+				"animal_feed_name": "Zvířecí Krmivo",
 				"sheep_feed_recipe": {
 					"description": "A supplement for a healthy sheep diet",
-					"recipe_name": "Sheep Feed"
+					"recipe_name": "Ovčí Krmivo"
 				},
 				"poyo_feed_recipe": {
 					"description": "For feeding one's poyos",
-					"recipe_name": "Poyo Feed",
+					"recipe_name": "Pojí Krmivo",
 					"flavor": "Cluck cluck!"
 				},
 				"rabbit_feed_recipe": {
-					"description": "Food for rabbits",
-					"recipe_name": "Rabbit Feed"
+					"description": "Jídlo pro králičky",
+					"recipe_name": "Králičí Krmivo"
 				},
-				"workbenches_name": "Workbenches",
+				"workbenches_name": "Pracovní Stoly",
 				"cook_workbench_recipe": {
-					"description": "Use to cook nutritions soups and stews.",
-					"recipe_name": "Stone Cauldron",
+					"description": "Užito na vaření výživných polévek a dušenin.",
+					"recipe_name": "Kamenný Kotel",
 					"flavor": "Stone, to keep the food hot for a long time."
 				},
 				"cook_mill_recipe": {
-					"description": "For grinding grains into flour",
-					"recipe_name": "Stone Mill Grinder"
+					"description": "Pro mletí zrní do mouky",
+					"recipe_name": "Kamenný Mlýn"
 				},
 				"cook_oven_recipe": {
 					"description": "Skvělá na pečení",
-					"recipe_name": "Stone Oven"
+					"recipe_name": "Kamenná Pec"
 				},
 				"corn_meal_recipe": {
 					"description": "Corn ground into a fine powder",
@@ -17250,13 +17250,13 @@
 			},
 			"cook_mill": {
 				"cook_mill_ghost": {
-					"display_name": "Stone Mill Grinder",
-					"description": "Used by the cook to grind grains into flour."
+					"display_name": "Kamenný Mlýn",
+					"description": "Užitý kuchařem ke mletí zrní do mouky."
 				}
 			},
 			"cook_oven": {
 				"cook_oven_ghost": {
-					"display_name": "Stone Oven",
+					"display_name": "Kamenná Pec",
 					"description": "Skvělá na pečení"
 				}
 			}
@@ -17304,8 +17304,8 @@
 			},
 			"engineer_workbench": {
 				"engineer_workbench_ghost": {
-					"display_name": "Engineer's Workshop",
-					"description": "Used by engineers to create gadgets"
+					"display_name": "Inženýrská Dílna",
+					"description": "Užitý inženýři ke tvorbě zařízení"
 				}
 			},
 			"engineer_outfit": {
@@ -17317,9 +17317,9 @@
 					"description": "Allows engineers to craft various gadgets and contraptions",
 					"recipe_name": "Engineer's Toolbench"
 				},
-				"workbenches_name": "Workbenches",
+				"workbenches_name": "Pracovní Stoly",
 				"bronze_gear_recipe": {
-					"description": "Used to craft basic gadgets",
+					"description": "Užito k výrobě základních zařízení",
 					"recipe_name": "Bronzové Ozubené Kolečko",
 					"flavor": "Luckily have teeth that don't requiring brushing"
 				},
@@ -17329,7 +17329,7 @@
 					"recipe_name": "Střelecká Véž"
 				},
 				"iron_gear_recipe": {
-					"description": "Used to craft intermediate gadgets",
+					"description": "Užito k výrobě středních zařízení",
 					"recipe_name": "Železné Ozubené Kolečko",
 					"flavor": "Not for use as a throwing star"
 				},
@@ -17413,7 +17413,7 @@
 			},
 			"farmer_hoe": {
 				"display_name": "Farmářská Motyka",
-				"description": "Used to till fields.",
+				"description": "Užita na orbu polí.",
 				"farmer_hoe_iconic": {
 					"display_name": "Farmářská Motyka",
 					"description": "Vyžadována k povýšení hearthlinga na Farmáře."
@@ -17543,8 +17543,8 @@
 			},
 			"geomancer_workbench": {
 				"geomancer_workbench_ghost": {
-					"display_name": "Geomancer Workbench",
-					"description": "Used by the Geomancer to craft summoning stones."
+					"display_name": "Geomancerský Pracovní Stůl",
+					"description": "Užitý Geomancerem k výrobě vyvolávacích kamenů."
 				}
 			},
 			"geomancer_starter_kit": {
@@ -17561,13 +17561,13 @@
 			},
 			"geomancer_golem_workbench": {
 				"geomancer_golem_workbench_ghost": {
-					"display_name": "Golem Workbench",
-					"description": "Used by the Geomancer to craft golems."
+					"display_name": "Golemský Pracovní Stůl",
+					"description": "Užitý Geomancerem k výrobě golemů."
 				}
 			},
 			"recipes": {
 				"categories": {
-					"workbenches": "Workbenches",
+					"workbenches": "Pracovní Stoly",
 					"resources": "Zdroje",
 					"terrain": "Terén",
 					"landmarks": "Orientační Body",
@@ -17591,12 +17591,12 @@
 				},
 				"geomancer_workbench_recipe": {
 					"description": "Required to craft summoning stones.",
-					"recipe_name": "Geomancer Workbench",
+					"recipe_name": "Geomancerský Pracovní Stůl",
 					"flavor": "A workbench made to honor the ancient powers."
 				},
 				"geomancer_golem_workbench_recipe": {
 					"description": "Required to craft golems.",
-					"recipe_name": "Geomancer Golem Workbench",
+					"recipe_name": "Geomancerský Golemský Pracovní Stůl",
 					"flavor": "Though grown from a smaller tree, this workbench allows access to much deeper powers."
 				},
 				"dry_stone_recipe": {
@@ -17722,7 +17722,7 @@
 				"description": "The Mason crafts building materials and decorative items from stone.",
 				"requirements": "Vyrobeno Tesařem",
 				"workshop": {
-					"name": "Mason's Workshop",
+					"name": "Kameníkova Dílna",
 					"description": "přidej popis sem",
 					"long_description": "The Mason crafts building materials and decorative items from stone."
 				},
@@ -17768,8 +17768,8 @@
 			},
 			"mason_workbench": {
 				"mason_workbench_ghost": {
-					"display_name": "Mason Workbench",
-					"description": "Used by the Mason for crafting."
+					"display_name": "Kamenický Pracovní Stůl",
+					"description": "Užitý Kameníkem pro výrobu."
 				}
 			},
 			"mason_pedestal_amberstone": {
@@ -17786,7 +17786,7 @@
 			},
 			"recipes": {
 				"tools_name": "Nástroje",
-				"storage_name": "Storage",
+				"storage_name": "Skladiště",
 				"signage_decoration_name": "Signage & Decoration",
 				"building_parts_name": "Stavební Části",
 				"weapons_name": "Zbraně",
@@ -17895,7 +17895,7 @@
 				"stone_wall_lantern_recipe": {
 					"description": "Attaches to the walls of buildings, providing light",
 					"recipe_name": "Kamenná Nástěnná Lampa",
-					"flavor": "Cons: Heavy. Pros: Unlikely to burn itself down."
+					"flavor": "Zápory: Těžká. Klady: Nepravděpodobné, že by se spálila."
 				},
 				"tower_brazier_recipe": {
 					"description": "Fashioned after a castle tower, it provides a strong beacon at night.",
@@ -17904,22 +17904,22 @@
 				},
 				"mason_workbench_recipe": {
 					"description": "Required to produce most of the Mason's recipes.",
-					"recipe_name": "Mason Workbench",
+					"recipe_name": "Kamenický Pracovní Stůl",
 					"flavor": "Tappety-tap; Make the earth sing, Raise Brelor's ghost, Watch the mountain take wing."
 				},
 				"mason_pedestal_amberstone_recipe": {
 					"description": "Rabbit mason approved",
-					"recipe_name": "Amberstone Mason's Pedestal",
+					"recipe_name": "Podstavec Jantarového Kameníka",
 					"flavor": "The skill of the mason can be read from the quality of their worktable"
 				},
 				"mason_pedestal_recipe": {
 					"description": "A well lit place for creating stone artwork.",
-					"recipe_name": "Mason's Pedestal",
+					"recipe_name": "Kameníkův Podstavec",
 					"flavor": "Snap and spark, hiss of coal, light the way, transmute the earth whole."
 				},
-				"workbenches_name": "Workbenches",
+				"workbenches_name": "Pracovní Stoly",
 				"stone_pile_recipe": {
-					"recipe_name": "Stone Pile",
+					"recipe_name": "Kupa Kamení",
 					"description": "A pile of rocks stacked together. An excellent way to store lots of stone for later use."
 				},
 				"stone_tunnel_door_recipe": {
@@ -17927,14 +17927,14 @@
 					"recipe_name": "Kamenné Tunelové Dveře"
 				},
 				"firepit_recipe": {
-					"recipe_name": "Stone Firepit",
-					"description": "The heart of your town",
-					"flavor": "Fire is life, ashes are death, in these stones, the story of our people. -- Cid"
+					"recipe_name": "Kamenné Ohniště",
+					"description": "Srdce tvého města",
+					"flavor": "Oheň je život, popely jsou smrt, v těchto kamenech, příběh našeho lidu. -- Cid"
 				},
 				"valor_statue_recipe": {
-					"description": "A monument to your town's military might",
+					"description": "Monument vojenské moci tvého města",
 					"recipe_name": "Cidova Chrabrost",
-					"flavor": "The shield for resilience, and the sword for strength. -- Cid, Knight of the Old Ways"
+					"flavor": "Štít pro odolnost, a meč pro sílu. -- Cid, Rytíř Starých Směrů"
 				},
 				"roadside_shrine_recipe": {
 					"recipe_name": "Fontána Hojnosti",
@@ -17943,18 +17943,18 @@
 				},
 				"craftsman_statue_recipe": {
 					"recipe_name": "Cechmistrova Zručnost",
-					"description": "Shows each craftsman at their best",
+					"description": "Ukazuje, v čem je nejlepší každý řemeselník",
 					"flavor": "A good crafter never blames his tools, only the people who make his tools. --Otto Crankfrown, Guildmaster Emeritus"
 				},
 				"gold_flakes_recipe": {
-					"recipe_name": "Gold Flakes",
+					"recipe_name": "Zlaté Vločky",
 					"description": "Used when crafting furniture to make it really pretty!",
-					"flavor": "So Shine!"
+					"flavor": "Taková Zář!"
 				},
 				"gold_flakes_times_three_recipe": {
-					"recipe_name": "Gold Flakes (x3)",
+					"recipe_name": "Zlaté Vločky (x3)",
 					"description": "Smash up a Gold Bar to get the Flakes back out of it!",
-					"flavor": "So many Shine!"
+					"flavor": "Tolik mnoho Záře!"
 				},
 				"wet_stone_recipe": {
 					"recipe_name": "Wet Stone",
@@ -17974,27 +17974,27 @@
 				"input_bin_stone_recipe": {
 					"recipe_name": "Stonework Supply Bin",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
-					"flavor": "Think of what we can achieve when Hearthlings work together!"
+					"flavor": "Přemýšlejme, čeho můžeme dosáhnout, když Hearthlingové pracují společně!"
 				},
 				"input_shelf_wall_stone_recipe": {
 					"recipe_name": "Stonework Wall Supply Shelf",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
-					"flavor": "Think of what we can achieve when Hearthlings work together!"
+					"flavor": "Přemýšlejme, čeho můžeme dosáhnout, když Hearthlingové pracují společně!"
 				},
 				"input_shelf_ground_stone_recipe": {
 					"recipe_name": "Stonework Supply Rack",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
-					"flavor": "Think of what we can achieve when Hearthlings work together!"
+					"flavor": "Přemýšlejme, čeho můžeme dosáhnout, když Hearthlingové pracují společně!"
 				},
 				"input_corner_ground_stone_recipe": {
 					"recipe_name": "Stonework Corner Supply Rack",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
-					"flavor": "Think of what we can achieve when Hearthlings work together!"
+					"flavor": "Přemýšlejme, čeho můžeme dosáhnout, když Hearthlingové pracují společně!"
 				},
 				"input_table_ground_stone_recipe": {
 					"recipe_name": "Stonework Supply Table",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
-					"flavor": "Think of what we can achieve when Hearthlings work together!"
+					"flavor": "Přemýšlejme, čeho můžeme dosáhnout, když Hearthlingové pracují společně!"
 				},
 				"sign_mason_recipe": {
 					"description": "A heavy stone sign, to be displayed outside a mason's workshop",
@@ -18002,13 +18002,13 @@
 					"flavor": "Probably wouldn't even swing in a hurricane"
 				},
 				"statue_rabbit_flat_recipe": {
-					"description": "Ears down!!",
-					"recipe_name": "Flat Stone Rabbit",
+					"description": "Ouška dolů!!",
+					"recipe_name": "Plochý Kamenný Káliček",
 					"flavor": "It's considered lucky to stack a vegetable from each harvest on these statues' backs - lucky for the real rabbits, anyway."
 				},
 				"statue_rabbit_recipe": {
-					"description": "Ears up!!",
-					"recipe_name": "Wee Stone Rabbit",
+					"description": "Ouška nahoru!!",
+					"recipe_name": "Kamenný Králiček",
 					"flavor": "Just like the huge stone guardian rabbits, except wee."
 				},
 				"fountain_tiered_recipe": {
@@ -18027,7 +18027,7 @@
 					"flavor": "To be small enough to hide away in its blossoms for an afternoon..."
 				},
 				"door_mason_recipe": {
-					"description": "Fit for a master mason's workshop",
+					"description": "Pasují pro dílnu mistra kameníka",
 					"recipe_name": "Kameníkovy dveře",
 					"flavor": "Feels like knocking on a mountainside"
 				},
@@ -18079,8 +18079,8 @@
 					"flavor": "What mysteries hide inside its tranquil blue eye?"
 				},
 				"giants_shield_recipe": {
-					"description": "Proudest shield in the Ascendancy",
-					"recipe_name": "Giant's Shield",
+					"description": "Nejhrdější štít ve Vznešeném Království",
+					"recipe_name": "Obrův Štít",
 					"flavor": "Against even the most terrible foes and impossible dangers, this shield will never break."
 				},
 				"titan_ward_stone_recipe": {
@@ -18104,7 +18104,7 @@
 					"flavor": "Use the earth itself to form the walls of the pasture? Genius!"
 				},
 				"stone_bed_recipe": {
-					"recipe_name": "Stone Bed",
+					"recipe_name": "Kamenná Postel",
 					"description": "A bed to call your own after a hard day's work",
 					"flavor": "The decorative frame might distract you from the discomfort of sleeping on hard stone"
 				},
@@ -18118,40 +18118,40 @@
 					"flavor": "A little breezy, but fashionable!"
 				},
 				"stone_window_frame_wide_recipe": {
-					"description": "It's got a panoramic view!",
+					"description": "Dostalo to panoramatický výhled!",
 					"recipe_name": "Široký Kamenný Okenní Rám"
 				},
 				"stone_window_frame_wide_wood_recipe": {
-					"description": "Rustic and panoramic!",
+					"description": "Rustikální a panoramatický!",
 					"recipe_name": "Široký Dřevěný a Kamenný Okenní Rám"
 				},
 				"stone_window_frame_wood_recipe": {
 					"description": "Základní okno.",
 					"recipe_name": "Dřevěný a Kamenný Okenní Rám",
-					"flavor": "Is this what they call a cross section?"
+					"flavor": "Je to to, čemu říkají průřez?"
 				},
 				"stone_window_frame_tall_recipe": {
-					"description": "Extra height adds an air of elegance.",
+					"description": "Extra výška přidáva provzdušnělou eleganci.",
 					"recipe_name": "Vysoký Kamenný Okenní Rám"
 				},
 				"stone_window_frame_short_recipe": {
-					"description": "Short can be elegant too.",
+					"description": "Krátký může být také elegantní.",
 					"recipe_name": "Krátký Kamenný Okenní Rám"
 				},
 				"stone_lantern_simple_recipe": {
 					"description": "Nothing fancy. Attach to any wall.",
 					"recipe_name": "Jednoduchá Kamenná Lampa",
-					"flavor": "Cons: Heavy. Pros: Unlikely to burn itself down."
+					"flavor": "Zápory: Těžká. Klady: Nepravděpodobné, že by se spálila."
 				},
 				"stone_garden_lantern_simple_recipe": {
 					"description": "It has a classic handle...mostly for decoration.",
 					"recipe_name": "Jednoduchá Kamenná Zahradní Lampa",
-					"flavor": "It's weight makes it useless to carrying around."
+					"flavor": "Její váha jí dělá nepoužitelnou pro nošení kolem."
 				},
 				"stone_torch_recipe": {
 					"description": "Nástěnná louč s pomalu hořícím olejem.",
 					"recipe_name": "Kamenná Louč",
-					"flavor": "Makes it much easier to burn the midnight oil."
+					"flavor": "Dělá to mnohem snažší pálit půlnoční olej."
 				},
 				"stone_candle_holder_recipe": {
 					"description": "Lighting from a simplier time.",
@@ -18184,7 +18184,7 @@
 					"flavor": "Romantic for some, spookily haunted for others."
 				},
 				"golem_parts_recipe": {
-					"description": "Used by the Geomancer to craft golems",
+					"description": "Užity Geomancerem k výrobě golemů",
 					"recipe_name": "Části Golema",
 					"flavor": "Sturdy enough to hold an ox."
 				},
@@ -18210,12 +18210,12 @@
 		"potter": {
 			"potter_description": {
 				"display_name": "Hrnčíř",
-				"description": "Makes useful goods from clay. Upgradeable to the Mason",
+				"description": "Dělá užitečné zboží z jílu. Vylepšitelné Kameníkem.",
 				"requirements": "Vyrobeno Kameníkem",
 				"workshop": {
 					"name": "Hrnčířovo Kolo",
 					"description": "přidej popis sem",
-					"long_description": "The Potter crafts useful goods and decorative items from clay."
+					"long_description": "Hrnčíř vyrábí užitečné zboží a ozdobné předměty z jílu."
 				},
 				"level_3_data": {
 					"perk_000_name": "Tovaryšská Znalost",
@@ -18244,13 +18244,13 @@
 				}
 			},
 			"recipes": {
-				"workbench_name": "Workshops",
+				"workbench_name": "Pracovní Stoly",
 				"small_urn_recipe": {
 					"description": "Pro kompaktní skladování 8 předmětů",
 					"recipe_name": "Malá Urna",
 					"flavor": "Zlomyslné děti rozbijí tyhle nádoby pořád, hledající poklad."
 				},
-				"storage_name": "Sklad",
+				"storage_name": "Skladiště",
 				"large_urn_recipe": {
 					"description": "Pro kompaktní skladování 32 předmětů",
 					"recipe_name": "Velká Urna",
@@ -18286,8 +18286,8 @@
 					"flavor": "'Through heat and hardship we realize our final selves.' -Silora, Acolyte of Rayya's Mystery "
 				},
 				"clay_safety_standard_recipe": {
-					"description": "Use to designate a safety point",
-					"recipe_name": "Clay Safety Standard",
+					"description": "Užita k určení bezpečného bodu",
+					"recipe_name": "Jílová Vlajka Bezpečí",
 					"flavor": "To achieve an ideal standard of living, find safety in numbers. --Mysteries and Proverbs, V"
 				},
 				"building_parts_name": "Stavební Části",
@@ -18332,12 +18332,12 @@
 					"flavor": "As the shadows move across the floor, child, see if you can find Monkey!"
 				},
 				"clay_bed_recipe": {
-					"description": "Uncomfortable, but it gets you off the ground",
+					"description": "Nepohodlná, ale dostane tě to pryč ze zemé",
 					"recipe_name": "Jílová Postel",
 					"flavor": "\"It's like a pot, for sleeping!\" - Clarence, Temporary Salesperson"
 				},
 				"clay_dining_table_recipe": {
-					"description": "Gets your food off the ground!",
+					"description": "Dostane tvé jídlo ze země!",
 					"recipe_name": "Jílový Jídelní Stůl",
 					"flavor": "\"An elevated environment for elevated conversation\" "
 				},
@@ -18358,7 +18358,7 @@
 				},
 				"potted_cactus_recipe": {
 					"description": "Plant a cactus in a clay pot.",
-					"recipe_name": "Potted Cactus",
+					"recipe_name": "Zasazený Kaktus",
 					"flavor": "YOWCH! --Every cactus potter, ever."
 				},
 				"blown_glass_vase_recipe": {
@@ -18368,7 +18368,7 @@
 				},
 				"decorative_vase_recipe": {
 					"description": "Transform metals into art",
-					"recipe_name": "Decorative Vase",
+					"recipe_name": "Ozdobná Váza",
 					"flavor": "It is the riches of the earth reborn"
 				},
 				"sundial_recipe": {
@@ -18387,7 +18387,7 @@
 					"flavor": "Tile cools inside and out"
 				},
 				"golden_clay_wall_planter_recipe": {
-					"description": "Brightens up a wall",
+					"description": "Rozjasňuje zeď",
 					"recipe_name": "Golden Clay Wall Planter",
 					"flavor": "Where do the flowers come from? From the planter, of course! --Acolyte of Rayya's Mystery"
 				},
@@ -18409,7 +18409,7 @@
 				"clay_tunnel_door_recipe": {
 					"description": "Useful for sealing off mine tunnels.",
 					"recipe_name": "Jílové Tunelové Dveře",
-					"flavor": "Speak friend and enter.... oh no wait it's not locked. - Eber, Potter's Apprentice"
+					"flavor": "Řekni přítel a vstup.... och, né, počkat, není to zamčené. - Eber, Hrnčířský Učedník"
 				},
 				"tan_latticed_window_recipe": {
 					"recipe_name": "Tan Latticed Window",
@@ -18447,37 +18447,37 @@
 				"input_bin_clay_recipe": {
 					"recipe_name": "Ceramic Supply Basin",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
-					"flavor": "Think of what we can achieve when Hearthlings work together!"
+					"flavor": "Přemýšlejme, čeho můžeme dosáhnout, když Hearthlingové pracují společně!"
 				},
 				"input_shelf_ground_clay_recipe": {
 					"recipe_name": "Ceramic Supply Rack",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
-					"flavor": "Think of what we can achieve when Hearthlings work together!"
+					"flavor": "Přemýšlejme, čeho můžeme dosáhnout, když Hearthlingové pracují společně!"
 				},
 				"input_shelf_wall_clay_recipe": {
 					"recipe_name": "Ceramic Wall Supply Shelf",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
-					"flavor": "Think of what we can achieve when Hearthlings work together!"
+					"flavor": "Přemýšlejme, čeho můžeme dosáhnout, když Hearthlingové pracují společně!"
 				},
 				"input_table_ground_clay_recipe": {
 					"recipe_name": "Ceramic Supply Table",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
-					"flavor": "Think of what we can achieve when Hearthlings work together!"
+					"flavor": "Přemýšlejme, čeho můžeme dosáhnout, když Hearthlingové pracují společně!"
 				},
 				"input_bin_clay_blue_recipe": {
 					"recipe_name": "Blue Ceramic Supply Basin",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
-					"flavor": "Think of what we can achieve when Hearthlings work together!"
+					"flavor": "Přemýšlejme, čeho můžeme dosáhnout, když Hearthlingové pracují společně!"
 				},
 				"input_bin_clay_red_recipe": {
 					"recipe_name": "Red Ceramic Supply Basin",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
-					"flavor": "Think of what we can achieve when Hearthlings work together!"
+					"flavor": "Přemýšlejme, čeho můžeme dosáhnout, když Hearthlingové pracují společně!"
 				},
 				"input_bin_clay_green_recipe": {
 					"recipe_name": "Green Ceramic Supply Basin",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
-					"flavor": "Think of what we can achieve when Hearthlings work together!"
+					"flavor": "Přemýšlejme, čeho můžeme dosáhnout, když Hearthlingové pracují společně!"
 				},
 				"blazing_inlay_recipe": {
 					"description": "Radiant gilding for the Emblazoned Sword.",
@@ -18557,7 +18557,7 @@
 				"requirements": "Vyrobeno Tesařem",
 				"level_4_data": {
 					"perk_000_name": "Zvířecí Magnetizmus",
-					"perk_000_description": "Wild animals are more likely to appear whenever the shepherd is looking for them."
+					"perk_000_description": "Divoká zvířata se častěji objeví, kdykoli je pastýř hledá."
 				},
 				"level_1_data": {
 					"perk_000_name": "Následuj Mě!",
@@ -18577,7 +18577,7 @@
 			},
 			"shepherd_crook": {
 				"display_name": "Pastýřova Berla",
-				"description": "Used to corral the flock",
+				"description": "Užita k ohrazení stáda",
 				"shepherd_crook_iconic": {
 					"display_name": "Pastýřova Berla",
 					"description": "Vyžadována k povýšení hearthlinga na Pastýře."
@@ -18613,19 +18613,19 @@
 					"perk_000_description": "Dlouhé procházky zvýšili traperovu rychlost chůze."
 				},
 				"level_3_data": {
-					"perk_000_name": "Efficient Cuts",
-					"perk_000_description": "Long practice helps the trapper salvage more from each animal."
+					"perk_000_name": "Efektivní Řezy",
+					"perk_000_description": "Dlouhá cvičení pomáhají traperovi zachránit více z každého zvířete."
 				},
 				"level_2_data": {
 					"perk_000_name": "Očaruj Mazlíčka",
-					"perk_001_name": "Job Opportunities",
-					"perk_000_description": "The trapper will occasionally choose to turn a particularly fine animal into a pet!",
-					"perk_001_description": "The trapper now qualifies for advanced jobs. Click the promote command for details."
+					"perk_001_name": "Příležitostní Práce",
+					"perk_000_description": "Traper si občasně zvolí přeměnit konkrétní jemné zvířátko na mazlíčka!",
+					"perk_001_description": "Traper se teď kvalifikuje pro pokročilé práce. Klikni na příkaz povýšení pro detaily."
 				},
 				"level_6_data": {
 					"title": "Mistr Traper",
-					"perk_000_name": "Trap Expertise",
-					"perk_000_description": "The trapper has a thing or two to teach the Engineer about setting traps. Increases town trap limit by 6."
+					"perk_000_name": "Expertíza Pastí",
+					"perk_000_description": "Traper má jednu nebo dvě věci na naučení Inženýra ohledně nastažování pastí. Zvyšuje městský limit pastí o 6."
 				},
 				"level_5_data": {
 					"perk_000_name": "Zubatější Pasti",
@@ -18669,7 +18669,7 @@
 			},
 			"trapping_grounds": {
 				"display_name": "Lovecké Uzemí",
-				"description": "Trappers catch critters for food and resources in this zone."
+				"description": "Traperové chytají zvířata pro jídlo a zdroje v této oblasti."
 			}
 		},
 		"treasure_hunter": {
@@ -18688,18 +18688,18 @@
 		"weaver": {
 			"weaver_description": {
 				"display_name": "Tkalec",
-				"description": "The Weaver makes thread, fabrics and hangings from fiber and dye.",
+				"description": "Tkalec dělá nitě, látky a čalounění z vláken a barviv.",
 				"requirements": "Vyrobeno Tesařem",
 				"level_6_data": {
 					"title": "Mistr Tkalec"
 				},
 				"level_2_data": {
 					"perk_000_name": "Kolaborativní Vhled",
-					"perk_000_description": "The Weaver is now skillful enough to use materials created by other crafters."
+					"perk_000_description": "Tkalec je teď dostatečně zručný, aby mohl používat materiály vyrobené ostatními řemeselníky."
 				},
 				"level_1_data": {
 					"perk_000_name": "Standartní Katalog",
-					"perk_000_description": "The Weaver can now make basic hangings and decor."
+					"perk_000_description": "Tkalec teď může dělat základní čalounění a dekorace."
 				},
 				"level_3_data": {
 					"perk_000_name": "Tovaryšská Znalost",
@@ -18722,7 +18722,7 @@
 					"flavor": "Designed especially to keep fluffy bunny tails off of cold, stone floors"
 				},
 				"amberstone_chest_recipe": {
-					"description": "Skladuje 64 předmětů",
+					"description": "Skladuje až 64 předmětů",
 					"recipe_name": "Woven chest",
 					"flavor": "A tidy space is a happy space!"
 				},
@@ -18732,7 +18732,7 @@
 					"flavor": "The style of weave requires deep concentration and quick, quick little paws"
 				},
 				"amberstone_painting_branch_recipe": {
-					"description": "Depicts a tree from cycles past",
+					"description": "Znázorňuje strom z cyklů minulých",
 					"recipe_name": "Flowering Painting",
 					"flavor": "What they could not bring with them into exile, the rabbits found ways to preserve"
 				},
@@ -18747,19 +18747,19 @@
 					"flavor": "Quality craftsmanship at fine resolutions."
 				},
 				"bolt_of_cloth_recipe": {
-					"description": "Used to create more comfortable furniture.",
+					"description": "Užita k vytváření více pohodlného nábytku.",
 					"recipe_name": "Basic Bolt of Cloth",
 					"flavor": "To make thicker by the width of one string: add string. Repeat 1,000,000 times."
 				},
 				"cloth_bolt_recipe": {
-					"description": "Used to create more comfortable furniture.",
+					"description": "Užita k vytváření více pohodlného nábytku.",
 					"recipe_name": "Bolt of Cloth",
 					"flavor": "To make thicker by the width of one string: add string. Repeat 1,000,000 times."
 				},
 				"cloth_padded_vest_recipe": {
 					"description": "This triple-quilted vest provides more protection to your combat units than mere clothing. Not a lot more, but every little bit helps, right?",
 					"recipe_name": "Polstrovaná Vesta",
-					"flavor": "Needs... thicker... padding!"
+					"flavor": "Potřebuje... tlustší... vycpávky!"
 				},
 				"curtains_recipe": {
 					"description": "Dresses up an otherwise ordinary window.",
@@ -18823,7 +18823,7 @@
 					"recipe_name": "Zimní Dělnický Oděv",
 					"flavor": "Zima se blíží!"
 				},
-				"workbenches_name": "Workbenches",
+				"workbenches_name": "Pracovní Stoly",
 				"weaver_loom_recipe": {
 					"description": "Add thread to thread till cloth results.",
 					"recipe_name": "Loom",
@@ -18835,8 +18835,8 @@
 					"flavor": "Spider smiles; all eight eyes glitter, 'Something from nothing, some sweet and some bitter.'"
 				},
 				"weaver_workbench_recipe": {
-					"description": "Used to make complex crafts of thread and fabric.",
-					"recipe_name": "Weaver Workbench",
+					"description": "Užitý k vytváření komplexních výrobků z nití a látky.",
+					"recipe_name": "Tkalecký Pracovní Stůl",
 					"flavor": "Na začátku tam nebylo nic, a pak tam byl Pavouk."
 				},
 				"leather_helmet_recipe": {
@@ -18845,7 +18845,7 @@
 				},
 				"simple_quiver_recipe": {
 					"recipe_name": "Ostrý Toulec",
-					"description": "A quiver equippable by an archer. Stores freezing arrows that will slow enemies"
+					"description": "Toulec vybavitelný lučištníkem. Skladuje mrazivé šípy které spomalí nepřátelé"
 				},
 				"fire_quiver_recipe": {
 					"recipe_name": "Ohnivý Toulec",
@@ -18926,7 +18926,7 @@
 			},
 			"weaver_workbench": {
 				"weaver_workbench_ghost": {
-					"display_name": "Workbench Tkalce",
+					"display_name": "Tkalecký Pracovní Stůl",
 					"description": "Užito Tkalcem pro výrobu."
 				}
 			}
@@ -19020,7 +19020,7 @@
 					"description": "Umožňuje Bylinkáři vyrábět hojivé mastičky a bandáže.",
 					"recipe_name": "Bylinkářská Laboratoř"
 				},
-				"workbenches_name": "Workbenches",
+				"workbenches_name": "Pracovní Stoly",
 				"tonics_name": "Tonika",
 				"small_healing_tonic_recipe": {
 					"description": "Hojivý nápoj který léčí za mrňavé množství",
@@ -19353,7 +19353,7 @@
 			},
 			"magmasmith_workbench": {
 				"magmasmith_workbench_ghost": {
-					"display_name": "Lávokovářský Workbench",
+					"display_name": "Lávokovářský Pracovní Stůl",
 					"description": "Láva teče ze spoda"
 				}
 			},
@@ -19363,7 +19363,7 @@
 				"requirements": "Úroveň 2 kovář a Lávokovářské kladivo"
 			},
 			"recipes": {
-				"workbenches_name": "Workbenches"
+				"workbenches_name": "Pracovní Stoly"
 			}
 		},
 		"knight": {
@@ -19521,10 +19521,10 @@
 			},
 			"jerky": {
 				"display_name": "Sušené Maso",
-				"description": "Skoupé, ale nutriční!"
+				"description": "Skoupé, ale výživné!"
 			},
 			"bug_meat": {
-				"description": "Lepkavé, ale nutriční!",
+				"description": "Lepkavé, ale výživné!",
 				"display_name": "Broučí Maso"
 			}
 		},
