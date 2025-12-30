@@ -6214,7 +6214,7 @@
 												"dialog_nodes": {
 													"msg4": {
 														"bulletin_message": {
-															"00": "\"I understand. Perhaps next time. Farewell, humans.\""
+															"00": "\"Chápu. Možná příště. Sbohem, lidé.\""
 														},
 														"bulletin_title": "Nabíjení Krystalu",
 														"choice_000": "Sbohem"
@@ -6224,8 +6224,8 @@
 															"00": "\"Charging them is simple - just place them anywhere in sunlight or moonlight, and they will gather energy on their own.\"<br><br>\"The... only issue is that creatures tend to be attracted to the Amberstones at night. So, either prepare to defend against them, or be sure to take the crystals down before nightfall.\""
 														},
 														"bulletin_title": "Nabíjení Krystalu",
-														"choice_000": "We can do that!",
-														"choice_001": "No, not this time"
+														"choice_000": "Můžeme to udělat!",
+														"choice_001": "Né, tentokrát ne"
 													},
 													"msg3": {
 														"bulletin_message": {
@@ -6264,7 +6264,7 @@
 														"bulletin_title": "Nové Partnerství",
 														"choice_000": "Trepi... uh... right",
 														"choice_001": "Verily! Forsooth!",
-														"choice_002": "It's been nice knowing you as well"
+														"choice_002": "Taky bylo hezké tě poznat"
 													}
 												}
 											}
@@ -6278,28 +6278,28 @@
 														"bulletin_message": {
 															"00": "\"I will leave this Amberstone Pedestal. Build or choose a nice home with two beds, and place this pedestal there. Once all is prepared, I will return with my kin!<br><br><i><font size=-1>Place the Amberstone Pedestal near two beds, with a high enough appeal - check the name of the placed item for live updates!</font></i>"
 														},
-														"bulletin_title": "Rabbit Residents",
+														"bulletin_title": "Králičí Obyvatelé",
 														"choice_000": "Okay, I will!"
 													},
 													"msg3": {
 														"bulletin_message": {
 															"00": "Sasha nods. \"Very well. They will no doubt be disappointed, but it will bring me some comfort to have them settle closer to the safety of the warren.\""
 														},
-														"bulletin_title": "Rabbit Residents",
+														"bulletin_title": "Králičí Obyvatelé",
 														"choice_000": "Sbohem"
 													},
 													"msg2_a": {
 														"bulletin_message": {
 															"00": "\"Splendid! Some accomodations must first be made. You see, the Amberstone crystals are more than a mere light source - they are also what keeps us from reverting to the simple animals you see hopping around the surface.\"<br><br>\"Never fear, such a process takes considerable time. All the same, a Rabbit home would not be comfortable without an Amberstone at its center.\""
 														},
-														"bulletin_title": "Residents",
+														"bulletin_title": "Obyvatelé",
 														"choice_000": "Och! To zní důležitě..."
 													},
 													"msg1": {
 														"bulletin_message": {
 															"00": "\"So, a pair of my more adventurous kin are interested in immigrating to the aboveground. In fact, they specifically asked me to ask you if you might have a place for them here.\""
 														},
-														"bulletin_title": "Rabbit Residents",
+														"bulletin_title": "Králičí Obyvatelé",
 														"choice_000": "Ano, velice rádi bychom je měli!",
 														"choice_001": "Ne - ale přejeme jim to nejlepší!"
 													}
@@ -6322,7 +6322,7 @@
 														"bulletin_message": {
 															"00": "\"What a nice home you've built for them! They will be here shortly, and I'm sure they'll be charmed!\""
 														},
-														"bulletin_title": "Rabbit Residents",
+														"bulletin_title": "Králičí Obyvatelé",
 														"choice_000": "OK"
 													}
 												}
@@ -6337,8 +6337,8 @@
 														"bulletin_message": {
 															"00": "\"It's working! The weapon is charging!!\"<br><br>\"Hold off whatever foul tricks the Titan has in store for us, and I'll let you know when it's ready to fire!\""
 														},
-														"bulletin_title": "Sasha Looks Pleased",
-														"dialog_title": "Sasha Looks Pleased",
+														"bulletin_title": "Saša Vypadá Potěšen",
+														"dialog_title": "Saša Vypadá Potěšen",
 														"choice_000": "We'll do our part!"
 													}
 												}
@@ -7430,8 +7430,8 @@
 					"#A29161": "Earth Edge",
 					"#B3A16E": "Earth",
 					"#928C76": "Heathered Grey",
-					"#4C2424": "Sopka",
-					"#C0BBA8": "Popel",
+					"#4C2424": "Volcano",
+					"#C0BBA8": "Ash",
 					"#693921": "New Amber",
 					"#A5A199": "Light Mountain Mist",
 					"#224165": "Dark Regal Blue",
@@ -7484,33 +7484,33 @@
 					"peaked_roof_oak_leaf": "Dřevěná střecha udělaná ze odstínů Dubového Listí",
 					"peaked_roof_robin": "Dřevěná střecha udělaná ze odstínů Robina",
 					"peaked_roof_peach": "Dřevěná střecha udělaná ze odstínů Broskve",
-					"peaked_roof_peach_fancy": "A wooden roof made up of punga, and shades of Peach",
-					"slat_roof_sage": "A roof made of Sage colored clay, and Cocoa Brown wood",
-					"slat_roof_oasis": "A roof made of Oasis colored clay, and Cocoa Brown wood",
-					"slat_roof_prickly_pear": "A roof made of Prickly Pear colored clay, and Cocoa Brown wood",
-					"clay_wall_sage": "A pattern of shades of Sage",
-					"clay_wall_prickly_pear": "A pattern made up of shades of Prickly Pear",
-					"clay_wall_oasis": "A pattern made up of shades of Oasis",
-					"gold_clay_wall": "A Pattern of Pavlova, Raffia, Winter Hazel, and Ecru",
-					"tan_clay_wall": "A pattern of Roserock, Coffee Cake, and Fawn",
-					"wooden_wall": "A Pattern of Punga, and Tobacco Brown",
-					"red_clay_slat_roof": "A roof made of Korma colored clay and Cocoa Brown wood",
-					"cobblestone": "A Pattern of Hillary, Granite Green, and Pale Oyster",
-					"thatch_peaked_roof": "A roof made of Pesto, Lemon Ginger, Yukon Gold, and Antique Brass colored wood",
-					"red_slate_peaked_roof": "A roof made of Light Volcano, Volcano, and Rustic Red colored stone",
-					"gray_clay_wall": "A Pattern of Light Mountain Mist, Mountain Mist, Dark Mountain Mist, and Cloudy",
-					"golden_clay_slat_roof": "A roof made of Raffia colored clay and Cocoa Brown wood",
-					"castle_roof": "A roof made of Tuna, Shuttle Grey, and Mid Grey colored stone",
-					"plastered_wall": "A Pattern of Napa, and Ash",
-					"blue_slate_peaked_roof": "A roof made of Bahama Blue, Regal Blue, and Dark Regal Blue colored stone",
-					"brick_tiled": "A Pattern of Congo Brown, Dark Congo Brown, and Cork",
-					"wooden_peaked_roof": "A roof made of Cioccolato, Bistre, and Morocco Brown colored wood",
-					"cobblestone_wall": "A Pattern of Tuna, and Trout",
-					"slate_blue_checkered": "A Pattern of Shuttle Grey, and Mid Grey",
-					"clay_slat_roof": "A roof made of Light Ash colored clay and Cocoa Brown wood",
-					"wood_dark_diagonal": "A Pattern of Muesli and Sandal",
-					"red_clay_wall": "A Pattern of Baker's Chocolate, and New Amber",
-					"red_clay_peaked_roof": "A peaked roof made of Baker's Chocolate and New Amber colored clay with Bistre colored wood"
+					"peaked_roof_peach_fancy": "Dřevěná střecha udělána z punga, a odstínu Peach",
+					"slat_roof_sage": "Střecha udělána z Sage zbarveného jílu, a Cocoa Brown dřeva",
+					"slat_roof_oasis": "Střecha udělána z Oasis zbarveného jílu, a Cocoa Brown dřeva",
+					"slat_roof_prickly_pear": "Střecha udělána z Pricky Pear zbarveného jílu, a Cocoa Brown dřeva",
+					"clay_wall_sage": "Tvar udělaný z odstínu Sage",
+					"clay_wall_prickly_pear": "Tvar udělaný z odsínu Prickly Pear",
+					"clay_wall_oasis": "Tvar udělaný z odstínu Oasis",
+					"gold_clay_wall": "Tvar z Pavlova, Raffia, Winter Hazel, a Ecru",
+					"tan_clay_wall": "Tvar z Roserock, Coffee Cake, a Fawn",
+					"wooden_wall": "Tvar z Punga, a Tobacco Brown",
+					"red_clay_slat_roof": "Tvar udělaný z Korma zbarveného jílu a Cocoa Brown dřeva",
+					"cobblestone": "Tvar z Hillary, Granite Green, a Pale Oyster",
+					"thatch_peaked_roof": "Střecha udělaná z Pesto, Lemon Ginger, Yukon Gold, a Antique Brass zbarveného dřeva",
+					"red_slate_peaked_roof": "Střecha udělaná z Light Volcano, Volcano, a Rustic Red zbarveného kamene",
+					"gray_clay_wall": "Tvar z Light Mountain Mist, Mountain Mist, Dark Mountain Mist, a Cloudy",
+					"golden_clay_slat_roof": "Střecha udělaná z Raffia zbarveného jílu a Cocoa Brown dřeva",
+					"castle_roof": "Střecha udělaná z Tuna, Shuttle Grey, a Mid Grey zbarveného kamene",
+					"plastered_wall": "Tvar z Napa, a Ash",
+					"blue_slate_peaked_roof": "Střecha udělaná z Bahama Blue, Regal Blue, a Dark Regal Blue zbarveného kamene",
+					"brick_tiled": "Tvar z Congo Brown, Dark Congo Brown, a Cork",
+					"wooden_peaked_roof": "Střecha udělaná z Cioccolato, Bistre, a Morocco Brown zbarveného dřeva",
+					"cobblestone_wall": "Tvar z Tuna, a Trout",
+					"slate_blue_checkered": "Tvar z Shuttle Grey, a Mid Grey",
+					"clay_slat_roof": "Střecha udělaná z Light Ash zbarveného jílu a Cocoa Brown dřeva",
+					"wood_dark_diagonal": "Tvar z Muesli a Sandal",
+					"red_clay_wall": "Tvar z Baker's Chocolate, a New Amber",
+					"red_clay_peaked_roof": "Špičatá střecha udělaná z Baker's Chocolate a New Amber zbarveného jílu s Bistre zbarveným dřevem"
 				}
 			}
 		},
@@ -7520,8 +7520,8 @@
 				"description": "Vytvoř místo pro produktivitu!"
 			},
 			"chop_tree": {
-				"display_name": "Harvest",
-				"description": "Harvest for lumber, or just to get it out of the way."
+				"display_name": "Pokácet",
+				"description": "Pokácet pro řezivo, nebo jen proto aby to bylo z cesty."
 			},
 			"destroy_entity": {
 				"display_name": "Zničit",
@@ -7595,17 +7595,17 @@
 			},
 			"show_workshop": {
 				"display_name": "Dilna",
-				"description": "Your crafter uses the workshop to construct useful items for your settlement.",
-				"disabled_description": "Your crafter uses the workshop to construct useful items for your settlement. Before you can craft you need to assign a crafter to this workshop."
+				"description": "Tvůj řemeselník používá dílnu ke konstruování užitečných předmětů pro tvojí osadu.",
+				"disabled_description": "Tvůj řemeselník používá dílnu ke konstruování užitečných předmětů pro tvojí osadu. Předtím, než můžeš vyrábět, potřebuješ přiřadit řemeselníka k této dílně."
 			},
 			"show_workshop_from_crafter": {
 				"display_name": "Dílna",
-				"description": "Your crafter uses the workshop to construct useful items for your settlement.",
-				"disabled_description": "Your crafter uses the workshop to construct useful items for your settlement. Before you can craft you need to assign a crafter to this workshop."
+				"description": "Tvůj řemeselník používá dílnu ke konstruování užitečných předmětů pro tvojí osadu.",
+				"disabled_description": "Tvůj řemeselník používá dílnu ke konstruování užitečných předmětů pro tvojí osadu. Předtím, než můžeš vyrábět, potřebuješ přiřadit řemeselníka k této dílně."
 			},
 			"slaughter": {
 				"display_name": "Sesbírej pro Maso",
-				"description": "Have your shepherd harvest this animal for its meat.",
+				"description": "Dej tvého pastýře sesbírat tohle zvíře pro jeho maso.",
 				"disabled_description": "Tohle zvíře je tak podvyživené, že nemělo žádné maso. Jenom kost a kůže."
 			},
 			"spawn_glory_wave": {
@@ -7621,7 +7621,7 @@
 			},
 			"undeploy_golem": {
 				"display_name": "Undeploy Golem",
-				"description": "Deactivate this golem and return it to a stockpile.",
+				"description": "Deaktivuj tohohle golema a vrať ho do skladiště.",
 				"disabled_description": "Teďka nemůže být deaktivován."
 			},
 			"unit_control": {
@@ -7637,7 +7637,7 @@
 				},
 				"unload_inventory": {
 					"display_name": "Vyložit Bágly",
-					"description": "Return to town and deposit the contents of your bags."
+					"description": "Vrať se do města a vylož obsah tvých báglů."
 				}
 			},
 			"plant_tree": {
@@ -7707,7 +7707,7 @@
 			},
 			"destroy_item": {
 				"display_name": "Zruš Umístění",
-				"description": "Remove this placement task"
+				"description": "Odstraň úkon tohohle umístění"
 			},
 			"toggle_lock": {
 				"display_name": "Přepni Zámek",
@@ -7719,8 +7719,8 @@
 			},
 			"abandon_glory_wave": {
 				"display_name": "Vzdát Se!",
-				"description": "De-spawn the current enemy wave, without gaining any glory.",
-				"disabled_description": "No challenge enemies around right now."
+				"description": "Odvolat aktuální vlnu nepřátel, bez zisku jakékoliv slávy.",
+				"disabled_description": "Žádná výzva nepřátelům v okolí právě teď."
 			},
 			"summon_titan": {
 				"display_name": "Probudit Titána",
@@ -7771,7 +7771,7 @@
 							"004": "Dřevo: onáš věčnýý zaavatel úkolů. Měli bychom na to dohlédnout.",
 							"005": "Všichni kácejme společně! Štíp! Štíp! Štíp! Ano, také si pospěšte!",
 							"006": "Oukej bando, konec přestávky. Zpátky ke kácení!",
-							"007": "Every time I swing this axe, I visualize my dream house and exactly how I'm going to build it. Side effect of all this chopping: the floorplan's getting smaller.",
+							"007": "Pokaždé, když švihnu touhle sekerou, vizualizuju si můj vysněný dům a přesně, jak ho hodlám postavit. Vedlejší efekt všeho tohohle kácení: plány půdorysu se zmenšují.",
 							"008": "Padá dřevo! Utečte, lidi! UTEČTE!",
 							"teacher": {
 								"000": "Napadl/a jsem dneska více stromů. Podle [str(entry.teacher)] je tady venku těch stromů hodně."
@@ -7784,14 +7784,14 @@
 							"003": "Top důvod proč je kácení stromů zábava: zdokonalení švihání sekerou. Jednoho dne by se to mohlo hodit!",
 							"004": "Nejlepší důvod, proč je nošení dříví zábava: nemůžu na žádný přijít.",
 							"005": "Divím se za kolik bych mohl/a prodat toto dřevo zpátky za domov. ...Za nic, asi.",
-							"006": "I wonder if I could get out of chopping wood by pretending to have a splinter? Oh right, it wouldn't be pretending.",
-							"007": "Ow! Blister! Why am I doing this to myself? An at-will employment contract is pretty much beside the point when you're OUT IN THE MIDDLE OF NOWHERE.",
+							"006": "Divím se, jestli bych se nemohl/a vyvlíknout z kácení dŕeva, kdybych předstíral/a že mám třísku ? Och, pravda, nebylo by to předstírání.",
+							"007": "Au! Puchýř! Proč to dělám sám sobě? Pracovní smlouva dle-přání, to je vážně moc, kromě bodu, když jste VENKU UPROSTŘED NIČEHO.",
 							"008": "Třísky! Všude! Ok, v klidu dýchej. V klidu dýchej. Má někdo pinzetku?"
 						},
 						"psychopathic_misanthrope": {
 							"000": "Heeeaaaahhhhrrrghhh!!!",
 							"001": "Raaaarrrrrrghhhhh!",
-							"002": "Spork those trees, you know? Just spork them all!",
+							"002": "Vyškrábte ty stromy, ne ? Prostě je vyškrábejte všechny!",
 							"003": "Dneska jsem pokácel/a asi tak bilión stromů. Říkejte mi sekero vrahoun !!!",
 							"004": "Lidé říkají, že mám hluboce zakořeněné problémy s agresií, ale nikdo si nestěžuje na to všechno dřevo co vyprodukuju",
 							"005": "Kácí i někdo jiný ty stromy? Anebo jsem to jenom já?",
@@ -7800,30 +7800,30 @@
 						"hopeless_optimist": {
 							"000": "Štíp štíp štíp! Když to říkáte pořád dokola, je to skoro jako písnička!",
 							"001": "Kácení dřeva buduje svaly! Poznámka pro sebe: mrkni, jestli kdokoli postřehl.",
-							"002": "We're sorry Mr. Tree, but we have to cut you down so we can live inside of you. But we won't ever forget that we're warm and safe thanks to your sacrifice.",
+							"002": "Omlouváme se Pane Strom, ale musíme vás pokácet, abychom mohli uvnitř tebe žít. Ale nikdy nezapomeneme, že jsme v teple a bezpečí díky vaší oběti.",
 							"003": "Je tam něco velice uspokojivého při porážení něčeho mnohem většího, než jsem já!",
 							"004": "Jsem Paul Revere! Myslím, Bunyon!",
 							"005": "How much wood would a woodchuck chuck, if a woodchuck could chuck wood? Well if my name were Woodchuck, the answer would be: lots! Note to self: find out later what a woodchuck looks like.",
 							"006": "Lumber lumber lumber, must be lumber, in a woodman's world. Ah-aaaa, all the things I could do, if I had a little lumber, it's a woodman's worrrllld. Ahhh-AAAAAIIEEE---FALLING TREEEE!!!!!",
 							"007": "Slyším, že bych si nemal/a již víc spívat, když kácím stromy. Cokoliv!",
-							"008": " Oh no! Mr. Squirrel! I'm so sorry. I didn't mean to cut down your house. Tell you what--move in with me! Nuts are on the house. Oh. I probably shouldn't have mentioned the house..."
+							"008": " Ale né! Pane Veverko! Je mi to tak líto. Nechtěl/a jsem vám pokácet váš dům. Řeknu vám co--nestěhujte se ke mě! Oříšky jsou na dům. Och, asi jsem neměl/a zmiňovat dům..."
 						},
 						"insufferable_academic": {
 							"000": "This is an appalling underutilization of my keen mental faculties.",
 							"001": "Kdybych nikdy neviděl/a znovu další sekeru, bylo by to moc brzo.",
-							"002": "This might almost be worth the effort if only the lumber were destined for a paper mill.",
-							"003": "Is there no one else who could engage in such menial labor?",
-							"004": "I have perfected a mathematically ideal chopping motion. Alas, there are no peer-reviewed journals here in which I might publish my findings.",
+							"002": "Tohle by mohlo stát za to pouze, pokud by řezivo bylo určeno pro papírnu.",
+							"003": "Není tam nikdo jiný, kdo by se mohl zapojit do takové podřadné práce?",
+							"004": "Dovedl/a jsem k dokonalosti matematicky ideální sekací pohyb. Bohužel zde nejsou žádné recenzované denníky, ve kterých bych mohl/a publikovat svá zjištění.",
 							"005": "Nemůžu si prostě pomoct zmínit alarmující poměr, se kterým odlesňujeme celou oblast... Co? Né, samozřejmě, že se nesnažím se vyhnout dřevorubeckým povinnostem!"
 						},
 						"diligent_sweetheart": {
 							"000": "Myslím, že se můžu naučit kácení stromů, pokud to je to, co musí být uděláno.",
-							"001": "I'm going to put a little splinter beside the campfire for every tree I've cut down, separated by day. That way I can tell if I'm getting better at it!",
-							"002": "I hope people think callouses on the palms of the hands are attractive.",
-							"003": "I hear suffering builds character!",
+							"001": "Jdu položit malou třísku vedle ohniště za každý strom, co jsem pokácel/a, oddělené den za dnem. Tímhle směrem můžu říct, jestli se v tom zlepšuji!",
+							"002": "Doufám, že si lidi myslí, že mozoly na dlaních rukou jsou atraktivní.",
+							"003": "Slyšel/a jsem, že utrpení buduje charakter!",
 							"004": "Kácení je docela uklidňující, pokud se tedy pořád neobáváte příliš, že ten strom padne na vás.",
-							"005": "I hope we're not disturbing anyone's home. Imagine what it would be like to have your home cut down around you to use to make someone else's home!",
-							"006": "I hope trees don't have nerves. This would hurt a lot if they did. If they're screaming for us to stop, it must be on a different frequency.",
+							"005": "Jenom doufám, že nerušímě něčí domov. Představte si, jaké by to bylo mít váš domov pokácený kolem vás na použití k udělání domovu někoho jiného!",
+							"006": "Jenom doufám, že stromy nemají nervy. Tohle by bolelo hodně, kdyby měli. Pokud na nás křičí, abychom přestali, musí to být na jiné frekvenci.",
 							"007": "Držel/a jsem dneska mojí sekeru, a zjistil/a jsem, že bych mohl/a udělat nějaká vážná zranění, kdybych jí použil/a na člověka, namísto stromu."
 						}
 					}
@@ -7913,7 +7913,7 @@
 						"insufferable_academic": {
 							"000": "Rychlý Ústup! Rychlý Ústup!!!",
 							"001": "Když pochybuješ, PANIKAŘ!!!",
-							"002": "Keep Calm and AIEEEEE!",
+							"002": "Zůstaň v Klidu a AJÉÉÉÉÉ!",
 							"003": "::tiše kvílí::",
 							"004": "Držte se zpátky, Démoni z nočních můr!",
 							"005": "Děs je zlý pro krevní tlak!!!",
@@ -7929,7 +7929,7 @@
 							"004": "Utíkejte vědomě k východům!!!"
 						},
 						"generic": {
-							"000": "Scared out of my gourd now!!!",
+							"000": "Teď se bojím mojí tykve!!!",
 							"001": "Aauuugh!!!",
 							"002": "Věci z Nočních můr!!!",
 							"003": "Musím utéct pryyyyyyyyyč!!!!",
@@ -7948,7 +7948,7 @@
 							"000": "RRAAAAGGGHH!!",
 							"001": "NEAAARRRRGHHH!",
 							"002": "GAAAAAAAGHHH!!",
-							"003": "AIEEEEE!!!"
+							"003": "AJÉÉÉÉÉ!!!"
 						},
 						"lovable_rogue": {
 							"000": "Popadněte zboží a zamiřte do hor!",
@@ -7967,9 +7967,9 @@
 					"logs": {
 						"insufferable_academic": {
 							"000": "I wonder if anyone else has the dream where their clothes trail their bodies by several feet? Lucky for me, I always seem to have on my trusty pair of shiny knickers.",
-							"001": "Last night I dreamed I stood before a class of attentive raccoons. They took notes on the nature of reality. Afterwards, we had a stirring debate.",
-							"002": "According to the formulae in my dreams, determinism is a myth. Time to get breakfast.",
-							"003": "I dreamed of times present, past and future. My consciousness expanded to fill the universe. I was all, everything was me.",
+							"001": "Poslední noc, jsem snil/a, že jsem stál/a před třídou pozorných mývalů. Psali si poznámky o povaze reality. Poté, jsme měli vášnivou debatu.",
+							"002": "Dle formule v mých snech, determinizmus je mýtus. Čas na snídani.",
+							"003": "Snil/a jsem o časech přítomných, minulých a budoucích. Moje podvědomí se rozšířilo k zaplnění vesmíru. Byl/a všechno, všechno jsem byl/a já.",
 							"004": "Snil/a jsem, že jsem byl/a stromy v lese, vodou v jezeře, a vítrem ve vzduchu.",
 							"005": "Snil/a jsem, že jsem byl/a nesmrtelný/á, bez začátku, nebo konce.",
 							"006": "Snil/a jsem, že jsem byl/a mezi světlem a tmou, vesmírem a časem."
@@ -8011,10 +8011,10 @@
 							"004": "Snil/a jsem, že jsem byl/a zpátky doma, a né v lesích s TĚMI lidmi..."
 						},
 						"generic": {
-							"000": "First, I dreamed that I found a shiny mirror under my pillow. Then, goblins were attacking our caravan.",
-							"001": "I dreamed I built a ladder into the sky! But then someone tore it down and left me up there. It was scary.",
+							"000": "Nejprve, jsem snil/a o tom, že jsem našel/la zářivé zrcadlo pod mým polštářem. Poté, goblini útočící na naší karavanu.",
+							"001": "Snil/a jsem, že jsem postavil/a řebřík k obloze! Ale pak ho někdo zložil dolů a nechal mě tam nahoře. Bylo to děsivé.",
 							"002": "Snil/a jsem, že JÁ JSEM BYL/A ten pokácený strom!",
-							"003": "I dreamed about a creature with a bill of a duck and the tail of a beaver.",
+							"003": "Snil/a jsem o stvoření s kachním zobákem a bobřím ocasem.",
 							"004": "I dreamed that it was night time and outside of our village, there were some loud noises. Upon investigation of the fields to the south, I saw a large, black object with two circles and a bunch of dancing animals!",
 							"005": "Snil/a jsem, že mě přátelé nechali na střeše nově postavené budovy.",
 							"006": "I dreamed I was at a lake and a luminous rabbit appeared out of the water and told me some great advice. &quot;If you build it they will come.&quot;",
@@ -8080,7 +8080,7 @@
 							"066": "Poslední noc jsem snil/a, že někdo četl můj deníček. Hrůza.",
 							"067": "Snil/a jsem, že nás obklopovali stvoření nesmírné síly. Byli to vlastně poja.",
 							"068": "Snil/a jsem, že můj meč by se rozzářil modře, když by byli poblíž goblini.",
-							"069": "I dreamed that we fried up strips of fatty, salted meat from a tusked animal we hunted in the forest. It was the most delicious thing I ever ate! I think I'll call it ... &quot;bacon&quot;.",
+							"069": "Snil/a jsem, že jsme opekli proužky tučňoučkého, nasoleného masa z klovitého zvířete, co jsme ulovili v lese. Byla to ta nejchutnější věc, co jsem kdy jedl/a! Myslím, že to pojmenuju ... &quot;slanina&quot;.",
 							"070": "Snil/a jsem, že jsem měl/a malinké pojo, které jsem velice miloval/a. Udělal/a jsem mu k nošení malinký čepec na jeho hlavinku!",
 							"071": "Měl/a jsem sen, ve kterém se země otřásla a zavrčela. Země spolykala všechna naše poja.",
 							"072": "Snil/a jsem, že veverka nám pokácela barák, aby si postavila svůj strom.",
@@ -8098,7 +8098,7 @@
 							"084": "Měl/a jsem sen, ve kterém jsme museli všechnu naší kukuřici importovat z nějaké odlehlé a vdálené země.",
 							"085": "Měl/a jsem sen, že jsem byl/a vlk lovící poja! Když jsem se vzbudil/a, měl/a jsem pírko v mé puse. Zvláštní!",
 							"086": "Měl/a jsem sen o městě ze zlata! ",
-							"087": "I had a dream about a magic bean that could be brewed into a potion, known as coffee, and had the ability to, seemingly, raise the dead back to life.",
+							"087": "Měl/a jsem sen o magické fazoli, co mohla být uvařena do lektvaru, známá jako káva, a měla schopnost, zdánlivě, vzkřísit mrtvé zpátky k životu.",
 							"088": "Měl/a jsem ten nejšílenější sen! Byl tam muž, který byl shopný vyzdvihnout magmu ze země! To není možné, že jo!?",
 							"089": "Měl/a jsem sen, kde všechno bylo uděláno z papíru a dřeva! Museli jsme použít klacky aby jsem se podepřeli nahoru.",
 							"090": "Měl/a jsem sen, ve kterém mě kousla ovce, a proměnila mě v ovci! Ale pořád jsem mohl/a mluvit. Bylo to zváštní.",
@@ -8109,7 +8109,7 @@
 							"095": "I had a dream, in which I was peacefully dosing off. The version of myself in that dream was also having a dream about me peacefully dosing off. This went on and on until I woke up.",
 							"096": "Měl/a jsem sen, kde jsem snědl/a tolik jídla, že jsem se doslova transformoval/a na planetu.",
 							"teacher": {
-								"000": "I dreamed I came upon [str(entry.teacher)] herding rabbits towards a cave.",
+								"000": "Snil/a jsem, že jsem zašel/la za [str(entry.teacher)] hnát králiky směrem k jeskyni.",
 								"001": "Měl/a jsem sen, že [str(entry.teacher)] na mě mluvil/a skrze plyšového králička?! Myslím, že bych měl/a přestat jíst ty bobule."
 							}
 						},
@@ -8117,7 +8117,7 @@
 							"000": "Poslední noc jsem počítal/a ovečky abych usnul/a, a když jsem se probral/a, zjistil/a jsem, že po celou noc mé sny byli o počítaní oveček. Radost.",
 							"001": "Měl/a jsem sen, kde jsem se viděl/a stát v nějakém druhu róby slunečného-boha na pyramidě. Měl/a jsem stovku hearthlingů jako poddané, ale všichni po mě křičeli a házeli tuříny.",
 							"002": "Snil jsem o tom, že já a moji přátelé jsme žili, abychom vybudovali svou vlastní mocnou říši!",
-							"003": "I dreamed that I pushed an immense boulder up a hill. When I reached the top of the hill I watched the boulder roll back down to the bottom. I then started pushing the boulder back up the hill. This happened all night long...",
+							"003": "Snil/a jsem, že jsem tlačil/a obrovský šutr nahoru na kopec. Když jsem dosáhl/a vrcholu kopce, sledoval/a jsem šutr se kutálet zpátky dolů. Pak jsem začal/a tlačit šutr zpátky na kopec. Tohle se dělo po celou noc...",
 							"004": "Měl/a jsem strašlivý sen! Měl/a jsem sen, kde bylo 6 dalších lidí, a my všichni jsme byli natlačený v- och, počkat.... to nebyl sen.",
 							"teacher_dreams": {
 								"000": "Nejprve, jsem snil/a, že stromům narostly ruce a nohy a začali spívat. Poté, [str(entry.teacher)] mě požádal/a, abych spíval/a před velkým publikem."
@@ -8131,7 +8131,7 @@
 						"generic": {
 							"000": "To je takový dobrý pocit mít svou vlastní postel.",
 							"001": "Spát v posteli je mnohem lepší, než spát na podlaze!",
-							"002": "Beds are the best invention since regulation log sizes.",
+							"002": "Postele jsou nejlepším vynálezem od regulace velikosti polen.",
 							"003": "Nikdy se neunavím spaním v posteli.",
 							"004": "Ano! Tahle postel je moje! M-O-J-E!",
 							"005": "Být v mé posteli je tak pohodlný a útulný pocit.",
@@ -8164,8 +8164,8 @@
 					"text": "Na Jezení Bobulí:",
 					"logs": {
 						"psychopathic_misanthrope": {
-							"000": "Huh. These berries are actually kind of growing on me. They've got that fresh, non-manured taste.",
-							"001": "I'm not sure. These berries me feel kind of... light inside. I don't like where this is going.",
+							"000": "Huh. Ty bobule na mně docela přirostly. Dostali takovou tu čerstvou, ne-hnojivou chuť.",
+							"001": "Nejsem si jistý/á. Ty bobule mě uvnitř dělají na pocit takovým/ou... lehkým/ou. Nelíbí se mi, kam tohle spěje.",
 							"002": "Teď už vím, proč jsou hipíci vegetariáni. Kašlu na to."
 						},
 						"insufferable_academic": {
@@ -8209,7 +8209,7 @@
 							"002": "Přeju si, abych měl/a na jezení něco jiného, než tenhle [str(entry.recent_food)]."
 						},
 						"insufferable_academic": {
-							"000": "[str(entry.recent_food)] again? If only people could be nourished by knowledge alone.",
+							"000": "[str(entry.recent_food)] zase? Jenom pokud by lidé mohli být nasyceni samotným věděním.",
 							"001": "A surprising amount of digestion does not seem to happen on a one-food diet."
 						},
 						"beleaguered_leader": {
@@ -8245,9 +8245,9 @@
 					"logs": {
 						"generic": {
 							"000": "Mmm, miluju rozmanitost v mé dietě.",
-							"001": "Eating [str(entry.recent_food)] was a nice change of pace.",
-							"002": "Having different things at mealtimes really synergizes the flavors!",
-							"003": "[str(entry.recent_food)] tastes better when I haven't had it for a while.",
+							"001": "Jezení [str(entry.recent_food)] byla hezká změna tempa.",
+							"002": "Mít jiné věci v časech jídla vážně synergizuje chutě!",
+							"003": "[str(entry.recent_food)] chutná líp, kdybych ho nějaký čas neměl/a.",
 							"teacher": {
 								"000": "Chvála [str(entry.teacher)]! Rozmanitost v jídle mě dělá sťastným/ou."
 							}
@@ -8258,29 +8258,29 @@
 					"text": "Na Jezení Vážně Zdravě:",
 					"logs": {
 						"lovable_rogue": {
-							"000": "Wow, who knew [str(entry.recent_food)] was so incredibly slimming?",
-							"001": "This [str(entry.recent_food)] is the best thing I've eaten in a long time.",
-							"002": "I bet there's a market for food this good. Unless I should keep it all to myself?",
+							"000": "Wáu, kdo věděl, že [str(entry.recent_food)] byla tak vážně hubnoucí?",
+							"001": "Tohle [str(entry.recent_food)] je ta nejlepší věc, co jsem jedl/a v dlouhé době.",
+							"002": "Vsadím se, že tam je trh pro takhle dobré jílo. Ledaže bych si ho nechal zcela pro sebe?",
 							"teacher": {
-								"000": "This was an amazing [str(entry.recent_food)]. Praise [str(entry.teacher)] and the Church of Plenty!"
+								"000": "Tohle bylo úžasné [str(entry.recent_food)]. Chvála [str(entry.teacher)] a Kapli Hojnosti!"
 							}
 						},
 						"hopeless_optimist": {
 							"000": "Wow! Cítím se skvěle!",
-							"001": "We need to make more food like this [str(entry.recent_food)] so everyone can eat some!",
-							"002": "Grow grow grow, grow more of this [str(entry.recent_food)]."
+							"001": "Musíme udělat více jídla jako tohle [str(entry.recent_food)] aby každý mohl ochutnat!",
+							"002": "Růst růst růst, růst více tohohle [str(entry.recent_food)]."
 						},
 						"beleaguered_leader": {
-							"000": "Wow. Who'd have guessed that [str(entry.recent_food)] was a superfood?",
-							"001": "That was a surprisingly satisfying [str(entry.recent_food)].",
-							"002": "That [str(entry.recent_food)] was so good I should really prioritize eating more of it.",
+							"000": "Wáu. Kdo by to byl řekl, že [str(entry.recent_food)] byla superpotravina?",
+							"001": "To bylo překapivě uspokojující [str(entry.recent_food)].",
+							"002": "To [str(entry.recent_food)] bylo tak dobré, že bych opravdu měl/a upřednostnit jíst ho víc.",
 							"003": "Arr! Teď se cítím jako superhrdina!"
 						},
 						"generic": {
-							"000": "Wow! That [str(entry.recent_food)] made me feel super healthy!",
-							"001": "That [str(entry.recent_food)] was surprisingly satisfying!",
+							"000": "Wáu! To [str(entry.recent_food)] mě učinilo se cítit super zdravým/ou!",
+							"001": "To [str(entry.recent_food)] bylo překvapivě uspokojující!",
 							"002": "[str(entry.recent_food)]? Super naplňující!",
-							"003": "This [str(entry.recent_food)] is going to fuel today's great works!"
+							"003": "Tohle [str(entry.recent_food)] posílí dnešní obří práce!"
 						}
 					}
 				}
@@ -8316,30 +8316,30 @@
 					"text": "Při příchodu:",
 					"logs": {
 						"insufferable_academic": {
-							"000": "Three days have passed since I had a decent philosophical conversation. Trying not to panic. Failing. Trying to keep it in. Succeeding. Mostly."
+							"000": "Uplynuly tři dny, co jsem měl slušnou fylozofickou konverzaci. Zkouším nepanikařit. Selhávám. Zkouším to držet v sobě. Uspívám. Většinou."
 						},
 						"beleaguered_leader": {
 							"000": "Zdá se, že se sem všichni dostali OK! Dobrá... téměř všichni..."
 						},
 						"diligent_sweetheart": {
-							"000": "Wow! This is a lot of great outdoors. Well, time to form strong relationships and build community!"
+							"000": "Wáu! Tohle je hodně velkého venkova. Nuže, čas na formování silných vztahů a budování komunity!"
 						},
 						"lovable_rogue": {
 							"000": "Nuž, jsme tady, Myslím. Miliony kilometrů pryč od civilizace. Skvěle.",
 							"001": "Máma měla pravdu. Všichni budeme sežráni medvědy."
 						},
 						"hopeless_optimist": {
-							"000": "I'm so psyched to be here, I could polka with joy!!!",
-							"001": "I'm so psyched to be here, I could yowl with joy!!!",
-							"002": "I'm so psyched to be here, I could cartwheel with joy!!!",
-							"003": "I'm so psyched to be here, I could dance with joy!!!",
-							"004": "I'm so psyched to be here, I could jump with joy!!!",
-							"005": "I'm so psyched to be here, I could skip with joy!!!",
-							"006": "I'm so psyched to be here, I could backflip with joy!!!"
+							"000": "Jsem tak psychicky nemocný/á být tady, že bych mohl/a radostí zpívat polku!!!",
+							"001": "Jsem tak psychicky nemocný/á být tady, že bych mohl/a radostí kvílet!!!",
+							"002": "Jsem tak psychicky nemocný/á být tady, že bych se mohl/a radostí kutálet!!!",
+							"003": "Jsem tak psychicky nemocný/á být tady, že bych mohl/a radostí tančit!!!",
+							"004": "Jsem tak psychicky nemocný/á být tady, že bych mohl/a radostí skákat!!!",
+							"005": "Jsem tak psychicky nemocný/á být tady, že bych mohl/a radostí skočit!!!",
+							"006": "Jsem tak psychicky nemocný/á být tady, že bych mohl/a skočit salto vzad radostí!!!"
 						},
 						"psychopathic_misanthrope": {
-							"000": "At the time, wilderness seemed better than jailtime, but I'm starting to wonder.",
-							"001": "Walk a thousand miles to get away from people and... there are still people. Spork."
+							"000": "Časem, divočina se zdála být lepší, ne pobyt ve vězení, ale začínám se divit.",
+							"001": "Kráčejíc tisíce mil, abych vypadnul/a od lidí, a... jsou tam pořád lidé. Škrabal."
 						}
 					}
 				}
@@ -8450,7 +8450,7 @@
 					"text": "Na Nemíti Žádného Jídla:",
 					"logs": {
 						"insufferable_academic": {
-							"000": "Fasting for a day merely offers an opportunity to observe the wailings of my monkey mind.",
+							"000": "Jednodenní půst nabízí pouze příležitost pozorovat kvílení mé opičí mysli.",
 							"001": "Den bez jídla je výtečný způsob k zaostření mysli.",
 							"002": "Podle mého výskumu, lidé musí sníst alespoň dvacet čtyři jednotek energie každý den k udržení správné funkce."
 						},
@@ -8529,9 +8529,9 @@
 						"insufferable_academic": {
 							"000": "Hlad je pouze stav mysli.",
 							"001": "Být, či nebýt, to je otázka...",
-							"002": "The needs of the stomach are merely a distraction from the pursuits of the mind.",
+							"002": "Potřeby žaludku jsou pouze odvedení pozornosti od pronásledování mysli.",
 							"003": "Mysl... nad... hmotu!",
-							"004": "I refuse to allow my vast intellect to succumb to base starvation!",
+							"004": "Odmítám dovolit mému rozlehlému intelektu podlehnout základu hladovění!",
 							"005": "Podle mého výskumu, lidé musí sníst alespoň dvacet čtyři jednotek energie každý den k udržení správné funkce."
 						},
 						"hopeless_optimist": {
@@ -8556,19 +8556,19 @@
 							"000": "Ty chceš mě abych byl/a Tkalcem? Všechno co já vím ohledně tkaní: zapíchnout ostrý konec do jiné osoby. Tohle by mělo být zajímavé."
 						},
 						"hopeless_optimist": {
-							"000": "Woo! Now that I'm the weaver, I live to make comfy beds for everyone!"
+							"000": "Jóó! Teď, když jsem Tkalec, žiju, abych udělal/a útulné postele pro všechny!"
 						},
 						"insufferable_academic": {
 							"000": "There is a meditative grace in fine knotwork. Stare, my friends, stare until your souls belong to meeeeee."
 						},
 						"beleaguered_leader": {
-							"000": "I don't know... I always expected a more epic role in life. Well, this will probably be good for my blood pressure."
+							"000": "Já vám nevím... Vžycky jsem očekával/a více epickou roli v životě. Nuže, tohle bude možná dobré pro můj krevní tlak."
 						},
 						"lovable_rogue": {
-							"000": "Hmm... if a spider is a weaver, is a weaver like a spider? Everyone shall sleep safe in my webs. ...Was that too creepy?"
+							"000": "Hmm... pokud je pavouk tkalcem, je tkalec jako pavouk ? Všichni by měli spát bezpečně v mých sítích. ... Bylo to až moc děsivé?"
 						},
 						"diligent_sweetheart": {
-							"000": "Oh! First thing's first--time to make everyone a new winter scarf!"
+							"000": "Och! Úplně nejprvnější věc--čas udělat pro každého novou zimní šálu!"
 						}
 					}
 				}
@@ -8609,7 +8609,7 @@
 			},
 			"forest": {
 				"insane_alligator": {
-					"description": "Smaller varanuses tend to flock around them."
+					"description": "Malé varanus se zvyknou poflakovat kolem nich."
 				},
 				"zilla": {
 					"description": "Pozor Zilla!"
@@ -8622,7 +8622,7 @@
 			"corruption": {
 				"thief": {
 					"display_name": "Corrupt Crawler",
-					"description": "Small, but ravenous."
+					"description": "Malý, ale žravý."
 				},
 				"wolf": {
 					"display_name": "Corrupted Beast",
@@ -8703,11 +8703,11 @@
 							},
 							"step001": {
 								"title": "Otevři menu dílny",
-								"description": "Use this menu to manage the various crafting workshops of your citizens. "
+								"description": "Použi tohle menu pro spravování mnoha výrobních dílen tvých obyvatel. "
 							},
 							"step000": {
 								"title": "Nastav Pracovní Stůl",
-								"description": "Our carpenter needs a crafting station in order to craft items for the town. Let's make a workbench!"
+								"description": "Náš tesař potřebuje výrobní stanici pro vytváření předmětů pro město. Udělejme pracovní stůl!"
 							}
 						}
 					}
@@ -8717,24 +8717,24 @@
 						"set1": {
 							"step001": {
 								"title": "Otevři Stavební Menu",
-								"description": "Use this menu to build structures and place items in your town."
+								"description": "Použi tohle menu k postavení staveb a umísťování předmětů ve tvém městě."
 							},
 							"step000": {
 								"title": "Umísti Tesařský Pracovní Stůl",
-								"description": "Now that we've crafted the workbench, we need to place it in town for the Carpenter to use."
+								"description": "Teď když jsme vyrobili pracovní stůl, potřebujeme ho umístit ve městě pro Tesaře k použití."
 							},
 							"step003": {
-								"title": "Click the Carpenter's Workshop item",
-								"description": "Select the workshop and click to place it somewhere in town."
+								"title": "Klikni na Tesařův Dílnový předmět",
+								"description": "Vyber dílnu a klikni na umístění někde ve městě"
 							},
 							"step002": {
-								"title": "Open the Place Item pane"
+								"title": "Otevři podokno Umístit Předmět"
 							}
 						},
 						"set2": {
 							"step000": {
 								"title": "Gratulace!",
-								"description": "We've got resources, a place to store goods, and a way to craft items. We're well on our way to getting this settlement off the ground!"
+								"description": "Dostali jsme suroviny, místo na skladování zboží, a způsob, jak vyrábět předměty. Vedeme si dobře na naší cestě dostat tuhle osadu ze země!"
 							}
 						}
 					}
@@ -8748,19 +8748,19 @@
 		},
 		"loadouts": {
 			"food_for_days": {
-				"description": "The large amount of food crammed into the back of the caravan should keep the hearthlings going for a handful of days while they get their settlement up and running.",
+				"description": "Velké množství jídla nacpané do zádi karavany by mělo udržet hearthlingy v chodu na hrst dnů, zatím co budou dostávat jejich osadu vzhůru a do chodu.",
 				"display_name": "Jídlo na Dny",
 				"tooltip": "Bezpečná možnost pro nové hráče, i když postrádá v obraně."
 			},
 			"merchant_caravan": {
-				"description": "A collection of trade tools should give the settlement a leg up in the wilderness.",
+				"description": "Sbírka obchodních nástrojů by měla dát osadě nakopnutí v divočině.",
 				"display_name": "Obchodní Karavana",
-				"tooltip": "Dobrá sbírka výrobných dovedností, ale krátké na jídlo."
+				"tooltip": "Dobrá sbírka výrobných dovedností, ale krátká na jídlo."
 			},
 			"money_solves_all_problems": {
-				"description": "Anything that the town needs they should be able to purchase from a trader.  That is, presuming one finds them and has the proper goods for sale...",
+				"description": "Vše, co město potřebuje, by mělo mít možnost koupit od obchodníka. Tedy za předpokladu, že je někdo najde a má správné zboží na prodej...",
 				"display_name": "Peníze Řeší Všechny Potíže",
-				"tooltip": "A risky but potentially very beneficial choice.  It all depends on when and what traders arrive."
+				"tooltip": "Riskantní, ale potenciálně velmi přínosná volba. Vše záleží na tom, kdy a jací obchodníci dorazí."
 			},
 			"items": {
 				"gold": "Zlato",
@@ -8776,7 +8776,7 @@
 			"animal_companion": {
 				"animal_companion_trait": {
 					"display_name": "Zvířecí Společník",
-					"description": "Ever since [name(i18n_data.savior)] [str(i18n_data.maybe_determiner)] [str(i18n_data.maybe_savior_species)] saved their [str(i18n_data.savee_species)], [name(i18n_data.savee)], from mortal danger, they've been inseparable.",
+					"description": "Od doby, kdy [name(i18n_data.savior)] [str(i18n_data.maybe_determiner)] [str(i18n_data.maybe_savior_species)] zachránil/a jeho/ího [str(i18n_data.savee_species)], [name(i18n_data.savee)], ze smrtelného nebezpečí, byli neoddělitelný.",
 					"default_species": "společník"
 				}
 			},
@@ -8788,8 +8788,8 @@
 			},
 			"callous": {
 				"callous_trait": {
-					"display_name": "Callous",
-					"description": "[name(i18n_data.entity)] never really connects with others. This helps them to not be as hurt when a tragedy strikes, but their constant guarded composure makes them slow to make friends."
+					"display_name": "Otrlý/á",
+					"description": "[name(i18n_data.entity)] se nikdy nespojuje s ostatními. Tohle jim pomáhá nebýt tolik zraněn/á, když udeří tragédie, ale jejich neustále hlídaný postoj je činí pomalými v dělání přátel."
 				}
 			},
 			"carnivore": {
@@ -8825,7 +8825,7 @@
 			"professor": {
 				"professor_trait": {
 					"display_name": "Profesor",
-					"description": "[name(i18n_data.entity)] will help people gain experience in the basics of their class, though their explanations tend to be a bit... long winded."
+					"description": "[name(i18n_data.entity)] pomůže lidem získávat zkušenosti v základech jejích profese, ačkoliv jejich vysvětlování zvyknou být trošičku... dlouhatánské."
 				}
 			},
 			"featherweight": {
@@ -8896,8 +8896,8 @@
 			},
 			"gregarious": {
 				"gregarious_trait": {
-					"display_name": "Gregarious",
-					"description": "[name(i18n_data.entity)] loves discussing the day's events with others and gets a bit lonely when they don't."
+					"display_name": "Společenský/á",
+					"description": "[name(i18n_data.entity)] miluje diskutovat denní události s ostatními, a bude trošku osamělý/á, pokud ne."
 				}
 			},
 			"loner": {
@@ -8965,36 +8965,36 @@
 			"thoughts": {
 				"hunger": {
 					"hungry": {
-						"display_name": "Hungry",
-						"tooltip": "I could really go for a good meal."
+						"display_name": "Hladový/á",
+						"tooltip": "Vážně bych mohl/a jít pro dobré jídlo."
 					},
 					"famished": {
-						"display_name": "Famished",
-						"tooltip": "It's been awhile since I've eaten. I really need some food!"
+						"display_name": "Vyhladovělý/á",
+						"tooltip": "Byla to nějaká doba, když jsem posledně jedl/a. Vážně potřebuju nějaké jídlo!"
 					},
 					"starving": {
-						"display_name": "Starving",
-						"tooltip": "My stomach is in knots!  If I don't find something to eat soon..."
+						"display_name": "Hladovějící",
+						"tooltip": "Můj žaludek je v křečích! Pokud nenajdu brzy něco k jídlu..."
 					},
 					"values": {
 						"stuffed": {
-							"display_name": "Stuffed",
-							"tooltip": "My last meal was so filling I won't need to eat again for a bit."
+							"display_name": "Nacpaný/á",
+							"tooltip": "Moje poslední jídlo bylo tak naplňující, že nebudu potřebovat zase jíst nějakou chvilku."
 						}
 					}
 				},
 				"space": {
 					"spacious": {
-						"display_name": "Spacious Environment",
-						"tooltip": "There's so much open space around here. It really makes me feel at ease."
+						"display_name": "Prostorné Prostředí",
+						"tooltip": "Tady kolem je tolik otevřeného prostoru. Opravdu mě to uklidňuje."
 					},
 					"cramped": {
-						"display_name": "Cramped Environment",
-						"tooltip": "I'm feeling rather cramped. I always have to watch my step not to bump into anything."
+						"display_name": "Stísněné Prostředí",
+						"tooltip": "Cítím se trošku stísněně. Vždycky musím dávat pozor na to, kam šlapu, abych do něčeho nevrazil/a."
 					},
 					"very_cramped": {
 						"display_name": "Velice Stísněné Prostředí",
-						"tooltip": "This place is suffocating! There's barely room to breathe!"
+						"tooltip": "Tohle místo je k zadušení! Je tady sotva místo pro dýchání!"
 					}
 				},
 				"darkness": {
@@ -9040,7 +9040,7 @@
 					},
 					"well_rested": {
 						"display_name": "Dobře odpočatý/á",
-						"tooltip": "Ahh, sleeping in my own bed without hearing other people snoring always leaves me refreshed."
+						"tooltip": "Ách, spát v mé vlastní posteli bez poslouchání, jak ostatní lidé chrápou, mě vždycky zanechá odpočatým/ou."
 					},
 					"slept_outside": {
 						"display_name": "Spal/a venku",
@@ -9065,41 +9065,41 @@
 						"tooltip": "Stala se chyba.  Náhodou jsem snědl/a jídlo co jí moje jídlo."
 					},
 					"offended_palate": {
-						"display_name": "Offended Palate",
-						"tooltip": "Bleh, I hate eating stuff like [str(foodname)]. There's just no \"zazz\" to it!"
+						"display_name": "Uražené Patro",
+						"tooltip": "Fuj, nenávidím jíst takové věci jako [str(foodname)]. Není na tom prostě nic \"speciálního\"!"
 					},
 					"pleased_palate": {
-						"display_name": "Pleased Palate",
-						"tooltip": "Mmm, my my. I really should tell the others how good [str(foodname)] was today!"
+						"display_name": "Spokojené Patro",
+						"tooltip": "Mmm, můj můj. Vážně bych měl/a ostatním říct, jak dobrý [str(foodname)] dneska byl!"
 					},
 					"ate_fine": {
 						"display_name": "Jedl/a dobré jídlo",
-						"tooltip": "My recent meal was amazing! Whoever made the [str(foodname)] really put their heart into it."
+						"tooltip": "Moje nedávné jídlo bylo úžasné! Kdokoliv udělal [str(foodname)] vážně do toho vložil/a své srdce."
 					},
 					"ate_tasty": {
 						"display_name": "Jedl/a chutné jídlo",
-						"tooltip": "The [str(foodname)] I ate was pretty tasty! I still remember the combination of flavors."
+						"tooltip": "[str(foodname)] co jsem jedl/a bylo vážně chutné! Ještě pořád si pamatuju kombinaci chutí."
 					},
 					"ate_raw": {
 						"display_name": "Mé jídlo bylo syrové",
-						"tooltip": "I recently ate a raw [str(foodname)]. I can only imagine how much better it would have tasted were it cooked."
+						"tooltip": "Nedávno jsem snědl/a syrové [str(foodname)]. Můžu si jenom představovat, o kolik lépe by to chutnalo, kdyby to bylo uvařené."
 					},
 					"ate_bland": {
-						"display_name": "Ate a bland meal",
-						"tooltip": "I remember eating a bland [str(foodname)]. It gave me the strength to keep going, but the meal was so boring."
+						"display_name": "Jedl/a nevýrazné jídlo",
+						"tooltip": "Pamatuju si jezení nevýrazného [str(foodname)]. Dalo mi to sílu jít dál, ale jídlo bylo tak nudné."
 					},
 					"item_quality": {
 						"ate_item_quality_fine": {
 							"display_name": "Dobře připravené jídlo",
-							"tooltip": "My recent [str(foodname)] was <font color='#6be9e7'>Finely</font> prepared, which made it extra delicious!"
+							"tooltip": "Moje nedávné [str(foodname)] bylo <font color='#6be9e7'>Finely</font> připraveno, které ho dělali extra delikátním!"
 						},
 						"ate_item_quality_excellent": {
-							"display_name": "Excellently prepared meal",
-							"tooltip": "My recent [str(foodname)] was <font color='#ce71d2'>Excellent!</font> It was really something!"
+							"display_name": "Excelentně připravené jídlo",
+							"tooltip": "Moje nedávné [str(foodname)] bylo <font color='#ce71d2'>Excelentní!</font> To bylo opravdu něco!"
 						},
 						"ate_item_quality_masterwork": {
 							"display_name": "Mistrovsky připravené jídlo!",
-							"tooltip": "Právě jsem jedl/a <font color='#E3AC53'>Masterfully</font> připravený/é/ou [str(foodname)]! Nikdy jsem nevěděl/a, žeby to mohlo chutnat tak dobře!"
+							"tooltip": "Právě jsem jedl/a <font color='#E3AC53'>Mistrovsky</font> připravené [str(foodname)]! Nikdy jsem nevěděl/a, žeby to mohlo chutnat tak dobře!"
 						}
 					},
 					"values": {
@@ -9112,8 +9112,8 @@
 				"amberstone": {
 					"borrow_crafter": {
 						"helped_out": {
-							"display_name": "Visit with the Rabbits",
-							"tooltip": "Wow, the Amberstone warren was amazing! I feel so honored to have helped them out."
+							"display_name": "Návštěva s Králikama",
+							"tooltip": "Wáu, nora Jantarového Kamene byla úžasná! Cítím se tak poctěný/á, že jsem jim mohl/a pomoct."
 						}
 					}
 				},
@@ -9124,20 +9124,20 @@
 							"tooltip": "Feels good to do my part, taking an axe to this Titan's corrupt undergrowth!"
 						},
 						"harvested_root": {
-							"display_name": "Chopped down a Root of Evil",
-							"tooltip": "That's one step closer to kicking this Titan out for good!"
+							"display_name": "Pokácel/a Kořen Zla",
+							"tooltip": "To je jeden krok blíže, k nakopání tohohle Titána pryč nadobro!"
 						}
 					},
 					"victory": {
 						"titan_victory": {
-							"display_name": "Titan Vanquished!",
-							"tooltip": "We did it! The air seems cleaner now, and I don't feel like there's always something watching me..."
+							"display_name": "Titán Poražený!",
+							"tooltip": "Dokázali jsme to! Vzduch se zdá být teď mnohem čistější, a nemám pocit, že mě pořád něco sleduje..."
 						}
 					},
 					"peace": {
 						"no_more_titan": {
-							"display_name": "Titan-Free Homestead!",
-							"tooltip": "It feels nice to live in a place without an ancient darkness lurking below it for once!"
+							"display_name": "Titán-Slobodná Usedlost!",
+							"tooltip": "Je to hezký pocit pro jednou žít v místě, bez prastarého zla pod ním!"
 						}
 					}
 				},
@@ -9154,14 +9154,14 @@
 					},
 					"township": {
 						"level_2": {
-							"display_name": "Township Celebration",
-							"tooltip": "We've been recognized as a fully fledged settlement!  Our work is starting to pay off."
+							"display_name": "Okresní Slavnost",
+							"tooltip": "Byli jsme zaznamenáni jako plnohodnotná osada! Naše práce se začíná vyplácet."
 						}
 					},
 					"safety": {
 						"lack_of_safety": {
 							"display_name": "Postrádá pocit bezpečí",
-							"tooltip": "Without some form of city guard, I just don't feel at ease in this wilderness."
+							"tooltip": "Bez jakékoliv formy městké stráže, se prostě necítím uvolněně v téhle divočině."
 						}
 					},
 					"theft": {
@@ -9173,16 +9173,16 @@
 					"progression": {
 						"values": {
 							"outpost": {
-								"display_name": "Established an outpost",
-								"tooltip": "We've just established an Outpost! Time to get working on it!"
+								"display_name": "Výspa založena",
+								"tooltip": "Právě sme založili Výspu! Čas na ní začít pracovat!"
 							},
 							"settlement": {
-								"display_name": "Established a settlement",
-								"tooltip": "Our outpost is now a fully-fledged Settlement! Hurrah!"
+								"display_name": "Osada založena",
+								"tooltip": "Naše výspa je teď plnohodnotná Osada! Huráá!"
 							},
 							"town": {
-								"display_name": "Township Celebration",
-								"tooltip": "We've been recognized as a Town! Our work is starting to pay off!"
+								"display_name": "Okresní Slavnost",
+								"tooltip": "Byli jsme zaznamenáni jako Město! Naše práce se začíná vyplácet."
 							}
 						}
 					}
@@ -9222,12 +9222,12 @@
 							"tooltip": "Pokaždé, když narábím s rostlinami, cítím se trochu klidněji."
 						},
 						"fruitful_labors": {
-							"display_name": "Fruitful Labors",
-							"tooltip": "It always feels good to make something with one's own hands. It helps clear my mind."
+							"display_name": "Plodná Práce",
+							"tooltip": "To je vždycky takový dobrý pocit, udělat něco se svýma vlastníma rukama. Pomáhá mi to vyčistit mou mysl."
 						},
 						"idle_hands": {
 							"display_name": "Nečinné Ruce",
-							"tooltip": "I've not made anything in awhile and feel like a layabout. Isn't there something I can craft?"
+							"tooltip": "Nic jsem nějakou dobu nevyrobil/a a cítím se jako líný povaleč. Není zde něco, co bych mohl/a vyrobit ?"
 						},
 						"protected_the_town": {
 							"display_name": "Ochránil/a Město",
@@ -9239,22 +9239,22 @@
 						},
 						"inspired": {
 							"display_name": "Inspirovaný/á",
-							"tooltip": "[str(target_name)] is in quite good spirits today. They're really pleasant to be around!"
+							"tooltip": "[str(target_name)] je dneska ve vážně dobré náladě. Je velice potěšený/á být kolem!"
 						},
 						"discouraged": {
-							"display_name": "Discouraged",
-							"tooltip": "Sheesh, [str(target_name)] is no fun when they're in a bad mood."
+							"display_name": "Znechucený/á",
+							"tooltip": "Šmárjá, [str(target_name)] není s ním/í zábava, když je ve špatné náladě."
 						},
 						"deeper_understanding": {
 							"display_name": "Hlubší chápání",
-							"tooltip": "[str(target_name)] really has his priorities straight."
+							"tooltip": "[str(target_name)] vážně má svoje priority přímé."
 						},
 						"pluviophile": {
 							"display_name": "Miluju déšť!",
 							"tooltip": "Dneska je moje oblíbené počasí!"
 						},
 						"storm_chaser": {
-							"display_name": "It's storming!",
+							"display_name": "Je bouřka!",
 							"tooltip": "Dneska je moje oblíbené počasí!"
 						}
 					},
@@ -9266,27 +9266,27 @@
 							},
 							"enjoys_company": {
 								"display_name": "Užívá si společnost",
-								"tooltip": "It's always great to spend some time with my fellow town members."
+								"tooltip": "Je to vždycky tak skvělé strávit nějaký čas s mými městskými společníky."
 							}
 						}
 					},
 					"loner": {
 						"values": {
 							"annoyed_with_others": {
-								"display_name": "Otrávený z ostatních",
-								"tooltip": "Why do these people keep talking to me? It keeps distracting me from what's important."
+								"display_name": "Otrávený/á z ostatních",
+								"tooltip": "Proč ti lidé pořád se mnou mluví? Rozptyluje mě to od toho, co je důležité."
 							},
 							"alone_with_thoughts": {
 								"display_name": "Sám/a s mými vlastními myšlenkami",
-								"tooltip": "Being away from others has given me the time to reflect and clear my mind."
+								"tooltip": "Být pryč od ostatních my dalo čas na odražení a vyčištění mé mysli."
 							}
 						}
 					},
 					"empathetic": {
 						"values": {
 							"everyone_worse_off": {
-								"display_name": "Everyone seems worse off",
-								"tooltip": "Seeing everyone else in worse spirits just brings me down."
+								"display_name": "Všichni vypadají hůř",
+								"tooltip": "Vidět všechny v horší náladě mě prostě sráží."
 							},
 							"everyone_happier": {
 								"display_name": "Všichni se zdají být šťastnější",
@@ -9298,11 +9298,11 @@
 						"values": {
 							"ate_not_bad_food": {
 								"display_name": "Mmm, není špatné",
-								"tooltip": "My [str(foodname)] today was a little tasty, but didn't seem that different from what I normally eat."
+								"tooltip": "Můj [str(foodname)] dneska byl trošku chutný, ale nezdál se být o tolik jiný od toho, co normálně jím."
 							},
 							"ate_some_food": {
 								"display_name": "Snědl/a nějaké jídlo",
-								"tooltip": "I had some [str(foodname)] today. It was alright, but I don't see what the big deal is."
+								"tooltip": "Měl/a jsem [str(foodname)] dneska. bylo to v pohodě, ale nevidím co na tom je."
 							}
 						}
 					}
@@ -9310,8 +9310,8 @@
 				"violence": {
 					"values": {
 						"townmember_died": {
-							"display_name": "A townmember has died",
-							"tooltip": "A fellow townmember has died. If only we had been more watchful!"
+							"display_name": "Městský člen zemřel",
+							"tooltip": "Společný člen města zemřel. Kdybychom jenom byli více bdělý!"
 						},
 						"pet_died": {
 							"display_name": "Můj mazlíček zemřel",
@@ -9343,7 +9343,7 @@
 						},
 						"great_joke": {
 							"display_name": "Slyšel/a skvělý vtip",
-							"tooltip": "Hahaha, just thinking of the joke [str(target_name)] told makes me crack up!"
+							"tooltip": "Hahaha, jenom pomyšlení na žert, co [str(target_name)] říkal/a mě dělá k popukání!"
 						},
 						"tough_crowd": {
 							"display_name": "Tvrdý dav",
@@ -9357,8 +9357,8 @@
 								"tooltip": "Awww, můj mazlíček [str(target_name)] mě vždycky dokáže rozveselit."
 							},
 							"booped": {
-								"display_name": "Booped",
-								"tooltip": "A cute [str(species)] booped me today. It made me feel warm and fuzzy inside."
+								"display_name": "Pošťouchlý/á",
+								"tooltip": "Roztomilý/á/é [str(species)] mě dneska pošťouchlo. Udělalo mě to uvnitř tak hřejivého/ou a chmířivého/ou."
 							}
 						}
 					}
@@ -9378,7 +9378,7 @@
 						},
 						"ugly": {
 							"display_name": "Ošklivá Estetika",
-							"tooltip": "Sheesh, it's really ugly around here. We definitely can make this look better!"
+							"tooltip": "Šmárjá, tady kolem to je vážně ošklivé. Určitě to dokážeme udělat, aby to vypadalo lépe!"
 						},
 						"awe_inspiring": {
 							"display_name": "Velkolepá Estetika",
@@ -9390,31 +9390,31 @@
 						},
 						"breathtaking": {
 							"display_name": "Dech-Beroucí Estetika",
-							"tooltip": "Wow, everywhere I look is gorgeous! The attention to detail is amazing!"
+							"tooltip": "Wáu, kamkoliv se kouknu, to je nádhera! Pozornost pro detail je úžasný!"
 						}
 					}
 				},
 				"appeal_crafting": {
 					"values": {
 						"breathtaking": {
-							"display_name": "Breath-Taking Workshop",
-							"tooltip": "I love crafting in my workshop; it's so well decorated!"
+							"display_name": "Dech-Beroucí Dílna",
+							"tooltip": "Miluju vyrábět v mé dílně; je tak hezky zdobená!"
 						},
 						"pleasing": {
-							"display_name": "Pleasant Workshop",
-							"tooltip": "A well-maintained work space brightens my mood."
+							"display_name": "Uspokojivá Dílna",
+							"tooltip": "Dobře-udržované pracovní prostředí mi vždycky zlepší mou náladu."
 						},
 						"beautiful": {
-							"display_name": "Beautiful Workshop",
-							"tooltip": "The area around my workbench is looking good, everything is in its place."
+							"display_name": "Nádherná Dílna",
+							"tooltip": "Oblast kolem mého pracovního stolu vypadá dobře, všechno je na svém místě."
 						},
 						"ugly": {
-							"display_name": "Unkempt Workshop",
-							"tooltip": "It's frustrating that my work space is so grungy."
+							"display_name": "Nepořádná Dílna",
+							"tooltip": "Je to frustrující, že mé pracovné prostředí je tak nevrlé."
 						},
 						"awe_inspiring": {
-							"display_name": "Awe-Inspiring Workshop",
-							"tooltip": "My workshop looks so amazing! It's an inspiration!"
+							"display_name": "Úcty-Hodná Dílna",
+							"tooltip": "Moje dílna vypadá tak úžasně! Je to inspirace!"
 						}
 					}
 				},
@@ -9658,7 +9658,7 @@
 					"display_name": "Nástroj zeď"
 				},
 				"ui_notification_popup": {
-					"display_name": "Open Notification Popup"
+					"display_name": "Otevřít Vyskakovací Okno Upozornění"
 				},
 				"ui_multiplayer_chat": {
 					"display_name": "Otevřít Konverzaci"
@@ -9685,10 +9685,10 @@
 					"display_name": "Roof Drop Walls"
 				},
 				"build_blocksRadio": {
-					"display_name": "Set Visibility to Block"
+					"display_name": "Nastavit Viditelnost Bloku"
 				},
 				"build_wallRadio": {
-					"display_name": "Set Visibility to Wall"
+					"display_name": "Nastavit Viditelnost Zdi"
 				},
 				"build_hole": {
 					"display_name": "Nástroj Díry"
@@ -9700,7 +9700,7 @@
 					"display_name": "Střecha Dozadu"
 				},
 				"build_roofRadio": {
-					"display_name": "Set Visibility to Roof"
+					"display_name": "Nastavit Viditelnost Střechy"
 				},
 				"build_fence": {
 					"display_name": "Nástroj plot"
@@ -10008,10 +10008,10 @@
 			},
 			"cloth_padded_helmet": {
 				"display_name": "Látkově Polstrovaná Helma",
-				"description": "Extra padding for your noggin",
+				"description": "Extra vycpávka pro tvou makovici",
 				"cloth_padded_helmet_iconic": {
 					"display_name": "Látkově Polstrovaná Helma",
-					"description": "Extra padding for your noggin"
+					"description": "Extra vycpávka pro tvou makovici"
 				}
 			},
 			"bronze_helm": {
@@ -10304,7 +10304,7 @@
 			},
 			"wooden_tunnel_door_fine": {
 				"display_name": "Hezké Dřevěné Tunelové Dveře",
-				"description": "Useful for blocking off tunnels"
+				"description": "Užitečné pro blokování tunelů"
 			},
 			"blue_latticed_window": {
 				"blue_latticed_window_ghost": {
@@ -10339,7 +10339,7 @@
 			"ornate_picket_fence": {
 				"ornate_picket_fence_ghost": {
 					"display_name": "Ornate Picket Fence",
-					"description": "A little gold leaf goes a long way!"
+					"description": "Malý zlatý list jde dlouhou cestu!"
 				}
 			},
 			"ornate_picket_fence_gate": {
@@ -10415,19 +10415,19 @@
 			"ornate_picket_fence_end": {
 				"ornate_picket_fence_end_ghost": {
 					"display_name": "Ornate Picket Fence Post",
-					"description": "A little gold leaf goes a long way!"
+					"description": "Malý zlatý list jde dlouhou cestu!"
 				}
 			},
 			"ornate_picket_fence_bar_single": {
 				"ornate_picket_fence_bar_single_ghost": {
 					"display_name": "Ornate Picket Fence Small",
-					"description": "A little gold leaf goes a long way!"
+					"description": "Malý zlatý list jde dlouhou cestu!"
 				}
 			},
 			"ornate_picket_fence_bar_double": {
 				"ornate_picket_fence_bar_double_ghost": {
 					"display_name": "Ornate Picket Fence Large",
-					"description": "A little gold leaf goes a long way!"
+					"description": "Malý zlatý list jde dlouhou cestu!"
 				}
 			},
 			"cobblestone_fence_bar_double": {
@@ -10517,7 +10517,7 @@
 			"ornate_picket_fence_combo": {
 				"ornate_picket_fence_combo_ghost": {
 					"display_name": "Ornate Picket Fence Combo",
-					"description": "A little gold leaf goes a long way!"
+					"description": "Malý zlatý list jde dlouhou cestu!"
 				}
 			},
 			"cobblestone_fence_combo": {
@@ -10667,37 +10667,37 @@
 			"input_bin_clay": {
 				"input_bin_clay_ghost": {
 					"display_name": "Ceramic Supply Basin",
-					"description": "A supply container, for quicker crafting."
+					"description": "Zásobovací kontejner, pro rychlejší vyrábění."
 				}
 			},
 			"input_bin_amberstone": {
 				"input_bin_amberstone_ghost": {
 					"display_name": "Rabbit-Style Supply Basket",
-					"description": "A supply container, for quicker crafting."
+					"description": "Zásobovací kontejner, pro rychlejší vyrábění."
 				}
 			},
 			"input_bin_woven": {
 				"input_bin_woven_ghost": {
 					"display_name": "Tkaný Zásobovací Košík",
-					"description": "A supply container, for quicker crafting."
+					"description": "Zásobovací kontejner, pro rychlejší vyrábění."
 				}
 			},
 			"input_bin_wood": {
 				"input_bin_wood_ghost": {
 					"display_name": "Dřevěná Zásobovací Bedna",
-					"description": "A supply container, for quicker crafting."
+					"description": "Zásobovací kontejner, pro rychlejší vyrábění."
 				}
 			},
 			"input_bin_stone": {
 				"input_bin_stone_ghost": {
 					"display_name": "Stonework Supply Bin",
-					"description": "A supply container, for quicker crafting."
+					"description": "Zásobovací kontejner, pro rychlejší vyrábění."
 				}
 			},
 			"input_bin_iron": {
 				"input_bin_iron_ghost": {
 					"display_name": "Iron-Banded Supply Bin",
-					"description": "A supply container, for quicker crafting."
+					"description": "Zásobovací kontejner, pro rychlejší vyrábění."
 				}
 			},
 			"input_shelf_wall_clay": {
@@ -10715,19 +10715,19 @@
 			"input_shelf_ground_clay": {
 				"input_shelf_ground_clay_ghost": {
 					"display_name": "Ceramic Supply Rack",
-					"description": "A supply container, for quicker crafting."
+					"description": "Zásobovací kontejner, pro rychlejší vyrábění."
 				}
 			},
 			"input_shelf_ground_stone": {
 				"input_shelf_ground_stone_ghost": {
-					"description": "A supply container, for quicker crafting.",
+					"description": "Zásobovací kontejner, pro rychlejší vyrábění.",
 					"display_name": "Stonework Supply Rack"
 				}
 			},
 			"input_shelf_ground_wood": {
 				"input_shelf_ground_wood_ghost": {
 					"display_name": "Wooden Supply Rack",
-					"description": "A supply container, for quicker crafting."
+					"description": "Zásobovací kontejner, pro rychlejší vyrábění."
 				}
 			},
 			"input_shelf_wall_wood": {
@@ -10739,91 +10739,91 @@
 			"input_table_ground_iron": {
 				"input_table_ground_iron_ghost": {
 					"display_name": "Iron-Studded Supply Table",
-					"description": "A supply container, for quicker crafting."
+					"description": "Zásobovací kontejner, pro rychlejší vyrábění."
 				}
 			},
 			"input_corner_ground_wood": {
 				"input_corner_ground_wood_ghost": {
 					"display_name": "Wooden Corner Supply Rack",
-					"description": "A supply container, for quicker crafting."
+					"description": "Zásobovací kontejner, pro rychlejší vyrábění."
 				}
 			},
 			"input_corner_ground_stone": {
 				"input_corner_ground_stone_ghost": {
 					"display_name": "Stonework Corner Supply Rack",
-					"description": "A supply container, for quicker crafting."
+					"description": "Zásobovací kontejner, pro rychlejší vyrábění."
 				}
 			},
 			"input_table_ground_wood": {
 				"input_table_ground_wood_ghost": {
 					"display_name": "Wooden Supply Table",
-					"description": "A supply container, for quicker crafting."
+					"description": "Zásobovací kontejner, pro rychlejší vyrábění."
 				}
 			},
 			"input_table_ground_stone": {
 				"input_table_ground_stone_ghost": {
 					"display_name": "Stonework Supply Table",
-					"description": "A supply container, for quicker crafting."
+					"description": "Zásobovací kontejner, pro rychlejší vyrábění."
 				}
 			},
 			"input_table_ground_clay": {
 				"input_table_ground_clay_ghost": {
 					"display_name": "Ceramic Supply Table",
-					"description": "A supply container, for quicker crafting."
+					"description": "Zásobovací kontejner, pro rychlejší vyrábění."
 				}
 			},
 			"input_corner_ground_clay": {
 				"input_corner_ground_clay_ghost": {
 					"display_name": "Ceramic Corner Supply Rack",
-					"description": "A supply container, for quicker crafting."
+					"description": "Zásobovací kontejner, pro rychlejší vyrábění."
 				}
 			},
 			"input_bin_clay_blue": {
 				"input_bin_clay_blue_ghost": {
 					"display_name": "Blue Ceramic Supply Basin",
-					"description": "A supply container, for quicker crafting."
+					"description": "Zásobovací kontejner, pro rychlejší vyrábění."
 				}
 			},
 			"input_bin_clay_green": {
 				"input_bin_clay_green_ghost": {
-					"description": "A supply container, for quicker crafting.",
+					"description": "Zásobovací kontejner, pro rychlejší vyrábění.",
 					"display_name": "Green Ceramic Supply Basin"
 				}
 			},
 			"input_bin_clay_red": {
 				"input_bin_clay_red_ghost": {
-					"description": "A supply container, for quicker crafting.",
+					"description": "Zásobovací kontejner, pro rychlejší vyrábění.",
 					"display_name": "Red Ceramic Supply Basin"
 				}
 			},
 			"input_bin_woven_blue": {
 				"input_bin_woven_blue_ghost": {
 					"display_name": "Modrý Tkaný Zásobovací Košík",
-					"description": "A supply container, for quicker crafting."
+					"description": "Zásobovací kontejner, pro rychlejší vyrábění."
 				}
 			},
 			"input_bin_woven_green": {
 				"input_bin_woven_green_ghost": {
 					"display_name": "Zelený Tkaný Zásobovací Košík",
-					"description": "A supply container, for quicker crafting."
+					"description": "Zásobovací kontejner, pro rychlejší vyrábění."
 				}
 			},
 			"input_bin_woven_red": {
 				"input_bin_woven_red_ghost": {
 					"display_name": "Červený Tkaný Zásobovací Košík",
-					"description": "A supply container, for quicker crafting."
+					"description": "Zásobovací kontejner, pro rychlejší vyrábění."
 				}
 			},
 			"input_corner_ground_iron": {
 				"input_corner_ground_iron_ghost": {
 					"display_name": "Iron Corner Supply Shelf",
-					"description": "A supply container, for quicker crafting."
+					"description": "Zásobovací kontejner, pro rychlejší vyrábění."
 				}
 			},
 			"market_shelf_tall_ground_wood": {
 				"market_shelf_tall_ground_wood_ghost": {
-					"display_name": "Market Trading Shelf",
-					"description": "Other players and Travellers can buy the items stored here."
+					"display_name": "Obchodní Trhová Police",
+					"description": "Ostatní hráči a Cestovatelé mohou koupit předměty uskladněné zde."
 				}
 			},
 			"gem_chest": {
@@ -10848,14 +10848,14 @@
 			},
 			"market_shelf_tall_ground_clay": {
 				"market_shelf_tall_ground_clay_ghost": {
-					"display_name": "Market Trading Shelf",
-					"description": "Other players and Travellers can buy the items stored here."
+					"display_name": "Obchodní Trhová Police",
+					"description": "Ostatní hráči a Cestovatelé mohou koupit předměty uskladněné zde."
 				}
 			},
 			"market_shelf_tall_ground_stone": {
 				"market_shelf_tall_ground_stone_ghost": {
-					"display_name": "Market Trading Shelf",
-					"description": "Other players and Travellers can buy the items stored here."
+					"display_name": "Obchodní Trhová Police",
+					"description": "Ostatní hráči a Cestovatelé mohou koupit předměty uskladněné zde."
 				}
 			}
 		},
@@ -12528,8 +12528,8 @@
 					"description": "Poja milují jezení tohohle."
 				},
 				"feed_fodder_ground": {
-					"display_name": "Animal Fodder",
-					"description": "Animals don't enjoy it as much, but its more efficient."
+					"display_name": "Zvířecí Krmivo",
+					"description": "Zvířata si ho tolik neužijí, ale je více efektivní."
 				}
 			},
 			"rabbit_feed": {
@@ -12542,37 +12542,37 @@
 			},
 			"prickly_pear": {
 				"prickly_pear_basket": {
-					"display_name": "Prickly Pear Basket",
-					"description": "Eat carefully!"
+					"display_name": "Košík Opuncie",
+					"description": "Jíst opatrně!"
 				},
 				"prickly_pear_serving": {
-					"display_name": "Prickly Pear",
-					"description": "Ow! Was that a spine?"
+					"display_name": "Opuncie",
+					"description": "Au! To byla bodlina?"
 				}
 			},
 			"golden_gourd": {
 				"golden_gourd_basket": {
-					"display_name": "Golden Gourd Basket",
-					"description": "Edible when raw, barely"
+					"display_name": "Košík Zlatých Tykví",
+					"description": "Jedlá když je syrová, sotva"
 				},
 				"golden_gourd_serving": {
 					"display_name": "Zlatá Tykev",
-					"description": "Raw gourd is... terrible"
+					"description": "Syrová tykev je... strašná"
 				}
 			},
 			"golden_gourd_curry": {
 				"golden_gourd_curry": {
-					"display_name": "Golden Gourd Curry",
-					"description": "The spices make this dish edible."
+					"display_name": "Kari ze Zlaté Tykve",
+					"description": "Koření dělá tohle jídlo poživatelné."
 				},
 				"golden_gourd_curry_serving": {
-					"display_name": "Golden Gourd Curry",
-					"description": "Way better than raw golden gourd"
+					"display_name": "Kari ze Zlaté Tykve",
+					"description": "Mnohem lepší než syrová zlatá tykev"
 				}
 			},
 			"corn_meal": {
 				"display_name": "Kukuřičná Moučka",
-				"description": "Corn ground into a fine powder"
+				"description": "Kukuřice rozemletá na jemný prášek"
 			},
 			"flat_bread": {
 				"flat_bread": {
@@ -12869,7 +12869,7 @@
 				},
 				"pie_pear": {
 					"display_name": "Koláč z Opuncie",
-					"description": "It's called 'Prickly Pear' but all the prickles have been removed."
+					"description": "Nazývá se Opuncií' ale všechny bodliny byli odstraněny."
 				}
 			},
 			"cake_layered": {
@@ -12916,7 +12916,7 @@
 			"amberstone_bed": {
 				"amberstone_bed_ghost": {
 					"display_name": "Woven Bed",
-					"description": "So soft!!"
+					"description": "Tak měkká!!"
 				}
 			},
 			"comfy_bed": {
@@ -12975,8 +12975,8 @@
 			},
 			"not_much_of_a_bed": {
 				"not_much_of_a_bed_ghost": {
-					"display_name": "Mean Bed",
-					"description": "Mean as in poor, not cruel."
+					"display_name": "Zlá Postel",
+					"description": "Zlá, jakožto chudá, né krutá."
 				}
 			},
 			"park_bench": {
@@ -13940,7 +13940,7 @@
 					},
 					"cactus_plant_seed_ghost": {
 						"display_name": "Semínko Divokého Kaktusu",
-						"description": "Can be planted to grow some prickly pears."
+						"description": "Může být zasazeno k růstu nějakých opuncií."
 					}
 				},
 				"sprout": {
@@ -13990,12 +13990,12 @@
 			},
 			"pear_cactus": {
 				"display_name": "Opuncie",
-				"description": "Harvest carefully for prickly pears.",
-				"unripe_description": "It's the invisible spines that really hurt",
+				"description": "Sbírat opatrně pro opuncie.",
+				"unripe_description": "Jsou to neviditelné bodliny co bolí",
 				"seed": {
 					"pear_cactus_plant_seed_ghost": {
 						"display_name": "Semínko Opuncie",
-						"description": "Can be planted to grow some prickly pears."
+						"description": "Může být zasazeno k růstu nějakých opuncií."
 					}
 				},
 				"bud": {
@@ -14881,7 +14881,7 @@
 		"terrain": {
 			"mining_zone": {
 				"display_name": "Těžební Zóna",
-				"description": "This terrain is designated for removal."
+				"description": "Tenhle terén je vyznačený pro odstranění."
 			},
 			"tall_grass": {
 				"display_name": "Vysoká Tráva",
@@ -15869,25 +15869,25 @@
 		"landmark": {
 			"summon_stone_block_dirt": {
 				"summon_stone_block_dirt_ghost": {
-					"display_name": "Dirt Terrain Block Stone",
-					"description": "Vyvolá 8x5x8 bloku blátového terénu."
+					"display_name": "Kámen Bloků Hliněného Terénu",
+					"description": "Vyvolá 8x5x8 bloků hliněného terénu."
 				}
 			},
 			"summon_stone_block_mimic": {
 				"summon_stone_block_mimic_ghost": {
-					"display_name": "Mimic Terrain Block Stone",
+					"display_name": "Kámen Bloků Napodobujícího Terénu",
 					"description": "Vyvolá 8x5x8 bloku terénu které napodobuje jakýkoliv terén na kterém je položený."
 				}
 			},
 			"summon_stone_block_rock": {
 				"summon_stone_block_rock_ghost": {
-					"display_name": "Rock Terrain Block Stone",
+					"display_name": "Kámen Bloků Skalnatého Terénu",
 					"description": "Vyvolá 8x5x8 bloku skalnatého terénu."
 				}
 			},
 			"summon_stone_block_surface": {
 				"summon_stone_block_surface_ghost": {
-					"display_name": "Surface Terrain Block Stone",
+					"display_name": "Kámen Bloků Povrchového Terénu",
 					"description": "Vyvolá 8x5x8 bloku povrchového terénu, jako je tráva nebo písek."
 				}
 			},
@@ -16287,7 +16287,7 @@
 					"recipe_name": "Železná Čepka"
 				},
 				"steel_helmet_recipe": {
-					"description": "Extra protection for your noggin!",
+					"description": "Extra ochrana pro tvou makovici!",
 					"recipe_name": "Plátová Helma",
 					"flavor": "Long considered the epitome of headgear; doubles as a fine soup pot - Roke Tastybakes II"
 				},
@@ -16329,7 +16329,7 @@
 					"flavor": "As it turns out, their hats were very dense"
 				},
 				"decorative_generals_gong_recipe": {
-					"description": "Enormous and decorative!",
+					"description": "Enormní a dekorativní!",
 					"recipe_name": "Generálův Zlatý Gong",
 					"flavor": "The generals hat, when melted down, could have filled a lake with gold"
 				},
@@ -16578,8 +16578,8 @@
 				},
 				"not_much_of_a_bed_recipe": {
 					"description": "Slightly more comfortable than sleeping on a board.",
-					"recipe_name": "Mean Bed",
-					"flavor": "Mean as in poor, not cruel. Though it's that too."
+					"recipe_name": "Zlá Postel",
+					"flavor": "Zlá, jakožto chudá, né krutá. Ačkoliv, to je také."
 				},
 				"park_bench_recipe": {
 					"description": "Venkovní sezení pro chvíle relaxace.",
@@ -16665,7 +16665,7 @@
 				"wooden_garden_lantern_recipe": {
 					"description": "A small lantern that's placed on the ground. Suitable for lighting paths or small gardens.",
 					"recipe_name": "Dřevěná Zahradní Lampa",
-					"flavor": "Practical and romantic!"
+					"flavor": "Praktická a romantická!"
 				},
 				"wooden_shield_recipe": {
 					"description": "Crude and basic, but allows the holder to occasionally block attacks.",
@@ -16777,7 +16777,7 @@
 					"flavor": "Ale kdo jsou ti lidé? A odkud přicházejí?"
 				},
 				"market_shelf_tall_ground_wood_recipe": {
-					"description": "Other players and Travellers can buy goods stocked on these shelves.",
+					"description": "Ostatní hráči a Cestovatelé mohou koupit zboží naskladněné na těchto policích.",
 					"recipe_name": "Trhová Směnná Police",
 					"flavor": "Jednoho Hearthlinga odpadem je pro jiného pokladem... je tak?"
 				},
@@ -16866,7 +16866,7 @@
 				"ornate_wooden_garden_lantern_recipe": {
 					"recipe_name": "Zdobená Dřevěná Zahradní Lampa",
 					"description": "A small lantern that's placed on the ground. Suitable for lighting paths or small gardens.",
-					"flavor": "Practical and romantic!"
+					"flavor": "Praktická a romantická!"
 				},
 				"ornate_wooden_wall_lantern_recipe": {
 					"flavor": "So comfortinzzzzzzzz...",
@@ -16961,17 +16961,17 @@
 				"ornate_picket_fence_bar_double_recipe": {
 					"description": "Drží lidi pryč z tvého majetku.",
 					"recipe_name": "Ornate Picket Fence Long",
-					"flavor": "A little gold leaf goes a long way!"
+					"flavor": "Malý zlatý list jde dlouhou cestu!"
 				},
 				"ornate_picket_fence_bar_single_recipe": {
 					"description": "Drží lidi pryč z tvého majetku.",
 					"recipe_name": "Ornate Picket Fence Short",
-					"flavor": "A little gold leaf goes a long way!"
+					"flavor": "Malý zlatý list jde dlouhou cestu!"
 				},
 				"ornate_picket_fence_end_recipe": {
 					"description": "Drží lidi pryč z tvého majetku.",
 					"recipe_name": "Ornate Picket Fence Post",
-					"flavor": "A little gold leaf goes a long way!"
+					"flavor": "Malý zlatý list jde dlouhou cestu!"
 				},
 				"picket_fence_end_recipe": {
 					"description": "Drží lidi pryč z tvého majetku.",
@@ -16996,7 +16996,7 @@
 				"ornate_picket_fence_combo_recipe": {
 					"description": "Drží lidi pryč z tvého majetku.",
 					"recipe_name": "Ornate Picket Fence Combo",
-					"flavor": "A little gold leaf goes a long way!"
+					"flavor": "Malý zlatý list jde dlouhou cestu!"
 				}
 			}
 		},
@@ -17217,9 +17217,9 @@
 					"flavor": "It's some kind of meat, not sure which it was though..."
 				},
 				"feed_fodder_recipe": {
-					"description": "For feeding any vegetarian animals.",
-					"recipe_name": "Animal Fodder",
-					"flavor": "What a great use of excess seeds!"
+					"description": "Pro krmení jakýchkoliv vegetariánských zvířat.",
+					"recipe_name": "Zvířecí Krmivo",
+					"flavor": "Jakéto skvělé využití přebytečných semínek!"
 				},
 				"pie_berry_recipe": {
 					"description": "A scrumptious pie that is very complicated to make.",
@@ -17229,7 +17229,7 @@
 				"pie_pear_recipe": {
 					"description": "A scrumptious pie that is very complicated to make.",
 					"recipe_name": "Koláč z Opuncií",
-					"flavor": "It's called 'Prickly Pear' but all the prickles have been removed."
+					"flavor": "Nazývá se Opuncií' ale všechny bodliny byli odstraněny."
 				},
 				"cake_layered_recipe": {
 					"description": "An extremely involved recipe but so good, and so filling...",
@@ -17612,40 +17612,40 @@
 					"recipe_name": "Kámen Králičí Sochy"
 				},
 				"summon_stone_block_dirt_recipe": {
-					"description": "Summons an 8x5x8 block of dirt terrain.",
-					"recipe_name": "Dirt Terrain Block Stone"
+					"description": "Vyvolá 8x5x8 bloků hliněného terénu.",
+					"recipe_name": "Kámen Bloků Hliněného Terénu"
 				},
 				"summon_stone_block_mimic_recipe": {
-					"description": "Summons an 8x5x8 block of terrain that mimics whatever terrain it is placed on.",
-					"recipe_name": "Mimic Terrain Block Stone"
+					"description": "Vyvolá 8x5x8 bloku terénu které napodobuje jakýkoliv terén na kterém je položený.",
+					"recipe_name": "Kámen Bloků Napodobujícího Terénu"
 				},
 				"summon_stone_block_rock_recipe": {
-					"description": "Summons an 8x5x8 block of rock terrain.",
-					"recipe_name": "Rock Terrain Block Stone"
+					"description": "Vyvolá 8x5x8 bloku skalnatého terénu.",
+					"recipe_name": "Kámen Bloků Skalnatého Terénu"
 				},
 				"summon_stone_block_surface_recipe": {
-					"description": "Summons an 8x5x8 block of surface terrain, such as grass or sand.",
-					"recipe_name": "Surface Terrain Block Stone"
+					"description": "Vyvolá 8x5x8 bloku povrchového terénu, jako je tráva nebo písek.",
+					"recipe_name": "Kámen Bloků Povrchového Terénu"
 				},
 				"summon_stone_geyser_recipe": {
 					"description": "Summons a mountain geyser.",
 					"recipe_name": "Geyser Stone"
 				},
 				"summon_stone_patch_dirt_recipe": {
-					"description": "Grows into a patch of dirt terrain, up to 12x12 units in size",
-					"recipe_name": "Dirt Terrain Patch Stone"
+					"description": "Vyroste do záplaty hliněného terénu, až do 12x12 jednotek velikosti",
+					"recipe_name": "Záplatový Kámen Hliněného Terénu"
 				},
 				"summon_stone_patch_rock_recipe": {
-					"description": "Grows into a patch of rocky terrain, up to 12x12 units in size",
-					"recipe_name": "Rock Terrain Patch Stone"
+					"description": "Vyroste do záplaty skalnatého terénu, až do 12x12 jednotek velikosti",
+					"recipe_name": "Záplatový Kámen Skalnatého Terénu"
 				},
 				"summon_stone_patch_mimic_recipe": {
-					"description": "Grows into a patch of terrain, up to 12x12 units in size, that mimics the terrain it's placed on.",
-					"recipe_name": "Mimic Terrain Patch Stone"
+					"description": "Vyroste do záplaty terénu, až do 12x12 jednotek velikosti, která napodobuje terén na kterém je položen",
+					"recipe_name": "Záplatový Kámen Napodobujícího Terénu"
 				},
 				"summon_stone_patch_surface_recipe": {
-					"description": "Grows into a patch of surface terrain, such as grass or sand, up to 12x12 units in size.",
-					"recipe_name": "Surface Terrain Patch Stone"
+					"description": "Vyroste do záplaty povrchového terénu, jako je tráva nebo písek, až do 12x12 jednotek velikosti.",
+					"recipe_name": "Záplatový Kámen Povrchového Terénu"
 				},
 				"summon_stone_rock_field_recipe": {
 					"description": "Summons a pleasant field of rocks.",
@@ -18194,8 +18194,8 @@
 					"flavor": "The capstone of a civilized dwelling."
 				},
 				"market_shelf_tall_ground_stone": {
-					"description": "Other players and Travellers can buy goods stocked on these shelves.",
-					"recipe_name": "Market Trading Shelf",
+					"description": "Ostatní hráči a Cestovatelé mohou koupit zboží naskladněné na těchto policích.",
+					"recipe_name": "Obchodní Trhová Police",
 					"flavor": "One Hearthling's trash is another's treasure... right?"
 				}
 			}
@@ -18520,8 +18520,8 @@
 					"flavor": "Více dekorativní než ochranný."
 				},
 				"market_shelf_tall_ground_clay": {
-					"description": "Other players and Travellers can buy goods stocked on these shelves.",
-					"recipe_name": "Market Trading Shelf",
+					"description": "Ostatní hráči a Cestovatelé mohou koupit zboží naskladněné na těchto policích.",
+					"recipe_name": "Obchodní Trhová Police",
 					"flavor": "One Hearthling's trash is another's treasure... right?"
 				}
 			},
@@ -18539,7 +18539,7 @@
 			},
 			"potter_cutter": {
 				"display_name": "Hrnčířský Řezák",
-				"description": "Užito k formování civilizace z bláta!",
+				"description": "Užito k formování civilizace z hlíny!",
 				"potter_cutter_talisman": {
 					"display_name": "Hrnčířský Řezák",
 					"description": "Vyžadován k povýšení hearthlinga na Hrnčíře."
@@ -18825,8 +18825,8 @@
 				},
 				"workbenches_name": "Pracovní Stoly",
 				"weaver_loom_recipe": {
-					"description": "Add thread to thread till cloth results.",
-					"recipe_name": "Loom",
+					"description": "Přidej vlákno k vláknu dokud nevznikne látka.",
+					"recipe_name": "Tkací Stroj",
 					"flavor": "Patient Spider, weaver, writer, draws the tapestry of fate tighter. --Rayya's Rhyme"
 				},
 				"weaver_spinning_wheel_recipe": {
@@ -18853,7 +18853,7 @@
 				},
 				"cloth_padded_helmet_recipe": {
 					"recipe_name": "Látková Cpaná Helma",
-					"description": "Extra vycpávka pro tvou dýni",
+					"description": "Extra vycpávka pro tvou makovici",
 					"flavor": "Were they phoenix wings, or serpent wings?"
 				},
 				"input_bin_amberstone_recipe": {
@@ -18898,7 +18898,7 @@
 			},
 			"weaver_loom": {
 				"weaver_loom_ghost": {
-					"display_name": "Loom",
+					"display_name": "Tkací Stroj",
 					"description": "Užito na tkaní niti do látky."
 				}
 			},
@@ -19139,8 +19139,8 @@
 				},
 				"wall_hanging_berrywreath_recipe": {
 					"description": "Perfektní pro jakoukoliv příležitost",
-					"recipe_name": "Berry Wreath",
-					"flavor": "You could eat the berries, but it'd ruin the wreath."
+					"recipe_name": "Bobulový Věneček",
+					"flavor": "Bobule by si mohl/a sníst, ale zničilo by to věneček."
 				},
 				"topiary_rabbit_recipe": {
 					"description": "Fluffy wildlife topiary",
