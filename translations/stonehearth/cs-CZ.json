@@ -27,36 +27,36 @@
 				"find_stray_animal": "hledá ztracené zvíře",
 				"harvest_field": "sklízí pole",
 				"idle": "nečinný",
-				"patrol": "hlídá",
+				"patrol": "hlídkuje",
 				"plant_crop": "sází plodiny",
-				"return_animals": "vrací se na pastvinu",
+				"return_animals": "vrací zvíře na pastvinu",
 				"combat": "účastní se boje",
 				"cower": "choulí se",
 				"flee": "prchá",
 				"panic": "panikaří",
-				"mine": "kope",
+				"mine": "doluje",
 				"sleep_in_bed": "spí",
 				"sleep_on_ground": "spí na zemi",
 				"check_bait_trap": "kontroluje pasti",
-				"set_bait_trap": "nastražuje pasti",
+				"set_bait_trap": "líčí pasti",
 				"survey_trapping_grounds": "prohlíží loviště",
 				"steal_bait": "krade návnadu",
 				"build_ladder": "staví žebřík",
-				"promote": "je povyšován",
-				"move_item_to_storage": "přenáší předmět do skladu",
+				"promote": "povyšuje",
+				"move_item_to_storage": "nese předmět do skladu",
 				"teardown_ladder": "odstraňuje žebřík",
-				"drop_item_near_workshop": "pročišťuje workshop",
+				"drop_item_near_workshop": "čistí workshop",
 				"fabricate_structure": "staví",
 				"teardown_structure": "boří stavby",
 				"feed_pasture_animals": "krmí zvířata",
 				"restock": "doplňuje zásoby",
-				"resting_from_injuries": "vyžaduje lékařskou pomoc",
+				"resting_from_injuries": "vyžaduje lékařskou péči",
 				"healing": "ošetřuje zranění",
 				"healing_target": "léčí [name(data.target)]",
 				"dig_foundation": "hloubí základy",
 				"unit_hold_location": "brání místo",
 				"talk": "mluví s [name(data.target)]",
-				"incapacitated": "je ochromený",
+				"incapacitated": "je v bezvědomí",
 				"rescue_citizen": "zachraňuje [name(data.target)]",
 				"recuperating": "zotavuje se",
 				"celebrating": "slaví",
@@ -116,9 +116,9 @@
 				"success_deleting_template": "Šablona smazána.",
 				"error_deleting_template": "Při mazání šablony došlo k chybě!",
 				"plan_job_status": {
-					"COMPLETE": "Stavba už probíhá!",
-					"INVALID_BLUEPRINTS": "Tato budova obsahuje chybné konstrukce. Ujisti se, že žádné konstrukce nejsou červeně!",
-					"PLANNING_ERROR_GENERIC": "Tvoji Hearthlingové nemohou přijít na to jak postavit tvojí budovu! Problémové bloky jsou teď vybarveny červeně."
+					"COMPLETE": "Stavba již probíhá!",
+					"INVALID_BLUEPRINTS": "Tato stavba obsahuje chybné konstrukce. Ujisti se, že žádné konstrukce nejsou červeně!",
+					"PLANNING_ERROR_GENERIC": "Tvoji Hearthlingové nemohou přijít na to jak postavit tvojí stavbu! Problémové bloky jsou teď vybarveny červeně."
 				},
 				"building_status": {
 					"build_button": "POSTAVIT",
@@ -142,7 +142,7 @@
 				}
 			},
 			"game_speed": {
-				"pause_title": "(Po)Zastavit",
+				"pause_title": "Pauza",
 				"pause_description": "Pozastavit hru",
 				"play_title": "Pustit",
 				"play_description": "Pustit hru s normální rychlostí",
@@ -155,29 +155,29 @@
 			"visions": {
 				"building_vision": "Stavební pohled",
 				"building_vision_description": "Mění viditelnost stěn, umožňuje vidět do vnitřku budov.",
-				"terrain_slice_vision": "Terenní řez",
+				"terrain_slice_vision": "Pohled průřezu terénem",
 				"terrain_slice_vision_icon_name": "řez",
 				"terrain_slice_vision_description": "Udělá řez terénem, tak že je možné vidět podzemí. Změnou výšky uvidíš různé úrovně terénu.",
 				"terrain_slice_vision_up": "Zvýšení úroveně řezu (skok o 5)",
 				"terrain_slice_vision_up_single": "Zvýšení úroveně řezu",
 				"terrain_slice_vision_down_single": "Snížení úrovně řezu",
 				"terrain_slice_vision_down": "Snížení úrovně řezu (skok o 5)",
-				"terrain_xray_vision_icon_name": "RTG",
-				"terrain_xray_vision": "Rentgen terénem",
+				"terrain_xray_vision_icon_name": "rentgen",
+				"terrain_xray_vision": "Pohled Rentgenu terénem",
 				"terrain_xray_vision_description": "Umožňuje vidět skrz terén. Vybírej mezi plným a plochým pohledem pro zobrazení podzemních stěn.",
 				"terrain_xray_vision_flat": "plochý",
 				"terrain_xray_vision_full": "plný",
 				"appeal_vision_icon_name": "přitažlivost",
 				"appeal_vision": "Vize přitažlivosti",
-				"appeal_vision_description": "Podívej se jak je pro hearthlingy svět přitažlivý"
+				"appeal_vision_description": "Podívej se jak přitažlivě vidí hearthlingové svět"
 			},
 			"trade_menu": {
 				"title": "Obchodování s [str(town_name)]",
 				"you": "[str(town_name)] (Ty!)",
 				"offering": "Nabízíš: ",
 				"requesting": "Žádáš:",
-				"source_gold": "Tvé zlaté celkem:",
-				"target_gold": "Jejich zlaté celkem:",
+				"source_gold": "Tvé zlato celkem:",
+				"target_gold": "Jejich zlato celkem:",
 				"give_1": "Dát 1",
 				"give_10": "Dát 10",
 				"request_1": "Požádat o 1",
@@ -206,7 +206,7 @@
 				"title": "Vyber Hearthlinga",
 				"select_person": "Zvolit",
 				"ownership_current_owner_tooltip": "Současný Majitel",
-				"ownership_owns_another_tooltip": "Už Vlastní Podobný Objekt",
+				"ownership_owns_another_tooltip": "Již Vlastní Podobný Objekt",
 				"reserve_for_travelers": "Rezerovat pro Cestovatele",
 				"already_reserved_for_travelers": "Rezervováno"
 			},
@@ -215,7 +215,7 @@
 			},
 			"multiplayer_menu": {
 				"display_name": "Menu Hry Více Hráčů",
-				"description": "Ostatní hráči, kteří se připojili do této hry",
+				"description": "Ostatní hráči, kteří se připojili do tohoto světa",
 				"host": "hostitel",
 				"client": "klient",
 				"online": "online",
@@ -249,7 +249,7 @@
 					},
 					"friends_overlay": {
 						"title": "Pozvat Přátele",
-						"message": "Kliknutím na 'Pokračovat' otevřeš Překrytí ve hře. Pravým tlačítkem klikni na přítele, kterého chceš pozvat do hry a klikni na 'Invite to Game'/'Pozvat do hry'. Přítel pak dostane zprávu s odkazem k připojení. "
+						"message": "Klikni na 'Pokračovat' pro otevření Steam Překrytí ve hře. Pravým tlačítkem klikni na přítele, kterého chceš pozvat do hry a klikni na 'Pozvat do hry'. Přítel pak dostane zprávu s odkazem k připojení."
 					}
 				},
 				"friends_list": "Kliknutím Pozvi!",
@@ -260,7 +260,7 @@
 				"title": "Postavit Workshop",
 				"requirements": "Požadavky",
 				"create_stockpile": "Řemeslníkovo Skladiště",
-				"create_stockpile_description": "Do tohoto skladiště bude řemeslník ukládat výrobky.<p>Pravděpodobně je dobré, umístit ho blízko pracovního stolu, ale to je tvoje rozhodnutí.",
+				"create_stockpile_description": "Do tohoto skladiště bude řemeslník ukládat své výrobky.<p>Možná bys ho chtěl umístit blízko pracovního stolu, ale hej, to je tvoje rozhodnutí.",
 				"page1_subtitle2": "Kliknutím na zem umístíš workshop",
 				"page2_subtitle2": "Kliknutím a tahem po zemi vytvoříš skladiště"
 			},
@@ -291,7 +291,7 @@
 				"morale_shelter": "Přístřeší",
 				"morale_safety": "Bezpečí",
 				"attack_abbreviation": "Útok",
-				"defense_abbreviation": "Obr",
+				"defense_abbreviation": "Obrana",
 				"backpack_tab_name": "Batoh",
 				"journal_no_entries": "žádné záznamy",
 				"retired": "Odstoupil na:",
@@ -302,8 +302,8 @@
 				"no_unhappy_thoughts": "Zatím žádné nešťastné myšlenky!",
 				"no_happy_thoughts": "Zatím žádné šťastné myšlenky!",
 				"teleport": {
-					"description": "Pokud se tento obyvatel někde zasekne, použij toto Nouzové Vyproštění - vyber blízký bod, kam ho chceš teleportovat (pouze pokud je nečinný). Obnoví se o půlnoci.",
-					"disabled_description": "Tneto obyvatel se již teleportoval. Zkus to znovu po půlnoci.",
+					"description": "Pokud se tento obyvatel někde zasekne, použij toto Nouzové Vyproštění k výběru blízkého bodu kam ho chceš teleportovat (pouze pokud je nečinný). Obnoví se o půlnoci.",
+					"disabled_description": "Tento obyvatel se dneska již teleportoval. Zkus to znovu po půlnoci.",
 					"not_idle_description": "Vyproštění není teď dostupné, protože obyvatel není nečinný.",
 					"different_player_description": "Nemůžeš Nouzově Vyprostit obyvatele jiného hráče."
 				},
@@ -313,19 +313,19 @@
 					"love": "Miluje",
 					"love_tooltip": "Když [str(self.stonehearth:unit_info.custom_name)] zahlédne jeden ze svých oblíbených předmětů, drasticky se zlepší jeho/její názor na tuto oblast.",
 					"dislike": "Nemá Rád",
-					"dislike_tooltip": "[str(self.stonehearth:unit_info.custom_name)] nemá rád tyto předměty a také je bude shledávat nepřitažlivé, bez ohledu na kvalitu.",
+					"dislike_tooltip": "[str(self.stonehearth:unit_info.custom_name)] nemá rád tyto předměty a také je bude shledávat nepřitažlivé, nehledně na kvalitu.",
 					"current_and_target_bar": "Celkový Názor",
-					"current_and_target_bar_tooltip": "Co si [str(self.stonehearth:unit_info.custom_name)] myslí o své současné a také právě navštívené oblasti.",
-					"current_arrow_tooltip": "Co si [str(self.stonehearth:unit_info.custom_name)] myslí o celkové přitažlivosti města. Tímto je ovliňena hearthlingova nálada.",
-					"target_arrow_tooltip": "Jak [str(self.stonehearth:unit_info.custom_name)] vnímá své současné okolí. To postupem času ovliňuje hearthlingův celkový pohled na město.",
-					"item_preferences": "[str(self.stonehearth:unit_info.custom_name)] (Ne)Zájmy"
+					"current_and_target_bar_tooltip": "Co si [str(self.stonehearth:unit_info.custom_name)] myslí o své současné a také nedávné navštívené oblasti.",
+					"current_arrow_tooltip": "Co si [str(self.stonehearth:unit_info.custom_name)] myslí o celkové přitažlivosti města. Tohle ovlivňuje hearthlingovu náladu.",
+					"target_arrow_tooltip": "Jak [str(self.stonehearth:unit_info.custom_name)] vnímá své současné okolí. Toto postupem času ovliňuje hearthlingův celkový pohled na město.",
+					"item_preferences": "[str(self.stonehearth:unit_info.custom_name)] Zájmy"
 				}
 			},
 			"pet_character_sheet": {
 				"title": "Info o Mazlíčkovi",
 				"release_pet_confirm_dialog": {
-					"title": "Uvolnit Mazlíčka",
-					"message": "Jsi si jistý, že chceš vypustit tohoto mazlíčka zpátka do divočiny? Už nebude možné ho získat zpět.",
+					"title": "Vypustit Mazlíčka",
+					"message": "Jsi si jistý, že chceš vypustit tohoto mazlíčka zpět do divočiny? Již ho nebudeš moct získat zpět.",
 					"accept": "Nechci tohoto mazlíčka",
 					"cancel": "Počkej!"
 				},
@@ -357,7 +357,7 @@
 				"save_autosave": "Automaticky průběžně ukládat",
 				"auto_save_prefix": "Automatické ukládání: ",
 				"save_in_progress": "Ukládání...",
-				"opt_title": "Pomožte nám udělat Stonehearth lepší!",
+				"opt_title": "Pomozte nám udělat Stonehearth lepší!",
 				"opt_text": "Dovolíš nám sbírat anonymní data o výkonu a hratelnosti, abychom mohli zlepšit budoucí verze hry?",
 				"opt_in_button": "Ano, pomůžu",
 				"opt_out_button": "Nope",
@@ -392,14 +392,14 @@
 				"create_new_multiplayer_game": "Vytvořit novou hru více hráčů",
 				"open_game_to_multiplayer": "Otevřít hru pro více hračů",
 				"allow_remote_connections": "Povolit Hru Více Hráčů",
-				"allow_remote_connections_description": "Povolit jiným hráčům připojit se ke hře",
-				"game_speed_anarchy": "Povolit Ovládání Rychlosti Hry Klienty",
+				"allow_remote_connections_description": "Povolit jiným hráčům připojit se ke tvé hře",
+				"game_speed_anarchy": "Povolit Ovládání Rychlosti Hry pro Klienty",
 				"game_speed_anarchy_description": "Povolit ostatním hráčům ovládat rychlost hry",
 				"start": "Začít",
 				"settings": "Nastavení Hry Více Hráčů",
 				"max_players": "Max Hráčů ",
 				"max_players_description": "Nastav maximální počet hráčů, kteří se mohou připojit",
-				"max_players_warning": "Upozornění: Hry s více jak 3 hráči mohou pocítit nižší výkon hry (pomaleji reagující AI, škupání, zasekávání)."
+				"max_players_warning": "Upozornění: Hry s více jak 3 hráči mohou pocítit nižší výkon hry (pomaleji reagující AI, škubání, zasekávání)."
 			},
 			"multiplayer_status_text": {
 				"status": {
@@ -428,29 +428,29 @@
 				}
 			},
 			"party": {
-				"title": "Čety",
-				"create_party": "Vytvořit Četu",
+				"title": "Skupiny",
+				"create_party": "Vytvořit Skupinu",
 				"edit_party": "Upravit",
-				"add_party_member": "Přidat člena",
+				"add_party_member": "Přidat Člena",
 				"remove_members": "Odstranit Všechny Členy",
 				"add_party_member_title": "Spravovat Seznam",
 				"done_adding_members": "Hotovo",
 				"add_party_member_button": "Přidat",
 				"remove_party_member_button": "Odebrat",
-				"not_in_party": "Není v četě",
-				"party_help": "Členové čety budou chodit společně a mohou být posláni na bojiště.",
-				"party_editor_help": "Pro přidání a odebrání Hearthlingů z čety použij toto okno.",
+				"not_in_party": "Není ve skupině",
+				"party_help": "Členové skupiny budou chodit společně a mohou být posláni na bojiště.",
+				"party_editor_help": "Použij toto okno pro přidání a odebrání Hearthlingů ke skupině.",
 				"attack_banner_button": "Příkaz k Útoku",
-				"attack_banner_button_help": "Dá příkaz četě zaútočit na místo",
+				"attack_banner_button_help": "Řekne skupině zaútočit na místo",
 				"defend_banner_button": "Shromáždit & Bránit se",
-				"defend_banner_button_help": "Dá příkaz k schromáždění čety na místě, pokud je aktivován Režim Obrany Města"
+				"defend_banner_button_help": "Řekne skupině k schromáždění na místě, když je aktivován Režim Obrany Města"
 			},
 			"unit_frame": {
 				"show_character_sheet": "Ukázat informace o postavě",
 				"focus_camera": "Zaměřit kameru na tuto jednotku",
 				"attack_target": {
 					"display_name": "Útočný Přesun",
-					"description": "Útok na konkrétní cíl nebo místo."
+					"description": "Zaůtočit na konkrétní cíl nebo místo."
 				},
 				"crafted_by": "Vyrobil/a [str(author_name)]",
 				"crafted_in": "Vyrobeno v [str(author_name)]",
@@ -463,8 +463,8 @@
 					"description": "Přesun na místo bez útočení."
 				},
 				"manage_party": {
-					"display_name": "Spravovat Četu",
-					"description": "Přidat nebo odebrat členy čety."
+					"display_name": "Spravovat Skupinu",
+					"description": "Přidat a odebrat útočné jednotky ze skupiny."
 				},
 				"cancel_order": {
 					"display_name": "Zrušit Bojový Příkaz",
@@ -480,14 +480,14 @@
 				"num_uses": "Použití",
 				"placed": "umístěn",
 				"placement_tags": {
-					"turret": "Střelecká Věž",
-					"trap": "Past",
+					"turret": "Střelecké Věže",
+					"trap": "Pasti",
 					"golem": "Golemové"
 				},
 				"quality": {
 					"quality-2": "Dobrá Kvalita",
-					"quality-3": "Výborná Kvalita",
-					"quality-4": "Hustodémonskykrutopřísná Kvalita!"
+					"quality-3": "Vynikající Kvalita",
+					"quality-4": "Mistrovská Kvalita!"
 				},
 				"traveler": {
 					"gifted_by": "Dárek od [str(gifter_name)]"
@@ -512,15 +512,15 @@
 				"button_suspend": "přerušit",
 				"button_resume": "pokračovat",
 				"change_all": "Změnit Vše",
-				"change_all_title": "Nastav pro jaké město by měli všichni obyvatelé pracovat",
+				"change_all_title": "Nastav pro které město by měli všichni obyvatelé pracovat",
 				"tab": {
 					"tasks": "Úkoly",
 					"groups": "Skupiny"
 				},
 				"enrollment": {
-					"enrolled": "Enrolled",
-					"not_enrolled": "Not enrolled",
-					"cannot_enroll": "Cannot enroll"
+					"enrolled": "Zapsaný/á",
+					"not_enrolled": "Nezapsaný/á",
+					"cannot_enroll": "Nemožno zapsat"
 				},
 				"working_for": {
 					"title": "Změnit pro koho pracuje",
@@ -528,7 +528,7 @@
 				}
 			},
 			"create_camp": {
-				"new_game_place_banner": "Klikni na mě pro umístění praporu města",
+				"new_game_place_banner": "Klikni na mě pro umístění praporu tvého města",
 				"click_banner_tip": "Klikni na prapor pro vybrání polohy osady",
 				"select_camp_tip": "Teď klikni někam do světa",
 				"name_camp_title": "Pojmenuj svojí osadu",
@@ -557,7 +557,7 @@
 				"weather_prefix_0": "Dnes: ",
 				"weather_prefix_1": "Zítra: ",
 				"weather_prefix_2": "Pozítří: ",
-				"season_reamining_days": "Skončí za [str(num)] dnů/dny.",
+				"season_reamining_days": "Končí za [str(num)] dnů/dny.",
 				"season_reamining_day": "Končí zitra."
 			},
 			"esc_menu": {
@@ -565,13 +565,13 @@
 				"resume": "Pokračovat",
 				"save": "Uložit nebo Načíst Hru",
 				"settings": "Nastavení",
-				"about": "Informace o Hře",
+				"about": "O Nás",
 				"quit_to_menu": "Návrat do Hlavního Menu",
 				"exit_game": "Ukončit Hru",
 				"post_bug": "Nahlásit bug",
 				"exit_confirm_dialog": {
 					"title": "Ukončit Hru",
-					"message": "Opravdu chceš ukončit celou hru? Neuložený postup bude ztracen.",
+					"message": "Opravdu chceš zcela ukončit hru? Neuložený postup bude ztracen.",
 					"yes_button": "Ano",
 					"cancel_button": "Zrušit"
 				},
@@ -607,18 +607,18 @@
 					"defense": "Obrana",
 					"trophy": "Trofeje",
 					"seed": "Semínka",
-					"pets": "Mazličci",
+					"pets": "Mazlíčci",
 					"none": "Nic",
 					"geomancer": "Vyvolávací Kameny"
 				},
-				"tooltip_combat_base_damage": "Útok:",
+				"tooltip_combat_base_damage": "Útk:",
 				"tooltip_combat_base_damage_reduction": "Obr:",
 				"tooltip_num_undeployed": "Odklizeno: [str(num_undeployed)]",
-				"tooltip_deprecated": "Pozůstalý předmět: Tento předmět už nelze v této verzi hry získat.",
+				"tooltip_deprecated": "Pozůstalý předmět: Tento předmět již nelze v této verzi hry získat.",
 				"death_notification": "[name(i18n_data.entity)] umřel/a.",
-				"imminent_death_notification": "[name(i18n_data.citizen)] je vážně zraněný!",
+				"imminent_death_notification": "[name(i18n_data.citizen)] je velmi vážně zraněný/á!",
 				"starving_notification": "[name(i18n_data.citizen)] hladoví!",
-				"unreachable_ingredient_notification": "[name(i18n_data.citizen)] nemůže najít některé přísady, aby mohl vyrobit  [str(i18n_data.crafting_order)].",
+				"unreachable_ingredient_notification": "[name(i18n_data.citizen)] nemůže najít některé přísady, aby mohl/a vyrobit  [str(i18n_data.crafting_order)].",
 				"where_is_food_notification": "[name(i18n_data.citizen)] nemůže najít žádné jídlo.",
 				"health_status_normal": "Normální",
 				"health": "Životy",
@@ -638,103 +638,103 @@
 				},
 				"harvest_menu": {
 					"display_name": "Těžba",
-					"description": "Těž zdroje nebo kopej do země.",
+					"description": "Těž zdroje nebo doluj do země.",
 					"items": {
 						"harvest": {
 							"display_name": "Sběr",
-							"description": "Sbírej stromy, květiny a kameny z povrchu země",
+							"description": "Kácej stromy, sbírej květiny a kameny z povrchu země",
 							"tip_title": "Klikni a táhni myší pro těžbu zdrojů",
-							"tip_description": "Mód ukončíš stiskem pravého tlačítka."
+							"tip_description": "Mód ukončíš stiskem pravého tlačítka"
 						},
 						"mine_basic": {
 							"display_name": "Kopat Tunel",
-							"description": "Vykopávání tunelů a jeskyň o velikosti 4x4",
+							"description": "Kopání tunelů a jeskyň o velikosti 4x4",
 							"tip_title": "Klikni a táhni myší pro kopání",
-							"tip_description": "Drž Ctrl pro zmenšování oblastí. Skonči stiskem pravého tlačítka."
+							"tip_description": "Drž Ctrl pro zmenšování oblastí. Stiskem pravého tlačítka ukončíš."
 						},
 						"mine_custom": {
-							"display_name": "Těžba Vlastních Bloků",
-							"description": "Těž bloky vlastní velikosti",
+							"display_name": "Kopání Vlastního Bloku",
+							"description": "Kopej bloky vlastní velikosti",
 							"tip_title": "Klikni a táhni myší pro kopání",
-							"tip_description": "Měň vodorovnou velikost pomocí Shift + Kolečko myši.<br/>Měň svislou velikost pomocí Alt + Kolečko myši .<br/>Drž Ctrl pro zmenšování oblastí.<br/>Skonči stiskem pravého tlačítka."
+							"tip_description": "Měň vodorovnou velikost pomocí Shift + Kolečko myši.<br/>Měň svislou velikost pomocí Alt + Kolečko myši .<br/>Drž Ctrl pro zmenšování oblastí.<br/>Stiskem pravého tlačítka ukončíš."
 						},
 						"loot_item": {
 							"display_name": "Sebrat Kořist",
-							"description": "Seber kořist z nepřátel",
+							"description": "Sebrat předměty z nepřátel",
 							"tip_title": "Klikni a táhni myší pro sebrání kořisti ze světa",
 							"tip_description": "Mód ukončíš stiskem pravého tlačítka."
 						},
 						"cancel_task": {
-							"display_name": "Zrušit Úkol",
-							"description": "Zruš úkoly na tomto objektu",
-							"tip_title": "Klikni a táhni myší pro zrušení různých úkolů",
-							"tip_description": "Mód ukončíš stiskem pravého tlačítka."
+							"display_name": "Zrušit Úkon",
+							"description": "Zruš úkony na tomto objektu",
+							"tip_title": "Klikni a táhni myší pro zrušení různých příkazů",
+							"tip_description": "Mód ukončíš stiskem pravého tlačítka"
 						},
 						"clear_item": {
 							"display_name": "Zničit",
-							"description": "Znič předměty na světě",
-							"tip_title": "Klikni a táhni myší pro trvalé zničení přemětů na světě",
-							"tip_description": "Mód ukončíš stiskem pravého tlačítka.",
+							"description": "Znič předměty ve světě",
+							"tip_title": "Klikni a táhni myší pro trvalé zničení předmětů ve světě",
+							"tip_description": "Mód ukončíš stiskem pravého tlačítka",
 							"confirm_title": "Jsi si opravdu jistý, že chceš zničit tyto předměty?",
-							"confirm_message": "Použitelné předměty v oblasti budou tvale odstraněny",
+							"confirm_message": "Použitelné předměty v oblasti budou trvale zničeny",
 							"confirm_clear": "Ano, zničit!",
-							"confirm_clear_no": "Ne! Ještě je potřebuji!"
+							"confirm_clear_no": "Ne! Ještě ty věci potřebuji!"
 						}
 					}
 				},
 				"zone_menu": {
-					"display_name": "Vyznačení Zón",
-					"description": "Vyznač na zemi zóny pro farmaření, skladování, atd.",
+					"display_name": "Určení Zón",
+					"description": "Určení oblastí na zemi pro skladování, farmaření, atd.",
 					"items": {
 						"create_stockpile": {
 							"display_name": "Skladiště",
-							"description": "Umísti skladiště na uskladnění zdrojů.",
-							"tip_title": "Klikni a táhni myší pro vytvoření svého skladiště",
-							"tip_description": "Mód ukončíš stiskem pravého tlačítka."
+							"description": "Umísti skladiště na uskladnění surovin.",
+							"tip_title": "Klikni a táhni myší pro vytvoření tvého skladiště",
+							"tip_description": "Mód ukončíš stiskem pravého tlačítka"
 						},
 						"create_farm": {
-							"display_name": "Farmy",
+							"display_name": "Farma",
 							"description": "Umísti farmu do terénu.",
 							"required_job_text": "Vyžaduje farmáře",
-							"tip_title": "Klikni a táhni myší pro vyznačení nového pole",
+							"tip_title": "Klikni a táhni myší pro určení nového pole",
 							"tip_description": "Farmáři rozorají půdu a zasadí do ní plodiny"
 						},
 						"create_trapping_grounds": {
-							"display_name": "Lovecké Pasti",
-							"description": "Umísti pasti na chytání malých tvorů.",
+							"display_name": "Lovecké Území",
+							"description": "Umísti pasti na polapení malých tvorů.",
 							"required_job_text": "Vyžaduje trapera",
-							"tip_title": "Klikni a táhni myší pro vytvoření oblasti loveckých pastí.",
+							"tip_title": "Klikni a táhni myší pro vytvoření oblasti loveckého území",
 							"tip_description": "Traperové v této oblasti chytají zvířata na jídlo a jiné zdroje"
 						},
 						"create_pasture": {
 							"display_name": "Zvířecí Pastvina",
 							"description": "Pastýř sem přivede zvířata na pastvu.",
-							"required_job_text": "Vyžaduje pastýře.",
+							"required_job_text": "Vyžaduje pastýře",
 							"tip_title": "Klikni a táhni myší pro vytvoření pastviny",
-							"tip_description": "Pastýři sem přivedou zvířata a budou se tu starat o jejich potřeby."
+							"tip_description": "Pastýři sem do této oblasti přivedou zvířata a budou se tu starat o jejich potřeby."
 						}
 					}
 				},
 				"build_menu": {
 					"display_name": "Stavba & Návrh",
-					"description": "Výstavba staveb jako jsou domy nebo zdi města.",
+					"description": "Výstavba budov jako jsou domy nebo městské zdi.",
 					"items": {
 						"building_templates": {
 							"display_name": "Umístit Stavbu",
-							"description": "Vyber stavbu pro zkonstruování podle šablony"
+							"description": "Vyber stavbu pro zkonstruování podle přednavržené šablony"
 						},
 						"custom_building": {
 							"display_name": "Návrh Stavby",
-							"description": "Navrhni vlastní jedinečnou stavbu"
+							"description": "Navrhni svou vlastní jedinečnou stavbu"
 						},
 						"broken_building": {
 							"display_name": "Staré & Rozbité",
-							"description": "Zkus to s pomocí starého stavebního editoru!"
+							"description": "Pokoušej osud s pomocí starého stavebního editoru!"
 						},
 						"place_item": {
 							"display_name": "Umístit Předmět",
 							"description": "Umísti předměty jako nábytek nebo dekorace",
-							"tip_title": "Klikni pro umístení předmětu.",
+							"tip_title": "Klikni pro umístení předmětu",
 							"tip_description": "Otáčej pomocí kláves [str(left_binding)] a [str(right_binding)]"
 						},
 						"cannot_place_item": {
@@ -745,7 +745,7 @@
 							"display_name": "Postavit Žebřík",
 							"description": "Postav žebřík, aby ses dostal na těžko dostupná místa",
 							"tip_title": "Kliknutím na zeď postavíš žebříky",
-							"tip_description": "Klikni pro ruční umístění žebříku, aby ses dostal do těžko dostupných oblastí.<br><br>Skonči stiskem pravého tlačítka "
+							"tip_description": "Klikni pro ruční umístění žebříku, aby ses dostal do těžko dostupných oblastí.<br><br>Stiskem pravého tlačítka ukončíš"
 						}
 					}
 				},
@@ -756,7 +756,7 @@
 						"place_item": {
 							"display_name": "Umístit Předmět",
 							"description": "Umísti předměty jako nábytek nebo dekorace",
-							"tip_title": "Klikni pro umístení předmětu.",
+							"tip_title": "Klikni pro umístení předmětu",
 							"tip_description": "Otáčej pomocí kláves [str(left_binding)] a [str(right_binding)]"
 						},
 						"cannot_place_item": {
@@ -764,38 +764,38 @@
 							"tip_description": "Dosažen [str(tag)] limit umístění [str(num)] / [str(max)]"
 						},
 						"build_ladder": {
-							"display_name": "Konstrukce Žebříku",
+							"display_name": "Postavit Žebřík",
 							"description": "Postav žebřík, aby ses dostal na těžko dostupná místa",
 							"tip_title": "Kliknutím na zeď postavíš žebříky",
-							"tip_description": "Klikni pro ruční umístění žebříku, aby ses dostal do těžko dostupných oblastí.<br><br>Skonči stiskem pravého tlačítka "
+							"tip_description": "Klikni pro ruční umístění žebříku, aby ses dostal do těžko dostupných oblastí.<br><br>Stiskem pravého tlačítka ukončíš"
 						}
 					}
 				},
 				"fight_menu": {
 					"display_name": "Boj & Obrana",
-					"description": "Řiď své vojenské jednotky",
+					"description": "Spravuj své vojenské jednotky",
 					"items": {
 						"party_manager": {
-							"display_name": "Čety",
-							"description": "Uspořadej svoje jednotky do skupin"
+							"display_name": "Skupiny",
+							"description": "Uspořádej svoje jednotky do skupin"
 						},
 						"town_alert": {
 							"display_name": "Režim Městské Pohotovosti!",
 							"description": "Shromáždi hearthlingy aby se připravili na vetřelce!",
 							"activated_title": "Aktivován Režim Městské Pohotovosti!",
-							"activated_text": "Tvoji hearthlingové ostražitě sledují zda se objeví vetřelci. Nebojový hearthlingové poběží k bezpečným bodům."
+							"activated_text": "Tvoji hearthlingové ostražitě vyhlížejí po vetřelcích. Nebojoví hearthlingové utečou k bezpečným bodům."
 						},
 						"party_1": {
-							"display_name": "Bojová Četa 1",
-							"description": "Veď hearthlingy s bojovými povoláními do bitvy! Sem jsou automaticky přidány povýšené bojové jednotky.",
-							"tip_title": "Četa je vybrána v okně jednotky.",
-							"tip_description": "Použij rozkazy v okně jednotky pro řízení lidí v této četě."
+							"display_name": "Bojová Skupina 1",
+							"description": "Veď hearthlingy s bojovými povoláními do bitvy! Všechny povýšené bojové jednotky jsou automaticky přidány sem.",
+							"tip_title": "Skupina je vybrána v okně jednotky.",
+							"tip_description": "Použij příkazy v okně jednotky pro řízení lidí v této skupině."
 						},
 						"party_2": {
-							"display_name": "Bojová Četa",
-							"description": "Řiď hearthlingy s bojovými povoláními do bitvy! Použij ovládací prvky v okně jednotky pro správu čety.",
-							"tip_title": "Četa je vybrána v okně jednotky.",
-							"tip_description": "Použij rozkazy v okně jednotky pro řízení lidí v této četě."
+							"display_name": "Bojová Skupina",
+							"description": "Řiď hearthlingy s bojovými povoláními do bitvy! Použij ovládací prvky v okně jednotky pro správování skupiny.",
+							"tip_title": "Skupina je vybrána v okně jednotky.",
+							"tip_description": "Použij příkazy v okně jednotky pro řízení lidí v této skupině."
 						},
 						"party": {
 							"required_job_text": "Vyžaduje bojové povolání"
@@ -808,7 +808,7 @@
 					"items": {
 						"carpenter": {
 							"display_name": "Výrobní Menu Tesaře",
-							"description": "Vyrábí dřevěné vybavení a dekorace",
+							"description": "Vyrábí dřevěné vybavení a dekorace.",
 							"required_job_text": "Vyžaduje tesaře"
 						},
 						"weaver": {
@@ -818,7 +818,7 @@
 						},
 						"mason": {
 							"display_name": "Výrobní Menu Kameníka",
-							"description": "Vytesá kamenné zbraně a vybavení. ",
+							"description": "Vytesává kamenné zbraně a vybavení. ",
 							"required_job_text": "Vyžaduje kameníka"
 						},
 						"blacksmith": {
@@ -833,33 +833,33 @@
 						},
 						"potter": {
 							"display_name": "Výrobní Menu Hrnčíře",
-							"description": "Vyrábí cihly a věci z jílu.",
-							"required_job_text": "Vyžduje hrnčíře"
+							"description": "Vyrábí cihly a výrobky z jílu.",
+							"required_job_text": "Vyžaduje hrnčíře"
 						},
 						"herbalist": {
 							"display_name": "Výrobní Menu Bylinkáře",
 							"description": "Připravuje léčivé předměty z bylinek.",
-							"required_job_text": "Vyžaduje bylinkáře."
+							"required_job_text": "Vyžaduje bylinkáře"
 						},
 						"engineer": {
-							"display_name": "Výrobní Menu Technika",
+							"display_name": "Výrobní Menu Inženýra",
 							"description": "Vyrábí zlepšováky a obrannou techniku.",
-							"required_job_text": "Vyžaduje technika"
+							"required_job_text": "Vyžaduje inženýra"
 						},
 						"geomancer": {
 							"display_name": "Výrobní Menu Geomancera",
-							"description": "Vyvolává kameny a vytváří golemy.",
+							"description": "Tvoří a nasycuje magií Vyvolávácí kameny a golemy.",
 							"required_job_text": "Vyžaduje geomancera"
 						}
 					}
 				},
 				"bulletin_manager": {
-					"display_name": "Zpravodaje",
-					"description": "Důležitá upozornění o tvém městě a světě."
+					"display_name": "Nástěnky",
+					"description": "Důležitá upozornění o světě a tvém městě"
 				},
 				"tasks_manager": {
-					"display_name": "Řízení Úkolů",
-					"description": "Dělá věci k úkolům.",
+					"display_name": "Řízení Úkonů",
+					"description": "Dělej věci k úkonům.",
 					"remove_stockpile": "Odstranit Skladiště",
 					"pause_stockpile": "Pozastavit",
 					"resume_stockpile": "Znovu Spustit",
@@ -873,7 +873,7 @@
 						"mining": "Kopání",
 						"trapping": "Chytání do Pastí"
 					},
-					"percent_full": "Zaplněno [str(percent)] Procent",
+					"percent_full": "Zaplněno z [str(percent)] Procent",
 					"active": "aktivní",
 					"paused": "pozastavené"
 				},
@@ -882,7 +882,7 @@
 				}
 			},
 			"bulletin": {
-				"bulletin_list_title": "Upozornění",
+				"bulletin_list_title": "Oznámení",
 				"shop": {
 					"buy_1": "Koupit 1",
 					"buy_10": "Koupit 10",
@@ -892,10 +892,10 @@
 					"sell_all": "Prodat Vše",
 					"buy_tab": "Nákup",
 					"sell_tab": "Prodej",
-					"shop_gold_label": "Zlaté",
-					"shopkeeper_gold_label": "Ochodníkovy zlaté",
-					"not_enough_gold_tooltip": "Nedostatek zlatých",
-					"shopkeeper_not_enough_gold_tooltip": "Prodavač nemá dostatek zlatých"
+					"shop_gold_label": "Zlato",
+					"shopkeeper_gold_label": "Ochodníkovo zlato",
+					"not_enough_gold_tooltip": "Nedostatek zlata",
+					"shopkeeper_not_enough_gold_tooltip": "Prodavač nemá dostatek zlata"
 				},
 				"trade": {
 					"target_title": "Obchodní Nabídka od [str(i18n_data.town_name)]",
@@ -914,8 +914,8 @@
 						"title": "Obchod Nemohl Být Dokončen",
 						"source": "Druhé město nemá dostatek nabízených zdrojů na dokončení obchodu.",
 						"target": "Nemáš dostatek zdrojů pro dokončení obchodu.",
-						"source_gold": "Druhé město nemá dostatek zlatých na dokončení obchodu.",
-						"target_gold": "Nemáš dostatek zlatých na dokončení obchodu."
+						"source_gold": "Druhé město nemá dostatek zlata na dokončení obchodu.",
+						"target_gold": "Nemáš dostatek zlata na dokončení obchodu."
 					}
 				},
 				"city_dialog": {
@@ -928,11 +928,11 @@
 					"summon_herald": "Předvolej Posla!"
 				},
 				"level_up_bulletin": {
-					"title": "[name(i18n_data.entity)] postoupil na Další Úroveň!",
+					"title": "[name(i18n_data.entity)] postoupil/a na Další Úroveň!",
 					"show_char_sheet": "Informace o Postavě "
 				},
 				"promote_bulletin": {
-					"title": "[name(i18n_data.entity)] byl Povýšen!",
+					"title": "[name(i18n_data.entity)] byl/a Povýšen/a!",
 					"show_char_sheet": "Informace o Postavě "
 				},
 				"delivery_quest": {
@@ -942,35 +942,35 @@
 					"happiness_requirement_label_all": "Nálada všech obyvatel je minimálně [str(moodName)]",
 					"happiness_requirement_all": "[str(value)] (všichni)",
 					"gold_label": {
-						"give": "Zlaté",
-						"have": "Požitelné zlaté",
-						"spent": "Zlaté utracené obchodováním",
-						"earned": "Zlaté vydělané obchodováním"
+						"give": "Zlato",
+						"have": "Použitelné zlato",
+						"spent": "Zlato utracené obchodováním",
+						"earned": "Zlato vydělané obchodováním"
 					},
 					"net_worth_label": "Celkové jmění",
 					"placed_item_label": "Předmět [str(itemName)] umístěn",
 					"quality_label": {
 						"quality_2": "Vlastněné předměty dobré kvality",
-						"quality_3": "Vlastněné předměty výborné kvality",
-						"quality_4": "Vlastněné předměty hustodémonskykrutopřísné kvality"
+						"quality_3": "Vlastněné předměty vynikající kvality",
+						"quality_4": "Vlastněné předměty mistrovské kvality"
 					}
 				},
 				"dispatch_quest": {
 					"abandon": "Opustit",
-					"dispatch": "Odeslat",
+					"dispatch": "Vyslat",
 					"selected": "Vybráno",
 					"select": "Vybrat",
-					"deselect": "Zrušit vyběr"
+					"deselect": "Zrušit výběr"
 				},
 				"reembarkation": {
-					"title": "Nové dobrodrušství čeká!",
+					"title": "Nové dobrodružství čeká!",
 					"dismiss": "Možná Později",
 					"reject": "Možná Příští Měsíc",
 					"confirm": "Odcestovat",
-					"prompt": "Vyber skupinu, která odcestuje za novým dobrodružstvím, a vyber jim předměty na cestu!"
+					"prompt": "Vyber skupinu, která odcestuje za novým dobrodružstvím, a zvol jim předměty které si vemou spolu sebou!"
 				},
 				"town_upgrade_choice": {
-					"title": "Officiální Prohlášení Osady",
+					"title": "Oficiální Prohlášení Osady",
 					"name_header": "Zvol jméno své osady!",
 					"name_prompt": "Jméno:",
 					"banner_prompt": "Vyber cestu osady:",
@@ -978,13 +978,13 @@
 				},
 				"immigration_report": {
 					"title": "Denní Aktualizace",
-					"immigration_report_title": "Hlášení o Imigraci",
+					"immigration_report_title": "Hlášení o Přistěhování",
 					"population_label": "[str(town_name)] populace",
 					"next_requirements_label": "Požadavky na dalšího hearthlinga...",
 					"tooltips": {
-						"food": "Jídlo vyšší kvality dává vyšší jídlení skóre.",
-						"morale": "Náladu zlepšíš, když se tvoji heratlingové cítí pohodlně, bezpečně a budou dobře živení.",
-						"net_worth": "Odhadovaná hodnota tvého města. Sbírej předměty, shromažďuj zlato a stav budovy, abys si zvýšil celkové jmění."
+						"food": "Jídlo vyšší kvality poskytuje vyšší jídelní skóre.",
+						"morale": "Udrž tvé hearthlingy v bezpečí, dobře najezené, a v pohodlí pro zlepšení nálady.",
+						"net_worth": "Odhadovaná hodnota tvého města. Sbírej předměty, shromažďuj zlato a stav budovy pro zvýšení celkového jmění."
 					}
 				},
 				"collection_quest": {
@@ -993,16 +993,16 @@
 				},
 				"inventory_full": {
 					"title": "Inventář Města Plný",
-					"message": "Dosáhl jsi maximálního počtu předmětů! Každý hearthling zvyšuje celkové množství předmětů, které můžeš mít. Hertlingové nebudou získávat zdroje, pokud jejich město vlastní příliš předmětů. Skladovací nádoby se počítají jako předměty a NEzvyšují limit počtu předmětů. Prodej přebytečné předměty nebo je znič pomocí nástroje mazání."
+					"message": "Dosáhl jsi maximálního počtu předmětů! Každý hearthling zvyšuje celkové množství předmětů, které tvé město může mít. Hearthlingové nebudou získávat zdroje, pokud jejich město vlastní příliš mnoho předmětů. Skladovací nádoby se počítají jako předměty a NEzvyšují tvůj limit počtu předmětů. Prodej přebytečné předměty nebo je znič pomocí nástroje mazání."
 				},
 				"max_citizens_cap": {
 					"early_warning": {
 						"title": "Dosáhl si počtu [str(i18n_data.num_citizens)] obyvatel!",
-						"message": "Blahopřejeme! Tvoje město se stalo solidní komunitou.<br><br>Upozornění ohledně výkonu: Více obyvatel znamená více práce pro AI. Méně výkonné počítače mohou pocítit vetší škubání,  lagy a nečinnost obyvatel.<br><br>Jestli narazíš na tyto problémy, zkus snížit limit maximálního počtu obyvatel města v záložce Hra v Nastavení. Tím zabráníš příchodu nových osadníků, tak dlouho dokud budeš přes limit."
+						"message": "Blahopřejeme! Tvoje město se stalo solidní komunitou.<br><br>Upozornění ohledně výkonu: Více obyvatel znamená více práce pro AI. Méně výkonné počítače mohou pocítit vetší škubání,  lagy a nečinné obyvatele.<br><br>Jestli narazíš na tyto problémy, zkus snížit limit maximálního počtu obyvatel města v záložce Hra v Nastavení. Tím zabráníš příchodu nových osadníků do té doby, dokud budeš přes tento limit."
 					},
 					"full_warning": {
-						"message": "Právě jsi dosáhl [str(i18n_data.num_citizens)] obyvatel, tedy maximálního počtu, který může žít ve tvém městě.<br><br>Nový obyvatelé se nadále nebudou připojovat do dvého města, dokud se znovu nedostaneš pod tento počet. <br><br><strong>Poznámka:</strong> Tento limit můžeš změnit v záložce Hra v Nastavení. Malé varování - velké množství obyvatel může způsobit vetší škubání, lagy a nečinnost obyvatel.",
-						"title": "Dosaženo Maxima obyvatel!"
+						"message": "Právě jsi dosáhl [str(i18n_data.num_citizens)] obyvatel, tedy maximálního počtu, který může žít ve tvém městě.<br><br>Nový obyvatelé se již nadále nebudou připojovat do dvého města, dokud se znovu nedostaneš pod tento počet. <br><br><strong>Poznámka:</strong> Tento limit můžeš změnit v záložce Hra v Nastavení. Malé varování - velké množství obyvatel může způsobit větší škubání, lagy a nečinné obyvatele.",
+						"title": "Dosaženo Maximum obyvatel!"
 					}
 				},
 				"quest_bulletin_dialog": {
@@ -1012,7 +1012,7 @@
 				"traveler": {
 					"first": {
 						"title": "Tvůj První Cestovatel!",
-						"message": "[str(i18n_data.traveler_name)] přišel na návštěvu!<br><br>Cestovatelé budou přicházet tak dlouho dokud pro ně bude zarezervovaná postel. Budou se kochat tvým městem, povídat si s obyvately, nakupovat v obchodech, a když se jim bude návštěva líbit, nechají ti dárky.<br><br>Šťastní cestovatelé rozšíří zprávu o tvém městě, a to se pak časem stane populárnější destinací!"
+						"message": "[str(i18n_data.traveler_name)] přišel na návštěvu!<br><br>Cestovatelé budou přicházet do té doby dokud pro ně bude zarezervovaná postel. Budou se kochat tvým městem, povídat si s tvými obyvately, nakupovat ve tvých obchodech, a dokonce když se jim bude návštěva líbit, nechají ti i dárky.<br><br>Šťastní cestovatelé rozšíří zprávu o tvém městě, a to se pak časem stane mnohem populárnější destinací!"
 					},
 					"summary": {
 						"title": "Souhrn Pobytu Cestovatelů",
@@ -1092,7 +1092,7 @@
 					"delete": "Smazat",
 					"undo": "Zpět (Ctrl + Z)",
 					"draw_slab_tool": "Desky",
-					"draw_floor_tool": "Základny",
+					"draw_floor_tool": "Základy",
 					"grow_floor_tool": "Podlahy",
 					"grow_roof_tool": "Střechy",
 					"draw_door_tool": "Dveře",
@@ -1107,32 +1107,32 @@
 				},
 				"overhead_tips": {
 					"wall_segment_tip_title": "Klikni pro umístění volně stojících částí zdi",
-					"wall_segment_tip_description": "Stiskni a drž SHIFT, když vytváříš spojené zdi",
+					"wall_segment_tip_description": "Drž SHIFT při klikání na vytvoření spojených zdí",
 					"build_title_building_designer": "Navrhování Staveb",
 					"build_floor_tip_title": "Klikni a táhni myší pro umístění podlahových dlaždic",
-					"build_floor_tip_description": "Skonči stiskem pravého tlačítka.",
+					"build_floor_tip_description": "Stiskem pravého tlačítka ukončíš",
 					"build_slab_tip_title": "Klikni a táhni myší pro stavbu desky",
-					"build_slab_tip_description": "Skonči stiskem pravého tlačítka.",
-					"erase_structure_tip_title": "Kliknutím smažeš předměty. Click and drag to erase floor",
-					"erase_structure_tip_description": "Skonči stiskem pravého tlačítka.",
-					"roof_tip_title": "Klinkni na návrh podlahy se zdmi pro umístění střechy",
-					"roof_tip_description": "Skonči stiskem pravého tlačítka.",
-					"raise_walls_tip_title": "Klikni na návrh podlahy, pro přidání zdí",
-					"raise_walls_tip_description": "Skonči stiskem pravého tlačítka.",
-					"doodad_tip_title": "Klikni na zeď pro umístění dveří nebo oken",
-					"doodad_tip_description": "Skonči stiskem pravého tlačítka.",
+					"build_slab_tip_description": "Stiskem pravého tlačítka ukončíš",
+					"erase_structure_tip_title": "Klikni pro smazaní předmětů. Klikni a táhni myší pro smazání podlahy",
+					"erase_structure_tip_description": "Stiskem pravého tlačítka ukončíš",
+					"roof_tip_title": "Klikni na návrh podlahy se zdmi pro umístění střechy",
+					"roof_tip_description": "Stiskem pravého tlačítka ukončíš",
+					"raise_walls_tip_title": "Klikni na návrh podlahy pro přidání zdí",
+					"raise_walls_tip_description": "Stiskem pravého tlačítka ukončíš",
+					"doodad_tip_title": "Klikni na zeď pro umístění dveří nebo okna",
+					"doodad_tip_description": "Stiskem pravého tlačítka ukončíš",
 					"draw_template_title": "Klikni pro postavení šablony",
 					"draw_template_description": "Otáčej pomocí kláves [str(left_binding)] a [str(right_binding)]",
-					"build_road_tip_title": "Klikni a ",
-					"build_road_tip_description": "Skonči stiskem pravého tlačítka.",
-					"stairs_tip_title": "Kliknutím umístíš schody",
-					"stairs_tip_description": "Skonči stiskem pravého tlačítka. Otáčej pomocí kláves [str(left_binding)] a [str(right_binding)]"
+					"build_road_tip_title": "Klikni a táhni myší na postavení cesty",
+					"build_road_tip_description": "Stiskem pravého tlačítka ukončíš",
+					"stairs_tip_title": "Klikni pro umístění schodů",
+					"stairs_tip_description": "Stiskem pravého tlačítka ukončíš. Otáčej pomocí kláves [str(left_binding)] a [str(right_binding)]"
 				},
 				"building_cost": {
 					"required_item": "Potřebné Předměty"
 				},
 				"overview": {
-					"title": "Navrhování Staveb - [str(building_name)]",
+					"title": "Navrhář Staveb - [str(building_name)]",
 					"building_name": "Název Stavby",
 					"building_cost": "Potřebné Materiály",
 					"start_building": "Postavit!",
@@ -1178,20 +1178,20 @@
 						"dining_hall": "Jídelní Síň",
 						"herbalist_house": "Bylinkářův Dům",
 						"little_clay_house": "Malý Jílový Dům",
-						"clay_house_for_two": "Hliněný Dům pro Dva",
-						"clay_dining_room": "Hliněná Jídelní Síň",
-						"clay_dormitory": "Společná Hliněná Ložnice"
+						"clay_house_for_two": "Jílový Dům pro Dva",
+						"clay_dining_room": "Jílová Jídelní Síň",
+						"clay_dormitory": "Společná Jílová Ložnice"
 					},
 					"set_template_name_title": "Název Šablony",
 					"template_default_name": "Moje nová stavební šablona",
-					"set_template_name_prompt": "Zadejte název této šablony",
+					"set_template_name_prompt": "Zadej název této šablony",
 					"ignore_quality": "Ignorovat Kvalitu",
-					"ignore_quality_tooltip": "Zacházet se všemi předměty šablony jako by byly běžné kvality (raději než Dobré, Výborné, atd.).",
+					"ignore_quality_tooltip": "Zacházet se všemi předměty šablony jako by byly běžné kvality (raději než Dobré, Vynikající, atd.).",
 					"remove_template_confirm": {
 						"title": "Smazat Šablonu",
 						"message": "Jsi si jistý, že chceš smazat tuto stavební šablonu?",
 						"keep_template": "Zachovat šablonu",
-						"remove_template": "Smažte to!"
+						"remove_template": "Smaž to!"
 					},
 					"template_description_tooltip": "Název souboru: [str(filename)]",
 					"remove_template_button": "Smazat Šablonu",
@@ -1205,68 +1205,68 @@
 						"material": "Materiál Zdi",
 						"wood_resource": "Dřevěná Zeď",
 						"stone_resource": "Kamenná Zeď",
-						"clay_resource": "Hliněná Zeď",
-						"clay_brick_resource": "Zeď z Hliněných Cihel"
+						"clay_resource": "Jílová Zeď",
+						"clay_brick_resource": "Zeď z Jílových Cihel"
 					},
 					"foundation": {
-						"material": "Maeteriál Základny",
+						"material": "Materiál Základny",
 						"wood_resource": "Dřevěná Základna",
 						"stone_resource": "Kamenná Základna",
-						"clay_resource": "Hliněná Základna",
-						"clay_brick_resource": "Základna z Hliněných Cihel"
+						"clay_resource": "Jílová Základna",
+						"clay_brick_resource": "Základna z Jílových Cihel"
 					},
 					"slab": {
 						"material": "Materiál Desky",
 						"wood_resource": "Dřevěná Deska",
 						"stone_resource": "Kamenná Deska",
-						"clay_resource": "Hliněná Deska",
-						"clay_brick_resource": "Deska z Hliněných Cihel"
+						"clay_resource": "Jílová Deska",
+						"clay_brick_resource": "Deska z Jílových Cihel"
 					},
 					"floor": {
 						"material": "Materiál Podlahy",
 						"wood_resource": "Dřevěná Podlaha",
 						"stone_resource": "Kamenná Podlaha",
-						"clay_resource": "Hliněná Podlaha",
-						"clay_brick_resource": "Podlaha z Hliněných Cihel"
+						"clay_resource": "Jílová Podlaha",
+						"clay_brick_resource": "Podlaha z Jílových Cihel"
 					},
 					"roof": {
 						"material": "Materiál Střechy",
 						"wood_resource": "Dřevěná Střecha",
 						"stone_resource": "Kamenná Střecha",
-						"clay_resource": "Hliněná Střecha",
-						"clay_brick_resource": "Střecha z Hliněných Cihel"
+						"clay_resource": "Jílová Střecha",
+						"clay_brick_resource": "Střecha z Jílových Cihel"
 					},
 					"column": {
 						"material": "Materiál Sloupu",
 						"wood_resource": "Dřevěný Sloup",
 						"stone_resource": "Kamenný Sloup",
-						"clay_resource": "Hliněný Sloup",
-						"clay_brick_resource": "Sloup z Hliněných Cihel"
+						"clay_resource": "Jílový Sloup",
+						"clay_brick_resource": "Sloup z Jílových Cihel"
 					},
 					"road": {
 						"material": "Materiál Cesty",
 						"wood_resource": "Dřevěná Cesta",
 						"stone_resource": "Kamenná Cesta",
-						"clay_resource": "Hliněná Cesta",
-						"clay_brick_resource": "Cesta z Hliněných Cihel"
+						"clay_resource": "Jílová Cesta",
+						"clay_brick_resource": "Cesta z Jílových Cihel"
 					},
 					"stairs": {
 						"material": "Materiál Schodů",
 						"wood_resource": "Dřevěné Schody",
 						"stone_resource": "Kamenné Schody",
-						"clay_resource": "Hliněné Schody",
-						"clay_brick_resource": "Schody z Hliněných Cihel"
+						"clay_resource": "Jílové Schody",
+						"clay_brick_resource": "Schody z Jílových Cihel"
 					}
 				},
 				"start_building_confirm": {
 					"title": "Opravdu začít stavět?",
-					"message": "Jakmile začneš stavět tuto stavbu, už ji nemůžeš upravit nebo odstranit! Jsi si jistý, že chceš teď začít stavět?",
+					"message": "Jakmile začneš stavět tuto stavbu, už ji nemůžeš moci upravit nebo odstranit! Jsi si jistý, že chceš teď začít stavět?",
 					"yes": "Ano, zahájit stavbu!",
 					"no": "Ještě ne"
 				},
 				"remove_building_confirm": {
 					"title": "Opravdu odstranit tuto stavbu?",
-					"message": "Jsi si jistý, že chceš odstranit celou stavbu?",
+					"message": "Jsi si jistý, že chceš odstranit celou tuto stavbu?",
 					"keep_building": "Zachovat stavbu",
 					"remove_building": "Odstranit stavbu"
 				}
@@ -1280,16 +1280,16 @@
 					"fallow_description": "Nesázet plodiny a nechat půdu přirozeně obnovit."
 				},
 				"mining": {
-					"help": "Kopání ti umožňuje vytvářet podzemní místnosti a chodby. Při kopáníí také můžeš objevit zdroje surovin.",
+					"help": "Kopání ti umožňuje vytvářet podzemní místnosti a chodby. Při kopání také můžeš objevit zdroje nerostných surovin.",
 					"disable": "Přerušit Kopání",
 					"enable": "Pokračovat v Kopání"
 				},
 				"trapping_grounds": {
-					"choose_trapping_grounds_type": "Vyber Druh Loveckých Pastí",
-					"trapping_ground": "Lovecké Pasti",
-					"help": "Traperové umístí pasti do oblasti loveckých pastí a budou je pravdelně kontrolvat, zda se něco nechytilo.",
-					"disable": "Přerušit Chytání do Pastí",
-					"enable": "Pokračovat v Chytání do Pastí"
+					"choose_trapping_grounds_type": "Vyber Druh Loveckého Území",
+					"trapping_ground": "Lovecké Území",
+					"help": "Traperové umístí pasti do oblasti loveckých území a budou je pravidelně kontrolovat, zda se něco nechytlo.",
+					"disable": "Přerušit Líčení Pastí",
+					"enable": "Pokračovat v Líčení Pastí"
 				},
 				"pasture": {
 					"help": "Pastýři přivádí do této oblasti zvířata a starají se tu o jejich potřeby.",
@@ -1297,9 +1297,9 @@
 					"sheep_pasture_name": "Pastvina pro Ovce",
 					"rabbit_pasture_name": "Králičí Kotec",
 					"poyo_pasture_name": "Kurník pro Poja",
-					"sheep_pasture_description": "Ovce dávají vlnu, kterou používá tkadlec. Poražením ovcí získáš skopové, surovou přísadu na vaření.",
-					"rabbit_pasture_description": "Králíci se rychle množí a jejich poražením získáš sušené maso a kožešiny",
-					"poyo_pasture_description": "Poja produkují vejce, cenou přísadu na vaření. Poražením poja získáš maso a příležitostně peří na výrobu",
+					"sheep_pasture_description": "Ovce produkují vlnu, použitelná tkadlcem. Poražením ovcí získáš skopové, surovou přísadu na vaření",
+					"rabbit_pasture_description": "Králíci se rychle množí a mohou být poraženi pro plátky masa a kožešiny",
+					"poyo_pasture_description": "Poja produkují vejce, cennou přísadu na vaření. Poražení poja také přinese výtěžek masa a příležitostně peří na výrobu",
 					"num_animals": "Zvířata:"
 				},
 				"stockpile": {
@@ -1307,9 +1307,9 @@
 					"contents": "Obsah",
 					"filter": "Filtr",
 					"shop": "Obchod",
-					"help": "Klikni na ikony, abys vybral co skaldovat v tomto skladišti.",
-					"help_single_filter": "Klikni na ikonu, aby sis vybral druh předmětů, skladovaných v tomto úložišti .",
-					"help_player_market_stall": "Klikni na ikonu, abys vybral druh předmětů prodávaných tomto stánku.",
+					"help": "Klikni na ikony, abys vybral co skladovat v tomto skladišti.",
+					"help_single_filter": "Klikni na ikonu, abys vybral druh předmětů pro uskladnění v tomto úložišti .",
+					"help_player_market_stall": "Klikni na ikonu, abys vybral druh předmětů na prodej v tomto stánku.",
 					"clear": "Smazat výběr",
 					"used_space": "Využito:",
 					"filters": {
@@ -1324,31 +1324,31 @@
 						"tooltip_tools": "Talismany & Pracovní stoly",
 						"tooltip_wood": "Dřevo",
 						"tooltip_stone": "Kámen",
-						"tooltip_clay": "Hlína",
+						"tooltip_clay": "Jíl",
 						"tooltip_ore": "Rudy",
 						"tooltip_animal_part": "Zvířecí Kožešiny a Kůže",
 						"tooltip_resource_pile": "hromady zdrojů",
 						"tooltip_plant": "Rostliny",
 						"tooltip_portal": "Dveře & Okna",
 						"tooltip_furniture": "Nábytek",
-						"tooltip_defense": "Obrana",
+						"tooltip_defense": "Obrany",
 						"tooltip_light": "Pochodně & Světla",
 						"tooltip_decoration": "Dekorace",
 						"tooltip_geomancer": "Vyvolávací Kameny",
 						"tooltip_refined_weaver": "Zpracované Materiály",
-						"tooltip_refined_animal_part": "výrobky z částí zvířat",
+						"tooltip_refined_animal_part": "výrobky vyprodukované ze zbytků zvířat",
 						"tooltip_refined_ore": "Rafinované kovy",
 						"tooltip_weapons": "Zbraně",
 						"tooltip_ranged_weapon": "zbraně na dálku",
 						"tooltip_equipment": "Brnění a Ostatní Vybavení",
-						"tooltip_heavy_armor": "silné brnění",
-						"tooltip_exotic_gear": "exotická výstroj",
+						"tooltip_heavy_armor": "těžké brnění",
+						"tooltip_exotic_gear": "exotické vybavení",
 						"tooltip_drink": "chutné nápoje",
 						"tooltip_gold": "Zlaté Truhly",
 						"tooltip_trophy": "Trofeje",
-						"tooltip_raw_food": "Syrové Jídlo",
-						"tooltip_prepared_food": "Vařené Jídlo",
-						"tooltip_cooking_ingredients": "Přísady na Vaření a Krmivo pro Zvířata",
+						"tooltip_raw_food": "Syrová Jídla",
+						"tooltip_prepared_food": "Vařená Jídla",
+						"tooltip_cooking_ingredients": "Přísady na Vaření a Krmiva pro Zvířata",
 						"tooltip_cooking": "Přísady na Vaření",
 						"tooltip_consumables": "Léčivé Předměty a Ostatní Poživatiny",
 						"tooltip_animal_parts": "Zvířecí Části"
@@ -1356,11 +1356,11 @@
 				}
 			},
 			"show_workshop": {
-				"workshop_title": "[str(job_name)] a jeho Příkazy k Výrobě",
-				"placeholder": "Začni psát pro vyhledávání ",
+				"workshop_title": "[str(job_name)] Výrobní Objednávky",
+				"placeholder": "Začni psát pro vyhledávání",
 				"show_workshop_description": "Vlastní [name(owner)]",
 				"unclaimed_workshop_description": "Nepřivlastněno",
-				"workshop_entity_claimed_description": "Vlastí [name(self.stonehearth:workshop.crafter)]",
+				"workshop_entity_claimed_description": "Vlastní [name(self.stonehearth:workshop.crafter)]",
 				"craft_number_left": "Vyrobit",
 				"craft_number_right": "hned teď.",
 				"craft_up_to_left": "Udržovat",
@@ -1378,9 +1378,9 @@
 				"craft": "Vyrobit!",
 				"craft_queue_full": "Plná Fronta!",
 				"craftable_locked": "Odemkne se na Úrovni: [str(level)]",
-				"workshop_requirement_title": "Dílna",
-				"workshop_none_required": "Není Potřeba!",
-				"workshop_required": "Musí být umístěn/a/o",
+				"workshop_requirement_title": "Workshop",
+				"workshop_none_required": "Není třeba žádný!",
+				"workshop_required": "Musí být umístěn",
 				"level_requirement_title": "Požadovaná Úroveň",
 				"level_requirement_none": "Žádná!",
 				"level_requirement_needed": "Je požadován ",
@@ -1389,18 +1389,18 @@
 				"requirements_unmet_general": "Požadavky na Výrobu Nesplněny!",
 				"queue_anyway": "Přesto Přidat do Fronty",
 				"recipe_tab": "Recepty",
-				"orders_tab": "Příkazy",
+				"orders_tab": "Objednávky",
 				"missing_ingredients": "Chybějící přísady: ",
 				"tooltip_appeal_stat": "Přitažlivost",
-				"tooltip_net_worth_stat": "Hodnota Zlatých",
-				"tooltip_effort_stat": "Úsílí (Výrobní čas)",
-				"damage_stat": "ÚTOK",
+				"tooltip_net_worth_stat": "Hodnota ve Zlatě",
+				"tooltip_effort_stat": "Úsílí (Výrobní Čas)",
+				"damage_stat": "ÚTK",
 				"armor_stat": "OBR"
 			},
 			"town_overview": {
 				"title": "Přehled Města",
 				"town_morale": "Nálada Města",
-				"initial_town_name": "Expedice [str(town_number)]",
+				"initial_town_name": "Výprava [str(town_number)]",
 				"num_workers": "Pracovníci",
 				"num_crafters": "Řemeslníci",
 				"num_soldiers": "Bojovníci",
@@ -1467,7 +1467,7 @@
 		"shell": {
 			"about": {
 				"title": "O Stonehearthu",
-				"attributions": "Následuje seznam Otevřeného softwaru, který je použitý ve Stonehearthu:",
+				"attributions": "Následuje seznam Otevřeně-přístupného softwaru, který je použitý ve Stonehearthu:",
 				"tabs": {
 					"credits": "Titulky",
 					"attributions": "Atribuce"
@@ -1477,9 +1477,9 @@
 						"team": "Tým Stonehearth",
 						"team_additional": "Dodatečný Vývoj",
 						"candledark_and_frostfeast": "Candledark a Frostfeast",
-						"moderators": "Modera Komunity",
+						"moderators": "Moderátoři Komunity",
 						"special_thanks": "Speciální Poděkování",
-						"special_thanks_endnote": "...všichni kdo udělali z discourse.stonehearth.net báječnou komunitu,",
+						"special_thanks_endnote": "...všichni kdo dělají z discourse.stonehearth.net báječnou komunitu,",
 						"special_thanks_endnote_2": "...všichní kdo sledovali naše pravidelné Čtvrteční Streamy,",
 						"special_thanks_endnote_3": "...a všem, kteří dali Stonehearthu šanci!",
 						"kickstarter_tiers": {
@@ -1537,7 +1537,7 @@
 					"005": "terasuji terén...",
 					"006": "hromadím hromady...",
 					"007": "nafukuji stromy...",
-					"008": "vycházím slunce...",
+					"008": "zvedám slunce...",
 					"009": "vznáším mraky...",
 					"010": "statním ruce...",
 					"011": "keřím bobule...",
@@ -1545,14 +1545,14 @@
 					"013": "vyřešuji determinismus...",
 					"014": "kostkuji společenství...",
 					"015": "existencializuji dilemata...",
-					"016": "improvizuji mravy...",
+					"016": "improvizuji nálady...",
 					"017": "rozpojuji spojovače...",
 					"018": "odlišuji pohlaví...",
 					"019": "sjednocuji motivaci...",
 					"020": "odvozuji historii...",
-					"021": "registruji chyby...",
+					"021": "indexuji chyby...",
 					"022": "sestavuji pravdu...",
-					"023": "vybavuji si hraní kuliček...",
+					"023": "sesbírávám mramory...",
 					"024": "realizuji hmotu...",
 					"025": "zažívám vyšší matiku...",
 					"026": "množím květiny...",
@@ -1561,64 +1561,64 @@
 					"029": "reguluji mikáda...",
 					"030": "stříhám ovce...",
 					"031": "cedím mozek...",
-					"032": "šťouchám poje..",
+					"032": "šťouchám poje...",
 					"033": "chytám kapky deště..."
 				},
 				"tips": {
 					"000": "Jestli se tvoji hearthlingové zaseknou v dole, můžeš postavit žebřík, abys je dostal ven!",
-					"001": "Tvoji hearthlingové se v noci lépe vyspí, když pro ně budeš mít postele.",
-					"002": "Postav ohrady kolem svých pastvin, aby ti přivedená zvířata neutekla.",
+					"001": "Tvoji hearthlingové se v noci lépe vyspí, pokud pro ně poskytneš postele.",
+					"002": "Postav ohrady kolem tvých pastvin, aby ses ujistil, že ti přivedená zvířata neutečou a zůstanou tam.",
 					"003": "Skladiště můžeš změnit, tak aby obsahovala pouze určité předměty.",
-					"004": "Můžeš pěstovat hebkotrav, abys měl spolehlivou zásobu vláken na přízi.",
-					"005": "Plný žaludek, šťastné srdce.",
+					"004": "Můžeš pěstovat hebkotrav, abys měl stálou zásobu vláken na přízi.",
+					"005": "Syté město, je šťastné město.",
 					"006": "Použij klávesy , a . pro otočení předmětů nebo budov před jejich umístěním.",
-					"007": "Po cestách se tvoji hearthlingové pohybují rychleji.",
+					"007": "Tví hearthlingové se po cestách pohybují rychleji.",
 					"008": "Tkadlec může vyrobit nové oděvy, které zvyší výkon tvých pracovníků.",
-					"009": "Sezení během jídla zlepšuje zažívání. Postav stoly a židle pro sovje hearthlingy.",
-					"010": "Pastýři budou automaticky hledat ovce, aby využili pastvinu.",
-					"011": "Jestli chceš mít větší celkové jmění, zkus prodat obchodníkovi předměty za zlaté.",
+					"009": "Sezení během jídla zlepšuje zažívání. Postav stoly a židle pro svoje hearthlingy.",
+					"010": "Pastýři automaticky naleznou ovci, aby zaplnili pastvinu.",
+					"011": "Jestli chceš mít větší celkové jmění, zkus prodat obchodníkovi předměty za zlato.",
 					"012": "Zdroje a Jídlo nepřispívají k celkovému jmění tvého města.",
-					"013": "Zvědavost (vlastnost) zvyšuje získané zkušenosti.",
-					"014": "Dobré předměty mají vyšší hodnotu než jejich normální varianty.",
+					"013": "Atribut Zvědavosti zvyšuje získané zkušenosti.",
+					"014": "Dobré předměty mají vyšší hodnotu jmění než jejich normální varianty.",
 					"015": "Hodnota předmětu je jeho prodejní cena.",
-					"016": "Můžeš použít tunelové dveře k zablokování vstupu do tvé důlní chodby.",
-					"017": "Nechceš aby tvoji hearthlingové opustili město? Technik může vytvořit uzamykatelné dveře.",
-					"018": "Z osadníků s vysokou Myslí budou dobří řemeslníci.",
-					"019": "Umísti skaldiště na jídlo blízko pracovišť, aby bylo jídlo pro tovje hearthlingy snáze dostupné.",
-					"020": "Traperové mohou nastražit pasti v horách a poušti, ale v těchto oblastech je méně živočichů.",
+					"016": "Můžeš použít tunelové dveře k zablokování vchodu do tvých důlních šachet.",
+					"017": "Nechceš aby tvoji hearthlingové opustili město? Inženýr může vytvořit uzamykatelné dveře.",
+					"018": "Osadníci s vysokým atributem Mysli budou dělat dobré řemeslníky.",
+					"019": "Umísti skladiště s jídlem blíže k pracovištím, tak aby bylo snazší pro tvé hearthlingy dostat se k jídlu.",
+					"020": "Traperové mohou líčit pasti v horách a v poušti, ale v těchto oblastech je méně živočichů.",
 					"021": "Můžeš zrušit práci vojenské jednotce v panelu Obyvatel, abys je donutil odpočinout si od bojování.",
 					"022": "Kopáním zeminy občas získáš jílovitou hlínu a kámen.",
-					"023": "Rudné žíly můžeš dokonce vidět na stranách hor.",
-					"024": "Potřebuješ počáteční zdroj jídla? Přesuň Bobulové keře nebo Opuncie blíže ke svému městu.",
-					"025": "Po poražení Gobliního Náčelníka, si můžeš přivlastnit ovečku Violku, jako vlastní .",
-					"026": "Herlingové nejsou rádi, když musí být dlouhou dobu v přeplněných prostorech.",
-					"027": "Farmařská zvířata se mohou rozmnožit pokud jsou alespoň 2 jednoho druhu v ohradě.",
-					"028": "Použij \"shift + ,\" pro zapuštění základů stavební šablony do země před umístěním. (Zapuštění zrušíš \"shift + .\")"
+					"023": "Rudné žíly můžeš dokonce vidět na stráních hor.",
+					"024": "Potřebuješ počáteční zdroj jídla? Přesuň Bobulové Keře nebo Opuncie blíže ke tvému městu.",
+					"025": "Po poražení Gobliního Náčelníka, si můžeš přivlastnit ovečku Violku, jako svou vlastní.",
+					"026": "Tví Hearthlingové nejsou moc rádi, pokud jsou příliš dlouho ve stísněných prostorách.",
+					"027": "Farmářská zvířata se mohou rozmnožit pokud jsou alespoň 2 stejná zvířata v ohradě.",
+					"028": "Použij \"shift + ,\" pro zapuštění základů tvých stavebných šablon do země před umístěním."
 				}
 			},
 			"select_settlement": {
-				"title": "Kliknutím na mapu si vybereš území pro osídlení",
+				"title": "Klikni na mapu na vybrání území pro tvou osadu",
 				"loading": "Načítání",
-				"settle_at_this_location": "Usadit se!",
+				"settle_at_this_location": "Usadit se sem!",
 				"clear_selection": "Vybrat jiné území",
-				"regenerate_map": "Vygenerovat novou mapu",
+				"regenerate_map": "Rolovat novou mapu",
 				"world_seed": "Seed Světa: ",
 				"starting_season": "Počáteční Období",
 				"terrain_stats": {
 					"trees_and_plants_title": "Stromy & Rostliny",
-					"trees_and_plants_description": "Dřevo je základní stavební zdroj. Budeš nějaké potřebovat abys mohl stavět budovy a vyrábět předměty jako postele, stoly a židle.",
+					"trees_and_plants_description": "Dřevo je hlavní stavební zdroj. Budeš nějaké potřebovat ke stavbě tvých budov a výrobě předmětů jako postele, stoly a židle.",
 					"wildlife_title": "Divoká Zvířata",
-					"wildlife_description": "Místní divokou zvěř můžeš lovit, abys získal jídlo nebo surové výrobní materiály.",
+					"wildlife_description": "Místní divoká zvěř může být lovena pro jídlo a surové výrobní materiály.",
 					"minerals_title": "Minerály",
-					"minerals_description": "Jestli plánuješ stavět věci z kamene a kovů, budeš potřebovat minerály ."
+					"minerals_description": "Jestli plánuješ stavět věci z kamene a kovů, budeš potřebovat minerály."
 				},
 				"terrain_codes": {
 					"water": "Voda",
-					"plains_1": "Roviny",
+					"plains_1": "Pláně",
 					"plains_2": "Pláně",
-					"foothills_1": "Kopečky",
-					"foothills_2": "Kopce",
-					"foothills_3": "Podhůří",
+					"foothills_1": "Úpatí",
+					"foothills_2": "Úpatí",
+					"foothills_3": "Úpatí",
 					"mountains_1": "Hory",
 					"mountains_2": "Hory",
 					"mountains_3": "Hory",
@@ -1627,21 +1627,21 @@
 					"mountains_6": "Vrchol Hory",
 					"mountains_7": "Vrchol Hory",
 					"mountains_8": "Vrchol Hory",
-					"vegetation_0": "Ani jeden plevel",
+					"vegetation_0": "Ani stéblo",
 					"vegetation_1": "Řídká",
 					"vegetation_2": "Průměrná",
-					"vegetation_3": "Hustější",
+					"vegetation_3": "Hustá",
 					"vegetation_4": "Bujná",
-					"wildlife_0": "Žádná",
-					"wildlife_1": "Omezená",
-					"wildlife_2": "Normální",
+					"wildlife_0": "Pustá",
+					"wildlife_1": "Řídká",
+					"wildlife_2": "Běžná",
 					"wildlife_3": "Značná",
-					"wildlife_4": "Naprostá",
+					"wildlife_4": "Bohatá",
 					"mineral_0": "Žádné",
 					"mineral_1": "Vzácně",
 					"mineral_2": "Ojediněle",
 					"mineral_3": "Běžně",
-					"mineral_4": "Hojně"
+					"mineral_4": "Bohatě"
 				}
 			},
 			"settings": {
@@ -1668,7 +1668,7 @@
 				"gfx_enable_ssao": "Povolit Zastínění Okolím",
 				"gfx_use_high_quality": "Použít Streamování Textur",
 				"gfx_enable_dynamic_icons": "Povolit Ikony v Bublinách Řeči",
-				"gfx_enable_dynamic_icons_tooltip": "Pokud jsou zakázané, Bubliny Řeči nebudou zobrazovat obrázky témat, ale může to vyřešit škubání na starších grafických čipech.",
+				"gfx_enable_dynamic_icons_tooltip": "Pokud zakázano, Bubliny Řeči nebudou zobrazovat obrázky témat, ale může to vyřešit škubání na starších grafických čipech.",
 				"gfx_use_recommended_graphics": "Použít doporučené nastavení grafiky",
 				"gfx_disable_deferred_renderer_description": "<font color='#eb4c36'><strong>VAROVÁNÍ:</strong></font> Používání Streamování Textur způsobuje problémy s výkonem ve městech s hodně světly. Používej pouze jako poslední možnost.",
 				"shadow_0": "vypnuty",
@@ -1691,7 +1691,7 @@
 				"force_32_bit_note": "* 32-bitovou vezi vynucuj pouze pokud je to opravdu nutné. 64-bitová verze je rychlejší a podporuje větší města.",
 				"collect_profile": "Získat profil",
 				"enable_lua_jit": "Použít Lua JIT (Vyžadujue Restart)",
-				"send_anon_data": "Posílat anonymní zpětnou vazbu pro pomoc při vylepšování Stonehearthu!",
+				"send_anon_data": "Posílat anonymní zpětnou vazbu na pomoc zlepšit Stonehearth!",
 				"language_select": "Jazyk",
 				"unsaved_changes_dialog": {
 					"title": "Zahodit Změny?",
@@ -1703,31 +1703,31 @@
 					"advanced_description": "<font color='#eb4c36'><strong>Varování:</strong></font> Tato nastavení mohou ovlivnit stabilitu a výkon hry! Změny provádíš na vlastní riziko!",
 					"enable_speed_3": "Povolit Rychlost Hry 3",
 					"enable_speed_3_description": "Přidá možnost nové rychlosti do panelu vpravo dole, která ti umožní pustit hru 4x rychleji! <br><br><font color='#eb4c36'><strong>Varování:</strong></font> Výkon hry může být pomalý u větších měst s rychlostí 3. Varujeme tě!",
-					"default_storage_filter_none": "Vychozí nastavení filtrů skladů na Nic",
-					"default_storage_filter_none_description": "Při vytvoření nového skladiště nebo umístění nové bedny, bude výchozí filtry skladu nastaven na 'Nic' místo 'Vše'.",
+					"default_storage_filter_none": "Vychozí nastavení filtrů skladišť na Nic",
+					"default_storage_filter_none_description": "Při vytvoření nového skladiště nebo umístění nové bedny, bude výchozí filtr skladu nastaven na 'Nic' místo 'Vše'.",
 					"default_mining_zones_suspended": "Výchozí nastavení zón kopání bude Přerušeno",
-					"default_mining_zones_suspended_description": "Když vytvoříš novou zónu na kopání, bude od začátku nastavená na Přerušeno a nebude vykopána dokud neklikneš na Pokračovat v Kopání.",
+					"default_mining_zones_suspended_description": "Když vytvoříš novou zónu na kopání, začne jako přerušená a nebude vykopána dokud jí manuálně nespustíš.",
 					"show_hearthling_paths": "Ukázat Trasy Hearthlingů",
 					"show_hearthling_paths_description": "Ukáže trasy po kterých se hearthlingové pohybují.",
 					"max_citizens": "Maximum Obyvatel",
-					"max_citizens_description": "Změň limit maximálního počtu obyvatel, které můžeš mít ve svém městě.<br><br><font color='#eb4c36'><strong>Varování:</strong></font> Pokud máš více než 20 hearthlingů, může docházet k problémům s výkonem, včetně neodpovídající AI/sekání a škubání hry.",
+					"max_citizens_description": "Změň limit maximálního počtu obyvatel, které můžeš mít ve tvém městě.<br><br><font color='#eb4c36'><strong>Varování:</strong></font> Pokud máš více než 20 hearthlingů, může docházet k problémům s výkonem, včetně neodpovídající/nečinné AI, sekání a škubání hry.",
 					"randomize_attributes": "Náhodně Rozdělit Hearthlingovi Vlastnosti ",
-					"randomize_attributes_description": "Pokud povoleno, hearthlingovi vlastnosti - Mysl, Tělo a Duše - budou přiděleny naprasosto náhodně, místo toho, aby byly rozdělené rovnoměrně.",
+					"randomize_attributes_description": "Pokud povoleno, hearthlingovi Mysl, Tělo a Duše budou přiděleny naprasosto náhodně, místo toho, aby byly rozdělené rovnoměrně.",
 					"auto_loot": "Automaticky Sebrat Kořist",
 					"auto_loot_description": "Když z nepřítele vypadně kořist, automatiky se označí k vyzvednutí.",
 					"auto_rescue": "Automaticky Zachraňovat",
-					"auto_rescue_description": "Když je obyvatel ochromený, automaticky se nastaví příkaz k Záchraně.",
+					"auto_rescue_description": "Když je obyvatel v bezvědomí, automaticky se nastaví příkaz k jejich Záchraně.",
 					"building_auto_queue_crafters": "Automaticky Přidávat Výrobky pro Stavbu do Fronty",
-					"building_auto_queue_crafters_description": "Když začneš stavět stavbu, všechen nábytek a příslušenství pro danou stavbu se automaticky zařadí do výrobní fronty příslušných řemeslníků.",
+					"building_auto_queue_crafters_description": "Když začneš stavět budovu, všechen nábytek a příslušenství pro danou stavbu se automaticky zařadí do výrobní fronty příslušných řemeslníků.",
 					"infinite_inventory": "Vypnout limit velikosti inventáře",
-					"infinite_inventory_description": "Toto nastavení odstraní limit maximálního počtu předmětů, které můžeš mít ve svém městském inventáři.<br><br>Poznámka: Musíš restartovat hru pro provedení změn!<br><br><font color='#eb4c36'><strong>Varování:</strong></font> Vlastnictví velkého počtu předmětů ovlivní výkon hry ."
+					"infinite_inventory_description": "Toto nastavení odstraní limit maximálního počtu předmětů, které můžeš mít ve svém městském inventáři.<br><br>Poznámka: Musíš restartovat hru pro uplatnění změn!<br><br><font color='#eb4c36'><strong>Varování:</strong></font> Vlastnění velkého počtu předmětů ovlivní výkon hry."
 				},
 				"mods": "Módy",
 				"mods_tab": {
 					"title": "Instalované Moduly",
 					"note": "Povolení nebo zakázání modulu vyžaduje znovunačtení hry.",
 					"invalid_manifest": "Neplatný Manifest",
-					"invalid_steam_file": "Neplatné Id Steam Souboru",
+					"invalid_steam_file": "Neplatné Steam Id Souboru",
 					"out_of_date": "Zastaralé",
 					"deferred_load": "Automaticky Načtené Jinými Módy",
 					"required": "Vyžadováno",
@@ -1735,8 +1735,8 @@
 					"localization": "Je tohle překlad hry?",
 					"loading_namespace": "[ načítání... ]",
 					"mods_changed_dialog": {
-						"title": "Změna Modulů",
-						"message": "Hra se musí znovu načíst, aby se provedli změny modulů. Načíst znovu hned?",
+						"title": "Moduly Změněny",
+						"message": "Hra se musí znovu načíst, aby se provedli změny modulů. Načíst znovu teď?",
 						"accept": "Ano",
 						"cancel": "Zrušit"
 					},
@@ -1745,8 +1745,8 @@
 						"message": "Nelze nahrát \"[str(modname)]\": [str(error)]"
 					},
 					"create_mod_error_dialog": {
-						"title": "Vytváření módu selhalo",
-						"message": "Nelze vytvořit mód \"[str(modname)]\": [str(error)]"
+						"title": "Vytvoření módu selhalo",
+						"message": "Nebylo možné vytvořit mód \"[str(modname)]\": [str(error)]"
 					}
 				},
 				"controls_tab": {
@@ -1755,7 +1755,7 @@
 					"unbound": "nepřiřazeno",
 					"conflict_dialog": {
 						"title": "Konflikt Přiřazení",
-						"message": "\"<strong>[str(combo)]</strong>\" už je používán pro [str(conflicts)].",
+						"message": "\"<strong>[str(combo)]</strong>\" již je používán pro [str(conflicts)].",
 						"choice_replace": "Zrušit Existující",
 						"choice_keep": "Zachovat Vše",
 						"choice_cancel": "Zrušit"
@@ -1810,16 +1810,16 @@
 						"harvest_harvest": "Nástroj Těžby/Sklizně",
 						"harvest_mine_basic": "Nástroj Kopání",
 						"harvest_mine_custom": "Nástroj Kopání Vlastních Bloků",
-						"harvest_cancel": "Nástroj Rušení Úkolů",
+						"harvest_cancel": "Nástroj Rušení Úkonů",
 						"harvest_loot": "Nástroj Sebrání Kořisti",
 						"harvest_clear": "Nástroj Ničení Předmětů",
 						"zone_menu": "Zónové Menu",
 						"zone_stockpile": "Nástroj Skladišť",
 						"zone_farm": "Nástroj Farem",
-						"zone_trapping": "Nástroj Loveckých Pastí",
+						"zone_trapping": "Nástroj Loveckých Zón",
 						"zone_pasture": "Nástroj Pastvin",
 						"build_menu": "Stavební Menu",
-						"place_menu": "Menu Umisťování",
+						"place_menu": "Menu Umísťování",
 						"build_template": "Umístit Stavbu",
 						"build_custom": "Navrhnout Stavbu",
 						"build_place": "Umístit Předmět",
@@ -1834,17 +1834,17 @@
 						"craft_mason": "Kameníkovo Menu",
 						"craft_blacksmith": "Kovářovo Menu",
 						"craft_cook": "Kuchařovo Menu",
-						"craft_potter": "Hrnčírovo Menu",
+						"craft_potter": "Hrnčířovo Menu",
 						"craft_herbalist": "Bylinkářovo Menu",
-						"craft_engineer": "Technikovo Menu",
+						"craft_engineer": "Inženýrovo Menu",
 						"craft_geomancer": "Geomancerovo Menu",
 						"fight_menu": "Bojové Menu",
 						"fight_alert": "Městská Pohotovost",
-						"fight_party_1": "Bojová Četa 1",
-						"fight_party_2": "Bojová Četa 2",
-						"fight_party_3": "Bojová Četa 3",
-						"fight_party_4": "Bojová Četa 4",
-						"bulletin_manager": "Menu Upozornění",
+						"fight_party_1": "Bojová Skupina 1",
+						"fight_party_2": "Bojová Skupina 2",
+						"fight_party_3": "Bojová Skupina 3",
+						"fight_party_4": "Bojová Skupina 4",
+						"bulletin_manager": "Menu Oznámení",
 						"ui_quicksave": "Rychlé Uložení",
 						"ui_quickload": "Rychlé Načtení",
 						"ui_refresh": "Obnovit",
@@ -1854,9 +1854,9 @@
 						"debug_console": "Stonehearth Konzole",
 						"debug_navgrid": "Zobrazit/Skrýt Navgrid",
 						"debug_navgrid_water_tight": "Zobrazit/Skrýt Watertight Navgrid",
-						"debug_lifetime_tracking": "Přepnout Doživotní Sledování",
-						"debug_toggle_step_paths": "Step Pathfinder Service",
-						"debug_step_topology": "Step Topology Service",
+						"debug_lifetime_tracking": "Přepnout Lifetime Sledování",
+						"debug_toggle_step_paths": "Step Pathfinder Služba",
+						"debug_step_topology": "Step Topology Služba",
 						"debug_reload": "Uložit & Znovu Načíst",
 						"debug_toggle_save_stress_test": "Přepnout Save Stress Test",
 						"debug_toggle_debug_nodes": "Přepnout Debug Nodes",
@@ -1874,50 +1874,50 @@
 			"title_screen": {
 				"exit": "Konec",
 				"settings": "Nastavení",
-				"about": "O Hře",
-				"kingdom_of": "Toto jest Osídlení",
+				"about": "O Nás",
+				"kingdom_of": "Osídlení",
 				"continue_game": "Pokračovat",
 				"new_game": "Nová Hra",
 				"singleplayer_game": "Hra Jednoho Hráče",
 				"multiplayer_game": "Hra Více Hráčů",
 				"load_game": "Načíst Hru",
 				"mods": "Módy",
-				"quick_start": "Rychlý start",
+				"quick_start": "Rychlý Start",
 				"patch_notes": "Ukázat Poznámky Patche",
 				"alpha_welcome_dialog": {
 					"title": "Vítejte v Stonehearthu!",
-					"message": "Můžete pomoct vylepšit Stonehearth tím, že budete automaticky anonymně odesílat chybová hlášení z vaší hry.",
+					"message": "Můžete pomoct udělat Stonehearth stabilnější tím, že budete automaticky anonymně odesílat chybová hlášení z vaší hry.",
 					"accept": "Ano, chci pomoct!",
 					"cancel": "Ne, díky."
 				},
 				"mod_conflic_dialog": {
-					"title": "Objeven Konflikt Modulů!",
-					"message": "Varování: Máš konfliktní módy, které mají stejný jmenný prostor (namespace). Ujisti se, že pouze jeden mód s tímto jmeným prostorem je povolen v Módech .<br>Jestli máš pro mód  oboje složky, jak smod tak flat, tak bude použita složka flat. Dotčené módy jsou: <br><br>",
+					"title": "Detekován Konflikt Modulů!",
+					"message": "Varování: Máš konfliktní módy, které mají stejné názvy. Ujisti se, že pouze jeden mód s tímto názvem je povolen v Módech.<br>Jestli máš oba, jak .smod tak flat složku pro mód, tak bude použita složka flat. Dotčené módy jsou: <br><br>",
 					"accept": "Ano, pokračovat."
 				},
 				"mod_dependency_conflict": {
-					"title": "Objevena Cyklická Závislost Modulů!",
-					"message": "Varování: Máš módy které mají cyklické závislosti (např. mód A závisí na jíném mód B, který  následně vede zpet k módu A). Závislosti módů určují v jakém pořadí mají být módy načteny, ale pokud dojde k zacyklení, tak nemůžeme určit, v jakém pořadí je máme načíst.<br><br>Vyřeš cyklické závislosti v manifestech dotčených módů. Dotčené módy byly dočasně zakázány: <br><br>",
+					"title": "Detekována Cyklická Závislost Modulů!",
+					"message": "Varování: Máš módy které mají cyklické závislosti (např. mód A závisí na jiném módu B, který  následně vede zpět k módu A). Závislosti módů určují v jakém pořadí mají být módy načteny, ale pokud dojde k zacyklení, potom nemůžeme určit, v jakém pořadí je máme načíst.<br><br>Vyřeš cyklické závislosti v manifestech dotčených módů. Dotčené módy byly dočasně zakázány: <br><br>",
 					"accept": "Ano, pokračovat.",
 					"dependency": ", což závisí na:"
 				},
-				"ace": "ACE!!! ",
+				"ace": "ACE!",
 				"ace_dialog": {
 					"title": "Zapnout Autorizovanou Komunitní Expanzi (ACE)?",
-					"message": "ACE je mód, který se zrodil z touhy skupiny skvělých členů komunity, vytvořit bohatší a úplnější zaážitek ze Stonehearthu. Obsahuje prvky a funkce, které vylepšují hru, jako jsou nové profese, změny UX, biomy, předměty a mnohem více!<br><br><font size=-1><i>Poznámka: Jako s jakýmkoliv jiným módem, tvůj herní zážitek se bude lišit od základní hry. ACE přidává hodně nového obsahu, takže možná budeš potřebovat silnější stroj, aby sis ho mohl užít tak jak je to zamýšleno. (Vždycky ho můžeš povolit nebo zakázat na počáteční obrazovce hry nebo později v Menu Módů).</i></font><br><br>Chtěl bys teď povolit ACE?",
-					"accept": "Ano, prosím!",
+					"message": "ACE je mód, který se zrodil z touhy skupiny skvělých členů komunity, vytvořit bohatší a úplnější zážitek ze Stonehearthu. Obsahuje prvky a funkce, myšlené pro zlepšení hry, jako jsou nové profese, změny UX, biomy, předměty a mnohem více!<br><br><font size=-1><i>Poznámka: Jako s jakýmkoliv jiným módem, tvůj herní zážitek se bude lišit od základní hry. ACE přidává hodně nového obsahu, takže možná budeš potřebovat silnější stroj, aby sis ho mohl užít tak jak tomu bylo zamýšleno. (Vždycky ho můžeš později povolit nebo zakázat na počáteční obrazovce hry nebo v Menu Módů).</i></font><br><br>Chtěl bys povolit jejich mód?",
+					"accept": "Ano!",
 					"cancel": "Ne, díky."
 				},
 				"ace_toggle": {
 					"enable": {
 						"title": "Zapnout ACE?",
-						"message": "Hra se bude muset znovu načíst aby se povolilo ACE. Budeš chtít pokračovat?",
+						"message": "Hra se bude muset znovu načíst aby se povolil ACE. Chceš pokračovat?",
 						"tooltip": "Zapnout Autorizovanou Komunitní Expanzi Stonehearthu."
 					},
 					"disable": {
 						"title": "Vypnout ACE?",
-						"message": "Hra se bude muset znovu načíst, aby se zakázalo ACE. Budeš chtít pokračovat?",
-						"tooltip": "Vypnout Zapnout Autorizovanou Komunitní Expanzi Stonehearthu."
+						"message": "Hra se bude muset znovu načíst, aby se zakázal ACE. Chceš pokračovat?",
+						"tooltip": "Vypnout Autorizovanou Komunitní Expanzi Stonehearthu."
 					},
 					"accept": "Pokračovat",
 					"cancel": "Zrušit"
@@ -1950,7 +1950,7 @@
 						"cancel": "X"
 					},
 					"my_items": {
-						"title": "Nahrané do Workshopu ",
+						"title": "Nahrané ve Workshopu ",
 						"templates_title": "Nahrané Balíčky Šablon",
 						"create_new_mod": "Vytvořit Mód"
 					}
@@ -1965,9 +1965,9 @@
 				},
 				"unsubscribe_dialog": {
 					"title": "Jsi si jistý, že chceš zrušit odběr?",
-					"message": "Tím vymažeš mód ze svého počítače, ale pořád si ho můžeš znovu najít ve Steam Workshopu.",
+					"message": "Tímto vymažeš mód ze svého počítače, ale pořád si ho můžeš znovu najít ve Steam Workshopu.",
 					"accept": "Ano, zrušit odběr.",
-					"cancel": "Ne, pokrčovat v odběru."
+					"cancel": "Ne, pokračovat v odběru."
 				},
 				"duplicates_dialog": {
 					"title": "Duplicitní Módy Povoleny",
@@ -1978,10 +1978,10 @@
 			"load_match_mods": {
 				"title": "Odlišné Módy",
 				"note": "Tato hra byla uložena s odlišnými módy, než jsou v současné chvíli povoleny.",
-				"old_save_note": "Tato hra byla uložena předtím, než byly povolené módy zapsány do uložené hry. Tohle jsou módy, které máš v současnosti povolené.",
+				"old_save_note": "Tato hra byla uložena ještě předtím, než byly povolené módy zapsány do uložené hry. Tohle jsou módy, které máš v současnosti povolené.",
 				"warning_dialog": {
 					"title": "Varování",
-					"message": "Hraní s módy které jsou odlišné od těch se kterými byla hra uložena, může vést k nečekaným chybám nebo pádům hry. Chceš pokračovat?",
+					"message": "Hraní s odlišnými módy od těch, než se kterými byla hra uložena, může vést k nečekaným chybám nebo pádům hry. Chceš pokračovat?",
 					"continue": "Pokračovat",
 					"cancel": "Zrušit"
 				},
@@ -1992,7 +1992,7 @@
 					},
 					"type_mismatch": {
 						"header": "Odlišné Verze",
-						"description": "Uložená Hra má odlišnou verzi povolených módů."
+						"description": "Uložená Hra měla odlišnou verzi povolených módů."
 					},
 					"hash_mismatch": {
 						"header": "Změněné",
@@ -2007,7 +2007,7 @@
 						"description": "Tyto módy byly v uložené hře, ale jsou v současnoti zakázané."
 					},
 					"normal": {
-						"header": "V Pořadku",
+						"header": "Tady Vše v Pohodě",
 						"description": "Tyto módy se od uložení hry nezměnily."
 					}
 				},
@@ -2019,17 +2019,17 @@
 					"continue_anyway": "Použít Změny Módů",
 					"apply_saved": "Použít Uložené Módy a Pokračovat"
 				},
-				"view_in_workshop": "Zobrazit mód ve workshopu. Poznámka: Pokud se přihlásíš k odběru tohoto módu, musíš restartovat hru, aby si použil změny."
+				"view_in_workshop": "Zobrazit mód ve workshopu. Poznámka: Pokud se přihlásíš k odběru tohoto módu, musíš restartovat hru, aby se použily změny."
 			},
 			"load_match_mod_order": {
 				"title": "Odlišné Pořadí Módů",
-				"note": "Tato hra byla uložena s módy v jiném pořadí než hra současná.",
-				"old_save_note": "Tato hra byla uložena předtím, než do ní bylo uloženo pořadí módů. Tohle jsou módy, které máš v současnosti povolené, v pořadí.",
+				"note": "Tato hra byla uložena s módy v jiném pořadí než tvá současná hra.",
+				"old_save_note": "Tato hra byla uložena ještě předtím, než bylo pořadí módů zapsáno do uložené hry. Tohle jsou módy, které máš v současnosti povolené, v pořadí.",
 				"saved_order": "Uložené Pořadí",
 				"current_order": "Současné Pořadí",
 				"warning_dialog": {
 					"title": "Varování",
-					"message": "Hraní s odlišným pořadím módů, než s jakým byla hra uložena, může vést k nečekaným chybám a pádům hry. Chceš pokračovat?",
+					"message": "Hraní s odlišným pořadím módů, než se kterým byla hra uložena, může vést k nečekaným chybám a pádům hry. Chceš pokračovat?",
 					"continue": "Pokračovat",
 					"cancel": "Zrušit"
 				},
@@ -2048,21 +2048,21 @@
 				"time_elapsed": {
 					"days": "Herní Čas od Začátku: [str(date.day)] Dní/i, [str(date.hour)] Hodin/y",
 					"months": "Herní Čas od Začátku: [str(date.month)] Měsíců/e, [str(date.day)] Dnů/y, [str(date.hour)] Hodin/y",
-					"years": "Herní Čas od Začátku: [str(date.year)] Roků/y, [str(date.month)] Měsíců/e, [str(date.day)] Dnů/y, [str(date.hour)] Hodin/y"
+					"years": "Herní Čas od Začátku: [str(date.year)] Let/y, [str(date.month)] Měsíců/e, [str(date.day)] Dnů/y, [str(date.hour)] Hodin/y"
 				},
 				"game_info": "[str(biomeName)]: [str(biomeLocation)], [str(gameMode)]",
 				"note": "Hra do které se snažíš připojit má následující módy.",
 				"missing_note": "Hra do které se snažíš připojit má následující módy. Aby ses mohl připojit musíš mít ty samé módy a jejich stejnou verzi.",
-				"version_note": "<span class=\"warning\">Varování:</span> Tvoje verze Stonehearthu se neshoduje s verzí hry, ke které se snažíš připojit!<br>To ti může bránit v pokusech o připojení, nebo vést k nečekaným chybám během hraní",
+				"version_note": "<span class=\"warning\">Varování:</span> Tvoje verze Stonehearthu se neshoduje s verzí hry, ke které se snažíš připojit!<br>To ti může bránit v pokusech o připojení, nebo vést k nečekaným chybám během hraní.",
 				"your_version": "Tvoje verze: [str(version)]",
 				"their_version": "Hostitelská verze: [str(version)]",
 				"continue": "Pokračovat do Hry",
 				"loading": "Načítám do hry...",
 				"subscribe_all": "Odebírat Vše",
-				"no_steam_cant_sync": "Chybí ti jeden nebo více z výše vypsaných módů. Požádej hostitele aby ti je poslal, nebo se připoj na Steam a zkus je najít ve Steam workshopu.",
+				"no_steam_cant_sync": "Chybí ti jeden nebo více z výše vypsaných módů. Požádej svého hostitele aby ti je poslal, nebo se připoj do Steamu a zkus je najít ve Steam workshopu.",
 				"not_seen_in_workshop_cant_sync": "Jeden nebo více z chybějících módů je nedostupný ve Steam Workshopu. Možná nejsou nahrané, nebo jsou viditelné pouze pro hostitele. Požádej ho o nahrání nebo změnění oprávnění, pak se zkus připojit znovu.",
-				"mismatched_hash_workshop_cant_sync": "Jeden z tvých Steamových módů s neshoduje s verzí, kterou používá hostitelský server. Soubory módu mohli být upraveny nebo hostitel používá neaktualizovanou verzi tohoto módu. Zkus tento mód smazat a pak se znovu přihlásit k jeho odběru, aby jsi získal verzi z Workshopu, nebo řekni hostiteli ať si aktualizuje módy ze Steam Worshopu.",
-				"failed_download_workshop_update_cant_sync": "Jeden nebo více tvých módů se neshodujue s verzí, kterou používá hostielský server. Hra nebyla schopná stáhnout z Worshopu update pro některý z těchto módů, protože steam id tohoto módu bylo neplatné nebo jsi odhlášen ze Steamu.",
+				"mismatched_hash_workshop_cant_sync": "Jeden z tvých Steamových módů s neshoduje s verzí, kterou používá hostitelský server. Soubory módu mohli být upraveny nebo hostitel používá neaktualizovanou verzi se Steam verzí módu. Zkus tento mód smazat a pak se znovu přihlásit k jeho odběru, aby jsi získal verzi z Workshopu, nebo řekni hostiteli ať si aktualizuje jejich módy ze Steam Worshopu.",
+				"failed_download_workshop_update_cant_sync": "Jeden nebo více tvých módů se neshoduje s verzí, kterou používá hostitelský server. Hra nebyla schopná stáhnout z Workshopu update pro některý z těchto módů, protože steam id tohoto módu bylo neplatné nebo jsi odhlášen ze Steamu.",
 				"cancel": "Zrušit",
 				"private": "Soukromý mód",
 				"non_workshop": "Nenalezen ve Workshopu",
@@ -2083,15 +2083,15 @@
 				"opt_visibility": "Viditelnost",
 				"opt_tags": "Tagy",
 				"opt_tags_placeholder": "např. biom, vybavení, zvířata",
-				"opt_tags_tooltip": "Tagy musí být oddělené čárkami. Každy tag může být maximálně 255 znaků dlouhý.",
+				"opt_tags_tooltip": "Tagy musí být oddělené čárkami. Každy tag může mít maximálnou délku 255 znaků.",
 				"opt_tags_invalid": "Tagy nesmí obsahovat speciální znaky",
 				"opt_preview_image": "Náhledový Obrázek",
 				"opt_preview_image_choose_file": "Vybrat Soubor",
 				"opt_preview_image_placeholder": "Žádný soubor nevybrán",
 				"opt_preview_image_info": "(limit 1MB)",
 				"opt_preview_image_dialog_title": "Otevřít soubor náhledového obrázku",
-				"opt_building_template_preview_images": "Použít snímky stavebních šablon jako další náhledové obrázky",
-				"opt_building_template_preview_images_tooltip": "Přidat další náhledový obrázek pro každou šablonu ve tvém módu stavebních šablon.<br><br><font color='#eb4c36'><strong>Varování:</strong></font> Tímto přepíšeš všechny existující náhledové obrázky (kromě hlavního obrázku) této položky steam workshopu a nahradíš je snímky stavebních šablon.",
+				"opt_building_template_preview_images": "Použít snímky stavebních šablon jako dodatečné náhledové obrázky",
+				"opt_building_template_preview_images_tooltip": "Přidat dodatečný náhledový obrázek pro každou šablonu ve tvém módu stavebních šablon.<br><br><font color='#eb4c36'><strong>Varování:</strong></font> Tímto přepíšeš všechny existující náhledové obrázky (kromě hlavního náhledového obrázku) této položky steam workshopu a nahradíš je snímky stavebních šablon.",
 				"opt_change_note": "Poznámka ke změnám",
 				"opt_change_note_placeholder": "Stručný popis provedených změn",
 				"upload": "Nahrát",
@@ -2109,14 +2109,14 @@
 				"errors": {
 					"steam_not_present": "Steam neběží",
 					"update_handle_invalid": "Nemohli jsme aktualizovat mód [str(modname)]. Zkontroluj zda máš oprávnění aktualizovat tuto položku steam workshopu.",
-					"invalid_title": "Název nesmí být prázdný, ani nesmí přeshovat 129 bytů",
-					"invalid_description": "Popis nesmí být prádný, ani přeshaovat 8000 bytů",
-					"invalid_content_path": "Nebyl nalezen adresář módu [str(modname)]. Název adresáře se musí shodovat s jmenným prostorem v manifestu.",
+					"invalid_title": "Název nesmí být prázdný, nebo přeshovat 129 bytů",
+					"invalid_description": "Popis nesmí být prázdný, nebo přesahovat 8000 bytů",
+					"invalid_content_path": "Adresář módu [str(modname)] nebyl nalezen. Název adresáře se musí shodovat s názvem módu v manifestu.",
 					"invalid_param": "Náhledový obrázek je menší než 16 bytů nebo steam AppID nesouhlasí s uživatelským AppID.",
 					"access_denied": "Nemohli jsme nalézt tvojí steamovou licenci Stonehearthu",
-					"file_not_found": "Selhalo získávání inforamcí o položce z workhopu, selhalo čtení náhledového souboru, nebo poskytnutá složka s obsahem je neplatná. Zkontroj zda steam id souboru je platná položka workshopu.",
+					"file_not_found": "Selhalo získávání inforamcí o položce z workhopu, selhalo čtení náhledového souboru, nebo poskytnutá složka s obsahem je neplatná. Zkontroluj zda steam_id_souboru je platná položka workshopu.",
 					"locking_failed": "Selhalo získávání UGC Zámku pro položku steam workshopu.",
-					"limit_exceeded": "Náhledový obrázek je moc velký (musí být menší než 1 Megabyte) nebo není dostatek použitelného místa na tvém Steam Cloudu.",
+					"limit_exceeded": "Náhledový obrázek je moc velký (musí být menší než 1 Megabyte) nebo není dostatek dostupného místa na tvém Steam Cloudu.",
 					"generic": "Nemohli jsme aktualizovat mód [str(modname)] ve steam workshopu"
 				}
 			},
@@ -2124,22 +2124,22 @@
 				"title": "Vytvořit nový mód ve Steam Workshopu",
 				"opt_title": "Název Módu",
 				"opt_title_tooltip": "Název pro tvůj mód",
-				"opt_title_placeholder": "např. Pivovar a Hospoda",
-				"opt_namespace": "Jmenný Prostor Módu",
-				"opt_namespace_tooltip": "Jmenný prostor tvého módu, který budeš používat jako předponu přezdívek odkazů tvého módu.",
-				"opt_namespace_placeholder": "např. pivovar_a_hospoda",
+				"opt_title_placeholder": "např. Země Cukroví",
+				"opt_namespace": "Název Módu",
+				"opt_namespace_tooltip": "Název pro tvůj mód, který budeš používat jako předponu přezdívek odkazů ve tvém módu.",
+				"opt_namespace_placeholder": "např. zeme_cukrovi",
 				"create": "Vytvořit",
 				"cancel": "Zrušit",
 				"invalid_characters": "* Nesmí obsahovat speciální znaky nebo mezery",
 				"errors": {
 					"steam_not_present": "Steam neběží",
-					"duplicate_namespace": "Tvoje hra už má mód s jmenným prostorem [str(modname)]. Prosím, zkus to znovu s jiným jménem.",
-					"protected_namespace": "[str(modname)] je chráněnný jmenný prostor. Prosím, zkus to znovu s jiným jménem.",
-					"missing_fields": "Chybějící název nebo jmenný prostor",
+					"duplicate_namespace": "Tvoje hra už má mód se stejným názvem [str(modname)]. Prosím, zkus to znovu s jiným jménem.",
+					"protected_namespace": "[str(modname)] je chráněný název. Prosím, zkus to znovu s jiným jménem.",
+					"missing_fields": "Chybějící název nebo názvosloví",
 					"invalid_directory": "Nemohli jsme vytvořit adresář pro [str(modname)]",
 					"in_progress": "Nemohli jsme vytvořit mód [str(modname)]. Předchozí proces vytváření módu stále běží.",
 					"insufficient_privilege": "Tvůj steam účet nemá povolení vytvářet položky pro komunitu Stonehearthu",
-					"timeout": "Operace vytváření položky, trvala déle než byl očekáváno. Zkus to znovu",
+					"timeout": "Operace vytváření položky trvala déle než bylo očekáváno. Zkus to znovu",
 					"not_logged_on": "Aktuálně nejsi přihlášený na steam",
 					"failed": "Steamu se nepodařilo vytvořit mód"
 				}
@@ -2150,16 +2150,16 @@
 				"mod_templates": "[str(modname)]",
 				"confirm": {
 					"title": "Uložit šablony módu",
-					"message": "Uložit změny seznamu šablon tohoto módu? Tato akce je nevratná."
+					"message": "Uložit změny seznamu šablon tvého módu? Tato akce je nevratná."
 				}
 			},
 			"select_game_story": {
-				"title": "Vyber si své dobrodružství",
+				"title": "Vyber si tvé dobrodružství",
 				"story_start": "Tento příběh vypráví o...",
-				"kingdom_section_start": "...odvážné skupince osadníků ",
+				"kingdom_section_start": "...odvážné skupince osadníků",
 				"select_button": "?",
 				"kingdom_picker_title": "Vyber Království",
-				"biome_section_start": "Hledajíce nové země a dobrodružství, vyrazili do",
+				"biome_section_start": "Hledající nové země a dobrodružství, vyrazili do",
 				"biome_picker_title": "Vyber Biom",
 				"game_mode_select_start": ", oblasti, která určitě bude",
 				"game_mode_picker_title": "Vyber Obtížnost",
@@ -2167,30 +2167,30 @@
 				"game_modes": {
 					"normal": {
 						"display_name": "Normální",
-						"description": "Dobrodružství odehrávající se ve světě plném nebezepčí. Tvé město bude předmětem nájezdů nepřátel.",
+						"description": "Dobrodružství přímo ve světě poseté nebezepčím. Tvé město bude podrobeno nájezdům nepřátel.",
 						"post_selection_text": "inspirujícím místem pro nový začátek."
 					},
 					"peaceful": {
 						"display_name": "Mírumilovná",
 						"description": "Sandboxový mód, kde si můžeš v klidu stavět svoje město, aniž by ses musel bát jakýchkoliv vetřelců.",
-						"post_selection_text": "pohodovým místem pro nový začátek."
+						"post_selection_text": "pokojným místem pro nový začátek."
 					},
 					"hard": {
 						"display_name": "Těžká",
-						"description": "Postav se težším nestvůrám, než při normální obtížnosti",
-						"post_selection_text": "znepokojujícím místem pro nový začátek."
+						"description": "Postav se obtížnějším nestvůrám, než při normální obtížnosti",
+						"post_selection_text": "sklíčujícím místem pro nový začátek."
 					}
 				},
 				"biome_warning_title": "Pozor, Cestovatelé...",
-				"biome_warning_text": "Zdroje pro vyrábění mohou být těžko dostupné, když [str(kingdom)] nesídlí ve svém preferovaném biomu - [str(preferred_biome)].<br><br>Stále chceš pokračovat se svým současným výběrem?",
+				"biome_warning_text": "Zdroje pro vyrábění mohou být těžké k nalezení, když [str(kingdom)] nesídlí ve svém preferovaném biomu - [str(preferred_biome)].<br><br>Stále chceš pokračovat se svým současným výběrem?",
 				"begin_button": "Vybrat Osadníky"
 			},
 			"select_roster": {
-				"reroll_citizens": "Znovu Vygenerovat",
+				"reroll_citizens": "Přerolovat všechny Obyvatele",
 				"reembark_button": "Vybrat Uložené",
 				"delete_crew": "Odstranit",
 				"delete_crew_confirm_title": "Odstranit Partu?",
-				"delete_crew_confirm_message": "Jsi si jistý že chceš trvale odstranit vybranou partu pro založení nového města?",
+				"delete_crew_confirm_message": "Jsi si jistý že chceš trvale odstranit vybranou partu pro znovu-založení nového města?",
 				"delete_crew_confirm_yes": "Ano",
 				"delete_crew_confirm_no": "Zrušit",
 				"select_crew": "Vybrat",
@@ -2214,16 +2214,16 @@
 				"pets_checkbox": "Zahrnout náhodného exotického mazlíčka"
 			},
 			"template_palette": {
-				"delete_template": "Tato šablona bude smazána"
+				"delete_template": "Tento soubor šablony bude smazán"
 			}
 		},
 		"debug": {
 			"post_bug": {
-				"title": "Nahlášení chyb",
+				"title": "Nahlašování chyb",
 				"message": "Děkujeme, že hraješ Stonehearth! Tady je návod jak nahlásit chybu.",
 				"file_bug_step_1": "Jdi na http://discourse.stonehearth.net/c/support/bug-reports",
-				"file_bug_step_2": "Zkontroluj seznam aktivních témat, a jestli tvoje chyba nebyla ještě nahlášena, založ nové téma. ",
-				"file_bug_step_3": "Při nahlašování chyby, se prosím ujisti, že jsi do hlášení zahrnul všechny vyžadované informace, a zkopíruj text všech chyb enginu. U viditelných chyb pomáhají i snímky obrazovky.",
+				"file_bug_step_2": "Zkontroluj seznam aktivních témat, a jestli tvoje chyba již nebyla zatím nahlášena, založ nové téma.",
+				"file_bug_step_3": "Při nahlašování chyby, se prosím ujisti, že jsi do hlášení zahrnul všechny vyžadované informace, a zkopíruj text všech chyb enginu. U vizuálních chyb snímky obrazovky jsou také nápomocné.",
 				"file_bug_step_4": "Narazíš-li na chybu způsobující pád hry, tak se koukni na http://discourse.stonehearth.net/t/13297 pro běžná řešení, a jak získat podporu pro pády. Níže je tvoje unikátní uživatelské id:"
 			},
 			"error_browser": {
@@ -2244,34 +2244,34 @@
 			"tooltips": {
 				"stamina": {
 					"display_name": "Výdrž",
-					"description": "To je hearthlingova tělesná vytrvalost.",
+					"description": "Tohle je hearthlingova tělesná odolnost.",
 					"bullet_points": {
-						"000": "Každý bod zvedá maximální zdraví o 1"
+						"000": "Každý bod zvyšuje maximální zdraví o 1"
 					}
 				},
 				"inventiveness": {
 					"display_name": "Vynalézavost",
 					"description": "Jak je tento hearthling dobrý ve vytváření věcí. U dobrých tvůrců je větší šance na vytvoření lepších výrobků.",
 					"bullet_points": {
-						"000": "Každé 2 body zvyšují možnost na vytvoření lepšího přemětu o 1%"
+						"000": "Každé 2 body zvyšují možnost na vytvoření lepšího předmětu o 1%"
 					}
 				},
 				"inspiration": {
 					"display_name": "Inspirace",
-					"description": "Jemný modifikátor možnosti tohoto hearthlinga na vytváření předmětů Dobré nebo Výborné kvality.",
+					"description": "Plochý modifikátor šance tohoto hearthlinga na vytváření předmětů Dobré nebo Vynikající kvality.",
 					"bullet_points": {
-						"000": "Hearthling musí být alespoň Tovaryš aby mohl vytvářet předměty Dobré kvality, a Mistr aby mohl vytvořit Výborné předměty</br>",
-						"001": "Je založena na herthlingových Duševních vlastnostech."
+						"000": "Hearthling musí být alespoň Tovaryš pro vytváření předmětů Dobré kvality, a Mistr pro vytváření předmětů Vynikající kvality</br>",
+						"001": "Je založena na hearthlingové Duši."
 					}
 				},
 				"shelter": {
 					"display_name": "Přístřeší",
 					"description": "Ujisti se, že tvoji heathlingové mají pohodlnou postel na spaní.",
-					"town_description": "Jak tvoji obyvatelé hodnotí stav ubytování. Jsou zde postele ke spaní?"
+					"town_description": "Jak se tví obyvatelé cítí ohledem jejich stavu ubytování. Jsou zde postele na spaní?"
 				},
 				"compassion": {
 					"display_name": "Soucit",
-					"description": "Jak je pravděpodobné, že tento hearthling pomůže ostatním obyvatelům nebo se s nimi skamarádí.",
+					"description": "Jak je pravděpodobné, že tento hearthling pomůže jinému vesničanovi nebo se spřátelí s ostatními.",
 					"bullet_points": {
 						"000": "Určuje maximální počet traperových mazlíčků",
 						"001": "Zvyšuje radost zvířat na pastvinách",
@@ -2280,45 +2280,45 @@
 				},
 				"food": {
 					"display_name": "Jídlo",
-					"description": "Ujisti se, že máš dostupná jídla různých druhů a kvality. Uvařené jídle je oblibenější než jídlo syrové.",
+					"description": "Ujisti se, že máš dostupná jídla různých druhů a kvality. Vařená jídla jsou oblibenější než jídla syrová.",
 					"town_description": "Jak tvoji obyvatelé hodnotí stav zásob jídla. Je zde dostatek jídla? Zkus získat různé druhy jídel!"
 				},
 				"diligence": {
-					"display_name": "Píle",
+					"display_name": "Pracovitost",
 					"description": "Jak dlouho tento hearthling může pracovat předtím než si bude potřebovat odpočinout.",
 					"bullet_points": {
 						"000": "Určuje délku spánku",
-						"001": "Určuje Technikovu rychlost opravování "
+						"001": "Určuje Inženýrovu rychlost opravování "
 					}
 				},
 				"willpower": {
 					"display_name": "Vůle",
 					"description": "Jaká je pravděpodobnost, že tento hearthling odolá vábením nepřátel.",
 					"bullet_points": {
-						"000": "Určuje regenearci zdraví"
+						"000": "Určuje regeneraci zdraví"
 					}
 				},
 				"net_worth": {
 					"display_name": "Celkové Jmění",
-					"description": "Odraz blahobytu tvého města. Stavby, majetek, a zemědělství dohromady tvoří toto skóre."
+					"description": "Odraz blahobytu tvého města. Stavby, majetek, a zemědělství se dohromady kombinují do formy tohoto skóre."
 				},
 				"courage": {
 					"display_name": "Odvaha",
-					"description": "Jak statečný je tento hearthling tváří v tvář boji.",
+					"description": "Jak statečný je tento hearthling tváří v tvář v boji.",
 					"bullet_points": {
 						"000": "Určuje šanci na útěk z boje."
 					}
 				},
 				"muscle": {
 					"display_name": "Síla",
-					"description": "Síla tohoto hearthlinga.",
+					"description": "Svaly tohoto hearthlinga.",
 					"bullet_points": {
-						"000": "Každých 10 bodů síly zvyšuje zranění zbraně o 1"
+						"000": "Každých 10 bodů síly zvyšuje poškození zbraně o 1"
 					}
 				},
 				"happiness": {
 					"display_name": "Celková Nálada",
-					"description": "Herthlingova celková spokojenost",
+					"description": "Hearthlingova celková spokojenost",
 					"town_description": "Jak šťastní jsou celkově tvoji obyvatelé."
 				},
 				"speed": {
@@ -2327,16 +2327,16 @@
 				},
 				"body": {
 					"display_name": "Tělo",
-					"description": "Schopnosti při fyzických aktivitách.</br></br>Hearthling s vysokým hodnocením Těla se bude pohybovat rychleji, útočit silněji a žít déle.</br></br>Ovlivňuje Sílu, Rychlost a Výdrž."
+					"description": "Způsobilost při fyzických aktivitách.</br></br>Hearthling s vysokým hodnocením Těla se bude pohybovat rychleji, útočit silněji a žít déle.</br></br>Ovlivňuje Sílu, Rychlost a Výdrž."
 				},
 				"edibles": {
 					"display_name": "Poživatiny",
-					"description": "Hodnota všeho jídla v inventáři města ve zlatých.",
-					"town_description": "Hodnota všeho jídla v inventáři města ve zlatých"
+					"description": "Hodnota všeho jídla v inventáři města ve zlatě.",
+					"town_description": "Hodnota všeho jídla v inventáři města ve zlatě"
 				},
 				"mind": {
 					"display_name": "Mysl",
-					"description": "Schopnost myslet rozumně.</br></br>Vyšší hodnota Mysli umožní hearthlingovi rychle ovládnout rozumové aktivity jako vyrábění, a přitom jim zůstane čistá hlava.</br></br>Ovlivňuje Píli a Zvědavost."
+					"description": "Schopnost rozumně myslet.</br></br>Vyšší hodnota Mysli umožní hearthlingovi rychle popadnout rozumové aktivity jako vyrábění, a zachovat čistou hlavu.</br></br>Ovlivňuje Pracovitost a Zvědavost."
 				},
 				"curiosity": {
 					"display_name": "Zvědavost",
@@ -2347,24 +2347,24 @@
 				},
 				"spirit": {
 					"display_name": "Duše",
-					"description": "Důvěra v osatní lidi i sebe sama.</br></br>Hearthling s vysokým hodnocením Duše se snado skamarádí se zvířaty, nebude se bát nepřátel, a bude častěji vytvářet výjimečné věci</br></br>Ovlivňuje Odvahu, Vůli, Soucit a Inspiraci."
+					"description": "Víra v ostatní lidi i sebe sama.</br></br>Hearthling s vysokým hodnocením Duše se snadno spřátelí se zvířaty, nebude se bát nepřátel, a bude mnohem častěji vytvářet výjimečné věci</br></br>Ovlivňuje Odvahu, Vůli, Soucit a Inspiraci."
 				},
 				"safety": {
 					"display_name": "Bezpečí",
-					"description": "Ochraňuj svoje město před nájezdníky a zařid aby se tvoji obyvatelé cítili bezpečně stanovením stráží.",
-					"town_description": "Jak tvoji obyvatelé hodnoti bezpečnost města. Je dobře chráněné nebo ho plundrují golbini?"
+					"description": "Ochraňuj tvoje město před nájezdníky a zařid aby se tvoji obyvatelé cítili bezpečně stanovením stráží.",
+					"town_description": "Jak tvoji obyvatelé hodnotí bezpečnost města. Je město dobře chráněné, nebo drancované gobliny?"
 				},
 				"inventory": {
 					"display_name": "Inventář",
-					"description": "Hodnota všech předmětů z inventáře města, které nejsou zdroje a jsou nejedlé, ve zlatých."
+					"description": "Hodnota ve zlatě všech předmětů v inventáři města, které nejsou zdroje a jsou nejedlé."
 				},
 				"buildings": {
 					"display_name": "Stavby",
-					"description": "Hodnota všech postavených staveb ve městě. Velké stavby přispívají ke skóre o něco více než stavby malé."
+					"description": "Hodnota všech postavených budov ve městě. Velké stavby přispívají ke skóre o něco více než ty menší."
 				},
 				"agriculture": {
 					"display_name": "Zemědělství",
-					"description": "Hodnota farmářských polí a pastvin ve tvém městě. Každá zasazená plodina a každé zvíře na pasvině přispívá k tomuto skóre."
+					"description": "Hodnota farmářských polí a pastvin ve tvém městě. Každá zasazená plodina a každé zvíře na pastvině přispívá k tomuto skóre."
 				},
 				"military_strength": {
 					"display_name": "Vojenská Síla",
@@ -2372,40 +2372,40 @@
 				},
 				"content": {
 					"display_name": "Spokojenost",
-					"town_description": "Tvoji obyvatelé jsou celkem spokojeni se stavem věcí.",
+					"town_description": "Tví obyvatelé jsou celkově spokojeni se stavem věcí.",
 					"description": "Nic dobrého, nic špatného."
 				},
 				"jubilant": {
-					"display_name": "Jubilant",
-					"town_description": "Tvoji obyvatelé jsou neuvěřitelně šťastní, že zde žijí!",
+					"display_name": "Jubilantní",
+					"town_description": "Tví obyvatelé jsou neuvěřitelně šťastní, že zde žijí!",
 					"description": "Rychlost pohybu je zvýšena o 10%."
 				},
 				"forlorn": {
-					"display_name": "Forlorn",
-					"town_description": "Tvoji obyvtelé prošli velkými problemi a těžkostmi a není jim právě do zpěvu.",
+					"display_name": "Zoufalí",
+					"town_description": "Tví obyvatelé prošli nedávno velmi těžkými časy.",
 					"description": "Rychlost pohybu je snížena o 10%."
 				},
 				"merry": {
-					"display_name": "Merry",
-					"town_description": "Tvojí obyvatelé jsou celkově docela šťastní.",
+					"display_name": "Veselí",
+					"town_description": "Tví obyvatelé jsou celkově docela šťastní.",
 					"description": "Rychlost pohybu je zvýšena o 5%."
 				},
 				"glum": {
-					"display_name": "Glum",
-					"town_description": "Tvoji obyvatelé se celkově necítí dobře.",
+					"display_name": "Sklíčení",
+					"town_description": "Tví obyvatelé se celkově necítí moc dobře.",
 					"description": "Rychlost pohybu je snížena o 5%."
 				},
 				"exp_bar": {
 					"description": "Hearthlingův postup na další úroveň."
 				},
 				"health_status": {
-					"description": "Hearthlingů současný stav zdraví."
+					"description": "Hearthlingův současný stav zdraví."
 				},
 				"suspend_button": {
 					"description": "Pozastavit nebo znovu spustit typ práce."
 				},
 				"customization_lock": {
-					"description": "Herthlingův [str(customization)] zůstane stejný během nového generování rysů a vlastností."
+					"description": "Tato Hearthlingova [str(customization)] budou uložena během nového rolování rysů a vlastností."
 				},
 				"customization_lock_all": {
 					"description": "Klikni pro uzamčení všech nastavení jména a vzhledu."
@@ -2425,8 +2425,8 @@
 				"pelt_resource_name": "Kožešina",
 				"cloth_resource_name": "Štůček Látky",
 				"wood_resource_name": "Dřevěné Poleno",
-				"clay_resource_name": "Hromádka Hlíny",
-				"clay_brick_resource_name": "Hliněné Cihly",
+				"clay_resource_name": "Hromádka Jílu",
+				"clay_brick_resource_name": "Jílové Cihly",
 				"thread_resource_name": "Příze",
 				"leather_resource_name": "Štůček Kůže",
 				"fiber_resource_name": "Svazek Vláken",
@@ -2441,8 +2441,8 @@
 				"earth_essence_resource": "Esence Hearthu ",
 				"feather_resource": "Peří",
 				"gear_resource_name": "Vybavení",
-				"ore_resource_name": "Rudy",
-				"dirt_resource_name": "Hromada Zeminy"
+				"ore_resource_name": "Ruda",
+				"dirt_resource_name": "Hromada Hlíny"
 			}
 		}
 	},
@@ -2451,51 +2451,51 @@
 			"ascendancy": {
 				"display_name": "Vznešené Království",
 				"quote": "Ovci? Máme. Motyku? Máme. Meče? Máme. Vyrážíme!",
-				"description": "Svědomití a pracovití, věrní a všeumělové. Obyvatelé Vznešeného Království kácí, staví a farmaří, s pevnou vírou, že celý známý svět je tu pro ně k osídlení.<div style='text-shadow: -2px -2px 0px #000000, 0px -2px 0px #000000, 2px -2px 0px #000000, -2px 0px 0px #000000, 2px 0px 0px #000000, -2px 2px 0px #000000, 0px 2px 0px #000000, 2px 2px 0px #000000;font-size: 15px;font-weight: bold;margin-top: 6px;'>Ideal for new players.</div>",
-				"post_selection_description": ", vzkvétající a pracovité království .",
+				"description": "Svědomití a těžce pracující, věrní a dobře zaoblení. Obyvatelé Vznešeného Království kácí, staví a farmaří, sebejistí, že celý známý svět je jejich k osídlení.<div style='text-shadow: -2px -2px 0px #000000, 0px -2px 0px #000000, 2px -2px 0px #000000, -2px 0px 0px #000000, 2px 0px 0px #000000, -2px 2px 0px #000000, 0px 2px 0px #000000, 2px 2px 0px #000000;font-size: 15px;font-weight: bold;margin-top: 6px;'>Ideální pro nové hráče.</div>",
+				"post_selection_description": ", prosperující a pracovité království.",
 				"initial_town_name": "Výprava [str(town_number)]"
 			}
 		},
 		"biome": {
 			"temperate": {
 				"display_name": "Mírný",
-				"description": "Lesy, řeky a kopce. Domov Vznešeného Království.",
+				"description": "Lesy, řeky a hory. Výchozí domov Vznešeného Království.",
 				"random_location_names": {
 					"000": "Ponurého Lesa"
 				},
 				"seasons": {
 					"spring": {
 						"display_name": "Jaro",
-						"description": "Jaro v Lese je období znozrození, travající tři měsíce. Deště rozpouštějí sníh, a odhlaují nový porost schovaný pod ním a stromy znovu přicházejí k životu, pokryté množstvím barevných květů. "
+						"description": "Jaro v Lese je období znovuzrození, travající tři měsíce. Deště rozpouštějí sníh, odhlaují nový porost schovaný pod ním a stromy znovu přicházejí k životu, pokryté množstvím barevných květů."
 					},
 					"summer": {
 						"display_name": "Léto",
-						"description": "Léto je v Lese nejvlídnější období, travající tři měsíce. Je to čas relaxace a vyhřívání se na slunci, bez thoo abyste se museli bát bouřek a sněhu."
+						"description": "Léto je v Lese nejvlídnější období, trvající tři měsíce. Je to čas relaxace a vyhřívání se na slunci, bez obav kolem bouřek či sněhu."
 					},
 					"autumn": {
 						"display_name": "Podzim",
-						"description": "Podzim v Lese je obdbí sklizně, trvající tři měsícr. Listí stromů žloutne, tráva se připravuje na uložení pod sněhovou pokrývkou, zatímco nebe se zatahuje s příchodem bouřkových mraků."
+						"description": "Podzim v Lese je období sklizně, trvající tři měsíce. Listí stromů žloutne, a tráva se připravuje se stáhnout do své zimné přikrývky, jak se nebe zatahuje s bouřkovými mraky."
 					},
 					"winter": {
 						"display_name": "Zima",
-						"description": "Zima v Lese je období chladu, travající tři měsíce. Stromům opadá listí a sníh pokryje celou krajinu. Chladným a štiplavým větrům se nejlépe vzdoruje útulnými schromážděními kolem hearthu."
+						"description": "Zima v Lese je období chladu, trvající tři měsíce. Stromy ztrácejí své listí, a sníh pokryje celou krajinu. Chladným, štiplavým větrům se nejlépe vzdoruje útulnými schromážděními kolem hearthu."
 					}
 				}
 			},
 			"arctic": {
 				"display_name": "Arktický",
-				"description": "Zasněžený, s vysokými horami a velkými vodními plochami. Domov Severské Aliance.",
+				"description": "Zasněžený, s vysokými horami a velkými vodními plochami. Výchozí domov Severské Aliance.",
 				"random_location_names": {
 					"000": "Valkýrská Tundra"
 				},
 				"seasons": {
 					"spring": {
 						"display_name": "Jaro",
-						"description": "Jaro v Arktické oblasti je období změn, travající pouze jeden měsíc. Zatímco vrchoviny si zachovávají sněhou pokrývku po celý rok, v nížinách kolem jezer začíná roztávat a zační rašit mladá tráva."
+						"description": "Jaro v Arktické oblasti je období změn, travající pouze jeden měsíc. Zatímco vrchoviny si zachovávají sněhou pokrývku celoročně, nížiny kolem jezer začínají roztávat a mladá tráva začne rašit."
 					},
 					"summer": {
 						"display_name": "Léto",
-						"description": "Léto v Arktické oblasti je období odpočinku, trvající tři měsíce. Klima je mírné a nížiny se zelenají trávou. Je to úleva od chladu a také čas na nabrání sil na dlouhou zimu, která přijde."
+						"description": "Léto v Arktické oblasti je období odpočinku, trvající tři měsíce. Počasí je mírné, a nížiny se zelenají trávou. Je to úleva od chladu, a také čas na znovunabrání sil na dlouhou nadcházející zimu."
 					},
 					"autumn": {
 						"display_name": "Podzim",
@@ -2503,32 +2503,32 @@
 					},
 					"winter": {
 						"display_name": "Zima",
-						"description": "Zima v Arktické oblasti je období strastí, trvající sedm měsíců. Drsné klima, s štiplavými větry a nemilosrdnými vánicemi, dělá farmaření nesmírně obtížné. Už i pohyb venku bez zimního oblečení může skončit tragicky."
+						"description": "Zima v Arktické oblasti je období strastí, trvající sedm měsíců. Počasí je drsné, s štiplavými větry a nemilosrdnými vánicemi, dělá farmaření nesmírně obtížné. Jenom pohyb venku bez zimního oblečení již může skončit tragicky."
 					}
 				}
 			},
 			"desert": {
 				"display_name": "Poušť",
-				"description": "Suchá a písčitá, se stolovými horami a roztroušenou vegetací. Tady jsou Raijiny Děti doma.",
+				"description": "Suchá a písčitá, se zavalitými horami a řídkou vegetací. Výchozí domov Raijiných Dětí.",
 				"random_location_names": {
 					"000": "Pal'Mumova poušť"
 				},
 				"seasons": {
 					"spring": {
 						"display_name": "Jaro",
-						"description": "Jaro v Poušti je období dešťů, trvající dva měsíce. Je to vzácná příležitost pro doplnění rezervních zásob vody, vedoucí k rozkvětu celé místní flóry najednou."
+						"description": "Jaro v Poušti je období dešťů, trvající dva měsíce. Je to vzácný čas pro doplnění rezervních zásob vody, vedoucí k rozkvětu celé místní flóry najednou."
 					},
 					"summer": {
 						"display_name": "Léto",
-						"description": "Léto v Poušti je období bouří, trvající čtyři měsíce. Písečné bouře pustoší krajinu skoro každý den, a město bez dostatečného přístřeší, jako jsou zdi, hory nebo podzemní příbytky, může mít problém přežít tento nápor."
+						"description": "Léto v Poušti je období bouří, trvající čtyři měsíce. Písečné bouře pustoší krajinu skoro na denní bázi, a město bez dostatečného přístřeší, jako jsou zdi, hory nebo podzemní příbytky, může mít potíž přežít tento nápor."
 					},
 					"autumn": {
 						"display_name": "Podzim",
-						"description": "Podzim v Poušti je období klidu, trvající čtyři měsíce. Klima je horké, ale mírnější než v létě, bez písečných bouří i srážek. Tradičně je to čas odpočinku, po přečkání letních písečných bouří."
+						"description": "Podzim v Poušti je období klidu, trvající čtyři měsíce. Počasí je horké, ale mírnější než v létě, bez písečných bouří či srážek. Je to tradičně čas odpočinku po přežití letních písečných bouří."
 					},
 					"winter": {
 						"display_name": "Zima",
-						"description": "Zima v pušti je svěží období, trvající dva měsíce. Vánek nesoucí se přes duny, přináší mírnější klima než bylo na podzim a občas sem dokonce zanese i sněhový mrak."
+						"description": "Zima v poušti je svěží období, trvající dva měsíce. Vánky foukající přes duny, přináší s nimi mírnější počasí než v podzimu, a občas dokonce i sněhový mrak."
 					}
 				},
 				"sandy_poyo": {
@@ -2536,7 +2536,7 @@
 					"species": "pojo"
 				},
 				"fennec_fox": {
-					"display_name": "Fenek Berberský",
+					"display_name": "Liška Fenek",
 					"species": "liška"
 				}
 			}
@@ -2547,17 +2547,17 @@
 					"daily_report_encounter": {
 						"title": "Do tvého města přijel cestovatel.",
 						"update_title": "Denní Aktualizace",
-						"sub_title": "Hlášení o Imigraci",
+						"sub_title": "Hlášení o Přistěhování",
 						"food_label": "Jídlo",
 						"morale_label": "Nálada",
 						"net_worth_label": "Celkové Jmění",
 						"conclusion_positive": "Nový osadník by se rád připojil do tvého města!",
 						"conclusion_negative": "Cesty zůstávají prázdné. Možná zítra!",
-						"success_title": "[name(i18n_data.citizen)] se připojil do města [str(i18n_data.town_name)]!",
+						"success_title": "[name(i18n_data.citizen)] se připojil/a do města [str(i18n_data.town_name)]!",
 						"messages": {
 							"000": "Hodně jsem o tvém městě slyšel!",
 							"001": "Chtěl bych se připojit do tvého města .",
-							"002": "Lidi, vypadáte jako by se vám hodila pomocná ruka!",
+							"002": "Lidi, vypadáte že by se vám hodila pomocná ruka!",
 							"003": "Páni! To je město! Dovolte mi pomoct!"
 						},
 						"outcome_statement": "[str(i18n_data.job)] by se rád připojil/a ke městu [str(i18n_data.town_name)]!"
@@ -2565,7 +2565,7 @@
 				},
 				"trader": {
 					"simple_caravan_encounter": {
-						"message": "Zdravím [str(i18n_data.town_name)]! Přicházím nesouce zboží na obchod. Nechtěli byste mi dát <strong>[str(i18n_data.your_quantity)] [str(i18n_data.your_item)](s)</strong> výměnou za <strong>[str(i18n_data.my_quantity)] [str(i18n_data.my_item)](s)</strong>?",
+						"message": "Zdravím [str(i18n_data.town_name)]! Přicházím nesouce zboží na obchod. Chtěli byste mi dát <strong>[str(i18n_data.your_quantity)] [str(i18n_data.your_item)](s)</strong> výměnou za <strong>[str(i18n_data.my_quantity)] [str(i18n_data.my_item)](s)</strong>?",
 						"title": "Karavana přichází!"
 					},
 					"starting_food_donation": {
@@ -2578,7 +2578,7 @@
 										"001": "Právě jste oslavili Den Založení, co? Seberte se! Vypadáte jako byste potřebovali něco dobrého k zakousnutí. Co kdybych vám dala:",
 										"002": "Osadníci! Chvalte Cida. Tady máte něco na začátek.",
 										"003": "Dlouhá cesta přes hory, co? No, teď už jste na správném místě. Mám pro vás tady na začátek takovou maličkost!",
-										"004": "Vítejte na tomto území Osadníci!! Tady máte dárek pro začátek!"
+										"004": "Vítejte na tomto území, Osadníci!! Tady máte dárek pro začátek!"
 									},
 									"bulletin_title": "Hraničář Přichází",
 									"dialog_title": "Ronja Olarkson"
@@ -2590,77 +2590,77 @@
 						"title": "Do tvého města přijel obchodník.",
 						"days": " dní/y",
 						"hours": " hodin/y",
-						"trade_details": "Zdravím [str(i18n_data.town_name)]! Jenom tudy procházím, ale byl bych ochotný uzavřít obchod nebo dva, pokud vás to zajímá. Když mi vyrobíte <strong>[str(i18n_data.want_number)]x [str(i18n_data.want_item)]</strong>, tak budu zpět za [str(i18n_data.num_days)] dní/y a snad bych pro vás zato mohl získat <strong>[str(i18n_data.reward_number)]x [str(i18n_data.reward_item)]</strong>. Vyhovuje?",
+						"trade_details": "Zdravím [str(i18n_data.town_name)]! Jenom tudy procházím, ale byl bych ochotný uzavřít obchod nebo dva, pokud máte zájem. Když mi vyrobíte <strong>[str(i18n_data.want_number)]x [str(i18n_data.want_item)]</strong>, tak budu zpět za [str(i18n_data.num_days)] dní/y a snad bych pro vás zato mohl získat <strong>[str(i18n_data.reward_number)]x [str(i18n_data.reward_item)]</strong> výměnou. Zní dobře?",
 						"waiting_title": "Obchodník bude zpátky za [str(i18n_data.hour_counter)] [str(i18n_data.period)]!",
 						"waiting_text": "Obchodník bude zpátky za [str(i18n_data.hour_counter)] [str(i18n_data.period)], aby ti dal <strong>[str(i18n_data.reward_number)]x [str(i18n_data.reward_item)]</strong>, pokud pro něj budeš mít připravené <strong>[str(i18n_data.want_number)]x [str(i18n_data.want_item)]</strong>!",
 						"return_title": "Obchodník se vrací!",
-						"return_greetings_positive": "Jsem zpátky! Vypadá to, že si pro mě udělal [str(i18n_data.want_number)]x [str(i18n_data.want_item)], jak jsem tě žádal. Pořád máš zájem to se mnou směnit? Výměnou ti dám [str(i18n_data.reward_number)]x [str(i18n_data.reward_item)]. Pořád to zní dobře?",
-						"return_greetings_negative": "Jsem zpátky, ale nevypadá to, že by si pro mě udělal [str(i18n_data.want_number)] [str(i18n_data.want_item)], jak jsem tě žádal. To je opravdu škoda! Tak snad příště!"
+						"return_greetings_positive": "Jsem zpátky! Vypadá to, že si pro mě udělal [str(i18n_data.want_number)]x [str(i18n_data.want_item)], o které jsem tě žádal. Pořád máš zájem je se mnou směnit? Výměnou ti dám [str(i18n_data.reward_number)]x [str(i18n_data.reward_item)]. Pořád to zní dobře?",
+						"return_greetings_negative": "Jsem zpátky, ale nevypadá to, že by si pro mě udělal [str(i18n_data.want_number)] [str(i18n_data.want_item)], o které jsem tě žádal. To je opravdu škoda! Tak snad příště!"
 					},
 					"returning_crop_trader_encounter": {
 						"title": "Obchodník přináší semínka z dalekých krajin.",
-						"trade_details": "Zdravím [str(i18n_data.town_name)]! Jenom tudy procházím, ale byl bych ochotný uzavřít obchod nebo dva, pokud vás to zajímá. Když mi vyrobíte <strong>[str(i18n_data.want_number)]x [str(i18n_data.want_item)]</strong>, tak budu zpět za [str(i18n_data.num_days)] dní/y a snad bych pro vás zato mohl získat <strong>[str(i18n_data.reward_item)]</strong> Vyhovuje?",
+						"trade_details": "Zdravím [str(i18n_data.town_name)]! Jenom tudy procházím, ale byl bych ochotný uzavřít obchod nebo dva, pokud máte zájem. Když mi vyrobíte <strong>[str(i18n_data.want_number)]x [str(i18n_data.want_item)]</strong>, tak budu zpět za [str(i18n_data.num_days)] dní/y a snad bych pro vás zato mohl získat <strong>[str(i18n_data.reward_item)]</strong> Zní dobře?",
 						"waiting_title": "Obchodník bude zpátky za [str(i18n_data.hour_counter)] [str(i18n_data.period)]!",
 						"waiting_text": "Obchodník bude zpátky za [str(i18n_data.hour_counter)] [str(i18n_data.period)], aby ti dal [str(i18n_data.reward_item)], pokud pro něj budeš mít připravené [str(i18n_data.want_number)]x [str(i18n_data.want_item)]!",
 						"return_title": "Obchodník se vrací!",
-						"return_greetings_positive": "Jsem zpátky! Vypadá to, že si pro mě udělal [str(i18n_data.want_number)]x [str(i18n_data.want_item)], jak jsem tě žádal. Pořád máš zájem to se mnou směnit? Výměnou ti dám [str(i18n_data.reward_number)]x [str(i18n_data.reward_item)]. Pořád to zní dobře?",
-						"return_greetings_negative": "Jsem zpátky, ale nevypadá to, že by si pro mě udělal [str(i18n_data.want_number)] [str(i18n_data.want_item)], jak jsem tě žádal. To je opravdu škoda! Tak snad příště!"
+						"return_greetings_positive": "Jsem zpátky! Vypadá to, že si pro mě udělal [str(i18n_data.want_number)]x [str(i18n_data.want_item)], o které jsem tě žádal. Pořád máš zájem je se mnou směnit? Výměnou ti dám [str(i18n_data.reward_number)]x [str(i18n_data.reward_item)]. Pořád to zní dobře?",
+						"return_greetings_negative": "Jsem zpátky, ale nevypadá to, že by si pro mě udělal [str(i18n_data.want_number)] [str(i18n_data.want_item)], o které jsem tě žádal. To je opravdu škoda! Tak snad příště!"
 					},
 					"rugs_shop": {
 						"shop_info": {
 							"name": "Havovo Oblečení a Koberce",
-							"title": "Prostý obchodník s oblečením přijel se zbožím k prodeji"
+							"title": "Prostý obchodník s oblečením přijel se zbožím na prodej"
 						}
 					},
 					"stonecutter_shop": {
 						"shop_info": {
 							"name": "Kamenický obchod Rufuse Garrowa",
-							"title": "Rufus Garrow přijel se zbožím k prodeji"
+							"title": "Rufus Garrow přijel se zbožím na prodej"
 						}
 					},
 					"tannery_shop": {
 						"shop_info": {
-							"name": "Koželužna a Zásoby z Divočiny Jessicy Rozmrzelové ",
-							"title": "Mrzutá survivalistka se zastavila se svým zbožím"
+							"name": "Koželužna a Zásoby z Divočiny Jessicy Rozmrzelové",
+							"title": "Drsná survivalistka se zastavila se svým zbožím"
 						}
 					},
 					"woodcutter_shop": {
 						"shop_info": {
 							"name": "Dřevařský Obchod Norma Větroslava",
-							"title": "Norm Větroslav přijel se zbožím k prodeji"
+							"title": "Norm Větroslav přijel se zbožím na prodej"
 						}
 					},
 					"valor_tier_2_reached": {
 						"title": "Obec Ustanovena",
 						"speaker_name": "Ctihodná Anwyn Torresi",
-						"message": "Gratulujeme, [str(i18n_data.town_name)]! Zvěsti o vašich válečných úspěších se šíří! Tvoje městečko je oficiálně brané jako obec! Přinesl jsem stavební materiál a obchodní smlouvy, jak je zvykem!",
+						"message": "Gratulujeme, [str(i18n_data.town_name)]! Zvěsti o vaší bojové zdatnosti se šíří! Tvoje městečko je oficiálně brané jako obec! Přinesl jsem stavební materiál a obchodní smlouvy, jak je zvykem!",
 						"accept": "Jupí!",
 						"dialog_title": "Dosaženo Statutu Obce!",
 						"tier_title": "Obec",
-						"reward_message": "Z rozhodnutí Princezny Danie ze Vznešeného Království, dáváme na vědomí:",
-						"reward_message_ctd": "Za neobyčejné činy hrdiství v boji. Tímto získává městečko oprávnění na:",
+						"reward_message": "Z nařízení Princezny Danie ze Vznešeného Království, dáváme na vědomí:",
+						"reward_message_ctd": "Za neuvěřitelnou chrabrost v boji. Město je tímto způsobilé pro:",
 						"tier_2_bldg_template": "Úroveň 2 Stavebních Šablon",
 						"tier_2_shops": "Úroveň 2 Obchodů",
 						"tier_2_BGM": "Úroveň 2 Hudby",
-						"recipe_unlock_engineer": "Nový návod na padací mříž pro Technika!",
+						"recipe_unlock_engineer": "Nový návod na padací mříž pro Inženýra!",
 						"recipe_unlock_mason": "Nové návody na dekorace pro Kameníka!",
 						"recipe_unlock_blacksmith": "Nové návody na dekorace pro Kováře!",
 						"recipe_unlock_weapons_1": "Nový návod na Legendární Meč - Spolupráce Tkalce, Hrnčíře a Kováře!",
 						"recipe_unlock_weapons_2": "Nový návod na Legendární Štít - Spolupráce Kováře, Tesaře a Kameníka!",
-						"recipe_unlock_weapons_3": "Nový návod na Legendární Luk - Spolupráce Technika, Tkalce a Tesaře!",
+						"recipe_unlock_weapons_3": "Nový návod na Legendární Luk - Spolupráce Inženýra, Tkalce a Tesaře!",
 						"recipe_unlock_weapons_4": "Nový návod na Legendární Čelenku - Spolupráce Bylinkáře, Kameníka a Kováře!"
 					},
 					"generosity_tier_2_reached": {
-						"reward_message_ctd": "Za projevy velké štědrosti potřebným. Tímto získává městečko oprávnění na:",
+						"reward_message_ctd": "Za projevy velké štědrosti potřebným. Město je tímto způsobilé pro:",
 						"recipe_unlock_mason": "Nový návod fontány přání pro Kameníka!",
-						"recipe_unlock_herbalist": "New shrubbery decorations for Herbalist!",
+						"recipe_unlock_herbalist": "Nové křovinové dekorace pro Bylinkáře!",
 						"recipe_unlock_blacksmith": "Nové návody na dekorace pro Kováře!"
 					},
 					"crafting_tier_2_reached": {
-						"reward_message_ctd": "Za dokonalost v řemesle. Tímto získává městečko oprávnění na:",
-						"recipe_unlock_mason": "Nový návod na fontánu a sochu pro Kameníka!",
+						"reward_message_ctd": "Za dokonalost v řemesle. Město je tímto způsobilé pro:",
+						"recipe_unlock_mason": "Nové návody na fontány a sochy pro Kameníka!",
 						"recipe_unlock_carpenter": "Nové dekorace a ploty pro Tesaře!",
-						"recipe_unlock_herbalist": "New shrubbery decorations for Herbalist!",
+						"recipe_unlock_herbalist": "Nové křovinové dekorace pro Bylinkáře!",
 						"recipe_unlock_blacksmith": "Nové návody na dekorace pro Kováře!"
 					},
 					"ascendancy_town_tier_quest": {
@@ -2677,16 +2677,16 @@
 							"dialog_nodes": {
 								"proclamation": {
 									"bulletin_message": {
-										"000": "Z rozhodnutí Princezny Danie, První Dámy Vznešeného Království, a na jejímž území sídlíš, a s požehnáním Církve Hojnosti, s jejíž moudrostí se nám dostává blahobytu..."
+										"000": "Z rozkazu Princezny Danie, První Dámy Vznešeného Království, a na jejímž území sídlíš, a s požehnáním Církve Hojnosti, v jejíž moudrosti všichni prosperujeme..."
 									},
 									"bulletin_title": "Anwyn si Odkašle",
 									"dialog_title": "Ctihodná Anwyn Torresi",
 									"choice_000": "Páni, prohlášení!",
-									"choice_001": "Zzzz..."
+									"choice_001": "Zzz..."
 								},
 								"craft_reqs": {
 									"bulletin_message": {
-										"000": "Královští Řemeslničtí Mistři ctí ty, kteří mají zlaté ručičky. Nech svého kameníka vytvořit sochu podle jejich přesného popisu, a staneš se tím co na ně udělá dojem."
+										"000": "Královští Řemeslničtí Mistři ctí ty, kteří mají oko pro dokonalost. Nech svého kameníka vytvořit sochu podle jejich přesného popisu, a staneš se jeden z mála co na ně udělá dojem."
 									},
 									"bulletin_title": "Anwyn se dívá zpátky na svitek",
 									"dialog_title": "Ctihodná Anwyn Torresi",
@@ -2704,24 +2704,24 @@
 								},
 								"actual_meaning": {
 									"bulletin_message": {
-										"000": "Co to tedy vlastně znamená? No, hlavně to, že si vás zapíšeme někam do účetní knihy, pro případ, že bychom si někdy vzpomněli vrátit se a vybrat daně."
+										"000": "Co to tedy vlastně znamená? No, hlavně to, že si vás zapíšeme někam do účetní knihy, pro případ, že bychom si někdy vzpomněli se vrátit a vybrat daně."
 									},
-									"bulletin_title": "Anwyn se Kření",
+									"bulletin_title": "Anwyn se Šklebí",
 									"dialog_title": "Ctihodná Anwyn Torresi",
-									"choice_000": "Tak to pak jo!",
+									"choice_000": "Potom nevadí!",
 									"choice_001": "Daňě? Vážně?"
 								},
 								"rewards": {
 									"bulletin_message": {
-										"000": "Přesně tak! Podle nařízení Princnezny, oprávněná města tedy ta, která dokázala že jsou toho hodna, vyhrají přístup k stavitelskému učení a bohatším karavanám na obchodování  ."
+										"000": "Vskutku! Podle rozkazu Princezny, oprávněná města, která prokázala že jsou toho hodna, vyhrají přístup k stavitelskému učení a bohatším karavanám k obchodování."
 									},
 									"bulletin_title": "Anwyn Přikyvuje",
 									"dialog_title": "Ctihodná Anwyn Torresi",
-									"choice_000": "Ok. Co přijde teď?"
+									"choice_000": "Ok. Co přijde dál?"
 								},
 								"military_reqs": {
 									"bulletin_message": {
-										"000": "Pro získání věhlasu u Řádu Cida, musíte ukázat svoji odvahu a chrabrost! Dám tvému kameníkovi návod; úkol na získání přísad pro vytvoření pomníku hodného ruky tvého šermíře ."
+										"000": "Pro získání věhlasu u Řádu Cida, musíte ukázat svoji odvahu a chrabrost! Dám tvému kameníkovi návod; úkol na získání přísad pro vytvoření pomníku hodného tvého šermíře."
 									},
 									"bulletin_title": "Anwyn se dívá zpátky na svitek",
 									"dialog_title": "Ctihodná Anwyn Torresi",
@@ -2730,7 +2730,7 @@
 								},
 								"herald_announcement": {
 									"bulletin_message": {
-										"000": "Znamenitě! Messire Statnoruký říkal, že tady budete, ale v prvních dnech je to vždycky takové nejisté. Můžeme začít?"
+										"000": "Výtečně! Messire Statnoruký říkal, že tady budete, ale v prvních dnech je to vždycky takové nejisté. Můžeme začít?"
 									},
 									"bulletin_title": "Anwyn zozvinuje svitek",
 									"dialog_title": "Ctihodná Anwyn Torresi",
@@ -2738,7 +2738,7 @@
 								},
 								"requirements": {
 									"bulletin_message": {
-										"000": "Dostatečný věhlas, pro povýšení na obec, můžeš získat jakoukoliv z těchto tří cest: Vojenská Sláva, Přízeň Církve, nebo Uznání od Řemeslnických Mistrů. Která znich tě nejvíce zaujala?"
+										"000": "Můžeš dostat dostatečný věhlas pro povýšení na obec kterýmkoliv z těchto tří způsobů: Vojenská Sláva, Přízeň Církve, nebo Uznání od Řemeslnických Mistrů. Která z nich tě nejvíce zaujala?"
 									},
 									"bulletin_title": "Anwyn se dívá zpátky na svitek",
 									"dialog_title": "Ctihodná Anwyn Torresi",
@@ -2750,7 +2750,7 @@
 									"bulletin_message": {
 										"000": "Dělám si srandu! Královští Účetní mají teď plné ruce práce s korunovací a tak. Každopádně, získání statusu Obce ve skutečnosti znamená, že získáš spoustu odměn a různé benefity."
 									},
-									"bulletin_title": "Anwyn se Kření",
+									"bulletin_title": "Anwyn se Šklebí",
 									"dialog_title": "Ctihodná Anwyn Torresi",
 									"choice_000": "Odměny a benefity?"
 								},
@@ -2770,19 +2770,19 @@
 									"bulletin_title": "Královský Posel Přichází",
 									"dialog_title": "Ctihodná Anwyn Torresi",
 									"choice_000": "Vítáme Vás, Má Paní!",
-									"choice_001": "Jop, to jsme my!"
+									"choice_001": "Jo, to jsme my!"
 								},
 								"conclusion": {
 									"bulletin_message": {
-										"000": "Znamenitě! Kromě příslušného monumentu, bude tvoje město také potřebovat dosáhnout určité hodnoty. Nechám vám tu jednotlivé požadavky, pokud byste se o nich chtěli znovu poradit nebo pokud by vám jiná cesta připadala lepší než ta, kterou jste si vybrali na začátku."
+										"000": "Výtečně! Kromě příslušného monumentu, bude tvoje město také potřebovat dosáhnout určitou hodnotu jmění. Nechám vám tu jednotlivé požadavky, pokud byste se o nich chtěli znovu poradit, nebo pokud by vám jiná cesta připadala lepší než ta, kterou jste si vybrali na začátku."
 									},
 									"bulletin_title": "Anwyn svinuje svitek",
 									"dialog_title": "Ctihodná Anwyn Torresi",
-									"choice_000": "Díky Vám, Má Paní!"
+									"choice_000": "Děkujeme Vám, Má Paní!"
 								},
 								"conclusion2": {
 									"bulletin_message": {
-										"000": "Budiž ti přáno Cidovo poženhání, [str(i18n_data.town_name)]. Nechám vám tu ptáčka, abyste mě mohli zavolat na zhodnocení vašeho postupu!"
+										"000": "Budiž ti přáno Cidovo požehnání, [str(i18n_data.town_name)]. Nechám vám tu ptáčka, abyste mě mohli zavolat na zhodnocení vašeho postupu!"
 									},
 									"bulletin_title": "Anwyn svinuje svitek",
 									"dialog_title": "Ctihodná Anwyn Torresi",
@@ -2796,14 +2796,14 @@
 							"tier_2_shops": {
 								"weapon_armor_shop": {
 									"shop_info": {
-										"name": "Zbrojní Obchod Sarka Černokladivouna ",
+										"name": "Zbrojní Obchod Sarka Černokladivouna",
 										"title": "Sark Černokladivoun přijel s vybavením na prodej"
 									}
 								},
 								"farming_supplies_shop": {
 									"shop_info": {
-										"name": "Farmárské Zásoby Farmáře Klenota",
-										"title": "Zásobní vozík Farmáře Klenota přirachotil do města"
+										"name": "Farmářské Zásoby Farmáře Klenota",
+										"title": "Zásobní vozík Farmáře Klenota se burácí do města"
 									}
 								},
 								"bakery_shop": {
@@ -2827,7 +2827,7 @@
 								"rugs_shop2": {
 									"shop_info": {
 										"name": "Havaadovi Hezké Koberce a Oděvy",
-										"title": "Obchodník s cizokrajnými tkaninami přijel s výtečným zbožím na prodej"
+										"title": "Obchodník s exotickými tkaninami přijel s výtečným zbožím na prodej"
 									}
 								},
 								"woodcutter_shop2": {
@@ -2869,7 +2869,7 @@
 								"herbalist_shop_2": {
 									"shop_info": {
 										"name": "Kvetoucí Skleník Květoslava Sklenáře",
-										"title": "Květoslav Sklenář projíždí kolem, prodávajíce rostliny a semínka."
+										"title": "Květoslav Sklenář projíždí kolem, prodávajíc rostliny a semínka"
 									}
 								}
 							},
@@ -2877,19 +2877,19 @@
 								"pets_shop_1": {
 									"shop_info": {
 										"name": "Avelinin Zverimex",
-										"title": "Kolemjdoucí místní hraničářka nabízí mazlíčky k adopci"
+										"title": "Místní hraničářka prochází, nabízí mazlíčky k adopci"
 									}
 								},
 								"pets_shop_2": {
 									"shop_info": {
-										"name": "Dinalijin Zvěřineček",
-										"title": "Trenérka zvířata přijela na návštěvu se svým zvěřincem"
+										"name": "Dinalijin Malý Zvěřinec",
+										"title": "Trenérka zvířat přijela na návštěvu se svým zvěřincem"
 									}
 								},
 								"pets_shop_3": {
 									"shop_info": {
-										"name": "Cestující Zoo Olina a Ruvela ",
-										"title": "Karavana nabízí cizokrajná zvířata k prodeji"
+										"name": "Cestující Zoo Olina a Ruvela",
+										"title": "Karavana nabízí exotická zvířata na prodej"
 									}
 								},
 								"container_shop_1": {
@@ -2900,20 +2900,20 @@
 								},
 								"food_shop_1": {
 									"shop_info": {
-										"name": "Ganorova Nůše Snídaňových Pochutin",
-										"title": "Mladý kuchař přijel s nůší snídaňových pochutin"
+										"name": "Ganorův Kufr Snídaňových Pochutin",
+										"title": "Mladý kuchař přijel s kufrem snídaňových pochutin"
 									}
 								},
 								"potter_shop_1": {
 									"shop_info": {
-										"name": "Tvarovaná Hlína Feriny Raije ",
+										"name": "Tvarovaná Hlína Feriny Raije",
 										"title": "Ferina Raije a její kruhové hrnčířství projíždí kolem, nabízejíc hrnčířské výrobky"
 									}
 								},
 								"herbalist_shop_1": {
 									"shop_info": {
 										"name": "Kvetoucí Skleník Květoslava Sklenáře",
-										"title": "Květoslav Sklenář projíždí kolem, prodávajíce byliny."
+										"title": "Květoslav Sklenář projíždí kolem, prodávajíc byliny"
 									}
 								}
 							},
@@ -2939,13 +2939,13 @@
 								"door_shop_3": {
 									"shop_info": {
 										"name": "Obchod s Dveřmi Edgara Planktona",
-										"title": "Edgar Plankton přijel se zásilkou svých nejlepších dveří a oken "
+										"title": "Edgar Plankton přijel se zásilkou svých nejlepších dveří a oken"
 									}
 								},
 								"food_shop_3": {
 									"shop_info": {
 										"name": "Maso a Koláče Orlíka Lišky",
-										"title": "Známý šéfkuchař projíždějící kolem, nabízí labužnická jídla na prodej"
+										"title": "Známý šéfkuchař projíždí kolem, nabízí labužnická jídla na prodej"
 									}
 								},
 								"potter_shop_3": {
@@ -2957,7 +2957,7 @@
 								"herbalist_shop_3": {
 									"shop_info": {
 										"name": "Kvetoucí Skleník Květoslava Sklenáře",
-										"title": "Květoslav Sklenář projíždí kolem, prodávajíce rostliny mnoha různých druhů."
+										"title": "Květoslav Sklenář projíždí kolem, prodávajíc rostliny všech druhů"
 									}
 								}
 							}
@@ -2968,12 +2968,12 @@
 					},
 					"returning_collector_encounter": {
 						"title": "Průzkumník přichází do tvého města.",
-						"trade_details": "Zdravím [str(i18n_data.town_name)]! Jsem průzkumník z velké dálky na východě, který zabývá nejrůznějšími obchody a sbíraním věcí. Nedávno jsem našel <strong>[str(i18n_data.reward_number)]x [str(i18n_data.reward_item)]</strong> jenom se povalující vedle cesty. Nejsem si jistý, kdo je tam nechal, ale jsou docela nápomocní při uklidu! Já pro ně nemám moc velké využití, ale v blízké vesnice říkali, že by potřebovali  <strong>[str(i18n_data.want_number)]x [str(i18n_data.want_item)]</strong>. Budo odpočívat někde poblíž po [str(i18n_data.num_days)] dny/i... Budeš pak mít zájem o obchod?",
+						"trade_details": "Zdravím [str(i18n_data.town_name)]! Jsem průzkumník z velké dálky na východě, který se zabývá nejrůznějšími obchody a sbíraním věcí. Nedávno jsem našel <strong>[str(i18n_data.reward_number)]x [str(i18n_data.reward_item)]</strong> jenom tak se povalující vedle cesty. Nejsem si jistý, kdo je tam nechal, ale jsou docela nápomocní při úklidu! Já pro ně nemám moc velké využití, ale v blízké vesnice říkali, že by potřebovali  <strong>[str(i18n_data.want_number)]x [str(i18n_data.want_item)]</strong>. Budu odpočívat někde poblíž po [str(i18n_data.num_days)] dny/í... Budeš pak mít zájem o obchod?",
 						"waiting_title": "Průzkumník bude zpátky za [str(i18n_data.hour_counter)] [str(i18n_data.period)]!",
 						"waiting_text": "Průzkumník bude zpátky za [str(i18n_data.hour_counter)] [str(i18n_data.period)], aby ti dal <strong>[str(i18n_data.reward_number)]x [str(i18n_data.reward_item)]</strong>, pokud pro něj budeš mít připravené <strong>[str(i18n_data.want_number)]x [str(i18n_data.want_item)]</strong> !",
 						"return_title": "Průzkumník se vrací!",
-						"return_greetings_positive": "Jsem zpátky! Vypadá to že si pro mě udělal [str(i18n_data.want_number)]x [str(i18n_data.want_item)] jak jsem tě žádal. Pořád máš zájem to směnit za [str(i18n_data.reward_number)]x  [str(i18n_data.reward_item)]? Ujišťuji tě, že jsou mnohem užitečnější v nošení věcí, než jakýkoliv normální člověk!",
-						"return_greetings_negative": "Jsem zpátky, ale nevypadá to, že by si pro mě udělal [str(i18n_data.want_number)] [str(i18n_data.want_item)], jak jsem tě žádal. No dobře, možná někdo v naší vesnici pro ně najde využití."
+						"return_greetings_positive": "Jsem zpátky! Vypadá to že si pro mě udělal [str(i18n_data.want_number)]x [str(i18n_data.want_item)] o které jsem tě žádal. Pořád máš zájem je směnit za [str(i18n_data.reward_number)]x  [str(i18n_data.reward_item)]? Ujišťuji tě, jsou mnohem užitečnější v nošení věcí, než jakýkoliv normální člověk!",
+						"return_greetings_negative": "Jsem zpátky, ale nevypadá to, že by si pro mě udělal [str(i18n_data.want_number)] [str(i18n_data.want_item)], o které jsem tě žádal. No dobře, možná někdo v naší vesnici pro ně najde využití."
 					}
 				},
 				"goblin_war": {
@@ -2984,7 +2984,7 @@
 						"dialog_tree_info": {
 							"dialog_nodes": {
 								"erdene_appears": {
-									"choice_000": "Vůbec!",
+									"choice_000": "V žádném případě!",
 									"choice_001": "No... ano.",
 									"bulletin_message": {
 										"000": "Bojíte se, udatní měšťané? Ogo tak-zvaný-šéf tu brzy bude. Pro vás."
@@ -2994,7 +2994,7 @@
 								},
 								"erdenes_help": {
 									"choice_000": "Ehm... dobře?",
-									"choice_001": "Jsem Zmaten. Pardon.",
+									"choice_001": "Zmatený. Pardon.",
 									"bulletin_message": {
 										"000": "Půjčit si sílu, abys povstal, znamená, padnout, když síla selže. Ogovi nepropůjčuje sílu jeho  tak-zvaný-věštěc, ale dítě které ukradl."
 									},
@@ -3006,18 +3006,18 @@
 									"choice_001": "To zní zlověstně.",
 									"bulletin_message": {
 										"000": "Já? Já jsem ta co sleduje. Vás. Jeho. Pro hvězdu. Pro osud.",
-										"001": "Já? Já patřím k Rudé Peci. Bylo bychom vaši zachránci, ale váš Cid tvrdě vyjdnával ve váš prospěch. Takže teď sledujeme. A čekáme na ten den kdy vyjde vaše hvězda.",
-										"002": "Já! Mám dojem, že si to zasloužíte. Jsem žhavík v kovářské výhni, jiskra ve vzduchu. Sleduji, abych věděla, kdy je ten správný čas, pro to aby nás pohltil oheň.",
-										"003": "Já? Dnes, nezáleží na tom. Zítra, pokud stále budete naživu, my můžete říkat Erdene, z Rudé Pece."
+										"001": "Já? Já patřím k Rudé Peci. Byli bychom vašimi zachránci, ale váš Cid tvrdě vyjednával ve váš prospěch. Takže teď sledujeme. A čekáme na ten den kdy vyjde vaše hvězda.",
+										"002": "Já! Mám dojem, že jste si zasloužili svůj drobeček. Jsem žhavík v kovářské výhni, jiskra ve vzduchu. Sleduji, abych věděla, kdy je ten správný čas, pro to aby nás pohltil oheň.",
+										"003": "Já? Dnes, na tom nesejde. Zítra, pokud budete stále naživu, my můžete říkat Erdene, z Rudé Pece."
 									},
-									"bulletin_title": "Usmála se, až se jí zablýskly zuby.",
+									"bulletin_title": "Usmála se, se zábleskem v zubech.",
 									"dialog_title": "???"
 								},
 								"accept_offer": {
-									"choice_000": "Počkat! Kdo jsi?",
+									"choice_000": "Počkej! Kdo jsi?",
 									"choice_001": "Hmm.",
 									"bulletin_message": {
-										"000": "Bojuj statečně, městečko. Osud je bezvýznamný. Ale kdyby tomu tak nebylo, váš by byl, abyste povstali."
+										"000": "Bojuj tvrdě, malé městečko. Osud je bezvýznamný. Ale kdyby tomu tak nebylo, váš by byl, abyste povstali."
 									},
 									"bulletin_title": "Rozhodně přikyvuje hlavou",
 									"dialog_title": "???"
@@ -3026,14 +3026,14 @@
 									"choice_000": "To zní dobře!",
 									"choice_001": "Ne. Díky.",
 									"bulletin_message": {
-										"000": "Na tomto papíře, najdete ukolébavku, kterou ukonejšíte duši Hory. Najděte ukradenou flétnu. Přikaž svému dřevařovi ať ji nastaví na tuto melodii. Postav ji do cesty Ogovu velkému zlobrovi a sleduj jak namyšlenost dojde svojí spravedlivé odměny."
+										"000": "Na tomto papíře, naleznete ukolébavku, kterou utišíte duši Hory. Najděte ukradenou flétnu. Přikaž svému dřevařovi aby byla na tuto melodii. Postav ji do cesty Ogovu velkému zlobrovi, a sleduj jak namyšlenost dojde svojí spravedlivé odměny."
 									},
 									"bulletin_title": "Nabízí cár papíru",
 									"dialog_title": "???"
 								},
 								"departure": {
 									"bulletin_message": {
-										"000": "Tak tedy. Bojuj statečně, městečko."
+										"000": "Dobrá tedy. Bojuj tvrdě, malé městečko."
 									},
 									"bulletin_title": "Krčí rameny",
 									"dialog_title": "???"
