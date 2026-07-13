@@ -5756,7 +5756,7 @@
 													},
 													"reject2": {
 														"bulletin_message": {
-															"00": "\"Very well, I suppose things of the Rabbit stay of the Rabbit after all.\"<br><br>\"I shall take my leave for now. I still count you as dear friends and allies, so I will be back in touch before long! Farewell!\""
+															"00": "\"Nuže dobrá, myslím, že věci Králiků zůstanou nakonec Králičí.\"<br><br>\"Měl bych se pro teď pobrat na odchod. Pořád vás počítám jako drahé přátele a spojence, takže zůstaneme i nadále v kontaktu ! Sbohem!\""
 														},
 														"choice_000": "Sbohem!"
 													},
@@ -5764,25 +5764,25 @@
 														"bulletin_message": {
 															"00": "\"During our Cycle, we Lapine studied its magic deeply. We began to understand the nature of the magical <i>Divine Harmonics</i> produced from the Cycle and which grant our uplifted form. We also learned that Hearth exudes magic, the manipulation of which became known as <i>Geomancy</i>\".<br><br>\"We learned to harness this Hearth magic, our Geomancers attuning it through amberstones such that it keeps us from devolving back to the simple fuzzy creatures you see hopping around the surface now.\""
 														},
-														"choice_000": "But it didn't work on everyone?"
+														"choice_000": "Ale nefungovalo to na všechny?"
 													},
 													"story3b": {
 														"bulletin_message": {
 															"00": "\"Still, our largest cities were using up magic energy faster than Hearth could produce it, forcing us to scatter. At the same time, radical factions of Orc were hostile to us, forcing us to consolidate. We were at an impasse.\"<br><br>\"So, my ancestors made the drastic choice to go underground, taking the name Amberstone and building tunnels and settlements along Leylines mapped by Lapine Geomancers. These seams of intense magic energy let them survive underground indefinitely.\""
 														},
-														"choice_000": "Sounds dull..."
+														"choice_000": "To zní nudně..."
 													},
 													"accept": {
 														"bulletin_message": {
-															"00": "\"Splendid! Take all the time you need in choosing, the selection is important indeed.\"<br><br>\"As I said, they will be gone for around seven days, so don't send anyone you can't bear to be without.\""
+															"00": "\"Bájeečné! Dejte si tolik času, kolik potřebujete pro vybrání, volba je vskutku důležitá.\"<br><br>\"Jak jsem říkal, budou pryč kolem sedm dní, tak neposílejte nikoho, bez koho se nemůžete obejít.\""
 														},
-														"choice_000": "Let's see..."
+														"choice_000": "Podíváme se..."
 													},
 													"story4": {
 														"bulletin_message": {
-															"00": "\"You... are not wrong, friend. There is more to the story, but perhaps the time is not yet right.\""
+															"00": "\"Vy... se nemýlíte, příteli. Je tady toho do příbehu více, ale možná čas ještě nenadešel.\""
 														},
-														"choice_000": "Aw, okay"
+														"choice_000": "Ou, oukej"
 													}
 												}
 											}
@@ -5809,7 +5809,7 @@
 												"dialog_nodes": {
 													"msg1": {
 														"bulletin_message": {
-															"00": "The visitor nods in thanks and bounds away, baskets in arm. <br><br>Not long after, a grove of berry bushes is discovered not far from town, a small amber ribbon tied to each.<br><br><i><font size=-1>[The visitors seem to trust you more]</font></i>"
+															"00": "Návštěvník na znamení poděkování přikývne a odskakuje pryč, s košíky v ruce. <br><br>Né tak dlouho potom, je nedaleko města objeven hájek bobulových keřů, malá jantarová mašlička připnutá ke každému.<br><br><i><font size=-1>[Zdá se, že ti návštevníci důvěřují více]</font></i>"
 														},
 														"bulletin_title": "Podivné Obchodování",
 														"dialog_title": "Podivné Obchodování",
@@ -5823,11 +5823,11 @@
 												"dialog_nodes": {
 													"msg1": {
 														"bulletin_message": {
-															"00": "The visitor nods in thanks and bounds away, baskets in arm.<br><br>Not long after, a grove of unusual glowing plants is discovered not far from town, a small amber ribbon tied to one.<br><br><i><font size=-1>[The visitors seem to trust you more]</font></i>"
+															"00": "Návštěvník na znamení poděkování přikývne a odskakuje pryč, s košíky v ruce. <br><br>Né tak dlouho potom, je nedaleko města objeven hájek neobyčejně svítivých rostlin, s malou jantarovou mašličkou připnutou k jedné.<br><br><i><font size=-1>[Zdá se, že ti návštevníci důvěřují více]</font></i>"
 														},
 														"bulletin_title": "Podivné Obchodování",
 														"dialog_title": "Podivné Obchodování",
-														"choice_000": "Odd."
+														"choice_000": "Divné."
 													}
 												}
 											}
@@ -5837,7 +5837,7 @@
 												"dialog_nodes": {
 													"simple_message": {
 														"bulletin_message": {
-															"00": "The visitor nods, dropping a few small pouches of gold dust into your hand as payment before bounding away, baskets in arm.<br><br><i><font size=-1>[The visitors seem to trust you more]</font></i>"
+															"00": "Návštěvník přikývne, pouštějíc pár malých váčků zlatého prášku do tvé ruky jako platbu před odkočením pryč, s košíky v rukách.<br><br><i><font size=-1>[Zdá se, že ti návštevníci důvěřují více]</font></i>"
 														},
 														"bulletin_title": "Podivné Obchodování",
 														"dialog_title": "Podivné Obchodování",
@@ -5851,7 +5851,7 @@
 												"dialog_nodes": {
 													"simple_message": {
 														"bulletin_message": {
-															"00": "The visitor nods, handing you a pouch. \"For vigor.\"<br><br>They bound away, baskets in arm.<br><br><i><font size=-1>[The visitors seem to trust you more]</font></i>"
+															"00": "Návštěvník přikývne, předávajíc ti váček. \"Za ráznost.\"<br><br>Odskakují pryč, s košíky v rukách.<br><br><i><font size=-1>[Zdá se, že ti návštevníci důvěřují více]</font></i>"
 														},
 														"bulletin_title": "Podivné Obchodování",
 														"dialog_title": "Podivné Obchodování",
@@ -5865,7 +5865,7 @@
 												"dialog_nodes": {
 													"simple_message": {
 														"bulletin_message": {
-															"00": "The visitor nods and takes their leave.<br><br>Shortly after, you discover a basket brimming with flower petals and seeds by your banner.<br><br><i><font size=-1>[The visitors seem to trust you more]</font></i>"
+															"00": "Návštěvník přikývne a pobírá se k odchodu.<br><br>Krátce poté, objevíš košík přetékající s okvětními lístky a semínky u tvého praporu.<br><br><i><font size=-1>[Zdá se, že ti návštevníci důvěřují více]</font></i>"
 														},
 														"bulletin_title": "Podivné Obchodování",
 														"dialog_title": "Podivné Obchodování",
@@ -5879,22 +5879,22 @@
 												"dialog_nodes": {
 													"msg2": {
 														"bulletin_message": {
-															"00": "\"I see. May your harvests be ever more bountiful.\"<br><br>The visitor takes their leave, clearly disappointed.",
-															"01": "\"Oh, perhaps another time then...\"<br><br>The visitor wanders carefully away.",
-															"02": "The visitor's shoulders droop. \"Oh. Um, okay, bye!\" they say hastily, navigating their way quickly past  the edge of town."
+															"00": "\"Chápu. Ať budou vaše sklizně ještě více bohaté.\"<br><br>Návštěvník se pobere k odchodu, očividně sklamaný.",
+															"01": "\"Och, tak tedy možná jindy...\"<br><br>Návštěvník kráčí opatrně pryč.",
+															"02": "Návštěvníkovy ramena povadnou. \"Och. Um, oukej, zatím!\" řeknou spěšně, míříc si to rychle za hranici města."
 														},
 														"bulletin_title": "Podivné Obchodování",
 														"dialog_title": "Podivné Obchodování",
-														"choice_000": "Huh. That was odd..."
+														"choice_000": "Huh. To bylo divné..."
 													},
 													"msg1": {
 														"bulletin_message": {
-															"00": "A small, hooded figure approaches, meekly. \"I have heard of your vegetables,\" she says. \"Allow me to take some, and by my honor, it will be a worthwhile trade.\"",
-															"01": "\"You have vegetables, yes? Perhaps an exchange in kind?\" says a strange, small hooded figure. It seems she wants to trade for vegetables?",
-															"02": "A hooded figure appears, silently and seemingly out of nowhere. \"Greetings. I have taken a risk for the chance at your garden's bounty. Perhaps a trade?\" It seems she means that she wants some vegetables...",
-															"03": "A small, hooded figure approaches, meekly. \"I have heard of your vegetables,\" he says. \"Allow me to take some, and by my honor, it will be a worthwhile trade.\"",
-															"04": "\"You have vegetables, yes? Perhaps an exchange in kind?\" says a strange, small hooded figure. It seems he wants to trade for vegetables?",
-															"05": "A hooded figure appears, silently and seemingly out of nowhere. \"Greetings. I have taken a risk for the chance at your garden's bounty. Perhaps a trade?\" It seems he means that he wants some vegetables..."
+															"00": "Malá postava s kápí přichází, pokorně. \"Slyšela jsem o vaší zelenině,\" říká. \"Dovolte mi si nějakou vzít, a s mou ctí, bude to výhodný obchod.\"",
+															"01": "\"Máte zeleninu, jo? Možná naturální výměna?\" říká malá zvláštní postava s kápí. Vypadá to tak, že ona chce obchodovat za zeleninu?",
+															"02": "Přichází postava s kápí, tiše a zdánlivě odnikud. \"Zdravím. Vzala jsem to riziko pro šanci na kořist z vaší zahrady. Možná výměna?\" Vypadá to tak, že ona chce nějakou zeleninu...",
+															"03": "Malá postava s kápí přichází, pokorně. \"Slyšel jsem o vaší zelenině,\" říká. \"Dovolte mi si nějakou vzít, a s mou ctí, bude to výhodný obchod.\"",
+															"04": "\"Máte zeleninu, jo? Možná naturální výměna?\" říká zvláštní postava s kápí. Vypadá to, že chce obchodovat za zeleninu?",
+															"05": "Přichází postava s kápí, tiše a zdánlivě odnikud. \"Zdravím. Vzala jsem to riziko pro šanci na kořist z vaší zahrady. Možná výměna?\" Vypadá to tak, že on chce nějakou zeleninu..."
 														},
 														"bulletin_title": "Podivné Obchodování",
 														"dialog_title": "Podivné Obchodování",
@@ -5932,7 +5932,7 @@
 													},
 													"msg0": {
 														"bulletin_message": {
-															"00": "A hooded figure approaches, hesitating for a moment before finally removing their hood..."
+															"00": "Postava s kápí přichází, chvilku zaváhá předtím, než si kápi konečně sundá..."
 														},
 														"bulletin_title": "Další Nápadná Postava s Kápí",
 														"dialog_title": "Postava s Kápí",
@@ -5940,7 +5940,7 @@
 													},
 													"msg1": {
 														"bulletin_message": {
-															"00": "Two long ears spill out, the rabbit-person shaking their head a little as they straighten out.<br><br>\"Honorable greetings. I am Sasha Lightfoot of the twenty-third warren of Amberstone. I apologize for the deception, but it was deemed necessary.\""
+															"00": "Dvě dlouhé ouška vytrčí ven, králičko-člověk trošku potřese hlavou jak se narovnávají venku.<br><br>\"Ctihodně zdravím. Jsem Saša Lehkonoha z dvacáte-třetí nory Jantaru. Omlouvám se za klamání, ale bylo to považováno za nezbytné.\""
 														},
 														"bulletin_title": "Další Nápadná Postava s Kápí",
 														"dialog_title": "Postava s Kápí",
@@ -5955,7 +5955,7 @@
 												"dialog_nodes": {
 													"msg4": {
 														"bulletin_message": {
-															"00": "For the present, I must return home, but I shall return in the coming days. Farewell, humans."
+															"00": "Pro přítomnost, se musím vrátit domů, ale měl bych se vrátit v následujících dnech. Sbohem, lidé."
 														},
 														"bulletin_title": "Ahoj, Cizinče",
 														"dialog_title": "Saša Lehkonoha",
@@ -5978,7 +5978,7 @@
 													},
 													"msg0": {
 														"bulletin_message": {
-															"00": "A hooded figure approaches, hesitating for a moment before finally removing their hood..."
+															"00": "Postava s kápí přichází, chvilku zaváhá předtím, než si kápi konečně sundá..."
 														},
 														"bulletin_title": "Další Nápadná Postava s Kápí",
 														"dialog_title": "Postava s Kápí",
@@ -5986,7 +5986,7 @@
 													},
 													"msg1": {
 														"bulletin_message": {
-															"00": "Two long ears spill out, the rabbit-person shaking their head a little as they straighten out.<br><br>\"Honorable greetings. I am Sasha Lightfoot of the twenty-third warren of Amberstone. I apologize for the deception, but my kind has been poorly received before, and we had to ensure our own safety.\""
+															"00": "Dvě dlouhé ouška vytrčí ven, králičko-člověk trošku potřese hlavou jak se narovnávají venku.<br><br>\"Ctihodně zdravím. Jsem Saša Lehkonoha z dvacáte-třetí nory Jantaru. Omlouvám se za klamání, ale můj druh byl brán předtím velice uboze, a tak jsem se museli ujistit pro naše vlastní bezpečí.\""
 														},
 														"bulletin_title": "Další Nápadná Postava s Kápí",
 														"dialog_title": "Postava s Kápí",
@@ -6023,7 +6023,7 @@
 														"bulletin_message": {
 															"00": "\"Thank you, I'm sure the little Snake ones will find these quite satisfactory. May our friendship ever blossom!.\" He offers you glittering bags as payment.<br><br><font size=-1><i>[Rabbit reputation increased]</i></font>"
 														},
-														"bulletin_title": "Shook Down",
+														"bulletin_title": "Setřesení",
 														"choice_000": "Děkujeme!"
 													}
 												}
@@ -6036,7 +6036,7 @@
 														"bulletin_message": {
 															"00": "\"Thank you. I hope we are not injured, but fortune favors the prepared. May our friendship continue to take root!\" He hands you some glittering bags as compensation.<br><br><font size=-1><i>[Rabbit reputation increased]</i></font>"
 														},
-														"bulletin_title": "Shook Down",
+														"bulletin_title": "Setřesení",
 														"choice_000": "Hodně štěstí"
 													}
 												}
@@ -6049,28 +6049,28 @@
 														"bulletin_message": {
 															"00": "\"Then we shall give them a fight! Please send the health tonics as soon as they are ready.\"<br><br>\"Let's say eight of them, for good luck?\" he says, smiling, as if you had any idea what that meant."
 														},
-														"bulletin_title": "Shook Down",
+														"bulletin_title": "Setřesení",
 														"choice_000": "Will do!"
 													},
 													"msg2_c": {
 														"bulletin_message": {
 															"00": "Sasha nods. \"A burrow must see to its own. We have faced worse, we shall persevere.\" They leave, returning to their hidden home."
 														},
-														"bulletin_title": "Shook Down",
+														"bulletin_title": "Setřesení",
 														"choice_000": "OK"
 													},
 													"msg2_a": {
 														"bulletin_message": {
 															"00": "\"Excellent! Please let me know as soon as the doors are ready!\""
 														},
-														"bulletin_title": "Shook Down",
+														"bulletin_title": "Setřesení",
 														"choice_000": "OK"
 													},
 													"msg1": {
 														"bulletin_message": {
 															"00": "\"Some goblins somehow found an entrance to our hovel and are asking for... a bunch of wooden doors? We have neither wood nor carpenter on paw, so could you perhaps craft some for us?<br><br>Alternatively, we're not afraid to fight them off, but we lack the means to heal our injured afterwards.\""
 														},
-														"bulletin_title": "Shook Down",
+														"bulletin_title": "Setřesení",
 														"choice_000": "Vyrobíme nějaké dveře!",
 														"choice_001": "Umícháme nějaké lektvary",
 														"choice_002": "Promiň, nemůžeme pomoct"
@@ -6079,14 +6079,14 @@
 											}
 										},
 										"11_shook_down_quest_a": {
-											"title": "Shook Down: Make some Wooden Doors",
-											"dialog_title": "Shook Down: Make some Wooden Doors",
-											"text": "We must make some doors for Clan Amberstone."
+											"title": "Setřesení: Udělání pár Dřevěných Dveří",
+											"dialog_title": "Setřesení: Udělání pár Dřevěných Dveří",
+											"text": "Musíme udělat nějaké dveře pro Klan Jantarového Kamene."
 										},
 										"11_shook_down_quest_b": {
-											"title": "Shook Down: Make some Health Tonics",
-											"dialog_title": "Shook Down: Make Health Tonics",
-											"text": "We must make some healing potions for Clan Amberstone."
+											"title": "Setřesení: Udělání pár Léčivých Toniků",
+											"dialog_title": "Setřesení: Udělání Léčivých Toniků",
+											"text": "Musíme udělat pár léčivých lektvarů pro Klan Jantarového Kamene."
 										}
 									},
 									"12_heirbloom": {
@@ -6095,10 +6095,10 @@
 												"dialog_nodes": {
 													"simple_message": {
 														"bulletin_message": {
-															"000": "\"Wonderful! Thank you! Here, take this, as payment.\"<br><br><font size=-1><i>[Rabbit reputation increased]</i></font>"
+															"000": "\"Báječné! Děkuju! Tady, vem si tohle, jako platbu.\"<br><br><font size=-1><i>[Králičí reputace zvýšena]</i></font>"
 														},
 														"bulletin_title": "Historický Růst",
-														"dialog_title": "The Rabbit hops in excitement",
+														"dialog_title": "Králík hopsá radostí",
 														"choice_000": "Tady máš!"
 													}
 												}
@@ -6109,17 +6109,17 @@
 												"dialog_nodes": {
 													"msg2": {
 														"bulletin_message": {
-															"00": "\"Of course the green part! We'd never eat the disgusting red fruit part, it's all... squishy. Keep those and do with them what you wish,\" says Sasha, disgusted."
+															"00": "\"Samozřejmě že zelená část! Nikdy bychom nejedli tu odpornou červenou ovocnou část, je celá... mačkavá. Tyhle si nech a dělej si s nima jak si přeješ\" říká Saša, znechuceně."
 														},
 														"bulletin_title": "Historický Růst",
-														"choice_000": "Uh, alright then..."
+														"choice_000": "Uf, dobrá tedy..."
 													},
 													"msg1": {
 														"bulletin_message": {
-															"00": "\"I hope the Heirbloom is growing nicely. Let us know when some of their delicious, green stalks are ready for me to take back to my people!\""
+															"00": "\"Doufám, že Dědicokvět krásně roste. Dejte nám vědět, až budou některé z jejich chutných zelených stébel připravené pro mě vzít je zpátky mému lidu!\""
 														},
 														"bulletin_title": "Historický Růst",
-														"choice_000": "Will do!",
+														"choice_000": "Uděláme tak!",
 														"choice_001": "Počkat, zelená část?"
 													}
 												}
@@ -6130,10 +6130,10 @@
 												"dialog_nodes": {
 													"msg1": {
 														"bulletin_message": {
-															"00": "\"Thank you! My respect for you humans continues to grow. Farewell for now!\"<br><br>He wanders off, mumbling to himself, \"Mmm... I can't imagine my warren will be upset if one or two are missing from the bundle...\"<br><br><font size=-1><i>[Rabbit reputation increased]</i></font>"
+															"00": "\"Děkuju! Můj respekt k vám lidem pokračuje v růstu. Sbohem pro teď!\"<br><br>Kráčí pryč, mumlajíc si sám pro sebe \"Mmm... Nemůžu si představit moji noru být na mě naštvaný, pokud budou z balíku jedna či dvě chybět...\"<br><br><font size=-1><i>[Králičí reputace zvýšena]</i></font>"
 														},
-														"bulletin_title": "Heirbloom Donation",
-														"dialog_title": "Heirbloom Donation",
+														"bulletin_title": "Darování Dědicokvětu",
+														"dialog_title": "Darování Dědicokvětu",
 														"choice_000": "Sbohem!"
 													}
 												}
@@ -6165,34 +6165,34 @@
 												"dialog_nodes": {
 													"msg2": {
 														"bulletin_message": {
-															"000": "\"Awww... alright, I might come back later.\" They wander off, clearly pouting.",
-															"001": "\"I see, sorry to bother you. Maybe send word if more sprouts up?\""
+															"000": "\"Awww... v pořádku, můžu přijít později.\" Kráčejí pryč, očividně našpulený.",
+															"001": "\"Chápu, promiň za obtěžování. Možná řekni, pokud ho vyraší více ?\""
 														},
 														"bulletin_title": "Historický Růst",
 														"choice_000": "Šťastnou cestu!"
 													},
 													"msg1": {
 														"bulletin_message": {
-															"000": "A Rabbit approaches, cautious but friendly. \"Hello, um, I heard Sasha got that Heirbloom from you. Could I trade you for some?\"",
+															"000": "Přichází Králík, obezřetně ale přátelsky. \"Ahoj, um, Slyšel jsem, že Saša od vás dostal ten Dědicokvět. Mohl bych s vámi za nějaký obchodovat?\"",
 															"001": "A Rabbit finds her way into town, on the lookout for anything nasty. \"Dear humans, could I perhaps trade you for some Heirbloom? It's ever so tasty, and Sasha told us we should come get to know you better...\""
 														},
 														"bulletin_title": "Historický Růst",
-														"dialog_title": "A Rabbit from Sasha's Warren",
+														"dialog_title": "Králík ze Sašovy Nory",
 														"choice_000": "Jistě!",
-														"choice_001": "Sorry, fresh out for now"
+														"choice_001": "Promiň, pro teď došel"
 													}
 												}
 											}
 										},
 										"12_heirbloom_quest": {
-											"title": "Heirbloom Donation",
-											"dialog_title": "Heirbloom Donation",
-											"text": "Let's harvest some Heirbloom!"
+											"title": "Darování Dědicokvětu",
+											"dialog_title": "Darování Dědicokvětu",
+											"text": "Sesbírejme nějaký Dědicokvět!"
 										},
 										"12_heirbloom_quest_2": {
-											"title": "Heirbloom Stalks",
-											"dialog_title": "Heirbloom Stalks",
-											"text": "Let's trade some Heirbloom!"
+											"title": "Stébla Dědicokvětu",
+											"dialog_title": "Stébla Dědicokvětu",
+											"text": "Směňme nějaký Dědicokvět!"
 										}
 									},
 									"15_crystal_charging": {
@@ -6221,7 +6221,7 @@
 													},
 													"msg2": {
 														"bulletin_message": {
-															"00": "\"Charging them is simple - just place them anywhere in sunlight or moonlight, and they will gather energy on their own.\"<br><br>\"The... only issue is that creatures tend to be attracted to the Amberstones at night. So, either prepare to defend against them, or be sure to take the crystals down before nightfall.\""
+															"00": "\"Jejich nabíjení je jednoduché - prostě je jenom umístěte kamkoliv na sluneční, nebo měsíční světlo, a samy nasbírají energii.\"<br><br>\"Jediná... potíž je, že nestvůry mají tendenci být přitahované ke Jantarovým Kamenům v noci. Takže, buď se připravte se před nima bránit, anebo se ujistěte krystaly schovat ještě před setměním.\""
 														},
 														"bulletin_title": "Nabíjení Krystalu",
 														"choice_000": "Můžeme to udělat!",
@@ -6339,7 +6339,7 @@
 														},
 														"bulletin_title": "Saša Vypadá Potěšen",
 														"dialog_title": "Saša Vypadá Potěšen",
-														"choice_000": "We'll do our part!"
+														"choice_000": "Uděláme naši část!"
 													}
 												}
 											}
@@ -6367,7 +6367,7 @@
 														},
 														"bulletin_title": "Saša si Kryje Jeho Uši",
 														"dialog_title": "Saša si Kryje Jeho Uši",
-														"choice_000": "[Hit the Button on the Arbalest!]"
+														"choice_000": "[Zmáčkněte Tlačítko na Balistě!]"
 													}
 												}
 											}
@@ -6560,7 +6560,7 @@
 											}
 										},
 										"57_grant_bun_geomancer": {
-											"notification_title": "A Rabbit Geomancy Master joins your town!"
+											"notification_title": "Králičí Mistr Geomancie se přidává ke tvému městu!"
 										},
 										"50_titan_weapon_quest": {
 											"title": "Titánský Závazek",
@@ -7143,7 +7143,7 @@
 					"description": "Navyšující odvaha když brání město dokud nejsou napadeni"
 				},
 				"town_alert_banner_buff": {
-					"display_name": "Posílení Baneru Městské Pohotovosti",
+					"display_name": "Posílení Praporu Městské Pohotovosti",
 					"description": "Vyzařuje navyšující posílení odvahy každých 5 minut"
 				}
 			},
@@ -10864,8 +10864,8 @@
 				"display_name": "Pojo",
 				"description": "Plump and tasty wild fowl.  It eats a little bit of everything.",
 				"poyo_egg": {
-					"display_name": "Fertilized Poyo Egg",
-					"description": "Is it hatching yet?"
+					"display_name": "Oplodněné Pojí Vajíčko",
+					"description": "Už se to líhne?"
 				},
 				"young": {
 					"display_name": "Pojo Kuřátko",
@@ -10874,8 +10874,8 @@
 				"species": "pojo",
 				"egg": {
 					"ostrich_egg": {
-						"display_name": "Fertilized Ostrich Egg",
-						"description": "Is it hatching yet?"
+						"display_name": "Oplodněné Pštrosí Vejce",
+						"description": "Už se to líhne?"
 					}
 				}
 			},
@@ -11492,7 +11492,7 @@
 				}
 			},
 			"heirbloom_crop": {
-				"display_name": "Heirbloom",
+				"display_name": "Dědicokvět",
 				"description": "The woody stems are apparently an Amberstone delicacy?",
 				"growth_stage": {
 					"001": {
@@ -11588,7 +11588,7 @@
 			},
 			"stone_brazier": {
 				"stone_brazier_ghost": {
-					"display_name": "Stone Brazier",
+					"display_name": "Kamenné Ohniště",
 					"description": "Poskytuje teplo a pohodlný oheň v noci"
 				}
 			},
@@ -11607,7 +11607,7 @@
 			"stone_wall_lantern": {
 				"stone_wall_lantern_ghost": {
 					"display_name": "Kamenná Nástěnná Lampa",
-					"description": "Easily attached to walls"
+					"description": "Lehce připojitelná ke zdi"
 				}
 			},
 			"tapestry_wall": {
@@ -11619,19 +11619,19 @@
 			"throw_rug": {
 				"throw_rug_ghost": {
 					"display_name": "Dekorativní Koberec",
-					"description": "Brightens up that old dusty floor."
+					"description": "Rozsvětluje tu starou zaprášenou podlahu."
 				}
 			},
 			"tower_brazier": {
 				"tower_brazier_ghost": {
-					"display_name": "Tower Brazier",
-					"description": "Provides warm and cozy fire at night"
+					"display_name": "Věžové Ohniště",
+					"description": "Poskytuje teplo a pohodlný oheň v noci"
 				}
 			},
 			"wall_crest": {
 				"wall_crest_ghost": {
-					"display_name": "Wall Crest",
-					"description": "Just for show."
+					"display_name": "Nástěnný Hřeben",
+					"description": "Jenom na ukázku"
 				}
 			},
 			"window_box_brightbell": {
@@ -11700,13 +11700,13 @@
 			"wooden_wall_lantern": {
 				"wooden_wall_lantern_ghost": {
 					"display_name": "Dřevěná Nástěnná Lampa",
-					"description": "Easily attached to walls"
+					"description": "Lehce připojitelná ke zdi"
 				}
 			},
 			"wooden_wall_lantern_fine": {
 				"wooden_wall_lantern_fine_ghost": {
 					"display_name": "Hezká Nástěnná Lampa",
-					"description": "Easily attached to walls"
+					"description": "Lehce připojitelná ke zdi"
 				}
 			},
 			"clay_lamp": {
@@ -11865,7 +11865,7 @@
 					"description": "A monument to your town's military might"
 				},
 				"brazier_large_ghost": {
-					"display_name": "Large Brazier",
+					"display_name": "Velké Ohniště",
 					"description": "A beacon of light to protect your town."
 				},
 				"window_frame_xlarge": {
@@ -12166,7 +12166,7 @@
 			"wooden_wall_lantern_red": {
 				"wooden_wall_lantern_fine_ghost": {
 					"display_name": "Dřevěná Nástěnná Lampa - v Rudé",
-					"description": "Easily attached to walls"
+					"description": "Lehce připojitelná ke zdi"
 				}
 			},
 			"window_box_brightbell_fine": {
@@ -12195,7 +12195,7 @@
 			},
 			"ornate_wooden_wall_lantern": {
 				"ornate_wooden_wall_lantern_ghost": {
-					"description": "Easily attached to walls",
+					"description": "Lehce připojitelná ke zdi",
 					"display_name": "Zdobená Dřevěná Nástěnná Lampa"
 				}
 			},
@@ -12350,13 +12350,13 @@
 			"candle_holder_floor_iron": {
 				"candle_holder_floor_iron_ghost": {
 					"display_name": "Železný Dlažební Držák Svíček",
-					"description": "This cold metal frame holds a warm source of light."
+					"description": "Tenhle chladný kovový rám drží teplý zdroj světla."
 				}
 			},
 			"window_box_stone_violet": {
 				"window_box_stone_violet_ghost": {
-					"display_name": "Violet Planter",
-					"description": "A tidy home for some lovely flowers."
+					"display_name": "Fialkový Květináč",
+					"description": "Uklizený domov pro pár nádherných rostlin."
 				}
 			}
 		},
@@ -12382,7 +12382,7 @@
 				},
 				"corn_basket": {
 					"display_name": "Košík Kukuřice",
-					"description": "Sweet and crunchy."
+					"description": "Sladká a křupavá."
 				},
 				"corn_serving": {
 					"display_name": "Corn Cob",
@@ -12603,7 +12603,7 @@
 			},
 			"rotten_basket": {
 				"display_name": "Shnilý Košík Jídla",
-				"description": "So rotten that it's lost all form and function."
+				"description": "Tak shnilý, že stratil veškerou svou podobu a funkci."
 			},
 			"rotten_egg": {
 				"display_name": "Shnilé Vejce",
@@ -12611,7 +12611,7 @@
 			},
 			"rotten_jerky": {
 				"display_name": "Shnilé Sušené Maso",
-				"description": "Even jerky will rot eventually. It's true"
+				"description": "I sušené maso očividně shnije. Je to pravda"
 			},
 			"mutton": {
 				"display_name": "Syrové Skopové",
@@ -12628,12 +12628,12 @@
 			},
 			"donation_box": {
 				"donation_box": {
-					"display_name": "Food Donation Box",
-					"description": "Craft to show generosity and piety"
+					"display_name": "Bedna na Darování Potravin",
+					"description": "Vyrob pro ukázání štědrosti a zbožnosti"
 				},
 				"donation_box_serving": {
-					"display_name": "Donation box serving",
-					"description": "A piece of plenty"
+					"display_name": "Porce z Darovací bedny",
+					"description": "Kousek z mnoha"
 				}
 			},
 			"kibble": {
@@ -12643,11 +12643,11 @@
 				}
 			},
 			"pork": {
-				"display_name": "Raw Pork",
-				"description": "Raw meat from a boar"
+				"display_name": "Syrové Vepřové",
+				"description": "Syrové maso z divočáka"
 			},
 			"rotten_bug_meat": {
-				"description": "Bug meat goes bad just like other meat",
+				"description": "Broučí maso se kazí stejně jako kterékoliv jiné maso",
 				"display_name": "Shnilé Broučí Maso"
 			},
 			"roast_pork": {
@@ -12669,10 +12669,10 @@
 			},
 			"varanus_meat": {
 				"display_name": "Varanusí Maso",
-				"description": "Tastes more like Poyo than Poyo does."
+				"description": "Chutná více jako Pojo, jako Pojí samotné."
 			},
 			"rotten_varanus_meat": {
-				"description": "It actually smells better now",
+				"description": "Vlastně, teďka i voní lépe",
 				"display_name": "Shnilé Varanusí Maso"
 			},
 			"roast_varanus": {
@@ -12686,8 +12686,8 @@
 			},
 			"roast_zilla": {
 				"roast_zilla": {
-					"display_name": "Chunk of Roast Zilla",
-					"description": "Transformatively roasted to perfection"
+					"display_name": "Kus Pečené Zilly",
+					"description": "Transformativně opečeno k dokonalosti"
 				},
 				"roast_zilla_serving": {
 					"display_name": "Serving of Roast Zilla"
@@ -12695,7 +12695,7 @@
 			},
 			"rotten_pork_meat": {
 				"display_name": "Shnilé Vepřové Maso",
-				"description": "This has definitely gone bad"
+				"description": "Tohle se určitě pokazilo"
 			},
 			"rotten_poultry_large_meat": {
 				"display_name": "Shnilé Drůbeží Maso",
@@ -12720,7 +12720,7 @@
 			},
 			"sausage": {
 				"display_name": "Syrová Klobása",
-				"description": "Raw meat from.. everywhere else"
+				"description": "Syrové maso z.. kdekoli možně"
 			},
 			"roast_sausage": {
 				"roast_sausage": {
@@ -12837,12 +12837,12 @@
 			},
 			"heirbloom": {
 				"heirbloom_basket": {
-					"display_name": "Heirbloom Fruit",
+					"display_name": "Ovoce Dědicokvětu",
 					"description": "Heirbloom Vegetable? It seems the stalks are an Amberstone delicacy."
 				},
 				"heirbloom_serving": {
-					"display_name": "Heirbloom Fruit",
-					"description": "Juicy! Those rabbits don't know what they're missing!"
+					"display_name": "Ovoce Dědicokvětu",
+					"description": "Šťavnaté! Ti králici ani nevědí o co přichází!"
 				}
 			},
 			"wolf_jerky": {
@@ -12903,19 +12903,19 @@
 		"furniture": {
 			"arch_backed_chair": {
 				"arch_backed_chair_ghost": {
-					"display_name": "Cathedral-Arch Chair",
-					"description": "Classy like piety."
+					"display_name": "Katedrálská-Oblouková Židle",
+					"description": "Nóbl, jako zbožnost."
 				}
 			},
 			"arch_backed_chair_fine": {
 				"arch_backed_chair_fine_ghost": {
 					"display_name": "Fine Cathedral-Arch Chair",
-					"description": "Classy like piety."
+					"description": "Nóbl, jako zbožnost."
 				}
 			},
 			"amberstone_bed": {
 				"amberstone_bed_ghost": {
-					"display_name": "Woven Bed",
+					"display_name": "Tkaná Postel",
 					"description": "Tak měkká!!"
 				}
 			},
@@ -13042,7 +13042,7 @@
 			"tombstone": {
 				"tombstone_ghost": {
 					"display_name": "R.I.P. [str(self.stonehearth:unit_info.custom_name)]",
-					"description": "[str(self.stonehearth:unit_info.custom_name)] will always be remembered."
+					"description": "[str(self.stonehearth:unit_info.custom_name)] nikdy nezapomeneme."
 				},
 				"tombstone": {
 					"display_name": "Náhrobek",
@@ -13075,8 +13075,8 @@
 			},
 			"amberstone_chair": {
 				"amberstone_chair_ghost": {
-					"display_name": "Woven Seat",
-					"description": "Woven in the style of clan Amberstone"
+					"display_name": "Tkané Sedadlo",
+					"description": "Tkané ve stylu Jantarového klanu"
 				}
 			},
 			"simple_clay_chair": {
@@ -13169,7 +13169,7 @@
 			"wooden_chair": {
 				"wooden_chair_ghost": {
 					"display_name": "Dřevěná Židle",
-					"description": "For a little more class while sitting."
+					"description": "Pro ještě více třídy při sezení."
 				}
 			},
 			"ornate_wooden_chair": {
@@ -13181,7 +13181,7 @@
 			"stone_bed": {
 				"stone_bed_ghost": {
 					"display_name": "Kamenná postel",
-					"description": "Some stone and hay to sleep on"
+					"description": "Trocha kamení a slámy na spaní"
 				}
 			}
 		},
@@ -13245,7 +13245,7 @@
 				"town_banner_guardian_ghost": {
 					"display_name": "Prapor Mazanosti",
 					"description": "Jak víš, že jsi přišel domů.",
-					"town_bonus_description": "<i>This settlement will be a bustling hub of trade.</i><ul><li>Roads give 3x their normal speed boost</li><li>Your items sell for 50% more</li><li>Traders will bring 2x the goods and Gold</li></ul>"
+					"town_bonus_description": "<i>Tahle osada bude rušný obchodní rozcestník.</i><ul><li>Stezky dávají 3x jejich normálního rychlostního boostu</li><li>Tvé předměty se prodají o 50% více</li><li>Obchodníci přinesou 2x více zboží a Zlata</li></ul>"
 				},
 				"town_banner_guardian_token_iconic": {
 					"display_name": "Odstřižek Praporu Mazanosti",
@@ -13256,7 +13256,7 @@
 				"town_banner_might_ghost": {
 					"display_name": "Prapor Síly",
 					"description": "Jak víš, že jsi přišel domů",
-					"town_bonus_description": "<i>This settlement will grow strong through earth and steel.</i><ul><li>Mining gives 50% more Ore, Stone, and Clay</li><li>Hearthlings no longer mind cramped spaces</li></ul>"
+					"town_bonus_description": "<i>Tahle osada bude růst skrze zemi a ocel.</i><ul><li>Kutání dá o 50% více Rud, Kamení, a Jílu</li><li>Hearthlingům více nevadí stísněné prostory</li></ul>"
 				},
 				"town_banner_might_token_iconic": {
 					"display_name": "Odstřižek Praporu Síly",
@@ -13267,7 +13267,7 @@
 				"town_banner_nature_ghost": {
 					"display_name": "Prapor Vitality",
 					"description": "Jak víš, že jsi přišel domů",
-					"town_bonus_description": "<i>This settlement shall be at one with the environment.</i><ul><li>Trees produce 25% more Wood</li><li>Plants and Crops both grow 25% faster</li><li>Plants have 2x their normal Appeal</li></ul>"
+					"town_bonus_description": "<i>Tahle osada b mĚla být v souzní s přírodou.</i><ul><li>Stromy produkují 25% více Dřeva</li><li>Obě Rostliny a Plodiny rostou o 25% rychleji</li><li>Rostliny mají 2x jejich normální Přitažlivosti</li></ul>"
 				},
 				"town_banner_nature_token_iconic": {
 					"display_name": "Odstřižek Praporu Vitality",
@@ -13328,8 +13328,8 @@
 			},
 			"keystone_pedestal": {
 				"keystone_pedestal_ghost": {
-					"display_name": "Amberstone Pedestal",
-					"description": "A pedestal with an Amberstone on top, necessary for Amberstone homes."
+					"display_name": "Postavec Jantarového Kamene",
+					"description": "Podstavec s Jantarovým Kamenem na vršku, nezbytný pro domovy Jantarového Kamene."
 				}
 			}
 		},
@@ -13364,11 +13364,11 @@
 				},
 				"little_stone_golem": {
 					"display_name": "Stoneling",
-					"description": "He's just a pebble!"
+					"description": "Je pouze oblázek!"
 				},
 				"alligator": {
 					"display_name": "Varanus",
-					"description": "And this is the smaller variety..."
+					"description": "A tohle je jenom malá odrůda..."
 				},
 				"wolf": {
 					"display_name": "Feral Wolf",
@@ -13376,11 +13376,11 @@
 				},
 				"zilla": {
 					"display_name": "Zilla",
-					"description": "The ground rumbles when Zilla comes around."
+					"description": "Země rachotí, když Zilla prochází kolem"
 				},
 				"cougar": {
 					"display_name": "Puma",
-					"description": "A large, graceful cat.  It's a meat eating hunter.",
+					"description": "Velká, půvabná kočka.  Je to maso pojídající lovec.",
 					"species": "puma"
 				},
 				"jacko": {
@@ -13412,12 +13412,12 @@
 				},
 				"goblin_boss_hut": {
 					"display_name": "Šéfova Chatrč",
-					"description": "Dirty white, like the color of winter."
+					"description": "Špinavě bílá, jako barva zimy."
 				},
 				"goblin_chief_hut": {
 					"goblin_tent": {
 						"display_name": "Gobliní Stan",
-						"description": "Made from crudely-sewn animal hides"
+						"description": "Udělán z hrubě-sešitých zvířecích kůží"
 					}
 				},
 				"goblin_flute": {
@@ -13583,7 +13583,7 @@
 			"mammoth": {
 				"mammoth": {
 					"display_name": "Mamut",
-					"description": "Large Woolie Beastie"
+					"description": "Velká Vlněná Bestie"
 				}
 			},
 			"evil": {
@@ -13599,8 +13599,8 @@
 					"species": "pštros",
 					"egg": {
 						"ostrich_egg_fertilized": {
-							"display_name": "Fertilized Ostrich Egg",
-							"description": "Is it hatching yet?"
+							"display_name": "Oplodněné Pštrosí Vejce",
+							"description": "Už se to líhne?"
 						}
 					}
 				},
@@ -13611,7 +13611,7 @@
 					"egg": {
 						"duckduck_egg_fertilized": {
 							"display_name": "Fertilized Duckduck Egg",
-							"description": "Is it hatching yet?"
+							"description": "Už se to líhne?"
 						}
 					}
 				},
@@ -13761,7 +13761,7 @@
 				},
 				"stem": {
 					"berry_bush_plant_stem": {
-						"display_name": "Stemming Berry Bush",
+						"display_name": "Pramenící Bobulový Keř",
 						"description": "Stále roste!"
 					}
 				}
@@ -13782,7 +13782,7 @@
 				},
 				"stem": {
 					"brightbell_plant_stem": {
-						"display_name": "Wild Brightbell Stemming Plant",
+						"display_name": "Pramenící Rostlina Divokého Světlozvonu",
 						"description": "Stále roste!"
 					},
 					"brightbell_plant_bud": {
@@ -13832,7 +13832,7 @@
 				},
 				"stem": {
 					"carrot_plant_stem": {
-						"display_name": "Stemming Carrot",
+						"display_name": "Pramenící Mrkev",
 						"description": "Stále roste!"
 					}
 				},
@@ -13857,7 +13857,7 @@
 				},
 				"stem": {
 					"frostsnap_plant_stem": {
-						"display_name": "Wild Frostsnap Stemming Plant",
+						"display_name": "Pramenící Rostlina Divoké Mrazenky",
 						"description": "Stále roste!"
 					},
 					"frostsnap_plant_bud": {
@@ -13898,7 +13898,7 @@
 				},
 				"stem": {
 					"silkweed_stem": {
-						"display_name": "Stemming Silkweed",
+						"display_name": "Pramenící Hebkotrav",
 						"description": "Stále roste!"
 					}
 				}
@@ -13951,7 +13951,7 @@
 				},
 				"stem": {
 					"cactus_plant_plant_stem": {
-						"display_name": "Stemming Wild Cactus",
+						"display_name": "Pramenící Divoký Kaktus",
 						"description": "Stále roste!"
 					}
 				}
@@ -14012,7 +14012,7 @@
 				},
 				"stem": {
 					"pear_cactus_plant_stem": {
-						"display_name": "Stemming Pear Cactus",
+						"display_name": "Pramenící Opuncie",
 						"description": "Stále roste!"
 					}
 				}
@@ -14046,7 +14046,7 @@
 				},
 				"stem": {
 					"foxlily_plant_plant_stem": {
-						"display_name": "Stemming Foxlily Plant",
+						"display_name": "Pramenící Liščí Lilie",
 						"description": "Stále roste!"
 					}
 				}
@@ -14064,7 +14064,7 @@
 				},
 				"stem": {
 					"sunflower_plant_plant_stem": {
-						"display_name": "Stemming Sunflower Plant",
+						"display_name": "Pramenící Rostlina Slunečnice",
 						"description": "Stále roste!"
 					}
 				},
@@ -14119,7 +14119,7 @@
 				},
 				"stem": {
 					"sugarbell_plant_stem": {
-						"display_name": "Stemming Sugarbell",
+						"display_name": "Pramenící Cukrozvonek",
 						"description": "Stále roste!"
 					}
 				}
@@ -14132,7 +14132,7 @@
 				"unripe_description": "Tato rostlina byla sesbírána a zatím ještě nedorostla zpátky",
 				"stem": {
 					"cactus_tulip_red_plant_stem": {
-						"display_name": "Stemming Tulip Cactus Plant",
+						"display_name": "Pramenící Rostlina Tulipánu Kaktusu",
 						"description": "Stále roste!"
 					}
 				},
@@ -14162,7 +14162,7 @@
 			"cactus_tulip_blue_plant": {
 				"stem": {
 					"cactus_tulip_blue_plant_stem": {
-						"display_name": "Stemming Tulip Cactus Plant",
+						"display_name": "Pramenící Rostlina Tulipánu Kaktusu",
 						"description": "Stále roste!"
 					}
 				},
@@ -14198,7 +14198,7 @@
 				"yellow": {
 					"stem": {
 						"cactus_tulip_yellow_plant_stem": {
-							"display_name": "Stemming Tulip Cactus Plant",
+							"display_name": "Pramenící Rostlina Tulipánu Kaktusu",
 							"description": "Stále roste!"
 						}
 					},
@@ -14262,7 +14262,7 @@
 				},
 				"stem": {
 					"wax_plant_purple_plant_stem": {
-						"display_name": "Stemming Purple Wax Plant",
+						"display_name": "Pramenící Fialová Vosková Rostlina",
 						"description": "Stále roste!"
 					}
 				}
@@ -14296,7 +14296,7 @@
 				},
 				"stem": {
 					"wax_plant_green_plant_stem": {
-						"display_name": "Stemming Green Wax Plant",
+						"display_name": "Pramenící Zelená Vosková Rostlina",
 						"description": "Stále roste!"
 					}
 				}
@@ -14332,7 +14332,7 @@
 				},
 				"stem": {
 					"sweet_potato_plant_stem": {
-						"display_name": "Stemming Sweet Potato",
+						"display_name": "Pramenící Sladká Brambora",
 						"description": "Stále roste!"
 					}
 				}
@@ -14340,7 +14340,7 @@
 			"snow_poppy_plant": {
 				"stem": {
 					"snow_poppy_plant_stem": {
-						"display_name": "Stemming Snow Poppy",
+						"display_name": "Pramenící Sněžný Mák",
 						"description": "Stále roste!"
 					}
 				},
@@ -14375,7 +14375,7 @@
 			"gold_snow_poppy_plant": {
 				"stem": {
 					"gold_snow_poppy_plant_stem": {
-						"display_name": "Stemming Snow Poppy",
+						"display_name": "Pramenící Sněžný Mák",
 						"description": "Stále roste!"
 					}
 				},
@@ -14424,11 +14424,11 @@
 				"seed": {
 					"violet_plant_seed": {
 						"display_name": "Semínko Fialky",
-						"description": "Once planted, it will grow purple flowers"
+						"description": "Když je zasazena, vyroste do fialových květů"
 					},
 					"violet_plant_seed_ghost": {
 						"display_name": "Semínko Fialky",
-						"description": "Once planted, it will grow purple flowers"
+						"description": "Když je zasazena, vyroste do fialových květů"
 					}
 				},
 				"sprout": {
@@ -14439,7 +14439,7 @@
 				},
 				"stem": {
 					"violet_plant_stem": {
-						"display_name": "Stemming violet",
+						"display_name": "Pramenící fialka",
 						"description": "Stále roste!"
 					}
 				}
@@ -14588,12 +14588,12 @@
 				"description": "Used to craft intermediate gadgetry"
 			},
 			"silver_bowstring": {
-				"display_name": "Silver Bowstring",
-				"description": "A spool of strong, spun silver cord."
+				"display_name": "Stříbrná Tětiva",
+				"description": "Cívka silné, stříbrem předené šňůry"
 			},
 			"woven_grip": {
-				"display_name": "Woven Grip",
-				"description": "Tightly wrapped with cords of blue and gold"
+				"display_name": "Tkaná Rukojeť",
+				"description": "Těsně zabalená ve šňůrách modré a zlaté"
 			},
 			"blazing_inlay": {
 				"display_name": "Blazing Inlay",
@@ -14612,12 +14612,12 @@
 				"description": "Kolečka Královského Luku"
 			},
 			"lucid_gem": {
-				"display_name": "Lucid Gem",
-				"description": "A spiritual focus, essential for the Shining Circlet."
+				"display_name": "Průhledný Drahokam",
+				"description": "Spirituální fokus, nezbytný pro Zářící Čelenku."
 			},
 			"shining_setting": {
-				"display_name": "Silverleaf Setting",
-				"description": "Delicately frames and protects the Shining Circlet"
+				"display_name": "Základna Stříbrného Listu",
+				"description": "Delikátně lemuje a chrání Zářící Čelenku"
 			},
 			"golem_backpack": {
 				"display_name": "Golemský Batoh",
@@ -14663,7 +14663,7 @@
 					"description": "Spinnable into thread"
 				},
 				"heirbloom_bundle": {
-					"display_name": "Heirbloom Stalks",
+					"display_name": "Stébla Dědicokvětu",
 					"description": "An Amberstone favorite. Spinnable into thread."
 				},
 				"coarse_fiber_bundle_winter": {
@@ -15310,7 +15310,7 @@
 				},
 				"stem": {
 					"tree_oak_plant_stem": {
-						"display_name": "Stemming Oak Tree",
+						"display_name": "Pramenící Strom Dubu",
 						"description": "Stále roste!"
 					}
 				},
@@ -15557,7 +15557,7 @@
 			},
 			"bow_valor": {
 				"display_name": "Královský Luk",
-				"description": "Swiftest bow in the Ascendancy"
+				"description": "Nejrychlejší luk ve Vznešeném Království"
 			},
 			"corruption_beam": {
 				"display_name": "Corruption Beam",
@@ -15671,11 +15671,11 @@
 					}
 				},
 				"heirbloom_seeds": {
-					"display_name": "Heirbloom Seeds",
-					"description": "Learn to grow heirblooms",
+					"display_name": "Semínka Dědicokvětu",
+					"description": "Nauč se pěstovat Dědicokvěty",
 					"heirbloom_seeds_ghost": {
-						"display_name": "Heirbloom Seeds",
-						"description": "Learn to grow heirblooms"
+						"display_name": "Semínka Dědicokvětu",
+						"description": "Nauč se pěstovat Dědicokvěty"
 					}
 				}
 			}
@@ -16200,7 +16200,7 @@
 				"gold_ingot_recipe": {
 					"description": "Prut čistého zlata. Vhodný materiál pro vytvořené zboží.",
 					"recipe_name": "Zlatý Ingot",
-					"flavor": "The most expensive bludgeon ever."
+					"flavor": "Nejdražší klacek vůbec."
 				},
 				"iron_ingot_recipe": {
 					"description": "Prut čistého Železa. Vhodný materiál pro vytvořené zboží.",
@@ -16949,9 +16949,9 @@
 					"flavor": "Steel plated and solid as the mountainside"
 				},
 				"bow_valor_recipe": {
-					"description": "Swiftest bow in the Ascendancy",
+					"description": "Nejrychlejší luk ve Vznešeném Království",
 					"recipe_name": "Královský Luk",
-					"flavor": "Grants its wielder the mechanical edge to fire arrows in blinding flights"
+					"flavor": "Dává nositeli mechanickou hranu střílet šípy v oslepujícím letu "
 				},
 				"anti_titan_ward_recipe": {
 					"description": "Zraňuje cokoliv poblíž co smrdí jako titán.",
@@ -17366,7 +17366,7 @@
 				"mechanism_recipe": {
 					"description": "Kolečka Královského Luku",
 					"recipe_name": "Fénixův Mechanizmus",
-					"flavor": "A clever rotational mechanism that adds speed, power, and precision"
+					"flavor": "Chytrý otočný mechanizmus co přidává rychlost, sílu, a preciznost"
 				}
 			},
 			"engineer_buffs": {
@@ -17859,7 +17859,7 @@
 				},
 				"stone_brazier_recipe": {
 					"description": "A small firepit that provides comfort and warmth at night.",
-					"recipe_name": "Stone Brazier",
+					"recipe_name": "Kamenné Ohniště",
 					"flavor": "Warning: Do not drop anything in while it's lit."
 				},
 				"stone_bricks_recipe": {
@@ -17883,37 +17883,37 @@
 					"flavor": "Only slightly ominous looking."
 				},
 				"stone_maul_recipe": {
-					"description": "The perfect tool for bludgeoning",
+					"description": "Perfektní nástroj pro tlučení",
 					"recipe_name": "Kamenný Kyj",
-					"flavor": "A modern adaptation of an ancient weapon."
+					"flavor": "Moderní adaptace starobylé zbraně."
 				},
 				"stone_table_recipe": {
-					"description": "Its considerable weight gives it a sense of gravitas. For serious business only.",
+					"description": "Jeho značná hmotnost mu dává pocit gravitace. Pouze pro seriózní jednání.",
 					"recipe_name": "Kamenný Stůl",
-					"flavor": "No lions were harmed in its construction."
+					"flavor": "Žádní lvy nebyli zraněni při jeho stavění."
 				},
 				"stone_wall_lantern_recipe": {
-					"description": "Attaches to the walls of buildings, providing light",
+					"description": "Připíná se na stěny budov, poskytuje světlo",
 					"recipe_name": "Kamenná Nástěnná Lampa",
 					"flavor": "Zápory: Těžká. Klady: Nepravděpodobné, že by se spálila."
 				},
 				"tower_brazier_recipe": {
 					"description": "Fashioned after a castle tower, it provides a strong beacon at night.",
-					"recipe_name": "Tower Brazier",
-					"flavor": "Great for lining garden paths and intimidating guests."
+					"recipe_name": "Zahradní Ohniště",
+					"flavor": "Skvělá pro lemování zahradních cestiček a zastrašování hostů."
 				},
 				"mason_workbench_recipe": {
-					"description": "Required to produce most of the Mason's recipes.",
+					"description": "Vyžadováno na produkci většiny receptů Kameníka.",
 					"recipe_name": "Kamenický Pracovní Stůl",
 					"flavor": "Tappety-tap; Make the earth sing, Raise Brelor's ghost, Watch the mountain take wing."
 				},
 				"mason_pedestal_amberstone_recipe": {
-					"description": "Rabbit mason approved",
+					"description": "Schváleno Králičím kameníkem",
 					"recipe_name": "Podstavec Jantarového Kameníka",
-					"flavor": "The skill of the mason can be read from the quality of their worktable"
+					"flavor": "Zručnost kameníka se dá číst dle kvality jejich pracovného stolu"
 				},
 				"mason_pedestal_recipe": {
-					"description": "A well lit place for creating stone artwork.",
+					"description": "Dobře osvětlené místo pro vytváření kamenných uměleckých děl.",
 					"recipe_name": "Kameníkův Podstavec",
 					"flavor": "Snap and spark, hiss of coal, light the way, transmute the earth whole."
 				},
@@ -18070,13 +18070,13 @@
 				},
 				"valor_brazier_large_recipe": {
 					"description": "A beacon of light to protect your town.",
-					"recipe_name": "Large Brazier",
+					"recipe_name": "Velké Ohniště",
 					"flavor": "From a tall mountaintop, you can see fires like these all across the Darkmoor."
 				},
 				"lucid_gem_recipe": {
-					"description": "A spiritual focus, essential for the Shining Circlet",
-					"recipe_name": "Lucid Gem",
-					"flavor": "What mysteries hide inside its tranquil blue eye?"
+					"description": "Spirituální fokus, nezbytný pro Zářivou Čelenku.",
+					"recipe_name": "Průhledný Drahokam",
+					"flavor": "Jaká tajemství se skrývají uvnitř jeho klidného modrého oka?"
 				},
 				"giants_shield_recipe": {
 					"description": "Nejhrdější štít ve Vznešeném Království",
@@ -18882,18 +18882,18 @@
 					"recipe_name": "Červený Tkaný Zásobovací Košík"
 				},
 				"silver_bowstring_recipe": {
-					"description": "A spool of strong, spun silver cord",
-					"recipe_name": "Silver-Spun Bowstring",
-					"flavor": "Joins the ends of the Empire Bow"
+					"description": "Cívka silné, stříbrem předené šňůry",
+					"recipe_name": "Stříbrem-Předená Tětiva",
+					"flavor": "Spájí konce Královského Luku"
 				},
 				"woven_grip_recipe": {
-					"description": "Tightly wrapped in cords of blue and gold",
+					"description": "Těsně zabalená ve šňůrách modré a zlaté",
 					"recipe_name": "Tkaná Rukojeť",
 					"flavor": "Adorns the hilt of the Emblazoned Sword"
 				},
 				"golem_backpack_recipe": {
-					"description": "Used by the Geomancer to craft Ox Golems",
-					"recipe_name": "Golem Backpack"
+					"description": "Užito Geomancerem k výrobě Vůlčích Golemů",
+					"recipe_name": "Golemský Batoh"
 				}
 			},
 			"weaver_loom": {
@@ -19192,9 +19192,9 @@
 					"flavor": "Redblooms are for luck. An odd number of petals is especially lucky, though no one's ever seen such a blossom."
 				},
 				"leaf_setting_recipe": {
-					"description": "Delicately frames and protects the Shining Circlet",
-					"recipe_name": "Silverleaf Setting",
-					"flavor": "Cast from actual leaves in layers of silver and gold, they're stronger than they look"
+					"description": "Delikátně lemuje a chrání Zářící Čelenku",
+					"recipe_name": "Základna Stříbrného Listu",
+					"flavor": "Odlévané ze skutečných listů ve vrstvách stříbra a zlata, jsou silnější, než vypadají"
 				},
 				"violet_transmute_recipe": {
 					"description": "Očesat semínka z květu",
